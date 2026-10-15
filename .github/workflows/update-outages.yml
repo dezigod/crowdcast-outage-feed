@@ -1,0 +1,44 @@
+name: Update reviewed outage feed
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '2-57/5 * * * *'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: reviewed-outage-collection
+  cancel-in-progress: false
+
+jobs:
+  collect:
+    if: github.repository == 'dezigod/crowdcast-outage-feed' && github.ref == 'refs/heads/main' && vars.COLLECTION_ENABLED == 'true'
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+        with:
+          persist-credentials: false
+      - name: Collect and publish reviewed JSON
+        env:
+          GH_TOKEN: ${{ github.token }}
+          WAPA_COLLECTION_PERMISSION: ${{ secrets.WAPA_COLLECTION_PERMISSION }}
+        shell: bash
+        run: |
+          python3 - <<'PY'
+          import os
+          from pathlib import Path
+          import sys
+          from outage_backend.github_delivery import main
+          path = Path(os.environ['RUNNER_TEMP']) / 'wapa-permission.json'
+          descriptor = os.open(path, os.O_WRONLY | os.O_CREAT | os.O_EXCL, 0o600)
+          try:
+              with os.fdopen(descriptor, 'w') as stream:
+                  stream.write(os.environ.pop('WAPA_COLLECTION_PERMISSION', ''))
+              sys.argv = ['github_delivery', '--permission', str(path)]
+              main()
+          finally:
+              path.unlink(missing_ok=True)
+          PY
