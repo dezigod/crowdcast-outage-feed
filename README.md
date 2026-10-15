@@ -24,6 +24,9 @@ does not reconfigure or reinstall an already-installed iPhone build.
 - GitHub can delay or drop scheduled runs. This is periodic delivery, not an
   instant or guaranteed-availability outage service. Public scheduled workflows
   may be disabled after 60 days without repository activity.
+- GitHub's raw-file delivery also caches responses (observed `max-age=300`).
+  Source checks, delivery caching and the app's refresh interval can add delay;
+  do not promise that a source change appears on the phone within five minutes.
 - Source snapshots over 15 minutes old must be labeled as earlier updates.
   A new check or download never changes the source publication timestamp.
 - Standard GitHub-hosted Ubuntu runners are used, without caches or artifacts.
