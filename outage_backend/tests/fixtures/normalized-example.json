@@ -1,0 +1,62 @@
+{
+  "schemaVersion": 1,
+  "snapshotID": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+  "collectionStatus": "ok",
+  "lastCollectionError": null,
+  "source": {
+    "name": "WAPA outage viewer",
+    "url": "http://outageviewer.viwapa.vi:7575/",
+    "checkedAt": "2026-10-15T16:00:00Z",
+    "updatedAt": "2026-10-15T15:59:00Z",
+    "viewerRefreshSeconds": 300
+  },
+  "generatedAt": "2026-10-15T16:00:00Z",
+  "refreshAfterSeconds": 300,
+  "staleAfterSeconds": 900,
+  "islands": [
+    {
+      "id": "stThomas",
+      "coverage": "complete",
+      "customersOut": 5,
+      "neighborhoods": [
+        {
+          "id": "stThomas-agnes-fancy",
+          "island": "stThomas",
+          "name": "Agnes Fancy",
+          "locations": [
+            "5-A",
+            "5B"
+          ],
+          "sourceStatus": "Predicted",
+          "startedAt": "2026-10-15T14:00:00Z",
+          "estimatedRestoration": null,
+          "affectedCustomers": 5,
+          "sourceEventIDs": [
+            "7692c3ad3540bb803c020b3aee66cd8887123234ea0c6e7143c0add73ff431ed"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "stCroix",
+      "coverage": "complete",
+      "customersOut": 0,
+      "neighborhoods": []
+    },
+    {
+      "id": "stJohn",
+      "coverage": "complete",
+      "customersOut": 0,
+      "neighborhoods": []
+    },
+    {
+      "id": "waterIsland",
+      "coverage": "complete",
+      "customersOut": 0,
+      "neighborhoods": []
+    }
+  ],
+  "unassignedEventCount": 0,
+  "hasConflictingTotals": false,
+  "qualityNotes": []
+}

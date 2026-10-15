@@ -1,0 +1,19 @@
+{
+  "basis": "Island assignments supplied by the project owner in the WAPA handoff. New names require review; no name, feeder or coordinate guessing.",
+  "areas": [
+    {"id":"agnes-fancy","island":"stThomas","name":"Agnes Fancy","aliases":["AGNES FANCY"]},
+    {"id":"subbase","island":"stThomas","name":"Subbase","aliases":["SUBBASE"]},
+    {"id":"peterborg","island":"stThomas","name":"Peterborg","aliases":["PETERBORG"]},
+    {"id":"st-peter","island":"stThomas","name":"Estate St. Peter","aliases":["ST PETER","ST. PETER","EST. ST.PETER","8B EST. ST.PETER"]},
+    {"id":"coble","island":"stCroix","name":"Coble / Coble Village","aliases":["COBLE VILLAGE","COBLE"]},
+    {"id":"jealousy","island":"stCroix","name":"Estate Jealousy","aliases":["ESTATE JEALOUSY","JEALOUSY"]},
+    {"id":"judiths-fancy","island":"stCroix","name":"Judith’s Fancy","aliases":["JUDITH'S FANCY","JUDITHS FANCY"]},
+    {"id":"pump-garden","island":"stCroix","name":"Pompano / Pump Garden","aliases":["PMP GARDEN","POMPANO GARDEN","PUMP GARDEN"]},
+    {"id":"sion-hill","island":"stCroix","name":"Sion Hill","aliases":["SION HILL"]},
+    {"id":"vicorp-land","island":"stCroix","name":"Vicorp Land","aliases":["VICORP LAND"]},
+    {"id":"water-island","island":"waterIsland","name":"Water Island","aliases":["WATER ISLAND"]},
+    {"id":"la-grange","island":"stCroix","name":"La Grange","aliases":["LA GRANGE"],"evidence":"https://www.viwapa.vi/news-information/press-releases/press-release-details/2026/08/06/feeder-8b-outage-scheduled-tonight-to-facilitate-water-main-repairs"},
+    {"id":"solitude","island":"stCroix","name":"Solitude","aliases":["SOLITUDE"],"evidence":"https://lightspeed.viwapa.vi/news-information/press-releases/press-release-details/2025/12/04/saturday-electrical-interruption-scheduled-for-feeders-1a-and-2a-on-st.-croix"},
+    {"id":"lovenlund","island":"stThomas","name":"Lovenlund","aliases":["LOVENLUND"],"evidence":"https://www.viwapa.vi/news-information/press-releases/press-release-details/2025/09/04/wapa-announces-planned-electrical-service-interruption-on-feeder-8a-and-8b"}
+  ]
+}
