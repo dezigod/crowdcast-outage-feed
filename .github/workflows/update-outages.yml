@@ -1,9 +1,10 @@
 name: Update reviewed outage feed
+run-name: WAPA outage check (${{ github.event_name }})
 
 on:
   workflow_dispatch:
   schedule:
-    - cron: '2-57/5 * * * *'
+    - cron: '2,7,12,17,22,27,32,37,42,47,52,57 * * * *'
 
 permissions:
   contents: write

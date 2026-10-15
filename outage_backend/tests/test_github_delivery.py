@@ -156,10 +156,20 @@ class GitHubDeliveryTests(unittest.TestCase):
     def test_scheduled_workflow_has_gates_no_cache_no_raw_artifacts_no_phone_secrets(self):
         root = Path(__file__).resolve().parents[2]
         text = (root/'.github/workflows/update-outages.yml').read_text()
-        for expected in ["2-57/5", "COLLECTION_ENABLED == 'true'", "persist-credentials: false", 'cancel-in-progress: false', 'contents: write', 'ubuntu-latest']:
+        for expected in ["COLLECTION_ENABLED == 'true'", "persist-credentials: false", 'cancel-in-progress: false', 'contents: write', 'ubuntu-latest']:
             self.assertIn(expected, text)
         for forbidden in ['pull_request_target', 'actions/cache', 'upload-artifact', 'macos-', 'self-hosted']:
             self.assertNotIn(forbidden, text)
+
+    def test_explicit_schedule_requests_every_five_minutes_on_github(self):
+        root = Path(__file__).resolve().parents[2]
+        text = (root/'.github/workflows/update-outages.yml').read_text()
+        expression = text.split("cron: '", 1)[1].split("'", 1)[0]
+        minute, hour, day, month, weekday = expression.split()
+        slots = [int(value) for value in minute.split(',')]
+        self.assertEqual(slots, list(range(2, 60, 5)))
+        self.assertTrue(all(value == '*' for value in [hour, day, month, weekday]))
+        self.assertIn('run-name: WAPA outage check (${{ github.event_name }})', text)
 
 
 if __name__ == '__main__': unittest.main()
