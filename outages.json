@@ -1,6 +1,6 @@
 {
-  "collectionStatus": "failed",
-  "generatedAt": "2026-10-16T23:30:28Z",
+  "collectionStatus": "ok",
+  "generatedAt": "2026-10-16T23:40:28Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -128,7 +128,7 @@
           "sourceEventIDs": [
             "0062858843e101845aa56f395c6b1bdf0232b270e5039a86b7f0d93b2d086569",
             "688d24f7b6e72cb60f9dd7cfcfc315b9ee0efe7095b9fbf192b7ed84c8031d54",
-            "a5f57269a86a029275670af10a4b0b9fd1c50f8ec54a2172fb3c83166f635b4c"
+            "7201c114f6e5d00715c69e6e5f99589452f6ae2f1dca87c300114501b7e31e80"
           ],
           "sourceStatus": "Unconfirmed",
           "startedAt": null
@@ -407,7 +407,7 @@
           ],
           "name": "Lovenlund",
           "sourceEventIDs": [
-            "a5f57269a86a029275670af10a4b0b9fd1c50f8ec54a2172fb3c83166f635b4c",
+            "7201c114f6e5d00715c69e6e5f99589452f6ae2f1dca87c300114501b7e31e80",
             "ba4e16e55ce921b13c42e3bd7ce0554bc7d8eada1cc3e34ffb03022bc3831257",
             "d4ba5c1dc11d3a3f48a6f76765d229176d34b8f4b3a672cbaaf2aa68c1602347"
           ],
@@ -575,10 +575,10 @@
           ],
           "name": "Peterborg",
           "sourceEventIDs": [
-            "a5f57269a86a029275670af10a4b0b9fd1c50f8ec54a2172fb3c83166f635b4c"
+            "7201c114f6e5d00715c69e6e5f99589452f6ae2f1dca87c300114501b7e31e80"
           ],
           "sourceStatus": "Verified",
-          "startedAt": "2026-10-16T20:05:48Z"
+          "startedAt": "2026-10-16T21:57:33Z"
         },
         {
           "affectedCustomers": null,
@@ -713,21 +713,21 @@
       ]
     }
   ],
-  "lastCollectionError": "Source update incomplete",
+  "lastCollectionError": null,
   "qualityNotes": [
     "Some source events need island review. Island totals and empty listings may be incomplete.",
     "WAPA\u2019s summary and event customer totals disagree. Customer totals are unconfirmed."
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "56c25683406725067243976b3654577d8e92f724920be346237672b9b0045201",
+  "snapshotID": "4f8aa5ac312477a06c65492e388a56261f794a5eaeef8e5db0979d4e3fbd95f0",
   "source": {
-    "checkedAt": "2026-10-16T23:30:28Z",
+    "checkedAt": "2026-10-16T23:40:28Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-10-16T23:27:29Z",
+    "updatedAt": "2026-10-16T23:37:29Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "staleAfterSeconds": 900,
-  "unassignedEventCount": 17
+  "unassignedEventCount": 18
 }
