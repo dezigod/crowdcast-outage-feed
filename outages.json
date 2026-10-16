@@ -1,6 +1,6 @@
 {
-  "collectionStatus": "failed",
-  "generatedAt": "2026-10-16T15:00:29Z",
+  "collectionStatus": "ok",
+  "generatedAt": "2026-10-16T15:10:28Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -48,7 +48,32 @@
       "coverage": "partial",
       "customersOut": null,
       "id": "stCroix",
-      "neighborhoods": []
+      "neighborhoods": [
+        {
+          "affectedCustomers": null,
+          "estimatedRestoration": null,
+          "id": "stCroix-judiths-fancy",
+          "island": "stCroix",
+          "locations": [
+            "64",
+            "66",
+            "66 (G HSE)",
+            "67",
+            "79",
+            "81",
+            "81 (COTT)",
+            "82",
+            "83",
+            "88"
+          ],
+          "name": "Judith\u2019s Fancy",
+          "sourceEventIDs": [
+            "2854eabdd50d8644c60ff1797ecc983dc5235b6e02837c3d850fecb3bac77a09"
+          ],
+          "sourceStatus": "Predicted",
+          "startedAt": "2026-10-16T14:57:59Z"
+        }
+      ]
     },
     {
       "coverage": "partial",
@@ -80,18 +105,18 @@
       ]
     }
   ],
-  "lastCollectionError": "Source update incomplete",
+  "lastCollectionError": null,
   "qualityNotes": [
     "Some source events need island review. Island totals and empty listings may be incomplete.",
     "WAPA\u2019s summary and event customer totals disagree. Customer totals are unconfirmed."
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "1fa132681c875ffbb955e00382a2987d846772e027523cadc5ff1b9af130ed4d",
+  "snapshotID": "babdccaae476a176ab3290c2b0f002bc686536f2310f52467657644d7a836f5b",
   "source": {
-    "checkedAt": "2026-10-16T15:00:29Z",
+    "checkedAt": "2026-10-16T15:10:28Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-10-16T14:57:16Z",
+    "updatedAt": "2026-10-16T15:07:17Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
