@@ -1,6 +1,6 @@
 {
-  "collectionStatus": "failed",
-  "generatedAt": "2026-10-17T03:25:28Z",
+  "collectionStatus": "ok",
+  "generatedAt": "2026-10-17T03:35:26Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -36,6 +36,50 @@
           "sourceEventIDs": [
             "688d24f7b6e72cb60f9dd7cfcfc315b9ee0efe7095b9fbf192b7ed84c8031d54",
             "d857688b3ce193a80429535887f6fb1825acec1d8ebfa63c042067b7890cfec4"
+          ],
+          "sourceStatus": "Predicted",
+          "startedAt": null
+        },
+        {
+          "affectedCustomers": null,
+          "estimatedRestoration": null,
+          "id": "stThomas-st-peter",
+          "island": "stThomas",
+          "locations": [
+            "#15 & 16A",
+            "#15A & 16A",
+            "17-3",
+            "22B",
+            "23C",
+            "23C-2",
+            "31-18 HSE METER",
+            "31-19 & 31-18",
+            "31-22 NORTH STAR",
+            "31-22 NORTHSTAR",
+            "3A-10",
+            "3A-10 (COTTAGE)",
+            "3A-2",
+            "3A-2 APT-1",
+            "3A-2 APT-3",
+            "3A-25",
+            "3A-26 MTR-1",
+            "3I-20 HIBIS LANE",
+            "8-2",
+            "8-3",
+            "9",
+            "9D",
+            "9D UPSTAIRS",
+            "DOWN",
+            "HULL BAY RD 16"
+          ],
+          "name": "Estate St. Peter",
+          "sourceEventIDs": [
+            "25e88c42ae4c113c19fee7405d1a860bfaf7e6cf00b0f9daf4a37265b3f6a9fa",
+            "679586c608922b633a3287fc78a802525c430108204c62659290982c8a6eeb7c",
+            "75f033d37ccd883b22d6c1f152aa9f18f7bf9ebac3ae9258e2607ef6239c8976",
+            "7d284aafdf17303408fa9063ac4a1dbb1afea33b99db2acbed061dec51802f73",
+            "903c5bde1f797ab45618cd27ab1cd8e1d7f6b2b4ea66676ef44e9df9b30c27bb",
+            "a61ca6ce74a3c782fad2087e1f916e8bb941b16c90038737d2eedeef997a5de5"
           ],
           "sourceStatus": "Predicted",
           "startedAt": null
@@ -150,6 +194,7 @@
             "MAHOGANY RUN",
             "PCL B-12",
             "PCL B-14",
+            "PCL D-12 L/41",
             "RM 214-215",
             "RM 500 B-43U",
             "SEWAGE",
@@ -159,10 +204,11 @@
           ],
           "name": "Lovenlund",
           "sourceEventIDs": [
+            "2979b533afcc588c0a21da8c8b9eafc20d5e4fb3d670f2019549360c20a61e3b",
             "fbbbf9f4cfc8501abe012c0586f08b32a06f49c1b31c7d0c8fcfdead9c3a376a"
           ],
           "sourceStatus": "Verified",
-          "startedAt": "2026-10-16T20:07:21Z"
+          "startedAt": null
         },
         {
           "affectedCustomers": null,
@@ -245,34 +291,72 @@
           "id": "waterIsland-water-island",
           "island": "waterIsland",
           "locations": [
+            "#148",
+            "#34",
+            "11",
+            "15",
+            "16-16A",
+            "17",
+            "18",
+            "20",
+            "20B-1",
+            "21",
+            "26-A",
+            "29",
+            "49",
+            "4B",
+            "50 DRUIF BAY",
+            "52",
+            "54",
+            "57",
+            "5A",
+            "60-1",
+            "69",
+            "8-1",
+            "LIME STONE",
+            "Lot ",
+            "Lot 10",
+            "Lot 2",
+            "Lot 24",
+            "Lot 34",
+            "Lot 36",
+            "Lot 37",
             "Lot 47",
-            "Lot 6"
+            "Lot 53",
+            "Lot 55",
+            "Lot 59",
+            "Lot 6",
+            "REM LOT-13",
+            "VILLA",
+            "VILLA 23"
           ],
           "name": "Water Island",
           "sourceEventIDs": [
-            "31b78318c32da0ac430dc4b60a61802b39375fac99e63cbfacd7d6e2b2112d36"
+            "31b78318c32da0ac430dc4b60a61802b39375fac99e63cbfacd7d6e2b2112d36",
+            "5f13be86e2949fecdb505f4ea2bd1871fe52b803751873a3165012f19bcd252e",
+            "d207e3831512639eb7481403ca7c55f56371b1f4ac880ed77cf53d7f74f0cc2c"
           ],
-          "sourceStatus": "Verified",
-          "startedAt": "2026-10-11T22:11:38Z"
+          "sourceStatus": "Unconfirmed",
+          "startedAt": null
         }
       ]
     }
   ],
-  "lastCollectionError": "Source update incomplete",
+  "lastCollectionError": null,
   "qualityNotes": [
     "Some source events need island review. Island totals and empty listings may be incomplete.",
     "WAPA\u2019s summary and event customer totals disagree. Customer totals are unconfirmed."
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "9f96f2ae62317357eba507e12b6feecade9291480ea5173a1ed1bda07e4c82ff",
+  "snapshotID": "a1ee6532160de009be3ec7613c6e067f9e1008b096cf26e7e0c8ce36be6c87b7",
   "source": {
-    "checkedAt": "2026-10-17T03:25:28Z",
+    "checkedAt": "2026-10-17T03:35:26Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-10-17T03:22:22Z",
+    "updatedAt": "2026-10-17T03:32:20Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "staleAfterSeconds": 900,
-  "unassignedEventCount": 18
+  "unassignedEventCount": 43
 }
