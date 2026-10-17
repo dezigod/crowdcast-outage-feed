@@ -1,6 +1,6 @@
 {
-  "collectionStatus": "failed",
-  "generatedAt": "2026-10-17T08:40:26Z",
+  "collectionStatus": "ok",
+  "generatedAt": "2026-10-17T08:45:28Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -225,6 +225,40 @@
           ],
           "sourceStatus": "Verified",
           "startedAt": "2026-10-16T22:05:51Z"
+        },
+        {
+          "affectedCustomers": null,
+          "estimatedRestoration": null,
+          "id": "stCroix-vicorp-land",
+          "island": "stCroix",
+          "locations": [
+            "109",
+            "130",
+            "14-A",
+            "142",
+            "222",
+            "268 H-229",
+            "31",
+            "36",
+            "393 PARCEL 5",
+            "4 (LOWER LOVE",
+            "43",
+            "43 (HSE 3)",
+            "49",
+            "50",
+            "51",
+            "536",
+            "61",
+            "79",
+            "82",
+            "98"
+          ],
+          "name": "Vicorp Land",
+          "sourceEventIDs": [
+            "8025017562cd67c0c21780bd5189faf78902ac428d41a43ca746271ea6285126"
+          ],
+          "sourceStatus": "Verified",
+          "startedAt": "2026-10-17T08:32:24Z"
         }
       ]
     },
@@ -258,18 +292,18 @@
       ]
     }
   ],
-  "lastCollectionError": "Source update incomplete",
+  "lastCollectionError": null,
   "qualityNotes": [
     "Some source events need island review. Island totals and empty listings may be incomplete.",
     "WAPA\u2019s summary and event customer totals disagree. Customer totals are unconfirmed."
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "128ccf88babee915a5964e6f9d77b3030fae07c2ff373a008776a0c9113e33d2",
+  "snapshotID": "8565b4a5fab52e8de2cbdef5adabc50b0f65e6cf918c24751d99270ab046777b",
   "source": {
-    "checkedAt": "2026-10-17T08:40:26Z",
+    "checkedAt": "2026-10-17T08:45:28Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-10-17T08:37:21Z",
+    "updatedAt": "2026-10-17T08:42:21Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
