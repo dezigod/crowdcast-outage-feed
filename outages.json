@@ -1,6 +1,6 @@
 {
-  "collectionStatus": "failed",
-  "generatedAt": "2026-10-17T00:30:27Z",
+  "collectionStatus": "ok",
+  "generatedAt": "2026-10-17T00:35:28Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -14,16 +14,31 @@
           "id": "stThomas-agnes-fancy",
           "island": "stThomas",
           "locations": [
+            "3-N",
+            "3B-1",
+            "3C",
+            "3D-1",
+            "3F MTR-1",
+            "3K",
+            "3K-1",
+            "3L",
+            "3Q",
+            "3S",
             "5-A",
+            "5-E",
             "5B",
+            "5D",
+            "5D DWELLING",
+            "5E",
             "5F"
           ],
           "name": "Agnes Fancy",
           "sourceEventIDs": [
-            "688d24f7b6e72cb60f9dd7cfcfc315b9ee0efe7095b9fbf192b7ed84c8031d54"
+            "688d24f7b6e72cb60f9dd7cfcfc315b9ee0efe7095b9fbf192b7ed84c8031d54",
+            "d857688b3ce193a80429535887f6fb1825acec1d8ebfa63c042067b7890cfec4"
           ],
           "sourceStatus": "Predicted",
-          "startedAt": "2026-05-24T00:16:58Z"
+          "startedAt": null
         },
         {
           "affectedCustomers": null,
@@ -243,21 +258,21 @@
       ]
     }
   ],
-  "lastCollectionError": "Source update incomplete",
+  "lastCollectionError": null,
   "qualityNotes": [
     "Some source events need island review. Island totals and empty listings may be incomplete.",
     "WAPA\u2019s summary and event customer totals disagree. Customer totals are unconfirmed."
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "2d065e74a1bf3e690ff8b2c1464ad559d94c42ffe603fb41b282fe0a34c9241c",
+  "snapshotID": "82fd3ad9473ccb36e14a8774e80c44c52ab952481fcebc6128b2b37a84d5f2f4",
   "source": {
-    "checkedAt": "2026-10-17T00:30:27Z",
+    "checkedAt": "2026-10-17T00:35:28Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-10-17T00:27:22Z",
+    "updatedAt": "2026-10-17T00:32:23Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "staleAfterSeconds": 900,
-  "unassignedEventCount": 17
+  "unassignedEventCount": 18
 }
