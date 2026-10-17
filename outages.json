@@ -1,6 +1,6 @@
 {
-  "collectionStatus": "failed",
-  "generatedAt": "2026-10-17T00:05:28Z",
+  "collectionStatus": "ok",
+  "generatedAt": "2026-10-17T00:13:17Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -174,7 +174,33 @@
       "coverage": "partial",
       "customersOut": null,
       "id": "stCroix",
-      "neighborhoods": []
+      "neighborhoods": [
+        {
+          "affectedCustomers": null,
+          "estimatedRestoration": null,
+          "id": "stCroix-sion-hill",
+          "island": "stCroix",
+          "locations": [
+            "3-1",
+            "4-1",
+            "4-11",
+            "4-12",
+            "4-2",
+            "4-5",
+            "4-6 (DWNSTRS)",
+            "4-6 UPST",
+            "4-7",
+            "4-7 (UPSTAIRS)",
+            "4-9"
+          ],
+          "name": "Sion Hill",
+          "sourceEventIDs": [
+            "e771f40be8872484af060d25fafe4d44adddf6e1e73752637a4b762f96f1a87f"
+          ],
+          "sourceStatus": "Predicted",
+          "startedAt": "2026-10-17T00:04:30Z"
+        }
+      ]
     },
     {
       "coverage": "partial",
@@ -206,21 +232,21 @@
       ]
     }
   ],
-  "lastCollectionError": "Source update incomplete",
+  "lastCollectionError": null,
   "qualityNotes": [
     "Some source events need island review. Island totals and empty listings may be incomplete.",
     "WAPA\u2019s summary and event customer totals disagree. Customer totals are unconfirmed."
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "d2446ec2cf291fc7221427c8414a18f383436aa08ea8c1f613ce62dba982db6a",
+  "snapshotID": "abcae34aee28cff53476a952a316cdba3f310953fce347ac828597d61d922d76",
   "source": {
-    "checkedAt": "2026-10-17T00:05:28Z",
+    "checkedAt": "2026-10-17T00:13:17Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-10-17T00:02:26Z",
+    "updatedAt": "2026-10-17T00:12:25Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "staleAfterSeconds": 900,
-  "unassignedEventCount": 16
+  "unassignedEventCount": 18
 }
