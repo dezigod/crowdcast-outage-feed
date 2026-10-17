@@ -1,6 +1,6 @@
 {
-  "collectionStatus": "failed",
-  "generatedAt": "2026-10-17T00:20:28Z",
+  "collectionStatus": "ok",
+  "generatedAt": "2026-10-17T00:30:27Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -135,7 +135,6 @@
             "MAHOGANY RUN",
             "PCL B-12",
             "PCL B-14",
-            "PCL D-12 L/41",
             "RM 214-215",
             "RM 500 B-43U",
             "SEWAGE",
@@ -145,11 +144,10 @@
           ],
           "name": "Lovenlund",
           "sourceEventIDs": [
-            "d4ba5c1dc11d3a3f48a6f76765d229176d34b8f4b3a672cbaaf2aa68c1602347",
             "fbbbf9f4cfc8501abe012c0586f08b32a06f49c1b31c7d0c8fcfdead9c3a376a"
           ],
           "sourceStatus": "Verified",
-          "startedAt": null
+          "startedAt": "2026-10-16T20:07:21Z"
         },
         {
           "affectedCustomers": null,
@@ -178,27 +176,40 @@
         {
           "affectedCustomers": null,
           "estimatedRestoration": null,
-          "id": "stCroix-sion-hill",
+          "id": "stCroix-pump-garden",
           "island": "stCroix",
           "locations": [
-            "3-1",
-            "4-1",
-            "4-11",
-            "4-12",
-            "4-2",
-            "4-5",
-            "4-6 (DWNSTRS)",
-            "4-6 UPST",
-            "4-7",
-            "4-7 (UPSTAIRS)",
-            "4-9"
+            "B-1LDG5",
+            "B-2",
+            "B-4",
+            "Building 10",
+            "Building 11",
+            "Building 12",
+            "Building 13",
+            "Building 13 STAIR",
+            "Building 14",
+            "Building 15",
+            "Building 16",
+            "Building 17",
+            "Building 18",
+            "Building 2",
+            "Building 20",
+            "Building 3",
+            "Building 4",
+            "Building 5",
+            "Building 6",
+            "Building 7",
+            "Building 8",
+            "Building 9",
+            "Building 9 STAIR",
+            "House"
           ],
-          "name": "Sion Hill",
+          "name": "Pompano / Pump Garden",
           "sourceEventIDs": [
-            "e771f40be8872484af060d25fafe4d44adddf6e1e73752637a4b762f96f1a87f"
+            "9eccf0c43c72e98349c30af5288e309fca18a8b631d57de5d2fc6955997dac01"
           ],
-          "sourceStatus": "Predicted",
-          "startedAt": "2026-10-17T00:04:30Z"
+          "sourceStatus": "Verified",
+          "startedAt": "2026-10-16T22:05:51Z"
         }
       ]
     },
@@ -232,21 +243,21 @@
       ]
     }
   ],
-  "lastCollectionError": "Source update incomplete",
+  "lastCollectionError": null,
   "qualityNotes": [
     "Some source events need island review. Island totals and empty listings may be incomplete.",
     "WAPA\u2019s summary and event customer totals disagree. Customer totals are unconfirmed."
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "a74001f9a3dc32edc0030c0daad357957cd10add95ce799c228d72af074c7b94",
+  "snapshotID": "2d065e74a1bf3e690ff8b2c1464ad559d94c42ffe603fb41b282fe0a34c9241c",
   "source": {
-    "checkedAt": "2026-10-17T00:20:28Z",
+    "checkedAt": "2026-10-17T00:30:27Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-10-17T00:17:24Z",
+    "updatedAt": "2026-10-17T00:27:22Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "staleAfterSeconds": 900,
-  "unassignedEventCount": 18
+  "unassignedEventCount": 17
 }
