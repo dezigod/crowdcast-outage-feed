@@ -1,6 +1,6 @@
 {
-  "collectionStatus": "failed",
-  "generatedAt": "2026-10-20T18:35:30Z",
+  "collectionStatus": "ok",
+  "generatedAt": "2026-10-20T18:45:30Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -48,7 +48,23 @@
       "coverage": "partial",
       "customersOut": null,
       "id": "stCroix",
-      "neighborhoods": []
+      "neighborhoods": [
+        {
+          "affectedCustomers": null,
+          "estimatedRestoration": null,
+          "id": "stCroix-solitude",
+          "island": "stCroix",
+          "locations": [
+            "8-B"
+          ],
+          "name": "Solitude",
+          "sourceEventIDs": [
+            "946abea2b074ede6186d6940a43728dd65e6dcd8643c6eeb7d2a5b612df89009"
+          ],
+          "sourceStatus": "Predicted",
+          "startedAt": "2026-10-20T18:36:26Z"
+        }
+      ]
     },
     {
       "coverage": "partial",
@@ -80,18 +96,18 @@
       ]
     }
   ],
-  "lastCollectionError": "Source update incomplete",
+  "lastCollectionError": null,
   "qualityNotes": [
     "Some source events need island review. Island totals and empty listings may be incomplete.",
     "WAPA\u2019s summary and event customer totals disagree. Customer totals are unconfirmed."
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "c94634f4f400a63aa81b71394623ab4e0a63e54c88a5d58b7b3ed987d9e6fa8c",
+  "snapshotID": "9b8b2b3a57fac48d8db8bae2f5fce18124b3d311a6e00e1e79926caab23f2548",
   "source": {
-    "checkedAt": "2026-10-20T18:35:30Z",
+    "checkedAt": "2026-10-20T18:45:30Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-10-20T18:32:27Z",
+    "updatedAt": "2026-10-20T18:42:27Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
