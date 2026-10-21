@@ -1,6 +1,6 @@
 {
-  "collectionStatus": "failed",
-  "generatedAt": "2026-10-21T11:55:27Z",
+  "collectionStatus": "ok",
+  "generatedAt": "2026-10-21T12:00:28Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -14,15 +14,7 @@
           "id": "stThomas-agnes-fancy",
           "island": "stThomas",
           "locations": [
-            "11-C APT 1",
-            "11-C MTR-2",
-            "16",
-            "16 MAIN",
-            "18",
             "42",
-            "43",
-            "49A",
-            "49B",
             "5-A",
             "5B",
             "5F"
@@ -30,9 +22,9 @@
           "name": "Agnes Fancy",
           "sourceEventIDs": [
             "688d24f7b6e72cb60f9dd7cfcfc315b9ee0efe7095b9fbf192b7ed84c8031d54",
-            "8a0fa0fd3af75bd8b738b8d335b50c2df1c2476019b8872ad89f6eb339fc670f"
+            "fbe7b34e4a40b0fd415e897565c3df0f89c425a264761bec083e8304d9479175"
           ],
-          "sourceStatus": "Predicted",
+          "sourceStatus": "Unconfirmed",
           "startedAt": null
         },
         {
@@ -90,21 +82,21 @@
       ]
     }
   ],
-  "lastCollectionError": "Source update incomplete",
+  "lastCollectionError": null,
   "qualityNotes": [
     "Some source events need island review. Island totals and empty listings may be incomplete.",
     "WAPA\u2019s summary and event customer totals disagree. Customer totals are unconfirmed."
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "56b4243cb9c8bc5d508a708ff78a17600fb92b9710e905995dcff2922075dd07",
+  "snapshotID": "47d399d495a8afdbc9b29a65c5fa6ee7b8e64b0eed99e104b1b7e1d5abf63ba5",
   "source": {
-    "checkedAt": "2026-10-21T11:55:27Z",
+    "checkedAt": "2026-10-21T12:00:28Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-10-21T11:52:28Z",
+    "updatedAt": "2026-10-21T11:57:28Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "staleAfterSeconds": 900,
-  "unassignedEventCount": 10
+  "unassignedEventCount": 8
 }
