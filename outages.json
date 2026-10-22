@@ -1,6 +1,6 @@
 {
-  "collectionStatus": "failed",
-  "generatedAt": "2026-10-22T02:25:29Z",
+  "collectionStatus": "ok",
+  "generatedAt": "2026-10-22T02:35:27Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -14,27 +14,13 @@
           "id": "stThomas-agnes-fancy",
           "island": "stThomas",
           "locations": [
-            "10",
-            "10 APT-1",
-            "10 APT-2",
-            "10 APT-5",
-            "10 APT-6",
-            "100",
-            "101",
             "105",
-            "107",
-            "109A",
-            "114",
-            "114 A",
             "119",
-            "15B",
             "2",
             "2-1",
             "2-4",
             "2-6",
             "2-7",
-            "24A",
-            "24A APT-1",
             "3-N",
             "30",
             "32",
@@ -73,28 +59,12 @@
             "5D",
             "5D DWELLING",
             "5E",
-            "5F",
-            "77",
-            "79",
-            "79 BLDG 3",
-            "79 DOWN",
-            "79A",
-            "79A BLDG 2",
-            "8 MTR-1",
-            "83",
-            "86 APT-A",
-            "86 APT-B",
-            "90",
-            "92",
-            "95",
-            "9B",
-            "MTR C"
+            "5F"
           ],
           "name": "Agnes Fancy",
           "sourceEventIDs": [
             "688d24f7b6e72cb60f9dd7cfcfc315b9ee0efe7095b9fbf192b7ed84c8031d54",
-            "c22fb6a079d04a8f2139709b35e13f23a6f729929a90e87badedcfc1460e7488",
-            "ef7bda7d557e9a8dbaa415547688ed755b6074854a4cd7df9811eff2167d7e90"
+            "c22fb6a079d04a8f2139709b35e13f23a6f729929a90e87badedcfc1460e7488"
           ],
           "sourceStatus": "Unconfirmed",
           "startedAt": null
@@ -873,21 +843,21 @@
       ]
     }
   ],
-  "lastCollectionError": "Source update incomplete",
+  "lastCollectionError": null,
   "qualityNotes": [
     "Some source events need island review. Island totals and empty listings may be incomplete.",
     "WAPA\u2019s summary and event customer totals disagree. Customer totals are unconfirmed."
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "617d23da824577c21b9bc5376e832d5b924e891c05d366c647c4f1d66e45bc67",
+  "snapshotID": "96c34088bd1fee5122eb6aa23ea19fefbd7ca32aa3f90a4cd9e5af589d755f7c",
   "source": {
-    "checkedAt": "2026-10-22T02:25:29Z",
+    "checkedAt": "2026-10-22T02:35:27Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-10-22T02:22:36Z",
+    "updatedAt": "2026-10-22T02:32:36Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "staleAfterSeconds": 900,
-  "unassignedEventCount": 24
+  "unassignedEventCount": 23
 }
