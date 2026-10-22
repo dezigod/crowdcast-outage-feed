@@ -1,6 +1,6 @@
 {
-  "collectionStatus": "failed",
-  "generatedAt": "2026-10-22T00:35:28Z",
+  "collectionStatus": "ok",
+  "generatedAt": "2026-10-22T00:40:28Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -128,7 +128,8 @@
           "sourceEventIDs": [
             "1400ed7c9aaaec81a15da48be215db74a9843b90de7aa16285272f8ba702fa82",
             "688d24f7b6e72cb60f9dd7cfcfc315b9ee0efe7095b9fbf192b7ed84c8031d54",
-            "fde9cf8a693e8b0893905760b2b5952942159c0e7783c50cdb13ec6ad10fb853"
+            "c22fb6a079d04a8f2139709b35e13f23a6f729929a90e87badedcfc1460e7488",
+            "ef7bda7d557e9a8dbaa415547688ed755b6074854a4cd7df9811eff2167d7e90"
           ],
           "sourceStatus": "Unconfirmed",
           "startedAt": null
@@ -642,9 +643,9 @@
           ],
           "name": "Lovenlund",
           "sourceEventIDs": [
-            "1400ed7c9aaaec81a15da48be215db74a9843b90de7aa16285272f8ba702fa82",
             "79d54a43d8c7b2dd4e64716f752b49ea9f841f5e71e0302a40476c075e0ffbf9",
-            "887e3ec27419572bbaf01c11092bed2cdd8beffab2e66e4a48ea668e2e423ac6"
+            "887e3ec27419572bbaf01c11092bed2cdd8beffab2e66e4a48ea668e2e423ac6",
+            "c22fb6a079d04a8f2139709b35e13f23a6f729929a90e87badedcfc1460e7488"
           ],
           "sourceStatus": "Verified",
           "startedAt": null
@@ -810,10 +811,10 @@
           ],
           "name": "Peterborg",
           "sourceEventIDs": [
-            "1400ed7c9aaaec81a15da48be215db74a9843b90de7aa16285272f8ba702fa82"
+            "c22fb6a079d04a8f2139709b35e13f23a6f729929a90e87badedcfc1460e7488"
           ],
           "sourceStatus": "Verified",
-          "startedAt": "2026-10-21T23:38:58Z"
+          "startedAt": "2026-10-21T23:35:02Z"
         },
         {
           "affectedCustomers": null,
@@ -987,21 +988,21 @@
       ]
     }
   ],
-  "lastCollectionError": "Source update incomplete",
+  "lastCollectionError": null,
   "qualityNotes": [
     "Some source events need island review. Island totals and empty listings may be incomplete.",
     "WAPA\u2019s summary and event customer totals disagree. Customer totals are unconfirmed."
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "0a8148a1b8d3ab74952d4f0ca92470824820d4afdf7e31cfdb1eb0298b9ce029",
+  "snapshotID": "725337bd8873d5efe07ae6915a82e6766a9952cfb62c54354b7990c62b5eeb2e",
   "source": {
-    "checkedAt": "2026-10-22T00:35:28Z",
+    "checkedAt": "2026-10-22T00:40:28Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-10-22T00:32:43Z",
+    "updatedAt": "2026-10-22T00:37:42Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "staleAfterSeconds": 900,
-  "unassignedEventCount": 25
+  "unassignedEventCount": 27
 }
