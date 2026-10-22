@@ -1,6 +1,6 @@
 {
-  "collectionStatus": "failed",
-  "generatedAt": "2026-10-22T15:35:30Z",
+  "collectionStatus": "ok",
+  "generatedAt": "2026-10-22T15:45:28Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -98,7 +98,6 @@
           ],
           "name": "Agnes Fancy",
           "sourceEventIDs": [
-            "33e0ecda8aa83792d2a2580fbb7939dc3ee6cf81b432b923897c863571a2bdcc",
             "46eb7724e4fa4e3f653b245f6adf727d58e65c12a47cd39a2218be6d4c51131b",
             "688d24f7b6e72cb60f9dd7cfcfc315b9ee0efe7095b9fbf192b7ed84c8031d54"
           ],
@@ -614,7 +613,7 @@
           ],
           "name": "Lovenlund",
           "sourceEventIDs": [
-            "33e0ecda8aa83792d2a2580fbb7939dc3ee6cf81b432b923897c863571a2bdcc",
+            "46eb7724e4fa4e3f653b245f6adf727d58e65c12a47cd39a2218be6d4c51131b",
             "aa96efb227afbc99144f81ffcbe6f6bdca5103de394c357ace1c3be4004ea573",
             "b1151a87bcd511d88ebe94e897cff8fb45f368aa946886504bb0421a544ea313"
           ],
@@ -782,7 +781,7 @@
           ],
           "name": "Peterborg",
           "sourceEventIDs": [
-            "33e0ecda8aa83792d2a2580fbb7939dc3ee6cf81b432b923897c863571a2bdcc"
+            "46eb7724e4fa4e3f653b245f6adf727d58e65c12a47cd39a2218be6d4c51131b"
           ],
           "sourceStatus": "Verified",
           "startedAt": "2026-10-22T03:08:31Z"
@@ -881,21 +880,21 @@
       ]
     }
   ],
-  "lastCollectionError": "Source update incomplete",
+  "lastCollectionError": null,
   "qualityNotes": [
     "Some source events need island review. Island totals and empty listings may be incomplete.",
     "WAPA\u2019s summary and event customer totals disagree. Customer totals are unconfirmed."
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "a0e734340c257886e41bf0aa0c10b58d246678571fb6334137ccd41bfeaee277",
+  "snapshotID": "e7231491c4a91abef3c06f3651882992f02f25529230572048916fa104119c37",
   "source": {
-    "checkedAt": "2026-10-22T15:35:30Z",
+    "checkedAt": "2026-10-22T15:45:28Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-10-22T15:32:41Z",
+    "updatedAt": "2026-10-22T15:42:41Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "staleAfterSeconds": 900,
-  "unassignedEventCount": 21
+  "unassignedEventCount": 20
 }
