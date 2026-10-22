@@ -1,6 +1,6 @@
 {
-  "collectionStatus": "failed",
-  "generatedAt": "2026-10-22T00:20:29Z",
+  "collectionStatus": "ok",
+  "generatedAt": "2026-10-22T00:30:27Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -916,7 +916,46 @@
       "coverage": "partial",
       "customersOut": null,
       "id": "stCroix",
-      "neighborhoods": []
+      "neighborhoods": [
+        {
+          "affectedCustomers": null,
+          "estimatedRestoration": null,
+          "id": "stCroix-pump-garden",
+          "island": "stCroix",
+          "locations": [
+            "B-1LDG5",
+            "B-2",
+            "B-4",
+            "Building 10",
+            "Building 11",
+            "Building 12",
+            "Building 13",
+            "Building 13 STAIR",
+            "Building 14",
+            "Building 15",
+            "Building 16",
+            "Building 17",
+            "Building 18",
+            "Building 2",
+            "Building 20",
+            "Building 3",
+            "Building 4",
+            "Building 5",
+            "Building 6",
+            "Building 7",
+            "Building 8",
+            "Building 9",
+            "Building 9 STAIR",
+            "House"
+          ],
+          "name": "Pompano / Pump Garden",
+          "sourceEventIDs": [
+            "0b79b918fdc3a3ce08317ffd638d401b95a9a9af50d7393f362a8192e383f13a"
+          ],
+          "sourceStatus": "Verified",
+          "startedAt": "2026-10-21T23:41:57Z"
+        }
+      ]
     },
     {
       "coverage": "partial",
@@ -948,21 +987,21 @@
       ]
     }
   ],
-  "lastCollectionError": "Source update incomplete",
+  "lastCollectionError": null,
   "qualityNotes": [
     "Some source events need island review. Island totals and empty listings may be incomplete.",
     "WAPA\u2019s summary and event customer totals disagree. Customer totals are unconfirmed."
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "3c14723817cf2f0c8513924003adc95f08478f05e930cabe3cd58f6a12d418db",
+  "snapshotID": "51a68767c5a9bb2851470fb70da3586163ed3fd1c2577fee93f18bdf9c6b5828",
   "source": {
-    "checkedAt": "2026-10-22T00:20:29Z",
+    "checkedAt": "2026-10-22T00:30:27Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-10-22T00:17:43Z",
+    "updatedAt": "2026-10-22T00:27:43Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "staleAfterSeconds": 900,
-  "unassignedEventCount": 26
+  "unassignedEventCount": 25
 }
