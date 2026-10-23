@@ -1,6 +1,6 @@
 {
-  "collectionStatus": "failed",
-  "generatedAt": "2026-10-23T14:55:29Z",
+  "collectionStatus": "ok",
+  "generatedAt": "2026-10-23T15:00:29Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -15,8 +15,17 @@
           "island": "stThomas",
           "locations": [
             "1-13",
+            "10",
+            "10 APT-1",
+            "10 APT-2",
+            "10 APT-5",
+            "10 APT-6",
+            "100",
+            "101",
             "104",
             "105",
+            "107",
+            "109A",
             "11",
             "11-C APT 1",
             "11-C MTR-2",
@@ -24,6 +33,8 @@
             "112 HOUSE 1",
             "112 HOUSE 2",
             "113",
+            "114",
+            "114 A",
             "117",
             "119",
             "11A",
@@ -39,6 +50,8 @@
             "2-6",
             "2-7",
             "21",
+            "24A",
+            "24A APT-1",
             "3-N",
             "30",
             "32",
@@ -90,16 +103,32 @@
             "65A",
             "65C",
             "65C MTR-2",
+            "77",
+            "79",
+            "79 BLDG 3",
+            "79 DOWN",
+            "79A",
+            "79A BLDG 2",
+            "8 MTR-1",
             "80",
+            "83",
             "85-131",
+            "86 APT-A",
+            "86 APT-B",
             "89",
+            "90",
+            "92",
+            "95",
             "97 A",
-            "97A"
+            "97A",
+            "9B",
+            "MTR C"
           ],
           "name": "Agnes Fancy",
           "sourceEventIDs": [
             "46eb7724e4fa4e3f653b245f6adf727d58e65c12a47cd39a2218be6d4c51131b",
-            "688d24f7b6e72cb60f9dd7cfcfc315b9ee0efe7095b9fbf192b7ed84c8031d54"
+            "688d24f7b6e72cb60f9dd7cfcfc315b9ee0efe7095b9fbf192b7ed84c8031d54",
+            "8f9be04c1ad812c5b17a6c38be7d1eee628e278832950acfc3335d14ca4f256e"
           ],
           "sourceStatus": "Unconfirmed",
           "startedAt": null
@@ -792,16 +821,43 @@
           "id": "stThomas-subbase",
           "island": "stThomas",
           "locations": [
+            "10-11A",
             "100",
             "101",
-            "69"
+            "11B",
+            "133",
+            "168-308",
+            "168-501 B-5",
+            "168-504",
+            "168-506 BAY #4",
+            "23",
+            "23 A-B",
+            "39",
+            "40",
+            "40 - LAUNDROMAT",
+            "40 STE 201",
+            "40 SUITE 204",
+            "41",
+            "41 STE 110",
+            "41 UNIT 101-A",
+            "43-43A",
+            "46",
+            "4A",
+            "69",
+            "72 INSPECTION LN",
+            "8168",
+            "9-10",
+            "STE 201",
+            "STE 205",
+            "UNIT 111"
           ],
           "name": "Subbase",
           "sourceEventIDs": [
+            "8f9be04c1ad812c5b17a6c38be7d1eee628e278832950acfc3335d14ca4f256e",
             "cbbd2ef62dee6d0405b3a5d5c18b1c3c5a5b4dbca8f2f81c8fc8d71e6fec7176"
           ],
-          "sourceStatus": "Verified",
-          "startedAt": "2026-10-14T15:23:16Z"
+          "sourceStatus": "Unconfirmed",
+          "startedAt": null
         }
       ]
     },
@@ -810,6 +866,21 @@
       "customersOut": null,
       "id": "stCroix",
       "neighborhoods": [
+        {
+          "affectedCustomers": null,
+          "estimatedRestoration": null,
+          "id": "stCroix-judiths-fancy",
+          "island": "stCroix",
+          "locations": [
+            "191"
+          ],
+          "name": "Judith\u2019s Fancy",
+          "sourceEventIDs": [
+            "0c98cad8e6de7626199161127d01c09423bd99370df383ae80ca0c7367c5358a"
+          ],
+          "sourceStatus": "Predicted",
+          "startedAt": "2026-10-23T13:11:39Z"
+        },
         {
           "affectedCustomers": null,
           "estimatedRestoration": null,
@@ -880,21 +951,21 @@
       ]
     }
   ],
-  "lastCollectionError": "Source update incomplete",
+  "lastCollectionError": null,
   "qualityNotes": [
     "Some source events need island review. Island totals and empty listings may be incomplete.",
     "WAPA\u2019s summary and event customer totals disagree. Customer totals are unconfirmed."
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "89b3157c2792cc2a1b237e3057de3f0e826fb09d49ff9fabeeea76c2043eda89",
+  "snapshotID": "bb5f88045b7d5fafe2f22bd3833a4ad36344a9039a726d1ed003f79dd18cc5b0",
   "source": {
-    "checkedAt": "2026-10-23T14:55:29Z",
+    "checkedAt": "2026-10-23T15:00:29Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-10-23T14:54:08Z",
+    "updatedAt": "2026-10-23T14:59:09Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "staleAfterSeconds": 900,
-  "unassignedEventCount": 21
+  "unassignedEventCount": 35
 }
