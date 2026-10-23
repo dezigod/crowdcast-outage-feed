@@ -1,6 +1,6 @@
 {
-  "collectionStatus": "failed",
-  "generatedAt": "2026-10-23T15:10:31Z",
+  "collectionStatus": "ok",
+  "generatedAt": "2026-10-23T15:20:30Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -126,9 +126,10 @@
           ],
           "name": "Agnes Fancy",
           "sourceEventIDs": [
+            "0810d3ba360b0853d375fef6a49851492d586b6da1c4963ff2931f219e6a261e",
             "46eb7724e4fa4e3f653b245f6adf727d58e65c12a47cd39a2218be6d4c51131b",
             "688d24f7b6e72cb60f9dd7cfcfc315b9ee0efe7095b9fbf192b7ed84c8031d54",
-            "8f9be04c1ad812c5b17a6c38be7d1eee628e278832950acfc3335d14ca4f256e"
+            "f6d5cf9dcea7ea7667de29b93a223a129958dcf04f9f3a5d999585050f05c9e9"
           ],
           "sourceStatus": "Unconfirmed",
           "startedAt": null
@@ -642,7 +643,7 @@
           ],
           "name": "Lovenlund",
           "sourceEventIDs": [
-            "46eb7724e4fa4e3f653b245f6adf727d58e65c12a47cd39a2218be6d4c51131b",
+            "0810d3ba360b0853d375fef6a49851492d586b6da1c4963ff2931f219e6a261e",
             "aa96efb227afbc99144f81ffcbe6f6bdca5103de394c357ace1c3be4004ea573",
             "b1151a87bcd511d88ebe94e897cff8fb45f368aa946886504bb0421a544ea313"
           ],
@@ -810,10 +811,10 @@
           ],
           "name": "Peterborg",
           "sourceEventIDs": [
-            "46eb7724e4fa4e3f653b245f6adf727d58e65c12a47cd39a2218be6d4c51131b"
+            "0810d3ba360b0853d375fef6a49851492d586b6da1c4963ff2931f219e6a261e"
           ],
           "sourceStatus": "Verified",
-          "startedAt": "2026-10-22T03:08:31Z"
+          "startedAt": "2026-10-23T15:12:51Z"
         },
         {
           "affectedCustomers": null,
@@ -834,6 +835,7 @@
             "111",
             "116",
             "11B",
+            "121",
             "121 MOTOR",
             "121-122 (CARWASH)",
             "124",
@@ -846,6 +848,7 @@
             "14-9C #6",
             "140",
             "14A-1 NO 6 SS QTR",
+            "16",
             "161",
             "162",
             "168-308",
@@ -902,10 +905,10 @@
           "name": "Subbase",
           "sourceEventIDs": [
             "41fb2d61b94d2978815bbc5235cabfb0c41907e998b2600debe6f363791aa92e",
-            "8f9be04c1ad812c5b17a6c38be7d1eee628e278832950acfc3335d14ca4f256e",
+            "7de6b804c02dba6554d74c0de6edca21af526fd512b1eeb9fa71b04d03d19716",
             "cbbd2ef62dee6d0405b3a5d5c18b1c3c5a5b4dbca8f2f81c8fc8d71e6fec7176"
           ],
-          "sourceStatus": "Unconfirmed",
+          "sourceStatus": "Verified",
           "startedAt": null
         }
       ]
@@ -1000,21 +1003,21 @@
       ]
     }
   ],
-  "lastCollectionError": "Source update incomplete",
+  "lastCollectionError": null,
   "qualityNotes": [
     "Some source events need island review. Island totals and empty listings may be incomplete.",
     "WAPA\u2019s summary and event customer totals disagree. Customer totals are unconfirmed."
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "a09d942056b85314a81e24eb297d07e5ab87668d7ca7e5ab2af29aba274c536a",
+  "snapshotID": "cf6198992cf96414b00dc711b993fdd0b563db55c51b43ec4ce6415ffbaecc54",
   "source": {
-    "checkedAt": "2026-10-23T15:10:31Z",
+    "checkedAt": "2026-10-23T15:20:30Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-10-23T15:09:10Z",
+    "updatedAt": "2026-10-23T15:19:11Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "staleAfterSeconds": 900,
-  "unassignedEventCount": 38
+  "unassignedEventCount": 40
 }
