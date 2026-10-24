@@ -1,6 +1,6 @@
 {
-  "collectionStatus": "failed",
-  "generatedAt": "2026-10-24T16:20:27Z",
+  "collectionStatus": "ok",
+  "generatedAt": "2026-10-24T16:25:28Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -14,46 +14,16 @@
           "id": "stThomas-agnes-fancy",
           "island": "stThomas",
           "locations": [
-            "10",
-            "10 APT-1",
-            "10 APT-2",
-            "10 APT-5",
-            "10 APT-6",
-            "100",
-            "101",
-            "107",
-            "109A",
-            "114",
-            "114 A",
-            "15B",
-            "24A",
-            "24A APT-1",
             "5-A",
             "5B",
-            "5F",
-            "77",
-            "79",
-            "79 BLDG 3",
-            "79 DOWN",
-            "79A",
-            "79A BLDG 2",
-            "8 MTR-1",
-            "83",
-            "86 APT-A",
-            "86 APT-B",
-            "90",
-            "92",
-            "95",
-            "9B",
-            "MTR C"
+            "5F"
           ],
           "name": "Agnes Fancy",
           "sourceEventIDs": [
-            "688d24f7b6e72cb60f9dd7cfcfc315b9ee0efe7095b9fbf192b7ed84c8031d54",
-            "f6d5cf9dcea7ea7667de29b93a223a129958dcf04f9f3a5d999585050f05c9e9"
+            "688d24f7b6e72cb60f9dd7cfcfc315b9ee0efe7095b9fbf192b7ed84c8031d54"
           ],
-          "sourceStatus": "Unconfirmed",
-          "startedAt": null
+          "sourceStatus": "Predicted",
+          "startedAt": "2026-05-24T00:16:58Z"
         },
         {
           "affectedCustomers": null,
@@ -525,21 +495,21 @@
       ]
     }
   ],
-  "lastCollectionError": "Source update incomplete",
+  "lastCollectionError": null,
   "qualityNotes": [
     "Some source events need island review. Island totals and empty listings may be incomplete.",
     "WAPA\u2019s summary and event customer totals disagree. Customer totals are unconfirmed."
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "2f9604cb59cb5ea6e6f84bb29aba3ccc3ffdca001a6250dcc9ed94bb4b209c4c",
+  "snapshotID": "3217845369a410e61757e91e516eb066245e978089ac4a909bd56de7297981ab",
   "source": {
-    "checkedAt": "2026-10-24T16:20:27Z",
+    "checkedAt": "2026-10-24T16:25:28Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-10-24T16:19:11Z",
+    "updatedAt": "2026-10-24T16:24:10Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "staleAfterSeconds": 900,
-  "unassignedEventCount": 26
+  "unassignedEventCount": 25
 }
