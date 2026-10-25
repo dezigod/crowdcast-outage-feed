@@ -1,6 +1,6 @@
 {
-  "collectionStatus": "failed",
-  "generatedAt": "2026-10-25T22:35:27Z",
+  "collectionStatus": "ok",
+  "generatedAt": "2026-10-25T22:40:27Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -28,6 +28,8 @@
             "15B",
             "24A",
             "24A APT-1",
+            "3D-2",
+            "3E",
             "5-A",
             "5B",
             "5F",
@@ -50,7 +52,8 @@
           "name": "Agnes Fancy",
           "sourceEventIDs": [
             "65a9554d0c59a0c34c13d9c583fb20bf21a96d9ad2e765eb3294b9fa5bcf1da6",
-            "688d24f7b6e72cb60f9dd7cfcfc315b9ee0efe7095b9fbf192b7ed84c8031d54"
+            "688d24f7b6e72cb60f9dd7cfcfc315b9ee0efe7095b9fbf192b7ed84c8031d54",
+            "f05db96c04fda0f235beeeffccea71efab9261bd70c9fcfa28497ef49feaefd7"
           ],
           "sourceStatus": "Predicted",
           "startedAt": null
@@ -158,18 +161,18 @@
       ]
     }
   ],
-  "lastCollectionError": "Source update incomplete",
+  "lastCollectionError": null,
   "qualityNotes": [
     "Some source events need island review. Island totals and empty listings may be incomplete.",
     "WAPA\u2019s summary and event customer totals disagree. Customer totals are unconfirmed."
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "790358eaa940ac9c7a8141bf48aa94b6263c2f34e73636953805d4f89fd1e0b3",
+  "snapshotID": "9b51a893b153e761a64ab92445953fa274d859c2c46c269bb899d4c4c6248d52",
   "source": {
-    "checkedAt": "2026-10-25T22:35:27Z",
+    "checkedAt": "2026-10-25T22:40:27Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-10-25T22:34:36Z",
+    "updatedAt": "2026-10-25T22:39:36Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
