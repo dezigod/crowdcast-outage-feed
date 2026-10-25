@@ -1,6 +1,6 @@
 {
-  "collectionStatus": "failed",
-  "generatedAt": "2026-10-25T02:05:27Z",
+  "collectionStatus": "ok",
+  "generatedAt": "2026-10-25T02:10:29Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -14,16 +14,46 @@
           "id": "stThomas-agnes-fancy",
           "island": "stThomas",
           "locations": [
+            "10",
+            "10 APT-1",
+            "10 APT-2",
+            "10 APT-5",
+            "10 APT-6",
+            "100",
+            "101",
+            "107",
+            "109A",
+            "114",
+            "114 A",
+            "15B",
+            "24A",
+            "24A APT-1",
             "5-A",
             "5B",
-            "5F"
+            "5F",
+            "77",
+            "79",
+            "79 BLDG 3",
+            "79 DOWN",
+            "79A",
+            "79A BLDG 2",
+            "8 MTR-1",
+            "83",
+            "86 APT-A",
+            "86 APT-B",
+            "90",
+            "92",
+            "95",
+            "9B",
+            "MTR C"
           ],
           "name": "Agnes Fancy",
           "sourceEventIDs": [
+            "65a9554d0c59a0c34c13d9c583fb20bf21a96d9ad2e765eb3294b9fa5bcf1da6",
             "688d24f7b6e72cb60f9dd7cfcfc315b9ee0efe7095b9fbf192b7ed84c8031d54"
           ],
           "sourceStatus": "Predicted",
-          "startedAt": "2026-05-24T00:16:58Z"
+          "startedAt": null
         },
         {
           "affectedCustomers": null,
@@ -33,14 +63,31 @@
           "locations": [
             "100",
             "101",
-            "69"
+            "11B",
+            "133",
+            "168-308",
+            "168-501 B-5",
+            "168-504",
+            "168-506 BAY #4",
+            "23",
+            "23 A-B",
+            "39",
+            "40 - LAUNDROMAT",
+            "41",
+            "41 STE 110",
+            "43-43A",
+            "46",
+            "69",
+            "72 INSPECTION LN",
+            "8168"
           ],
           "name": "Subbase",
           "sourceEventIDs": [
+            "65a9554d0c59a0c34c13d9c583fb20bf21a96d9ad2e765eb3294b9fa5bcf1da6",
             "cbbd2ef62dee6d0405b3a5d5c18b1c3c5a5b4dbca8f2f81c8fc8d71e6fec7176"
           ],
-          "sourceStatus": "Verified",
-          "startedAt": "2026-10-14T15:23:16Z"
+          "sourceStatus": "Unconfirmed",
+          "startedAt": null
         }
       ]
     },
@@ -96,18 +143,18 @@
       ]
     }
   ],
-  "lastCollectionError": "Source update incomplete",
+  "lastCollectionError": null,
   "qualityNotes": [
     "Some source events need island review. Island totals and empty listings may be incomplete.",
     "WAPA\u2019s summary and event customer totals disagree. Customer totals are unconfirmed."
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "25d5d6b076adb68ee6a8c8164678ad931e07f463d3b52029c1a48435b6dfb902",
+  "snapshotID": "f45380cfbcf4d8fef18a2157ace6f055d02a70ccfbf0fbf6d8690b4900eb9d98",
   "source": {
-    "checkedAt": "2026-10-25T02:05:27Z",
+    "checkedAt": "2026-10-25T02:10:29Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-10-25T02:04:33Z",
+    "updatedAt": "2026-10-25T02:09:33Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
