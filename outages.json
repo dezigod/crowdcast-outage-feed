@@ -1,6 +1,6 @@
 {
-  "collectionStatus": "failed",
-  "generatedAt": "2026-10-25T23:30:27Z",
+  "collectionStatus": "ok",
+  "generatedAt": "2026-10-25T23:35:27Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -168,7 +168,6 @@
             "MAHOGANY RUN",
             "PCL B-12",
             "PCL B-14",
-            "PCL D-12 L/41",
             "RM 214-215",
             "RM 500 B-43U",
             "SEWAGE",
@@ -178,11 +177,10 @@
           ],
           "name": "Lovenlund",
           "sourceEventIDs": [
-            "bb814a112c4c7525524cf918f26c8dc3de4bd4429b94f1e04a3aa89eb9270b31",
             "c0dcdc9fc4e9fdabacffaf4f3f92dbcc7098a66b3c8f8fbc1d86d7c502d68ba4"
           ],
           "sourceStatus": "Verified",
-          "startedAt": null
+          "startedAt": "2026-10-25T23:08:09Z"
         },
         {
           "affectedCustomers": null,
@@ -256,21 +254,21 @@
       ]
     }
   ],
-  "lastCollectionError": "Source update incomplete",
+  "lastCollectionError": null,
   "qualityNotes": [
     "Some source events need island review. Island totals and empty listings may be incomplete.",
     "WAPA\u2019s summary and event customer totals disagree. Customer totals are unconfirmed."
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "bdcdff13360ff60d7637e5690e68facd2c91d5053635091f06366f6dc957202d",
+  "snapshotID": "a4c9ef764b890e4fb35d071ed7e03153ce95901267fd93cb8dda346597156223",
   "source": {
-    "checkedAt": "2026-10-25T23:30:27Z",
+    "checkedAt": "2026-10-25T23:35:27Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-10-25T23:29:38Z",
+    "updatedAt": "2026-10-25T23:34:37Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "staleAfterSeconds": 900,
-  "unassignedEventCount": 14
+  "unassignedEventCount": 13
 }
