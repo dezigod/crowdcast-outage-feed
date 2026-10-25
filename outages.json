@@ -1,6 +1,6 @@
 {
-  "collectionStatus": "failed",
-  "generatedAt": "2026-10-25T21:00:28Z",
+  "collectionStatus": "ok",
+  "generatedAt": "2026-10-25T21:05:28Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -132,34 +132,15 @@
           "id": "stCroix-vicorp-land",
           "island": "stCroix",
           "locations": [
-            "109",
-            "130",
-            "14-A",
-            "142",
-            "222",
-            "268 H-229",
-            "31",
-            "36",
-            "393 PARCEL 5",
-            "4 (LOWER LOVE",
-            "43",
-            "43 (HSE 3)",
-            "49",
-            "50",
-            "51",
-            "536",
-            "61",
             "79",
-            "82",
             "98"
           ],
           "name": "Vicorp Land",
           "sourceEventIDs": [
-            "2e5cdf74c18d4b71b07911f11075aacc37e1e06151f7940043355051aed36bd6",
             "7f40e332f32a563c08123d945e5ca8cfcbf050da8a2b6de2180adc9745bdf149"
           ],
           "sourceStatus": "Verified",
-          "startedAt": null
+          "startedAt": "2026-10-25T20:35:31Z"
         }
       ]
     },
@@ -193,21 +174,21 @@
       ]
     }
   ],
-  "lastCollectionError": "Source update incomplete",
+  "lastCollectionError": null,
   "qualityNotes": [
     "Some source events need island review. Island totals and empty listings may be incomplete.",
     "WAPA\u2019s summary and event customer totals disagree. Customer totals are unconfirmed."
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "7f34d1a2084058d6cf656b38a1de69407e9dc87a7d1d5c2d4651915b1e67a5c8",
+  "snapshotID": "9bb17a18d6922f0212ad0af7957b864295587ae5c6a2505097f9365f4d7f140c",
   "source": {
-    "checkedAt": "2026-10-25T21:00:28Z",
+    "checkedAt": "2026-10-25T21:05:28Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-10-25T20:59:39Z",
+    "updatedAt": "2026-10-25T21:04:35Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "staleAfterSeconds": 900,
-  "unassignedEventCount": 18
+  "unassignedEventCount": 16
 }
