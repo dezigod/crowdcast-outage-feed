@@ -1,6 +1,6 @@
 {
-  "collectionStatus": "failed",
-  "generatedAt": "2026-10-27T13:55:29Z",
+  "collectionStatus": "ok",
+  "generatedAt": "2026-10-27T14:05:29Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -95,7 +95,94 @@
       "coverage": "partial",
       "customersOut": null,
       "id": "stCroix",
-      "neighborhoods": []
+      "neighborhoods": [
+        {
+          "affectedCustomers": null,
+          "estimatedRestoration": null,
+          "id": "stCroix-judiths-fancy",
+          "island": "stCroix",
+          "locations": [
+            "64",
+            "66",
+            "66 (G HSE)",
+            "67",
+            "79",
+            "81",
+            "81 (COTT)",
+            "82",
+            "83",
+            "88"
+          ],
+          "name": "Judith\u2019s Fancy",
+          "sourceEventIDs": [
+            "ed1630edc8254bbe629a7a03c1d1782b590d9600a476015bf4820dcc0f4e0546"
+          ],
+          "sourceStatus": "Predicted",
+          "startedAt": "2026-10-27T14:04:08Z"
+        },
+        {
+          "affectedCustomers": null,
+          "estimatedRestoration": null,
+          "id": "stCroix-la-grange",
+          "island": "stCroix",
+          "locations": [
+            "101 NORTH APT",
+            "101 SOUTH APT",
+            "103 NORTH",
+            "103 SOUTH APT",
+            "109",
+            "111-N",
+            "112 (FLEMING)",
+            "113",
+            "18-B",
+            "18-C",
+            "22",
+            "40",
+            "40 EB",
+            "40 EM",
+            "40 HP",
+            "40-EAA",
+            "40-HD (WELL)",
+            "40-HE",
+            "40-HN",
+            "40-HN A-A",
+            "40-JB",
+            "40-JC COTT 16-1",
+            "40-JC COTT 16-H",
+            "40-JC COTT 9",
+            "40-JD COTT 10",
+            "40-JE",
+            "40-JF COT 8",
+            "40-JG COTT 4",
+            "40-JJ COTT 7",
+            "40-JK COTT 11",
+            "40-MCD",
+            "40ER",
+            "40HP HSE2",
+            "40HS",
+            "41",
+            "41-A",
+            "72",
+            "72-A",
+            "74",
+            "74 A-3 WEST",
+            "74-A",
+            "74-A COTT 12",
+            "74-A COTT 12-A",
+            "74-A COTT 6-A",
+            "74A 6-B COTTAGE",
+            "77-B",
+            "79-A",
+            "NORTH 77-A"
+          ],
+          "name": "La Grange",
+          "sourceEventIDs": [
+            "16ef99a395004f49f9082b2d774431795149e20dc10a6438c220716764d79b6d"
+          ],
+          "sourceStatus": "Predicted",
+          "startedAt": "2026-10-25T14:05:08Z"
+        }
+      ]
     },
     {
       "coverage": "partial",
@@ -127,21 +214,21 @@
       ]
     }
   ],
-  "lastCollectionError": "Source update incomplete",
+  "lastCollectionError": null,
   "qualityNotes": [
     "Some source events need island review. Island totals and empty listings may be incomplete.",
     "WAPA\u2019s summary and event customer totals disagree. Customer totals are unconfirmed."
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "79259f81e9a8bcc0429ee11c8d1f27e4d61e8397774b246afd955182bb7c79c7",
+  "snapshotID": "55137dc33b45368dbcf7e1720ba7871b48d21850162ccd7ec85be40ddbe16a43",
   "source": {
-    "checkedAt": "2026-10-27T13:55:29Z",
+    "checkedAt": "2026-10-27T14:05:29Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-10-27T13:54:40Z",
+    "updatedAt": "2026-10-27T14:04:39Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "staleAfterSeconds": 900,
-  "unassignedEventCount": 12
+  "unassignedEventCount": 20
 }
