@@ -1,6 +1,6 @@
 {
-  "collectionStatus": "failed",
-  "generatedAt": "2026-10-27T14:15:30Z",
+  "collectionStatus": "ok",
+  "generatedAt": "2026-10-27T14:25:29Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -102,14 +102,25 @@
           "id": "stCroix-coble",
           "island": "stCroix",
           "locations": [
-            "338"
+            "11",
+            "15",
+            "161",
+            "20 APT-B",
+            "23",
+            "26",
+            "290",
+            "338",
+            "5",
+            "6",
+            "8",
+            "VILLAGE(VICORP 152)"
           ],
           "name": "Coble / Coble Village",
           "sourceEventIDs": [
-            "988608bbf292da6472f0e4c24d32883e697900833e1b971c2b442ea9426cbc87"
+            "935657719286220d01d7831cd0a96e31e023c5b8c53738981163dd5c2f2a8893"
           ],
-          "sourceStatus": "Predicted",
-          "startedAt": "2026-10-27T14:14:00Z"
+          "sourceStatus": "Verified",
+          "startedAt": "2026-10-27T14:02:54Z"
         },
         {
           "affectedCustomers": null,
@@ -117,15 +128,50 @@
           "id": "stCroix-jealousy",
           "island": "stCroix",
           "locations": [
+            "153",
+            "16",
             "169 (COBLE 29)",
-            "170 (COBLE)"
+            "17",
+            "17-10",
+            "17-10 (DWNST)",
+            "17-16",
+            "17-21",
+            "17-28",
+            "170 (COBLE)",
+            "173",
+            "298",
+            "300",
+            "303",
+            "304",
+            "305(WELL)",
+            "306",
+            "307",
+            "312",
+            "313",
+            "319",
+            "321",
+            "323",
+            "326",
+            "332",
+            "333",
+            "336(VI CORPLAND)",
+            "337",
+            "338",
+            "RIDGE 17-13",
+            "RIDGE 17-2",
+            "RIDGE 17-4",
+            "RIDGE 17-6",
+            "RIDGE 17-7",
+            "RIDGE 17-8",
+            "RIDGE 322",
+            "VI CORP 17-26"
           ],
           "name": "Estate Jealousy",
           "sourceEventIDs": [
-            "988608bbf292da6472f0e4c24d32883e697900833e1b971c2b442ea9426cbc87"
+            "935657719286220d01d7831cd0a96e31e023c5b8c53738981163dd5c2f2a8893"
           ],
-          "sourceStatus": "Predicted",
-          "startedAt": "2026-10-27T14:14:00Z"
+          "sourceStatus": "Verified",
+          "startedAt": "2026-10-27T14:02:54Z"
         },
         {
           "affectedCustomers": null,
@@ -357,6 +403,10 @@
             "101 SOUTH APT",
             "103 NORTH",
             "103 SOUTH APT",
+            "105",
+            "106 NORTH",
+            "106 SOUTH",
+            "108",
             "109",
             "11 (COTTAGE)",
             "111-N",
@@ -382,6 +432,7 @@
             "16-B",
             "16-C",
             "16-D",
+            "16-EB",
             "160",
             "162",
             "17",
@@ -398,14 +449,17 @@
             "1S APT A",
             "1S APT B",
             "1X",
+            "2",
             "2 P",
             "2-B",
             "2-B (WELL)",
             "2-F",
             "2-J",
             "2-M",
+            "20-A",
             "20-B",
             "20-E",
+            "20D &F",
             "21",
             "21 B (UPSTAIRS)",
             "21A",
@@ -418,6 +472,7 @@
             "242",
             "242-A & 243",
             "244",
+            "245",
             "252",
             "254",
             "255",
@@ -474,15 +529,21 @@
             "40 EF APT B",
             "40 EM",
             "40 HP",
+            "40 IB",
             "40 N113",
             "40-EAA",
             "40-EEA",
             "40-EF",
+            "40-EG",
+            "40-GF",
             "40-HA",
             "40-HD (WELL)",
             "40-HE",
             "40-HN",
             "40-HN A-A",
+            "40-I",
+            "40-IA",
+            "40-JA-RESIDENCE",
             "40-JB",
             "40-JC COTT 16-1",
             "40-JC COTT 16-H",
@@ -491,11 +552,14 @@
             "40-JE",
             "40-JF COT 8",
             "40-JG COTT 4",
+            "40-JH COTT 1",
+            "40-JI BLDG 2",
             "40-JJ COTT 7",
             "40-JK COTT 11",
             "40-K",
             "40-KA-KD",
             "40-KC",
+            "40-KM",
             "40-M",
             "40-MA",
             "40-MBB",
@@ -504,12 +568,25 @@
             "40D",
             "40EB A-1",
             "40EBA",
+            "40EO 1",
             "40ER",
+            "40FO",
             "40H A-1",
             "40HP HSE2",
             "40HS",
             "41",
             "41-A",
+            "43-B",
+            "45-B B",
+            "46-C",
+            "46-E",
+            "46-F",
+            "47 B",
+            "47-A",
+            "47-H",
+            "48A",
+            "49",
+            "49 (UPSTAIRS)",
             "5",
             "5-D",
             "5-E",
@@ -536,6 +613,7 @@
             "71",
             "72",
             "72-A",
+            "72-B",
             "74",
             "74 A-3 WEST",
             "74-A",
@@ -570,10 +648,12 @@
           ],
           "name": "La Grange",
           "sourceEventIDs": [
-            "16ef99a395004f49f9082b2d774431795149e20dc10a6438c220716764d79b6d"
+            "16ef99a395004f49f9082b2d774431795149e20dc10a6438c220716764d79b6d",
+            "935657719286220d01d7831cd0a96e31e023c5b8c53738981163dd5c2f2a8893",
+            "fafd56286e2e6348ed1b43cb0e7ebf118a2c701aebf7581d55ebfeade5fb9b70"
           ],
-          "sourceStatus": "Predicted",
-          "startedAt": "2026-10-25T14:05:08Z"
+          "sourceStatus": "Verified",
+          "startedAt": null
         },
         {
           "affectedCustomers": null,
@@ -967,14 +1047,38 @@
           "id": "stCroix-vicorp-land",
           "island": "stCroix",
           "locations": [
-            "17-F"
+            "(COBLE) 290I",
+            "109",
+            "130",
+            "14-A",
+            "142",
+            "17-F",
+            "175",
+            "222",
+            "268 H-229",
+            "31",
+            "325",
+            "36",
+            "393 PARCEL 5",
+            "4 (LOWER LOVE",
+            "43",
+            "43 (HSE 3)",
+            "49",
+            "50",
+            "51",
+            "536",
+            "61",
+            "79",
+            "82",
+            "98"
           ],
           "name": "Vicorp Land",
           "sourceEventIDs": [
-            "988608bbf292da6472f0e4c24d32883e697900833e1b971c2b442ea9426cbc87"
+            "80a9227de0275855af9eca01370fd9166ec611532b0101fe33cfb56e3864ae57",
+            "935657719286220d01d7831cd0a96e31e023c5b8c53738981163dd5c2f2a8893"
           ],
-          "sourceStatus": "Predicted",
-          "startedAt": "2026-10-27T14:14:00Z"
+          "sourceStatus": "Verified",
+          "startedAt": null
         }
       ]
     },
@@ -1008,21 +1112,21 @@
       ]
     }
   ],
-  "lastCollectionError": "Source update incomplete",
+  "lastCollectionError": null,
   "qualityNotes": [
     "Some source events need island review. Island totals and empty listings may be incomplete.",
     "WAPA\u2019s summary and event customer totals disagree. Customer totals are unconfirmed."
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "d621e431b5a1e031eb2af3c278bf8da317d2172a57a7eafa1394a26f59061db0",
+  "snapshotID": "ab3e2a957cdfad569373a80ae9350a49de7be3348c447a0f3830778444c63af2",
   "source": {
-    "checkedAt": "2026-10-27T14:15:30Z",
+    "checkedAt": "2026-10-27T14:25:29Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-10-27T14:14:46Z",
+    "updatedAt": "2026-10-27T14:24:49Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "staleAfterSeconds": 900,
-  "unassignedEventCount": 29
+  "unassignedEventCount": 23
 }
