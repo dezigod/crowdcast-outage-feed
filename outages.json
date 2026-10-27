@@ -1,6 +1,6 @@
 {
-  "collectionStatus": "failed",
-  "generatedAt": "2026-10-27T19:50:30Z",
+  "collectionStatus": "ok",
+  "generatedAt": "2026-10-27T20:00:28Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -95,7 +95,23 @@
       "coverage": "partial",
       "customersOut": null,
       "id": "stCroix",
-      "neighborhoods": []
+      "neighborhoods": [
+        {
+          "affectedCustomers": null,
+          "estimatedRestoration": null,
+          "id": "stCroix-sion-hill",
+          "island": "stCroix",
+          "locations": [
+            "16-B"
+          ],
+          "name": "Sion Hill",
+          "sourceEventIDs": [
+            "cf907507ed022b7d0fbd6a0f196dc30061d4ec47b38317569f7c1b732bdd7bcd"
+          ],
+          "sourceStatus": "Predicted",
+          "startedAt": "2026-10-27T19:57:15Z"
+        }
+      ]
     },
     {
       "coverage": "partial",
@@ -127,21 +143,21 @@
       ]
     }
   ],
-  "lastCollectionError": "Source update incomplete",
+  "lastCollectionError": null,
   "qualityNotes": [
     "Some source events need island review. Island totals and empty listings may be incomplete.",
     "WAPA\u2019s summary and event customer totals disagree. Customer totals are unconfirmed."
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "94a85a36c2e396049489ba1b5461dad579d8c6349ece750a81b93f457ea23d4e",
+  "snapshotID": "1523d9f3047e5af1b13a888ea14df3a0c5ad8c6af5361afea25b4dea173c10c6",
   "source": {
-    "checkedAt": "2026-10-27T19:50:30Z",
+    "checkedAt": "2026-10-27T20:00:28Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-10-27T19:49:40Z",
+    "updatedAt": "2026-10-27T19:59:41Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "staleAfterSeconds": 900,
-  "unassignedEventCount": 12
+  "unassignedEventCount": 11
 }
