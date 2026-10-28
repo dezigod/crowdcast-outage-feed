@@ -1,6 +1,6 @@
 {
-  "collectionStatus": "failed",
-  "generatedAt": "2026-10-28T13:35:30Z",
+  "collectionStatus": "ok",
+  "generatedAt": "2026-10-28T13:40:30Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -100,7 +100,29 @@
       "coverage": "partial",
       "customersOut": null,
       "id": "stCroix",
-      "neighborhoods": []
+      "neighborhoods": [
+        {
+          "affectedCustomers": null,
+          "estimatedRestoration": null,
+          "id": "stCroix-pump-garden",
+          "island": "stCroix",
+          "locations": [
+            "B-4",
+            "Building 3",
+            "Building 4",
+            "Building 5",
+            "Building 6",
+            "Building 7",
+            "House"
+          ],
+          "name": "Pompano / Pump Garden",
+          "sourceEventIDs": [
+            "0831c70b7665ae439ccf3ea134b13bf5d4998adb7deb510bf60c288e8ca2e4cc"
+          ],
+          "sourceStatus": "Predicted",
+          "startedAt": "2026-10-28T13:36:18Z"
+        }
+      ]
     },
     {
       "coverage": "partial",
@@ -132,18 +154,18 @@
       ]
     }
   ],
-  "lastCollectionError": "Source update incomplete",
+  "lastCollectionError": null,
   "qualityNotes": [
     "Some source events need island review. Island totals and empty listings may be incomplete.",
     "WAPA\u2019s summary and event customer totals disagree. Customer totals are unconfirmed."
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "90a2ca99fee96e697adf1ba51890a27fd667a61152eb146fc91af2294fa73c8b",
+  "snapshotID": "bc4e6753ff87e43d7b0bb00d00592fedbead2a9fa22504a001b6f33c42c5d8ed",
   "source": {
-    "checkedAt": "2026-10-28T13:35:30Z",
+    "checkedAt": "2026-10-28T13:40:30Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-10-28T13:34:41Z",
+    "updatedAt": "2026-10-28T13:39:41Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
