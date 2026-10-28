@@ -1,6 +1,6 @@
 {
-  "collectionStatus": "failed",
-  "generatedAt": "2026-10-28T06:25:30Z",
+  "collectionStatus": "ok",
+  "generatedAt": "2026-10-28T06:35:30Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -79,12 +79,17 @@
             "46",
             "69",
             "72 INSPECTION LN",
-            "8168"
+            "8168",
+            "92",
+            "99A",
+            "99A BASE B",
+            "99B SUBMARINE BAS"
           ],
           "name": "Subbase",
           "sourceEventIDs": [
             "65a9554d0c59a0c34c13d9c583fb20bf21a96d9ad2e765eb3294b9fa5bcf1da6",
-            "cbbd2ef62dee6d0405b3a5d5c18b1c3c5a5b4dbca8f2f81c8fc8d71e6fec7176"
+            "cbbd2ef62dee6d0405b3a5d5c18b1c3c5a5b4dbca8f2f81c8fc8d71e6fec7176",
+            "f4fb9b2d997cab5931ff5c1cae81f096fc33c14bb93471dbd6ef941f0a8326d5"
           ],
           "sourceStatus": "Unconfirmed",
           "startedAt": null
@@ -127,18 +132,18 @@
       ]
     }
   ],
-  "lastCollectionError": "Source update incomplete",
+  "lastCollectionError": null,
   "qualityNotes": [
     "Some source events need island review. Island totals and empty listings may be incomplete.",
     "WAPA\u2019s summary and event customer totals disagree. Customer totals are unconfirmed."
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "86f1f71db5ad5ad183acada529b45b55b1991f78d5a9a2ee42a178d33cac2a2a",
+  "snapshotID": "b84a1da1a95fe5aedb5df2bdfb7b3ace531a1499348352626fc40be488b34cc6",
   "source": {
-    "checkedAt": "2026-10-28T06:25:30Z",
+    "checkedAt": "2026-10-28T06:35:30Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-10-28T06:24:40Z",
+    "updatedAt": "2026-10-28T06:34:40Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
