@@ -1,5 +1,5 @@
 {
-  "collectionStatus": "ok",
+  "collectionStatus": "failed",
   "generatedAt": "2026-10-28T18:05:31Z",
   "hasConflictingTotals": true,
   "islands": [
@@ -152,7 +152,7 @@
       "neighborhoods": []
     }
   ],
-  "lastCollectionError": null,
+  "lastCollectionError": "Source update incomplete",
   "qualityNotes": [
     "Some source events need island review. Island totals and empty listings may be incomplete.",
     "WAPA\u2019s summary and event customer totals disagree. Customer totals are unconfirmed."
