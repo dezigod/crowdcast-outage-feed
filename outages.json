@@ -1,6 +1,6 @@
 {
-  "collectionStatus": "failed",
-  "generatedAt": "2026-10-28T13:10:36Z",
+  "collectionStatus": "ok",
+  "generatedAt": "2026-10-28T13:20:29Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -49,8 +49,8 @@
           ],
           "name": "Agnes Fancy",
           "sourceEventIDs": [
-            "65a9554d0c59a0c34c13d9c583fb20bf21a96d9ad2e765eb3294b9fa5bcf1da6",
-            "688d24f7b6e72cb60f9dd7cfcfc315b9ee0efe7095b9fbf192b7ed84c8031d54"
+            "688d24f7b6e72cb60f9dd7cfcfc315b9ee0efe7095b9fbf192b7ed84c8031d54",
+            "8fff817c4ff9504dd41a29e7b8386f237404c8db7a53839f699d66e8f9b046cd"
           ],
           "sourceStatus": "Predicted",
           "startedAt": null
@@ -87,7 +87,7 @@
           ],
           "name": "Subbase",
           "sourceEventIDs": [
-            "65a9554d0c59a0c34c13d9c583fb20bf21a96d9ad2e765eb3294b9fa5bcf1da6",
+            "8fff817c4ff9504dd41a29e7b8386f237404c8db7a53839f699d66e8f9b046cd",
             "cbbd2ef62dee6d0405b3a5d5c18b1c3c5a5b4dbca8f2f81c8fc8d71e6fec7176",
             "f4fb9b2d997cab5931ff5c1cae81f096fc33c14bb93471dbd6ef941f0a8326d5"
           ],
@@ -132,21 +132,21 @@
       ]
     }
   ],
-  "lastCollectionError": "Source update incomplete",
+  "lastCollectionError": null,
   "qualityNotes": [
     "Some source events need island review. Island totals and empty listings may be incomplete.",
     "WAPA\u2019s summary and event customer totals disagree. Customer totals are unconfirmed."
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "9d6de1213e3d1a164fb727a20788c3b8c46edc69e4881fa1575c8eb34fbda84d",
+  "snapshotID": "0d588d7352eead5e85598a1fdcbca54530dda9018472828e4b1ecda6a851342a",
   "source": {
-    "checkedAt": "2026-10-28T13:10:36Z",
+    "checkedAt": "2026-10-28T13:20:29Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-10-28T13:09:41Z",
+    "updatedAt": "2026-10-28T13:19:41Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "staleAfterSeconds": 900,
-  "unassignedEventCount": 12
+  "unassignedEventCount": 11
 }
