@@ -1,6 +1,6 @@
 {
-  "collectionStatus": "failed",
-  "generatedAt": "2026-10-29T19:30:30Z",
+  "collectionStatus": "ok",
+  "generatedAt": "2026-10-29T19:40:28Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -110,7 +110,38 @@
       "coverage": "partial",
       "customersOut": null,
       "id": "stCroix",
-      "neighborhoods": []
+      "neighborhoods": [
+        {
+          "affectedCustomers": null,
+          "estimatedRestoration": null,
+          "id": "stCroix-pump-garden",
+          "island": "stCroix",
+          "locations": [
+            "B-1",
+            "B-30",
+            "Building 1",
+            "Building 19",
+            "Building 21",
+            "Building 23",
+            "Building 24",
+            "Building 25",
+            "Building 25 LIGHT",
+            "Building 25 STAIR",
+            "Building 26",
+            "Building 27",
+            "Building 28",
+            "Building 28 STAIR",
+            "Building 29",
+            "Building 30"
+          ],
+          "name": "Pompano / Pump Garden",
+          "sourceEventIDs": [
+            "2fd4c62f71c1ed831207a0d5f944e06458cc88a0d3b288ad323c8658637263d6"
+          ],
+          "sourceStatus": "Verified",
+          "startedAt": "2026-10-29T19:33:17Z"
+        }
+      ]
     },
     {
       "coverage": "partial",
@@ -141,21 +172,21 @@
       ]
     }
   ],
-  "lastCollectionError": "Source update incomplete",
+  "lastCollectionError": null,
   "qualityNotes": [
     "Some source events need island review. Island totals and empty listings may be incomplete.",
     "WAPA\u2019s summary and event customer totals disagree. Customer totals are unconfirmed."
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "e6de4d8a5ab421dd40068e7767f14e78f6e56b724bb96189b5ee3eff2c71d81c",
+  "snapshotID": "db016d3b4c034437f11f2fdba1e850396d34e32009c8662306b5ddeaa3d7624a",
   "source": {
-    "checkedAt": "2026-10-29T19:30:30Z",
+    "checkedAt": "2026-10-29T19:40:28Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-10-29T19:29:47Z",
+    "updatedAt": "2026-10-29T19:39:47Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "staleAfterSeconds": 900,
-  "unassignedEventCount": 13
+  "unassignedEventCount": 16
 }
