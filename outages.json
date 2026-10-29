@@ -1,6 +1,6 @@
 {
-  "collectionStatus": "failed",
-  "generatedAt": "2026-10-29T20:40:28Z",
+  "collectionStatus": "ok",
+  "generatedAt": "2026-10-29T20:45:29Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -93,21 +93,6 @@
           ],
           "sourceStatus": "Verified",
           "startedAt": "2026-10-29T19:33:17Z"
-        },
-        {
-          "affectedCustomers": null,
-          "estimatedRestoration": null,
-          "id": "stCroix-vicorp-land",
-          "island": "stCroix",
-          "locations": [
-            "109"
-          ],
-          "name": "Vicorp Land",
-          "sourceEventIDs": [
-            "256ace2535e93b49c2d880875d3812cb9e8ad2f4dda611aef830e69e7068b1fd"
-          ],
-          "sourceStatus": "Predicted",
-          "startedAt": "2026-10-29T20:02:45Z"
         }
       ]
     },
@@ -140,21 +125,21 @@
       ]
     }
   ],
-  "lastCollectionError": "Source update incomplete",
+  "lastCollectionError": null,
   "qualityNotes": [
     "Some source events need island review. Island totals and empty listings may be incomplete.",
     "WAPA\u2019s summary and event customer totals disagree. Customer totals are unconfirmed."
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "8b925f40e9b67f35d97a26a4f23111d2b966c65d496a9f46e2683d737034dffe",
+  "snapshotID": "db85e82f35a1bd18b4b1849b2a5cdcd2bd6c10ffcbb6a2e42d49c838b936c268",
   "source": {
-    "checkedAt": "2026-10-29T20:40:28Z",
+    "checkedAt": "2026-10-29T20:45:29Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-10-29T20:39:47Z",
+    "updatedAt": "2026-10-29T20:44:47Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "staleAfterSeconds": 900,
-  "unassignedEventCount": 16
+  "unassignedEventCount": 15
 }
