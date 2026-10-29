@@ -1,6 +1,6 @@
 {
-  "collectionStatus": "failed",
-  "generatedAt": "2026-10-29T03:25:28Z",
+  "collectionStatus": "ok",
+  "generatedAt": "2026-10-29T03:30:29Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -61,6 +61,8 @@
           "id": "stThomas-st-peter",
           "island": "stThomas",
           "locations": [
+            "14-6",
+            "18A",
             "31-18 HSE METER",
             "31-19 & 31-18",
             "31-22 NORTH STAR",
@@ -69,10 +71,11 @@
           ],
           "name": "Estate St. Peter",
           "sourceEventIDs": [
+            "10a42c79266b31d21945e52efc93d0f175f36d174c87c570f300760abc4b913d",
             "b385fda4dfbc682f4cbb35ba4428069ad2eff9c096fb89c72b6febbf2edfde12"
           ],
           "sourceStatus": "Predicted",
-          "startedAt": "2026-10-29T01:52:57Z"
+          "startedAt": null
         },
         {
           "affectedCustomers": null,
@@ -187,21 +190,21 @@
       "neighborhoods": []
     }
   ],
-  "lastCollectionError": "Source update incomplete",
+  "lastCollectionError": null,
   "qualityNotes": [
     "Some source events need island review. Island totals and empty listings may be incomplete.",
     "WAPA\u2019s summary and event customer totals disagree. Customer totals are unconfirmed."
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "6cd7773ecff0935fda8ccf6caf466f5198d85f3d328d05f92a6e3cc7548a3f0a",
+  "snapshotID": "f813c88204eda28c1dc41ef433b7adeef238a748dc8f4f8548a6739d9f455f3a",
   "source": {
-    "checkedAt": "2026-10-29T03:25:28Z",
+    "checkedAt": "2026-10-29T03:30:29Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-10-29T03:24:43Z",
+    "updatedAt": "2026-10-29T03:29:44Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "staleAfterSeconds": 900,
-  "unassignedEventCount": 22
+  "unassignedEventCount": 23
 }
