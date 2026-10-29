@@ -1,6 +1,6 @@
 {
-  "collectionStatus": "failed",
-  "generatedAt": "2026-10-29T18:05:29Z",
+  "collectionStatus": "ok",
+  "generatedAt": "2026-10-29T18:10:30Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -110,31 +110,7 @@
       "coverage": "partial",
       "customersOut": null,
       "id": "stCroix",
-      "neighborhoods": [
-        {
-          "affectedCustomers": null,
-          "estimatedRestoration": null,
-          "id": "stCroix-pump-garden",
-          "island": "stCroix",
-          "locations": [
-            "B-2",
-            "B-4",
-            "Building 2",
-            "Building 3",
-            "Building 4",
-            "Building 5",
-            "Building 6",
-            "Building 7",
-            "House"
-          ],
-          "name": "Pompano / Pump Garden",
-          "sourceEventIDs": [
-            "a17aca74c496300d2ad6f908ef606843875d023a715e2e59d29df6c650935bc9"
-          ],
-          "sourceStatus": "Verified",
-          "startedAt": "2026-10-28T13:36:18Z"
-        }
-      ]
+      "neighborhoods": []
     },
     {
       "coverage": "partial",
@@ -165,21 +141,21 @@
       ]
     }
   ],
-  "lastCollectionError": "Source update incomplete",
+  "lastCollectionError": null,
   "qualityNotes": [
     "Some source events need island review. Island totals and empty listings may be incomplete.",
     "WAPA\u2019s summary and event customer totals disagree. Customer totals are unconfirmed."
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "9da2f54556f937f80c29da64b3c9ba0f42cedc297cf86778a9839478fe157299",
+  "snapshotID": "ae1d6eaad7dc5c23056b8935a9ae41c0c253c59075b0dba8ce317ca2841d791c",
   "source": {
-    "checkedAt": "2026-10-29T18:05:29Z",
+    "checkedAt": "2026-10-29T18:10:30Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-10-29T18:04:46Z",
+    "updatedAt": "2026-10-29T18:09:48Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "staleAfterSeconds": 900,
-  "unassignedEventCount": 14
+  "unassignedEventCount": 13
 }
