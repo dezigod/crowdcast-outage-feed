@@ -1,6 +1,6 @@
 {
-  "collectionStatus": "failed",
-  "generatedAt": "2026-10-29T20:00:30Z",
+  "collectionStatus": "ok",
+  "generatedAt": "2026-10-29T20:10:29Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -14,46 +14,16 @@
           "id": "stThomas-agnes-fancy",
           "island": "stThomas",
           "locations": [
-            "10",
-            "10 APT-1",
-            "10 APT-2",
-            "10 APT-5",
-            "10 APT-6",
-            "100",
-            "101",
-            "107",
-            "109A",
-            "114",
-            "114 A",
-            "15B",
-            "24A",
-            "24A APT-1",
             "5-A",
             "5B",
-            "5F",
-            "77",
-            "79",
-            "79 BLDG 3",
-            "79 DOWN",
-            "79A",
-            "79A BLDG 2",
-            "8 MTR-1",
-            "83",
-            "86 APT-A",
-            "86 APT-B",
-            "90",
-            "92",
-            "95",
-            "9B",
-            "MTR C"
+            "5F"
           ],
           "name": "Agnes Fancy",
           "sourceEventIDs": [
-            "688d24f7b6e72cb60f9dd7cfcfc315b9ee0efe7095b9fbf192b7ed84c8031d54",
-            "8fff817c4ff9504dd41a29e7b8386f237404c8db7a53839f699d66e8f9b046cd"
+            "688d24f7b6e72cb60f9dd7cfcfc315b9ee0efe7095b9fbf192b7ed84c8031d54"
           ],
           "sourceStatus": "Predicted",
-          "startedAt": null
+          "startedAt": "2026-05-24T00:16:58Z"
         },
         {
           "affectedCustomers": null,
@@ -78,31 +48,14 @@
           "locations": [
             "100",
             "101",
-            "11B",
-            "133",
-            "168-308",
-            "168-501 B-5",
-            "168-504",
-            "168-506 BAY #4",
-            "23",
-            "23 A-B",
-            "39",
-            "40 - LAUNDROMAT",
-            "41",
-            "41 STE 110",
-            "43-43A",
-            "46",
-            "69",
-            "72 INSPECTION LN",
-            "8168"
+            "69"
           ],
           "name": "Subbase",
           "sourceEventIDs": [
-            "8fff817c4ff9504dd41a29e7b8386f237404c8db7a53839f699d66e8f9b046cd",
             "cbbd2ef62dee6d0405b3a5d5c18b1c3c5a5b4dbca8f2f81c8fc8d71e6fec7176"
           ],
-          "sourceStatus": "Unconfirmed",
-          "startedAt": null
+          "sourceStatus": "Verified",
+          "startedAt": "2026-10-14T15:23:16Z"
         }
       ]
     },
@@ -140,6 +93,21 @@
           ],
           "sourceStatus": "Verified",
           "startedAt": "2026-10-29T19:33:17Z"
+        },
+        {
+          "affectedCustomers": null,
+          "estimatedRestoration": null,
+          "id": "stCroix-vicorp-land",
+          "island": "stCroix",
+          "locations": [
+            "109"
+          ],
+          "name": "Vicorp Land",
+          "sourceEventIDs": [
+            "256ace2535e93b49c2d880875d3812cb9e8ad2f4dda611aef830e69e7068b1fd"
+          ],
+          "sourceStatus": "Predicted",
+          "startedAt": "2026-10-29T20:02:45Z"
         }
       ]
     },
@@ -172,18 +140,18 @@
       ]
     }
   ],
-  "lastCollectionError": "Source update incomplete",
+  "lastCollectionError": null,
   "qualityNotes": [
     "Some source events need island review. Island totals and empty listings may be incomplete.",
     "WAPA\u2019s summary and event customer totals disagree. Customer totals are unconfirmed."
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "b367fffec95623b8c0306c0a7e64eb42e895ceed7f22cc4c972fbb235fdd269b",
+  "snapshotID": "35d12012668fc81b3f2b3d6445a315ba692156b7206af347bc71bc3b16947f6e",
   "source": {
-    "checkedAt": "2026-10-29T20:00:30Z",
+    "checkedAt": "2026-10-29T20:10:29Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-10-29T19:59:46Z",
+    "updatedAt": "2026-10-29T20:09:47Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
