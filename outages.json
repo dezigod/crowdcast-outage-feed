@@ -1,6 +1,6 @@
 {
-  "collectionStatus": "failed",
-  "generatedAt": "2026-10-29T16:20:28Z",
+  "collectionStatus": "ok",
+  "generatedAt": "2026-10-29T16:25:43Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -127,9 +127,9 @@
           ],
           "name": "Pompano / Pump Garden",
           "sourceEventIDs": [
-            "0831c70b7665ae439ccf3ea134b13bf5d4998adb7deb510bf60c288e8ca2e4cc"
+            "a17aca74c496300d2ad6f908ef606843875d023a715e2e59d29df6c650935bc9"
           ],
-          "sourceStatus": "Predicted",
+          "sourceStatus": "Verified",
           "startedAt": "2026-10-28T13:36:18Z"
         }
       ]
@@ -147,18 +147,18 @@
       "neighborhoods": []
     }
   ],
-  "lastCollectionError": "Source update incomplete",
+  "lastCollectionError": null,
   "qualityNotes": [
     "Some source events need island review. Island totals and empty listings may be incomplete.",
     "WAPA\u2019s summary and event customer totals disagree. Customer totals are unconfirmed."
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "94adcb410ebb1f96774f018375874999f041fdab245825928434ccf66cf5c0ce",
+  "snapshotID": "5c543070d901b1fa69abcccac444abfdfe402c2da00f88fad8fccb8c534b3dd2",
   "source": {
-    "checkedAt": "2026-10-29T16:20:28Z",
+    "checkedAt": "2026-10-29T16:25:43Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-10-29T16:19:45Z",
+    "updatedAt": "2026-10-29T16:24:46Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
