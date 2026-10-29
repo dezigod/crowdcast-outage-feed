@@ -1,6 +1,6 @@
 {
-  "collectionStatus": "failed",
-  "generatedAt": "2026-10-29T17:25:33Z",
+  "collectionStatus": "ok",
+  "generatedAt": "2026-10-29T17:35:28Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -117,7 +117,9 @@
           "id": "stCroix-pump-garden",
           "island": "stCroix",
           "locations": [
+            "B-2",
             "B-4",
+            "Building 2",
             "Building 3",
             "Building 4",
             "Building 5",
@@ -144,24 +146,40 @@
       "coverage": "partial",
       "customersOut": null,
       "id": "waterIsland",
-      "neighborhoods": []
+      "neighborhoods": [
+        {
+          "affectedCustomers": null,
+          "estimatedRestoration": null,
+          "id": "waterIsland-water-island",
+          "island": "waterIsland",
+          "locations": [
+            "86"
+          ],
+          "name": "Water Island",
+          "sourceEventIDs": [
+            "ed7189ade6de10f006f5ecc4a51048f2b57e1c825b2228b549ee0b4f612b89a3"
+          ],
+          "sourceStatus": "Predicted",
+          "startedAt": "2026-10-29T17:26:59Z"
+        }
+      ]
     }
   ],
-  "lastCollectionError": "Source update incomplete",
+  "lastCollectionError": null,
   "qualityNotes": [
     "Some source events need island review. Island totals and empty listings may be incomplete.",
     "WAPA\u2019s summary and event customer totals disagree. Customer totals are unconfirmed."
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "8f9e8dee41995eeb229c80c0b79581c50ff727c1808bcd31b84fa289a8574b59",
+  "snapshotID": "49215e4c9934b6feeb0060ba1f803e5257cb95f5d5f190d42222934215127529",
   "source": {
-    "checkedAt": "2026-10-29T17:25:33Z",
+    "checkedAt": "2026-10-29T17:35:28Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-10-29T17:24:46Z",
+    "updatedAt": "2026-10-29T17:34:46Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "staleAfterSeconds": 900,
-  "unassignedEventCount": 13
+  "unassignedEventCount": 16
 }
