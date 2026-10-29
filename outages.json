@@ -1,6 +1,6 @@
 {
-  "collectionStatus": "failed",
-  "generatedAt": "2026-10-29T04:25:28Z",
+  "collectionStatus": "ok",
+  "generatedAt": "2026-10-29T04:30:30Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -58,39 +58,19 @@
         {
           "affectedCustomers": null,
           "estimatedRestoration": null,
-          "id": "stThomas-st-peter",
-          "island": "stThomas",
-          "locations": [
-            "14-6",
-            "18A",
-            "31-18 HSE METER",
-            "31-19 & 31-18",
-            "31-22 NORTH STAR",
-            "31-22 NORTHSTAR",
-            "3I-20 HIBIS LANE"
-          ],
-          "name": "Estate St. Peter",
-          "sourceEventIDs": [
-            "10a42c79266b31d21945e52efc93d0f175f36d174c87c570f300760abc4b913d",
-            "b385fda4dfbc682f4cbb35ba4428069ad2eff9c096fb89c72b6febbf2edfde12"
-          ],
-          "sourceStatus": "Predicted",
-          "startedAt": null
-        },
-        {
-          "affectedCustomers": null,
-          "estimatedRestoration": null,
           "id": "stThomas-lovenlund",
           "island": "stThomas",
           "locations": [
-            "EST FARMHOUSE"
+            "EST FARMHOUSE",
+            "PCL D-12 L/41"
           ],
           "name": "Lovenlund",
           "sourceEventIDs": [
+            "9a156e076be934569d2f28f28066ea1324d6323d3d021024aef4774f5d3856b6",
             "a10d3c1e76bae8f4cb703361893267894bd24e3173bb32e85e9a28ccfaf661cf"
           ],
-          "sourceStatus": "Predicted",
-          "startedAt": "2026-10-28T14:49:40Z"
+          "sourceStatus": "Verified",
+          "startedAt": null
         },
         {
           "affectedCustomers": null,
@@ -190,21 +170,21 @@
       "neighborhoods": []
     }
   ],
-  "lastCollectionError": "Source update incomplete",
+  "lastCollectionError": null,
   "qualityNotes": [
     "Some source events need island review. Island totals and empty listings may be incomplete.",
     "WAPA\u2019s summary and event customer totals disagree. Customer totals are unconfirmed."
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "be3255758bf68330e12be03e9401a4a2afe6b533f505814683cde498a444ed83",
+  "snapshotID": "c072e3143079371edfd4d696f1ae59cf661179103124c732a6a1e6607bd02c13",
   "source": {
-    "checkedAt": "2026-10-29T04:25:28Z",
+    "checkedAt": "2026-10-29T04:30:30Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-10-29T04:24:44Z",
+    "updatedAt": "2026-10-29T04:29:46Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "staleAfterSeconds": 900,
-  "unassignedEventCount": 26
+  "unassignedEventCount": 19
 }
