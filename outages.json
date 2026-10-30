@@ -1,6 +1,6 @@
 {
-  "collectionStatus": "failed",
-  "generatedAt": "2026-10-30T21:25:29Z",
+  "collectionStatus": "ok",
+  "generatedAt": "2026-10-30T21:30:29Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -43,6 +43,25 @@
         {
           "affectedCustomers": null,
           "estimatedRestoration": null,
+          "id": "stThomas-peterborg",
+          "island": "stThomas",
+          "locations": [
+            "8-14",
+            "8-17",
+            "8-25",
+            "8-27-1",
+            "8-9"
+          ],
+          "name": "Peterborg",
+          "sourceEventIDs": [
+            "1e62c773dfe5aaf43aa95d22a69d50ee20e13a021f87108cf46e3c799058cfe1"
+          ],
+          "sourceStatus": "Predicted",
+          "startedAt": "2026-10-30T21:25:47Z"
+        },
+        {
+          "affectedCustomers": null,
+          "estimatedRestoration": null,
           "id": "stThomas-subbase",
           "island": "stThomas",
           "locations": [
@@ -63,38 +82,7 @@
       "coverage": "partial",
       "customersOut": null,
       "id": "stCroix",
-      "neighborhoods": [
-        {
-          "affectedCustomers": null,
-          "estimatedRestoration": null,
-          "id": "stCroix-pump-garden",
-          "island": "stCroix",
-          "locations": [
-            "B-1",
-            "B-30",
-            "Building 1",
-            "Building 19",
-            "Building 21",
-            "Building 23",
-            "Building 24",
-            "Building 25",
-            "Building 25 LIGHT",
-            "Building 25 STAIR",
-            "Building 26",
-            "Building 27",
-            "Building 28",
-            "Building 28 STAIR",
-            "Building 29",
-            "Building 30"
-          ],
-          "name": "Pompano / Pump Garden",
-          "sourceEventIDs": [
-            "c8b8236143b526ed0ee6554776979935c0791bf519819bcf63ce8bbfee047c75"
-          ],
-          "sourceStatus": "Verified",
-          "startedAt": "2026-10-30T19:29:00Z"
-        }
-      ]
+      "neighborhoods": []
     },
     {
       "coverage": "partial",
@@ -125,21 +113,21 @@
       ]
     }
   ],
-  "lastCollectionError": "Source update incomplete",
+  "lastCollectionError": null,
   "qualityNotes": [
     "Some source events need island review. Island totals and empty listings may be incomplete.",
     "WAPA\u2019s summary and event customer totals disagree. Customer totals are unconfirmed."
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "dc5230080de39cd1459324443f08070ebe5c688546172732deab998047b7607e",
+  "snapshotID": "88ecebe0ce6f90c8552d27f1c63302c0e2b1917916e823f9416f7cdfa4721b05",
   "source": {
-    "checkedAt": "2026-10-30T21:25:29Z",
+    "checkedAt": "2026-10-30T21:30:29Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-10-30T21:24:48Z",
+    "updatedAt": "2026-10-30T21:29:49Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "staleAfterSeconds": 900,
-  "unassignedEventCount": 8
+  "unassignedEventCount": 9
 }
