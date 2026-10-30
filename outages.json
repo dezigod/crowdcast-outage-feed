@@ -1,6 +1,6 @@
 {
-  "collectionStatus": "failed",
-  "generatedAt": "2026-10-30T23:25:30Z",
+  "collectionStatus": "ok",
+  "generatedAt": "2026-10-30T23:35:29Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -82,7 +82,30 @@
       "coverage": "partial",
       "customersOut": null,
       "id": "stCroix",
-      "neighborhoods": []
+      "neighborhoods": [
+        {
+          "affectedCustomers": null,
+          "estimatedRestoration": null,
+          "id": "stCroix-la-grange",
+          "island": "stCroix",
+          "locations": [
+            "40-JB",
+            "40-JC COTT 16-1",
+            "40-JC COTT 16-H",
+            "40-JC COTT 9",
+            "41",
+            "41-A",
+            "74-A COTT 6-A",
+            "74A 6-B COTTAGE"
+          ],
+          "name": "La Grange",
+          "sourceEventIDs": [
+            "ba2669febcc04e01c425f2b4431ba1db3b10b39748d5b56def5bc4de1c8d8089"
+          ],
+          "sourceStatus": "Predicted",
+          "startedAt": "2026-10-30T23:26:54Z"
+        }
+      ]
     },
     {
       "coverage": "partial",
@@ -113,21 +136,21 @@
       ]
     }
   ],
-  "lastCollectionError": "Source update incomplete",
+  "lastCollectionError": null,
   "qualityNotes": [
     "Some source events need island review. Island totals and empty listings may be incomplete.",
     "WAPA\u2019s summary and event customer totals disagree. Customer totals are unconfirmed."
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "9ec6c493f066fe78813f11683acecade9d646f26b16e2918182d615d7b1b4ab1",
+  "snapshotID": "ce1afeef88d2efe0c67601a446c77e30ca5d2528f15a966768b13e175f520455",
   "source": {
-    "checkedAt": "2026-10-30T23:25:30Z",
+    "checkedAt": "2026-10-30T23:35:29Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-10-30T23:24:48Z",
+    "updatedAt": "2026-10-30T23:34:48Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "staleAfterSeconds": 900,
-  "unassignedEventCount": 12
+  "unassignedEventCount": 11
 }
