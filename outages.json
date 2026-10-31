@@ -1,6 +1,6 @@
 {
-  "collectionStatus": "failed",
-  "generatedAt": "2026-10-31T19:10:30Z",
+  "collectionStatus": "ok",
+  "generatedAt": "2026-10-31T19:20:32Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -79,18 +79,18 @@
       ]
     }
   ],
-  "lastCollectionError": "Source update incomplete",
+  "lastCollectionError": null,
   "qualityNotes": [
     "Some source events need island review. Island totals and empty listings may be incomplete.",
     "WAPA\u2019s summary and event customer totals disagree. Customer totals are unconfirmed."
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "48fa8896c2e5446f9b8997f0b061b833a013b60911a7b135656b62cf1fab73e3",
+  "snapshotID": "2d985de1b06db1b7f8747761cdd4799b389a5c00adbc4c040296dd35c0a62a09",
   "source": {
-    "checkedAt": "2026-10-31T19:10:30Z",
+    "checkedAt": "2026-10-31T19:20:32Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-10-31T19:09:50Z",
+    "updatedAt": "2026-10-31T19:19:50Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
