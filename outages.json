@@ -1,6 +1,6 @@
 {
-  "collectionStatus": "failed",
-  "generatedAt": "2026-10-31T18:30:27Z",
+  "collectionStatus": "ok",
+  "generatedAt": "2026-10-31T18:35:28Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -63,30 +63,7 @@
       "coverage": "partial",
       "customersOut": null,
       "id": "stCroix",
-      "neighborhoods": [
-        {
-          "affectedCustomers": null,
-          "estimatedRestoration": null,
-          "id": "stCroix-la-grange",
-          "island": "stCroix",
-          "locations": [
-            "40-JB",
-            "40-JC COTT 16-1",
-            "40-JC COTT 16-H",
-            "40-JC COTT 9",
-            "41",
-            "41-A",
-            "74-A COTT 6-A",
-            "74A 6-B COTTAGE"
-          ],
-          "name": "La Grange",
-          "sourceEventIDs": [
-            "ba2669febcc04e01c425f2b4431ba1db3b10b39748d5b56def5bc4de1c8d8089"
-          ],
-          "sourceStatus": "Predicted",
-          "startedAt": "2026-10-30T23:26:54Z"
-        }
-      ]
+      "neighborhoods": []
     },
     {
       "coverage": "partial",
@@ -117,18 +94,18 @@
       ]
     }
   ],
-  "lastCollectionError": "Source update incomplete",
+  "lastCollectionError": null,
   "qualityNotes": [
     "Some source events need island review. Island totals and empty listings may be incomplete.",
     "WAPA\u2019s summary and event customer totals disagree. Customer totals are unconfirmed."
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "5062db19379104130697da73ec0cb26ada5947533f096a7110bb1bf9f745cb73",
+  "snapshotID": "0eb1ee68971c953c9b4e447c964402148c86c69ea020c8f5ac93087c4e69a740",
   "source": {
-    "checkedAt": "2026-10-31T18:30:27Z",
+    "checkedAt": "2026-10-31T18:35:28Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-10-31T18:29:50Z",
+    "updatedAt": "2026-10-31T18:34:51Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
