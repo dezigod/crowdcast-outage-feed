@@ -45,3 +45,14 @@ class FeedHealthTests(unittest.TestCase):
             monitor.alert("example/test", ["stale"])
             self.assertEqual(gh.call_args.args[:2], ("issue", "create"))
             self.assertIn("@dezigod", gh.call_args.args[-1])
+
+    def test_backup_cruise_incident_does_not_close_outage_incident(self):
+        import json
+        with patch.object(monitor, "gh", return_value=json.dumps([{"title": monitor.TITLE, "number": 1}])) as gh:
+            monitor.alert("dezigod/crowdcast-outage-feed", [], title="Cruise feed freshness alert")
+            self.assertEqual(gh.call_count, 1)
+
+    def test_backup_cruise_alert_uses_its_own_title(self):
+        with patch.object(monitor, "gh", return_value="[]") as gh:
+            monitor.alert("dezigod/crowdcast-outage-feed", ["Cruise source is stale"], title="Cruise feed freshness alert")
+            self.assertIn("Cruise feed freshness alert", gh.call_args.args)
