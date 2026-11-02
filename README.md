@@ -128,3 +128,5 @@ five minutes. This backup monitor checks BOTH public feeds using the same
 outage-repository-scoped Actions key. A cruise incident found by this independent
 path is titled `Cruise feed freshness alert` in this repository; it cannot
 change or collect cruise source data. Native cruise monitoring remains enabled.
+
+Each outage check first saves its next permitted attempt time. The public feed keeps its previous result during the download. When the check finishes, the job publishes the outcome and the reviewed feed together. A temporary GitHub server or network error gets one bounded retry of the same GitHub operation. A refused source request retains the existing access restrictions. Both-feed monitor logs include the observed source timestamps so delivery gaps can be checked later.

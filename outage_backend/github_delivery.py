@@ -7,6 +7,7 @@ import os
 from pathlib import Path
 import re
 from tempfile import TemporaryDirectory
+import time
 import urllib.error
 import urllib.request
 
@@ -74,11 +75,16 @@ class PublishingStore(Store):
         if FEED in previous:
             super().write("feed.json", public_feed(previous[FEED]))
 
+    def reserve(self, attempt):
+        # Commit the throttle before any source access. The previous public
+        # feed keeps its actual result while the new attempt is in flight.
+        super().write("health.json", attempt)
+        self.publish({HEALTH: public_health(attempt)})
+
     def write(self, name, payload):
         super().write(name, payload)
         if name == "health.json":
-            # The pre-request throttle and access-denial state must survive runner loss.
-            # This callback finishes before the collector can make its next source request.
+            # Commit the actual outcome and public snapshot together.
             outgoing = {HEALTH: public_health(payload)}
             feed = self.delivered()
             if feed is not None:
@@ -131,21 +137,28 @@ class GitHubDataBranch:
             data=json.dumps(payload).encode() if payload is not None else None,
             headers={"Authorization": "Bearer " + self.token, "Accept": "application/vnd.github+json",
                      "X-GitHub-Api-Version": "2022-11-28", "User-Agent": "CrowdCast-outage-feed"})
-        try:
-            with urllib.request.build_opener(NoGitHubRedirect).open(request, timeout=30) as response:
-                body = response.read(4_000_001)
-                if len(body) > 4_000_000:
-                    raise ValueError("GitHub response too large")
-                return json.loads(body)
-        except urllib.error.HTTPError as error:
-            # Keep 404 readable by load(), which treats an absent feed separately.
-            if error.code == 404:
-                raise
-            code = error.code
-            error.close()
-            raise DeliveryError(f"GitHub {method} operation failed (HTTP {code})") from None
-        except OSError:
-            raise DeliveryError(f"GitHub {method} operation failed (network/timeout)") from None
+        for attempt in range(2):
+            try:
+                with urllib.request.build_opener(NoGitHubRedirect).open(request, timeout=15) as response:
+                    body = response.read(4_000_001)
+                    if len(body) > 4_000_000:
+                        raise ValueError("GitHub response too large")
+                    return json.loads(body)
+            except urllib.error.HTTPError as error:
+                if error.code == 404:
+                    raise
+                retry = error.code in {500, 502, 503, 504} and not error.headers.get("Retry-After")
+                error.close()
+                if attempt or not retry:
+                    raise DeliveryError(f"GitHub {method} operation failed (HTTP {error.code})") from None
+            except (urllib.error.URLError, TimeoutError, ConnectionError):
+                if attempt:
+                    raise DeliveryError(f"GitHub {method} operation failed (network/timeout)") from None
+            except OSError:
+                raise DeliveryError(f"GitHub {method} operation could not complete") from None
+            # Only GitHub operations use this retry. Tree/commit creation does
+            # not move a branch; replaying the exact non-forcing ref update is safe.
+            time.sleep(2)
 
     def load(self):
         self.tip = self.request("/git/ref/heads/" + self.branch)["object"]["sha"]
@@ -153,7 +166,7 @@ class GitHubDataBranch:
         result = {}
         for name in (HEALTH, FEED):
             try:
-                value = self.request("/contents/" + name + "?ref=" + self.branch)
+                value = self.request("/contents/" + name + "?ref=" + self.tip)
             except urllib.error.HTTPError as error:
                 if error.code == 404:
                     error.close()

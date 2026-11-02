@@ -87,7 +87,7 @@ def _collect_locked(store, approved, *, now, loader, interval):
         return False
     # Persist throttle before the first request, including failed attempts.
     attempt = dict(status="failed", error="Source update incomplete", nextAttemptAt=stamp(now + timedelta(seconds=interval)))
-    store.write("health.json", attempt)
+    store.reserve(attempt)
     try:
         settings, summary, outages = [loader(url) for url in URLS]
         viewer_minutes = settings["mapOptions"]["refreshTime"]
@@ -106,10 +106,6 @@ def _collect_locked(store, approved, *, now, loader, interval):
             raise QualityError("Older source snapshot refused")
         if prior and feed["source"]["updatedAt"] == prior["source"]["updatedAt"] and feed["snapshotID"] != prior["snapshotID"]:
             raise QualityError("Source contents changed without a new publication timestamp")
-        # Raw source provenance is private; it is never served by the API.
-        store.write("feed.json", feed)
-        store.write("health.json", dict(attempt, status="ok", error=None))
-        return True
     except urllib.error.HTTPError as error:
         print("Source download failed: HTTP " + str(error.code))
         if error.code in (401, 403):
@@ -139,6 +135,12 @@ def _collect_locked(store, approved, *, now, loader, interval):
     except (ValueError, KeyError, TypeError, OSError):
         print("Source download or schema validation failed; next scheduled attempt may retry.")
         attempt.update(error="Source update could not be verified")
+    else:
+        # A delivery write can fail independently after the source passed
+        # validation. Let the caller report that failure as a delivery error.
+        store.write("feed.json", feed)
+        store.write("health.json", dict(attempt, status="ok", error=None))
+        return True
     store.write("health.json", attempt)
     return False
 

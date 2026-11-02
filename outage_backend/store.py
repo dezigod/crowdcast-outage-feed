@@ -28,6 +28,9 @@ class Store:
             if os.path.exists(temporary):
                 os.unlink(temporary)
 
+    def reserve(self, attempt):
+        self.write("health.json", attempt)
+
     def delivered(self):
         feed = self.read("feed.json")
         if feed is None:

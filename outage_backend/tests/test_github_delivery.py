@@ -5,6 +5,7 @@ import json
 from pathlib import Path
 import unittest
 from urllib.error import HTTPError
+from unittest.mock import MagicMock, patch
 
 from outage_backend.collect import PermissionRequired, URLS
 from outage_backend.github_delivery import FEED, HEALTH, GitHubDataBranch, public_feed, public_health, run_once
@@ -31,15 +32,62 @@ class GitHubDeliveryTests(unittest.TestCase):
         return run_once(self.previous, allowed(), self.publish, now=NOW, loader=self.loader, **changes)
 
     def test_remote_http_diagnostics_do_not_expose_response_or_token(self):
-        from unittest.mock import patch
         from outage_backend.github_delivery import DeliveryError
         remote = GitHubDataBranch('example/test', 'synthetic-private-token')
         error = HTTPError('https://api.github.com/private', 503, 'private-body', {}, BytesIO(b'private-body'))
-        with patch('outage_backend.github_delivery.urllib.request.OpenerDirector.open', side_effect=error):
+        with patch('outage_backend.github_delivery.urllib.request.OpenerDirector.open', side_effect=error), patch('outage_backend.github_delivery.time.sleep'):
             with self.assertRaises(DeliveryError) as result:
                 remote.request('/git/ref/heads/data')
         self.assertIn('HTTP 503', str(result.exception))
         self.assertNotIn('private', str(result.exception))
+
+    def test_in_flight_reservation_never_marks_a_verified_public_feed_failed(self):
+        self.run_collection()
+        before = deepcopy(self.previous[FEED])
+        def inspect_during_download(url):
+            self.assertEqual(self.previous[FEED], before)
+            self.assertNotIn(FEED, self.published[-1])
+            self.assertEqual(self.previous[HEALTH]["nextAttemptAt"], "2026-10-15T16:10:00Z")
+            return self.loader(url)
+        self.assertEqual(run_once(self.previous, allowed(), self.publish, now=NOW + timedelta(minutes=5),
+                                  loader=inspect_during_download), "verified")
+        self.assertEqual(self.previous[FEED]["collectionStatus"], "ok")
+        self.assertNotEqual(self.previous[FEED]["source"]["checkedAt"], before["source"]["checkedAt"])
+
+    def test_failed_final_write_is_reported_as_delivery_error_without_relabeling_source(self):
+        from outage_backend.github_delivery import DeliveryError
+        self.run_collection()
+        before = deepcopy(self.previous[FEED])
+        def fail_final_write(files):
+            if FEED in files:
+                raise DeliveryError("GitHub write failed")
+            self.publish(files)
+        with self.assertRaisesRegex(DeliveryError, "GitHub write failed"):
+            run_once(self.previous, allowed(), fail_final_write, now=NOW + timedelta(minutes=5), loader=self.loader)
+        self.assertEqual(self.previous[FEED], before)
+        self.assertEqual(len(self.calls), 6)
+
+    def test_temporary_github_error_replays_same_nonforcing_write(self):
+        remote = GitHubDataBranch("example/test", "synthetic")
+        response = MagicMock()
+        response.__enter__.return_value.read.return_value = b'{"ok": true}'
+        error = HTTPError("https://api.github.com/", 503, "outage", {}, BytesIO())
+        with patch("outage_backend.github_delivery.urllib.request.OpenerDirector.open", side_effect=[error, response]) as send, patch("outage_backend.github_delivery.time.sleep") as sleep:
+            result = remote.request("/git/refs/heads/data", method="PATCH", payload={"sha": "verified", "force": False})
+        self.assertTrue(result["ok"])
+        self.assertEqual(send.call_args_list[0], send.call_args_list[1])
+        sleep.assert_called_once()
+
+    def test_refusals_conflicts_and_requested_delays_are_never_retried_inline(self):
+        from outage_backend.github_delivery import DeliveryError
+        remote = GitHubDataBranch("example/test", "synthetic")
+        for code, headers in [(403, {}), (409, {}), (422, {}), (429, {"Retry-After": "20"}), (503, {"Retry-After": "20"})]:
+            error = HTTPError("https://api.github.com/", code, "refused", headers, BytesIO())
+            with self.subTest(code=code), patch("outage_backend.github_delivery.urllib.request.OpenerDirector.open", side_effect=error) as send, patch("outage_backend.github_delivery.time.sleep") as sleep:
+                with self.assertRaises(DeliveryError):
+                    remote.request("/git/ref/heads/data")
+                send.assert_called_once()
+                sleep.assert_not_called()
 
     def test_initial_empty_delivery_does_not_fabricate_zero(self):
         def unavailable(url):
