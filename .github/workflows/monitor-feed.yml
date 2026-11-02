@@ -24,3 +24,8 @@ jobs:
         env:
           GH_TOKEN: ${{ github.token }}
         run: python3 scripts/check_feed_health.py outage --repository "${{ github.repository }}"
+      - name: Independently check cruise feed delivery
+        if: always()
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: python3 scripts/check_feed_health.py cruise --repository dezigod/cruise-schedule-app --alert-repository dezigod/crowdcast-outage-feed

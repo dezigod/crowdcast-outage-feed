@@ -52,17 +52,17 @@ def gh(*args):
     return result.stdout
 
 
-def alert(repository, failures):
+def alert(repository, failures, title=TITLE):
     rows = json.loads(gh("issue", "list", "--repo", repository, "--state", "open",
-                         "--search", '"' + TITLE + '" in:title', "--json", "number,title", "--limit", "100"))
-    incident = next((row for row in rows if row["title"] == TITLE), None)
+                         "--search", '"' + title + '" in:title', "--json", "number,title", "--limit", "100"))
+    incident = next((row for row in rows if row["title"] == title), None)
     if failures:
         body = ("@dezigod Feed delivery needs attention.\n\n" + "\n".join("- " + f for f in failures) +
                 "\n\nCheck the collector's Actions logs and the published source timestamps. "
                 "The previous valid feed must be retained. Never bypass provider refusals or reset source timestamps. "
                 "This issue closes automatically after the delivered feed is healthy again.")
         if incident is None:
-            gh("issue", "create", "--repo", repository, "--title", TITLE, "--body", body)
+            gh("issue", "create", "--repo", repository, "--title", title, "--body", body)
         return
     if incident:
         gh("issue", "close", str(incident["number"]), "--repo", repository,
@@ -73,6 +73,7 @@ def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("kind", choices=CONFIG)
     parser.add_argument("--repository", required=True)
+    parser.add_argument("--alert-repository", choices=["dezigod/crowdcast-outage-feed"])
     args = parser.parse_args()
     expected = "dezigod/" + ("cruise-schedule-app" if args.kind == "cruise" else "crowdcast-outage-feed")
     if args.repository != expected:
@@ -88,7 +89,9 @@ def main():
         failures = problems(args.kind, json.loads(body), datetime.now(timezone.utc))
     except (OSError, ValueError, TypeError, AttributeError):
         failures = ["Published feed could not be downloaded or validated."]
-    alert(args.repository, failures)
+    destination = args.alert_repository or args.repository
+    title = "Cruise feed freshness alert" if destination != args.repository else TITLE
+    alert(destination, failures, title=title)
     print(json.dumps({"healthy": not failures, "problems": failures}))
     if failures:
         raise SystemExit(1)
