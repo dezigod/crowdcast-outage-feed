@@ -111,6 +111,7 @@ def _collect_locked(store, approved, *, now, loader, interval):
         store.write("health.json", dict(attempt, status="ok", error=None))
         return True
     except urllib.error.HTTPError as error:
+        print("Source download failed: HTTP " + str(error.code))
         if error.code in (401, 403):
             attempt.update(status="blocked", error="Source access needs review")
         elif error.code == 429:
@@ -119,11 +120,24 @@ def _collect_locked(store, approved, *, now, loader, interval):
             attempt.update(error="Source download failed")
         error.close()
     except PermissionRequired:
+        print("Source access requires review; automatic retries stopped.")
         attempt.update(status="blocked", error="Source access needs review")
     except QualityError as error:
+        categories = {
+            "Source contents changed without a new publication timestamp": "publication_unchanged_content_changed",
+            "Older source snapshot refused": "source_timestamp_regressed",
+            "Source publication time missing or in the future": "source_timestamp_invalid",
+            "Outage record is newer than the summary": "source_snapshots_inconsistent",
+            "Unexpected source schema": "source_schema_changed",
+            "Conflicting duplicate source event": "source_duplicate_conflict",
+            "Missing source locations": "source_locations_missing",
+            "Ended outage still has customers out": "source_status_conflict",
+        }
+        print("Source verification failed: " + categories.get(str(error), "source_quality_check"))
         store.write("last-failure.json", {"checkedAt": stamp(now), "reason": str(error)})
         attempt.update(error="Source update could not be verified")
     except (ValueError, KeyError, TypeError, OSError):
+        print("Source download or schema validation failed; next scheduled attempt may retry.")
         attempt.update(error="Source update could not be verified")
     store.write("health.json", attempt)
     return False

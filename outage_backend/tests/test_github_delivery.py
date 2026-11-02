@@ -30,6 +30,17 @@ class GitHubDeliveryTests(unittest.TestCase):
     def run_collection(self, **changes):
         return run_once(self.previous, allowed(), self.publish, now=NOW, loader=self.loader, **changes)
 
+    def test_remote_http_diagnostics_do_not_expose_response_or_token(self):
+        from unittest.mock import patch
+        from outage_backend.github_delivery import DeliveryError
+        remote = GitHubDataBranch('example/test', 'synthetic-private-token')
+        error = HTTPError('https://api.github.com/private', 503, 'private-body', {}, BytesIO(b'private-body'))
+        with patch('outage_backend.github_delivery.urllib.request.OpenerDirector.open', side_effect=error):
+            with self.assertRaises(DeliveryError) as result:
+                remote.request('/git/ref/heads/data')
+        self.assertIn('HTTP 503', str(result.exception))
+        self.assertNotIn('private', str(result.exception))
+
     def test_initial_empty_delivery_does_not_fabricate_zero(self):
         def unavailable(url):
             self.calls.append(url)

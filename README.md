@@ -100,3 +100,25 @@ All normal tests are offline and synthetic. CI has no source permission secret
 and never calls WAPA. Only the explicitly enabled collection workflow fetches
 the reviewed source. The production collector itself uses Python's standard
 library, without an LLM, browser renderer, Firebase or third-party paid API.
+
+## Feed reliability and alerts (November 2, 2026)
+
+Native GitHub schedules are enabled. Outage collection also retains its existing
+Cloudflare five-minute dispatch timer; the durable collector throttle prevents
+duplicate source polls. Its dedicated dispatch token is documented to expire
+January 13, 2027 and must be renewed; native GitHub scheduling is a fallback.
+
+`Monitor delivered feed` runs four times an hour and after collector jobs. It
+checks the actual public feed: cruise document checks must be within 12 hours;
+outage collection and WAPA publication must be within 30 minutes. Missing,
+invalid or future timestamps and failed collection status are incidents. It
+opens one `Feed freshness alert` issue mentioning @dezigod and closes it after
+verified recovery. Enable GitHub email/push notifications for mentions; opening
+an issue does not prove delivery to an inbox or device. A separate Codex watcher
+checks both feeds to catch missing GitHub jobs while the desktop scheduler is
+available. Neither mechanism is an availability guarantee.
+
+Transient source failures retry on later authorized collection attempts, honoring
+Retry-After and backoff. Access refusals stay stopped for manual resolution.
+Previous valid data and original source timestamps are preserved. Do not reset
+state or relabel old data as fresh to clear an alert.

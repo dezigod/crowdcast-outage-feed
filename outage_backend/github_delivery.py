@@ -109,6 +109,11 @@ def run_once(previous, approved, publish, *, now=None, loader=fetch):
         return health.get("status", "unavailable")
 
 
+class DeliveryError(OSError):
+    """Safe diagnostic: operation and HTTP code, never response bodies or tokens."""
+    pass
+
+
 class NoGitHubRedirect(urllib.request.HTTPRedirectHandler):
     def redirect_request(self, request, file, code, message, headers, url):
         raise OSError("GitHub redirect refused")
@@ -126,11 +131,21 @@ class GitHubDataBranch:
             data=json.dumps(payload).encode() if payload is not None else None,
             headers={"Authorization": "Bearer " + self.token, "Accept": "application/vnd.github+json",
                      "X-GitHub-Api-Version": "2022-11-28", "User-Agent": "CrowdCast-outage-feed"})
-        with urllib.request.build_opener(NoGitHubRedirect).open(request, timeout=30) as response:
-            body = response.read(4_000_001)
-            if len(body) > 4_000_000:
-                raise ValueError("GitHub response too large")
-            return json.loads(body)
+        try:
+            with urllib.request.build_opener(NoGitHubRedirect).open(request, timeout=30) as response:
+                body = response.read(4_000_001)
+                if len(body) > 4_000_000:
+                    raise ValueError("GitHub response too large")
+                return json.loads(body)
+        except urllib.error.HTTPError as error:
+            # Keep 404 readable by load(), which treats an absent feed separately.
+            if error.code == 404:
+                raise
+            code = error.code
+            error.close()
+            raise DeliveryError(f"GitHub {method} operation failed (HTTP {code})") from None
+        except OSError:
+            raise DeliveryError(f"GitHub {method} operation failed (network/timeout)") from None
 
     def load(self):
         self.tip = self.request("/git/ref/heads/" + self.branch)["object"]["sha"]
@@ -181,6 +196,10 @@ def main():
         permission(approved, datetime.now(timezone.utc))
         remote = GitHubDataBranch(os.environ.get("GITHUB_REPOSITORY", ""), os.environ.get("GH_TOKEN", ""))
         outcome = run_once(remote.load(), approved, remote.publish)
+    except DeliveryError as error:
+        parser.exit(1, str(error) + "; prior feed retained.\n")
+    except PermissionRequired:
+        parser.exit(1, "Collection permission is missing, invalid or expired; no source request made.\n")
     except (OSError, ValueError, KeyError, TypeError):
         parser.exit(1, "Outage delivery could not complete; inspect configuration and prior feed. No raw source logged.\n")
     print("Collection result: " + outcome)
