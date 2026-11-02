@@ -124,7 +124,7 @@ Previous valid data and original source timestamps are preserved. Do not reset
 state or relabel old data as fresh to clear an alert.
 
 The existing Cloudflare timer also dispatches `Monitor delivered feed` every
-15 minutes. This backup monitor checks BOTH public feeds using the same
+five minutes. This backup monitor checks BOTH public feeds using the same
 outage-repository-scoped Actions key. A cruise incident found by this independent
 path is titled `Cruise feed freshness alert` in this repository; it cannot
 change or collect cruise source data. Native cruise monitoring remains enabled.
