@@ -1,6 +1,6 @@
 {
   "collectionStatus": "ok",
-  "generatedAt": "2026-11-03T00:40:38Z",
+  "generatedAt": "2026-11-03T00:50:29Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -24,21 +24,6 @@
           ],
           "sourceStatus": "Predicted",
           "startedAt": "2026-05-24T00:16:58Z"
-        },
-        {
-          "affectedCustomers": null,
-          "estimatedRestoration": null,
-          "id": "stThomas-lovenlund",
-          "island": "stThomas",
-          "locations": [
-            "PCL D-12 L/41"
-          ],
-          "name": "Lovenlund",
-          "sourceEventIDs": [
-            "1942c52453df744d7492bc472f062414b4d9c22deef13f950b04e16d15085a59"
-          ],
-          "sourceStatus": "Verified",
-          "startedAt": "2026-11-02T22:32:00Z"
         },
         {
           "affectedCustomers": null,
@@ -101,14 +86,14 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "6baffa628ae8bc2c0752d7228b1cc94c886c2da4cc356a9dea1b96a6a8b810e3",
+  "snapshotID": "1125a128bbae338222b2ecb2989af0ec29ceaa8e8fb58fac77ec06d1c380f4a6",
   "source": {
-    "checkedAt": "2026-11-03T00:40:38Z",
+    "checkedAt": "2026-11-03T00:50:29Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-03T00:39:57Z",
+    "updatedAt": "2026-11-03T00:49:56Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "staleAfterSeconds": 900,
-  "unassignedEventCount": 8
+  "unassignedEventCount": 7
 }
