@@ -1,6 +1,6 @@
 {
   "collectionStatus": "ok",
-  "generatedAt": "2026-11-04T20:55:28Z",
+  "generatedAt": "2026-11-04T21:00:33Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -534,7 +534,66 @@
       "coverage": "partial",
       "customersOut": null,
       "id": "stCroix",
-      "neighborhoods": []
+      "neighborhoods": [
+        {
+          "affectedCustomers": null,
+          "estimatedRestoration": null,
+          "id": "stCroix-la-grange",
+          "island": "stCroix",
+          "locations": [
+            "47 B",
+            "47-A",
+            "47-H"
+          ],
+          "name": "La Grange",
+          "sourceEventIDs": [
+            "e1ab8883b59092193d47fe93af5b78ba6663f98a297b97d98bf4d4496d985d99"
+          ],
+          "sourceStatus": "Predicted",
+          "startedAt": "2026-11-04T20:56:04Z"
+        },
+        {
+          "affectedCustomers": null,
+          "estimatedRestoration": null,
+          "id": "stCroix-sion-hill",
+          "island": "stCroix",
+          "locations": [
+            "1-21",
+            "2-133",
+            "2-46",
+            "2-47",
+            "2-48",
+            "2-49",
+            "2-50",
+            "2-51",
+            "2-52",
+            "2-54",
+            "2-73"
+          ],
+          "name": "Sion Hill",
+          "sourceEventIDs": [
+            "fd0ebcb720e70b9f821e9fdc47c46d350e542abcbdeb4910d8ce0646b424651f"
+          ],
+          "sourceStatus": "Predicted",
+          "startedAt": "2026-11-04T20:58:33Z"
+        },
+        {
+          "affectedCustomers": null,
+          "estimatedRestoration": null,
+          "id": "stCroix-vicorp-land",
+          "island": "stCroix",
+          "locations": [
+            "79",
+            "98"
+          ],
+          "name": "Vicorp Land",
+          "sourceEventIDs": [
+            "198f6381165ec30038464f6c2d8f0ba00c27b978f52465717b8d127c2a64add5"
+          ],
+          "sourceStatus": "Predicted",
+          "startedAt": "2026-11-04T20:57:28Z"
+        }
+      ]
     },
     {
       "coverage": "partial",
@@ -556,14 +615,14 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "a5e34c0de13e95fc24f43dedaf105714e154088eadcb5543e5b5e37fc4564f1e",
+  "snapshotID": "9c8576c86611b82c0a67b9c31b99b05d1f3188528aa8e050672b2cab67b63781",
   "source": {
-    "checkedAt": "2026-11-04T20:55:28Z",
+    "checkedAt": "2026-11-04T21:00:33Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-04T20:55:01Z",
+    "updatedAt": "2026-11-04T21:00:01Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "staleAfterSeconds": 900,
-  "unassignedEventCount": 14
+  "unassignedEventCount": 25
 }
