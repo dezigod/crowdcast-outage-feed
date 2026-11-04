@@ -1,6 +1,6 @@
 {
   "collectionStatus": "ok",
-  "generatedAt": "2026-11-04T21:00:33Z",
+  "generatedAt": "2026-11-04T21:05:35Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -541,16 +541,18 @@
           "id": "stCroix-la-grange",
           "island": "stCroix",
           "locations": [
+            "2",
             "47 B",
             "47-A",
             "47-H"
           ],
           "name": "La Grange",
           "sourceEventIDs": [
+            "20dff7a6150ac339464f9c87bebf00c11f5a44b932628f05f55cf810f37b653e",
             "e1ab8883b59092193d47fe93af5b78ba6663f98a297b97d98bf4d4496d985d99"
           ],
           "sourceStatus": "Predicted",
-          "startedAt": "2026-11-04T20:56:04Z"
+          "startedAt": null
         },
         {
           "affectedCustomers": null,
@@ -559,6 +561,13 @@
           "island": "stCroix",
           "locations": [
             "1-21",
+            "13-21",
+            "13-23",
+            "13-3",
+            "13-47",
+            "13-49",
+            "13-50",
+            "13-7",
             "2-133",
             "2-46",
             "2-47",
@@ -572,10 +581,11 @@
           ],
           "name": "Sion Hill",
           "sourceEventIDs": [
+            "2251a3a1ce6db5449314d6841c4a91e586de8a8710df5d3eee500465a9adc3f7",
             "fd0ebcb720e70b9f821e9fdc47c46d350e542abcbdeb4910d8ce0646b424651f"
           ],
           "sourceStatus": "Predicted",
-          "startedAt": "2026-11-04T20:58:33Z"
+          "startedAt": null
         },
         {
           "affectedCustomers": null,
@@ -615,14 +625,14 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "9c8576c86611b82c0a67b9c31b99b05d1f3188528aa8e050672b2cab67b63781",
+  "snapshotID": "96183aa8e1c0ccf409bebfcf03cd8afcdc2501d3531241ef7610d3c9f34f9bde",
   "source": {
-    "checkedAt": "2026-11-04T21:00:33Z",
+    "checkedAt": "2026-11-04T21:05:35Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-04T21:00:01Z",
+    "updatedAt": "2026-11-04T21:05:11Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "staleAfterSeconds": 900,
-  "unassignedEventCount": 25
+  "unassignedEventCount": 28
 }
