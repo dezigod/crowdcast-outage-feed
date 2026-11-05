@@ -1,6 +1,6 @@
 {
   "collectionStatus": "ok",
-  "generatedAt": "2026-11-05T04:20:30Z",
+  "generatedAt": "2026-11-05T04:30:28Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -115,42 +115,7 @@
       "coverage": "partial",
       "customersOut": null,
       "id": "stCroix",
-      "neighborhoods": [
-        {
-          "affectedCustomers": null,
-          "estimatedRestoration": null,
-          "id": "stCroix-vicorp-land",
-          "island": "stCroix",
-          "locations": [
-            "109",
-            "130",
-            "14-A",
-            "142",
-            "222",
-            "268 H-229",
-            "31",
-            "36",
-            "393 PARCEL 5",
-            "4 (LOWER LOVE",
-            "43",
-            "43 (HSE 3)",
-            "49",
-            "50",
-            "51",
-            "536",
-            "61",
-            "79",
-            "82",
-            "98"
-          ],
-          "name": "Vicorp Land",
-          "sourceEventIDs": [
-            "1a1fe60b12b6580ef9cedb26c764e146996a0c105cade0f1bc7946c31874e0fd"
-          ],
-          "sourceStatus": "Verified",
-          "startedAt": "2026-11-05T01:47:08Z"
-        }
-      ]
+      "neighborhoods": []
     },
     {
       "coverage": "partial",
@@ -172,14 +137,14 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "a0817b9d60a3bb5f48f8ab40cd1c442e28f343887e703a664aa914b45896cd23",
+  "snapshotID": "0578e6dd1ddd2892dfa252b6edcfdec3a797afd0b12826e709cb02b8e8d43afc",
   "source": {
-    "checkedAt": "2026-11-05T04:20:30Z",
+    "checkedAt": "2026-11-05T04:30:28Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-05T04:20:02Z",
+    "updatedAt": "2026-11-05T04:30:01Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "staleAfterSeconds": 900,
-  "unassignedEventCount": 10
+  "unassignedEventCount": 9
 }
