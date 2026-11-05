@@ -1,6 +1,6 @@
 {
   "collectionStatus": "ok",
-  "generatedAt": "2026-11-05T12:45:29Z",
+  "generatedAt": "2026-11-05T12:50:30Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -47,54 +47,6 @@
         {
           "affectedCustomers": null,
           "estimatedRestoration": null,
-          "id": "stThomas-lovenlund",
-          "island": "stThomas",
-          "locations": [
-            "- SHAKER",
-            "10B-13",
-            "16-B",
-            "16-C",
-            "B-12",
-            "B-15",
-            "B-15 MTR-2",
-            "B-17",
-            "B-40 SEWAGE PUM",
-            "B-6",
-            "B-9",
-            "BASE 1 D-4-8",
-            "C-13 LOT 53A",
-            "C-14",
-            "C-16-D (LOT 116",
-            "C-16-E",
-            "C-17-2",
-            "C-17-5 & 6",
-            "C-37",
-            "C-40",
-            "C-44",
-            "CLUBHOUSE",
-            "D-10 REM CONS.",
-            "D-13",
-            "D-4-A",
-            "D-4-E",
-            "D-4-N & D-4-0",
-            "D-4L-35",
-            "D-9 L-46",
-            "EST B-16",
-            "MAHOGANY C-12",
-            "PCL B-12",
-            "PCL B-14",
-            "SEWAGE"
-          ],
-          "name": "Lovenlund",
-          "sourceEventIDs": [
-            "3f02209c53332040e1cb946e9eea53e74b429991b07ddf967162b3f4f2738860"
-          ],
-          "sourceStatus": "Predicted",
-          "startedAt": "2026-11-04T15:38:15Z"
-        },
-        {
-          "affectedCustomers": null,
-          "estimatedRestoration": null,
           "id": "stThomas-subbase",
           "island": "stThomas",
           "locations": [
@@ -137,14 +89,14 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "e1dfb38b1df2c281be040c33fb3d963d9709645bf6bfb6f85780eff04afdc06f",
+  "snapshotID": "7dc1851e45fb5d6569025e2f7a45d77186de1a65ba2653fddf8796a1a86b6212",
   "source": {
-    "checkedAt": "2026-11-05T12:45:29Z",
+    "checkedAt": "2026-11-05T12:50:30Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-05T12:45:02Z",
+    "updatedAt": "2026-11-05T12:50:02Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "staleAfterSeconds": 900,
-  "unassignedEventCount": 8
+  "unassignedEventCount": 7
 }
