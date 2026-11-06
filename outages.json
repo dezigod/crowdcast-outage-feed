@@ -1,6 +1,6 @@
 {
   "collectionStatus": "ok",
-  "generatedAt": "2026-11-06T22:15:30Z",
+  "generatedAt": "2026-11-06T22:25:30Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -54,6 +54,30 @@
           ],
           "sourceStatus": "Verified",
           "startedAt": "2026-11-05T17:32:26Z"
+        },
+        {
+          "affectedCustomers": null,
+          "estimatedRestoration": null,
+          "id": "stThomas-peterborg",
+          "island": "stThomas",
+          "locations": [
+            "10-1-1",
+            "10-1-1 A-1",
+            "10-1-1 A-2",
+            "10-1-13 MTR-1",
+            "10-1-13 MTR-2",
+            "10-1-2",
+            "8-3",
+            "8-5 APT B",
+            "8-5 COT APT A",
+            "8-6"
+          ],
+          "name": "Peterborg",
+          "sourceEventIDs": [
+            "51b272cb4be954ea16466284447501fdc5fc94e717925c67d9e4e5d62f6569e0"
+          ],
+          "sourceStatus": "Predicted",
+          "startedAt": "2026-11-06T22:15:18Z"
         },
         {
           "affectedCustomers": null,
@@ -119,11 +143,11 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "5418590761f95826b42cc5d9d1f0075ee644040567497680364364dc01201b57",
+  "snapshotID": "9f14c09aad04755af27d8d64dcf8f6c7f02af7e6e1776d529bec5c57a2533dfc",
   "source": {
-    "checkedAt": "2026-11-06T22:15:30Z",
+    "checkedAt": "2026-11-06T22:25:30Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-06T22:15:05Z",
+    "updatedAt": "2026-11-06T22:25:05Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
