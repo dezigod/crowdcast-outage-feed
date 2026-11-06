@@ -1,6 +1,6 @@
 {
   "collectionStatus": "ok",
-  "generatedAt": "2026-11-06T15:25:29Z",
+  "generatedAt": "2026-11-06T15:35:28Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -24,6 +24,26 @@
           ],
           "sourceStatus": "Predicted",
           "startedAt": "2026-05-24T00:16:58Z"
+        },
+        {
+          "affectedCustomers": null,
+          "estimatedRestoration": null,
+          "id": "stThomas-st-peter",
+          "island": "stThomas",
+          "locations": [
+            "3 E 5-1",
+            "3E",
+            "3E-2",
+            "3E-3",
+            "3E-4-1",
+            "3G-2"
+          ],
+          "name": "Estate St. Peter",
+          "sourceEventIDs": [
+            "e5c505d55cadc080475a84dabc4388ac62835416004129bd2f3e6c62b958d8da"
+          ],
+          "sourceStatus": "Predicted",
+          "startedAt": "2026-11-06T15:34:18Z"
         },
         {
           "affectedCustomers": null,
@@ -107,14 +127,14 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "ae71eac8912bb52cea652ea348a6f0f942411a43193f5cc3981f6dcfd16da41c",
+  "snapshotID": "8de9ff97ede5ac2575eb46afc930c153dd1d99a1695a52d5784028793211ec0e",
   "source": {
-    "checkedAt": "2026-11-06T15:25:29Z",
+    "checkedAt": "2026-11-06T15:35:28Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-06T15:25:05Z",
+    "updatedAt": "2026-11-06T15:35:05Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "staleAfterSeconds": 900,
-  "unassignedEventCount": 14
+  "unassignedEventCount": 15
 }
