@@ -1,6 +1,6 @@
 {
   "collectionStatus": "ok",
-  "generatedAt": "2026-11-06T02:15:27Z",
+  "generatedAt": "2026-11-06T02:20:29Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -46,14 +46,51 @@
           "id": "stThomas-lovenlund",
           "island": "stThomas",
           "locations": [
+            "3-4 B-12 A-1232",
+            "3-4 BLD 12",
+            "3-4 BLDG-12",
+            "B-12",
+            "B-12 APT 1211",
+            "B-12 APT 1212",
+            "B-12 APT 1213",
+            "B-12 APT 1221",
+            "B-12 APT 1222",
+            "B-12 APT 1224",
+            "B-12 APT 1234",
+            "Building 12",
             "EST FARMHOUSE"
           ],
           "name": "Lovenlund",
           "sourceEventIDs": [
+            "1655a3953774247558b75cdb0be9e9f6c7ece0d523638422ed56bbe408043c36",
             "a7622fe5ec3f7460243d64545ddffb42dc3c534b3876e2c938737688abde9c58"
           ],
-          "sourceStatus": "Verified",
-          "startedAt": "2026-11-05T17:32:26Z"
+          "sourceStatus": "Unconfirmed",
+          "startedAt": null
+        },
+        {
+          "affectedCustomers": null,
+          "estimatedRestoration": null,
+          "id": "stThomas-peterborg",
+          "island": "stThomas",
+          "locations": [
+            "10-1-1",
+            "10-1-1 A-1",
+            "10-1-1 A-2",
+            "10-1-13 MTR-1",
+            "10-1-13 MTR-2",
+            "10-1-2",
+            "8-3",
+            "8-5 APT B",
+            "8-5 COT APT A",
+            "8-6"
+          ],
+          "name": "Peterborg",
+          "sourceEventIDs": [
+            "43419b69b0bb295b34cddfbaab38de8e733e48688a05b194af8dd46db9802f3d"
+          ],
+          "sourceStatus": "Predicted",
+          "startedAt": "2026-11-06T02:16:50Z"
         },
         {
           "affectedCustomers": null,
@@ -100,14 +137,14 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "1a8fab92f737c403375e4edc95b08d407e9cc9e0d1096c074ce7a7765ca50fca",
+  "snapshotID": "9ced8018756dc9b5dc93965c42015dc0da9c47ec8151b7c32dd6a46372a09dcf",
   "source": {
-    "checkedAt": "2026-11-06T02:15:27Z",
+    "checkedAt": "2026-11-06T02:20:29Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-06T02:15:03Z",
+    "updatedAt": "2026-11-06T02:20:03Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "staleAfterSeconds": 900,
-  "unassignedEventCount": 9
+  "unassignedEventCount": 10
 }
