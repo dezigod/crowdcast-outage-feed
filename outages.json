@@ -1,6 +1,6 @@
 {
   "collectionStatus": "ok",
-  "generatedAt": "2026-11-06T21:35:28Z",
+  "generatedAt": "2026-11-06T21:40:29Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -14,16 +14,31 @@
           "id": "stThomas-agnes-fancy",
           "island": "stThomas",
           "locations": [
+            "3-N",
+            "3B-1",
+            "3C",
+            "3D-1",
+            "3F MTR-1",
+            "3K",
+            "3K-1",
+            "3L",
+            "3Q",
+            "3S",
             "5-A",
+            "5-E",
             "5B",
+            "5D",
+            "5D DWELLING",
+            "5E",
             "5F"
           ],
           "name": "Agnes Fancy",
           "sourceEventIDs": [
-            "688d24f7b6e72cb60f9dd7cfcfc315b9ee0efe7095b9fbf192b7ed84c8031d54"
+            "688d24f7b6e72cb60f9dd7cfcfc315b9ee0efe7095b9fbf192b7ed84c8031d54",
+            "8cce9e321f55e4446bce38da31de638f7a13d344eba45ab5013d945fa9ddcebb"
           ],
           "sourceStatus": "Predicted",
-          "startedAt": "2026-05-24T00:16:58Z"
+          "startedAt": null
         },
         {
           "affectedCustomers": null,
@@ -104,14 +119,14 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "e301b26cbb0ab3175fb5fba89b298a5738b405356d0f3fd6a9be97a62bbb57b9",
+  "snapshotID": "62cd9299fa3fae540b59cabe3b6bfbdb19b3e1891bea5a2f30bcbb24545bfefe",
   "source": {
-    "checkedAt": "2026-11-06T21:35:28Z",
+    "checkedAt": "2026-11-06T21:40:29Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-06T21:35:06Z",
+    "updatedAt": "2026-11-06T21:40:07Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "staleAfterSeconds": 900,
-  "unassignedEventCount": 12
+  "unassignedEventCount": 13
 }
