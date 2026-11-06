@@ -1,6 +1,6 @@
 {
   "collectionStatus": "ok",
-  "generatedAt": "2026-11-06T01:20:30Z",
+  "generatedAt": "2026-11-06T01:30:38Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -14,31 +14,16 @@
           "id": "stThomas-agnes-fancy",
           "island": "stThomas",
           "locations": [
-            "3-N",
-            "3B-1",
-            "3C",
-            "3D-1",
-            "3F MTR-1",
-            "3K",
-            "3K-1",
-            "3L",
-            "3Q",
-            "3S",
             "5-A",
-            "5-E",
             "5B",
-            "5D",
-            "5D DWELLING",
-            "5E",
             "5F"
           ],
           "name": "Agnes Fancy",
           "sourceEventIDs": [
-            "1a885881319aad52260cd66b293536b08d6f6a94f580e3d4c5bec2c208339a41",
             "688d24f7b6e72cb60f9dd7cfcfc315b9ee0efe7095b9fbf192b7ed84c8031d54"
           ],
           "sourceStatus": "Predicted",
-          "startedAt": null
+          "startedAt": "2026-05-24T00:16:58Z"
         },
         {
           "affectedCustomers": null,
@@ -54,30 +39,6 @@
           ],
           "sourceStatus": "Verified",
           "startedAt": "2026-11-05T17:32:26Z"
-        },
-        {
-          "affectedCustomers": null,
-          "estimatedRestoration": null,
-          "id": "stThomas-peterborg",
-          "island": "stThomas",
-          "locations": [
-            "10-1-1",
-            "10-1-1 A-1",
-            "10-1-1 A-2",
-            "10-1-13 MTR-1",
-            "10-1-13 MTR-2",
-            "10-1-2",
-            "8-3",
-            "8-5 APT B",
-            "8-5 COT APT A",
-            "8-6"
-          ],
-          "name": "Peterborg",
-          "sourceEventIDs": [
-            "9d85faf77253b868a47c52ffd18e3c07b1757c7a02f03c10a896a02b41590cb2"
-          ],
-          "sourceStatus": "Predicted",
-          "startedAt": "2026-11-06T00:45:10Z"
         },
         {
           "affectedCustomers": null,
@@ -124,14 +85,14 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "f3a1cfe48fd6cf64ec65343fd2f2371a10259ec3d56b1041a8862fd0788b24e5",
+  "snapshotID": "6a4f00c647de8b55a4430d60caab962b91c9a1642b957605c631adb97ae73ac6",
   "source": {
-    "checkedAt": "2026-11-06T01:20:30Z",
+    "checkedAt": "2026-11-06T01:30:38Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-06T01:20:03Z",
+    "updatedAt": "2026-11-06T01:30:03Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "staleAfterSeconds": 900,
-  "unassignedEventCount": 9
+  "unassignedEventCount": 7
 }
