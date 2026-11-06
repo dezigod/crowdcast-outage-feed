@@ -1,6 +1,6 @@
 {
   "collectionStatus": "ok",
-  "generatedAt": "2026-11-06T17:00:29Z",
+  "generatedAt": "2026-11-06T17:10:27Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -40,10 +40,10 @@
           ],
           "name": "Estate St. Peter",
           "sourceEventIDs": [
-            "73337d96390fd53afbf407f8d7ea548c2d4b50eac7974938cc75903a5cf3a094"
+            "e223ff76f7ece2eb37cebc7ffb0950406764c0fe843efe7e17a155c5c093dcea"
           ],
           "sourceStatus": "Predicted",
-          "startedAt": "2026-11-06T16:39:47Z"
+          "startedAt": "2026-11-06T17:06:27Z"
         },
         {
           "affectedCustomers": null,
@@ -127,11 +127,11 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "ca0b6384a48675b455bb92e3c235ecb25ed2d9238b31968f89be6e1f895febea",
+  "snapshotID": "26c2939cc19d01859d64119abaff4775b6990ea17f308e4838bb9cbdfd646ab3",
   "source": {
-    "checkedAt": "2026-11-06T17:00:29Z",
+    "checkedAt": "2026-11-06T17:10:27Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-06T17:00:06Z",
+    "updatedAt": "2026-11-06T17:10:05Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
