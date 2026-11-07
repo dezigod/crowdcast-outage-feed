@@ -1,6 +1,6 @@
 {
   "collectionStatus": "ok",
-  "generatedAt": "2026-11-07T16:50:29Z",
+  "generatedAt": "2026-11-07T17:00:29Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -752,6 +752,25 @@
         {
           "affectedCustomers": null,
           "estimatedRestoration": null,
+          "id": "stCroix-jealousy",
+          "island": "stCroix",
+          "locations": [
+            "332",
+            "333",
+            "336(VI CORPLAND)",
+            "337",
+            "338"
+          ],
+          "name": "Estate Jealousy",
+          "sourceEventIDs": [
+            "8f17e51aff14bc7253c03f15c958912ad1371ed16eec4cc1d71e8996e4720824"
+          ],
+          "sourceStatus": "Predicted",
+          "startedAt": "2026-11-07T16:52:45Z"
+        },
+        {
+          "affectedCustomers": null,
+          "estimatedRestoration": null,
           "id": "stCroix-judiths-fancy",
           "island": "stCroix",
           "locations": [
@@ -799,14 +818,14 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "2585332c5664d50fe5586bc2c17ae9cf048549f22c2f3627af8e0198a639e4ad",
+  "snapshotID": "4461600b9db2c1d093e7083b9f698df97f8ff265ac2733fdfe491368562a142c",
   "source": {
-    "checkedAt": "2026-11-07T16:50:29Z",
+    "checkedAt": "2026-11-07T17:00:29Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-07T16:50:08Z",
+    "updatedAt": "2026-11-07T17:00:08Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "staleAfterSeconds": 900,
-  "unassignedEventCount": 19
+  "unassignedEventCount": 18
 }
