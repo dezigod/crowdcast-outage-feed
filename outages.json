@@ -1,6 +1,6 @@
 {
   "collectionStatus": "ok",
-  "generatedAt": "2026-11-07T15:30:28Z",
+  "generatedAt": "2026-11-07T15:35:29Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -719,6 +719,21 @@
           ],
           "sourceStatus": "Verified",
           "startedAt": "2026-11-07T14:51:36Z"
+        },
+        {
+          "affectedCustomers": null,
+          "estimatedRestoration": null,
+          "id": "stCroix-vicorp-land",
+          "island": "stCroix",
+          "locations": [
+            "393 PARCEL 5"
+          ],
+          "name": "Vicorp Land",
+          "sourceEventIDs": [
+            "aaabcc06f982eafa52be9a803447535f7ae3c865def9b31d2e8fa2259d431c78"
+          ],
+          "sourceStatus": "Predicted",
+          "startedAt": "2026-11-07T15:30:36Z"
         }
       ]
     },
@@ -742,14 +757,14 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "99bede7ea49dc7b0725aa68e9dd0890aa02587823f30a85a2dc0c9de3fc041d3",
+  "snapshotID": "cd91ca799b0f554cd4c5375d21ab0ae174e796f959d8db3359d4d99838f34943",
   "source": {
-    "checkedAt": "2026-11-07T15:30:28Z",
+    "checkedAt": "2026-11-07T15:35:29Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-07T15:30:10Z",
+    "updatedAt": "2026-11-07T15:35:11Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "staleAfterSeconds": 900,
-  "unassignedEventCount": 21
+  "unassignedEventCount": 22
 }
