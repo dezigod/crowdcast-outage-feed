@@ -1,6 +1,6 @@
 {
   "collectionStatus": "ok",
-  "generatedAt": "2026-11-07T20:50:28Z",
+  "generatedAt": "2026-11-07T20:55:28Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -140,42 +140,7 @@
       "coverage": "partial",
       "customersOut": null,
       "id": "waterIsland",
-      "neighborhoods": [
-        {
-          "affectedCustomers": null,
-          "estimatedRestoration": null,
-          "id": "waterIsland-water-island",
-          "island": "waterIsland",
-          "locations": [
-            "#80",
-            "#89",
-            "#90",
-            "&",
-            "25 SPRAT BAY",
-            "40 SPRAT BAY",
-            "70",
-            "79",
-            "81",
-            "91",
-            "93",
-            "95",
-            "99",
-            "C-1",
-            "CROWN CROSS",
-            "Lot ",
-            "Lot 104",
-            "Lot 94-B",
-            "SPRAT BAY"
-          ],
-          "name": "Water Island",
-          "sourceEventIDs": [
-            "1ea918a84679a91f6f99fd7ad063091873aa2dbd8643a8091a56cf78062e3c74",
-            "6df3e3975f15d9a129380a7d8722c12263ac947822618557015feba3df59807a"
-          ],
-          "sourceStatus": "Predicted",
-          "startedAt": null
-        }
-      ]
+      "neighborhoods": []
     }
   ],
   "lastCollectionError": null,
@@ -185,14 +150,14 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "2ba04f968ce97deb08768c7c6b575d0b3372f9af38eb0d7562fdf6e59784f097",
+  "snapshotID": "864ea6fae883e65e41ecda8b35928cb99e78f286cfcd5587436f4bad3c923cd1",
   "source": {
-    "checkedAt": "2026-11-07T20:50:28Z",
+    "checkedAt": "2026-11-07T20:55:28Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-07T20:50:09Z",
+    "updatedAt": "2026-11-07T20:55:14Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "staleAfterSeconds": 900,
-  "unassignedEventCount": 23
+  "unassignedEventCount": 18
 }
