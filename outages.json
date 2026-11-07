@@ -1,6 +1,6 @@
 {
   "collectionStatus": "ok",
-  "generatedAt": "2026-11-07T00:35:29Z",
+  "generatedAt": "2026-11-07T00:40:29Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -14,31 +14,16 @@
           "id": "stThomas-agnes-fancy",
           "island": "stThomas",
           "locations": [
-            "3-N",
-            "3B-1",
-            "3C",
-            "3D-1",
-            "3F MTR-1",
-            "3K",
-            "3K-1",
-            "3L",
-            "3Q",
-            "3S",
             "5-A",
-            "5-E",
             "5B",
-            "5D",
-            "5D DWELLING",
-            "5E",
             "5F"
           ],
           "name": "Agnes Fancy",
           "sourceEventIDs": [
-            "688d24f7b6e72cb60f9dd7cfcfc315b9ee0efe7095b9fbf192b7ed84c8031d54",
-            "8cce9e321f55e4446bce38da31de638f7a13d344eba45ab5013d945fa9ddcebb"
+            "688d24f7b6e72cb60f9dd7cfcfc315b9ee0efe7095b9fbf192b7ed84c8031d54"
           ],
           "sourceStatus": "Predicted",
-          "startedAt": null
+          "startedAt": "2026-05-24T00:16:58Z"
         },
         {
           "affectedCustomers": null,
@@ -168,30 +153,6 @@
         {
           "affectedCustomers": null,
           "estimatedRestoration": null,
-          "id": "stThomas-peterborg",
-          "island": "stThomas",
-          "locations": [
-            "10-1-1",
-            "10-1-1 A-1",
-            "10-1-1 A-2",
-            "10-1-13 MTR-1",
-            "10-1-13 MTR-2",
-            "10-1-2",
-            "8-3",
-            "8-5 APT B",
-            "8-5 COT APT A",
-            "8-6"
-          ],
-          "name": "Peterborg",
-          "sourceEventIDs": [
-            "51b272cb4be954ea16466284447501fdc5fc94e717925c67d9e4e5d62f6569e0"
-          ],
-          "sourceStatus": "Predicted",
-          "startedAt": "2026-11-06T22:15:18Z"
-        },
-        {
-          "affectedCustomers": null,
-          "estimatedRestoration": null,
           "id": "stThomas-subbase",
           "island": "stThomas",
           "locations": [
@@ -216,20 +177,19 @@
         {
           "affectedCustomers": null,
           "estimatedRestoration": null,
-          "id": "stCroix-pump-garden",
+          "id": "stCroix-judiths-fancy",
           "island": "stCroix",
           "locations": [
-            "Building 24",
-            "Building 25",
-            "Building 25 LIGHT",
-            "Building 25 STAIR"
+            "52",
+            "60-F",
+            "84"
           ],
-          "name": "Pompano / Pump Garden",
+          "name": "Judith\u2019s Fancy",
           "sourceEventIDs": [
-            "bcf651b6da4dd9ed7eb91dc153da0cc71e66219e317d0859e8840060a2809a45"
+            "a21841ad59b9e3a68bc05342b9da42f38cd36067e3d6caae4f29f7e4df676262"
           ],
           "sourceStatus": "Predicted",
-          "startedAt": "2026-11-06T19:36:24Z"
+          "startedAt": "2026-11-07T00:36:19Z"
         }
       ]
     },
@@ -253,14 +213,14 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "58c52e316627e2f8e4176feca3346fa6daf3bc1f28f216560d8e20c0032ac97e",
+  "snapshotID": "d3645dd7ea5beb93257d0dd7ba5f6eeaedfc0c91c6aa7998f1e4a21209a46b63",
   "source": {
-    "checkedAt": "2026-11-07T00:35:29Z",
+    "checkedAt": "2026-11-07T00:40:29Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-07T00:35:08Z",
+    "updatedAt": "2026-11-07T00:40:07Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "staleAfterSeconds": 900,
-  "unassignedEventCount": 20
+  "unassignedEventCount": 15
 }
