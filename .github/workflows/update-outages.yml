@@ -25,6 +25,7 @@ jobs:
       - name: Collect and publish reviewed JSON
         env:
           GH_TOKEN: ${{ github.token }}
+          ROTATION_CHECK_ENABLED: ${{ vars.ROTATION_CHECK_ENABLED }}
           WAPA_COLLECTION_PERMISSION: ${{ secrets.WAPA_COLLECTION_PERMISSION }}
         shell: bash
         run: |

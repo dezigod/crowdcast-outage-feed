@@ -14,6 +14,7 @@ import urllib.request
 from .collect import collect, fetch, permission, PermissionRequired
 from .normalize import date, SOURCE
 from .store import Store
+from .rotation import ROTATION, check_rotation, public_rotation
 
 HEALTH = "collection-status.json"
 FEED = "outages.json"
@@ -160,11 +161,11 @@ class GitHubDataBranch:
             # not move a branch; replaying the exact non-forcing ref update is safe.
             time.sleep(2)
 
-    def load(self):
+    def load(self, *, include_rotation=False):
         self.tip = self.request("/git/ref/heads/" + self.branch)["object"]["sha"]
         self.tree = self.request("/git/commits/" + self.tip)["tree"]["sha"]
         result = {}
-        for name in (HEALTH, FEED):
+        for name in ((HEALTH, FEED, ROTATION) if include_rotation else (HEALTH, FEED)):
             try:
                 value = self.request("/contents/" + name + "?ref=" + self.tip)
             except urllib.error.HTTPError as error:
@@ -179,10 +180,10 @@ class GitHubDataBranch:
         return result
 
     def publish(self, files):
-        if not files or not set(files).issubset({HEALTH, FEED}):
+        if not files or not set(files).issubset({HEALTH, FEED, ROTATION}):
             raise ValueError("Only reviewed feed and collection status may be published")
         for name, value in files.items():
-            (public_feed if name == FEED else public_health)(value)
+            {FEED: public_feed, HEALTH: public_health, ROTATION: public_rotation}[name](value)
         if all(self.previous.get(name) == value for name, value in files.items()):
             return
         tree = self.request("/git/trees", method="POST", payload={"base_tree": self.tree,
@@ -208,7 +209,14 @@ def main():
         approved = json.loads(args.permission.read_text())
         permission(approved, datetime.now(timezone.utc))
         remote = GitHubDataBranch(os.environ.get("GITHUB_REPOSITORY", ""), os.environ.get("GH_TOKEN", ""))
-        outcome = run_once(remote.load(), approved, remote.publish)
+        rotation_enabled = os.environ.get("ROTATION_CHECK_ENABLED") == "true"
+        previous = remote.load(include_rotation=rotation_enabled)
+        outcome = run_once(previous, approved, remote.publish)
+        if rotation_enabled:
+            rotation_status = check_rotation(previous.get(ROTATION), remote.publish)
+            print("Schedule check: " + rotation_status)
+            if rotation_status in {"failed", "blocked"}:
+                parser.exit(1, "Previous schedule link retained; schedule check needs review.\n")
     except DeliveryError as error:
         parser.exit(1, str(error) + "; prior feed retained.\n")
     except PermissionRequired:

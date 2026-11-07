@@ -130,3 +130,17 @@ path is titled `Cruise feed freshness alert` in this repository; it cannot
 change or collect cruise source data. Native cruise monitoring remains enabled.
 
 Each outage check first saves its next permitted attempt time. The public feed keeps its previous result during the download. When the check finishes, the job publishes the outcome and the reviewed feed together. A temporary GitHub server or network error gets one bounded retry of the same GitHub operation. A refused source request retains the existing access restrictions. Both-feed monitor logs include the observed source timestamps so delivery gaps can be checked later.
+
+## St. Thomas rotational schedule
+
+With repository variable `ROTATION_CHECK_ENABLED=true`, the same five-minute
+workflow checks WAPA's public Alerts page and its linked STT/STJ schedule.
+This opt-in covers public schedule monitoring and link delivery. The outage
+map retains its separate collection and display permission record.
+
+`data/rotation-schedule.json` publishes the official document link, fingerprint,
+last successful check and first observation of the revision. The PDF stays on
+WAPA's website and opens inside CrowdCast. The source schedule is tentative
+and district-wide. A failed check preserves the last link and its original
+timestamps. The collector persists backoff and stops on access refusals or
+redirects. No raw PDFs, paid runners or storage services are used.
