@@ -1,6 +1,6 @@
 {
   "collectionStatus": "ok",
-  "generatedAt": "2026-11-07T20:35:28Z",
+  "generatedAt": "2026-11-07T20:43:10Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -106,24 +106,40 @@
       "coverage": "partial",
       "customersOut": null,
       "id": "waterIsland",
-      "neighborhoods": []
+      "neighborhoods": [
+        {
+          "affectedCustomers": null,
+          "estimatedRestoration": null,
+          "id": "waterIsland-water-island",
+          "island": "waterIsland",
+          "locations": [],
+          "name": "Water Island",
+          "sourceEventIDs": [
+            "1ea918a84679a91f6f99fd7ad063091873aa2dbd8643a8091a56cf78062e3c74",
+            "6df3e3975f15d9a129380a7d8722c12263ac947822618557015feba3df59807a"
+          ],
+          "sourceStatus": "Predicted",
+          "startedAt": null
+        }
+      ]
     }
   ],
   "lastCollectionError": null,
   "qualityNotes": [
+    "Some neighborhood listings do not identify individual lots.",
     "Some source events need island review. Island totals and empty listings may be incomplete.",
     "WAPA\u2019s summary and event customer totals disagree. Customer totals are unconfirmed."
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "53b3a1473dfd74295f876a5956b5035e3cf6b5e906e297f395dbde7a1a143306",
+  "snapshotID": "4a2a93da193c35b254324629e49fa3bb4825d311c817f9773a21c80e186309a6",
   "source": {
-    "checkedAt": "2026-11-07T20:35:28Z",
+    "checkedAt": "2026-11-07T20:43:10Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-07T20:35:08Z",
+    "updatedAt": "2026-11-07T20:40:09Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "staleAfterSeconds": 900,
-  "unassignedEventCount": 14
+  "unassignedEventCount": 16
 }
