@@ -144,3 +144,13 @@ WAPA's website and opens inside CrowdCast. The feed explicitly sets `subjectToCh
 schedule. A changed PDF at the same URL counts as a new revision. A failed check preserves the last link and its original
 timestamps. The collector persists backoff and stops on access refusals or
 redirects. No raw PDFs, paid runners or storage services are used.
+
+## St. Thomas parcel review
+
+The weekly parcel review runs Mondays at 10:23 a.m. Atlantic time on a
+standard runner. It rechecks the original unresolved labels and new labels
+in Agnes Fancy, Lovenlund, and Subbase against official parcel records
+within each Census estate boundary. The workflow summary lists candidates
+for review. Duplicate matches require additional evidence. Only reviewed
+matches bundled in CrowdCast are eligible for pins. The review does not
+write to the outage or schedule feeds.
