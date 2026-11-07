@@ -1,6 +1,6 @@
 {
   "collectionStatus": "ok",
-  "generatedAt": "2026-11-07T14:15:27Z",
+  "generatedAt": "2026-11-07T14:20:28Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -880,7 +880,6 @@
           ],
           "name": "Sion Hill",
           "sourceEventIDs": [
-            "2b41fd5a075144ca5c4911d146c7df2286ae46bc37ae467e5f8dd86043d970e4",
             "8c6b8d22545dc34c20acc0e15e05fa003a6d19d7e7c145b766554b52cf49e53a",
             "d79aa2cc2b263a65ddde1e9db62a36410d1200bb1487ddd46ce1e9498b4c92ac"
           ],
@@ -948,14 +947,14 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "fc00e9be471c9b3263b898900fa9c3e6d1be69126d82f024599e2096e2453dcb",
+  "snapshotID": "c3ac4b08a866d4687d91a1b9db3cce75269f44da1ea76a17b46a5b78692a76b4",
   "source": {
-    "checkedAt": "2026-11-07T14:15:27Z",
+    "checkedAt": "2026-11-07T14:20:28Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-07T14:15:15Z",
+    "updatedAt": "2026-11-07T14:20:13Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "staleAfterSeconds": 900,
-  "unassignedEventCount": 30
+  "unassignedEventCount": 28
 }
