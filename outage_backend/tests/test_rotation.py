@@ -24,6 +24,7 @@ class RotationTests(unittest.TestCase):
 
         self.assertEqual(check_rotation(None, published.append, now=NOW, loader=original), "ok")
         first = published[-1][ROTATION]
+        self.assertIs(first.pop("subjectToChange"), True)  # Simulate a legacy stored record.
 
         def unchanged(url, **kwargs):
             if url == ALERTS:
@@ -42,7 +43,9 @@ class RotationTests(unittest.TestCase):
             return (HTML, None) if url == ALERTS else (b"%PDF-revision", None)
 
         check_rotation(second, published.append, now=NOW + timedelta(minutes=10), loader=changed)
+        self.assertIs(published[-1][ROTATION]["subjectToChange"], True)
         third = published[-1][ROTATION]["schedule"]
+        self.assertEqual(third["url"], first["schedule"]["url"])
         self.assertNotEqual(third["fingerprint"], first["schedule"]["fingerprint"])
         self.assertEqual(third["checkedAt"], third["revisionSeenAt"])
 

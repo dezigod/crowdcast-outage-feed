@@ -140,7 +140,7 @@ map retains its separate collection and display permission record.
 
 `data/rotation-schedule.json` publishes the official document link, fingerprint,
 last successful check and first observation of the revision. The PDF stays on
-WAPA's website and opens inside CrowdCast. The source schedule is tentative
-and district-wide. A failed check preserves the last link and its original
+WAPA's website and opens inside CrowdCast. The feed explicitly sets `subjectToChange: true` for the tentative district
+schedule. A changed PDF at the same URL counts as a new revision. A failed check preserves the last link and its original
 timestamps. The collector persists backoff and stops on access refusals or
 redirects. No raw PDFs, paid runners or storage services are used.

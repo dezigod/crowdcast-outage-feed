@@ -40,7 +40,9 @@ def schedule_url(html):
 
 
 def public_rotation(value):
-    if set(value) != {"schemaVersion", "status", "nextAttemptAt", "schedule"}:
+    # Accept older records written before the tentative flag was added.
+    if (set(value) - {"subjectToChange"} != {"schemaVersion", "status", "nextAttemptAt", "schedule"}
+            or value.get("subjectToChange", True) is not True):
         raise ValueError("Unexpected rotation metadata")
     if value["schemaVersion"] != 1 or value["status"] not in {"ok", "failed", "blocked"}:
         raise ValueError("Invalid rotation status")
@@ -84,7 +86,7 @@ def check_rotation(previous, publish, *, now=None, loader=download):
             return "deferred"
 
     old = previous.get("schedule") if previous else None
-    state = dict(schemaVersion=1, status=previous["status"] if previous else "failed",
+    state = dict(schemaVersion=1, subjectToChange=True, status=previous["status"] if previous else "failed",
                  nextAttemptAt=stamp(now + timedelta(minutes=5)), schedule=old)
     publish({ROTATION: state.copy()})
     try:
