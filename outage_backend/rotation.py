@@ -3,6 +3,8 @@ from datetime import datetime, timedelta, timezone
 from hashlib import sha256
 from html.parser import HTMLParser
 import re
+import json
+from pathlib import Path
 from urllib.error import HTTPError
 from urllib.parse import urljoin
 from urllib.request import Request, build_opener
@@ -51,7 +53,7 @@ def public_rotation(value):
     schedule = value["schedule"]
     if schedule is None and value["status"] != "ok":
         return
-    if set(schedule) != {"url", "fingerprint", "checkedAt", "revisionSeenAt", "lastModified"}:
+    if set(schedule) - {"windows", "coverageStart", "coverageEnd", "extractionStatus"} != {"url", "fingerprint", "checkedAt", "revisionSeenAt", "lastModified"}:
         raise ValueError("Unexpected schedule fields")
     checked, seen = date(schedule["checkedAt"]), date(schedule["revisionSeenAt"])
     if (not PDF.fullmatch(schedule["url"]) or not re.fullmatch(r"[0-9a-f]{64}", schedule["fingerprint"])
@@ -59,6 +61,52 @@ def public_rotation(value):
             or (schedule["lastModified"] is not None and not re.fullmatch(
                 r"[A-Za-z0-9 ,:]{1,40}", schedule["lastModified"]))):
         raise ValueError("Invalid schedule metadata")
+
+    if any(key in schedule for key in ("windows", "coverageStart", "coverageEnd", "extractionStatus")):
+        validate_windows(schedule)
+
+
+def validate_windows(schedule):
+    windows = schedule.get("windows")
+    status = schedule.get("extractionStatus")
+    if status not in {"reviewed", "unavailable"} or not isinstance(windows, list) or len(windows) > 300:
+        raise ValueError("Invalid schedule windows")
+    if status == "unavailable":
+        if windows or schedule.get("coverageStart") is not None or schedule.get("coverageEnd") is not None:
+            raise ValueError("Unreviewed schedule must not contain inferred times")
+        return
+    if not windows:
+        raise ValueError("Reviewed schedule requires windows")
+    ids = set()
+    starts, ends = [], []
+    for row in windows:
+        if set(row) != {"id", "startsAt", "endsAt", "feeders", "areas"}:
+            raise ValueError("Unexpected window fields")
+        start, end = date(row["startsAt"]), date(row["endsAt"])
+        if (not isinstance(row["id"], str) or not 1 <= len(row["id"]) <= 100 or row["id"] in ids
+                or start is None or end is None or not timedelta(0) < end - start <= timedelta(days=1)):
+            raise ValueError("Invalid window timing")
+        ids.add(row["id"])
+        for key in ("feeders", "areas"):
+            if (not isinstance(row[key], list) or len(row[key]) > 30
+                    or any(not isinstance(s, str) or not 1 <= len(s.strip()) <= 200 for s in row[key])):
+                raise ValueError("Invalid window locations")
+        if not row["feeders"] and not row["areas"]:
+            raise ValueError("Missing window location")
+        starts.append(start); ends.append(end)
+    if date(schedule.get("coverageStart")) != min(starts) or date(schedule.get("coverageEnd")) != max(ends):
+        raise ValueError("Coverage differs from reviewed dates")
+
+
+def reviewed_windows(fingerprint):
+    # A changing PDF layout must never silently remap feeder columns. Only exact
+    # visually reviewed bytes receive rows; new revisions immediately fall back
+    # to the official PDF until reviewed. The five-minute monitor still updates.
+    records = json.loads(Path(__file__).with_name("reviewed-rotation-windows.json").read_text())
+    result = records.get(fingerprint, dict(extractionStatus="unavailable", coverageStart=None,
+                                           coverageEnd=None, windows=[]))
+    validate_windows(result)
+    return result
 
 
 def download(url, *, previous_modified=None, limit):
@@ -101,7 +149,7 @@ def check_rotation(previous, publish, *, now=None, loader=download):
         unchanged = same_url and old["fingerprint"] == fingerprint
         schedule = dict(url=url, fingerprint=fingerprint, checkedAt=stamp(now),
                         revisionSeenAt=old["revisionSeenAt"] if unchanged else stamp(now),
-                        lastModified=modified)
+                        lastModified=modified, **reviewed_windows(fingerprint))
         candidate = dict(state, status="ok", schedule=schedule)
         public_rotation(candidate)
         state = candidate

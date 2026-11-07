@@ -154,3 +154,27 @@ within each Census estate boundary. The workflow summary lists candidates
 for review. Duplicate matches require additional evidence. Only reviewed
 matches bundled in CrowdCast are eligible for pins. The review does not
 write to the outage or schedule feeds.
+
+### Reviewed planned interruption times
+
+`rotation-schedule.json` optionally includes `schedule.windows` with zoned
+`startsAt` / `endsAt`, feeder and area labels, and `coverageStart` / `coverageEnd`.
+These are **tentative planned interruptions**, never actual outage/restoration
+confirmations. `extractionStatus` is `reviewed` or `unavailable`.
+
+The 2026-11-07 review visually checked all six pages of WAPA's official PDF
+(SHA256 `6df95be896a902f1a0b4cdae910da0bb4a924e4af942561c0b1cb85cdd789019`).
+Its 18 windows are dated **November 4–6**, not November 7. The PDF says activation
+is only if needed, some feeders may not be affected, restoration may be delayed
+up to 15 minutes, and schedules may change with demand. Those dates must not be
+rolled forward or presented as current after their coverage ends. The HTTP
+Last-Modified date and revision-first-seen timestamp are not effective dates.
+
+The existing five-minute monitor refreshes the PDF fingerprint. Exact reviewed
+bytes use `reviewed-rotation-windows.json`; any new/unreviewed fingerprint clears
+structured rows and returns `unavailable`, while continuing to link the current
+official PDF. This intentionally requires review of new layouts rather than
+risk assigning one column's feeder to another column's times. Checked timestamps
+remain retrieval evidence, not evidence that a past schedule is still active.
+WAPA viewer estimates already come from `estimatedTimeOfRestoral`; unknown,
+timezone-free, pre-start or conflicting grouped estimates remain null.
