@@ -1,6 +1,6 @@
 {
   "collectionStatus": "ok",
-  "generatedAt": "2026-11-07T20:43:10Z",
+  "generatedAt": "2026-11-07T20:50:28Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -93,6 +93,40 @@
           ],
           "sourceStatus": "Verified",
           "startedAt": null
+        },
+        {
+          "affectedCustomers": null,
+          "estimatedRestoration": null,
+          "id": "stCroix-vicorp-land",
+          "island": "stCroix",
+          "locations": [
+            "109",
+            "130",
+            "14-A",
+            "142",
+            "222",
+            "268 H-229",
+            "31",
+            "36",
+            "393 PARCEL 5",
+            "4 (LOWER LOVE",
+            "43",
+            "43 (HSE 3)",
+            "49",
+            "50",
+            "51",
+            "536",
+            "61",
+            "79",
+            "82",
+            "98"
+          ],
+          "name": "Vicorp Land",
+          "sourceEventIDs": [
+            "4f01c1c9494ca89e8d6df7257f0b1445e0304918dda35a4c26e759dd30074eab"
+          ],
+          "sourceStatus": "Verified",
+          "startedAt": "2026-11-07T20:46:06Z"
         }
       ]
     },
@@ -112,7 +146,27 @@
           "estimatedRestoration": null,
           "id": "waterIsland-water-island",
           "island": "waterIsland",
-          "locations": [],
+          "locations": [
+            "#80",
+            "#89",
+            "#90",
+            "&",
+            "25 SPRAT BAY",
+            "40 SPRAT BAY",
+            "70",
+            "79",
+            "81",
+            "91",
+            "93",
+            "95",
+            "99",
+            "C-1",
+            "CROWN CROSS",
+            "Lot ",
+            "Lot 104",
+            "Lot 94-B",
+            "SPRAT BAY"
+          ],
           "name": "Water Island",
           "sourceEventIDs": [
             "1ea918a84679a91f6f99fd7ad063091873aa2dbd8643a8091a56cf78062e3c74",
@@ -126,20 +180,19 @@
   ],
   "lastCollectionError": null,
   "qualityNotes": [
-    "Some neighborhood listings do not identify individual lots.",
     "Some source events need island review. Island totals and empty listings may be incomplete.",
     "WAPA\u2019s summary and event customer totals disagree. Customer totals are unconfirmed."
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "4a2a93da193c35b254324629e49fa3bb4825d311c817f9773a21c80e186309a6",
+  "snapshotID": "2ba04f968ce97deb08768c7c6b575d0b3372f9af38eb0d7562fdf6e59784f097",
   "source": {
-    "checkedAt": "2026-11-07T20:43:10Z",
+    "checkedAt": "2026-11-07T20:50:28Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-07T20:40:09Z",
+    "updatedAt": "2026-11-07T20:50:09Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "staleAfterSeconds": 900,
-  "unassignedEventCount": 16
+  "unassignedEventCount": 23
 }
