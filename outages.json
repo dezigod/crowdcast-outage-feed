@@ -1,6 +1,6 @@
 {
   "collectionStatus": "ok",
-  "generatedAt": "2026-11-08T22:25:28Z",
+  "generatedAt": "2026-11-08T22:30:28Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -14,16 +14,46 @@
           "id": "stThomas-agnes-fancy",
           "island": "stThomas",
           "locations": [
+            "10",
+            "10 APT-1",
+            "10 APT-2",
+            "10 APT-5",
+            "10 APT-6",
+            "100",
+            "101",
+            "107",
+            "109A",
+            "114",
+            "114 A",
+            "15B",
+            "24A",
+            "24A APT-1",
             "5-A",
             "5B",
-            "5F"
+            "5F",
+            "77",
+            "79",
+            "79 BLDG 3",
+            "79 DOWN",
+            "79A",
+            "79A BLDG 2",
+            "8 MTR-1",
+            "83",
+            "86 APT-A",
+            "86 APT-B",
+            "90",
+            "92",
+            "95",
+            "9B",
+            "MTR C"
           ],
           "name": "Agnes Fancy",
           "sourceEventIDs": [
-            "688d24f7b6e72cb60f9dd7cfcfc315b9ee0efe7095b9fbf192b7ed84c8031d54"
+            "688d24f7b6e72cb60f9dd7cfcfc315b9ee0efe7095b9fbf192b7ed84c8031d54",
+            "fd7296b24cb31a76c4bbb3758b8273778ef7c75b298c8b23eac57085b8cf24f3"
           ],
-          "sourceStatus": "Predicted",
-          "startedAt": "2026-05-24T00:16:58Z"
+          "sourceStatus": "Unconfirmed",
+          "startedAt": null
         },
         {
           "affectedCustomers": null,
@@ -46,16 +76,45 @@
           "id": "stThomas-subbase",
           "island": "stThomas",
           "locations": [
+            "10-11A",
             "100",
             "101",
-            "69"
+            "11B",
+            "121",
+            "133",
+            "16",
+            "168-308",
+            "168-501 B-5",
+            "168-504",
+            "168-506 BAY #4",
+            "23",
+            "23 A-B",
+            "39",
+            "40",
+            "40 - LAUNDROMAT",
+            "40 STE 201",
+            "40 SUITE 204",
+            "41",
+            "41 STE 110",
+            "41 UNIT 101-A",
+            "43-43A",
+            "46",
+            "4A",
+            "69",
+            "72 INSPECTION LN",
+            "8168",
+            "9-10",
+            "STE 201",
+            "STE 205",
+            "UNIT 111"
           ],
           "name": "Subbase",
           "sourceEventIDs": [
-            "cbbd2ef62dee6d0405b3a5d5c18b1c3c5a5b4dbca8f2f81c8fc8d71e6fec7176"
+            "cbbd2ef62dee6d0405b3a5d5c18b1c3c5a5b4dbca8f2f81c8fc8d71e6fec7176",
+            "fd7296b24cb31a76c4bbb3758b8273778ef7c75b298c8b23eac57085b8cf24f3"
           ],
           "sourceStatus": "Verified",
-          "startedAt": "2026-10-14T15:23:16Z"
+          "startedAt": null
         }
       ]
     },
@@ -85,11 +144,11 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "2b36bd4422b01d3a9788a606be458b7505565defd89874362498b312688951f8",
+  "snapshotID": "2875682254721853e4be1d25b0322b21fb5c341261849b88f75c182571cf5179",
   "source": {
-    "checkedAt": "2026-11-08T22:25:28Z",
+    "checkedAt": "2026-11-08T22:30:28Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-08T22:25:15Z",
+    "updatedAt": "2026-11-08T22:30:16Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
