@@ -1,6 +1,6 @@
 {
   "collectionStatus": "ok",
-  "generatedAt": "2026-11-08T01:35:27Z",
+  "generatedAt": "2026-11-08T01:40:28Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -110,22 +110,18 @@
           "id": "stThomas-st-peter",
           "island": "stThomas",
           "locations": [
-            "20-1",
-            "22A",
             "31-18 HSE METER",
             "31-19 & 31-18",
             "31-22 NORTH STAR",
             "31-22 NORTHSTAR",
-            "3I-20 HIBIS LANE",
-            "6D-1"
+            "3I-20 HIBIS LANE"
           ],
           "name": "Estate St. Peter",
           "sourceEventIDs": [
-            "0206c3dd19430d975a3600e7759516876ffcc97527fbc3204dddde713569054a",
-            "4a1e024e494c558c792abd03b14929a9662879e93d0348302b917f42f17c9b97"
+            "0206c3dd19430d975a3600e7759516876ffcc97527fbc3204dddde713569054a"
           ],
           "sourceStatus": "Predicted",
-          "startedAt": null
+          "startedAt": "2026-11-08T00:51:31Z"
         },
         {
           "affectedCustomers": null,
@@ -134,13 +130,6 @@
           "island": "stThomas",
           "locations": [
             "#3 BLDG-4",
-            "14-L RM 318",
-            "2 B-56M A-135",
-            "21-L R-338",
-            "24M RM 350-351",
-            "27M",
-            "29M RM &",
-            "29U RM 411&412",
             "3",
             "3 -MAINTAINENCE",
             "3 B 3 APT 3201",
@@ -216,24 +205,7 @@
             "3-4 BLDG-11",
             "3-4 BLDG-12",
             "3-4 BLDG17",
-            "31U UNIT 416",
-            "42",
-            "49L R-114 ST VI",
             "4B AND 4-1",
-            "50-L RM",
-            "50M RM 202-",
-            "51-L RM",
-            "52M RM 211-",
-            "53L RM",
-            "53M RM 216-",
-            "54 UB RM",
-            "58 MAHOGANY RUN",
-            "58M",
-            "66M R-458",
-            "71U RM 219-",
-            "72L RM 225",
-            "73L RM",
-            "A-348-49 B",
             "B-1 APT 1303",
             "B-10",
             "B-10 APT 1021",
@@ -287,15 +259,9 @@
             "B-2 APT 2301",
             "B-3 APT 3203",
             "B-4 APT 4102",
-            "B-40 L-490",
-            "B-40 SEWAGE PUM",
-            "B-44L RM-509",
             "B-5 APT 5203",
             "B-5 APT 5302",
             "B-5 APT 5303",
-            "B-54 RM",
-            "B-56U R-132",
-            "B-58 PUMP",
             "B-6 APT 6103",
             "B-7 APT 7201",
             "B-7 APT 7203",
@@ -306,7 +272,6 @@
             "B-9 APT 9202",
             "B-9 APT 9203",
             "B5 APT 5301",
-            "B69",
             "BLD 15 APT 1532",
             "Building 1 APT",
             "Building 11",
@@ -319,48 +284,14 @@
             "Building 7 A-7202",
             "Building 8",
             "Building 9",
-            "C-10",
-            "C-24",
-            "C-24 LOT",
-            "C-47-C",
-            "C-5 B-18",
-            "C-5-B-10&C-2-E",
-            "C-5-B-12",
-            "C-5-B-16",
-            "C-5-B-19",
-            "C-5-B-23",
-            "C-5-B-24",
-            "C-5-C",
-            "C-6-0 LOT 109",
-            "C-6-B",
-            "C-6-G",
-            "C-6-J",
-            "C-6-P LOT 108",
-            "C-6-T",
-            "C-8",
-            "C5-B-20",
-            "D-20",
-            "D-20-C",
-            "EST 71M RM 221/",
-            "EST B27 U27U",
-            "EST FARMHOUSE",
-            "L A-341",
-            "LT 103 C-5-B-22",
-            "M ROOM",
-            "MAHOGANY",
-            "MAHOGANY RUN",
-            "RM 214-215",
-            "RM 500 B-43U",
-            "U &",
-            "U-31M RM"
+            "EST FARMHOUSE"
           ],
           "name": "Lovenlund",
           "sourceEventIDs": [
             "3f02b99dead9b94250446969743c9c05145941d7c109b4dd22228dd0e22ae18f",
-            "a7622fe5ec3f7460243d64545ddffb42dc3c534b3876e2c938737688abde9c58",
-            "ee3dcca47389eeee0a4627b67a9e6c83c544ac25b0a099680498b77f1fa282de"
+            "a7622fe5ec3f7460243d64545ddffb42dc3c534b3876e2c938737688abde9c58"
           ],
-          "sourceStatus": "Unconfirmed",
+          "sourceStatus": "Verified",
           "startedAt": null
         },
         {
@@ -658,14 +589,14 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "7e24f9c22e0a671969a3dbc7a43e328a870b913e85436a66ff7dcbdd5fe1edf3",
+  "snapshotID": "5261bdb844ce1b604aee35a63f7b086f30e12e782894be9a378d2cf813d7275b",
   "source": {
-    "checkedAt": "2026-11-08T01:35:27Z",
+    "checkedAt": "2026-11-08T01:40:28Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-08T01:35:11Z",
+    "updatedAt": "2026-11-08T01:40:11Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "staleAfterSeconds": 900,
-  "unassignedEventCount": 31
+  "unassignedEventCount": 23
 }
