@@ -1,6 +1,6 @@
 {
   "collectionStatus": "ok",
-  "generatedAt": "2026-11-08T01:40:28Z",
+  "generatedAt": "2026-11-08T01:50:27Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -103,25 +103,6 @@
           ],
           "sourceStatus": "Unconfirmed",
           "startedAt": null
-        },
-        {
-          "affectedCustomers": null,
-          "estimatedRestoration": null,
-          "id": "stThomas-st-peter",
-          "island": "stThomas",
-          "locations": [
-            "31-18 HSE METER",
-            "31-19 & 31-18",
-            "31-22 NORTH STAR",
-            "31-22 NORTHSTAR",
-            "3I-20 HIBIS LANE"
-          ],
-          "name": "Estate St. Peter",
-          "sourceEventIDs": [
-            "0206c3dd19430d975a3600e7759516876ffcc97527fbc3204dddde713569054a"
-          ],
-          "sourceStatus": "Predicted",
-          "startedAt": "2026-11-08T00:51:31Z"
         },
         {
           "affectedCustomers": null,
@@ -540,11 +521,8 @@
           "island": "stCroix",
           "locations": [
             "B-1",
-            "B-1LDG5",
             "B-30",
             "Building 1",
-            "Building 14",
-            "Building 15",
             "Building 19",
             "Building 21",
             "Building 23",
@@ -561,11 +539,10 @@
           ],
           "name": "Pompano / Pump Garden",
           "sourceEventIDs": [
-            "54c7088df2fc71580aa736515aab2d64af3041fac26b18753376232427e63767",
-            "f90a397c0e018e43739d951b0a97d3e674671e00c1d08fff37f932b44b618100"
+            "54c7088df2fc71580aa736515aab2d64af3041fac26b18753376232427e63767"
           ],
-          "sourceStatus": "Unconfirmed",
-          "startedAt": null
+          "sourceStatus": "Verified",
+          "startedAt": "2026-11-08T00:40:00Z"
         }
       ]
     },
@@ -589,14 +566,14 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "5261bdb844ce1b604aee35a63f7b086f30e12e782894be9a378d2cf813d7275b",
+  "snapshotID": "619ac976edda60ad764afbd89ba100ef2e9d32fd0d8563873f9431dd2c3dc402",
   "source": {
-    "checkedAt": "2026-11-08T01:40:28Z",
+    "checkedAt": "2026-11-08T01:50:27Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-08T01:40:11Z",
+    "updatedAt": "2026-11-08T01:50:14Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "staleAfterSeconds": 900,
-  "unassignedEventCount": 23
+  "unassignedEventCount": 15
 }
