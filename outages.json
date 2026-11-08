@@ -1,6 +1,6 @@
 {
   "collectionStatus": "ok",
-  "generatedAt": "2026-11-08T00:50:27Z",
+  "generatedAt": "2026-11-08T00:55:28Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -103,6 +103,25 @@
           ],
           "sourceStatus": "Unconfirmed",
           "startedAt": null
+        },
+        {
+          "affectedCustomers": null,
+          "estimatedRestoration": null,
+          "id": "stThomas-st-peter",
+          "island": "stThomas",
+          "locations": [
+            "31-18 HSE METER",
+            "31-19 & 31-18",
+            "31-22 NORTH STAR",
+            "31-22 NORTHSTAR",
+            "3I-20 HIBIS LANE"
+          ],
+          "name": "Estate St. Peter",
+          "sourceEventIDs": [
+            "0206c3dd19430d975a3600e7759516876ffcc97527fbc3204dddde713569054a"
+          ],
+          "sourceStatus": "Predicted",
+          "startedAt": "2026-11-08T00:51:31Z"
         },
         {
           "affectedCustomers": null,
@@ -635,14 +654,14 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "b3409224d23b6e61079c2e712928487f410f8326636ce582259028ca016d8b26",
+  "snapshotID": "c05f25365dd66ac6066c18b1f2294c00f4bee24e1bcbee79913884207cd86c29",
   "source": {
-    "checkedAt": "2026-11-08T00:50:27Z",
+    "checkedAt": "2026-11-08T00:55:28Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-08T00:50:09Z",
+    "updatedAt": "2026-11-08T00:55:09Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "staleAfterSeconds": 900,
-  "unassignedEventCount": 28
+  "unassignedEventCount": 32
 }
