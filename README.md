@@ -182,3 +182,7 @@ timezone-free, pre-start or conflicting grouped estimates remain null.
 ### Rotation review monitoring
 
 The existing delivered-feed monitor separately checks `rotation-schedule.json` after collection and on its 15-minute schedule. A deduplicated **WAPA rotation schedule needs review** issue flags a new unreviewed PDF fingerprint, expired reviewed schedule dates, failed checks, or checks older than 30 minutes. This does not speed up WAPA publication or invent restoration estimates. Fresh downloads never make expired schedule dates current. New PDF layouts still require visual review before their times are published. The five-minute source collector and independent dispatcher are unchanged.
+
+### Rotation notification deduplication
+
+Rotation checks still open a new issue and fail the Actions run for a new incident or newly added problem. An unchanged already-open rotation incident now emits an explicit warning and an **UNHEALTHY** job summary instead of failing every monitor run again. The issue stays open until verified recovery, when the existing recovery comment/close path runs. A green monitor run means the check/incident tracking succeeded, not that expired rotation coverage recovered. This opt-in applies only to rotation checks: outage and cruise failure exits, GitHub/API errors, collection schedules and user notification settings are unchanged. No new notification subscription was added.
