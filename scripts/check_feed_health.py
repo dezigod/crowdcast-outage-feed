@@ -4,6 +4,7 @@ import base64
 import calendar
 from datetime import datetime, timezone
 import json
+import os
 import re
 import subprocess
 import urllib.request
@@ -180,6 +181,7 @@ def alert(repository, failures, title=TITLE):
                 "This issue closes automatically after the delivered feed is healthy again.")
         if incident is None:
             gh("issue", "create", "--repo", repository, "--title", title, "--body", body)
+            return "new_incident"
         elif incident.get("body", "") != body:
             earlier = set(incident.get("body", "").splitlines())
             added = [f for f in failures if "- " + f not in earlier]
@@ -188,10 +190,33 @@ def alert(repository, failures, title=TITLE):
             if added:
                 gh("issue", "comment", number, "--repo", repository, "--body",
                    "@dezigod The delivery incident changed.\n\n" + "\n".join("- " + f for f in added))
-        return
+                return "new_problems"
+        return "known_incident"
     if incident:
         gh("issue", "close", str(incident["number"]), "--repo", repository,
            "--comment", "@dezigod Recovery verified: the delivered feed now passes its freshness, source-coverage and collection checks.")
+        return "recovered"
+    return "healthy"
+
+
+def report_result(kind, failures, alert_state, deduplicate=False):
+    # A successfully tracked, unchanged rotation incident is not a new failure.
+    # Its feed remains unhealthy and the open issue is the durable alert.
+    known = deduplicate and kind == "rotation" and alert_state == "known_incident"
+    print(json.dumps({"healthy": not failures, "problems": failures,
+                      "alertState": alert_state, "repeatNotificationSuppressed": bool(failures and known)}))
+    if failures and known:
+        print("::warning title=WAPA schedule still needs review::Known incident remains open; no new repeat-failure notification. See job summary and open rotation-review issue.")
+    summary = os.environ.get("GITHUB_STEP_SUMMARY")
+    if summary:
+        with open(summary, "a", encoding="utf-8") as out:
+            out.write("\n### " + kind + " feed: " + ("UNHEALTHY" if failures else "healthy") + "\n\n")
+            out.write("Alert state: " + alert_state + ".\n\n")
+            for failure in failures:
+                out.write("- " + failure + "\n")
+            if failures and known:
+                out.write("\nThe existing rotation-review issue remains open. This monitor run succeeded at tracking an unresolved incident; it does **not** mean schedule coverage recovered.\n")
+    return 1 if failures and not known else 0
 
 
 def main():
@@ -199,7 +224,11 @@ def main():
     parser.add_argument("kind", choices=CONFIG)
     parser.add_argument("--repository", required=True)
     parser.add_argument("--alert-repository", choices=["dezigod/crowdcast-outage-feed"])
+    parser.add_argument("--deduplicate-known-incident", action="store_true",
+                        help="Rotation only: keep known open incidents visible without repeated failed-run notifications")
     args = parser.parse_args()
+    if args.deduplicate_known_incident and args.kind != "rotation":
+        parser.error("Incident notification deduplication is limited to rotation checks")
     expected = "dezigod/" + ("cruise-schedule-app" if args.kind == "cruise" else "crowdcast-outage-feed")
     if args.repository != expected:
         parser.error("Unexpected repository")
@@ -220,11 +249,10 @@ def main():
     title = "Cruise feed freshness alert" if destination != args.repository else TITLE
     if args.kind == "rotation":
         title = "WAPA rotation schedule needs review"
-    alert(destination, failures, title=title)
-    print(json.dumps({"healthy": not failures, "problems": failures}))
-    if failures:
-        raise SystemExit(1)
+    alert_state = alert(destination, failures, title=title)
+    raise SystemExit(report_result(args.kind, failures, alert_state, args.deduplicate_known_incident))
 
 
 if __name__ == "__main__":
     main()
+
