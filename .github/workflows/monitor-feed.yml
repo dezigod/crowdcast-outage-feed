@@ -48,4 +48,3 @@ jobs:
           issue_url=$(gh issue create --repo "${{ github.repository }}" --title '[TEST] CrowdCast alert delivery verification' --body '@dezigod This is an authorized notification test. The feed has not been interrupted or changed. This test issue will close automatically after creation succeeds.')
           gh issue view "$issue_url" --json number,state,url
           gh issue close "$issue_url" --comment '@dezigod Alert creation and recovery permissions verified. This was a test; no production feed failure was introduced.'
-
