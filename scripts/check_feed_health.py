@@ -14,6 +14,7 @@ TITLE = "Feed freshness alert"
 CRUISE_STATE = "https://raw.githubusercontent.com/dezigod/cruise-schedule-app/collection-state/state.json"
 CONFIG = {
     "cruise": ("https://raw.githubusercontent.com/dezigod/cruise-schedule-app/main/official-cruise-calendar-v1.json", 12 * 3600),
+    "rotation": ("https://raw.githubusercontent.com/dezigod/crowdcast-outage-feed/data/rotation-schedule.json", 30 * 60),
     "outage": ("https://raw.githubusercontent.com/dezigod/crowdcast-outage-feed/data/outages.json", 30 * 60),
 }
 
@@ -50,6 +51,8 @@ def document_roles(documents, local_date):
 def source_times(kind, feed):
     if kind == "cruise":
         return {d["id"]: d.get("checkedAt") for d in feed.get("documents", [])}
+    if kind == "rotation":
+        return {key: (feed.get("schedule") or {}).get(key) for key in ("checkedAt", "revisionSeenAt", "coverageEnd")}
     source = feed.get("source", {})
     return {key: source.get(key) for key in ("checkedAt", "updatedAt")}
 
@@ -83,6 +86,23 @@ def problems(kind, feed, now):
         if feed.get("collectionStatus") in {"failed", "blocked"}:
             failures.append("Cruise collector has not verified its latest attempt.")
         checks = [(str(d.get("id") or "Cruise document") + " source check", d.get("checkedAt")) for d in documents]
+    elif kind == "rotation":
+        schedule = feed.get("schedule")
+        if not isinstance(schedule, dict):
+            return ["WAPA rotation schedule is unavailable. Check the official source; do not infer restoration times."]
+        checks = [("WAPA rotation PDF check", schedule.get("checkedAt"))]
+        if feed.get("status") != "ok":
+            failures.append("WAPA rotation PDF check failed or requires access review.")
+        if schedule.get("extractionStatus") != "reviewed":
+            fingerprint = schedule.get("fingerprint", "")
+            revision = " (" + fingerprint[:12] + ")" if isinstance(fingerprint, str) and re.fullmatch(r"[0-9a-f]{64}", fingerprint) else ""
+            failures.append("WAPA has an unreviewed schedule revision" + revision + ". Visually verify the PDF and match its fingerprint before publishing times.")
+        else:
+            try:
+                if timestamp(schedule.get("coverageEnd")) <= now:
+                    failures.append("WAPA's reviewed schedule dates have passed. Check for a new official schedule; no current rotation times are confirmed.")
+            except (TypeError, ValueError, AttributeError):
+                failures.append("WAPA reviewed schedule coverage is missing or invalid.")
     else:
         islands = feed.get("islands")
         if (not isinstance(islands, list) or len(islands) != 4
@@ -154,7 +174,7 @@ def alert(repository, failures, title=TITLE):
     rows = (row for page in pages for row in page if "pull_request" not in row)
     incident = next((row for row in rows if row["title"] == title), None)
     if failures:
-        body = ("@dezigod Feed delivery needs attention.\n\n" + "\n".join("- " + f for f in failures) +
+        body = ("@dezigod Feed freshness or source coverage needs attention.\n\n" + "\n".join("- " + f for f in failures) +
                 "\n\nCheck the collector's Actions logs and the published source timestamps. "
                 "The previous valid feed must be retained. Never bypass provider refusals or reset source timestamps. "
                 "This issue closes automatically after the delivered feed is healthy again.")
@@ -171,7 +191,7 @@ def alert(repository, failures, title=TITLE):
         return
     if incident:
         gh("issue", "close", str(incident["number"]), "--repo", repository,
-           "--comment", "@dezigod Recovery verified: the delivered feed now passes source freshness and collection-status checks.")
+           "--comment", "@dezigod Recovery verified: the delivered feed now passes its freshness, source-coverage and collection checks.")
 
 
 def main():
@@ -198,6 +218,8 @@ def main():
             failures.append("Cruise collection state could not be downloaded or validated.")
     destination = args.alert_repository or args.repository
     title = "Cruise feed freshness alert" if destination != args.repository else TITLE
+    if args.kind == "rotation":
+        title = "WAPA rotation schedule needs review"
     alert(destination, failures, title=title)
     print(json.dumps({"healthy": not failures, "problems": failures}))
     if failures:

@@ -178,3 +178,7 @@ risk assigning one column's feeder to another column's times. Checked timestamps
 remain retrieval evidence, not evidence that a past schedule is still active.
 WAPA viewer estimates already come from `estimatedTimeOfRestoral`; unknown,
 timezone-free, pre-start or conflicting grouped estimates remain null.
+
+### Rotation review monitoring
+
+The existing delivered-feed monitor separately checks `rotation-schedule.json` after collection and on its 15-minute schedule. A deduplicated **WAPA rotation schedule needs review** issue flags a new unreviewed PDF fingerprint, expired reviewed schedule dates, failed checks, or checks older than 30 minutes. This does not speed up WAPA publication or invent restoration estimates. Fresh downloads never make expired schedule dates current. New PDF layouts still require visual review before their times are published. The five-minute source collector and independent dispatcher are unchanged.

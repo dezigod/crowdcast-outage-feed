@@ -29,6 +29,11 @@ jobs:
         env:
           GH_TOKEN: ${{ github.token }}
         run: python3 scripts/check_feed_health.py outage --repository "${{ github.repository }}"
+      - name: Check WAPA schedule revisions and date coverage
+        if: always()
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: python3 scripts/check_feed_health.py rotation --repository "${{ github.repository }}"
       - name: Independently check cruise feed delivery
         if: always()
         env:
