@@ -1,6 +1,6 @@
 {
   "collectionStatus": "ok",
-  "generatedAt": "2026-11-09T14:30:29Z",
+  "generatedAt": "2026-11-09T14:35:29Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -65,14 +65,16 @@
           "locations": [
             "100",
             "101",
-            "69"
+            "69",
+            "72 INSPECTION LN"
           ],
           "name": "Subbase",
           "sourceEventIDs": [
+            "9d36171e38935f4ec3a7f58e114e5093ee4d8cb72706c057555deb4f473480a3",
             "cbbd2ef62dee6d0405b3a5d5c18b1c3c5a5b4dbca8f2f81c8fc8d71e6fec7176"
           ],
-          "sourceStatus": "Verified",
-          "startedAt": "2026-10-14T15:23:16Z"
+          "sourceStatus": "Unconfirmed",
+          "startedAt": null
         }
       ]
     },
@@ -102,14 +104,14 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "50eea26e65d47f382b55df7ef6004b7ff5556ce7cff2e1517ec476b3bbc3ca81",
+  "snapshotID": "8ec4792670602501152233e8df2ba7694f05b709fc7a45a0f66a2b26b950f964",
   "source": {
-    "checkedAt": "2026-11-09T14:30:29Z",
+    "checkedAt": "2026-11-09T14:35:29Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-09T14:30:14Z",
+    "updatedAt": "2026-11-09T14:35:14Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "staleAfterSeconds": 900,
-  "unassignedEventCount": 17
+  "unassignedEventCount": 18
 }
