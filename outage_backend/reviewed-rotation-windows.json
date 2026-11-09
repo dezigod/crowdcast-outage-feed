@@ -200,5 +200,93 @@
         ]
       }
     ]
+  },
+  "10172c3012aa7d0c8f7951b811eca027380e8dc076905c8410401e505f86aa9e": {
+    "extractionStatus": "reviewed",
+    "coverageStart": "2026-11-09T08:30:00-04:00",
+    "coverageEnd": "2026-11-09T22:30:00-04:00",
+    "windows": [
+      {
+        "id": "2026-11-09-0830",
+        "startsAt": "2026-11-09T08:30:00-04:00",
+        "endsAt": "2026-11-09T10:30:00-04:00",
+        "feeders": [
+          "Feeder 7A",
+          "Feeder 7E"
+        ],
+        "areas": [
+          "Altona to Drake's Seat",
+          "Cruz Bay to Zootenvaal"
+        ]
+      },
+      {
+        "id": "2026-11-09-1030",
+        "startsAt": "2026-11-09T10:30:00-04:00",
+        "endsAt": "2026-11-09T12:30:00-04:00",
+        "feeders": [
+          "Feeder 10B"
+        ],
+        "areas": [
+          "Paul M. Pearson Garden to Bolongo"
+        ]
+      },
+      {
+        "id": "2026-11-09-1230",
+        "startsAt": "2026-11-09T12:30:00-04:00",
+        "endsAt": "2026-11-09T14:30:00-04:00",
+        "feeders": [
+          "Feeder 7C",
+          "Feeder 9C"
+        ],
+        "areas": [
+          "Cassi Hill to Red Hook",
+          "Nadir to Bovoni"
+        ]
+      },
+      {
+        "id": "2026-11-09-1430",
+        "startsAt": "2026-11-09T14:30:00-04:00",
+        "endsAt": "2026-11-09T16:30:00-04:00",
+        "feeders": [
+          "Feeder 6A"
+        ],
+        "areas": []
+      },
+      {
+        "id": "2026-11-09-1630",
+        "startsAt": "2026-11-09T16:30:00-04:00",
+        "endsAt": "2026-11-09T18:30:00-04:00",
+        "feeders": [
+          "Feeder 7B"
+        ],
+        "areas": [
+          "Estate Thomas to Tabor and Harmony"
+        ]
+      },
+      {
+        "id": "2026-11-09-1830",
+        "startsAt": "2026-11-09T18:30:00-04:00",
+        "endsAt": "2026-11-09T20:30:00-04:00",
+        "feeders": [
+          "Feeder 9C"
+        ],
+        "areas": [
+          "Brookman Road to Red Hook/Nazareth"
+        ]
+      },
+      {
+        "id": "2026-11-09-2030",
+        "startsAt": "2026-11-09T20:30:00-04:00",
+        "endsAt": "2026-11-09T22:30:00-04:00",
+        "feeders": [
+          "Feeder 8B",
+          "Feeder 7E"
+        ],
+        "areas": [
+          "Taarneberg to Peterborg",
+          "Cruz Bay to Zootenvaal"
+        ]
+      }
+    ]
   }
 }
