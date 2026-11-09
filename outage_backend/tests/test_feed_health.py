@@ -102,3 +102,57 @@ class FeedHealthTests(unittest.TestCase):
         with patch.object(monitor, "gh", return_value="[]") as gh:
             monitor.alert("dezigod/crowdcast-outage-feed", ["Cruise source is stale"], title="Cruise feed freshness alert")
             self.assertIn("Cruise feed freshness alert", gh.call_args.args)
+
+
+class NotificationDedupTests(unittest.TestCase):
+    def test_first_new_and_recovered_states_preserve_alert_paths(self):
+        import json
+        with patch.object(monitor, 'gh', return_value='[]') as gh:
+            self.assertEqual(monitor.alert('example/test', ['stale']), 'new_incident')
+            body = gh.call_args.args[-1]
+        row = {'title': monitor.TITLE, 'number': 8, 'body': body}
+        with patch.object(monitor, 'gh', return_value=json.dumps([[row]])) as gh:
+            self.assertEqual(monitor.alert('example/test', ['stale']), 'known_incident')
+            self.assertEqual(gh.call_count, 1)
+            self.assertEqual(monitor.alert('example/test', ['stale', 'new failure']), 'new_problems')
+            self.assertEqual(gh.call_args.args[:2], ('issue', 'comment'))
+            self.assertEqual(monitor.alert('example/test', []), 'recovered')
+            self.assertEqual(gh.call_args.args[:2], ('issue', 'close'))
+
+    def test_partial_recovery_updates_issue_without_repeat_failure(self):
+        import json
+        with patch.object(monitor, 'gh', return_value='[]') as gh:
+            monitor.alert('example/test', ['stale', 'extra'])
+            body = gh.call_args.args[-1]
+        row = {'title': monitor.TITLE, 'number': 8, 'body': body}
+        with patch.object(monitor, 'gh', return_value=json.dumps([[row]])) as gh:
+            self.assertEqual(monitor.alert('example/test', ['stale']), 'known_incident')
+            self.assertEqual(gh.call_args.args[:2], ('issue', 'edit'))
+
+    def test_known_rotation_is_explicitly_unhealthy_in_summary_and_warning(self):
+        import tempfile, os
+        from contextlib import redirect_stdout
+        from io import StringIO
+        with tempfile.TemporaryDirectory() as tmp:
+            path = Path(tmp) / 'summary'
+            output = StringIO()
+            with patch.dict(os.environ, {'GITHUB_STEP_SUMMARY': str(path)}), redirect_stdout(output):
+                self.assertEqual(monitor.report_result('rotation', ['expired'], 'known_incident', True), 0)
+            self.assertIn('UNHEALTHY', path.read_text())
+            self.assertIn('does **not** mean schedule coverage recovered', path.read_text())
+            self.assertIn('"healthy": false', output.getvalue())
+            self.assertIn('::warning', output.getvalue())
+
+    def test_new_or_changed_problems_and_nonrotation_still_fail(self):
+        with patch.dict('os.environ', {}, clear=True):
+            for state in ['new_incident', 'new_problems', None]:
+                self.assertEqual(monitor.report_result('rotation', ['expired'], state, True), 1)
+            for kind in ['outage', 'cruise']:
+                self.assertEqual(monitor.report_result(kind, ['stale'], 'known_incident', True), 1)
+            self.assertEqual(monitor.report_result('rotation', ['expired'], 'known_incident', False), 1)
+            self.assertEqual(monitor.report_result('rotation', [], 'recovered', True), 0)
+
+    def test_issue_api_error_is_not_suppressed(self):
+        with patch.object(monitor, 'gh', side_effect=RuntimeError('API failure')):
+            with self.assertRaises(RuntimeError):
+                monitor.alert('example/test', ['expired'])
