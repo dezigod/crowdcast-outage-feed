@@ -1,6 +1,6 @@
 {
   "collectionStatus": "ok",
-  "generatedAt": "2026-11-09T19:10:30Z",
+  "generatedAt": "2026-11-09T19:20:29Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -14,16 +14,46 @@
           "id": "stThomas-agnes-fancy",
           "island": "stThomas",
           "locations": [
+            "10",
+            "10 APT-1",
+            "10 APT-2",
+            "10 APT-5",
+            "10 APT-6",
+            "100",
+            "101",
+            "107",
+            "109A",
+            "114",
+            "114 A",
+            "15B",
+            "24A",
+            "24A APT-1",
             "5-A",
             "5B",
-            "5F"
+            "5F",
+            "77",
+            "79",
+            "79 BLDG 3",
+            "79 DOWN",
+            "79A",
+            "79A BLDG 2",
+            "8 MTR-1",
+            "83",
+            "86 APT-A",
+            "86 APT-B",
+            "90",
+            "92",
+            "95",
+            "9B",
+            "MTR C"
           ],
           "name": "Agnes Fancy",
           "sourceEventIDs": [
+            "45d5f9dd3fcb0d74cc86814bcab195bbbe6f4b848638455b8e725a33a2892851",
             "688d24f7b6e72cb60f9dd7cfcfc315b9ee0efe7095b9fbf192b7ed84c8031d54"
           ],
-          "sourceStatus": "Predicted",
-          "startedAt": "2026-05-24T00:16:58Z"
+          "sourceStatus": "Unconfirmed",
+          "startedAt": null
         },
         {
           "affectedCustomers": null,
@@ -337,14 +367,14 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "a5cdefd6a4a88ff728d1cebdba811b3383f62e0a356e140cd486ac30c2c47d25",
+  "snapshotID": "bcac40efef2eb1ed492e6678326f2c2545b4b8a9dcf6df6f001c130fd6ebeb65",
   "source": {
-    "checkedAt": "2026-11-09T19:10:30Z",
+    "checkedAt": "2026-11-09T19:20:29Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-09T19:10:16Z",
+    "updatedAt": "2026-11-09T19:20:17Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "staleAfterSeconds": 900,
-  "unassignedEventCount": 13
+  "unassignedEventCount": 14
 }
