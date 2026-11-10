@@ -76,7 +76,10 @@ class CurrentDayTests(TestCase):
             def no_access(*a, **k): self.fail('Deferred check must not access source')
             outcome = check_rotation(previous, output.append, now=NOW, loader=no_access)
             self.assertEqual(outcome, 'deferred')
-            self.assertEqual(output[-1][ROTATION]['schedule']['windows'], [])
+            self.assertEqual(len(output[-1][ROTATION]['schedule']['windows']), 7)
+            self.assertTrue(all(row['startsAt'].startswith('2026-11-10')
+                                for row in output[-1][ROTATION]['schedule']['windows']))
+            self.assertEqual(output[-1][ROTATION]['nextAttemptAt'], previous['nextAttemptAt'])
             self.assertEqual(output[-1][ROTATION]['status'], previous['status'])
             public_rotation(output[-1][ROTATION])
 
@@ -85,8 +88,9 @@ class CurrentDayTests(TestCase):
         def unavailable(*a, **k): raise OSError('network')
         check_rotation(old_feed(), output.append, now=NOW, loader=unavailable)
         self.assertEqual(output[-1][ROTATION]['status'], 'failed')
-        self.assertEqual(output[-1][ROTATION]['schedule']['windows'], [])
-        self.assertTrue(all(not item[ROTATION]['schedule']['windows'] for item in output))
+        self.assertEqual(len(output[-1][ROTATION]['schedule']['windows']), 7)
+        self.assertTrue(all(row['startsAt'].startswith('2026-11-10')
+                            for item in output for row in item[ROTATION]['schedule']['windows']))
 
     def test_stale_pdf_falls_back_to_exact_todays_review(self):
         output = []

@@ -264,7 +264,9 @@ permalinks, image SHA256 fingerprints, and the actual review time. Its composite
 schedule fingerprint is SHA256 of the newline-joined image fingerprints in
 source order. Entries never apply to another date. No raw images are committed.
 The collector prefers a validated current-day PDF; if the linked PDF is older
-or unsupported, it can use that day's manually reviewed social source.
+or unsupported, it can use that day's manually reviewed social source. Already
+reviewed local evidence is applied even while a website check is deferred or
+blocked, without making a source request or changing its saved throttle/status.
 
 A plain public HTTP fetch of Facebook currently leads to its login page. The
 collector does **not** scrape or bypass that page. Facebook-only revisions need

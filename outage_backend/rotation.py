@@ -229,7 +229,21 @@ def check_rotation(previous, publish, *, now=None, loader=download):
     now = now or datetime.now(timezone.utc)
     if previous:
         public_rotation(previous)
-        cleaned = dict(previous, schedule=current_day(previous.get("schedule"), now))
+        cleaned_schedule = current_day(previous.get("schedule"), now)
+        social = reviewed_social_schedule(now)
+        # Applying already-reviewed local evidence makes no source request and
+        # must not wait for an unrelated website retry/throttle deadline.
+        if social is not None and (cleaned_schedule is None
+                or cleaned_schedule.get("dayStatus") != "current"
+                or (cleaned_schedule.get("sourceURLs")
+                    and date(social["checkedAt"]) > date(cleaned_schedule["checkedAt"]))):
+            if cleaned_schedule is not None:
+                website_checked = (cleaned_schedule.get("websiteCheckedAt")
+                                   if cleaned_schedule.get("sourceURLs") else cleaned_schedule["checkedAt"])
+                if website_checked is not None:
+                    social = dict(social, websiteCheckedAt=website_checked)
+            cleaned_schedule = social
+        cleaned = dict(previous, schedule=cleaned_schedule)
         if cleaned != previous:
             public_rotation(cleaned)
             publish({ROTATION: cleaned})
