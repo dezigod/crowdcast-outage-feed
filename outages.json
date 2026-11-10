@@ -1394,6 +1394,37 @@
       "workStatus": null
     },
     {
+      "cause": null,
+      "crewAssigned": false,
+      "endedAt": null,
+      "estimatedRestoration": null,
+      "id": "190b8f6736cade6749635b460c41d037f64518c3950baeb33ac466ca8c98b45a",
+      "island": null,
+      "locations": [
+        "ELIZABETH",
+        "ELIZABETH 31C UP",
+        "EST ELIZABETH",
+        "EST ELIZABETH 29 & 31",
+        "EST. ELIZABETH 29 MTR. 2",
+        "EST. ELIZABETH 29 MTR.1",
+        "LERKENLUND 7D 2A"
+      ],
+      "modifiedAt": "2026-11-10T23:28:40Z",
+      "name": "T-T-38046_1112",
+      "neighborhoodIDs": [],
+      "point": {
+        "latitude": 18.35411802131439,
+        "longitude": -64.93843345792644
+      },
+      "reportedCustomersInitially": 7,
+      "reportedCustomersOut": 7,
+      "reportedCustomersRestored": 0,
+      "sourceStatus": "Predicted",
+      "startedAt": "2026-11-10T23:28:21Z",
+      "verified": false,
+      "workStatus": null
+    },
+    {
       "cause": "300 Material or equipment fault/failure",
       "crewAssigned": false,
       "endedAt": null,
@@ -5059,7 +5090,7 @@
       "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-10T23:26:24Z",
+  "generatedAt": "2026-11-10T23:31:25Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -5511,21 +5542,21 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "5cf4a037272a1748aac0f0ded7259284d87958c3aa878ec6868b7c68c2cb7637",
+  "snapshotID": "f1085b94dd997868cdd7e5655551dd54bd0055098342f83a1c798285c4bf6df1",
   "source": {
-    "checkedAt": "2026-11-10T23:26:24Z",
+    "checkedAt": "2026-11-10T23:31:25Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-10T23:25:18Z",
+    "updatedAt": "2026-11-10T23:30:19Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "sourceSummary": {
     "customerCountDifference": 2,
-    "customersAffected": 6052,
-    "customersOut": 6052,
+    "customersAffected": 6059,
+    "customersOut": 6059,
     "customersRestored": 0,
     "customersServed": 54723,
-    "eventCustomersOut": 6050,
+    "eventCustomersOut": 6057,
     "hourlyCustomersOut": [
       {
         "at": "2026-11-08T23:00:00Z",
@@ -5721,7 +5752,7 @@
       },
       {
         "at": "2026-11-10T23:00:00Z",
-        "customersOut": 8324
+        "customersOut": 8331
       }
     ],
     "locations": [
@@ -6729,6 +6760,8 @@
       "DRONNINGRNS GADE 50-50A",
       "E WIND B-3 VESSUP BAY",
       "EAST END SUBSTATION B2A",
+      "ELIZABETH",
+      "ELIZABETH 31C UP",
       "EMANCIPATION GARDEN",
       "EST 10-A-11 COTTAGE A",
       "EST AGNES FANCY 55-D",
@@ -6822,6 +6855,8 @@
       "EST CANAAN 1C MAIN HSE",
       "EST CANAAN 3B",
       "EST CANAAN 3F",
+      "EST ELIZABETH",
+      "EST ELIZABETH 29 & 31",
       "EST FRENCHMANS BAY 14-38",
       "EST FRENCHMAN'S BAY 16-58",
       "EST FRENCHMANS BAY 21-43",
@@ -7451,6 +7486,8 @@
       "EST. BOVONI #4A-A-5",
       "EST. BOVONI 22B",
       "EST. BOVONI B/D A/240",
+      "EST. ELIZABETH 29 MTR. 2",
+      "EST. ELIZABETH 29 MTR.1",
       "EST. FRYDENHOJ",
       "EST. FRYDENHOJ 1-44",
       "EST. FRYDENHOJ 30",
@@ -8809,6 +8846,7 @@
       "KONGENS GD",
       "KONGENS TVER GADE",
       "LERKENLUND 10F AMA VIEW",
+      "LERKENLUND 7D 2A",
       "LERKENLUND 9D-1-2",
       "LIONEL ROBERTS STADIUM",
       "LITTLE ST. JAMES ISLAND",
@@ -10356,8 +10394,8 @@
       "WINTBERG PEAK 1CD-6",
       "WINTBERG PEAK 1K"
     ],
-    "totalOutages": 17
+    "totalOutages": 18
   },
   "staleAfterSeconds": 900,
-  "unassignedEventCount": 14
+  "unassignedEventCount": 15
 }
