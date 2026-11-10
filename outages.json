@@ -57,6 +57,34 @@
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
+      "id": "1f8c288419d3735a681fa29bd47d446ebf09003695c3665dcea9390754c54e84",
+      "island": null,
+      "locations": [
+        "PLESSEN 125",
+        "PLESSEN 146",
+        "PLESSEN 146-A (EL)",
+        "PLESSEN 147"
+      ],
+      "modifiedAt": "2026-11-10T16:29:06Z",
+      "name": "T-C-12757",
+      "neighborhoodIDs": [],
+      "point": {
+        "latitude": 17.719190275858452,
+        "longitude": -64.8236321991011
+      },
+      "reportedCustomersInitially": 4,
+      "reportedCustomersOut": 4,
+      "reportedCustomersRestored": 0,
+      "sourceStatus": "Predicted",
+      "startedAt": "2026-11-10T16:29:01Z",
+      "verified": false,
+      "workStatus": null
+    },
+    {
+      "cause": null,
+      "crewAssigned": false,
+      "endedAt": null,
+      "estimatedRestoration": null,
       "id": "2488f75f98539d93e6cc64f74531c322a0ab59b459e8794e1d08aad8f5693740",
       "island": null,
       "locations": [
@@ -134,31 +162,6 @@
       "reportedCustomersRestored": 0,
       "sourceStatus": "Predicted",
       "startedAt": "2026-05-24T00:16:58Z",
-      "verified": false,
-      "workStatus": null
-    },
-    {
-      "cause": null,
-      "crewAssigned": false,
-      "endedAt": null,
-      "estimatedRestoration": null,
-      "id": "72c284bf7500cf320eb584f419fc876f43cc10cb1b48a87cb6d795872863d093",
-      "island": null,
-      "locations": [
-        "OXFORD 13"
-      ],
-      "modifiedAt": "2026-11-10T15:58:44Z",
-      "name": "T-C-17343",
-      "neighborhoodIDs": [],
-      "point": {
-        "latitude": 17.744666270882973,
-        "longitude": -64.85780045802953
-      },
-      "reportedCustomersInitially": 1,
-      "reportedCustomersOut": 1,
-      "reportedCustomersRestored": 0,
-      "sourceStatus": "Predicted",
-      "startedAt": "2026-11-10T15:58:17Z",
       "verified": false,
       "workStatus": null
     },
@@ -5969,7 +5972,7 @@
       "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-10T16:25:35Z",
+  "generatedAt": "2026-11-10T16:30:37Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -6755,25 +6758,25 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "a256bf3c201522ea8af7ab682aeec180d5e35e18d84c28dea99795899cc0183c",
+  "snapshotID": "4e127c84e86eeb9cc2fd7cd269dfcfa028189342e4a11fe41b92f850dbd813f2",
   "source": {
-    "checkedAt": "2026-11-10T16:25:35Z",
+    "checkedAt": "2026-11-10T16:30:37Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-10T16:25:19Z",
+    "updatedAt": "2026-11-10T16:30:18Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "sourceSummary": {
     "customerCountDifference": 2,
-    "customersAffected": 7183,
-    "customersOut": 7183,
+    "customersAffected": 7186,
+    "customersOut": 7186,
     "customersRestored": 0,
     "customersServed": 54723,
-    "eventCustomersOut": 7181,
+    "eventCustomersOut": 7184,
     "hourlyCustomersOut": [
       {
         "at": "2026-11-08T16:00:00Z",
-        "customersOut": 12461
+        "customersOut": 10401
       },
       {
         "at": "2026-11-08T17:00:00Z",
@@ -6965,7 +6968,7 @@
       },
       {
         "at": "2026-11-10T16:00:00Z",
-        "customersOut": 7181
+        "customersOut": 7184
       }
     ],
     "locations": [
@@ -11222,7 +11225,6 @@
       "NYE NORDSIDEVEJ 21B",
       "NYE NORDSIDEVEJ 21D",
       "O H COURT BLDG-17",
-      "OXFORD 13",
       "PARCEL 1CJ EST DOROTHEA",
       "PARKS & REC SUBBASE # 1",
       "PERTERBORG 11-30",
@@ -11385,6 +11387,10 @@
       "PETERBORG MTR DWN",
       "PETERBORGE 10-2-2",
       "PETERBORG-LOWER",
+      "PLESSEN 125",
+      "PLESSEN 146",
+      "PLESSEN 146-A (EL)",
+      "PLESSEN 147",
       "POLLYBERG",
       "POST OFFICE SQ NORRE GADE",
       "POST OFFICE SQUARE NORRE",
