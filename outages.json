@@ -140,6 +140,31 @@
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
+      "id": "3fe68421f129b3d8821626d3bc8f608066a5adebf98d166cab1e2ff3198fba31",
+      "island": null,
+      "locations": [
+        "COTTON VALLEY"
+      ],
+      "modifiedAt": "2026-11-10T16:48:24Z",
+      "name": "1006",
+      "neighborhoodIDs": [],
+      "point": {
+        "latitude": 17.75872125582103,
+        "longitude": -64.62421757369839
+      },
+      "reportedCustomersInitially": 1,
+      "reportedCustomersOut": 1,
+      "reportedCustomersRestored": 0,
+      "sourceStatus": "Verified",
+      "startedAt": "2026-11-10T16:24:45Z",
+      "verified": true,
+      "workStatus": null
+    },
+    {
+      "cause": null,
+      "crewAssigned": false,
+      "endedAt": null,
+      "estimatedRestoration": null,
       "id": "688d24f7b6e72cb60f9dd7cfcfc315b9ee0efe7095b9fbf192b7ed84c8031d54",
       "island": "stThomas",
       "locations": [
@@ -1383,35 +1408,6 @@
       "sourceStatus": "Verified",
       "startedAt": "2026-11-10T14:43:21Z",
       "verified": true,
-      "workStatus": null
-    },
-    {
-      "cause": null,
-      "crewAssigned": false,
-      "endedAt": null,
-      "estimatedRestoration": null,
-      "id": "7bffb13aa129b810da17b6f03b9d9cd63bd2154d872d8cec19adae4878c16dfb",
-      "island": null,
-      "locations": [
-        "COTTON VALLEY",
-        "COTTON VALLEY 5D",
-        "COTTON VALLEY 5U",
-        "COTTON VALLEY 5X",
-        "COTTON VALLEY 5Y"
-      ],
-      "modifiedAt": "2026-11-10T16:25:16Z",
-      "name": "T-C-01252",
-      "neighborhoodIDs": [],
-      "point": {
-        "latitude": 17.75891811691317,
-        "longitude": -64.62428951108483
-      },
-      "reportedCustomersInitially": 6,
-      "reportedCustomersOut": 6,
-      "reportedCustomersRestored": 0,
-      "sourceStatus": "Predicted",
-      "startedAt": "2026-11-10T16:24:45Z",
-      "verified": false,
       "workStatus": null
     },
     {
@@ -5428,33 +5424,6 @@
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
-      "id": "a735da493a71d268c26984a2156198f8eba0e13d37ca06f09f3dc85c3440f9e8",
-      "island": "stCroix",
-      "locations": [
-        "JUDITHS FANCY 112"
-      ],
-      "modifiedAt": "2026-11-10T15:39:40Z",
-      "name": "T-C-24467",
-      "neighborhoodIDs": [
-        "stCroix-judiths-fancy"
-      ],
-      "point": {
-        "latitude": 17.780636760921116,
-        "longitude": -64.74757060474538
-      },
-      "reportedCustomersInitially": 1,
-      "reportedCustomersOut": 1,
-      "reportedCustomersRestored": 0,
-      "sourceStatus": "Predicted",
-      "startedAt": "2026-11-10T15:39:07Z",
-      "verified": false,
-      "workStatus": null
-    },
-    {
-      "cause": null,
-      "crewAssigned": false,
-      "endedAt": null,
-      "estimatedRestoration": null,
       "id": "a7622fe5ec3f7460243d64545ddffb42dc3c534b3876e2c938737688abde9c58",
       "island": "stThomas",
       "locations": [
@@ -7509,7 +7478,7 @@
       "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-10T16:45:44Z",
+  "generatedAt": "2026-11-10T16:50:47Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -8257,23 +8226,7 @@
       "coverage": "partial",
       "customersOut": null,
       "id": "stCroix",
-      "neighborhoods": [
-        {
-          "affectedCustomers": null,
-          "estimatedRestoration": null,
-          "id": "stCroix-judiths-fancy",
-          "island": "stCroix",
-          "locations": [
-            "112"
-          ],
-          "name": "Judith\u2019s Fancy",
-          "sourceEventIDs": [
-            "a735da493a71d268c26984a2156198f8eba0e13d37ca06f09f3dc85c3440f9e8"
-          ],
-          "sourceStatus": "Predicted",
-          "startedAt": "2026-11-10T15:39:07Z"
-        }
-      ]
+      "neighborhoods": []
     },
     {
       "coverage": "partial",
@@ -8295,21 +8248,21 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "a923013c821fb917272f4084babfbc09830d9fa75ac4f7e11ac53ec2b47b97f7",
+  "snapshotID": "54ef952ab57ff3b7f884dc347b0f9c51c56b14833d61bd11c9a3e0a9516f924d",
   "source": {
-    "checkedAt": "2026-11-10T16:45:44Z",
+    "checkedAt": "2026-11-10T16:50:47Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-10T16:45:19Z",
+    "updatedAt": "2026-11-10T16:50:19Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "sourceSummary": {
     "customerCountDifference": 2,
-    "customersAffected": 9260,
-    "customersOut": 9260,
+    "customersAffected": 9254,
+    "customersOut": 9254,
     "customersRestored": 0,
     "customersServed": 54723,
-    "eventCustomersOut": 9258,
+    "eventCustomersOut": 9252,
     "hourlyCustomersOut": [
       {
         "at": "2026-11-08T16:00:00Z",
@@ -8501,11 +8454,11 @@
       },
       {
         "at": "2026-11-10T15:00:00Z",
-        "customersOut": 13730
+        "customersOut": 13729
       },
       {
         "at": "2026-11-10T16:00:00Z",
-        "customersOut": 9258
+        "customersOut": 9252
       }
     ],
     "locations": [
@@ -10073,10 +10026,6 @@
       "CONTANT2C",
       "CONTNAT 11-3M DOWN",
       "COTTON VALLEY",
-      "COTTON VALLEY 5D",
-      "COTTON VALLEY 5U",
-      "COTTON VALLEY 5X",
-      "COTTON VALLEY 5Y",
       "CROWN BAY",
       "CROWN BAY 161-B DEV SUBB",
       "CROWN BAY CTR B-A, C, E,F",
@@ -12538,7 +12487,6 @@
       "JOSEPH & ROSENDAHL 9L",
       "JOSEPH & ROSENDHAL 9G-C",
       "JOSPEH & ROSENDAHL 3-20",
-      "JUDITHS FANCY 112",
       "KONGENS GADE 10",
       "KONGENS GADE 10-A",
       "KONGENS GADE 19B",
@@ -15484,7 +15432,7 @@
       "ZUERIENDENHEIT",
       "ZUFRIDENHEIT 1"
     ],
-    "totalOutages": 21
+    "totalOutages": 20
   },
   "staleAfterSeconds": 900,
   "unassignedEventCount": 17
