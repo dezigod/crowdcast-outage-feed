@@ -5232,7 +5232,7 @@
         "SMITH BAY 98-8-1A/98-6 U-",
         "SMITH BAY 98-8-1A/98-6B-N"
       ],
-      "modifiedAt": "2026-11-10T19:46:31Z",
+      "modifiedAt": "2026-11-10T20:01:30Z",
       "name": "T-T-08375",
       "neighborhoodIDs": [],
       "point": {
@@ -7710,7 +7710,7 @@
       "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-10T20:01:26Z",
+  "generatedAt": "2026-11-10T20:06:28Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -8218,11 +8218,11 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "a510a623288ae3065b737cbc7e5a6a0f4b5b3283029072cdf3927a1748a7a901",
+  "snapshotID": "27fa7c37432b296f2ccf00255135c9061f3dd624eae233f52418a80ae40cbbb1",
   "source": {
-    "checkedAt": "2026-11-10T20:01:26Z",
+    "checkedAt": "2026-11-10T20:06:28Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-10T20:00:20Z",
+    "updatedAt": "2026-11-10T20:05:20Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
