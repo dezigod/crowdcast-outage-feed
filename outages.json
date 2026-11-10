@@ -1539,6 +1539,40 @@
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
+      "id": "a2b03758214feed0545161174f8a3bdcedd4a2698eb588ad0b9e5bec8b74ac0a",
+      "island": null,
+      "locations": [
+        "135K ESTATE WHIM",
+        "WHIM 126",
+        "WHIM 128B",
+        "WHIM 130",
+        "WHIM 134D 135A",
+        "WHIM 134E",
+        "WHIM 134E APT",
+        "WHIM 134-K",
+        "WHIM 135-B",
+        "WHIM 135-J"
+      ],
+      "modifiedAt": "2026-11-10T18:38:11Z",
+      "name": "T-C-23344",
+      "neighborhoodIDs": [],
+      "point": {
+        "latitude": 17.693865266781692,
+        "longitude": -64.84697997027149
+      },
+      "reportedCustomersInitially": 10,
+      "reportedCustomersOut": 10,
+      "reportedCustomersRestored": 0,
+      "sourceStatus": "Predicted",
+      "startedAt": "2026-11-10T18:37:36Z",
+      "verified": false,
+      "workStatus": null
+    },
+    {
+      "cause": null,
+      "crewAssigned": false,
+      "endedAt": null,
+      "estimatedRestoration": null,
       "id": "a7622fe5ec3f7460243d64545ddffb42dc3c534b3876e2c938737688abde9c58",
       "island": "stThomas",
       "locations": [
@@ -3601,7 +3635,7 @@
       "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-10T18:36:28Z",
+  "generatedAt": "2026-11-10T18:41:30Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -3721,25 +3755,25 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "a79fcd6c0ced94b2d03eb6e39dbd0dc18a243ecfff960ece59056183b69ad754",
+  "snapshotID": "996d8b907af63366674715de1cb1f7658e7a2865e0a6f30f698930175648986c",
   "source": {
-    "checkedAt": "2026-11-10T18:36:28Z",
+    "checkedAt": "2026-11-10T18:41:30Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-10T18:35:17Z",
+    "updatedAt": "2026-11-10T18:40:18Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "sourceSummary": {
     "customerCountDifference": 2,
-    "customersAffected": 4154,
-    "customersOut": 4154,
+    "customersAffected": 4164,
+    "customersOut": 4164,
     "customersRestored": 0,
     "customersServed": 54723,
-    "eventCustomersOut": 4152,
+    "eventCustomersOut": 4162,
     "hourlyCustomersOut": [
       {
         "at": "2026-11-08T18:00:00Z",
-        "customersOut": 4611
+        "customersOut": 3526
       },
       {
         "at": "2026-11-08T19:00:00Z",
@@ -3931,7 +3965,7 @@
       },
       {
         "at": "2026-11-10T18:00:00Z",
-        "customersOut": 5276
+        "customersOut": 5286
       }
     ],
     "locations": [
@@ -3952,6 +3986,7 @@
       "11G NADIR",
       "11-H SAPPHIRE BAY CONDO",
       "11-H SMITH BAY (SAPP BAY)",
+      "135K ESTATE WHIM",
       "14PV EST THOMAS DWN",
       "16I & 16J NADIR",
       "173A 58 EST ANNAS RETREAT",
@@ -7134,10 +7169,19 @@
       "VESSUP BAY EST 9-39",
       "VESSUP LANE 9A-19",
       "WEST COND SAPP B-A",
-      "WEST SAPPHIRE BAY CONDO"
+      "WEST SAPPHIRE BAY CONDO",
+      "WHIM 126",
+      "WHIM 128B",
+      "WHIM 130",
+      "WHIM 134D 135A",
+      "WHIM 134E",
+      "WHIM 134E APT",
+      "WHIM 134-K",
+      "WHIM 135-B",
+      "WHIM 135-J"
     ],
-    "totalOutages": 16
+    "totalOutages": 17
   },
   "staleAfterSeconds": 900,
-  "unassignedEventCount": 12
+  "unassignedEventCount": 13
 }
