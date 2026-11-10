@@ -1703,6 +1703,39 @@
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
+      "id": "d7c2795a191fcf23688fa8737b7454309b9a2fb5acc786d0c198472b477fc676",
+      "island": null,
+      "locations": [
+        "ESTATE PETERBORG 9-1-26",
+        "PETERBORG",
+        "PETERBORG 10-15 10-16",
+        "PETERBORG 9-1-22",
+        "PETERBORG 9-1-24",
+        "PETERBORG 9-1-27",
+        "PETERBORG 9-1-28"
+      ],
+      "modifiedAt": "2026-11-10T18:13:25Z",
+      "name": "T-T-14447",
+      "neighborhoodIDs": [
+        "stThomas-peterborg"
+      ],
+      "point": {
+        "latitude": 18.376954087492518,
+        "longitude": -64.93196573140776
+      },
+      "reportedCustomersInitially": 7,
+      "reportedCustomersOut": 7,
+      "reportedCustomersRestored": 0,
+      "sourceStatus": "Predicted",
+      "startedAt": "2026-11-10T18:13:16Z",
+      "verified": false,
+      "workStatus": null
+    },
+    {
+      "cause": null,
+      "crewAssigned": false,
+      "endedAt": null,
+      "estimatedRestoration": null,
       "id": "e61c3070908734f49648f8ecb24d6b6bf143c90bd149adba4417b2125b0999dc",
       "island": null,
       "locations": [
@@ -3620,7 +3653,7 @@
       "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-10T18:11:18Z",
+  "generatedAt": "2026-11-10T18:16:20Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -3675,6 +3708,25 @@
           ],
           "sourceStatus": "Verified",
           "startedAt": "2026-11-05T17:32:26Z"
+        },
+        {
+          "affectedCustomers": null,
+          "estimatedRestoration": null,
+          "id": "stThomas-peterborg",
+          "island": "stThomas",
+          "locations": [
+            "10-15 10-16",
+            "9-1-22",
+            "9-1-24",
+            "9-1-27",
+            "9-1-28"
+          ],
+          "name": "Peterborg",
+          "sourceEventIDs": [
+            "d7c2795a191fcf23688fa8737b7454309b9a2fb5acc786d0c198472b477fc676"
+          ],
+          "sourceStatus": "Predicted",
+          "startedAt": "2026-11-10T18:13:16Z"
         },
         {
           "affectedCustomers": null,
@@ -3737,21 +3789,21 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "c5b71b9590e35ea54cc3e62a51fd2fc753d7e095ca1452334dbcdb44c1286166",
+  "snapshotID": "635904fa2758d44750381d2ec518b8b7d7ae3378f1cde6275fe2416f4dcf0c88",
   "source": {
-    "checkedAt": "2026-11-10T18:11:18Z",
+    "checkedAt": "2026-11-10T18:16:20Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-10T18:10:18Z",
+    "updatedAt": "2026-11-10T18:15:18Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "sourceSummary": {
     "customerCountDifference": 2,
-    "customersAffected": 4149,
-    "customersOut": 4149,
+    "customersAffected": 4156,
+    "customersOut": 4156,
     "customersRestored": 0,
     "customersServed": 54723,
-    "eventCustomersOut": 4147,
+    "eventCustomersOut": 4154,
     "hourlyCustomersOut": [
       {
         "at": "2026-11-08T18:00:00Z",
@@ -3947,7 +3999,7 @@
       },
       {
         "at": "2026-11-10T18:00:00Z",
-        "customersOut": 5271
+        "customersOut": 5278
       }
     ],
     "locations": [
@@ -4824,6 +4876,7 @@
       "ESTATE NAZARETH M-42",
       "ESTATE NAZARETH MTR- 3",
       "ESTATE NAZARETH T-4",
+      "ESTATE PETERBORG 9-1-26",
       "ESTATE SMITH BAY",
       "ESTATE SMITH BAY 100-24",
       "ESTATE SMITH BAY 18A-4",
@@ -6067,6 +6120,12 @@
       "PARCEL D BENNER HILL",
       "PCL 6L-22 CABRITA",
       "PCL SMITH BAY 20-11 UP",
+      "PETERBORG",
+      "PETERBORG 10-15 10-16",
+      "PETERBORG 9-1-22",
+      "PETERBORG 9-1-24",
+      "PETERBORG 9-1-27",
+      "PETERBORG 9-1-28",
       "PINEAPPLE 152-155 B-D",
       "PINEAPPLE BEACH E-1 B-E",
       "PINEAPPLE BEACH UNIT 3603",
@@ -7147,8 +7206,8 @@
       "WEST COND SAPP B-A",
       "WEST SAPPHIRE BAY CONDO"
     ],
-    "totalOutages": 17
+    "totalOutages": 18
   },
   "staleAfterSeconds": 900,
-  "unassignedEventCount": 12
+  "unassignedEventCount": 13
 }
