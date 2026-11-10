@@ -4296,7 +4296,7 @@
         "PETERBORG 9-1-27",
         "PETERBORG 9-1-28"
       ],
-      "modifiedAt": "2026-11-10T19:46:02Z",
+      "modifiedAt": "2026-11-10T20:58:51Z",
       "name": "T-T-14447",
       "neighborhoodIDs": [
         "stThomas-peterborg"
@@ -6521,7 +6521,7 @@
       "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-10T20:55:30Z",
+  "generatedAt": "2026-11-10T21:00:31Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -6804,11 +6804,11 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "709b3687805923e76e7a9c8f4d85e45d1155e7c27822617f23097de72568f424",
+  "snapshotID": "7d7b7e42763ba93ea02a78536fd68a80c7c277e3bbd70296eb84d93ab47761e9",
   "source": {
-    "checkedAt": "2026-11-10T20:55:30Z",
+    "checkedAt": "2026-11-10T21:00:31Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-10T20:55:19Z",
+    "updatedAt": "2026-11-10T21:00:19Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
@@ -6820,10 +6820,6 @@
     "customersServed": 54723,
     "eventCustomersOut": 8232,
     "hourlyCustomersOut": [
-      {
-        "at": "2026-11-08T20:00:00Z",
-        "customersOut": 4913
-      },
       {
         "at": "2026-11-08T21:00:00Z",
         "customersOut": 4935
@@ -7015,6 +7011,10 @@
       {
         "at": "2026-11-10T20:00:00Z",
         "customersOut": 11992
+      },
+      {
+        "at": "2026-11-10T21:00:00Z",
+        "customersOut": 8232
       }
     ],
     "locations": [
