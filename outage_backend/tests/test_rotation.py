@@ -29,8 +29,8 @@ class RotationTests(unittest.TestCase):
         def unchanged(url, **kwargs):
             if url == ALERTS:
                 return HTML, None
-            self.assertEqual(kwargs["previous_modified"], MODIFIED)
-            return None, MODIFIED
+            self.assertIsNone(kwargs["previous_modified"], "Unreviewed documents must be fetched fully")
+            return b"%PDF-original", MODIFIED
 
         self.assertEqual(check_rotation(first, published.append, now=NOW, loader=unchanged), "deferred")
         self.assertEqual(check_rotation(first, published.append, now=NOW + timedelta(minutes=5),

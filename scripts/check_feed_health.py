@@ -53,7 +53,7 @@ def source_times(kind, feed):
     if kind == "cruise":
         return {d["id"]: d.get("checkedAt") for d in feed.get("documents", [])}
     if kind == "rotation":
-        return {key: (feed.get("schedule") or {}).get(key) for key in ("checkedAt", "revisionSeenAt", "coverageEnd")}
+        return {key: (feed.get("schedule") or {}).get(key) for key in ("checkedAt", "websiteCheckedAt", "revisionSeenAt", "coverageEnd", "day")}
     source = feed.get("source", {})
     return {key: source.get(key) for key in ("checkedAt", "updatedAt")}
 
@@ -91,16 +91,25 @@ def problems(kind, feed, now):
         schedule = feed.get("schedule")
         if not isinstance(schedule, dict):
             return ["WAPA rotation schedule is unavailable. Check the official source; do not infer restoration times."]
-        checks = [("WAPA rotation PDF check", schedule.get("checkedAt"))]
+        label = "WAPA rotation visual source review" if schedule.get("sourceURLs") else "WAPA rotation PDF check"
+        checks = [(label, schedule.get("checkedAt"))]
         if feed.get("status") != "ok":
             failures.append("WAPA rotation PDF check failed or requires access review.")
-        if schedule.get("extractionStatus") != "reviewed":
+        day_status = schedule.get("dayStatus")
+        today = now.astimezone(ZoneInfo("America/St_Thomas")).date().isoformat()
+        if "day" in schedule and schedule.get("day") != today:
+            failures.append("WAPA rotation feed is not scoped to today in St. Thomas. Past-day schedules must not be displayed.")
+        if day_status == "not_current":
+            failures.append("WAPA's linked schedule does not cover today. Check WAPA's official Facebook photos as well as its website; do not reuse past dates.")
+        elif schedule.get("extractionStatus") != "reviewed":
             fingerprint = schedule.get("fingerprint", "")
             revision = " (" + fingerprint[:12] + ")" if isinstance(fingerprint, str) and re.fullmatch(r"[0-9a-f]{64}", fingerprint) else ""
             failures.append("WAPA has an unreviewed schedule revision" + revision + ". Visually verify the PDF and match its fingerprint before publishing times.")
         else:
             try:
-                if timestamp(schedule.get("coverageEnd")) <= now:
+                coverage_end = timestamp(schedule.get("coverageEnd"))
+                if ((day_status is None and coverage_end <= now)
+                        or (day_status == "current" and coverage_end.astimezone(ZoneInfo("America/St_Thomas")).date().isoformat() != today)):
                     failures.append("WAPA's reviewed schedule dates have passed. Check for a new official schedule; no current rotation times are confirmed.")
             except (TypeError, ValueError, AttributeError):
                 failures.append("WAPA reviewed schedule coverage is missing or invalid.")

@@ -99,8 +99,9 @@ python3 -m venv .venv
 
 All normal tests are offline and synthetic. CI has no source permission secret
 and never calls WAPA. Only the explicitly enabled collection workflow fetches
-the reviewed source. The production collector itself uses Python's standard
-library, without an LLM, browser renderer, Firebase or third-party paid API.
+the reviewed source. The production collector uses Python's standard library plus pinned `pypdf` for
+strict schedule-layout validation, without an LLM, browser renderer, Firebase or
+third-party paid API.
 
 ## Feed reliability and alerts (November 2, 2026)
 
@@ -141,7 +142,9 @@ map retains its separate collection and display permission record.
 
 `data/rotation-schedule.json` publishes the official document link, fingerprint,
 last successful check and first observation of the revision. The PDF stays on
-WAPA's website and opens inside CrowdCast. The feed explicitly sets `subjectToChange: true` for the tentative district
+WAPA's website. When WAPA posts a newer dated schedule only to its official
+Facebook photos, a visually verified, date-scoped fallback may link those
+original images instead; it does not republish their bytes. The feed explicitly sets `subjectToChange: true` for the tentative district
 schedule. A changed PDF at the same URL counts as a new revision. A failed check preserves the last link and its original
 timestamps. The collector persists backoff and stops on access refusals or
 redirects. No raw PDFs, paid runners or storage services are used.
@@ -172,11 +175,11 @@ rolled forward or presented as current after their coverage ends. The HTTP
 Last-Modified date and revision-first-seen timestamp are not effective dates.
 
 The existing five-minute monitor refreshes the PDF fingerprint. Exact reviewed
-bytes use `reviewed-rotation-windows.json`; any new/unreviewed fingerprint clears
-structured rows and returns `unavailable`, while continuing to link the current
-official PDF. This intentionally requires review of new layouts rather than
-risk assigning one column's feeder to another column's times. Checked timestamps
-remain retrieval evidence, not evidence that a past schedule is still active.
+bytes use `reviewed-rotation-windows.json`. New bytes may be extracted only when
+they pass the strict, visually verified two-page layout validator. Unrecognized
+layouts clear structured rows and return `unavailable`, while retaining the
+official source link. Checked timestamps remain retrieval evidence, not evidence
+that a past schedule is still active.
 WAPA viewer estimates already come from `estimatedTimeOfRestoral`; unknown,
 timezone-free, pre-start or conflicting grouped estimates remain null.
 
@@ -237,3 +240,58 @@ restrictions. GitHub delays, dropped jobs and delivery caching still apply.
 Stored detailed feeds over GitHub Contents API's 1 MB inline-content threshold
 reload through the exact pinned Git blob. Publication and reload share a 2 MB
 JSON size limit; an oversized result cannot be published and strand later runs.
+
+
+## Today-only rotation delivery (November 10, 2026)
+
+Rotation rows are scoped to **today in `America/St_Thomas`**, not the server or
+phone time zone. Every publish strips other days. Midnight expiry also runs when
+source checks are deferred, blocked, or failed; it does not reset source throttle
+or access restrictions. Clients must apply the same local-date guard to cached
+feeds, because GitHub scheduling and delivery cannot guarantee a midnight fetch.
+The full day's slots remain available, even after an individual slot ends.
+
+The November 10 incident was a source mismatch: WAPA's Alerts page still linked
+the November 9 PDF, but its official Facebook photo grid contained November 10
+schedules. Both originals were visually checked, including the printed dates,
+all seven column associations, feeder names, areas, and tentative disclaimer:
+
+- [November 10 daytime photo](https://www.facebook.com/photo/?fbid=1444835577838613&set=pb.100069365522656.-2207520000)
+- [November 10 evening photo](https://www.facebook.com/photo/?fbid=1444835564505281&set=pb.100069365522656.-2207520000)
+
+`reviewed-rotation-posts.json` stores only dated reviewed fields, original photo
+permalinks, image SHA256 fingerprints, and the actual review time. Its composite
+schedule fingerprint is SHA256 of the newline-joined image fingerprints in
+source order. Entries never apply to another date. No raw images are committed.
+The collector prefers a validated current-day PDF; if the linked PDF is older
+or unsupported, it can use that day's manually reviewed social source.
+
+A plain public HTTP fetch of Facebook currently leads to its login page. The
+collector does **not** scrape or bypass that page. Facebook-only revisions need
+public-browser visual verification and a fresh dated review entry; the PDF
+parser is not a Facebook crawler or a guarantee of automatic coverage there.
+The monitor flags stale actual source reviews and missing current-day coverage.
+
+Additive `schedule` fields (schema version remains 1):
+
+- `day`, `timeZone`: the requested local calendar date and `America/St_Thomas`.
+- `dayStatus`: `current`, `not_current`, or `unreviewed`. Only `current` has rows.
+- `extractionMethod`: `manual-review`, `validated-layout`, or `unavailable`.
+  Existing `extractionStatus: reviewed` means rows have passed source validation;
+  `validated-layout` is explicitly automated, not a human review of those bytes.
+- `sourceURLs`: the original official Facebook photos, when applicable. The
+  first is also the existing `url`; clients must support a webpage, not only PDF.
+- `websiteCheckedAt`: separate website-check time when using a social fallback.
+  It never changes `checkedAt`, the actual time the selected source was reviewed.
+
+When today has no verified rows, `windows` is empty, both coverage bounds are
+null, and `extractionStatus` is `unavailable`. Do not show a past PDF as today's
+schedule, or claim that no rotations will happen. Keep the official Alerts link
+available. A current-day schedule remains tentative and may be revised.
+
+The pinned `pypdf` validator supports only the inspected two-page 4+3-column
+layout, including its geometry, repeated printed date, text anchors, and seven
+contiguous two-hour slots. Changed layouts, incomplete/extra text, contradictory
+dates, or shifted columns fail closed. A new date is read from both printed
+headings, never inferred from download time or HTTP metadata. Unreviewed or
+past-day PDFs are fetched fully instead of accepting a stale conditional 304.

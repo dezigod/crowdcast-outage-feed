@@ -22,6 +22,8 @@ jobs:
       - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
         with:
           persist-credentials: false
+      - name: Install pinned schedule parser
+        run: python3 -m pip install --disable-pip-version-check --no-deps -r outage_backend/requirements-rotation.txt
       - name: Collect and publish reviewed JSON
         env:
           GH_TOKEN: ${{ github.token }}

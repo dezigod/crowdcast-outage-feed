@@ -1,0 +1,103 @@
+{
+  "2026-11-10": {
+    "checkedAt": "2026-11-10T16:30:23Z",
+    "sources": [
+      {
+        "url": "https://www.facebook.com/photo/?fbid=1444835577838613&set=pb.100069365522656.-2207520000",
+        "fingerprint": "98bed77c66fbd45bfcd8eb4bacee323c2a2fd50feb83af04f668fbaa85bfeb17"
+      },
+      {
+        "url": "https://www.facebook.com/photo/?fbid=1444835564505281&set=pb.100069365522656.-2207520000",
+        "fingerprint": "8ca3d37543401f0d0a52c417c84469ec63bb03bc0ae5acbc78717c74d944f11c"
+      }
+    ],
+    "windows": [
+      {
+        "id": "2026-11-10-0830",
+        "startsAt": "2026-11-10T08:30:00-04:00",
+        "endsAt": "2026-11-10T10:30:00-04:00",
+        "feeders": [
+          "Feeder 7E"
+        ],
+        "areas": [
+          "Cruz Bay to Zootenvaal",
+          "MALL"
+        ]
+      },
+      {
+        "id": "2026-11-10-1030",
+        "startsAt": "2026-11-10T10:30:00-04:00",
+        "endsAt": "2026-11-10T12:30:00-04:00",
+        "feeders": [
+          "Feeder 10B",
+          "Feeder 7A"
+        ],
+        "areas": [
+          "Paul M. Pearson Garden to Bolongo",
+          "Altona to Drake’s Seat"
+        ]
+      },
+      {
+        "id": "2026-11-10-1230",
+        "startsAt": "2026-11-10T12:30:00-04:00",
+        "endsAt": "2026-11-10T14:30:00-04:00",
+        "feeders": [
+          "Feeder 7C",
+          "Feeder 9C"
+        ],
+        "areas": [
+          "Cassi Hill to Red Hook",
+          "Nadir to Bovoni"
+        ]
+      },
+      {
+        "id": "2026-11-10-1430",
+        "startsAt": "2026-11-10T14:30:00-04:00",
+        "endsAt": "2026-11-10T16:30:00-04:00",
+        "feeders": [
+          "Feeder 6A",
+          "Feeder 8A"
+        ],
+        "areas": [
+          "Crown Mountain to Crown & Hawk"
+        ]
+      },
+      {
+        "id": "2026-11-10-1630",
+        "startsAt": "2026-11-10T16:30:00-04:00",
+        "endsAt": "2026-11-10T18:30:00-04:00",
+        "feeders": [
+          "Feeder 7B",
+          "Feeder 7E"
+        ],
+        "areas": [
+          "Estate Thomas to Tabor & Harmony"
+        ]
+      },
+      {
+        "id": "2026-11-10-1830",
+        "startsAt": "2026-11-10T18:30:00-04:00",
+        "endsAt": "2026-11-10T20:30:00-04:00",
+        "feeders": [
+          "Feeder 9C"
+        ],
+        "areas": [
+          "Charlotte Amalie Est Bovoni/ Nadir to Redhook Nazareth"
+        ]
+      },
+      {
+        "id": "2026-11-10-2030",
+        "startsAt": "2026-11-10T20:30:00-04:00",
+        "endsAt": "2026-11-10T22:30:00-04:00",
+        "feeders": [
+          "Feeder 8B",
+          "Feeder 9E"
+        ],
+        "areas": [
+          "Taarneberg to Peterborg",
+          "Enighed to Carolina"
+        ]
+      }
+    ]
+  }
+}

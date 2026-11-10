@@ -35,3 +35,19 @@ class RotationHealthTests(unittest.TestCase):
         f["schedule"]["checkedAt"]=(NOW+timedelta(minutes=1)).isoformat()
         errors=" ".join(problems("rotation",f,NOW))
         self.assertIn("future",errors); self.assertIn("check failed",errors)
+
+    def test_expired_document_is_missing_today_not_unreviewed(self):
+        f=self.feed(); f['schedule'].update(day='2026-11-08', dayStatus='not_current', extractionStatus='unavailable', coverageEnd=None)
+        errors=' '.join(problems('rotation', f, NOW))
+        self.assertIn('does not cover today', errors)
+        self.assertNotIn('unreviewed schedule revision', errors)
+
+    def test_current_day_schedule_remains_today_after_last_slot(self):
+        f=self.feed(); f['schedule'].update(day='2026-11-08',dayStatus='current',coverageEnd='2026-11-08T12:00:00-04:00')
+        self.assertEqual(problems('rotation', f, NOW), [])
+
+    def test_yesterdays_day_scope_is_unhealthy_even_with_fresh_download(self):
+        f=self.feed(); f['schedule'].update(day='2026-11-07',dayStatus='current',coverageEnd='2026-11-07T22:30:00-04:00')
+        errors=' '.join(problems('rotation', f, NOW))
+        self.assertIn('not scoped to today', errors)
+        self.assertIn('dates have passed', errors)
