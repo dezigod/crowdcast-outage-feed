@@ -1481,32 +1481,6 @@
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
-      "id": "31f1d13619e22a38ca67949abeb76a1803007db3ad231e72bf1365afad91c4de",
-      "island": null,
-      "locations": [
-        "SPRING GARDEN 14",
-        "SPRING GUT 12"
-      ],
-      "modifiedAt": "2026-11-10T14:21:25Z",
-      "name": "T-C-00344",
-      "neighborhoodIDs": [],
-      "point": {
-        "latitude": 17.72711396907095,
-        "longitude": -64.6971885005118
-      },
-      "reportedCustomersInitially": 2,
-      "reportedCustomersOut": 2,
-      "reportedCustomersRestored": 0,
-      "sourceStatus": "Predicted",
-      "startedAt": "2026-11-10T13:40:44Z",
-      "verified": false,
-      "workStatus": null
-    },
-    {
-      "cause": null,
-      "crewAssigned": false,
-      "endedAt": null,
-      "estimatedRestoration": null,
       "id": "3fe68421f129b3d8821626d3bc8f608066a5adebf98d166cab1e2ff3198fba31",
       "island": null,
       "locations": [
@@ -1554,6 +1528,36 @@
       "reportedCustomersRestored": 0,
       "sourceStatus": "Predicted",
       "startedAt": "2026-05-24T00:16:58Z",
+      "verified": false,
+      "workStatus": null
+    },
+    {
+      "cause": null,
+      "crewAssigned": false,
+      "endedAt": null,
+      "estimatedRestoration": null,
+      "id": "700cd2ff704c5615cc2598e5d822d04dc725c7681092a2e854c3d22d283fd84d",
+      "island": null,
+      "locations": [
+        "EST ST PETER 24-6J",
+        "ST PETER 20-1",
+        "ST PETER 22A",
+        "ST PETER 6D-1"
+      ],
+      "modifiedAt": "2026-11-10T17:30:03Z",
+      "name": "T-T-06207",
+      "neighborhoodIDs": [
+        "stThomas-st-peter"
+      ],
+      "point": {
+        "latitude": 18.36320194936752,
+        "longitude": -64.945504975774
+      },
+      "reportedCustomersInitially": 5,
+      "reportedCustomersOut": 5,
+      "reportedCustomersRestored": 0,
+      "sourceStatus": "Predicted",
+      "startedAt": "2026-11-10T17:29:54Z",
       "verified": false,
       "workStatus": null
     },
@@ -3676,7 +3680,7 @@
       "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-10T17:26:01Z",
+  "generatedAt": "2026-11-10T17:31:03Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -3707,18 +3711,22 @@
           "id": "stThomas-st-peter",
           "island": "stThomas",
           "locations": [
+            "20-1",
+            "22A",
             "31-18 HSE METER",
             "31-19 & 31-18",
             "31-22 NORTH STAR",
             "31-22 NORTHSTAR",
-            "3I-20 HIBIS LANE"
+            "3I-20 HIBIS LANE",
+            "6D-1"
           ],
           "name": "Estate St. Peter",
           "sourceEventIDs": [
+            "700cd2ff704c5615cc2598e5d822d04dc725c7681092a2e854c3d22d283fd84d",
             "79827be010726ddcff320c95704e314ac3c159496b6b6b142e0f343e309add99"
           ],
           "sourceStatus": "Predicted",
-          "startedAt": "2026-11-10T17:22:42Z"
+          "startedAt": null
         },
         {
           "affectedCustomers": null,
@@ -3780,25 +3788,25 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "dc26a4fb692111cc25160334f158e78c316cdd2a5537f2cbe7a188048fc80c61",
+  "snapshotID": "f9abdc67641037c37f901ebcc1b85f42196c0f1dcd98f308e81129ccbd88cc60",
   "source": {
-    "checkedAt": "2026-11-10T17:26:01Z",
+    "checkedAt": "2026-11-10T17:31:03Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-10T17:25:17Z",
+    "updatedAt": "2026-11-10T17:30:17Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "sourceSummary": {
     "customerCountDifference": 2,
-    "customersAffected": 4162,
-    "customersOut": 4162,
+    "customersAffected": 4165,
+    "customersOut": 4165,
     "customersRestored": 0,
     "customersServed": 54723,
-    "eventCustomersOut": 4160,
+    "eventCustomersOut": 4163,
     "hourlyCustomersOut": [
       {
         "at": "2026-11-08T17:00:00Z",
-        "customersOut": 11409
+        "customersOut": 11408
       },
       {
         "at": "2026-11-08T18:00:00Z",
@@ -3982,15 +3990,15 @@
       },
       {
         "at": "2026-11-10T15:00:00Z",
-        "customersOut": 11447
+        "customersOut": 11445
       },
       {
         "at": "2026-11-10T16:00:00Z",
-        "customersOut": 8585
+        "customersOut": 8583
       },
       {
         "at": "2026-11-10T17:00:00Z",
-        "customersOut": 5573
+        "customersOut": 5576
       }
     ],
     "locations": [
@@ -4561,6 +4569,7 @@
       "EST SMITH BAY 83-2",
       "EST SMITH BAY 84",
       "EST SMITH BAY 93",
+      "EST ST PETER 24-6J",
       "EST THOMAS",
       "EST THOMAS #14 PS 2ND FL",
       "EST THOMAS 14",
@@ -7147,8 +7156,6 @@
       "SMITHBAY POINT PLEASANT",
       "SMITHBAY SAPP VIL 104-A",
       "SMITHBAY/ST VINCENT BLD",
-      "SPRING GARDEN 14",
-      "SPRING GUT 12",
       "ST KITTS 201-A SAPP VILL",
       "ST KITTS SAPP",
       "ST KITTS,SAP VIL",
@@ -7156,11 +7163,14 @@
       "ST MAARTEN 203E SAPP",
       "ST MAARTEN SAPPHIR 204A",
       "ST MAARTEN SAPPHIRE 304-E",
+      "ST PETER 20-1",
+      "ST PETER 22A",
       "ST PETER 31-18 HSE METER",
       "ST PETER 31-19 & 31-18",
       "ST PETER 31-22 NORTH STAR",
       "ST PETER 31-22 NORTHSTAR",
       "ST PETER 3I-20 HIBIS LANE",
+      "ST PETER 6D-1",
       "ST VINCENT 300E SAPP VILL",
       "ST VINCENT 302A SAPP",
       "ST VINCENT 303E SAPP",
