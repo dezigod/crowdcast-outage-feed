@@ -3558,6 +3558,55 @@
       "workStatus": null
     },
     {
+      "cause": null,
+      "crewAssigned": false,
+      "endedAt": null,
+      "estimatedRestoration": null,
+      "id": "1c1fc8387aa4fe6f3d2af35828ddd38ce0959fb7768f7d8e127852337d6c19bb",
+      "island": null,
+      "locations": [
+        "DONOE 3 BLDG 1",
+        "DONOE 3 BLDG 1 APT G101",
+        "DONOE 3 BLDG 1 APT G102",
+        "DONOE 3 BLDG 1 APT G105",
+        "DONOE 3 BLDG 1 APT G106",
+        "DONOE 3 BLDG 1 APT G110",
+        "DONOE 3 BLDG 1 APT G111",
+        "DONOE 3 BLDG 2 APT G201",
+        "DONOE 3 BLDG 2 APT G203",
+        "DONOE 3 BLDG 2 APT G204",
+        "DONOE 3 BLDG 2 APT G205",
+        "DONOE 3 BLDG 2 APT G206",
+        "DONOE 3 BLDG 3",
+        "DONOE 3 BLDG 3 APT G301",
+        "DONOE 3 BLDG 3 APT G302",
+        "DONOE 3 BLDG 3 APT G303",
+        "DONOE 3 BLDG 3 APT G304",
+        "DONOE 3 BLDG 3 APT G305",
+        "DONOE 3 BLDG 3 APT G306",
+        "DONOE 3 BLDG 3 APT G308",
+        "DONOE 3 BLDG 3 APT G311",
+        "DONOE 3 BLDG 3 APT G312",
+        "DONOE 3 BLDG-1 (HSE)",
+        "DONOE 3 BLDG-2 (HSE)",
+        "DUNOE 3 BLDG 2 APT G202"
+      ],
+      "modifiedAt": "2026-11-10T19:14:30Z",
+      "name": "T-T-11775",
+      "neighborhoodIDs": [],
+      "point": {
+        "latitude": 18.344356746526692,
+        "longitude": -64.89995296974458
+      },
+      "reportedCustomersInitially": 32,
+      "reportedCustomersOut": 32,
+      "reportedCustomersRestored": 0,
+      "sourceStatus": "Predicted",
+      "startedAt": "2026-11-10T19:13:58Z",
+      "verified": false,
+      "workStatus": null
+    },
+    {
       "cause": "300 Material or equipment fault/failure",
       "crewAssigned": false,
       "endedAt": null,
@@ -3665,6 +3714,32 @@
       "sourceStatus": "Verified",
       "startedAt": "2026-11-10T17:32:04Z",
       "verified": true,
+      "workStatus": null
+    },
+    {
+      "cause": null,
+      "crewAssigned": false,
+      "endedAt": null,
+      "estimatedRestoration": null,
+      "id": "4a18314d9c77f8b102a36dd71b3818ed831b13eb6a93d858e83edc71e78db246",
+      "island": null,
+      "locations": [
+        "CHARLOTTE AMALIE",
+        "CHARLOTTE AMALIE 3B-2"
+      ],
+      "modifiedAt": "2026-11-10T19:14:15Z",
+      "name": "T-T-11616",
+      "neighborhoodIDs": [],
+      "point": {
+        "latitude": 18.334617814510136,
+        "longitude": -64.89411985892929
+      },
+      "reportedCustomersInitially": 4,
+      "reportedCustomersOut": 4,
+      "reportedCustomersRestored": 0,
+      "sourceStatus": "Predicted",
+      "startedAt": "2026-11-10T19:13:55Z",
+      "verified": false,
       "workStatus": null
     },
     {
@@ -8802,9 +8877,38 @@
       "startedAt": "2026-11-10T16:43:02Z",
       "verified": true,
       "workStatus": null
+    },
+    {
+      "cause": null,
+      "crewAssigned": false,
+      "endedAt": null,
+      "estimatedRestoration": null,
+      "id": "f222229adf6030859134c2b1e5ded1b71286358c673cde996ad5d347ba1641f0",
+      "island": null,
+      "locations": [
+        "EST. MANDAHL 15H",
+        "MANDAHL 14C",
+        "MANDAHL 15 J",
+        "MANDAHL 15D",
+        "MANDAHL 15-D"
+      ],
+      "modifiedAt": "2026-11-10T19:15:00Z",
+      "name": "T-T-10148",
+      "neighborhoodIDs": [],
+      "point": {
+        "latitude": 18.352809414648092,
+        "longitude": -64.8982389981604
+      },
+      "reportedCustomersInitially": 5,
+      "reportedCustomersOut": 5,
+      "reportedCustomersRestored": 0,
+      "sourceStatus": "Predicted",
+      "startedAt": "2026-11-10T19:14:56Z",
+      "verified": false,
+      "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-10T19:10:40Z",
+  "generatedAt": "2026-11-10T19:15:42Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -9203,21 +9307,21 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "c0c9d86e1715a8828f43ef9e3d831ac4af76bc09ca79b066ef7dfbfb09d3e8d7",
+  "snapshotID": "ecd506a199df4b3575b91c76fccba41eef7c52c88c5f758eb02615cefe1fc72e",
   "source": {
-    "checkedAt": "2026-11-10T19:10:40Z",
+    "checkedAt": "2026-11-10T19:15:42Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-10T19:10:20Z",
+    "updatedAt": "2026-11-10T19:15:20Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "sourceSummary": {
-    "customerCountDifference": 2,
-    "customersAffected": 11108,
-    "customersOut": 11108,
+    "customerCountDifference": 17,
+    "customersAffected": 11164,
+    "customersOut": 11164,
     "customersRestored": 0,
     "customersServed": 54723,
-    "eventCustomersOut": 11106,
+    "eventCustomersOut": 11147,
     "hourlyCustomersOut": [
       {
         "at": "2026-11-08T19:00:00Z",
@@ -9413,7 +9517,7 @@
       },
       {
         "at": "2026-11-10T19:00:00Z",
-        "customersOut": 11106
+        "customersOut": 11162
       }
     ],
     "locations": [
@@ -10573,6 +10677,8 @@
       "CECELIA GADE 6B",
       "CECELIA GADE 7",
       "CECELIA GADE 7 APT-3",
+      "CHARLOTTE AMALIE",
+      "CHARLOTTE AMALIE 3B-2",
       "C-IF EST COKIE POINT",
       "CIRCLE STREET",
       "CIRCLE STREET #2",
@@ -11370,6 +11476,30 @@
       "DOMINICA SAPP VILL 305E",
       "DOMINICA SAPPHIRE",
       "DOMINICA VILL SAPP 202A",
+      "DONOE 3 BLDG 1",
+      "DONOE 3 BLDG 1 APT G101",
+      "DONOE 3 BLDG 1 APT G102",
+      "DONOE 3 BLDG 1 APT G105",
+      "DONOE 3 BLDG 1 APT G106",
+      "DONOE 3 BLDG 1 APT G110",
+      "DONOE 3 BLDG 1 APT G111",
+      "DONOE 3 BLDG 2 APT G201",
+      "DONOE 3 BLDG 2 APT G203",
+      "DONOE 3 BLDG 2 APT G204",
+      "DONOE 3 BLDG 2 APT G205",
+      "DONOE 3 BLDG 2 APT G206",
+      "DONOE 3 BLDG 3",
+      "DONOE 3 BLDG 3 APT G301",
+      "DONOE 3 BLDG 3 APT G302",
+      "DONOE 3 BLDG 3 APT G303",
+      "DONOE 3 BLDG 3 APT G304",
+      "DONOE 3 BLDG 3 APT G305",
+      "DONOE 3 BLDG 3 APT G306",
+      "DONOE 3 BLDG 3 APT G308",
+      "DONOE 3 BLDG 3 APT G311",
+      "DONOE 3 BLDG 3 APT G312",
+      "DONOE 3 BLDG-1 (HSE)",
+      "DONOE 3 BLDG-2 (HSE)",
       "DORETHEA 17-2 B3B",
       "DOROTHEA",
       "DOROTHEA #14 B-3 UP",
@@ -11647,6 +11777,7 @@
       "DRONNINGENS GADE STE A2",
       "DRONNINGENS GADE STE IX",
       "DRONNINGRNS GADE 50-50A",
+      "DUNOE 3 BLDG 2 APT G202",
       "E WIND B-3 VESSUP BAY",
       "EAST END SUBSTATION B2A",
       "ELIZ. 30A,B,D-H,J K B-U",
@@ -12528,6 +12659,7 @@
       "EST. HULL BAY 5G-2 TOP FL",
       "EST. LERKENLAND 3I-1",
       "EST. LERKENLUND 6A1-A-1",
+      "EST. MANDAHL 15H",
       "EST. NADIR #19AA-2 DWN.",
       "EST. NAZARETH",
       "EST. NAZARETH 2FA APT. 4",
@@ -14807,11 +14939,28 @@
       "MAHOGANY ESTATE 162",
       "MAHOGANY ESTATE 168",
       "MAHOGANY ESTATE 187",
+      "MAHOGANY RUN 17M MTR 4",
+      "MAHOGANY RUN 17U A-386",
+      "MAHOGANY RUN 19U",
+      "MAHOGANY RUN B-17 A-389",
+      "MAHOGANY RUN B18",
+      "MAHOGANY RUN COND 20",
+      "MAHOGANY RUN COND0 B-19",
+      "MAHOGANY RUN CONDO 20W",
+      "MAHOGANY RUN CONDO B-10",
+      "MAHOGANY RUN CONDO B-18",
+      "MAHOGANY RUN CONDO B-19",
+      "MAHOGANY RUN CONDO B-20",
       "MAHOGANYEST 110",
+      "MAHOGONY RUN CONDO 20L",
       "MAIN STREET",
       "MAIN STREET 7-1",
       "MAIN STREET 7A UNIT 4",
       "MANDAHL 12B",
+      "MANDAHL 14C",
+      "MANDAHL 15 J",
+      "MANDAHL 15D",
+      "MANDAHL 15-D",
       "MARIENDAHL",
       "MARIENDAHL 10-2",
       "MARIENDAHL 2-0",
@@ -17709,8 +17858,8 @@
       "ZUERIENDENHEIT",
       "ZUFRIDENHEIT 1"
     ],
-    "totalOutages": 20
+    "totalOutages": 23
   },
   "staleAfterSeconds": 900,
-  "unassignedEventCount": 16
+  "unassignedEventCount": 19
 }
