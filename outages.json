@@ -2165,55 +2165,6 @@
       "workStatus": null
     },
     {
-      "cause": null,
-      "crewAssigned": false,
-      "endedAt": null,
-      "estimatedRestoration": null,
-      "id": "1c1fc8387aa4fe6f3d2af35828ddd38ce0959fb7768f7d8e127852337d6c19bb",
-      "island": null,
-      "locations": [
-        "DONOE 3 BLDG 1",
-        "DONOE 3 BLDG 1 APT G101",
-        "DONOE 3 BLDG 1 APT G102",
-        "DONOE 3 BLDG 1 APT G105",
-        "DONOE 3 BLDG 1 APT G106",
-        "DONOE 3 BLDG 1 APT G110",
-        "DONOE 3 BLDG 1 APT G111",
-        "DONOE 3 BLDG 2 APT G201",
-        "DONOE 3 BLDG 2 APT G203",
-        "DONOE 3 BLDG 2 APT G204",
-        "DONOE 3 BLDG 2 APT G205",
-        "DONOE 3 BLDG 2 APT G206",
-        "DONOE 3 BLDG 3",
-        "DONOE 3 BLDG 3 APT G301",
-        "DONOE 3 BLDG 3 APT G302",
-        "DONOE 3 BLDG 3 APT G303",
-        "DONOE 3 BLDG 3 APT G304",
-        "DONOE 3 BLDG 3 APT G305",
-        "DONOE 3 BLDG 3 APT G306",
-        "DONOE 3 BLDG 3 APT G308",
-        "DONOE 3 BLDG 3 APT G311",
-        "DONOE 3 BLDG 3 APT G312",
-        "DONOE 3 BLDG-1 (HSE)",
-        "DONOE 3 BLDG-2 (HSE)",
-        "DUNOE 3 BLDG 2 APT G202"
-      ],
-      "modifiedAt": "2026-11-10T19:16:20Z",
-      "name": "T-T-11775",
-      "neighborhoodIDs": [],
-      "point": {
-        "latitude": 18.344356746526692,
-        "longitude": -64.89995296974458
-      },
-      "reportedCustomersInitially": 32,
-      "reportedCustomersOut": 32,
-      "reportedCustomersRestored": 0,
-      "sourceStatus": "Verified",
-      "startedAt": "2026-11-10T19:13:58Z",
-      "verified": true,
-      "workStatus": null
-    },
-    {
       "cause": "300 Material or equipment fault/failure",
       "crewAssigned": false,
       "endedAt": null,
@@ -2320,32 +2271,6 @@
       "reportedCustomersRestored": 0,
       "sourceStatus": "Verified",
       "startedAt": "2026-11-10T17:32:04Z",
-      "verified": true,
-      "workStatus": null
-    },
-    {
-      "cause": null,
-      "crewAssigned": false,
-      "endedAt": null,
-      "estimatedRestoration": null,
-      "id": "4a18314d9c77f8b102a36dd71b3818ed831b13eb6a93d858e83edc71e78db246",
-      "island": null,
-      "locations": [
-        "CHARLOTTE AMALIE",
-        "CHARLOTTE AMALIE 3B-2"
-      ],
-      "modifiedAt": "2026-11-10T19:16:20Z",
-      "name": "T-T-11616",
-      "neighborhoodIDs": [],
-      "point": {
-        "latitude": 18.334617814510136,
-        "longitude": -64.89411985892929
-      },
-      "reportedCustomersInitially": 4,
-      "reportedCustomersOut": 4,
-      "reportedCustomersRestored": 0,
-      "sourceStatus": "Verified",
-      "startedAt": "2026-11-10T19:13:55Z",
       "verified": true,
       "workStatus": null
     },
@@ -5333,7 +5258,7 @@
         "SMITH BAY 98-8-1A/98-6 U-",
         "SMITH BAY 98-8-1A/98-6B-N"
       ],
-      "modifiedAt": "2026-11-10T19:44:32Z",
+      "modifiedAt": "2026-11-10T19:46:31Z",
       "name": "T-T-08375",
       "neighborhoodIDs": [],
       "point": {
@@ -5370,7 +5295,7 @@
         "MAHOGANY RUN CONDO B-20",
         "MAHOGONY RUN CONDO 20L"
       ],
-      "modifiedAt": "2026-11-10T19:16:20Z",
+      "modifiedAt": "2026-11-10T19:50:00Z",
       "name": "T-T-17270",
       "neighborhoodIDs": [],
       "point": {
@@ -5461,7 +5386,7 @@
         "PETERBORG 9-1-27",
         "PETERBORG 9-1-28"
       ],
-      "modifiedAt": "2026-11-10T18:13:25Z",
+      "modifiedAt": "2026-11-10T19:46:02Z",
       "name": "T-T-14447",
       "neighborhoodIDs": [
         "stThomas-peterborg"
@@ -5476,49 +5401,6 @@
       "sourceStatus": "Predicted",
       "startedAt": "2026-11-10T18:13:16Z",
       "verified": false,
-      "workStatus": null
-    },
-    {
-      "cause": null,
-      "crewAssigned": false,
-      "endedAt": null,
-      "estimatedRestoration": null,
-      "id": "e61c3070908734f49648f8ecb24d6b6bf143c90bd149adba4417b2125b0999dc",
-      "island": null,
-      "locations": [
-        "DRONN GADE",
-        "DRONN GD",
-        "DRONNINGENS GADE",
-        "DRONNINGENS GADE 16 PUMP",
-        "DRONNINGENS GADE 18 AB",
-        "DRONNINGENS GADE 22-23",
-        "DRONNINGENS GADE 48",
-        "DRONNINGENS GADE 49A",
-        "DRONNINGENS GADE 49B",
-        "DRONNINGENS GADE 50-50A",
-        "DRONNINGENS GADE 52",
-        "DRONNINGENS GADE 53B",
-        "DRONNINGENS GADE DOWN",
-        "DRONNINGRNS GADE 50-50A",
-        "KONGENS GADE 19B",
-        "PRINDSENS GADE",
-        "PRINDSENS GADE 19B",
-        "PRINDSENS GADE 27",
-        "PRINDSENS GADE 29"
-      ],
-      "modifiedAt": "2026-11-10T14:35:58Z",
-      "name": "T-T-06321",
-      "neighborhoodIDs": [],
-      "point": {
-        "latitude": 18.342998762318345,
-        "longitude": -64.92822890964305
-      },
-      "reportedCustomersInitially": 28,
-      "reportedCustomersOut": 28,
-      "reportedCustomersRestored": 0,
-      "sourceStatus": "Verified",
-      "startedAt": "2026-11-10T14:03:18Z",
-      "verified": true,
       "workStatus": null
     },
     {
@@ -6582,6 +6464,7 @@
         "CHARLOTTE AMALIE 3",
         "CHARLOTTE AMALIE 35-1",
         "CHARLOTTE AMALIE 36-2",
+        "CHARLOTTE AMALIE 3B-2",
         "CHARLOTTE AMALIE 5A",
         "CHARLOTTE AMALIE 5C",
         "CHARLOTTE AMALIE PCL 5B",
@@ -6609,6 +6492,28 @@
         "DONOE 2J-8 #2A NQ UP",
         "DONOE 3 BLD 8",
         "DONOE 3 BLD 9",
+        "DONOE 3 BLDG 1",
+        "DONOE 3 BLDG 1 APT G101",
+        "DONOE 3 BLDG 1 APT G102",
+        "DONOE 3 BLDG 1 APT G105",
+        "DONOE 3 BLDG 1 APT G106",
+        "DONOE 3 BLDG 1 APT G110",
+        "DONOE 3 BLDG 1 APT G111",
+        "DONOE 3 BLDG 2 APT G201",
+        "DONOE 3 BLDG 2 APT G203",
+        "DONOE 3 BLDG 2 APT G204",
+        "DONOE 3 BLDG 2 APT G205",
+        "DONOE 3 BLDG 2 APT G206",
+        "DONOE 3 BLDG 3",
+        "DONOE 3 BLDG 3 APT G301",
+        "DONOE 3 BLDG 3 APT G302",
+        "DONOE 3 BLDG 3 APT G303",
+        "DONOE 3 BLDG 3 APT G304",
+        "DONOE 3 BLDG 3 APT G305",
+        "DONOE 3 BLDG 3 APT G306",
+        "DONOE 3 BLDG 3 APT G308",
+        "DONOE 3 BLDG 3 APT G311",
+        "DONOE 3 BLDG 3 APT G312",
         "DONOE 3 BLDG 4",
         "DONOE 3 BLDG 4 APT G402",
         "DONOE 3 BLDG 4 APT G404",
@@ -6635,12 +6540,15 @@
         "DONOE 3 BLDG 7 UNIT 706",
         "DONOE 3 BLDG 8",
         "DONOE 3 BLDG 9 APT 905",
+        "DONOE 3 BLDG-1 (HSE)",
+        "DONOE 3 BLDG-2 (HSE)",
         "DONOE 3 HOUSE",
         "DONOE 3 HOUSE MTR 3",
         "DONOE 3 STREETLIGHT",
         "DONOE 4100 BLDG 6",
         "DONOE BLDG-9 APT-904",
         "DONOE LOT A NQ",
+        "DUNOE 3 BLDG 2 APT G202",
         "E ESTATE MANDAHL",
         "EST ANNAS RET 260-8",
         "EST ANNAS RETREAT 260-48",
@@ -7834,7 +7742,7 @@
         "WINTBERG-TRAILER",
         "WINTHBERG 1-B4 APT 303"
       ],
-      "modifiedAt": "2026-11-10T19:16:20Z",
+      "modifiedAt": "2026-11-10T19:49:59Z",
       "name": "ISW-7C-6A-THRM-A",
       "neighborhoodIDs": [
         "stThomas-lovenlund"
@@ -7843,16 +7751,16 @@
         "latitude": 18.348272273475054,
         "longitude": -64.89625580223714
       },
-      "reportedCustomersInitially": 2223,
-      "reportedCustomersOut": 2223,
+      "reportedCustomersInitially": 2259,
+      "reportedCustomersOut": 2259,
       "reportedCustomersRestored": 0,
       "sourceStatus": "Verified",
-      "startedAt": "2026-11-10T19:14:56Z",
+      "startedAt": "2026-11-10T19:13:55Z",
       "verified": true,
       "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-10T19:46:20Z",
+  "generatedAt": "2026-11-10T19:51:22Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -8361,21 +8269,21 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "d74dd8610ef8bc6cdb80668a96e05cb107d8b22039c1b1dad3ce4c21bef8b194",
+  "snapshotID": "12f2728f30295abbb7738f7898486cf3d6697ec60ac2876fa40937e42603325a",
   "source": {
-    "checkedAt": "2026-11-10T19:46:20Z",
+    "checkedAt": "2026-11-10T19:51:22Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-10T19:45:20Z",
+    "updatedAt": "2026-11-10T19:50:19Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "sourceSummary": {
     "customerCountDifference": 2,
-    "customersAffected": 9707,
-    "customersOut": 9707,
+    "customersAffected": 9679,
+    "customersOut": 9679,
     "customersRestored": 0,
     "customersServed": 54723,
-    "eventCustomersOut": 9705,
+    "eventCustomersOut": 9677,
     "hourlyCustomersOut": [
       {
         "at": "2026-11-08T19:00:00Z",
@@ -8551,27 +8459,27 @@
       },
       {
         "at": "2026-11-10T14:00:00Z",
-        "customersOut": 5977
+        "customersOut": 5949
       },
       {
         "at": "2026-11-10T15:00:00Z",
-        "customersOut": 11445
+        "customersOut": 11417
       },
       {
         "at": "2026-11-10T16:00:00Z",
-        "customersOut": 8583
+        "customersOut": 8555
       },
       {
         "at": "2026-11-10T17:00:00Z",
-        "customersOut": 6684
+        "customersOut": 6656
       },
       {
         "at": "2026-11-10T18:00:00Z",
-        "customersOut": 11106
+        "customersOut": 11078
       },
       {
         "at": "2026-11-10T19:00:00Z",
-        "customersOut": 11320
+        "customersOut": 11292
       }
     ],
     "locations": [
@@ -11061,12 +10969,10 @@
       "DRAKES PASSAGE 14-1",
       "DRAKES PASSAGE C-1 31-2",
       "DRAKES PASSAGE STE-3",
-      "DRONN GADE",
       "DRONN GADE 24 PALM PASSAG",
       "DRONN GADE 38A (THE SHOE",
       "DRONN GADE PALM PASSAGE",
       "DRONN GADE STOP LIGHT",
-      "DRONN GD",
       "DRONNIGENS GADE",
       "DRONNINGENS ADE 23 Q.QTRS",
       "DRONNINGENS GADE",
@@ -11077,13 +10983,10 @@
       "DRONNINGENS GADE 14",
       "DRONNINGENS GADE 16",
       "DRONNINGENS GADE 16 MTR-4",
-      "DRONNINGENS GADE 16 PUMP",
       "DRONNINGENS GADE 17",
       "DRONNINGENS GADE 18",
-      "DRONNINGENS GADE 18 AB",
       "DRONNINGENS GADE 18 STE A",
       "DRONNINGENS GADE 22",
-      "DRONNINGENS GADE 22-23",
       "DRONNINGENS GADE 23",
       "DRONNINGENS GADE 23 STE-2",
       "DRONNINGENS GADE 23*",
@@ -11131,12 +11034,6 @@
       "DRONNINGENS GADE 3A",
       "DRONNINGENS GADE 3B",
       "DRONNINGENS GADE 4",
-      "DRONNINGENS GADE 48",
-      "DRONNINGENS GADE 49A",
-      "DRONNINGENS GADE 49B",
-      "DRONNINGENS GADE 50-50A",
-      "DRONNINGENS GADE 52",
-      "DRONNINGENS GADE 53B",
       "DRONNINGENS GADE 6-7",
       "DRONNINGENS GADE 6-7 STE",
       "DRONNINGENS GADE 6-7A&D",
@@ -11146,7 +11043,6 @@
       "DRONNINGENS GADE 8B",
       "DRONNINGENS GADE 9A",
       "DRONNINGENS GADE 9LB",
-      "DRONNINGENS GADE DOWN",
       "DRONNINGENS GADE HSE",
       "DRONNINGENS GADE MTR 14",
       "DRONNINGENS GADE MTR 18",
@@ -11156,7 +11052,6 @@
       "DRONNINGENS GADE STE A15",
       "DRONNINGENS GADE STE A2",
       "DRONNINGENS GADE STE IX",
-      "DRONNINGRNS GADE 50-50A",
       "DUNOE 3 BLDG 2 APT G202",
       "E ESTATE MANDAHL",
       "ELIZ. 30A,B,D-H,J K B-U",
@@ -12944,7 +12839,6 @@
       "KONGENS GADE 18",
       "KONGENS GADE 19A & 20",
       "KONGENS GADE 19A-20",
-      "KONGENS GADE 19B",
       "KONGENS GADE 23",
       "KONGENS GADE 44-46 (DOE)",
       "KRONDPRINDSENS GADE 78-79",
@@ -14536,11 +14430,7 @@
       "PRINCESSE GADE 26B",
       "PRINCESSE GADE UP",
       "PRINDCESSE GADE 11B",
-      "PRINDSENS GADE",
       "PRINDSENS GADE 11B",
-      "PRINDSENS GADE 19B",
-      "PRINDSENS GADE 27",
-      "PRINDSENS GADE 29",
       "PRINDSENS GADE 29A-30A",
       "PRINDSENS GADE 55",
       "PRINDSESSE GADE",
@@ -15871,8 +15761,8 @@
       "ZUERIENDENHEIT",
       "ZUFRIDENHEIT 1"
     ],
-    "totalOutages": 22
+    "totalOutages": 19
   },
   "staleAfterSeconds": 900,
-  "unassignedEventCount": 18
+  "unassignedEventCount": 15
 }
