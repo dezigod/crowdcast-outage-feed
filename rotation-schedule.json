@@ -1,19 +1,111 @@
 {
   "nextAttemptAt": "2026-11-10T16:40:47Z",
   "schedule": {
-    "checkedAt": "2026-11-10T16:35:47Z",
-    "coverageEnd": null,
-    "coverageStart": null,
+    "checkedAt": "2026-11-10T16:30:23Z",
+    "coverageEnd": "2026-11-10T22:30:00-04:00",
+    "coverageStart": "2026-11-10T08:30:00-04:00",
     "day": "2026-11-10",
-    "dayStatus": "not_current",
+    "dayStatus": "current",
     "extractionMethod": "manual-review",
-    "extractionStatus": "unavailable",
-    "fingerprint": "10172c3012aa7d0c8f7951b811eca027380e8dc076905c8410401e505f86aa9e",
-    "lastModified": "Mon, 09 Nov 2026 15:27:19 GMT",
-    "revisionSeenAt": "2026-11-09T15:30:28Z",
+    "extractionStatus": "reviewed",
+    "fingerprint": "24f9093e1054e67a13867aa5f0ab88b474c8adc4c716e13ba7e0fdcb812a8bfc",
+    "lastModified": null,
+    "revisionSeenAt": "2026-11-10T16:30:23Z",
+    "sourceURLs": [
+      "https://www.facebook.com/photo/?fbid=1444835577838613&set=pb.100069365522656.-2207520000",
+      "https://www.facebook.com/photo/?fbid=1444835564505281&set=pb.100069365522656.-2207520000"
+    ],
     "timeZone": "America/St_Thomas",
-    "url": "https://www.viwapa.vi/docs/default-source/outage-schedule/sttstj-rotational-outage-schedule-doc.pdf?sfvrsn=2c938249_404",
-    "windows": []
+    "url": "https://www.facebook.com/photo/?fbid=1444835577838613&set=pb.100069365522656.-2207520000",
+    "websiteCheckedAt": "2026-11-10T16:35:47Z",
+    "windows": [
+      {
+        "areas": [
+          "Cruz Bay to Zootenvaal",
+          "MALL"
+        ],
+        "endsAt": "2026-11-10T10:30:00-04:00",
+        "feeders": [
+          "Feeder 7E"
+        ],
+        "id": "2026-11-10-0830",
+        "startsAt": "2026-11-10T08:30:00-04:00"
+      },
+      {
+        "areas": [
+          "Paul M. Pearson Garden to Bolongo",
+          "Altona to Drake\u2019s Seat"
+        ],
+        "endsAt": "2026-11-10T12:30:00-04:00",
+        "feeders": [
+          "Feeder 10B",
+          "Feeder 7A"
+        ],
+        "id": "2026-11-10-1030",
+        "startsAt": "2026-11-10T10:30:00-04:00"
+      },
+      {
+        "areas": [
+          "Cassi Hill to Red Hook",
+          "Nadir to Bovoni"
+        ],
+        "endsAt": "2026-11-10T14:30:00-04:00",
+        "feeders": [
+          "Feeder 7C",
+          "Feeder 9C"
+        ],
+        "id": "2026-11-10-1230",
+        "startsAt": "2026-11-10T12:30:00-04:00"
+      },
+      {
+        "areas": [
+          "Crown Mountain to Crown & Hawk"
+        ],
+        "endsAt": "2026-11-10T16:30:00-04:00",
+        "feeders": [
+          "Feeder 6A",
+          "Feeder 8A"
+        ],
+        "id": "2026-11-10-1430",
+        "startsAt": "2026-11-10T14:30:00-04:00"
+      },
+      {
+        "areas": [
+          "Estate Thomas to Tabor & Harmony"
+        ],
+        "endsAt": "2026-11-10T18:30:00-04:00",
+        "feeders": [
+          "Feeder 7B",
+          "Feeder 7E"
+        ],
+        "id": "2026-11-10-1630",
+        "startsAt": "2026-11-10T16:30:00-04:00"
+      },
+      {
+        "areas": [
+          "Charlotte Amalie Est Bovoni/ Nadir to Redhook Nazareth"
+        ],
+        "endsAt": "2026-11-10T20:30:00-04:00",
+        "feeders": [
+          "Feeder 9C"
+        ],
+        "id": "2026-11-10-1830",
+        "startsAt": "2026-11-10T18:30:00-04:00"
+      },
+      {
+        "areas": [
+          "Taarneberg to Peterborg",
+          "Enighed to Carolina"
+        ],
+        "endsAt": "2026-11-10T22:30:00-04:00",
+        "feeders": [
+          "Feeder 8B",
+          "Feeder 9E"
+        ],
+        "id": "2026-11-10-2030",
+        "startsAt": "2026-11-10T20:30:00-04:00"
+      }
+    ]
   },
   "schemaVersion": 1,
   "status": "ok",
