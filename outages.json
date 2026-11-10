@@ -2329,6 +2329,34 @@
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
+      "id": "460f23c22a0ec7ea13c331b227c7a921a238c1218f2507d0b3430b49bbfb6694",
+      "island": null,
+      "locations": [
+        "3M BAKKERO",
+        "BAKKERO 3A-2-REMAINDER",
+        "BAKKERO 3C",
+        "BAKKERO 3L FLAG HILL"
+      ],
+      "modifiedAt": "2026-11-10T22:38:35Z",
+      "name": "T-T-14640",
+      "neighborhoodIDs": [],
+      "point": {
+        "latitude": 18.327975674240342,
+        "longitude": -64.91384419899413
+      },
+      "reportedCustomersInitially": 4,
+      "reportedCustomersOut": 4,
+      "reportedCustomersRestored": 0,
+      "sourceStatus": "Predicted",
+      "startedAt": "2026-11-10T22:38:10Z",
+      "verified": false,
+      "workStatus": null
+    },
+    {
+      "cause": null,
+      "crewAssigned": false,
+      "endedAt": null,
+      "estimatedRestoration": null,
       "id": "688d24f7b6e72cb60f9dd7cfcfc315b9ee0efe7095b9fbf192b7ed84c8031d54",
       "island": "stThomas",
       "locations": [
@@ -4040,6 +4068,35 @@
       "sourceStatus": "Verified",
       "startedAt": "2026-11-10T21:35:03Z",
       "verified": true,
+      "workStatus": null
+    },
+    {
+      "cause": null,
+      "crewAssigned": false,
+      "endedAt": null,
+      "estimatedRestoration": null,
+      "id": "801ffd1d62bebae39907c3ecc5e12e80b541520989ac550ecf06c82ce38f3c7b",
+      "island": null,
+      "locations": [
+        "FRENCHMAN BAY 14-86",
+        "FRENCHMAN'S BAY 14-85",
+        "FRENCHMAN'S BAY 14-86",
+        "FRENCHMAN'S BAY 14-87",
+        "FRENCHMAN'S BAY 14-89"
+      ],
+      "modifiedAt": "2026-11-10T22:40:07Z",
+      "name": "T-T-14970",
+      "neighborhoodIDs": [],
+      "point": {
+        "latitude": 18.322635750838778,
+        "longitude": -64.9051942114163
+      },
+      "reportedCustomersInitially": 7,
+      "reportedCustomersOut": 7,
+      "reportedCustomersRestored": 0,
+      "sourceStatus": "Predicted",
+      "startedAt": "2026-11-10T22:39:55Z",
+      "verified": false,
       "workStatus": null
     },
     {
@@ -8287,7 +8344,7 @@
       "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-10T22:36:07Z",
+  "generatedAt": "2026-11-10T22:41:08Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -9206,21 +9263,21 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "fbd485be127b7c5de2811f6af062eca8933470eb466c810350cc157710eb326e",
+  "snapshotID": "cb3ee756330560d623037c951e3a94d9c108c4e4fc310716c017967f8e6963b6",
   "source": {
-    "checkedAt": "2026-11-10T22:36:07Z",
+    "checkedAt": "2026-11-10T22:41:08Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-10T22:35:20Z",
+    "updatedAt": "2026-11-10T22:40:20Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "sourceSummary": {
     "customerCountDifference": 2,
-    "customersAffected": 10182,
-    "customersOut": 10182,
+    "customersAffected": 10193,
+    "customersOut": 10193,
     "customersRestored": 0,
     "customersServed": 54723,
-    "eventCustomersOut": 10180,
+    "eventCustomersOut": 10191,
     "hourlyCustomersOut": [
       {
         "at": "2026-11-08T22:00:00Z",
@@ -9416,7 +9473,7 @@
       },
       {
         "at": "2026-11-10T22:00:00Z",
-        "customersOut": 10180
+        "customersOut": 10191
       }
     ],
     "locations": [
@@ -9472,6 +9529,7 @@
       "321A ANNAS RETREAT-DWN",
       "324B WINTBERG MTR 3",
       "3B EST MISGUNST",
+      "3M BAKKERO",
       "3M-1A ESTATE ST PETER",
       "3M-1A ST PETER MTR 1",
       "3R AGNES FANCY",
@@ -10424,6 +10482,9 @@
       "B 512L RM MAH RUN",
       "B502L RM MHGY RUN",
       "B506M RM 1825/1826 MHG",
+      "BAKKERO 3A-2-REMAINDER",
+      "BAKKERO 3C",
+      "BAKKERO 3L FLAG HILL",
       "BAND STAND EMANCIPATION",
       "BARRETT #13-5",
       "BARRETT EST 14-2",
@@ -13375,6 +13436,11 @@
       "FREEMANS GROUND 7-1",
       "FREEMANS GROUND 7-2",
       "FREEMANS GROUND 8A",
+      "FRENCHMAN BAY 14-86",
+      "FRENCHMAN'S BAY 14-85",
+      "FRENCHMAN'S BAY 14-86",
+      "FRENCHMAN'S BAY 14-87",
+      "FRENCHMAN'S BAY 14-89",
       "FRIIS 5C-2",
       "FRIIS ST JOHN",
       "FRT MYLNER SHP CTR",
@@ -17212,8 +17278,8 @@
       "ZUERIENDENHEIT",
       "ZUFRIDENHEIT 1"
     ],
-    "totalOutages": 19
+    "totalOutages": 21
   },
   "staleAfterSeconds": 900,
-  "unassignedEventCount": 16
+  "unassignedEventCount": 18
 }
