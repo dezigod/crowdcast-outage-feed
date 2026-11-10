@@ -37,7 +37,7 @@
         "EST FRYDENDAHL 25",
         "EST FRYDENDAHL 28"
       ],
-      "modifiedAt": "2026-11-10T16:43:07Z",
+      "modifiedAt": "2026-11-10T17:20:39Z",
       "name": "T-T-07998",
       "neighborhoodIDs": [],
       "point": {
@@ -1554,6 +1554,41 @@
       "reportedCustomersRestored": 0,
       "sourceStatus": "Predicted",
       "startedAt": "2026-05-24T00:16:58Z",
+      "verified": false,
+      "workStatus": null
+    },
+    {
+      "cause": null,
+      "crewAssigned": false,
+      "endedAt": null,
+      "estimatedRestoration": null,
+      "id": "79827be010726ddcff320c95704e314ac3c159496b6b6b142e0f343e309add99",
+      "island": null,
+      "locations": [
+        "EST LERKENLUND 9D-6",
+        "LERKENLUND 8-63 TOP",
+        "LERKENLUND 9D-10",
+        "LITTLE N. STAR VILL 3-I24",
+        "ST PETER 31-18 HSE METER",
+        "ST PETER 31-19 & 31-18",
+        "ST PETER 31-22 NORTH STAR",
+        "ST PETER 31-22 NORTHSTAR",
+        "ST PETER 3I-20 HIBIS LANE"
+      ],
+      "modifiedAt": "2026-11-10T17:23:16Z",
+      "name": "T-T-16676",
+      "neighborhoodIDs": [
+        "stThomas-st-peter"
+      ],
+      "point": {
+        "latitude": 18.35671960987612,
+        "longitude": -64.94569466203092
+      },
+      "reportedCustomersInitially": 12,
+      "reportedCustomersOut": 12,
+      "reportedCustomersRestored": 0,
+      "sourceStatus": "Predicted",
+      "startedAt": "2026-11-10T17:22:42Z",
       "verified": false,
       "workStatus": null
     },
@@ -3641,7 +3676,7 @@
       "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-10T17:20:59Z",
+  "generatedAt": "2026-11-10T17:26:01Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -3665,6 +3700,25 @@
           ],
           "sourceStatus": "Predicted",
           "startedAt": "2026-05-24T00:16:58Z"
+        },
+        {
+          "affectedCustomers": null,
+          "estimatedRestoration": null,
+          "id": "stThomas-st-peter",
+          "island": "stThomas",
+          "locations": [
+            "31-18 HSE METER",
+            "31-19 & 31-18",
+            "31-22 NORTH STAR",
+            "31-22 NORTHSTAR",
+            "3I-20 HIBIS LANE"
+          ],
+          "name": "Estate St. Peter",
+          "sourceEventIDs": [
+            "79827be010726ddcff320c95704e314ac3c159496b6b6b142e0f343e309add99"
+          ],
+          "sourceStatus": "Predicted",
+          "startedAt": "2026-11-10T17:22:42Z"
         },
         {
           "affectedCustomers": null,
@@ -3726,21 +3780,21 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "d5bddcc949da49f9d5f925092b0f19d8f37dfe233d0a3bb080d1c4d8932e48d4",
+  "snapshotID": "dc26a4fb692111cc25160334f158e78c316cdd2a5537f2cbe7a188048fc80c61",
   "source": {
-    "checkedAt": "2026-11-10T17:20:59Z",
+    "checkedAt": "2026-11-10T17:26:01Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-10T17:20:17Z",
+    "updatedAt": "2026-11-10T17:25:17Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "sourceSummary": {
     "customerCountDifference": 2,
-    "customersAffected": 4150,
-    "customersOut": 4150,
+    "customersAffected": 4162,
+    "customersOut": 4162,
     "customersRestored": 0,
     "customersServed": 54723,
-    "eventCustomersOut": 4148,
+    "eventCustomersOut": 4160,
     "hourlyCustomersOut": [
       {
         "at": "2026-11-08T17:00:00Z",
@@ -3936,7 +3990,7 @@
       },
       {
         "at": "2026-11-10T17:00:00Z",
-        "customersOut": 5561
+        "customersOut": 5573
       }
     ],
     "locations": [
@@ -4342,6 +4396,7 @@
       "EST FRYDENHOJ 92",
       "EST FRYDENHOY 37-25",
       "EST HULL 2K",
+      "EST LERKENLUND 9D-6",
       "EST NADIR",
       "EST NADIR #14H",
       "EST NADIR #16E",
@@ -5488,7 +5543,10 @@
       "GRANGE HILL 9",
       "GREAT BAY",
       "KONGENS GADE 19B",
+      "LERKENLUND 8-63 TOP",
+      "LERKENLUND 9D-10",
       "LERKENLUND 9D-1-2",
+      "LITTLE N. STAR VILL 3-I24",
       "LITTLE ST. JAMES ISLAND",
       "LOT 18-16 SMITH BAY",
       "LOT A9 VESSUP BAY EST",
@@ -7098,6 +7156,11 @@
       "ST MAARTEN 203E SAPP",
       "ST MAARTEN SAPPHIR 204A",
       "ST MAARTEN SAPPHIRE 304-E",
+      "ST PETER 31-18 HSE METER",
+      "ST PETER 31-19 & 31-18",
+      "ST PETER 31-22 NORTH STAR",
+      "ST PETER 31-22 NORTHSTAR",
+      "ST PETER 3I-20 HIBIS LANE",
       "ST VINCENT 300E SAPP VILL",
       "ST VINCENT 302A SAPP",
       "ST VINCENT 303E SAPP",
@@ -7137,8 +7200,8 @@
       "WEST COND SAPP B-A",
       "WEST SAPPHIRE BAY CONDO"
     ],
-    "totalOutages": 18
+    "totalOutages": 19
   },
   "staleAfterSeconds": 900,
-  "unassignedEventCount": 15
+  "unassignedEventCount": 16
 }
