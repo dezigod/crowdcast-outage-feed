@@ -1481,6 +1481,33 @@
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
+      "id": "3cc14f8537589d13bfcd5043cb96c05436e6ae273e10b399ac8e05c761e7ee05",
+      "island": "stCroix",
+      "locations": [
+        "JUDITHS FANCY 112"
+      ],
+      "modifiedAt": "2026-11-10T18:00:16Z",
+      "name": "T-C-24467",
+      "neighborhoodIDs": [
+        "stCroix-judiths-fancy"
+      ],
+      "point": {
+        "latitude": 17.780636760921116,
+        "longitude": -64.74757060474538
+      },
+      "reportedCustomersInitially": 1,
+      "reportedCustomersOut": 1,
+      "reportedCustomersRestored": 0,
+      "sourceStatus": "Predicted",
+      "startedAt": "2026-11-10T17:59:44Z",
+      "verified": false,
+      "workStatus": null
+    },
+    {
+      "cause": null,
+      "crewAssigned": false,
+      "endedAt": null,
+      "estimatedRestoration": null,
       "id": "3fe68421f129b3d8821626d3bc8f608066a5adebf98d166cab1e2ff3198fba31",
       "island": null,
       "locations": [
@@ -3836,7 +3863,7 @@
       "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-10T17:56:13Z",
+  "generatedAt": "2026-11-10T18:01:15Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -3925,7 +3952,23 @@
       "coverage": "partial",
       "customersOut": null,
       "id": "stCroix",
-      "neighborhoods": []
+      "neighborhoods": [
+        {
+          "affectedCustomers": null,
+          "estimatedRestoration": null,
+          "id": "stCroix-judiths-fancy",
+          "island": "stCroix",
+          "locations": [
+            "112"
+          ],
+          "name": "Judith\u2019s Fancy",
+          "sourceEventIDs": [
+            "3cc14f8537589d13bfcd5043cb96c05436e6ae273e10b399ac8e05c761e7ee05"
+          ],
+          "sourceStatus": "Predicted",
+          "startedAt": "2026-11-10T17:59:44Z"
+        }
+      ]
     },
     {
       "coverage": "partial",
@@ -3947,26 +3990,22 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "5f94eb3f872c541356a3404ef8ab40e4cab04d3ca5578ef7bca88754c1507de4",
+  "snapshotID": "c974ca0eded0d067e41ebd6c33480a126ec78bcee59d9ccd4fe642b3da53c0bf",
   "source": {
-    "checkedAt": "2026-11-10T17:56:13Z",
+    "checkedAt": "2026-11-10T18:01:15Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-10T17:55:17Z",
+    "updatedAt": "2026-11-10T18:00:18Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "sourceSummary": {
     "customerCountDifference": 2,
-    "customersAffected": 4319,
-    "customersOut": 4319,
+    "customersAffected": 4320,
+    "customersOut": 4320,
     "customersRestored": 0,
     "customersServed": 54723,
-    "eventCustomersOut": 4317,
+    "eventCustomersOut": 4318,
     "hourlyCustomersOut": [
-      {
-        "at": "2026-11-08T17:00:00Z",
-        "customersOut": 11408
-      },
       {
         "at": "2026-11-08T18:00:00Z",
         "customersOut": 13483
@@ -4157,7 +4196,11 @@
       },
       {
         "at": "2026-11-10T17:00:00Z",
-        "customersOut": 5730
+        "customersOut": 5731
+      },
+      {
+        "at": "2026-11-10T18:00:00Z",
+        "customersOut": 4318
       }
     ],
     "locations": [
@@ -5838,6 +5881,7 @@
       "HULL BAY 5G-3",
       "HULL BAY 6G-2",
       "HULL EST 5H-3",
+      "JUDITHS FANCY 112",
       "KONGENS GADE 19B",
       "LERKENLUND 8-63 TOP",
       "LERKENLUND 9D-10",
@@ -7499,7 +7543,7 @@
       "WEST COND SAPP B-A",
       "WEST SAPPHIRE BAY CONDO"
     ],
-    "totalOutages": 20
+    "totalOutages": 21
   },
   "staleAfterSeconds": 900,
   "unassignedEventCount": 16
