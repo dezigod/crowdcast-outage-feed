@@ -1387,6 +1387,35 @@
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
+      "id": "7bffb13aa129b810da17b6f03b9d9cd63bd2154d872d8cec19adae4878c16dfb",
+      "island": null,
+      "locations": [
+        "COTTON VALLEY",
+        "COTTON VALLEY 5D",
+        "COTTON VALLEY 5U",
+        "COTTON VALLEY 5X",
+        "COTTON VALLEY 5Y"
+      ],
+      "modifiedAt": "2026-11-10T16:25:16Z",
+      "name": "T-C-01252",
+      "neighborhoodIDs": [],
+      "point": {
+        "latitude": 17.75891811691317,
+        "longitude": -64.62428951108483
+      },
+      "reportedCustomersInitially": 6,
+      "reportedCustomersOut": 6,
+      "reportedCustomersRestored": 0,
+      "sourceStatus": "Predicted",
+      "startedAt": "2026-11-10T16:24:45Z",
+      "verified": false,
+      "workStatus": null
+    },
+    {
+      "cause": null,
+      "crewAssigned": false,
+      "endedAt": null,
+      "estimatedRestoration": null,
       "id": "7c45b7d0ce94c1259b1e6abbd4e1dba49e871b9c6fb866925d0d67cbde19e8de",
       "island": null,
       "locations": [
@@ -5940,7 +5969,7 @@
       "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-10T16:20:33Z",
+  "generatedAt": "2026-11-10T16:25:35Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -6726,21 +6755,21 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "49ad62b412b604bf8899050ddc99a7d85a6b24ad8efb674c7482db97bc6dc294",
+  "snapshotID": "a256bf3c201522ea8af7ab682aeec180d5e35e18d84c28dea99795899cc0183c",
   "source": {
-    "checkedAt": "2026-11-10T16:20:33Z",
+    "checkedAt": "2026-11-10T16:25:35Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-10T16:20:18Z",
+    "updatedAt": "2026-11-10T16:25:19Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "sourceSummary": {
     "customerCountDifference": 2,
-    "customersAffected": 7177,
-    "customersOut": 7177,
+    "customersAffected": 7183,
+    "customersOut": 7183,
     "customersRestored": 0,
     "customersServed": 54723,
-    "eventCustomersOut": 7175,
+    "eventCustomersOut": 7181,
     "hourlyCustomersOut": [
       {
         "at": "2026-11-08T16:00:00Z",
@@ -6936,7 +6965,7 @@
       },
       {
         "at": "2026-11-10T16:00:00Z",
-        "customersOut": 7175
+        "customersOut": 7181
       }
     ],
     "locations": [
@@ -8307,6 +8336,11 @@
       "CONTANT UPSTAIRS MTR",
       "CONTANT2C",
       "CONTNAT 11-3M DOWN",
+      "COTTON VALLEY",
+      "COTTON VALLEY 5D",
+      "COTTON VALLEY 5U",
+      "COTTON VALLEY 5X",
+      "COTTON VALLEY 5Y",
       "CROWN BAY",
       "CROWN BAY 161-B DEV SUBB",
       "CROWN BAY CTR B-A, C, E,F",
@@ -12395,8 +12429,8 @@
       "ZUERIENDENHEIT",
       "ZUFRIDENHEIT 1"
     ],
-    "totalOutages": 19
+    "totalOutages": 20
   },
   "staleAfterSeconds": 900,
-  "unassignedEventCount": 15
+  "unassignedEventCount": 16
 }
