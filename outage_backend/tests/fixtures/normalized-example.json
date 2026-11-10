@@ -56,6 +56,46 @@
       "neighborhoods": []
     }
   ],
+  "sourceSummary": {
+    "totalOutages": 1,
+    "customersServed": null,
+    "customersOut": 5,
+    "customersAffected": null,
+    "customersRestored": null,
+    "eventCustomersOut": 5,
+    "customerCountDifference": 0,
+    "hourlyCustomersOut": [],
+    "locations": null
+  },
+  "events": [
+    {
+      "id": "7692c3ad3540bb803c020b3aee66cd8887123234ea0c6e7143c0add73ff431ed",
+      "name": null,
+      "island": "stThomas",
+      "neighborhoodIDs": [
+        "stThomas-agnes-fancy"
+      ],
+      "locations": [
+        "AGNES FANCY",
+        "AGNES FANCY 5-A",
+        "AGNES FANCY 5-A UP",
+        "AGNES FANCY 5B"
+      ],
+      "sourceStatus": "Predicted",
+      "verified": false,
+      "crewAssigned": null,
+      "cause": null,
+      "workStatus": null,
+      "point": null,
+      "startedAt": "2026-10-15T14:00:00Z",
+      "estimatedRestoration": null,
+      "endedAt": null,
+      "modifiedAt": "2026-10-15T15:59:00Z",
+      "reportedCustomersOut": 5,
+      "reportedCustomersInitially": null,
+      "reportedCustomersRestored": null
+    }
+  ],
   "unassignedEventCount": 0,
   "hasConflictingTotals": false,
   "qualityNotes": []

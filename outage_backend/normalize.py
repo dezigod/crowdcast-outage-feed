@@ -7,6 +7,7 @@ from datetime import datetime, timezone
 from hashlib import sha256
 from pathlib import Path
 import json
+import math
 import re
 
 SOURCE = "http://outageviewer.viwapa.vi:7575/"
@@ -73,6 +74,67 @@ def location(raw, table):
     return area, plot
 
 
+def optional_count(value):
+    """Missing optional map fields are unknown, never a fabricated zero."""
+    return value if type(value) is int and 0 <= value <= 10_000_000 else None
+
+
+def optional_text(value):
+    return value if isinstance(value, str) and value.strip() else None
+
+
+def source_point(value):
+    """WAPA's event marker is not a property, customer or parcel location."""
+    if not isinstance(value, dict):
+        return None
+    lat, lng = value.get("lat"), value.get("lng")
+    if (type(lat) not in (int, float) or type(lng) not in (int, float)
+            or not math.isfinite(lat) or not math.isfinite(lng)
+            or not -90 <= lat <= 90 or not -180 <= lng <= 180):
+        return None
+    return {"latitude": lat, "longitude": lng}
+
+
+def source_summary(summary, events, updated):
+    history = []
+    rows = summary.get("hourlyCustomersOut")
+    if isinstance(rows, list):
+        for row in rows:
+            if not isinstance(row, dict):
+                continue
+            at, customers = date(row.get("eventTime")), optional_count(row.get("customers"))
+            if at and at <= updated and customers is not None:
+                history.append({"at": stamp(at), "customersOut": customers})
+    locations = summary.get("streetsAffected")
+    locations = locations if isinstance(locations, list) and all(isinstance(s, str) for s in locations) else None
+    event_total = sum(count(e.get("customersOutNow")) for e in events)
+    return {"totalOutages": sum(e["customersOutNow"] > 0 for e in events),
+        "customersServed": optional_count(summary.get("customersServed")),
+        "customersOut": count(summary.get("customersOutNow")),
+        "customersAffected": optional_count(summary.get("customersAffected")),
+        "customersRestored": optional_count(summary.get("customersRestored")),
+        "eventCustomersOut": event_total,
+        "customerCountDifference": summary["customersOutNow"] - event_total,
+        "hourlyCustomersOut": history, "locations": locations}
+
+
+def source_event(event, *, island, area_ids, start, estimate, modified, ended, status):
+    """Allowlisted public map details, retained even without an estate mapping."""
+    return {"id": sha256(event["outageRecID"].encode()).hexdigest(),
+        "name": optional_text(event.get("outageName")), "island": island,
+        "neighborhoodIDs": sorted(area_ids), "locations": event["streetsAffected"],
+        "sourceStatus": status, "verified": event.get("verified") if type(event.get("verified")) is bool else None,
+        "crewAssigned": event.get("crewAssigned") if type(event.get("crewAssigned")) is bool else None,
+        "cause": optional_text(event.get("cause")), "workStatus": optional_text(event.get("outageWorkStatus")),
+        "point": source_point(event.get("outagePoint")),
+        "startedAt": stamp(start) if start else None,
+        "estimatedRestoration": stamp(estimate) if estimate else None,
+        "endedAt": stamp(ended) if ended else None, "modifiedAt": stamp(modified) if modified else None,
+        "reportedCustomersOut": count(event.get("customersOutNow")),
+        "reportedCustomersInitially": optional_count(event.get("customersOutInitially")),
+        "reportedCustomersRestored": optional_count(event.get("customersRestored"))}
+
+
 def normalize(summary, outages, *, checked_at, raw_sha256, refresh_seconds=300):
     if not isinstance(summary, dict) or not isinstance(outages, list):
         raise QualityError("Unexpected source schema")
@@ -96,6 +158,7 @@ def normalize(summary, outages, *, checked_at, raw_sha256, refresh_seconds=300):
     conflicting_totals = sum(count(e.get("customersOutNow")) for e in unique.values()) != total
     table = lookup_table()
     groups = {}
+    events = []
     totals = dict.fromkeys(ISLANDS, 0)
     unassigned = 0
     notes = set()
@@ -103,9 +166,8 @@ def normalize(summary, outages, *, checked_at, raw_sha256, refresh_seconds=300):
         notes.add("WAPA’s summary and event customer totals disagree. Customer totals are unconfirmed.")
     for event in unique.values():
         affected = count(event.get("customersOutNow"))
-        if affected == 0:
-            continue  # Restored records do not inflate active outage counts.
-        if date(event.get("outageEndTime")) is not None:
+        ended = date(event.get("outageEndTime"))
+        if affected and ended is not None:
             raise QualityError("Ended outage still has customers out")
         modified = date(event.get("outageModifiedTime"))
         if modified and modified > updated:
@@ -117,9 +179,9 @@ def normalize(summary, outages, *, checked_at, raw_sha256, refresh_seconds=300):
         known = [entry for entry in mapped if entry is not None]
         event_islands = {entry[0]["island"] for entry in known}
         complete_event = bool(mapped) and len(known) == len(mapped) and len(event_islands) == 1
-        if complete_event:
+        if complete_event and affected:
             totals[next(iter(event_islands))] += affected  # Count once per event, not once per lot.
-        else:
+        elif affected:
             unassigned += 1
             notes.add("Some source events need island review. Island totals and empty listings may be incomplete.")
         event_groups = {}
@@ -131,7 +193,13 @@ def normalize(summary, outages, *, checked_at, raw_sha256, refresh_seconds=300):
         estimate = date(event.get("estimatedTimeOfRestoral"))
         if estimate and start and estimate < start:
             estimate = None
-        status = "Verified" if event.get("verified") is True else "Predicted" if event.get("verified") is False else "Unconfirmed"
+        status = "Restored" if affected == 0 else "Verified" if event.get("verified") is True else "Predicted" if event.get("verified") is False else "Unconfirmed"
+        event_island = next(iter(event_islands)) if complete_event else None
+        events.append(source_event(event, island=event_island,
+            area_ids=[area["island"] + "-" + area_id for area_id, (area, _) in event_groups.items()],
+            start=start, estimate=estimate, modified=modified, ended=ended, status=status))
+        if affected == 0:
+            continue  # Keep restored event detail, without inflating active groups.
         for area_id, (area, plots) in event_groups.items():
             group = groups.setdefault(area_id, {"area": area, "plots": set(), "statuses": set(),
                 "starts": set(), "estimates": set(), "events": set(), "customers": 0, "count_complete": True})
@@ -167,4 +235,6 @@ def normalize(summary, outages, *, checked_at, raw_sha256, refresh_seconds=300):
                    "updatedAt": stamp(updated), "viewerRefreshSeconds": 300},
         "generatedAt": stamp(checked_at), "refreshAfterSeconds": refresh_seconds,
         "staleAfterSeconds": 900, "islands": islands,
+        "sourceSummary": source_summary(summary, list(unique.values()), updated),
+        "events": sorted(events, key=lambda event: event["id"]),
         "unassignedEventCount": unassigned, "hasConflictingTotals": conflicting_totals, "qualityNotes": sorted(notes)}

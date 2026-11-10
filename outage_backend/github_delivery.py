@@ -13,11 +13,13 @@ import urllib.request
 
 from .collect import collect, fetch, permission, PermissionRequired
 from .normalize import date, SOURCE
+from .map_details import DETAIL_KEYS, validate_map_details
 from .store import Store
 from .rotation import ROTATION, check_rotation, public_rotation
 
 HEALTH = "collection-status.json"
 FEED = "outages.json"
+MAX_PUBLIC_BYTES = 2_000_000
 FEED_KEYS = {"schemaVersion", "snapshotID", "collectionStatus", "lastCollectionError", "source",
              "generatedAt", "refreshAfterSeconds", "staleAfterSeconds", "islands",
              "unassignedEventCount", "hasConflictingTotals", "qualityNotes"}
@@ -35,7 +37,7 @@ def public_health(value):
 
 def public_feed(value):
     """Explicit field allowlists prevent accidental publication of private source fields."""
-    if not isinstance(value, dict) or set(value) != FEED_KEYS or value.get("schemaVersion") != 1:
+    if not isinstance(value, dict) or set(value) not in (FEED_KEYS, FEED_KEYS | DETAIL_KEYS) or value.get("schemaVersion") != 1:
         raise ValueError("Invalid public feed envelope")
     source = value.get("source")
     if not isinstance(source, dict) or set(source) != {"name", "url", "checkedAt", "updatedAt", "viewerRefreshSeconds"}:
@@ -62,6 +64,8 @@ def public_feed(value):
                 raise ValueError("Island mismatch")
     if ids != {"stThomas", "stCroix", "stJohn", "waterIsland"}:
         raise ValueError("Invalid island separation")
+    if DETAIL_KEYS.issubset(value):
+        validate_map_details(value)
     return value
 
 
@@ -136,7 +140,8 @@ class GitHubDataBranch:
     def request(self, path, *, payload=None, method="GET"):
         request = urllib.request.Request(self.root + path, method=method,
             data=json.dumps(payload).encode() if payload is not None else None,
-            headers={"Authorization": "Bearer " + self.token, "Accept": "application/vnd.github+json",
+            headers={"Authorization": "Bearer " + self.token,
+                     "Accept": "application/vnd.github.object+json" if path.startswith("/contents/") else "application/vnd.github+json",
                      "X-GitHub-Api-Version": "2022-11-28", "User-Agent": "CrowdCast-outage-feed"})
         for attempt in range(2):
             try:
@@ -173,9 +178,24 @@ class GitHubDataBranch:
                     error.close()
                     continue
                 raise
-            if value.get("encoding") != "base64" or value.get("size", 4_000_001) > 2_000_000:
-                raise ValueError("Invalid stored feed")
-            result[name] = json.loads(base64.b64decode(value["content"], validate=False))
+            size = value.get("size")
+            if type(size) is not int or not 0 <= size <= MAX_PUBLIC_BYTES:
+                raise ValueError("Invalid stored feed size")
+            if value.get("encoding") == "none":
+                # GitHub Contents omits bytes above 1 MB. Read the exact blob
+                # identified at this pinned commit; never follow download URLs.
+                blob_sha = value.get("sha")
+                if not isinstance(blob_sha, str) or not re.fullmatch(r"[0-9a-f]{40}", blob_sha):
+                    raise ValueError("Invalid stored feed blob")
+                value = self.request("/git/blobs/" + blob_sha)
+                if value.get("size") != size:
+                    raise ValueError("Stored feed blob size mismatch")
+            if value.get("encoding") != "base64":
+                raise ValueError("Invalid stored feed encoding")
+            body = base64.b64decode(value["content"], validate=False)
+            if len(body) != size:
+                raise ValueError("Stored feed size mismatch")
+            result[name] = json.loads(body)
         self.previous = result
         return result
 
@@ -186,10 +206,13 @@ class GitHubDataBranch:
             {FEED: public_feed, HEALTH: public_health, ROTATION: public_rotation}[name](value)
         if all(self.previous.get(name) == value for name, value in files.items()):
             return
+        serialized = {name: json.dumps(value, sort_keys=True, indent=2) + "\n"
+                      for name, value in files.items()}
+        if any(len(body.encode("utf-8")) > MAX_PUBLIC_BYTES for body in serialized.values()):
+            raise ValueError("Public feed exceeds the reload size limit")
         tree = self.request("/git/trees", method="POST", payload={"base_tree": self.tree,
-            "tree": [{"path": name, "mode": "100644", "type": "blob",
-                      "content": json.dumps(value, sort_keys=True, indent=2) + "\n"}
-                     for name, value in sorted(files.items())]})
+            "tree": [{"path": name, "mode": "100644", "type": "blob", "content": content}
+                     for name, content in sorted(serialized.items())]})
         commit = self.request("/git/commits", method="POST", payload={
             "message": "Update reviewed outage feed and collection status",
             "tree": tree["sha"], "parents": [self.tip]})
@@ -198,6 +221,28 @@ class GitHubDataBranch:
                      payload={"sha": commit["sha"], "force": False})
         self.tip, self.tree = commit["sha"], tree["sha"]
         self.previous.update(files)
+
+
+def load_scheduled_state(remote, *, include_rotation=False, clock=None, sleep=None):
+    """Absorb small runner-start jitter without relaxing the persisted throttle.
+
+    Only the workflow entry point waits. Direct run_once callers stay immediate,
+    and a backoff more than one minute away is left for a later invocation.
+    """
+    clock = clock or (lambda: datetime.now(timezone.utc))
+    sleep = sleep or time.sleep
+    previous = remote.load(include_rotation=include_rotation)
+    if HEALTH in previous:
+        health = public_health(previous[HEALTH])
+        if health["status"] != "blocked":
+            delay = (date(health["nextAttemptAt"]) - clock()).total_seconds()
+            if 0 < delay <= 60:
+                sleep(delay)
+                # Another run may have reserved an attempt or become blocked.
+                # Refresh both the state and branch tip before run_once checks
+                # permission and the due time again; never loop or force a run.
+                previous = remote.load(include_rotation=include_rotation)
+    return previous
 
 
 def main():
@@ -210,7 +255,7 @@ def main():
         permission(approved, datetime.now(timezone.utc))
         remote = GitHubDataBranch(os.environ.get("GITHUB_REPOSITORY", ""), os.environ.get("GH_TOKEN", ""))
         rotation_enabled = os.environ.get("ROTATION_CHECK_ENABLED") == "true"
-        previous = remote.load(include_rotation=rotation_enabled)
+        previous = load_scheduled_state(remote, include_rotation=rotation_enabled)
         outcome = run_once(previous, approved, remote.publish)
         if rotation_enabled:
             rotation_status = check_rotation(previous.get(ROTATION), remote.publish)

@@ -46,8 +46,9 @@ HTTP records. CrowdCast is not WAPA's official outage service.
 Reviewed estate mappings keep islands separate; unknown estates stay unassigned.
 Lots are grouped under neighborhoods without equating lot counts to homes,
 meters or affected customers. WAPA's customer field retains its source meaning.
-Conflicting summary/event totals withhold customer totals and mark coverage
-partial. Missing, failed, old or partial empty listings cannot establish all-clear.
+Conflicting summary/event totals withhold derived island/neighborhood totals and
+mark their coverage partial. The map-detail extension retains WAPA-reported
+summary and individual event counts separately and flags their difference. Missing, failed, old or partial empty listings cannot establish all-clear.
 Verified/Predicted describes WAPA's record status, not crew assignment.
 
 Source access refusals and unapproved redirects stop collection pending manual
@@ -186,3 +187,53 @@ The existing delivered-feed monitor separately checks `rotation-schedule.json` a
 ### Rotation notification deduplication
 
 Rotation checks still open a new issue and fail the Actions run for a new incident or newly added problem. An unchanged already-open rotation incident now emits an explicit warning and an **UNHEALTHY** job summary instead of failing every monitor run again. The issue stays open until verified recovery, when the existing recovery comment/close path runs. A green monitor run means the check/incident tracking succeeded, not that expired rotation coverage recovered. This opt-in applies only to rotation checks: outage and cruise failure exits, GitHub/API errors, collection schedules and user notification settings are unchanged. No new notification subscription was added.
+
+
+## Complete WAPA map details (November 10, 2026)
+
+The same `outages.json` now includes additive `sourceSummary` and `events` fields.
+The existing schemaVersion 1 island/neighborhood fields stay compatible. Clients
+that ignore unknown fields continue to work; a client update is needed to show
+the new fields. Do not build the full outage list solely from `islands`, because
+reviewed estate coverage is incomplete and grouping can combine distinct events.
+
+- `sourceSummary`: `totalOutages` (events with customers currently out),
+  `customersServed`, `customersOut`, `customersAffected`, `customersRestored`,
+  the territory-wide exact `locations` list, and `hourlyCustomersOut` points
+  (`at`, `customersOut`) for the source's history chart.
+- `sourceSummary.eventCustomersOut` is the sum of the deduplicated event rows.
+  `customerCountDifference` is summary minus event total. Display the reported
+  summary with an explicit discrepancy warning if `hasConflictingTotals` is true;
+  do not claim it reconciles with event, neighborhood or island totals.
+- `events` retains every deduplicated source event, including events that cannot
+  be assigned an island or neighborhood. Each has a stable hashed `id`, `name`,
+  exact `locations`, `sourceStatus`, `verified`, `crewAssigned`, `cause`,
+  `workStatus`, `startedAt`, `estimatedRestoration`, `endedAt`, `modifiedAt`, and
+  `reportedCustomersOut` / `reportedCustomersInitially` / `reportedCustomersRestored`.
+  `id` joins existing neighborhood `sourceEventIDs`. Zero-customer records are
+  marked Restored and excluded from active outage totals and neighborhood groups.
+- `point` is WAPA's event marker (`latitude`, `longitude`), not a precise customer
+  or parcel location. `island` remains null when the reviewed location mapping is
+  incomplete. `neighborhoodIDs` includes only reviewed matches. Equipment names
+  are not inferred feeder labels; `name` preserves the official label.
+- Missing or invalid optional values stay null. End times and restoration
+  estimates are not inferred from schedules, download time or elapsed time.
+  Verified/Predicted is the source record's status, not a claim about crews.
+- `source.updatedAt` remains WAPA's publication time. `checkedAt` is the check
+  time, never a substitute for it. The source's chart timestamps remain zoned.
+
+All screenshot fields come from the same three already-reviewed routes. No new
+source endpoints, raw archive, credential, paid service or permission expansion
+is required. Unknown source properties are not automatically published; strict
+nested allowlists cover the new detail fields. Polygon geometry is not collected
+by this extension.
+
+The workflow now waits once, for at most 60 seconds, if a runner starts just
+before the saved next-check time. It reloads remote state before attempting the
+check. This avoids skipping an entire five-minute cycle because of a few seconds
+of runner-start jitter without shortening the saved throttle, backoff, or access
+restrictions. GitHub delays, dropped jobs and delivery caching still apply.
+
+Stored detailed feeds over GitHub Contents API's 1 MB inline-content threshold
+reload through the exact pinned Git blob. Publication and reload share a 2 MB
+JSON size limit; an oversized result cannot be published and strand later runs.

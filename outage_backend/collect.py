@@ -66,6 +66,13 @@ def retry_after(value, now):
             return now + timedelta(minutes=15)
 
 
+def deadline_stamp(value):
+    """Persist a whole-second deadline without shortening the required wait."""
+    if value.microsecond:
+        value = value.replace(microsecond=0) + timedelta(seconds=1)
+    return stamp(value)
+
+
 def collect(store, approved, *, now=None, loader=fetch):
     now = now or datetime.now(timezone.utc)
     interval = permission(approved, now)  # Must execute before any network access.
@@ -86,7 +93,7 @@ def _collect_locked(store, approved, *, now, loader, interval):
     if next_attempt and now < next_attempt:
         return False
     # Persist throttle before the first request, including failed attempts.
-    attempt = dict(status="failed", error="Source update incomplete", nextAttemptAt=stamp(now + timedelta(seconds=interval)))
+    attempt = dict(status="failed", error="Source update incomplete", nextAttemptAt=deadline_stamp(now + timedelta(seconds=interval)))
     store.reserve(attempt)
     try:
         settings, summary, outages = [loader(url) for url in URLS]
@@ -94,7 +101,7 @@ def _collect_locked(store, approved, *, now, loader, interval):
         if type(viewer_minutes) is not int or viewer_minutes < 1:
             raise QualityError("Invalid viewer refresh setting")
         interval = max(interval, viewer_minutes * 60)
-        attempt["nextAttemptAt"] = stamp(now + timedelta(seconds=interval))
+        attempt["nextAttemptAt"] = deadline_stamp(now + timedelta(seconds=interval))
         raw = {"settings": settings, "summary": summary, "outages": outages}
         fingerprint = hashlib.sha256(json.dumps(raw, sort_keys=True).encode()).hexdigest()
         # Retain failed as well as accepted input for private investigation.
@@ -111,7 +118,7 @@ def _collect_locked(store, approved, *, now, loader, interval):
         if error.code in (401, 403):
             attempt.update(status="blocked", error="Source access needs review")
         elif error.code == 429:
-            attempt.update(error="Source rate limit", nextAttemptAt=stamp(max(now + timedelta(seconds=interval), retry_after(error.headers.get("Retry-After"), now))))
+            attempt.update(error="Source rate limit", nextAttemptAt=deadline_stamp(max(now + timedelta(seconds=interval), retry_after(error.headers.get("Retry-After"), now))))
         else:
             attempt.update(error="Source download failed")
         error.close()
