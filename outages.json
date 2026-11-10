@@ -2367,6 +2367,48 @@
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
+      "id": "aba928db029f416c194e5adfc820ae83f01847d04d29df732d564ec5608c3731",
+      "island": null,
+      "locations": [
+        "EST THOMAS #10 10TH",
+        "EST THOMAS 10 ST 16",
+        "EST THOMAS 10TH ST LOT 14",
+        "EST THOMAS 12 10TH ST",
+        "EST THOMAS 16 10TH",
+        "EST THOMAS 16 10TH ST",
+        "EST THOMAS 18 10TH ST",
+        "EST THOMAS 18 10TH STREET",
+        "EST THOMAS 2 10TH STREET",
+        "EST THOMAS 6 10TH ST",
+        "EST THOMAS 6-A 10ST",
+        "EST THOMAS 6A 10TH",
+        "EST THOMAS 6A 10TH ST",
+        "EST THOMAS 6A 10TH ST BAS",
+        "EST THOMAS 6A-10TH",
+        "EST THOMAS 6A-10TH STREET",
+        "ESTATE THOMAS 6 10TH ST",
+        "ESTATE THOMAS 6A 10TH ST"
+      ],
+      "modifiedAt": "2026-11-10T20:17:44Z",
+      "name": "T-T-16523",
+      "neighborhoodIDs": [],
+      "point": {
+        "latitude": 18.3387590604904,
+        "longitude": -64.91611120081137
+      },
+      "reportedCustomersInitially": 22,
+      "reportedCustomersOut": 22,
+      "reportedCustomersRestored": 0,
+      "sourceStatus": "Predicted",
+      "startedAt": "2026-11-10T20:17:08Z",
+      "verified": false,
+      "workStatus": null
+    },
+    {
+      "cause": null,
+      "crewAssigned": false,
+      "endedAt": null,
+      "estimatedRestoration": null,
       "id": "abf26f676e3386cbda128ee76b70311e98ad089ca3f13a0b4a0de678e337c956",
       "island": null,
       "locations": [
@@ -7710,7 +7752,7 @@
       "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-10T20:11:30Z",
+  "generatedAt": "2026-11-10T20:20:30Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -8218,21 +8260,21 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "b4fe71ac7b605540656ea5e2e775697e5cee089e528137983ab2b0856175d9fd",
+  "snapshotID": "1dc8854cbe2b9bfb35544a8e2d68c9ff5692e6a89664c93df2375e7e2c8f8c1c",
   "source": {
-    "checkedAt": "2026-11-10T20:11:30Z",
+    "checkedAt": "2026-11-10T20:20:30Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-10T20:10:20Z",
+    "updatedAt": "2026-11-10T20:20:19Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "sourceSummary": {
     "customerCountDifference": 2,
-    "customersAffected": 9679,
-    "customersOut": 9679,
+    "customersAffected": 9701,
+    "customersOut": 9701,
     "customersRestored": 0,
     "customersServed": 54723,
-    "eventCustomersOut": 9677,
+    "eventCustomersOut": 9699,
     "hourlyCustomersOut": [
       {
         "at": "2026-11-08T20:00:00Z",
@@ -8428,7 +8470,7 @@
       },
       {
         "at": "2026-11-10T20:00:00Z",
-        "customersOut": 9677
+        "customersOut": 9699
       }
     ],
     "locations": [
@@ -11438,7 +11480,11 @@
       "EST TABOR & HARMONY 4-A",
       "EST TABOR & HARMONY 5-8",
       "EST THOMAS",
+      "EST THOMAS #10 10TH",
       "EST THOMAS #14 PS 2ND FL",
+      "EST THOMAS 10 ST 16",
+      "EST THOMAS 10TH ST LOT 14",
+      "EST THOMAS 12 10TH ST",
       "EST THOMAS 14",
       "EST THOMAS 14 HA-2",
       "EST THOMAS 14 NEW QTR",
@@ -11581,6 +11627,11 @@
       "EST THOMAS 14PU A-1",
       "EST THOMAS 14PU APT-4",
       "EST THOMAS 14PZ",
+      "EST THOMAS 16 10TH",
+      "EST THOMAS 16 10TH ST",
+      "EST THOMAS 18 10TH ST",
+      "EST THOMAS 18 10TH STREET",
+      "EST THOMAS 2 10TH STREET",
       "EST THOMAS 5A & 5B",
       "EST THOMAS 5A & 5B A-200",
       "EST THOMAS 5A & 5B PUMP",
@@ -11606,6 +11657,13 @@
       "EST THOMAS 5K A-3",
       "EST THOMAS 5L 3",
       "EST THOMAS 5-M",
+      "EST THOMAS 6 10TH ST",
+      "EST THOMAS 6-A 10ST",
+      "EST THOMAS 6A 10TH",
+      "EST THOMAS 6A 10TH ST",
+      "EST THOMAS 6A 10TH ST BAS",
+      "EST THOMAS 6A-10TH",
+      "EST THOMAS 6A-10TH STREET",
       "EST THOMAS 6E",
       "EST THOMAS 6E 14-93 A1",
       "EST THOMAS 6E 14-93 BLD 1",
@@ -11946,6 +12004,8 @@
       "ESTATE THOMAS 5J APT-3",
       "ESTATE THOMAS 5L",
       "ESTATE THOMAS 5L APT-4",
+      "ESTATE THOMAS 6 10TH ST",
+      "ESTATE THOMAS 6A 10TH ST",
       "ESTATE THOMAS 7A&7B",
       "ESTATE THOMAS 7A&7B APT 5",
       "ESTATE THOMAS 7M UP",
@@ -15710,8 +15770,8 @@
       "ZUERIENDENHEIT",
       "ZUFRIDENHEIT 1"
     ],
-    "totalOutages": 17
+    "totalOutages": 18
   },
   "staleAfterSeconds": 900,
-  "unassignedEventCount": 14
+  "unassignedEventCount": 15
 }
