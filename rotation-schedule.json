@@ -2,96 +2,18 @@
   "nextAttemptAt": "2026-11-10T16:40:47Z",
   "schedule": {
     "checkedAt": "2026-11-10T16:35:47Z",
-    "coverageEnd": "2026-11-09T22:30:00-04:00",
-    "coverageStart": "2026-11-09T08:30:00-04:00",
-    "extractionStatus": "reviewed",
+    "coverageEnd": null,
+    "coverageStart": null,
+    "day": "2026-11-10",
+    "dayStatus": "not_current",
+    "extractionMethod": "manual-review",
+    "extractionStatus": "unavailable",
     "fingerprint": "10172c3012aa7d0c8f7951b811eca027380e8dc076905c8410401e505f86aa9e",
     "lastModified": "Mon, 09 Nov 2026 15:27:19 GMT",
     "revisionSeenAt": "2026-11-09T15:30:28Z",
+    "timeZone": "America/St_Thomas",
     "url": "https://www.viwapa.vi/docs/default-source/outage-schedule/sttstj-rotational-outage-schedule-doc.pdf?sfvrsn=2c938249_404",
-    "windows": [
-      {
-        "areas": [
-          "Altona to Drake's Seat",
-          "Cruz Bay to Zootenvaal"
-        ],
-        "endsAt": "2026-11-09T10:30:00-04:00",
-        "feeders": [
-          "Feeder 7A",
-          "Feeder 7E"
-        ],
-        "id": "2026-11-09-0830",
-        "startsAt": "2026-11-09T08:30:00-04:00"
-      },
-      {
-        "areas": [
-          "Paul M. Pearson Garden to Bolongo"
-        ],
-        "endsAt": "2026-11-09T12:30:00-04:00",
-        "feeders": [
-          "Feeder 10B"
-        ],
-        "id": "2026-11-09-1030",
-        "startsAt": "2026-11-09T10:30:00-04:00"
-      },
-      {
-        "areas": [
-          "Cassi Hill to Red Hook",
-          "Nadir to Bovoni"
-        ],
-        "endsAt": "2026-11-09T14:30:00-04:00",
-        "feeders": [
-          "Feeder 7C",
-          "Feeder 9C"
-        ],
-        "id": "2026-11-09-1230",
-        "startsAt": "2026-11-09T12:30:00-04:00"
-      },
-      {
-        "areas": [],
-        "endsAt": "2026-11-09T16:30:00-04:00",
-        "feeders": [
-          "Feeder 6A"
-        ],
-        "id": "2026-11-09-1430",
-        "startsAt": "2026-11-09T14:30:00-04:00"
-      },
-      {
-        "areas": [
-          "Estate Thomas to Tabor and Harmony"
-        ],
-        "endsAt": "2026-11-09T18:30:00-04:00",
-        "feeders": [
-          "Feeder 7B"
-        ],
-        "id": "2026-11-09-1630",
-        "startsAt": "2026-11-09T16:30:00-04:00"
-      },
-      {
-        "areas": [
-          "Brookman Road to Red Hook/Nazareth"
-        ],
-        "endsAt": "2026-11-09T20:30:00-04:00",
-        "feeders": [
-          "Feeder 9C"
-        ],
-        "id": "2026-11-09-1830",
-        "startsAt": "2026-11-09T18:30:00-04:00"
-      },
-      {
-        "areas": [
-          "Taarneberg to Peterborg",
-          "Cruz Bay to Zootenvaal"
-        ],
-        "endsAt": "2026-11-09T22:30:00-04:00",
-        "feeders": [
-          "Feeder 8B",
-          "Feeder 7E"
-        ],
-        "id": "2026-11-09-2030",
-        "startsAt": "2026-11-09T20:30:00-04:00"
-      }
-    ]
+    "windows": []
   },
   "schemaVersion": 1,
   "status": "ok",
