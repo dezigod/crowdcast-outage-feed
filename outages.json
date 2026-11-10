@@ -6,31 +6,6 @@
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
-      "id": "02d8adfc6e6301a08c779e4fb2d59d33d5445f80dbbb4d1d234349faefa7bd77",
-      "island": null,
-      "locations": [
-        "BETHLEHEM 10-A"
-      ],
-      "modifiedAt": "2026-11-10T16:15:22Z",
-      "name": "193832",
-      "neighborhoodIDs": [],
-      "point": {
-        "latitude": 17.731350582582454,
-        "longitude": -64.79419841344715
-      },
-      "reportedCustomersInitially": 1,
-      "reportedCustomersOut": 1,
-      "reportedCustomersRestored": 0,
-      "sourceStatus": "Predicted",
-      "startedAt": "2026-11-10T16:00:53Z",
-      "verified": false,
-      "workStatus": null
-    },
-    {
-      "cause": null,
-      "crewAssigned": false,
-      "endedAt": null,
-      "estimatedRestoration": null,
       "id": "07f73fcfc7b42a91b6f73bdb980eb2df4ed0613df6cb69cc6bfbb5328f00e65c",
       "island": null,
       "locations": [
@@ -1474,33 +1449,6 @@
       "sourceStatus": "Verified",
       "startedAt": "2026-10-26T03:47:51Z",
       "verified": true,
-      "workStatus": null
-    },
-    {
-      "cause": null,
-      "crewAssigned": false,
-      "endedAt": null,
-      "estimatedRestoration": null,
-      "id": "3cc14f8537589d13bfcd5043cb96c05436e6ae273e10b399ac8e05c761e7ee05",
-      "island": "stCroix",
-      "locations": [
-        "JUDITHS FANCY 112"
-      ],
-      "modifiedAt": "2026-11-10T18:00:16Z",
-      "name": "T-C-24467",
-      "neighborhoodIDs": [
-        "stCroix-judiths-fancy"
-      ],
-      "point": {
-        "latitude": 17.780636760921116,
-        "longitude": -64.74757060474538
-      },
-      "reportedCustomersInitially": 1,
-      "reportedCustomersOut": 1,
-      "reportedCustomersRestored": 0,
-      "sourceStatus": "Predicted",
-      "startedAt": "2026-11-10T17:59:44Z",
-      "verified": false,
       "workStatus": null
     },
     {
@@ -3653,7 +3601,7 @@
       "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-10T18:26:24Z",
+  "generatedAt": "2026-11-10T18:31:26Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -3751,23 +3699,7 @@
       "coverage": "partial",
       "customersOut": null,
       "id": "stCroix",
-      "neighborhoods": [
-        {
-          "affectedCustomers": null,
-          "estimatedRestoration": null,
-          "id": "stCroix-judiths-fancy",
-          "island": "stCroix",
-          "locations": [
-            "112"
-          ],
-          "name": "Judith\u2019s Fancy",
-          "sourceEventIDs": [
-            "3cc14f8537589d13bfcd5043cb96c05436e6ae273e10b399ac8e05c761e7ee05"
-          ],
-          "sourceStatus": "Predicted",
-          "startedAt": "2026-11-10T17:59:44Z"
-        }
-      ]
+      "neighborhoods": []
     },
     {
       "coverage": "partial",
@@ -3789,21 +3721,21 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "2a277ce950974b14ba6324db43467a912213a0c83b59bfbd2f2561f02e340ba1",
+  "snapshotID": "a75815a1fa5554c4c1c8f4895d1aff8f701574ab43d975c51c25de37721b6524",
   "source": {
-    "checkedAt": "2026-11-10T18:26:24Z",
+    "checkedAt": "2026-11-10T18:31:26Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-10T18:25:17Z",
+    "updatedAt": "2026-11-10T18:30:18Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "sourceSummary": {
     "customerCountDifference": 2,
-    "customersAffected": 4156,
-    "customersOut": 4156,
+    "customersAffected": 4154,
+    "customersOut": 4154,
     "customersRestored": 0,
     "customersServed": 54723,
-    "eventCustomersOut": 4154,
+    "eventCustomersOut": 4152,
     "hourlyCustomersOut": [
       {
         "at": "2026-11-08T18:00:00Z",
@@ -3995,11 +3927,11 @@
       },
       {
         "at": "2026-11-10T17:00:00Z",
-        "customersOut": 6685
+        "customersOut": 6684
       },
       {
         "at": "2026-11-10T18:00:00Z",
-        "customersOut": 5278
+        "customersOut": 5276
       }
     ],
     "locations": [
@@ -4245,7 +4177,6 @@
       "BAY HIGH",
       "BENNER HILL NAZ RD/TRAFFI",
       "BENNER HILL/COMMUNICATION",
-      "BETHLEHEM 10-A",
       "CABRITA 6L-22",
       "CABRITA CONDO NAZARETH",
       "CABRITA CONDO-NAZARETH",
@@ -5549,7 +5480,6 @@
       "GRANGE HILL",
       "GRANGE HILL 9",
       "GREAT BAY",
-      "JUDITHS FANCY 112",
       "KONGENS GADE 19B",
       "LERKENLUND 9D-1-2",
       "LITTLE ST. JAMES ISLAND",
@@ -7206,8 +7136,8 @@
       "WEST COND SAPP B-A",
       "WEST SAPPHIRE BAY CONDO"
     ],
-    "totalOutages": 18
+    "totalOutages": 16
   },
   "staleAfterSeconds": 900,
-  "unassignedEventCount": 13
+  "unassignedEventCount": 12
 }
