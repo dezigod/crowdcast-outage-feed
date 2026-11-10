@@ -1506,6 +1506,34 @@
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
+      "id": "444c860150dd0b8a62e109bca3602c9fc4f60a9ef42af4467c619b00b71e2db2",
+      "island": "stThomas",
+      "locations": [
+        "ST PETER 14-6",
+        "ST PETER 18A"
+      ],
+      "modifiedAt": "2026-11-10T17:32:19Z",
+      "name": "T-T-06053",
+      "neighborhoodIDs": [
+        "stThomas-st-peter"
+      ],
+      "point": {
+        "latitude": 18.368025283136575,
+        "longitude": -64.94399401394799
+      },
+      "reportedCustomersInitially": 3,
+      "reportedCustomersOut": 3,
+      "reportedCustomersRestored": 0,
+      "sourceStatus": "Predicted",
+      "startedAt": "2026-11-10T17:32:04Z",
+      "verified": false,
+      "workStatus": null
+    },
+    {
+      "cause": null,
+      "crewAssigned": false,
+      "endedAt": null,
+      "estimatedRestoration": null,
       "id": "688d24f7b6e72cb60f9dd7cfcfc315b9ee0efe7095b9fbf192b7ed84c8031d54",
       "island": "stThomas",
       "locations": [
@@ -3680,7 +3708,7 @@
       "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-10T17:31:03Z",
+  "generatedAt": "2026-11-10T17:36:05Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -3711,6 +3739,8 @@
           "id": "stThomas-st-peter",
           "island": "stThomas",
           "locations": [
+            "14-6",
+            "18A",
             "20-1",
             "22A",
             "31-18 HSE METER",
@@ -3722,6 +3752,7 @@
           ],
           "name": "Estate St. Peter",
           "sourceEventIDs": [
+            "444c860150dd0b8a62e109bca3602c9fc4f60a9ef42af4467c619b00b71e2db2",
             "700cd2ff704c5615cc2598e5d822d04dc725c7681092a2e854c3d22d283fd84d",
             "79827be010726ddcff320c95704e314ac3c159496b6b6b142e0f343e309add99"
           ],
@@ -3788,21 +3819,21 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "f9abdc67641037c37f901ebcc1b85f42196c0f1dcd98f308e81129ccbd88cc60",
+  "snapshotID": "60ab32ac775ff556ace04b8d76a48e856c56dd4e1a05611d7cd4a6f333d01cc9",
   "source": {
-    "checkedAt": "2026-11-10T17:31:03Z",
+    "checkedAt": "2026-11-10T17:36:05Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-10T17:30:17Z",
+    "updatedAt": "2026-11-10T17:35:17Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "sourceSummary": {
     "customerCountDifference": 2,
-    "customersAffected": 4165,
-    "customersOut": 4165,
+    "customersAffected": 4168,
+    "customersOut": 4168,
     "customersRestored": 0,
     "customersServed": 54723,
-    "eventCustomersOut": 4163,
+    "eventCustomersOut": 4166,
     "hourlyCustomersOut": [
       {
         "at": "2026-11-08T17:00:00Z",
@@ -3998,7 +4029,7 @@
       },
       {
         "at": "2026-11-10T17:00:00Z",
-        "customersOut": 5576
+        "customersOut": 5579
       }
     ],
     "locations": [
@@ -7163,6 +7194,8 @@
       "ST MAARTEN 203E SAPP",
       "ST MAARTEN SAPPHIR 204A",
       "ST MAARTEN SAPPHIRE 304-E",
+      "ST PETER 14-6",
+      "ST PETER 18A",
       "ST PETER 20-1",
       "ST PETER 22A",
       "ST PETER 31-18 HSE METER",
@@ -7210,7 +7243,7 @@
       "WEST COND SAPP B-A",
       "WEST SAPPHIRE BAY CONDO"
     ],
-    "totalOutages": 19
+    "totalOutages": 20
   },
   "staleAfterSeconds": 900,
   "unassignedEventCount": 16
