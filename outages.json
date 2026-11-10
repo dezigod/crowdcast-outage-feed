@@ -1,6 +1,6 @@
 {
   "collectionStatus": "ok",
-  "generatedAt": "2026-11-10T15:35:30Z",
+  "generatedAt": "2026-11-10T15:44:42Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -752,104 +752,17 @@
         {
           "affectedCustomers": null,
           "estimatedRestoration": null,
-          "id": "stCroix-coble",
+          "id": "stCroix-judiths-fancy",
           "island": "stCroix",
           "locations": [
-            "11",
-            "15",
-            "161",
-            "20 APT-B",
-            "23",
-            "26",
-            "290",
-            "338",
-            "5",
-            "6",
-            "8",
-            "VILLAGE(VICORP 152)"
+            "112"
           ],
-          "name": "Coble / Coble Village",
+          "name": "Judith\u2019s Fancy",
           "sourceEventIDs": [
-            "55bf5a18b3bbdf0a272384bb4e0c3cbce176aa750c5133c8664e1f3f400378b3"
+            "a735da493a71d268c26984a2156198f8eba0e13d37ca06f09f3dc85c3440f9e8"
           ],
-          "sourceStatus": "Verified",
-          "startedAt": "2026-11-10T15:24:42Z"
-        },
-        {
-          "affectedCustomers": null,
-          "estimatedRestoration": null,
-          "id": "stCroix-jealousy",
-          "island": "stCroix",
-          "locations": [
-            "153",
-            "16",
-            "169 (COBLE 29)",
-            "17",
-            "17-10",
-            "17-10 (DWNST)",
-            "17-16",
-            "17-21",
-            "17-28",
-            "170 (COBLE)",
-            "173",
-            "298",
-            "300",
-            "303",
-            "304",
-            "305(WELL)",
-            "306",
-            "307",
-            "312",
-            "313",
-            "319",
-            "321",
-            "323",
-            "326",
-            "332",
-            "333",
-            "336(VI CORPLAND)",
-            "337",
-            "338",
-            "RIDGE 17-13",
-            "RIDGE 17-2",
-            "RIDGE 17-4",
-            "RIDGE 17-6",
-            "RIDGE 17-7",
-            "RIDGE 17-8",
-            "RIDGE 322",
-            "VI CORP 17-26"
-          ],
-          "name": "Estate Jealousy",
-          "sourceEventIDs": [
-            "55bf5a18b3bbdf0a272384bb4e0c3cbce176aa750c5133c8664e1f3f400378b3"
-          ],
-          "sourceStatus": "Verified",
-          "startedAt": "2026-11-10T15:24:42Z"
-        },
-        {
-          "affectedCustomers": null,
-          "estimatedRestoration": null,
-          "id": "stCroix-la-grange",
-          "island": "stCroix",
-          "locations": [
-            "2",
-            "45-B B",
-            "46-C",
-            "46-E",
-            "46-F",
-            "47 B",
-            "47-A",
-            "47-H",
-            "48A",
-            "49",
-            "49 (UPSTAIRS)"
-          ],
-          "name": "La Grange",
-          "sourceEventIDs": [
-            "55bf5a18b3bbdf0a272384bb4e0c3cbce176aa750c5133c8664e1f3f400378b3"
-          ],
-          "sourceStatus": "Verified",
-          "startedAt": "2026-11-10T15:24:42Z"
+          "sourceStatus": "Predicted",
+          "startedAt": "2026-11-10T15:39:07Z"
         },
         {
           "affectedCustomers": null,
@@ -1091,24 +1004,6 @@
           ],
           "sourceStatus": "Verified",
           "startedAt": "2026-11-10T15:28:10Z"
-        },
-        {
-          "affectedCustomers": null,
-          "estimatedRestoration": null,
-          "id": "stCroix-vicorp-land",
-          "island": "stCroix",
-          "locations": [
-            "(COBLE) 290I",
-            "17-F",
-            "175",
-            "325"
-          ],
-          "name": "Vicorp Land",
-          "sourceEventIDs": [
-            "55bf5a18b3bbdf0a272384bb4e0c3cbce176aa750c5133c8664e1f3f400378b3"
-          ],
-          "sourceStatus": "Verified",
-          "startedAt": "2026-11-10T15:24:42Z"
         }
       ]
     },
@@ -1132,11 +1027,11 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "1395b3c94474324a6aa4e764fddf2d42586b831bee128b2d4aa92e8253fcdae5",
+  "snapshotID": "ff8f3bd7f0add396f52b00667d0122a51ea5b57eb398271eaff7f6e5a3e9f3ec",
   "source": {
-    "checkedAt": "2026-11-10T15:35:30Z",
+    "checkedAt": "2026-11-10T15:44:42Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-10T15:35:20Z",
+    "updatedAt": "2026-11-10T15:40:19Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
