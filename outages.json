@@ -2251,34 +2251,6 @@
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
-      "id": "444c860150dd0b8a62e109bca3602c9fc4f60a9ef42af4467c619b00b71e2db2",
-      "island": "stThomas",
-      "locations": [
-        "ST PETER 14-6",
-        "ST PETER 18A"
-      ],
-      "modifiedAt": "2026-11-10T18:06:50Z",
-      "name": "T-T-06053",
-      "neighborhoodIDs": [
-        "stThomas-st-peter"
-      ],
-      "point": {
-        "latitude": 18.368025283136575,
-        "longitude": -64.94399401394799
-      },
-      "reportedCustomersInitially": 3,
-      "reportedCustomersOut": 3,
-      "reportedCustomersRestored": 0,
-      "sourceStatus": "Verified",
-      "startedAt": "2026-11-10T17:32:04Z",
-      "verified": true,
-      "workStatus": null
-    },
-    {
-      "cause": null,
-      "crewAssigned": false,
-      "endedAt": null,
-      "estimatedRestoration": null,
       "id": "688d24f7b6e72cb60f9dd7cfcfc315b9ee0efe7095b9fbf192b7ed84c8031d54",
       "island": "stThomas",
       "locations": [
@@ -4956,6 +4928,7 @@
         "ST PETER 14-3",
         "ST PETER 14-3 UP",
         "ST PETER 14-5",
+        "ST PETER 14-6",
         "ST PETER 14-7 COTTAGE",
         "ST PETER 16C-2 & 15C-2",
         "ST PETER 16-D",
@@ -4972,6 +4945,7 @@
         "ST PETER 17-5C",
         "ST PETER 17-7 -1",
         "ST PETER 17-8",
+        "ST PETER 18A",
         "ST PETER 1A-4 HOUSE 1",
         "ST PETER 1A-4 HOUSE 2",
         "ST PETER 1A-4 UP",
@@ -5217,7 +5191,7 @@
         "ZUERIENDENHEIT",
         "ZUFRIDENHEIT 1"
       ],
-      "modifiedAt": "2026-11-10T18:46:11Z",
+      "modifiedAt": "2026-11-10T19:54:09Z",
       "name": "REC-6A-1B-NISK",
       "neighborhoodIDs": [
         "stThomas-st-peter"
@@ -5226,8 +5200,8 @@
         "latitude": 18.356538038492506,
         "longitude": -64.95675437082409
       },
-      "reportedCustomersInitially": 3603,
-      "reportedCustomersOut": 3603,
+      "reportedCustomersInitially": 3606,
+      "reportedCustomersOut": 3606,
       "reportedCustomersRestored": 0,
       "sourceStatus": "Verified",
       "startedAt": "2026-11-10T18:35:00Z",
@@ -5271,43 +5245,6 @@
       "sourceStatus": "Predicted",
       "startedAt": "2026-11-10T19:44:26Z",
       "verified": false,
-      "workStatus": null
-    },
-    {
-      "cause": null,
-      "crewAssigned": false,
-      "endedAt": null,
-      "estimatedRestoration": null,
-      "id": "c6105c797622f81394f8e3620bbfef346c707f724c6ca9484c31cf2fe77621c8",
-      "island": null,
-      "locations": [
-        "MAHOGANY RUN 17M MTR 4",
-        "MAHOGANY RUN 17U A-386",
-        "MAHOGANY RUN 19U",
-        "MAHOGANY RUN B-17 A-389",
-        "MAHOGANY RUN B18",
-        "MAHOGANY RUN COND 20",
-        "MAHOGANY RUN COND0 B-19",
-        "MAHOGANY RUN CONDO 20W",
-        "MAHOGANY RUN CONDO B-10",
-        "MAHOGANY RUN CONDO B-18",
-        "MAHOGANY RUN CONDO B-19",
-        "MAHOGANY RUN CONDO B-20",
-        "MAHOGONY RUN CONDO 20L"
-      ],
-      "modifiedAt": "2026-11-10T19:50:00Z",
-      "name": "T-T-17270",
-      "neighborhoodIDs": [],
-      "point": {
-        "latitude": 18.363170241078116,
-        "longitude": -64.90518530625968
-      },
-      "reportedCustomersInitially": 15,
-      "reportedCustomersOut": 15,
-      "reportedCustomersRestored": 0,
-      "sourceStatus": "Verified",
-      "startedAt": "2026-11-10T19:14:51Z",
-      "verified": true,
       "workStatus": null
     },
     {
@@ -6933,6 +6870,9 @@
         "MAHOGANY RUN 14U",
         "MAHOGANY RUN 16M",
         "MAHOGANY RUN 16U RM",
+        "MAHOGANY RUN 17M MTR 4",
+        "MAHOGANY RUN 17U A-386",
+        "MAHOGANY RUN 19U",
         "MAHOGANY RUN 21M",
         "MAHOGANY RUN 25-L R",
         "MAHOGANY RUN 25U",
@@ -6988,6 +6928,8 @@
         "MAHOGANY RUN 9U",
         "MAHOGANY RUN B 516L",
         "MAHOGANY RUN B1300",
+        "MAHOGANY RUN B-17 A-389",
+        "MAHOGANY RUN B18",
         "MAHOGANY RUN B-23 A-347",
         "MAHOGANY RUN B23 U23M",
         "MAHOGANY RUN B-308",
@@ -7029,25 +6971,32 @@
         "MAHOGANY RUN BLDG 47M",
         "MAHOGANY RUN BLDG. 7",
         "MAHOGANY RUN COND 13M",
+        "MAHOGANY RUN COND 20",
         "MAHOGANY RUN COND 46M RM",
         "MAHOGANY RUN COND B309",
         "MAHOGANY RUN COND B312",
         "MAHOGANY RUN COND B315",
         "MAHOGANY RUN COND B316",
         "MAHOGANY RUN COND U-8M",
+        "MAHOGANY RUN COND0 B-19",
         "MAHOGANY RUN CONDO",
         "MAHOGANY RUN CONDO 10U",
         "MAHOGANY RUN CONDO 12M",
         "MAHOGANY RUN CONDO 12U",
         "MAHOGANY RUN CONDO 14M RM",
         "MAHOGANY RUN CONDO 16L",
+        "MAHOGANY RUN CONDO 20W",
         "MAHOGANY RUN CONDO 316L",
         "MAHOGANY RUN CONDO 40W",
         "MAHOGANY RUN CONDO 501",
         "MAHOGANY RUN CONDO 7L",
         "MAHOGANY RUN CONDO 9M",
+        "MAHOGANY RUN CONDO B-10",
         "MAHOGANY RUN CONDO B-15",
         "MAHOGANY RUN CONDO B-16",
+        "MAHOGANY RUN CONDO B-18",
+        "MAHOGANY RUN CONDO B-19",
+        "MAHOGANY RUN CONDO B-20",
         "MAHOGANY RUN CONDO B-22",
         "MAHOGANY RUN CONDO B-23",
         "MAHOGANY RUN CONDO B-24",
@@ -7107,6 +7056,7 @@
         "MAHOGANY RUN UNIT 1309",
         "MAHOGANY RUN VILLA",
         "MAHOGANY RUN-LOVENLUND",
+        "MAHOGONY RUN CONDO 20L",
         "MANDAHAL 5B-6",
         "MANDAHL",
         "MANDAHL #1",
@@ -7742,7 +7692,7 @@
         "WINTBERG-TRAILER",
         "WINTHBERG 1-B4 APT 303"
       ],
-      "modifiedAt": "2026-11-10T19:49:59Z",
+      "modifiedAt": "2026-11-10T19:53:24Z",
       "name": "ISW-7C-6A-THRM-A",
       "neighborhoodIDs": [
         "stThomas-lovenlund"
@@ -7751,8 +7701,8 @@
         "latitude": 18.348272273475054,
         "longitude": -64.89625580223714
       },
-      "reportedCustomersInitially": 2259,
-      "reportedCustomersOut": 2259,
+      "reportedCustomersInitially": 2274,
+      "reportedCustomersOut": 2274,
       "reportedCustomersRestored": 0,
       "sourceStatus": "Verified",
       "startedAt": "2026-11-10T19:13:55Z",
@@ -7760,7 +7710,7 @@
       "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-10T19:51:22Z",
+  "generatedAt": "2026-11-10T19:56:24Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -8045,11 +7995,10 @@
           ],
           "name": "Estate St. Peter",
           "sourceEventIDs": [
-            "444c860150dd0b8a62e109bca3602c9fc4f60a9ef42af4467c619b00b71e2db2",
             "abf26f676e3386cbda128ee76b70311e98ad089ca3f13a0b4a0de678e337c956"
           ],
           "sourceStatus": "Verified",
-          "startedAt": null
+          "startedAt": "2026-11-10T18:35:00Z"
         },
         {
           "affectedCustomers": null,
@@ -8269,11 +8218,11 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "12f2728f30295abbb7738f7898486cf3d6697ec60ac2876fa40937e42603325a",
+  "snapshotID": "e2221d819a84bbf197e93655bb7d9c485309fdadcdc88a1c17f78216980521ac",
   "source": {
-    "checkedAt": "2026-11-10T19:51:22Z",
+    "checkedAt": "2026-11-10T19:56:24Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-10T19:50:19Z",
+    "updatedAt": "2026-11-10T19:55:20Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
@@ -8471,7 +8420,7 @@
       },
       {
         "at": "2026-11-10T17:00:00Z",
-        "customersOut": 6656
+        "customersOut": 6653
       },
       {
         "at": "2026-11-10T18:00:00Z",
@@ -15761,8 +15710,8 @@
       "ZUERIENDENHEIT",
       "ZUFRIDENHEIT 1"
     ],
-    "totalOutages": 19
+    "totalOutages": 17
   },
   "staleAfterSeconds": 900,
-  "unassignedEventCount": 15
+  "unassignedEventCount": 14
 }
