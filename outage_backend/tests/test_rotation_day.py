@@ -1,6 +1,8 @@
 from copy import deepcopy
 from datetime import datetime, timedelta, timezone
-from hashlib import sha256
+import json
+from pathlib import Path
+from zoneinfo import ZoneInfo
 from unittest import TestCase
 from unittest.mock import patch
 from urllib.error import HTTPError
@@ -23,6 +25,22 @@ def old_feed():
 
 
 class CurrentDayTests(TestCase):
+    def setUp(self):
+        # Keep behavior tests independent of continuously refreshed source reviews.
+        sources = [dict(url=f'https://www.facebook.com/photo/?fbid={i}&set=pb.100069365522656.-2207520000',
+                        fingerprint=str(i) * 64) for i in (1, 2)]
+        windows = [dict(id=f'fixture-{i}', startsAt=f'2026-11-10T{8+2*i:02}:30:00-04:00',
+                       endsAt=f'2026-11-10T{10+2*i:02}:30:00-04:00',
+                       feeders=['Feeder 7E'] if i < 6 else ['Feeder 8B', 'Feeder 9E'],
+                       areas=['MALL'] if i == 0 else []) for i in range(7)]
+        fixture = {'2026-11-10': dict(checkedAt='2026-11-10T16:30:23Z',sources=sources,windows=windows)}
+        original_read = Path.read_text
+        def read(path, *args, **kwargs):
+            return json.dumps(fixture) if path.name == 'reviewed-rotation-posts.json' else original_read(path, *args, **kwargs)
+        self.reader = patch('outage_backend.rotation.Path.read_text', read)
+        self.reader.start()
+        self.addCleanup(self.reader.stop)
+
     def test_ast_midnight_not_utc_midnight(self):
         schedule = old_feed()['schedule']
         before = current_day(schedule, datetime(2026, 11, 10, 3, 59, 59, tzinfo=timezone.utc))
@@ -120,3 +138,16 @@ class CurrentDayTests(TestCase):
         value = old_feed(); value['schedule'] = reviewed_social_schedule(NOW)
         del value['schedule']['sourceURLs']
         with self.assertRaises(ValueError): public_rotation(value)
+
+
+class BundledSocialReviewTests(TestCase):
+    def test_all_bundled_source_reviews_validate_on_their_own_day(self):
+        path = Path(__file__).parents[1] / 'reviewed-rotation-posts.json'
+        records = json.loads(path.read_text())
+        for day in records:
+            now = datetime.fromisoformat(day + 'T23:59:59-04:00')
+            schedule = reviewed_social_schedule(now)
+            self.assertEqual(schedule['day'], day)
+            value = old_feed(); value['schedule'] = schedule
+            public_rotation(value)
+            self.assertTrue(all(row['startsAt'].startswith(day) for row in schedule['windows']))
