@@ -6014,37 +6014,6 @@
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
-      "id": "d6cb411dc41796ee680ee2c4ff43866e21dab47bc90b004e758b5ada02ef024c",
-      "island": null,
-      "locations": [
-        "EST NAZARETH 2W-40",
-        "NAZARETH 2W-39",
-        "NAZARETH 2W-40",
-        "NAZARETH 2W-41.",
-        "NAZARETH 2W-44",
-        "NAZARETH 2W-45",
-        "NAZARETH 2-W-76-3"
-      ],
-      "modifiedAt": "2026-11-03T14:17:20Z",
-      "name": "T-T-12926",
-      "neighborhoodIDs": [],
-      "point": {
-        "latitude": 18.319481499554918,
-        "longitude": -64.85987261747081
-      },
-      "reportedCustomersInitially": 9,
-      "reportedCustomersOut": 9,
-      "reportedCustomersRestored": 0,
-      "sourceStatus": "Verified",
-      "startedAt": "2026-10-25T21:45:05Z",
-      "verified": true,
-      "workStatus": null
-    },
-    {
-      "cause": null,
-      "crewAssigned": false,
-      "endedAt": null,
-      "estimatedRestoration": null,
       "id": "d7c2795a191fcf23688fa8737b7454309b9a2fb5acc786d0c198472b477fc676",
       "island": null,
       "locations": [
@@ -7044,7 +7013,7 @@
       "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-11T18:10:43Z",
+  "generatedAt": "2026-11-11T18:15:45Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -7267,217 +7236,217 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "446dfb0dd89ec8eef17aa4d2ae79f02365905890c284da2a50e15048499294fe",
+  "snapshotID": "748a583ecd38b660f55c5ecade68081206ba0fec5299956c1cae6a2651f636a1",
   "source": {
-    "checkedAt": "2026-11-11T18:10:43Z",
+    "checkedAt": "2026-11-11T18:15:45Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-11T18:10:22Z",
+    "updatedAt": "2026-11-11T18:15:21Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "sourceSummary": {
     "customerCountDifference": 2,
-    "customersAffected": 9080,
-    "customersOut": 9080,
+    "customersAffected": 9071,
+    "customersOut": 9071,
     "customersRestored": 0,
     "customersServed": 54723,
-    "eventCustomersOut": 9078,
+    "eventCustomersOut": 9069,
     "hourlyCustomersOut": [
       {
         "at": "2026-11-09T18:00:00Z",
-        "customersOut": 5707
+        "customersOut": 5698
       },
       {
         "at": "2026-11-09T19:00:00Z",
-        "customersOut": 6820
+        "customersOut": 6811
       },
       {
         "at": "2026-11-09T20:00:00Z",
-        "customersOut": 11409
+        "customersOut": 11400
       },
       {
         "at": "2026-11-09T21:00:00Z",
-        "customersOut": 4628
+        "customersOut": 4619
       },
       {
         "at": "2026-11-09T22:00:00Z",
-        "customersOut": 8818
+        "customersOut": 8809
       },
       {
         "at": "2026-11-09T23:00:00Z",
-        "customersOut": 8818
+        "customersOut": 8809
       },
       {
         "at": "2026-11-10T00:00:00Z",
-        "customersOut": 7718
+        "customersOut": 7709
       },
       {
         "at": "2026-11-10T01:00:00Z",
-        "customersOut": 3531
+        "customersOut": 3522
       },
       {
         "at": "2026-11-10T02:00:00Z",
-        "customersOut": 3516
+        "customersOut": 3507
       },
       {
         "at": "2026-11-10T03:00:00Z",
-        "customersOut": 2102
+        "customersOut": 2093
       },
       {
         "at": "2026-11-10T04:00:00Z",
-        "customersOut": 26
+        "customersOut": 17
       },
       {
         "at": "2026-11-10T05:00:00Z",
-        "customersOut": 26
+        "customersOut": 17
       },
       {
         "at": "2026-11-10T06:00:00Z",
-        "customersOut": 26
+        "customersOut": 17
       },
       {
         "at": "2026-11-10T07:00:00Z",
-        "customersOut": 26
+        "customersOut": 17
       },
       {
         "at": "2026-11-10T08:00:00Z",
-        "customersOut": 26
+        "customersOut": 17
       },
       {
         "at": "2026-11-10T09:00:00Z",
-        "customersOut": 26
+        "customersOut": 17
       },
       {
         "at": "2026-11-10T10:00:00Z",
-        "customersOut": 26
+        "customersOut": 17
       },
       {
         "at": "2026-11-10T11:00:00Z",
-        "customersOut": 28
+        "customersOut": 19
       },
       {
         "at": "2026-11-10T12:00:00Z",
-        "customersOut": 24949
+        "customersOut": 24940
       },
       {
         "at": "2026-11-10T13:00:00Z",
-        "customersOut": 24949
+        "customersOut": 24940
       },
       {
         "at": "2026-11-10T14:00:00Z",
-        "customersOut": 5557
+        "customersOut": 5548
       },
       {
         "at": "2026-11-10T15:00:00Z",
-        "customersOut": 11025
+        "customersOut": 11016
       },
       {
         "at": "2026-11-10T16:00:00Z",
-        "customersOut": 8163
+        "customersOut": 8154
       },
       {
         "at": "2026-11-10T17:00:00Z",
-        "customersOut": 6261
+        "customersOut": 6252
       },
       {
         "at": "2026-11-10T18:00:00Z",
-        "customersOut": 10892
+        "customersOut": 10883
       },
       {
         "at": "2026-11-10T19:00:00Z",
-        "customersOut": 12336
+        "customersOut": 12327
       },
       {
         "at": "2026-11-10T20:00:00Z",
-        "customersOut": 14853
+        "customersOut": 14844
       },
       {
         "at": "2026-11-10T21:00:00Z",
-        "customersOut": 13181
+        "customersOut": 13172
       },
       {
         "at": "2026-11-10T22:00:00Z",
-        "customersOut": 12277
+        "customersOut": 12268
       },
       {
         "at": "2026-11-10T23:00:00Z",
-        "customersOut": 6530
+        "customersOut": 6521
       },
       {
         "at": "2026-11-11T00:00:00Z",
-        "customersOut": 2561
+        "customersOut": 2552
       },
       {
         "at": "2026-11-11T01:00:00Z",
-        "customersOut": 278
+        "customersOut": 269
       },
       {
         "at": "2026-11-11T02:00:00Z",
-        "customersOut": 278
+        "customersOut": 269
       },
       {
         "at": "2026-11-11T03:00:00Z",
-        "customersOut": 278
+        "customersOut": 269
       },
       {
         "at": "2026-11-11T04:00:00Z",
-        "customersOut": 278
+        "customersOut": 269
       },
       {
         "at": "2026-11-11T05:00:00Z",
-        "customersOut": 770
+        "customersOut": 761
       },
       {
         "at": "2026-11-11T06:00:00Z",
-        "customersOut": 770
+        "customersOut": 761
       },
       {
         "at": "2026-11-11T07:00:00Z",
-        "customersOut": 770
+        "customersOut": 761
       },
       {
         "at": "2026-11-11T08:00:00Z",
-        "customersOut": 770
+        "customersOut": 761
       },
       {
         "at": "2026-11-11T09:00:00Z",
-        "customersOut": 770
+        "customersOut": 761
       },
       {
         "at": "2026-11-11T10:00:00Z",
-        "customersOut": 770
+        "customersOut": 761
       },
       {
         "at": "2026-11-11T11:00:00Z",
-        "customersOut": 770
+        "customersOut": 761
       },
       {
         "at": "2026-11-11T12:00:00Z",
-        "customersOut": 26892
+        "customersOut": 26883
       },
       {
         "at": "2026-11-11T13:00:00Z",
-        "customersOut": 17715
+        "customersOut": 17706
       },
       {
         "at": "2026-11-11T14:00:00Z",
-        "customersOut": 19001
+        "customersOut": 18992
       },
       {
         "at": "2026-11-11T15:00:00Z",
-        "customersOut": 13956
+        "customersOut": 13947
       },
       {
         "at": "2026-11-11T16:00:00Z",
-        "customersOut": 16981
+        "customersOut": 16972
       },
       {
         "at": "2026-11-11T17:00:00Z",
-        "customersOut": 15991
+        "customersOut": 15982
       },
       {
         "at": "2026-11-11T18:00:00Z",
-        "customersOut": 11125
+        "customersOut": 11116
       }
     ],
     "locations": [
@@ -9505,7 +9474,6 @@
       "EST LOWER LOVE",
       "EST LOWER LOVE CENTERLINE",
       "EST MAHOGANY 112",
-      "EST NAZARETH 2W-40",
       "EST ORKANSHULLET(HASS)8-1",
       "EST. ADVENTURE",
       "EST. ELIZABETH 29 MTR. 2",
@@ -12030,12 +11998,6 @@
       "MUTUAL HOMES B-60 A-C3",
       "MUTUAL HOMES B-60 A-D2",
       "MUTUAL HOMES BLD 24/25",
-      "NAZARETH 2W-39",
-      "NAZARETH 2W-40",
-      "NAZARETH 2W-41.",
-      "NAZARETH 2W-44",
-      "NAZARETH 2W-45",
-      "NAZARETH 2-W-76-3",
       "NEGRO 1 STE 104(IND. BAY)",
       "NEGRO BAY",
       "NEGRO BAY BLDG 3",
@@ -13955,8 +13917,8 @@
       "WINDWARD PASSAGE/TRAFFIC",
       "YELLOW CEDAR 40-D"
     ],
-    "totalOutages": 22
+    "totalOutages": 21
   },
   "staleAfterSeconds": 900,
-  "unassignedEventCount": 19
+  "unassignedEventCount": 18
 }
