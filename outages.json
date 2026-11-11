@@ -7469,7 +7469,7 @@
       "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-11T19:51:24Z",
+  "generatedAt": "2026-11-11T19:56:26Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -8042,18 +8042,18 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "c7abd70e95f2a5695f986ef585dea6fabf3e49fba1a292842d0d33cc865d7a99",
+  "snapshotID": "a8f281ebf6bef720ac8d6677c8259d84c6cffe75fc396101d011874df64f5e1d",
   "source": {
-    "checkedAt": "2026-11-11T19:51:24Z",
+    "checkedAt": "2026-11-11T19:56:26Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-11T19:50:22Z",
+    "updatedAt": "2026-11-11T19:55:22Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "sourceSummary": {
-    "customerCountDifference": 2,
-    "customersAffected": 9713,
-    "customersOut": 9713,
+    "customerCountDifference": 4,
+    "customersAffected": 9715,
+    "customersOut": 9715,
     "customersRestored": 0,
     "customersServed": 54724,
     "eventCustomersOut": 9711,
@@ -8252,7 +8252,7 @@
       },
       {
         "at": "2026-11-11T19:00:00Z",
-        "customersOut": 9711
+        "customersOut": 9713
       }
     ],
     "locations": [
@@ -13070,6 +13070,8 @@
       "MUTUAL HOMES B-60 A-C3",
       "MUTUAL HOMES B-60 A-D2",
       "MUTUAL HOMES BLD 24/25",
+      "NAZARETH 7-P BASE A",
+      "NAZARETH 7-P BASE B",
       "NEGRO 1 STE 104(IND. BAY)",
       "NEGRO BAY",
       "NEGRO BAY BLDG 3",
