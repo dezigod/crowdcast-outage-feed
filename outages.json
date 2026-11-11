@@ -6,6 +6,40 @@
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
+      "id": "0524f9d06b24f85d366a51fd60ece069dfb2dcc0f6da37b0f376f432b9ee56fd",
+      "island": null,
+      "locations": [
+        "CAMPO RICO 183",
+        "CAMPO RICO 186",
+        "CAMPO RICO 190",
+        "CAMPO RICO 197 HSE-Y",
+        "CAMPO RICO 198-Z",
+        "CAMPO RICO 206",
+        "CAMPO RICO 209",
+        "CAMPO RICO 89-B 3",
+        "WHIM 181(CAMPO RICO 181)",
+        "WHIM 187"
+      ],
+      "modifiedAt": "2026-11-11T19:03:46Z",
+      "name": "T-C-16787",
+      "neighborhoodIDs": [],
+      "point": {
+        "latitude": 17.694770336872992,
+        "longitude": -64.8676477343091
+      },
+      "reportedCustomersInitially": 10,
+      "reportedCustomersOut": 10,
+      "reportedCustomersRestored": 0,
+      "sourceStatus": "Predicted",
+      "startedAt": "2026-11-11T19:03:32Z",
+      "verified": false,
+      "workStatus": null
+    },
+    {
+      "cause": null,
+      "crewAssigned": false,
+      "endedAt": null,
+      "estimatedRestoration": null,
       "id": "063ff998cfa1573c3cc3045ebd296664e869bfc3030ceaf07aaa1aad62fa3e58",
       "island": null,
       "locations": [
@@ -7408,7 +7442,7 @@
       "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-11T19:01:04Z",
+  "generatedAt": "2026-11-11T19:06:06Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -7979,21 +8013,21 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "fc81072bd1354577e9e869b45353e258c2b55dd678535375e31e26ae499d75bf",
+  "snapshotID": "73a73d657485127fb643d1b6d1f9ca6909f4a54f0793ca03678aa7f71fb41fea",
   "source": {
-    "checkedAt": "2026-11-11T19:01:04Z",
+    "checkedAt": "2026-11-11T19:06:06Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-11T19:00:22Z",
+    "updatedAt": "2026-11-11T19:05:22Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "sourceSummary": {
     "customerCountDifference": 2,
-    "customersAffected": 9702,
-    "customersOut": 9702,
+    "customersAffected": 9712,
+    "customersOut": 9712,
     "customersRestored": 0,
-    "customersServed": 54723,
-    "eventCustomersOut": 9700,
+    "customersServed": 54724,
+    "eventCustomersOut": 9710,
     "hourlyCustomersOut": [
       {
         "at": "2026-11-09T19:00:00Z",
@@ -8189,7 +8223,7 @@
       },
       {
         "at": "2026-11-11T19:00:00Z",
-        "customersOut": 9700
+        "customersOut": 9710
       }
     ],
     "locations": [
@@ -9057,7 +9091,15 @@
       "BURNS HILL 1-E",
       "BURNS HILL PLOT 1",
       "C ELIZABETH",
+      "CAMPO RICO 183",
+      "CAMPO RICO 186",
+      "CAMPO RICO 190",
+      "CAMPO RICO 197 HSE-Y",
+      "CAMPO RICO 198-Z",
+      "CAMPO RICO 206",
+      "CAMPO RICO 209",
       "CAMPO RICO 82",
+      "CAMPO RICO 89-B 3",
       "CARAMBOLA SAMAN VILLAS",
       "CARAMBOLA SWEET LIME",
       "CARAMBOLA SWEET LIME U-23",
@@ -15102,6 +15144,8 @@
       "WESTERN SUBURB 1-ABC A-8",
       "WESTERN SUBURB 1-ABC APT-",
       "WESTERN SUBURB 1-ABC/HSMT",
+      "WHIM 181(CAMPO RICO 181)",
+      "WHIM 187",
       "WIMMELSHAKT STORE 11 UNIT",
       "WIMMELSKAFF GADE 6C",
       "WIMMELSKAFT 11",
@@ -15169,8 +15213,8 @@
       "WINTBERG PEAK 1K",
       "YELLOW CEDAR 40-D"
     ],
-    "totalOutages": 16
+    "totalOutages": 17
   },
   "staleAfterSeconds": 900,
-  "unassignedEventCount": 13
+  "unassignedEventCount": 14
 }
