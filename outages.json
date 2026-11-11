@@ -6661,9 +6661,45 @@
       "startedAt": "2026-11-08T12:04:28Z",
       "verified": true,
       "workStatus": null
+    },
+    {
+      "cause": null,
+      "crewAssigned": false,
+      "endedAt": null,
+      "estimatedRestoration": null,
+      "id": "fb7ea22054ed510abcd90e2d56c8351b9af02c6cc6aa00507c8c3964b06b7d82",
+      "island": null,
+      "locations": [
+        "EST LERKENLUND 7",
+        "EST LERLENLUND",
+        "ESTATE LERKENLUND 7D-2B",
+        "LERKENLUND",
+        "LERKENLUND 7",
+        "LERKENLUND 7B",
+        "LERKENLUND 7D-2B DW",
+        "LERKENLUND 7D-2B UP",
+        "LERKENLUND 7E",
+        "LERKENLUND 7E REMAINDER",
+        "LERKENLUND 7F",
+        "MISGUNST 7G"
+      ],
+      "modifiedAt": "2026-11-11T17:53:55Z",
+      "name": "T-T-05698",
+      "neighborhoodIDs": [],
+      "point": {
+        "latitude": 18.355084608313575,
+        "longitude": -64.9372601169571
+      },
+      "reportedCustomersInitially": 13,
+      "reportedCustomersOut": 13,
+      "reportedCustomersRestored": 0,
+      "sourceStatus": "Predicted",
+      "startedAt": "2026-11-11T17:53:39Z",
+      "verified": false,
+      "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-11T17:50:35Z",
+  "generatedAt": "2026-11-11T17:55:37Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -6827,21 +6863,21 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "06b3cea79e2cf0af3415a4fc0eb9471aaf432b76755d7d3dac4b0bfa3edbd693",
+  "snapshotID": "ed140c415009e6f03269b0ea9cbcdbfa3639e288da4a251ccbc107708c2726b0",
   "source": {
-    "checkedAt": "2026-11-11T17:50:35Z",
+    "checkedAt": "2026-11-11T17:55:37Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-11T17:50:21Z",
+    "updatedAt": "2026-11-11T17:55:21Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "sourceSummary": {
     "customerCountDifference": 2,
-    "customersAffected": 8297,
-    "customersOut": 8297,
+    "customersAffected": 8310,
+    "customersOut": 8310,
     "customersRestored": 0,
     "customersServed": 54723,
-    "eventCustomersOut": 8295,
+    "eventCustomersOut": 8308,
     "hourlyCustomersOut": [
       {
         "at": "2026-11-09T17:00:00Z",
@@ -8472,6 +8508,8 @@
       "EST GEORGES PLOT 194",
       "EST GOLDEN GROVE MOBILE",
       "EST GOLDEN GROVE MOBILE*",
+      "EST LERKENLUND 7",
+      "EST LERLENLUND",
       "EST LOWER LOVE",
       "EST LOWER LOVE CENTERLINE",
       "EST MORNING STAR 212",
@@ -8533,6 +8571,7 @@
       "ESTATE GLYNN 236",
       "ESTATE GOLDEN GROVE",
       "ESTATE GROVE PLACE 48",
+      "ESTATE LERKENLUND 7D-2B",
       "ESTATE LOWER LOVE",
       "ESTATE PARADISE 5-B-1",
       "ESTATE PETERBORG 9-1-26",
@@ -9544,7 +9583,15 @@
       "LEB VILLAS PHASE II A-314",
       "LEB VILLAS PHASE III",
       "LEMON HOLLOW 5-A",
+      "LERKENLUND",
+      "LERKENLUND 7",
+      "LERKENLUND 7B",
       "LERKENLUND 7D 2A",
+      "LERKENLUND 7D-2B DW",
+      "LERKENLUND 7D-2B UP",
+      "LERKENLUND 7E",
+      "LERKENLUND 7E REMAINDER",
+      "LERKENLUND 7F",
       "LERKENLUND 9D-1-2",
       "LIMPRICH PARK (KING ST)",
       "LITTLE LA GRANGE 10 (REM)",
@@ -9891,6 +9938,7 @@
       "MARYS FANCY 76-C",
       "MERCURY LIGHT WHARF",
       "MIDLAND P-1",
+      "MISGUNST 7G",
       "MODULAR CLASSROOM - IEKHS",
       "MON BIJOU",
       "MON BIJOU 18-A",
@@ -13066,8 +13114,8 @@
       "WHIM 135-J",
       "YELLOW CEDAR 40-D"
     ],
-    "totalOutages": 25
+    "totalOutages": 26
   },
   "staleAfterSeconds": 900,
-  "unassignedEventCount": 22
+  "unassignedEventCount": 23
 }
