@@ -62,6 +62,31 @@
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
+      "id": "1b0f0a7d5726a382f08648e38bf4ca9a0e152c3477025284f6f88cf1141f87b6",
+      "island": null,
+      "locations": [
+        "ALL FOR THE BETTER"
+      ],
+      "modifiedAt": "2026-11-11T12:14:52Z",
+      "name": "T-C-16528",
+      "neighborhoodIDs": [],
+      "point": {
+        "latitude": 17.74791481917282,
+        "longitude": -64.652870600445
+      },
+      "reportedCustomersInitially": 3,
+      "reportedCustomersOut": 3,
+      "reportedCustomersRestored": 0,
+      "sourceStatus": "Predicted",
+      "startedAt": "2026-11-11T12:14:44Z",
+      "verified": false,
+      "workStatus": null
+    },
+    {
+      "cause": null,
+      "crewAssigned": false,
+      "endedAt": null,
+      "estimatedRestoration": null,
       "id": "1c06d0fe571aa18543fbfa053f14cfd94747ecef4cca163b2c5244914b455cfb",
       "island": null,
       "locations": [
@@ -174,6 +199,32 @@
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
+      "id": "279ccd56ef1cf29b1a19fc3868789bb2a28f3f0e97e60921ebb69d63fe8263c5",
+      "island": null,
+      "locations": [
+        "SION FARM 3-J",
+        "SION FARM 3-K"
+      ],
+      "modifiedAt": "2026-11-11T12:13:48Z",
+      "name": "T-C-24445",
+      "neighborhoodIDs": [],
+      "point": {
+        "latitude": 17.738023941009466,
+        "longitude": -64.7428442605974
+      },
+      "reportedCustomersInitially": 5,
+      "reportedCustomersOut": 5,
+      "reportedCustomersRestored": 0,
+      "sourceStatus": "Predicted",
+      "startedAt": "2026-11-11T12:13:45Z",
+      "verified": false,
+      "workStatus": null
+    },
+    {
+      "cause": null,
+      "crewAssigned": false,
+      "endedAt": null,
+      "estimatedRestoration": null,
       "id": "3fe68421f129b3d8821626d3bc8f608066a5adebf98d166cab1e2ff3198fba31",
       "island": null,
       "locations": [
@@ -221,6 +272,59 @@
       "reportedCustomersRestored": 0,
       "sourceStatus": "Predicted",
       "startedAt": "2026-05-24T00:16:58Z",
+      "verified": false,
+      "workStatus": null
+    },
+    {
+      "cause": null,
+      "crewAssigned": false,
+      "endedAt": null,
+      "estimatedRestoration": null,
+      "id": "68995d4968ce50e7aefc4dfbefcfe2b7ec415b147031a5ae270310724cbff3d2",
+      "island": null,
+      "locations": [
+        "PLESSEN CROIXVILLE B-H",
+        "PLESSEN/CROIXVILLE {P-LIG",
+        "PLESSEN/CROIXVILLE B-H"
+      ],
+      "modifiedAt": "2026-11-11T12:14:37Z",
+      "name": "T-C-00391",
+      "neighborhoodIDs": [],
+      "point": {
+        "latitude": 17.719676839348566,
+        "longitude": -64.81622849618495
+      },
+      "reportedCustomersInitially": 8,
+      "reportedCustomersOut": 8,
+      "reportedCustomersRestored": 0,
+      "sourceStatus": "Predicted",
+      "startedAt": "2026-11-11T12:14:15Z",
+      "verified": false,
+      "workStatus": null
+    },
+    {
+      "cause": null,
+      "crewAssigned": false,
+      "endedAt": null,
+      "estimatedRestoration": null,
+      "id": "6d5586b53fab0372217366ab22b80894a7b4fde9456b021dcec60307a1f0f3df",
+      "island": null,
+      "locations": [
+        "HERMAN HILL 264",
+        "HERMAN HILL 44"
+      ],
+      "modifiedAt": "2026-11-11T12:14:37Z",
+      "name": "T-C-03499",
+      "neighborhoodIDs": [],
+      "point": {
+        "latitude": 17.732550449989965,
+        "longitude": -64.70905789857457
+      },
+      "reportedCustomersInitially": 3,
+      "reportedCustomersOut": 3,
+      "reportedCustomersRestored": 0,
+      "sourceStatus": "Predicted",
+      "startedAt": "2026-11-11T12:14:11Z",
       "verified": false,
       "workStatus": null
     },
@@ -407,6 +511,60 @@
       "sourceStatus": "Verified",
       "startedAt": "2026-10-25T21:45:05Z",
       "verified": true,
+      "workStatus": null
+    },
+    {
+      "cause": null,
+      "crewAssigned": false,
+      "endedAt": null,
+      "estimatedRestoration": null,
+      "id": "d77d336d36e6268cb1f0529b65c8e5fc002821a745836e0387e1e5502904873e",
+      "island": null,
+      "locations": [
+        "SMITHFIELD 172",
+        "SMITHFIELD 172 A-7",
+        "SMITHFIELD 172 A-8",
+        "SMITHFIELD 172-173",
+        "SMITHFIELD 172-173 A-10",
+        "SMITHFIELD 172-173 A-2",
+        "SMITHFIELD 172-173 A-3",
+        "SMITHFIELD 172-173 A-5",
+        "SMITHFIELD 172-173 A-6",
+        "SMITHFIELD 182-A",
+        "SMITHFIELD 182D",
+        "SMITHFIELD 182E",
+        "SMITHFIELD 199",
+        "SMITHFIELD 205",
+        "SMITHFIELD 207",
+        "SMITHFIELD 208",
+        "SMITHFIELD 73-B",
+        "SMITHFIELD 75-A",
+        "SMITHFIELD 79",
+        "TWO BROS/SMITHFIELD 203",
+        "TWO BROTHERS",
+        "TWO BROTHERS 174",
+        "TWO BROTHERS 184",
+        "TWO BROTHERS 198",
+        "TWO BROTHERS 201",
+        "TWO BROTHERS 204",
+        "TWO BROTHERS 206-207",
+        "TWO BROTHERS 74-B",
+        "TWO BROTHERS 76-B",
+        "TWO BROTHERS/SMITHFIELD"
+      ],
+      "modifiedAt": "2026-11-11T12:15:08Z",
+      "name": "T-C-25365",
+      "neighborhoodIDs": [],
+      "point": {
+        "latitude": 17.701712964957558,
+        "longitude": -64.88254596589773
+      },
+      "reportedCustomersInitially": 33,
+      "reportedCustomersOut": 33,
+      "reportedCustomersRestored": 0,
+      "sourceStatus": "Predicted",
+      "startedAt": "2026-11-11T12:14:58Z",
+      "verified": false,
       "workStatus": null
     },
     {
@@ -782,9 +940,94 @@
       "startedAt": "2026-11-08T12:04:28Z",
       "verified": true,
       "workStatus": null
+    },
+    {
+      "cause": null,
+      "crewAssigned": false,
+      "endedAt": null,
+      "estimatedRestoration": null,
+      "id": "ee9048b5850ebcb637f45dc3888e48e7459146820d219c1741c8296d641d6d14",
+      "island": null,
+      "locations": [
+        "MARSHILL 8 & 8C",
+        "WHEEL OF FORTUNE 9-A EL"
+      ],
+      "modifiedAt": "2026-11-11T12:14:52Z",
+      "name": "T-C-16364",
+      "neighborhoodIDs": [],
+      "point": {
+        "latitude": 17.70720113141926,
+        "longitude": -64.87921556405591
+      },
+      "reportedCustomersInitially": 2,
+      "reportedCustomersOut": 2,
+      "reportedCustomersRestored": 0,
+      "sourceStatus": "Predicted",
+      "startedAt": "2026-11-11T12:14:32Z",
+      "verified": false,
+      "workStatus": null
+    },
+    {
+      "cause": null,
+      "crewAssigned": false,
+      "endedAt": null,
+      "estimatedRestoration": null,
+      "id": "f901a85dae71b9abbb11eeb96678f86a6e9e3e7a9c5f55734ddfa07c84ba58ca",
+      "island": null,
+      "locations": [
+        "ROSE GATE",
+        "ROSE GATE 122",
+        "ROSEGATE",
+        "ROSEGATE 121-C",
+        "WORK & REST 105",
+        "WORK & REST 107"
+      ],
+      "modifiedAt": "2026-11-11T12:14:52Z",
+      "name": "T-C-09587",
+      "neighborhoodIDs": [],
+      "point": {
+        "latitude": 17.722003232510488,
+        "longitude": -64.71756898683734
+      },
+      "reportedCustomersInitially": 8,
+      "reportedCustomersOut": 8,
+      "reportedCustomersRestored": 0,
+      "sourceStatus": "Predicted",
+      "startedAt": "2026-11-11T12:14:28Z",
+      "verified": false,
+      "workStatus": null
+    },
+    {
+      "cause": null,
+      "crewAssigned": false,
+      "endedAt": null,
+      "estimatedRestoration": null,
+      "id": "fd65a7e1e28746c68778227bf812916476d45e313793494bbfc93877a08b31f5",
+      "island": null,
+      "locations": [
+        "WHIM 58-C",
+        "WHIM 58-D",
+        "WHIM 58-H",
+        "WHIM 58-J",
+        "WHIM 58-K (BACK APT)"
+      ],
+      "modifiedAt": "2026-11-11T12:14:22Z",
+      "name": "T-C-12216",
+      "neighborhoodIDs": [],
+      "point": {
+        "latitude": 17.697306801176296,
+        "longitude": -64.86097903681829
+      },
+      "reportedCustomersInitially": 6,
+      "reportedCustomersOut": 6,
+      "reportedCustomersRestored": 0,
+      "sourceStatus": "Predicted",
+      "startedAt": "2026-11-11T12:13:53Z",
+      "verified": false,
+      "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-11T12:10:35Z",
+  "generatedAt": "2026-11-11T12:15:37Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -922,21 +1165,21 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "f9bd023c5dc025eaf5360b44a3043e796d25dca3ce8430b98c13743ae2a6f7e6",
+  "snapshotID": "48a913faf242302d21ddd981b6061e846c285724b5bcf8e6ee7674f2c5567ed9",
   "source": {
-    "checkedAt": "2026-11-11T12:10:35Z",
+    "checkedAt": "2026-11-11T12:15:37Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-11T12:10:18Z",
+    "updatedAt": "2026-11-11T12:15:18Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "sourceSummary": {
     "customerCountDifference": 2,
-    "customersAffected": 511,
-    "customersOut": 511,
+    "customersAffected": 579,
+    "customersOut": 579,
     "customersRestored": 0,
     "customersServed": 54723,
-    "eventCustomersOut": 509,
+    "eventCustomersOut": 577,
     "hourlyCustomersOut": [
       {
         "at": "2026-11-09T12:00:00Z",
@@ -1132,7 +1375,7 @@
       },
       {
         "at": "2026-11-11T12:00:00Z",
-        "customersOut": 509
+        "customersOut": 577
       }
     ],
     "locations": [
@@ -1147,6 +1390,7 @@
       "AGNES FANCY 5-A",
       "AGNES FANCY 5B",
       "AGNES FANCY 5F",
+      "ALL FOR THE BETTER",
       "COTTON VALLEY",
       "DIAMOND 18",
       "ELIZABETH",
@@ -1445,10 +1689,13 @@
       "GLYNN 254-A SUITE # 1",
       "GRANGE HILL",
       "GRANGE HILL 9",
+      "HERMAN HILL 264",
+      "HERMAN HILL 44",
       "LERKENLUND 7D 2A",
       "LERKENLUND 9D-1-2",
       "LOVENLUND EST FARMHOUSE",
       "MARIENDAHL 10-2",
+      "MARSHILL 8 & 8C",
       "NAZARETH 2W-39",
       "NAZARETH 2W-40",
       "NAZARETH 2W-41.",
@@ -1465,8 +1712,17 @@
       "PLESSEN 146",
       "PLESSEN 146-A (EL)",
       "PLESSEN 147",
+      "PLESSEN CROIXVILLE B-H",
+      "PLESSEN/CROIXVILLE {P-LIG",
+      "PLESSEN/CROIXVILLE B-H",
       "PZ EST THOMAS",
+      "ROSE GATE",
+      "ROSE GATE 122",
+      "ROSEGATE",
+      "ROSEGATE 121-C",
       "SILVER SHOP)",
+      "SION FARM 3-J",
+      "SION FARM 3-K",
       "SMITH BAY",
       "SMITH BAY 98-2 EAST E",
       "SMITH BAY 98-3",
@@ -1482,6 +1738,25 @@
       "SMITH BAY 98-8-1A/98-6 N-",
       "SMITH BAY 98-8-1A/98-6 U-",
       "SMITH BAY 98-8-1A/98-6B-N",
+      "SMITHFIELD 172",
+      "SMITHFIELD 172 A-7",
+      "SMITHFIELD 172 A-8",
+      "SMITHFIELD 172-173",
+      "SMITHFIELD 172-173 A-10",
+      "SMITHFIELD 172-173 A-2",
+      "SMITHFIELD 172-173 A-3",
+      "SMITHFIELD 172-173 A-5",
+      "SMITHFIELD 172-173 A-6",
+      "SMITHFIELD 182-A",
+      "SMITHFIELD 182D",
+      "SMITHFIELD 182E",
+      "SMITHFIELD 199",
+      "SMITHFIELD 205",
+      "SMITHFIELD 207",
+      "SMITHFIELD 208",
+      "SMITHFIELD 73-B",
+      "SMITHFIELD 75-A",
+      "SMITHFIELD 79",
       "SPRAT BAY",
       "SPRAT BAY 2- WATER ISLAND",
       "SPRAT BAY 23-WATER ISLAND",
@@ -1495,6 +1770,17 @@
       "SUBBASE 101 (EL)",
       "SUBBASE 69",
       "THOMAS 7A & 7B B-2 APT-1",
+      "TWO BROS/SMITHFIELD 203",
+      "TWO BROTHERS",
+      "TWO BROTHERS 174",
+      "TWO BROTHERS 184",
+      "TWO BROTHERS 198",
+      "TWO BROTHERS 201",
+      "TWO BROTHERS 204",
+      "TWO BROTHERS 206-207",
+      "TWO BROTHERS 74-B",
+      "TWO BROTHERS 76-B",
+      "TWO BROTHERS/SMITHFIELD",
       "WATER ISLAND",
       "WATER ISLAND #80",
       "WATER ISLAND #89",
@@ -1515,6 +1801,7 @@
       "WATER ISLAND LOT 104",
       "WATER ISLAND LOT 94-B",
       "WATER ISLAND SPRAT BAY",
+      "WHEEL OF FORTUNE 9-A EL",
       "WHIM 126",
       "WHIM 128B",
       "WHIM 130",
@@ -1523,10 +1810,17 @@
       "WHIM 134E APT",
       "WHIM 134-K",
       "WHIM 135-B",
-      "WHIM 135-J"
+      "WHIM 135-J",
+      "WHIM 58-C",
+      "WHIM 58-D",
+      "WHIM 58-H",
+      "WHIM 58-J",
+      "WHIM 58-K (BACK APT)",
+      "WORK & REST 105",
+      "WORK & REST 107"
     ],
-    "totalOutages": 16
+    "totalOutages": 24
   },
   "staleAfterSeconds": 900,
-  "unassignedEventCount": 13
+  "unassignedEventCount": 21
 }
