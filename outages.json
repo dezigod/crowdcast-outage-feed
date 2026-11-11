@@ -296,6 +296,53 @@
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
+      "id": "79be1ff9cebf60798eeae2fb1a3e48884d8aa176774580c3e93be089707c8ea2",
+      "island": null,
+      "locations": [
+        "RED HOOK 18-7 SUITE 207",
+        "RED HOOK 205",
+        "RED HOOK CENTER",
+        "RED HOOK CENTER SUITE 103",
+        "RED HOOK PLAZA",
+        "RED HOOK SHOP CENTER",
+        "RED HOOK SHOP SHOP C 205",
+        "RED HOOK UNIT 208",
+        "RED HOOK VILLAS B-E A-211",
+        "REDHOOK VILLAS SMITH BAY",
+        "SMITH BAY 18-9 18-10-11",
+        "SMITH BAY 18-9-18-10 U-",
+        "SMITH BAY 18A 1-2-3",
+        "SMITH BAY 18A 1-3-5",
+        "SMITH BAY 18A 1-35 U-215",
+        "SMITH BAY 18A B-E",
+        "SMITH BAY 18A B-E A-311 R",
+        "SMITH BAY 18A REDHOOK VIL",
+        "SMITH BAY 18A U-112",
+        "SMITH BAY 18A-1-2-3",
+        "SMITH BAY 18A-1-3-5",
+        "SMITH BAY 18-A-1-3-5",
+        "SMITH BAY 18A-7 REDHOOK V"
+      ],
+      "modifiedAt": "2026-11-11T11:26:07Z",
+      "name": "T-T-11988",
+      "neighborhoodIDs": [],
+      "point": {
+        "latitude": 18.326685131338188,
+        "longitude": -64.85173688229494
+      },
+      "reportedCustomersInitially": 26,
+      "reportedCustomersOut": 26,
+      "reportedCustomersRestored": 0,
+      "sourceStatus": "Predicted",
+      "startedAt": "2026-11-11T11:25:38Z",
+      "verified": false,
+      "workStatus": null
+    },
+    {
+      "cause": null,
+      "crewAssigned": false,
+      "endedAt": null,
+      "estimatedRestoration": null,
       "id": "a2b03758214feed0545161174f8a3bdcedd4a2698eb588ad0b9e5bec8b74ac0a",
       "island": null,
       "locations": [
@@ -915,7 +962,7 @@
       "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-11T11:26:25Z",
+  "generatedAt": "2026-11-11T11:31:27Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -1053,21 +1100,21 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "0cd633bc4acd33978e0de1b68698ebbe8bb90e274450888270f9ecfdb244fc39",
+  "snapshotID": "817f38d2974e1895796660c7240bb1436b2dd7ecc83ba196168808ff9d2f3303",
   "source": {
-    "checkedAt": "2026-11-11T11:26:25Z",
+    "checkedAt": "2026-11-11T11:31:27Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-11T11:25:18Z",
+    "updatedAt": "2026-11-11T11:30:19Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "sourceSummary": {
     "customerCountDifference": 2,
-    "customersAffected": 622,
-    "customersOut": 622,
+    "customersAffected": 648,
+    "customersOut": 648,
     "customersRestored": 0,
     "customersServed": 54723,
-    "eventCustomersOut": 620,
+    "eventCustomersOut": 646,
     "hourlyCustomersOut": [
       {
         "at": "2026-11-09T11:00:00Z",
@@ -1263,7 +1310,7 @@
       },
       {
         "at": "2026-11-11T11:00:00Z",
-        "customersOut": 620
+        "customersOut": 646
       }
     ],
     "locations": [
@@ -1631,8 +1678,31 @@
       "PLESSEN 146-A (EL)",
       "PLESSEN 147",
       "PZ EST THOMAS",
+      "RED HOOK 18-7 SUITE 207",
+      "RED HOOK 205",
+      "RED HOOK CENTER",
+      "RED HOOK CENTER SUITE 103",
+      "RED HOOK PLAZA",
+      "RED HOOK SHOP CENTER",
+      "RED HOOK SHOP SHOP C 205",
+      "RED HOOK UNIT 208",
+      "RED HOOK VILLAS B-E A-211",
+      "REDHOOK VILLAS SMITH BAY",
       "SILVER SHOP)",
       "SMITH BAY",
+      "SMITH BAY 18-9 18-10-11",
+      "SMITH BAY 18-9-18-10 U-",
+      "SMITH BAY 18A 1-2-3",
+      "SMITH BAY 18A 1-3-5",
+      "SMITH BAY 18A 1-35 U-215",
+      "SMITH BAY 18A B-E",
+      "SMITH BAY 18A B-E A-311 R",
+      "SMITH BAY 18A REDHOOK VIL",
+      "SMITH BAY 18A U-112",
+      "SMITH BAY 18A-1-2-3",
+      "SMITH BAY 18A-1-3-5",
+      "SMITH BAY 18-A-1-3-5",
+      "SMITH BAY 18A-7 REDHOOK V",
       "SMITH BAY 98-2 EAST E",
       "SMITH BAY 98-3",
       "SMITH BAY 98-8-1",
@@ -1691,8 +1761,8 @@
       "WHIM 135-B",
       "WHIM 135-J"
     ],
-    "totalOutages": 20
+    "totalOutages": 21
   },
   "staleAfterSeconds": 900,
-  "unassignedEventCount": 17
+  "unassignedEventCount": 18
 }
