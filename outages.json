@@ -266,41 +266,6 @@
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
-      "id": "5bbfb82d86834045f0638f042aec0b9cb0ec1cae8bfb98ad9341cc6d2ee9fda2",
-      "island": null,
-      "locations": [
-        "FRYDENHOJ #1-19",
-        "FRYDENHOJ 1-1",
-        "FRYDENHOJ 1-1 DWN",
-        "FRYDENHOJ 1-19 UP",
-        "FRYDENHOJ 1-2",
-        "FRYDENHOJ 1-20",
-        "FRYDENHOJ 1-21",
-        "FRYDENHOJ 1-21 APT-1",
-        "FRYDENHOJ 1-23",
-        "FRYDENHOJ 1-38",
-        "FRYDENHOJ 1-39"
-      ],
-      "modifiedAt": "2026-11-11T01:34:23Z",
-      "name": "T-T-10100",
-      "neighborhoodIDs": [],
-      "point": {
-        "latitude": 18.32453495305715,
-        "longitude": -64.86938226436685
-      },
-      "reportedCustomersInitially": 15,
-      "reportedCustomersOut": 15,
-      "reportedCustomersRestored": 0,
-      "sourceStatus": "Predicted",
-      "startedAt": "2026-11-10T22:54:30Z",
-      "verified": false,
-      "workStatus": null
-    },
-    {
-      "cause": null,
-      "crewAssigned": false,
-      "endedAt": null,
-      "estimatedRestoration": null,
       "id": "688d24f7b6e72cb60f9dd7cfcfc315b9ee0efe7095b9fbf192b7ed84c8031d54",
       "island": "stThomas",
       "locations": [
@@ -7730,7 +7695,7 @@
       "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-11T01:36:08Z",
+  "generatedAt": "2026-11-11T01:41:09Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -7927,21 +7892,21 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "9fc3f33d1c483513b624b25aa9aeaac22793326d2c9608513507a13c9930d931",
+  "snapshotID": "b19ede122d0251d0b95669f45d49135bdbeaa86d4f005a3fb8b2e7a8df7d229f",
   "source": {
-    "checkedAt": "2026-11-11T01:36:08Z",
+    "checkedAt": "2026-11-11T01:41:09Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-11T01:35:22Z",
+    "updatedAt": "2026-11-11T01:40:21Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "sourceSummary": {
     "customerCountDifference": 2,
-    "customersAffected": 9633,
-    "customersOut": 9633,
+    "customersAffected": 9618,
+    "customersOut": 9618,
     "customersRestored": 0,
     "customersServed": 54723,
-    "eventCustomersOut": 9631,
+    "eventCustomersOut": 9616,
     "hourlyCustomersOut": [
       {
         "at": "2026-11-09T01:00:00Z",
@@ -8125,19 +8090,19 @@
       },
       {
         "at": "2026-11-10T22:00:00Z",
-        "customersOut": 12478
+        "customersOut": 12463
       },
       {
         "at": "2026-11-10T23:00:00Z",
-        "customersOut": 6731
+        "customersOut": 6716
       },
       {
         "at": "2026-11-11T00:00:00Z",
-        "customersOut": 11914
+        "customersOut": 11899
       },
       {
         "at": "2026-11-11T01:00:00Z",
-        "customersOut": 9631
+        "customersOut": 9616
       }
     ],
     "locations": [
@@ -11844,18 +11809,7 @@
       "FRYDENDAHL 12B-1",
       "FRYDENDAHL 53-15",
       "FRYDENDAHL 56-16 MTR-C",
-      "FRYDENHOJ #1-19",
-      "FRYDENHOJ 1-1",
-      "FRYDENHOJ 1-1 DWN",
-      "FRYDENHOJ 1-19 UP",
-      "FRYDENHOJ 1-2",
-      "FRYDENHOJ 1-20",
-      "FRYDENHOJ 1-21",
-      "FRYDENHOJ 1-21 APT-1",
-      "FRYDENHOJ 1-23",
       "FRYDENHOJ 12Q",
-      "FRYDENHOJ 1-38",
-      "FRYDENHOJ 1-39",
       "FRYDENHOJ 156",
       "FRYDENHOJ 58",
       "GADE 24 2ND FL B-24&B-25",
@@ -15292,8 +15246,8 @@
       "ZUERIENDENHEIT",
       "ZUFRIDENHEIT 1"
     ],
-    "totalOutages": 23
+    "totalOutages": 22
   },
   "staleAfterSeconds": 900,
-  "unassignedEventCount": 20
+  "unassignedEventCount": 19
 }
