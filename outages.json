@@ -1814,7 +1814,7 @@
         "WEST PALM DRIVE 64",
         "YELLOW CEDAR 40-D"
       ],
-      "modifiedAt": "2026-11-11T17:33:48Z",
+      "modifiedAt": "2026-11-11T18:32:52Z",
       "name": "STX Feeder 09B",
       "neighborhoodIDs": [
         "stCroix-vicorp-land"
@@ -4334,62 +4334,37 @@
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
-      "id": "79e48f6d2e344402a99821fe795d361c63aad98eada3265c5271769089090827",
+      "id": "7aa84ee2d332762ab69f1e7818679b7165a6d78170a84141eb3f03545aa0c1e7",
       "island": null,
       "locations": [
-        "ENFIELD GREEN 318",
-        "ENFIELD GREEN 322",
-        "ENFIELD GREEN 325",
-        "ENFIELD GREEN 327",
-        "PLOT 319 ENFIELD GREEN",
-        "PLOT 326 ENFIELD GREEN"
+        "EST THOMAS 16 7TH ST",
+        "EST THOMAS 17 7TH",
+        "EST THOMAS 18 7TH ST A-1",
+        "EST THOMAS 18 7TH ST A-3",
+        "EST THOMAS 18 7TH ST A-4",
+        "EST THOMAS 20 7TH ST",
+        "EST THOMAS 34 1ST AVE",
+        "EST THOMAS 34 1ST AVE B-2",
+        "EST THOMAS 36 1ST AVE",
+        "EST THOMAS 36 7TH ST",
+        "EST THOMAS 36A 7TH ST",
+        "EST THOMAS 38 1ST AVE",
+        "EST THOMAS 7TH ST",
+        "ESTATE THOMAS 18 7TH ST",
+        "SUGAR EST. 15 7TH ST"
       ],
-      "modifiedAt": "2026-11-11T17:39:21Z",
-      "name": "T-C-24259",
+      "modifiedAt": "2026-11-11T18:33:20Z",
+      "name": "T-T-16463",
       "neighborhoodIDs": [],
       "point": {
-        "latitude": 17.694356177219184,
-        "longitude": -64.82816456257524
+        "latitude": 18.338470918937503,
+        "longitude": -64.91795878828273
       },
-      "reportedCustomersInitially": 6,
-      "reportedCustomersOut": 6,
+      "reportedCustomersInitially": 26,
+      "reportedCustomersOut": 26,
       "reportedCustomersRestored": 0,
       "sourceStatus": "Predicted",
-      "startedAt": "2026-11-11T17:39:15Z",
-      "verified": false,
-      "workStatus": null
-    },
-    {
-      "cause": null,
-      "crewAssigned": false,
-      "endedAt": null,
-      "estimatedRestoration": null,
-      "id": "7a1809af6d2273818a6bb08e0882ef442d4c163ebb34cde369b7a979ff17def2",
-      "island": null,
-      "locations": [
-        "135K ESTATE WHIM",
-        "WHIM 126",
-        "WHIM 128B",
-        "WHIM 130",
-        "WHIM 134D 135A",
-        "WHIM 134E",
-        "WHIM 134E APT",
-        "WHIM 134-K",
-        "WHIM 135-B",
-        "WHIM 135-J"
-      ],
-      "modifiedAt": "2026-11-11T17:38:35Z",
-      "name": "T-C-23344",
-      "neighborhoodIDs": [],
-      "point": {
-        "latitude": 17.693865266781692,
-        "longitude": -64.84697997027149
-      },
-      "reportedCustomersInitially": 10,
-      "reportedCustomersOut": 10,
-      "reportedCustomersRestored": 0,
-      "sourceStatus": "Predicted",
-      "startedAt": "2026-11-11T17:38:29Z",
+      "startedAt": "2026-11-11T18:33:09Z",
       "verified": false,
       "workStatus": null
     },
@@ -6542,33 +6517,6 @@
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
-      "id": "c81d375da2a9d6a3f1aaeef452bba8b59506c82e96d62abf8455248dd4bde372",
-      "island": null,
-      "locations": [
-        "COTTON VALLEY",
-        "COTTON VALLEY 247",
-        "COTTON VALLEY 251"
-      ],
-      "modifiedAt": "2026-11-11T14:39:49Z",
-      "name": "T-C-10712",
-      "neighborhoodIDs": [],
-      "point": {
-        "latitude": 17.757893497879294,
-        "longitude": -64.61591175245081
-      },
-      "reportedCustomersInitially": 3,
-      "reportedCustomersOut": 3,
-      "reportedCustomersRestored": 0,
-      "sourceStatus": "Predicted",
-      "startedAt": "2026-11-11T14:39:29Z",
-      "verified": false,
-      "workStatus": null
-    },
-    {
-      "cause": null,
-      "crewAssigned": false,
-      "endedAt": null,
-      "estimatedRestoration": null,
       "id": "cbbd2ef62dee6d0405b3a5d5c18b1c3c5a5b4dbca8f2f81c8fc8d71e6fec7176",
       "island": "stThomas",
       "locations": [
@@ -7547,34 +7495,6 @@
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
-      "id": "e3ac87156b44849b039ba5df9cd7d9695fb02a9196293f3fd2b93bd0e330f5e5",
-      "island": null,
-      "locations": [
-        "ENFIELD GREEN 139",
-        "ENFIELD GREEN 158",
-        "ENFIELD GREEN 160",
-        "ENFIELD GREEN 162"
-      ],
-      "modifiedAt": "2026-11-11T17:43:36Z",
-      "name": "T-C-18291",
-      "neighborhoodIDs": [],
-      "point": {
-        "latitude": 17.69211007828012,
-        "longitude": -64.82929731650773
-      },
-      "reportedCustomersInitially": 4,
-      "reportedCustomersOut": 4,
-      "reportedCustomersRestored": 0,
-      "sourceStatus": "Predicted",
-      "startedAt": "2026-11-11T17:43:03Z",
-      "verified": false,
-      "workStatus": null
-    },
-    {
-      "cause": null,
-      "crewAssigned": false,
-      "endedAt": null,
-      "estimatedRestoration": null,
       "id": "ee87199ed08752e93ea2e03c2d820865d93f6657df16f74381367c76a850c7bd",
       "island": null,
       "locations": [
@@ -7597,7 +7517,7 @@
       "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-11T18:30:52Z",
+  "generatedAt": "2026-11-11T18:35:54Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -8168,21 +8088,21 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "265e1b5fc9eb8b362eba5a3a6bcd96019aa99fe5c8a51765166278bdd283ef0b",
+  "snapshotID": "2b641142c6d52bf4098f26852136ab6e9e1d986e317a9b9d91de22a6b8817c8a",
   "source": {
-    "checkedAt": "2026-11-11T18:30:52Z",
+    "checkedAt": "2026-11-11T18:35:54Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-11T18:30:22Z",
+    "updatedAt": "2026-11-11T18:35:21Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "sourceSummary": {
     "customerCountDifference": 2,
-    "customersAffected": 9748,
-    "customersOut": 9748,
+    "customersAffected": 9751,
+    "customersOut": 9751,
     "customersRestored": 0,
     "customersServed": 54723,
-    "eventCustomersOut": 9746,
+    "eventCustomersOut": 9749,
     "hourlyCustomersOut": [
       {
         "at": "2026-11-09T18:00:00Z",
@@ -8362,23 +8282,23 @@
       },
       {
         "at": "2026-11-11T14:00:00Z",
-        "customersOut": 18992
+        "customersOut": 18989
       },
       {
         "at": "2026-11-11T15:00:00Z",
-        "customersOut": 13947
+        "customersOut": 13944
       },
       {
         "at": "2026-11-11T16:00:00Z",
-        "customersOut": 16972
+        "customersOut": 16969
       },
       {
         "at": "2026-11-11T17:00:00Z",
-        "customersOut": 15982
+        "customersOut": 15979
       },
       {
         "at": "2026-11-11T18:00:00Z",
-        "customersOut": 11786
+        "customersOut": 11789
       }
     ],
     "locations": [
@@ -8388,7 +8308,6 @@
       "11A&B KRONP GADE 2ND FL",
       "11A&B KRONPRINDSENS GADE",
       "12B BJERGE GADE",
-      "135K ESTATE WHIM",
       "13A MOUNT PLEASANT",
       "14-D BETHLEHEM NEW WORKS",
       "1CD-8 ESTATE WINTBERG",
@@ -9767,8 +9686,6 @@
       "COREENING HOLE (HONDURAS)",
       "CORPLAND VI 87",
       "COTTON VALLEY",
-      "COTTON VALLEY 247",
-      "COTTON VALLEY 251",
       "CROWN BAY",
       "CROWN BAY #19",
       "CROWN BAY #19 SAND FILL",
@@ -10176,14 +10093,6 @@
       "ELIZABETH 31C UP",
       "EMANCIPATION GARDEN",
       "EMILE GRIFFITH B PARK",
-      "ENFIELD GREEN 139",
-      "ENFIELD GREEN 158",
-      "ENFIELD GREEN 160",
-      "ENFIELD GREEN 162",
-      "ENFIELD GREEN 318",
-      "ENFIELD GREEN 322",
-      "ENFIELD GREEN 325",
-      "ENFIELD GREEN 327",
       "EST 10-A-11 COTTAGE A",
       "EST ADVENTURE",
       "EST AGNES FANCY 55-D",
@@ -10268,8 +10177,21 @@
       "EST ST. JOSEPH-ROSEN 4-B",
       "EST TAARNEBERG 39C APT 3",
       "EST THOMAS 1 1ST ST",
+      "EST THOMAS 16 7TH ST",
+      "EST THOMAS 17 7TH",
+      "EST THOMAS 18 7TH ST A-1",
+      "EST THOMAS 18 7TH ST A-3",
+      "EST THOMAS 18 7TH ST A-4",
+      "EST THOMAS 20 7TH ST",
       "EST THOMAS 246 1ST STREET",
       "EST THOMAS 2B",
+      "EST THOMAS 34 1ST AVE",
+      "EST THOMAS 34 1ST AVE B-2",
+      "EST THOMAS 36 1ST AVE",
+      "EST THOMAS 36 7TH ST",
+      "EST THOMAS 36A 7TH ST",
+      "EST THOMAS 38 1ST AVE",
+      "EST THOMAS 7TH ST",
       "EST THOMAS 8 -",
       "EST WINTBERG",
       "EST WINTBERG 1 CD 2",
@@ -10346,6 +10268,7 @@
       "ESTATE TAARNEBERG 39C",
       "ESTATE THOMAS 1,3, - 5",
       "ESTATE THOMAS 16-1",
+      "ESTATE THOMAS 18 7TH ST",
       "ESTATE UPPER LOVE",
       "ESTATE WINTBERG 1-J",
       "FORT CHRISTIAN",
@@ -13805,8 +13728,6 @@
       "PLESSEN\\CROIXVILLE",
       "PLESSEN\\CROIXVILLE B-D",
       "PLESSEN\\CROIXVILLE B-G",
-      "PLOT 319 ENFIELD GREEN",
-      "PLOT 326 ENFIELD GREEN",
       "PLOT RICHMOND",
       "PLT EST PROFIT",
       "PO &CSTED WATER FRONT",
@@ -14924,6 +14845,7 @@
       "SUBBASE STE 205",
       "SUBBASE UNIT 111",
       "SUBMARINE BASE 40 STE 102",
+      "SUGAR EST. 15 7TH ST",
       "SUITE #1B & 1C",
       "SUITE 230-232",
       "SUNDAY MARKET SQUARE",
@@ -15325,15 +15247,6 @@
       "WESTERN SUBURB 1-ABC A-8",
       "WESTERN SUBURB 1-ABC APT-",
       "WESTERN SUBURB 1-ABC/HSMT",
-      "WHIM 126",
-      "WHIM 128B",
-      "WHIM 130",
-      "WHIM 134D 135A",
-      "WHIM 134E",
-      "WHIM 134E APT",
-      "WHIM 134-K",
-      "WHIM 135-B",
-      "WHIM 135-J",
       "WIMMELSHAKT STORE 11 UNIT",
       "WIMMELSKAFF GADE 6C",
       "WIMMELSKAFT 11",
@@ -15401,8 +15314,8 @@
       "WINTBERG PEAK 1K",
       "YELLOW CEDAR 40-D"
     ],
-    "totalOutages": 22
+    "totalOutages": 19
   },
   "staleAfterSeconds": 900,
-  "unassignedEventCount": 19
+  "unassignedEventCount": 16
 }
