@@ -4303,45 +4303,6 @@
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
-      "id": "7aa84ee2d332762ab69f1e7818679b7165a6d78170a84141eb3f03545aa0c1e7",
-      "island": null,
-      "locations": [
-        "EST THOMAS 16 7TH ST",
-        "EST THOMAS 17 7TH",
-        "EST THOMAS 18 7TH ST A-1",
-        "EST THOMAS 18 7TH ST A-3",
-        "EST THOMAS 18 7TH ST A-4",
-        "EST THOMAS 20 7TH ST",
-        "EST THOMAS 34 1ST AVE",
-        "EST THOMAS 34 1ST AVE B-2",
-        "EST THOMAS 36 1ST AVE",
-        "EST THOMAS 36 7TH ST",
-        "EST THOMAS 36A 7TH ST",
-        "EST THOMAS 38 1ST AVE",
-        "EST THOMAS 7TH ST",
-        "ESTATE THOMAS 18 7TH ST",
-        "SUGAR EST. 15 7TH ST"
-      ],
-      "modifiedAt": "2026-11-11T18:33:20Z",
-      "name": "T-T-16463",
-      "neighborhoodIDs": [],
-      "point": {
-        "latitude": 18.338470918937503,
-        "longitude": -64.91795878828273
-      },
-      "reportedCustomersInitially": 26,
-      "reportedCustomersOut": 26,
-      "reportedCustomersRestored": 0,
-      "sourceStatus": "Predicted",
-      "startedAt": "2026-11-11T18:33:09Z",
-      "verified": false,
-      "workStatus": null
-    },
-    {
-      "cause": null,
-      "crewAssigned": false,
-      "endedAt": null,
-      "estimatedRestoration": null,
       "id": "855ac18c9c808deb6e3c86b9f2d98cc207a4b01d2ef78ff3701bba320f4a94bc",
       "island": null,
       "locations": [
@@ -7447,7 +7408,7 @@
       "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-11T18:40:56Z",
+  "generatedAt": "2026-11-11T18:45:58Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -8018,21 +7979,21 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "733ffb14f277ba489d7fd7373388f41a307369ad6f76e3a05db8fb839110e8b5",
+  "snapshotID": "325b53d46fac6494d08ad79b8b158740094d5903e848bd6f1a915b48d6ea20c6",
   "source": {
-    "checkedAt": "2026-11-11T18:40:56Z",
+    "checkedAt": "2026-11-11T18:45:58Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-11T18:40:21Z",
+    "updatedAt": "2026-11-11T18:45:22Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "sourceSummary": {
     "customerCountDifference": 2,
-    "customersAffected": 9728,
-    "customersOut": 9728,
+    "customersAffected": 9702,
+    "customersOut": 9702,
     "customersRestored": 0,
     "customersServed": 54723,
-    "eventCustomersOut": 9726,
+    "eventCustomersOut": 9700,
     "hourlyCustomersOut": [
       {
         "at": "2026-11-09T18:00:00Z",
@@ -8228,7 +8189,7 @@
       },
       {
         "at": "2026-11-11T18:00:00Z",
-        "customersOut": 11766
+        "customersOut": 11740
       }
     ],
     "locations": [
@@ -10103,21 +10064,8 @@
       "EST ST. JOSEPH-ROSEN 4-B",
       "EST TAARNEBERG 39C APT 3",
       "EST THOMAS 1 1ST ST",
-      "EST THOMAS 16 7TH ST",
-      "EST THOMAS 17 7TH",
-      "EST THOMAS 18 7TH ST A-1",
-      "EST THOMAS 18 7TH ST A-3",
-      "EST THOMAS 18 7TH ST A-4",
-      "EST THOMAS 20 7TH ST",
       "EST THOMAS 246 1ST STREET",
       "EST THOMAS 2B",
-      "EST THOMAS 34 1ST AVE",
-      "EST THOMAS 34 1ST AVE B-2",
-      "EST THOMAS 36 1ST AVE",
-      "EST THOMAS 36 7TH ST",
-      "EST THOMAS 36A 7TH ST",
-      "EST THOMAS 38 1ST AVE",
-      "EST THOMAS 7TH ST",
       "EST THOMAS 8 -",
       "EST WINTBERG",
       "EST WINTBERG 1 CD 2",
@@ -10192,7 +10140,6 @@
       "ESTATE TAARNEBERG 39C",
       "ESTATE THOMAS 1,3, - 5",
       "ESTATE THOMAS 16-1",
-      "ESTATE THOMAS 18 7TH ST",
       "ESTATE UPPER LOVE",
       "ESTATE WINTBERG 1-J",
       "FORT CHRISTIAN",
@@ -14754,7 +14701,6 @@
       "SUBBASE STE 205",
       "SUBBASE UNIT 111",
       "SUBMARINE BASE 40 STE 102",
-      "SUGAR EST. 15 7TH ST",
       "SUITE #1B & 1C",
       "SUITE 230-232",
       "SUNDAY MARKET SQUARE",
@@ -15223,8 +15169,8 @@
       "WINTBERG PEAK 1K",
       "YELLOW CEDAR 40-D"
     ],
-    "totalOutages": 17
+    "totalOutages": 16
   },
   "staleAfterSeconds": 900,
-  "unassignedEventCount": 14
+  "unassignedEventCount": 13
 }
