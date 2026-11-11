@@ -241,97 +241,6 @@
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
-      "id": "3256772a23007138b4699b3f3a8656fe436fb629f5f1e4dcb76bc5fa84b82e41",
-      "island": null,
-      "locations": [
-        "ANNAS RETREAT 128 B",
-        "ANNAS RETREAT 128B",
-        "ANNAS RETREAT 128-B",
-        "ANNAS RETREAT 128B APT-7",
-        "ANNAS RETREAT 128B APT-8",
-        "ANNAS RETREAT 128B B-1",
-        "ANNAS RETREAT 128B MTR-6B",
-        "ANNAS RETREAT 148-313",
-        "EST TUTU 148-3",
-        "EST TUTU 148-312",
-        "EST TUTU 148-5",
-        "ESTATE TUTU 148-313"
-      ],
-      "modifiedAt": "2026-11-11T11:06:16Z",
-      "name": "T-T-11468",
-      "neighborhoodIDs": [],
-      "point": {
-        "latitude": 18.338552359480772,
-        "longitude": -64.88650597328426
-      },
-      "reportedCustomersInitially": 19,
-      "reportedCustomersOut": 19,
-      "reportedCustomersRestored": 0,
-      "sourceStatus": "Predicted",
-      "startedAt": "2026-11-11T11:05:43Z",
-      "verified": false,
-      "workStatus": null
-    },
-    {
-      "cause": null,
-      "crewAssigned": false,
-      "endedAt": null,
-      "estimatedRestoration": null,
-      "id": "3b1abff2f993f0e54ef12c717c435a1159026058baa2794043d735ef2108d92b",
-      "island": null,
-      "locations": [
-        "CHURCH HILL APTS 12",
-        "KING STREET 28-A",
-        "KING STREET 28-B (DNSTRS)",
-        "KING STREET 28-B (UPSTRS)",
-        "NORTH STREET 7EA & 7EB",
-        "RICHMOND 6",
-        "RICHMOND 6 A-1",
-        "RICHMOND 6 A-2",
-        "RICHMOND PARCEL 5",
-        "STRAND ST 19-20 A-2",
-        "STRAND STREET 17A",
-        "STRAND STREET 17-B",
-        "STRAND STREET 19-20",
-        "STRAND STREET 19A",
-        "STRAND STREET 19-B",
-        "STRAND STREET 20",
-        "STRAND STREET 22-B",
-        "STRAND STREET 22C",
-        "STRAND STREET 22-D",
-        "STRAND STREET 22-E",
-        "WEST ST 1B DWN",
-        "WEST STREET 1-A",
-        "WEST STREET 1-B",
-        "WESTERN SUB 1 & 2",
-        "WESTERN SUBURB 14A",
-        "WESTERN SUBURB 14-B",
-        "WESTERN SUBURB 1-ABC",
-        "WESTERN SUBURB 1-ABC A-15",
-        "WESTERN SUBURB 1-ABC A-8",
-        "WESTERN SUBURB 1-ABC APT-",
-        "WESTERN SUBURB 1-ABC/HSMT"
-      ],
-      "modifiedAt": "2026-11-11T03:02:01Z",
-      "name": "T-C-04316",
-      "neighborhoodIDs": [],
-      "point": {
-        "latitude": 17.74337372683344,
-        "longitude": -64.70820572360105
-      },
-      "reportedCustomersInitially": 50,
-      "reportedCustomersOut": 50,
-      "reportedCustomersRestored": 0,
-      "sourceStatus": "Predicted",
-      "startedAt": "2026-11-11T03:01:35Z",
-      "verified": false,
-      "workStatus": null
-    },
-    {
-      "cause": null,
-      "crewAssigned": false,
-      "endedAt": null,
-      "estimatedRestoration": null,
       "id": "3fe68421f129b3d8821626d3bc8f608066a5adebf98d166cab1e2ff3198fba31",
       "island": null,
       "locations": [
@@ -1006,7 +915,7 @@
       "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-11T11:16:22Z",
+  "generatedAt": "2026-11-11T11:21:24Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -1144,21 +1053,21 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "5f211e5a6e695c4dfa61825ffc94b09d754850b18514fdad76082d837a9793b0",
+  "snapshotID": "1fe1050b1a54492c17e9f10dbeb9fd951afbab44b13a78caad6fda7944a75882",
   "source": {
-    "checkedAt": "2026-11-11T11:16:22Z",
+    "checkedAt": "2026-11-11T11:21:24Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-11T11:15:19Z",
+    "updatedAt": "2026-11-11T11:20:18Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "sourceSummary": {
     "customerCountDifference": 2,
-    "customersAffected": 691,
-    "customersOut": 691,
+    "customersAffected": 622,
+    "customersOut": 622,
     "customersRestored": 0,
     "customersServed": 54723,
-    "eventCustomersOut": 689,
+    "eventCustomersOut": 620,
     "hourlyCustomersOut": [
       {
         "at": "2026-11-09T11:00:00Z",
@@ -1322,39 +1231,39 @@
       },
       {
         "at": "2026-11-11T03:00:00Z",
-        "customersOut": 670
+        "customersOut": 620
       },
       {
         "at": "2026-11-11T04:00:00Z",
-        "customersOut": 670
+        "customersOut": 620
       },
       {
         "at": "2026-11-11T05:00:00Z",
-        "customersOut": 670
+        "customersOut": 620
       },
       {
         "at": "2026-11-11T06:00:00Z",
-        "customersOut": 670
+        "customersOut": 620
       },
       {
         "at": "2026-11-11T07:00:00Z",
-        "customersOut": 670
+        "customersOut": 620
       },
       {
         "at": "2026-11-11T08:00:00Z",
-        "customersOut": 670
+        "customersOut": 620
       },
       {
         "at": "2026-11-11T09:00:00Z",
-        "customersOut": 670
+        "customersOut": 620
       },
       {
         "at": "2026-11-11T10:00:00Z",
-        "customersOut": 670
+        "customersOut": 620
       },
       {
         "at": "2026-11-11T11:00:00Z",
-        "customersOut": 689
+        "customersOut": 620
       }
     ],
     "locations": [
@@ -1369,15 +1278,6 @@
       "AGNES FANCY 5-A",
       "AGNES FANCY 5B",
       "AGNES FANCY 5F",
-      "ANNAS RETREAT 128 B",
-      "ANNAS RETREAT 128B",
-      "ANNAS RETREAT 128-B",
-      "ANNAS RETREAT 128B APT-7",
-      "ANNAS RETREAT 128B APT-8",
-      "ANNAS RETREAT 128B B-1",
-      "ANNAS RETREAT 128B MTR-6B",
-      "ANNAS RETREAT 148-313",
-      "CHURCH HILL APTS 12",
       "CONTANT (EL)",
       "CONTANT 108-26",
       "CONTANT 108-A-6",
@@ -1646,9 +1546,6 @@
       "EST THOMAS PD QTR",
       "EST THOMAS PV DWN",
       "EST THOMAS UNTILITY",
-      "EST TUTU 148-3",
-      "EST TUTU 148-312",
-      "EST TUTU 148-5",
       "EST. CONTANT 3AD-1 APT. 2",
       "EST. ELIZABETH 29 MTR. 2",
       "EST. ELIZABETH 29 MTR.1",
@@ -1702,7 +1599,6 @@
       "ESTATE THOMAS A-1-6",
       "ESTATE THOMAS DOWN 14-72",
       "ESTATE THOMAS NQ 6 14J-4",
-      "ESTATE TUTU 148-313",
       "FLAG HILL",
       "FLAG HILL H 1-G",
       "FRYDENDAHL 53-15",
@@ -1714,9 +1610,6 @@
       "GLYNN 254-A SUITE # 1",
       "GRANGE HILL",
       "GRANGE HILL 9",
-      "KING STREET 28-A",
-      "KING STREET 28-B (DNSTRS)",
-      "KING STREET 28-B (UPSTRS)",
       "LERKENLUND 7D 2A",
       "LERKENLUND 9D-1-2",
       "LOVENLUND EST FARMHOUSE",
@@ -1727,7 +1620,6 @@
       "NAZARETH 2W-44",
       "NAZARETH 2W-45",
       "NAZARETH 2-W-76-3",
-      "NORTH STREET 7EA & 7EB",
       "PETERBORG",
       "PETERBORG 10-15 10-16",
       "PETERBORG 9-1-22",
@@ -1739,10 +1631,6 @@
       "PLESSEN 146-A (EL)",
       "PLESSEN 147",
       "PZ EST THOMAS",
-      "RICHMOND 6",
-      "RICHMOND 6 A-1",
-      "RICHMOND 6 A-2",
-      "RICHMOND PARCEL 5",
       "SILVER SHOP)",
       "SMITH BAY",
       "SMITH BAY 98-2 EAST E",
@@ -1768,17 +1656,6 @@
       "SPRAT BAY WATER ISLAND",
       "SPRAT BAY WATER ISLAND 70",
       "SPRAT BAY-WATER ISLAND 91",
-      "STRAND ST 19-20 A-2",
-      "STRAND STREET 17A",
-      "STRAND STREET 17-B",
-      "STRAND STREET 19-20",
-      "STRAND STREET 19A",
-      "STRAND STREET 19-B",
-      "STRAND STREET 20",
-      "STRAND STREET 22-B",
-      "STRAND STREET 22C",
-      "STRAND STREET 22-D",
-      "STRAND STREET 22-E",
       "SUBBASE 100",
       "SUBBASE 101 (EL)",
       "SUBBASE 69",
@@ -1804,17 +1681,6 @@
       "WATER ISLAND LOT 104",
       "WATER ISLAND LOT 94-B",
       "WATER ISLAND SPRAT BAY",
-      "WEST ST 1B DWN",
-      "WEST STREET 1-A",
-      "WEST STREET 1-B",
-      "WESTERN SUB 1 & 2",
-      "WESTERN SUBURB 14A",
-      "WESTERN SUBURB 14-B",
-      "WESTERN SUBURB 1-ABC",
-      "WESTERN SUBURB 1-ABC A-15",
-      "WESTERN SUBURB 1-ABC A-8",
-      "WESTERN SUBURB 1-ABC APT-",
-      "WESTERN SUBURB 1-ABC/HSMT",
       "WHIM 126",
       "WHIM 128B",
       "WHIM 130",
@@ -1825,8 +1691,8 @@
       "WHIM 135-B",
       "WHIM 135-J"
     ],
-    "totalOutages": 22
+    "totalOutages": 20
   },
   "staleAfterSeconds": 900,
-  "unassignedEventCount": 19
+  "unassignedEventCount": 17
 }
