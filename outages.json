@@ -5328,7 +5328,7 @@
         "LINDBERG BAY 4DB",
         "LINDBERG BAY 4-DB UNIT 1"
       ],
-      "modifiedAt": "2026-11-11T22:37:38Z",
+      "modifiedAt": "2026-11-11T22:55:02Z",
       "name": "T-T-15947",
       "neighborhoodIDs": [],
       "point": {
@@ -5370,7 +5370,7 @@
       "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-11T22:51:16Z",
+  "generatedAt": "2026-11-11T22:56:17Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -5455,11 +5455,11 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "5108746718cbea34027e10016322784745b743a4d78b64ba0d9ae228d81158f4",
+  "snapshotID": "24274e37db3203fbcc45af81fb61d2a6875851d6f7921888898ffac6e3fcadfb",
   "source": {
-    "checkedAt": "2026-11-11T22:51:16Z",
+    "checkedAt": "2026-11-11T22:56:17Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-11T22:50:21Z",
+    "updatedAt": "2026-11-11T22:55:21Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
