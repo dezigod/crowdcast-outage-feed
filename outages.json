@@ -1282,53 +1282,6 @@
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
-      "id": "bf4007c0598ef95edc992f418fc7bf4dc02e8861521e21728ab564c7606de628",
-      "island": null,
-      "locations": [
-        "EST THOMAS",
-        "EST THOMAS 8 I APT-6",
-        "EST THOMAS 8A",
-        "EST THOMAS 8-A",
-        "EST THOMAS 8A A-1D",
-        "EST THOMAS 8A A-1E",
-        "EST THOMAS 8A A-2D",
-        "EST THOMAS 8A A-2H",
-        "EST THOMAS 8A APT-3H",
-        "EST THOMAS 8A-8B",
-        "EST THOMAS 8F NQ 1ST FL",
-        "EST THOMAS 8F UP",
-        "EST THOMAS 8FA",
-        "EST THOMAS 8G A-1",
-        "EST THOMAS 8H",
-        "EST THOMAS 8H APT-6",
-        "EST THOMAS 8I",
-        "EST THOMAS 8J",
-        "EST THOMAS 9F",
-        "EST THOMAS 9F UP",
-        "ESTATE THOMAS 8A",
-        "ESTATE THOMAS 8H",
-        "ESTATE THOMAS 8J NO. 6E"
-      ],
-      "modifiedAt": "2026-11-11T20:49:44Z",
-      "name": "T-T-05739",
-      "neighborhoodIDs": [],
-      "point": {
-        "latitude": 18.33526063377046,
-        "longitude": -64.91442304450428
-      },
-      "reportedCustomersInitially": 36,
-      "reportedCustomersOut": 36,
-      "reportedCustomersRestored": 0,
-      "sourceStatus": "Predicted",
-      "startedAt": "2026-11-11T20:49:30Z",
-      "verified": false,
-      "workStatus": null
-    },
-    {
-      "cause": null,
-      "crewAssigned": false,
-      "endedAt": null,
-      "estimatedRestoration": null,
       "id": "cbbd2ef62dee6d0405b3a5d5c18b1c3c5a5b4dbca8f2f81c8fc8d71e6fec7176",
       "island": "stThomas",
       "locations": [
@@ -3246,7 +3199,7 @@
       "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-11T21:30:45Z",
+  "generatedAt": "2026-11-11T21:35:47Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -3441,21 +3394,21 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "70122b4a146e079cb096000cc52bde14880d1a4e6a6e01d0c8996a736f4db336",
+  "snapshotID": "2e4b9cd86b2e886216439d71a280286a00ec91f74c66b5354fbbb63375bf3127",
   "source": {
-    "checkedAt": "2026-11-11T21:30:45Z",
+    "checkedAt": "2026-11-11T21:35:47Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-11T21:30:20Z",
+    "updatedAt": "2026-11-11T21:35:21Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "sourceSummary": {
     "customerCountDifference": 2,
-    "customersAffected": 3428,
-    "customersOut": 3428,
+    "customersAffected": 3392,
+    "customersOut": 3392,
     "customersRestored": 0,
     "customersServed": 54724,
-    "eventCustomersOut": 3426,
+    "eventCustomersOut": 3390,
     "hourlyCustomersOut": [
       {
         "at": "2026-11-09T21:00:00Z",
@@ -3647,11 +3600,11 @@
       },
       {
         "at": "2026-11-11T20:00:00Z",
-        "customersOut": 15247
+        "customersOut": 15211
       },
       {
         "at": "2026-11-11T21:00:00Z",
-        "customersOut": 3426
+        "customersOut": 3390
       }
     ],
     "locations": [
@@ -5067,26 +5020,6 @@
       "EST TABOR & HARMONY 2E",
       "EST TABOR & HARMONY 4-A",
       "EST TABOR & HARMONY 5-8",
-      "EST THOMAS",
-      "EST THOMAS 8 I APT-6",
-      "EST THOMAS 8A",
-      "EST THOMAS 8-A",
-      "EST THOMAS 8A A-1D",
-      "EST THOMAS 8A A-1E",
-      "EST THOMAS 8A A-2D",
-      "EST THOMAS 8A A-2H",
-      "EST THOMAS 8A APT-3H",
-      "EST THOMAS 8A-8B",
-      "EST THOMAS 8F NQ 1ST FL",
-      "EST THOMAS 8F UP",
-      "EST THOMAS 8FA",
-      "EST THOMAS 8G A-1",
-      "EST THOMAS 8H",
-      "EST THOMAS 8H APT-6",
-      "EST THOMAS 8I",
-      "EST THOMAS 8J",
-      "EST THOMAS 9F",
-      "EST THOMAS 9F UP",
       "EST THOMAS WEST 4D-4E",
       "EST TUTU 129A-6",
       "EST TUTU 129A-7",
@@ -5257,9 +5190,6 @@
       "ESTATE MANDAHL 2D",
       "ESTATE MANDAHL 5B-5",
       "ESTATE MANDAHL 8-1-B-1 UP",
-      "ESTATE THOMAS 8A",
-      "ESTATE THOMAS 8H",
-      "ESTATE THOMAS 8J NO. 6E",
       "ESTATE WINTBERG 1-117",
       "ESTATE WINTBERG 1-134",
       "ESTATE WINTBERG 1-B4",
@@ -6556,8 +6486,8 @@
       "ZOOTENVAAL 3Q (MTR 1)",
       "ZOOTENVAAL 3T"
     ],
-    "totalOutages": 14
+    "totalOutages": 13
   },
   "staleAfterSeconds": 900,
-  "unassignedEventCount": 11
+  "unassignedEventCount": 10
 }
