@@ -42,7 +42,7 @@
         "EST. ELIZABETH 29 MTR.1",
         "LERKENLUND 7D 2A"
       ],
-      "modifiedAt": "2026-11-11T04:56:15Z",
+      "modifiedAt": "2026-11-11T12:05:14Z",
       "name": "T-T-38046_1112",
       "neighborhoodIDs": [],
       "point": {
@@ -95,7 +95,7 @@
         "WATER ISLAND LOT 94-B",
         "WATER ISLAND SPRAT BAY"
       ],
-      "modifiedAt": "2026-11-11T04:56:15Z",
+      "modifiedAt": "2026-11-11T12:05:14Z",
       "name": "FUST-03242",
       "neighborhoodIDs": [
         "waterIsland-water-island"
@@ -156,7 +156,7 @@
         "CONTANT 69-7",
         "CONTANT 69-8 7A SS QTR"
       ],
-      "modifiedAt": "2026-11-11T04:56:15Z",
+      "modifiedAt": "2026-11-11T12:05:14Z",
       "name": "T-T-01332",
       "neighborhoodIDs": [],
       "point": {
@@ -168,42 +168,6 @@
       "reportedCustomersRestored": 0,
       "sourceStatus": "Verified",
       "startedAt": "2026-11-11T00:51:24Z",
-      "verified": true,
-      "workStatus": null
-    },
-    {
-      "cause": null,
-      "crewAssigned": false,
-      "endedAt": null,
-      "estimatedRestoration": null,
-      "id": "236eaa60d6926796f1ac834f1f3b016bd82e2c17ee3df73854743696480044f6",
-      "island": null,
-      "locations": [
-        "CONTANT 3 AD",
-        "CONTANT 3 AD APT-A",
-        "CONTANT 3A",
-        "CONTANT 3A-11",
-        "CONTANT 3AE",
-        "CONTANT 3A-E (EL)",
-        "CONTANT 7B",
-        "CONTANT 7B-3-2",
-        "CONTANT 97-98A",
-        "EST. CONTANT 3AD-1 APT. 2",
-        "ESTATE CONTANT 3AD APT-B",
-        "ESTATE CONTANT 3AD APT-C"
-      ],
-      "modifiedAt": "2026-11-11T04:56:15Z",
-      "name": "T-T-16105",
-      "neighborhoodIDs": [],
-      "point": {
-        "latitude": 18.338640774549646,
-        "longitude": -64.95300950446588
-      },
-      "reportedCustomersInitially": 15,
-      "reportedCustomersOut": 15,
-      "reportedCustomersRestored": 0,
-      "sourceStatus": "Verified",
-      "startedAt": "2026-11-11T00:48:48Z",
       "verified": true,
       "workStatus": null
     },
@@ -489,42 +453,6 @@
       "reportedCustomersRestored": 0,
       "sourceStatus": "Verified",
       "startedAt": "2026-10-14T15:23:16Z",
-      "verified": true,
-      "workStatus": null
-    },
-    {
-      "cause": null,
-      "crewAssigned": false,
-      "endedAt": null,
-      "estimatedRestoration": null,
-      "id": "d32bca761d637236f3c3344dcf4d4469ab7923b786225a0cf4fad76bda527a30",
-      "island": null,
-      "locations": [
-        "CONTANT 2D",
-        "CONTANT TOWER BLDG C",
-        "CONTANT TOWERS 2 B-A",
-        "CONTANT TOWERS B-A A-13",
-        "CONTANT TOWERS BLDG B",
-        "CONTANT TOWERS BLDG-A",
-        "CONTANT TOWERS BLDG-B",
-        "CONTANT TOWERS BLDG-C",
-        "CONTANT TOWERS BLDG-D",
-        "EST CONTANT 2 BLDG-C",
-        "FRYDENHOJ 12Q",
-        "TOWERS CONDOMINIUM UNIT"
-      ],
-      "modifiedAt": "2026-11-11T04:56:15Z",
-      "name": "T-T-16838",
-      "neighborhoodIDs": [],
-      "point": {
-        "latitude": 18.338290843714567,
-        "longitude": -64.95413325902052
-      },
-      "reportedCustomersInitially": 82,
-      "reportedCustomersOut": 82,
-      "reportedCustomersRestored": 0,
-      "sourceStatus": "Verified",
-      "startedAt": "2026-11-11T00:50:37Z",
       "verified": true,
       "workStatus": null
     },
@@ -946,7 +874,7 @@
         "CONTANT 108-A-8 UP",
         "CONTANT 108-A-9"
       ],
-      "modifiedAt": "2026-11-11T04:56:15Z",
+      "modifiedAt": "2026-11-11T12:05:14Z",
       "name": "T-T-03301",
       "neighborhoodIDs": [],
       "point": {
@@ -962,7 +890,7 @@
       "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-11T12:00:31Z",
+  "generatedAt": "2026-11-11T12:05:33Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -1100,21 +1028,21 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "54bb09e86c357f33dd6a107d4fa68acd1ee1bec88a1731b75f2cf6ecfb799081",
+  "snapshotID": "34da83b768d3df4a6c65b00f1aaa18ed1e5828da2b85990ada29d4362b977acd",
   "source": {
-    "checkedAt": "2026-11-11T12:00:31Z",
+    "checkedAt": "2026-11-11T12:05:33Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-11T12:00:18Z",
+    "updatedAt": "2026-11-11T12:05:18Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "sourceSummary": {
     "customerCountDifference": 2,
-    "customersAffected": 648,
-    "customersOut": 648,
+    "customersAffected": 551,
+    "customersOut": 551,
     "customersRestored": 0,
     "customersServed": 54723,
-    "eventCustomersOut": 646,
+    "eventCustomersOut": 549,
     "hourlyCustomersOut": [
       {
         "at": "2026-11-09T12:00:00Z",
@@ -1262,55 +1190,55 @@
       },
       {
         "at": "2026-11-11T00:00:00Z",
-        "customersOut": 2903
+        "customersOut": 2806
       },
       {
         "at": "2026-11-11T01:00:00Z",
-        "customersOut": 620
+        "customersOut": 523
       },
       {
         "at": "2026-11-11T02:00:00Z",
-        "customersOut": 620
+        "customersOut": 523
       },
       {
         "at": "2026-11-11T03:00:00Z",
-        "customersOut": 620
+        "customersOut": 523
       },
       {
         "at": "2026-11-11T04:00:00Z",
-        "customersOut": 620
+        "customersOut": 523
       },
       {
         "at": "2026-11-11T05:00:00Z",
-        "customersOut": 620
+        "customersOut": 523
       },
       {
         "at": "2026-11-11T06:00:00Z",
-        "customersOut": 620
+        "customersOut": 523
       },
       {
         "at": "2026-11-11T07:00:00Z",
-        "customersOut": 620
+        "customersOut": 523
       },
       {
         "at": "2026-11-11T08:00:00Z",
-        "customersOut": 620
+        "customersOut": 523
       },
       {
         "at": "2026-11-11T09:00:00Z",
-        "customersOut": 620
+        "customersOut": 523
       },
       {
         "at": "2026-11-11T10:00:00Z",
-        "customersOut": 620
+        "customersOut": 523
       },
       {
         "at": "2026-11-11T11:00:00Z",
-        "customersOut": 646
+        "customersOut": 549
       },
       {
         "at": "2026-11-11T12:00:00Z",
-        "customersOut": 646
+        "customersOut": 549
       }
     ],
     "locations": [
@@ -1330,35 +1258,16 @@
       "CONTANT 108-A-6",
       "CONTANT 108-A-8 UP",
       "CONTANT 108-A-9",
-      "CONTANT 2D",
-      "CONTANT 3 AD",
-      "CONTANT 3 AD APT-A",
-      "CONTANT 3A",
-      "CONTANT 3A-11",
-      "CONTANT 3AE",
-      "CONTANT 3A-E (EL)",
       "CONTANT 41-2",
       "CONTANT 41-3",
       "CONTANT 69-3",
       "CONTANT 69-6 7A SSIDE QTR",
       "CONTANT 69-7",
       "CONTANT 69-8 7A SS QTR",
-      "CONTANT 7B",
-      "CONTANT 7B-3-2",
-      "CONTANT 97-98A",
-      "CONTANT TOWER BLDG C",
-      "CONTANT TOWERS 2 B-A",
-      "CONTANT TOWERS B-A A-13",
-      "CONTANT TOWERS BLDG B",
-      "CONTANT TOWERS BLDG-A",
-      "CONTANT TOWERS BLDG-B",
-      "CONTANT TOWERS BLDG-C",
-      "CONTANT TOWERS BLDG-D",
       "COTTON VALLEY",
       "DIAMOND 18",
       "ELIZABETH",
       "ELIZABETH 31C UP",
-      "EST CONTANT 2 BLDG-C",
       "EST ELIZABETH",
       "EST ELIZABETH 29 & 31",
       "EST NAZARETH 2W-40",
@@ -1593,15 +1502,12 @@
       "EST THOMAS PD QTR",
       "EST THOMAS PV DWN",
       "EST THOMAS UNTILITY",
-      "EST. CONTANT 3AD-1 APT. 2",
       "EST. ELIZABETH 29 MTR. 2",
       "EST. ELIZABETH 29 MTR.1",
       "EST. THOMAS 14-41 A-1",
       "EST. THOMAS 14PIA UP",
       "EST. THOMAS 5G 2ND FL",
       "EST.THOMAS 14-45 A-2",
-      "ESTATE CONTANT 3AD APT-B",
-      "ESTATE CONTANT 3AD APT-C",
       "ESTATE PETERBORG 9-1-26",
       "ESTATE THOMAS 14-1",
       "ESTATE THOMAS 14-37",
@@ -1649,7 +1555,6 @@
       "FLAG HILL",
       "FLAG HILL H 1-G",
       "FRYDENDAHL 53-15",
-      "FRYDENHOJ 12Q",
       "GLYNN 254",
       "GLYNN 254 A SUITE 6",
       "GLYNN 254-A",
@@ -1730,7 +1635,6 @@
       "SUBBASE 101 (EL)",
       "SUBBASE 69",
       "THOMAS 7A & 7B B-2 APT-1",
-      "TOWERS CONDOMINIUM UNIT",
       "WATER ISLAND",
       "WATER ISLAND #80",
       "WATER ISLAND #89",
@@ -1761,8 +1665,8 @@
       "WHIM 135-B",
       "WHIM 135-J"
     ],
-    "totalOutages": 21
+    "totalOutages": 19
   },
   "staleAfterSeconds": 900,
-  "unassignedEventCount": 18
+  "unassignedEventCount": 16
 }
