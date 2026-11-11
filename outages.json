@@ -241,6 +241,61 @@
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
+      "id": "3b1abff2f993f0e54ef12c717c435a1159026058baa2794043d735ef2108d92b",
+      "island": null,
+      "locations": [
+        "CHURCH HILL APTS 12",
+        "KING STREET 28-A",
+        "KING STREET 28-B (DNSTRS)",
+        "KING STREET 28-B (UPSTRS)",
+        "NORTH STREET 7EA & 7EB",
+        "RICHMOND 6",
+        "RICHMOND 6 A-1",
+        "RICHMOND 6 A-2",
+        "RICHMOND PARCEL 5",
+        "STRAND ST 19-20 A-2",
+        "STRAND STREET 17A",
+        "STRAND STREET 17-B",
+        "STRAND STREET 19-20",
+        "STRAND STREET 19A",
+        "STRAND STREET 19-B",
+        "STRAND STREET 20",
+        "STRAND STREET 22-B",
+        "STRAND STREET 22C",
+        "STRAND STREET 22-D",
+        "STRAND STREET 22-E",
+        "WEST ST 1B DWN",
+        "WEST STREET 1-A",
+        "WEST STREET 1-B",
+        "WESTERN SUB 1 & 2",
+        "WESTERN SUBURB 14A",
+        "WESTERN SUBURB 14-B",
+        "WESTERN SUBURB 1-ABC",
+        "WESTERN SUBURB 1-ABC A-15",
+        "WESTERN SUBURB 1-ABC A-8",
+        "WESTERN SUBURB 1-ABC APT-",
+        "WESTERN SUBURB 1-ABC/HSMT"
+      ],
+      "modifiedAt": "2026-11-11T03:02:01Z",
+      "name": "T-C-04316",
+      "neighborhoodIDs": [],
+      "point": {
+        "latitude": 17.74337372683344,
+        "longitude": -64.70820572360105
+      },
+      "reportedCustomersInitially": 50,
+      "reportedCustomersOut": 50,
+      "reportedCustomersRestored": 0,
+      "sourceStatus": "Predicted",
+      "startedAt": "2026-11-11T03:01:35Z",
+      "verified": false,
+      "workStatus": null
+    },
+    {
+      "cause": null,
+      "crewAssigned": false,
+      "endedAt": null,
+      "estimatedRestoration": null,
       "id": "3fe68421f129b3d8821626d3bc8f608066a5adebf98d166cab1e2ff3198fba31",
       "island": null,
       "locations": [
@@ -5396,7 +5451,7 @@
       "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-11T03:00:32Z",
+  "generatedAt": "2026-11-11T03:05:34Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -5534,21 +5589,21 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "ce778078ed286961224aa426886103a8a685c310481e8d60cd94d61e6f2fdd71",
+  "snapshotID": "68b930902b249f081dbba45d5e2c736bd630ac3bb27c5525cc376881643e7cac",
   "source": {
-    "checkedAt": "2026-11-11T03:00:32Z",
+    "checkedAt": "2026-11-11T03:05:34Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-11T03:00:20Z",
+    "updatedAt": "2026-11-11T03:05:20Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "sourceSummary": {
     "customerCountDifference": 2,
-    "customersAffected": 6277,
-    "customersOut": 6277,
+    "customersAffected": 6327,
+    "customersOut": 6327,
     "customersRestored": 0,
     "customersServed": 54723,
-    "eventCustomersOut": 6275,
+    "eventCustomersOut": 6325,
     "hourlyCustomersOut": [
       {
         "at": "2026-11-09T03:00:00Z",
@@ -5744,7 +5799,7 @@
       },
       {
         "at": "2026-11-11T03:00:00Z",
-        "customersOut": 6275
+        "customersOut": 6325
       }
     ],
     "locations": [
@@ -6333,6 +6388,7 @@
       "CARET BAY\\WEST 2E-44",
       "CARET BAY21-2E-50A",
       "CARET BAY-EAST #7",
+      "CHURCH HILL APTS 12",
       "COMMANDANT GADE 12",
       "CONTAN 320",
       "CONTANT",
@@ -8738,6 +8794,9 @@
       "JOHN DUNKOE 5",
       "JOHN DUNKOE 6-3B-3C",
       "JOHN DUNKOE 8",
+      "KING STREET 28-A",
+      "KING STREET 28-B (DNSTRS)",
+      "KING STREET 28-B (UPSTRS)",
       "KRUM BAY 6 - LPG TRAILERS",
       "KRUM BAY GREEN FUEL TANKS",
       "KRUM BAY GREEN TANKS",
@@ -9696,6 +9755,7 @@
       "NISKY 6 CHARGING STATION",
       "NISKY 6*",
       "NORTH STAR VILLAGE 41",
+      "NORTH STREET 7EA & 7EB",
       "O H COURT BLDG-17",
       "PARCEL 1CJ EST DOROTHEA",
       "PARCEL 4XE EST FORTUNA",
@@ -9821,6 +9881,10 @@
       "PZ EST THOMAS",
       "REM ESTATE ST PETER",
       "RESOLUTION",
+      "RICHMOND 6",
+      "RICHMOND 6 A-1",
+      "RICHMOND 6 A-2",
+      "RICHMOND PARCEL 5",
       "SANTA MARIA",
       "SANTA MARIA #1 WEST END",
       "SANTA MARIA 1C",
@@ -10450,6 +10514,17 @@
       "ST. PETER 3H-26",
       "ST. PETER 7-15 DWN",
       "ST. PETER DOWN",
+      "STRAND ST 19-20 A-2",
+      "STRAND STREET 17A",
+      "STRAND STREET 17-B",
+      "STRAND STREET 19-20",
+      "STRAND STREET 19A",
+      "STRAND STREET 19-B",
+      "STRAND STREET 20",
+      "STRAND STREET 22-B",
+      "STRAND STREET 22C",
+      "STRAND STREET 22-D",
+      "STRAND STREET 22-E",
       "SUBBASE (WATER DISTR",
       "SUBBASE 100",
       "SUBBASE 101 (EL)",
@@ -10613,6 +10688,17 @@
       "WATER ISLE 62",
       "WATER ISLE 63",
       "WEST CARET BAY",
+      "WEST ST 1B DWN",
+      "WEST STREET 1-A",
+      "WEST STREET 1-B",
+      "WESTERN SUB 1 & 2",
+      "WESTERN SUBURB 14A",
+      "WESTERN SUBURB 14-B",
+      "WESTERN SUBURB 1-ABC",
+      "WESTERN SUBURB 1-ABC A-15",
+      "WESTERN SUBURB 1-ABC A-8",
+      "WESTERN SUBURB 1-ABC APT-",
+      "WESTERN SUBURB 1-ABC/HSMT",
       "WHIM 126",
       "WHIM 128B",
       "WHIM 130",
@@ -10625,8 +10711,8 @@
       "ZUERIENDENHEIT",
       "ZUFRIDENHEIT 1"
     ],
-    "totalOutages": 21
+    "totalOutages": 22
   },
   "staleAfterSeconds": 900,
-  "unassignedEventCount": 18
+  "unassignedEventCount": 19
 }
