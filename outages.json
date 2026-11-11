@@ -6432,6 +6432,33 @@
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
+      "id": "c81d375da2a9d6a3f1aaeef452bba8b59506c82e96d62abf8455248dd4bde372",
+      "island": null,
+      "locations": [
+        "COTTON VALLEY",
+        "COTTON VALLEY 247",
+        "COTTON VALLEY 251"
+      ],
+      "modifiedAt": "2026-11-11T14:39:49Z",
+      "name": "T-C-10712",
+      "neighborhoodIDs": [],
+      "point": {
+        "latitude": 17.757893497879294,
+        "longitude": -64.61591175245081
+      },
+      "reportedCustomersInitially": 3,
+      "reportedCustomersOut": 3,
+      "reportedCustomersRestored": 0,
+      "sourceStatus": "Predicted",
+      "startedAt": "2026-11-11T14:39:29Z",
+      "verified": false,
+      "workStatus": null
+    },
+    {
+      "cause": null,
+      "crewAssigned": false,
+      "endedAt": null,
+      "estimatedRestoration": null,
       "id": "cbbd2ef62dee6d0405b3a5d5c18b1c3c5a5b4dbca8f2f81c8fc8d71e6fec7176",
       "island": "stThomas",
       "locations": [
@@ -10796,7 +10823,7 @@
       "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-11T14:35:46Z",
+  "generatedAt": "2026-11-11T14:40:48Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -11512,21 +11539,21 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "2dac80ce4999e73b6268fbe39bf66a195c7bb4b13f040ce347e71f027317cd50",
+  "snapshotID": "746ab21e13a481f59c2a23623bbab417c1c1fef278e53ef88549eeeeaf42662d",
   "source": {
-    "checkedAt": "2026-11-11T14:35:46Z",
+    "checkedAt": "2026-11-11T14:40:48Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-11T14:35:24Z",
+    "updatedAt": "2026-11-11T14:40:24Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "sourceSummary": {
     "customerCountDifference": 2,
-    "customersAffected": 13404,
-    "customersOut": 13404,
+    "customersAffected": 13407,
+    "customersOut": 13407,
     "customersRestored": 0,
     "customersServed": 54723,
-    "eventCustomersOut": 13402,
+    "eventCustomersOut": 13405,
     "hourlyCustomersOut": [
       {
         "at": "2026-11-09T14:00:00Z",
@@ -11722,7 +11749,7 @@
       },
       {
         "at": "2026-11-11T14:00:00Z",
-        "customersOut": 18497
+        "customersOut": 18500
       }
     ],
     "locations": [
@@ -14064,6 +14091,8 @@
       "COTTAGE 9-Y",
       "COTTAGE PLOT 26",
       "COTTON VALLEY",
+      "COTTON VALLEY 247",
+      "COTTON VALLEY 251",
       "DANISH GARDEN APARTMENTS",
       "DIAMOND",
       "DIAMOND 1",
@@ -21985,8 +22014,8 @@
       "WORK-REST PLOT 22-F",
       "WROK & REST 357"
     ],
-    "totalOutages": 20
+    "totalOutages": 21
   },
   "staleAfterSeconds": 900,
-  "unassignedEventCount": 17
+  "unassignedEventCount": 18
 }
