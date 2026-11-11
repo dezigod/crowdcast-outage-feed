@@ -58,36 +58,6 @@
       "workStatus": null
     },
     {
-      "cause": null,
-      "crewAssigned": false,
-      "endedAt": null,
-      "estimatedRestoration": null,
-      "id": "1b51530d31f45ad973788e26d8a0a1770dc566a77b6fba61f91aa2252b86b922",
-      "island": null,
-      "locations": [
-        "DIAMOND",
-        "DIAMOND 15",
-        "DIAMOND 15 METER 2",
-        "DIAMOND 23",
-        "DIAMOND 24",
-        "DIAMOND RUBY"
-      ],
-      "modifiedAt": "2026-11-11T16:54:47Z",
-      "name": "T-C-14943",
-      "neighborhoodIDs": [],
-      "point": {
-        "latitude": 17.728337573104834,
-        "longitude": -64.7537905626366
-      },
-      "reportedCustomersInitially": 7,
-      "reportedCustomersOut": 7,
-      "reportedCustomersRestored": 0,
-      "sourceStatus": "Predicted",
-      "startedAt": "2026-11-11T16:54:18Z",
-      "verified": false,
-      "workStatus": null
-    },
-    {
       "cause": "300 Material or equipment fault/failure",
       "crewAssigned": false,
       "endedAt": null,
@@ -183,7 +153,7 @@
         "CARET BAY 2E-51-17 UP",
         "ESTATE CARET BAY 2E-51-5"
       ],
-      "modifiedAt": "2026-11-11T15:21:00Z",
+      "modifiedAt": "2026-11-11T17:28:58Z",
       "name": "T-T-02074",
       "neighborhoodIDs": [],
       "point": {
@@ -1008,7 +978,7 @@
         "SCOTT FREE UP",
         "UPPER JOHN DUNKOE 56"
       ],
-      "modifiedAt": "2026-11-11T17:06:29Z",
+      "modifiedAt": "2026-11-11T17:28:49Z",
       "name": "T-T-09133",
       "neighborhoodIDs": [],
       "point": {
@@ -9255,7 +9225,7 @@
       "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-11T17:26:27Z",
+  "generatedAt": "2026-11-11T17:31:29Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -9634,21 +9604,21 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "fb4c47acc78513b7014832c5a242a64776a73420c477ac046483b9adfb8b91d6",
+  "snapshotID": "931b5875485ce68e7b9da42adc8304810b25bbbf02df279223b2ae34b0911de4",
   "source": {
-    "checkedAt": "2026-11-11T17:26:27Z",
+    "checkedAt": "2026-11-11T17:31:29Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-11T17:25:23Z",
+    "updatedAt": "2026-11-11T17:30:23Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "sourceSummary": {
     "customerCountDifference": 2,
-    "customersAffected": 11455,
-    "customersOut": 11455,
+    "customersAffected": 11448,
+    "customersOut": 11448,
     "customersRestored": 0,
     "customersServed": 54723,
-    "eventCustomersOut": 11453,
+    "eventCustomersOut": 11446,
     "hourlyCustomersOut": [
       {
         "at": "2026-11-09T17:00:00Z",
@@ -9840,11 +9810,11 @@
       },
       {
         "at": "2026-11-11T16:00:00Z",
-        "customersOut": 17007
+        "customersOut": 17000
       },
       {
         "at": "2026-11-11T17:00:00Z",
-        "customersOut": 13667
+        "customersOut": 13660
       }
     ],
     "locations": [
@@ -11252,8 +11222,6 @@
       "DIAMOND 1",
       "DIAMOND 1 C-2",
       "DIAMOND 12B",
-      "DIAMOND 15",
-      "DIAMOND 15 METER 2",
       "DIAMOND 18",
       "DIAMOND 1AR",
       "DIAMOND 1AR STORE # 1",
@@ -11262,8 +11230,6 @@
       "DIAMOND 1D STORE 2",
       "DIAMOND 1-DA",
       "DIAMOND 1-K",
-      "DIAMOND 23",
-      "DIAMOND 24",
       "DIAMOND 26",
       "DIAMOND 3AB (PUMP)",
       "DIAMOND 9",
@@ -18484,8 +18450,8 @@
       "WILLIAMS DELIGHT PLOT 577",
       "WILLIAMS DELIGHT/LED HWY"
     ],
-    "totalOutages": 24
+    "totalOutages": 23
   },
   "staleAfterSeconds": 900,
-  "unassignedEventCount": 21
+  "unassignedEventCount": 20
 }
