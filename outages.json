@@ -2769,36 +2769,6 @@
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
-      "id": "5b35a04b6218ab8fa736d686a23b185f6b6b00d09ac380a749b8875c4bd58385",
-      "island": null,
-      "locations": [
-        "EST UPPER JOHN DUNKO #57",
-        "SCOTT FREE 47",
-        "SCOTT FREE 54",
-        "SCOTT FREE 54 DWN",
-        "SCOTT FREE UP",
-        "UPPER JOHN DUNKOE 56"
-      ],
-      "modifiedAt": "2026-11-11T17:44:56Z",
-      "name": "T-T-09133",
-      "neighborhoodIDs": [],
-      "point": {
-        "latitude": 18.34675706557234,
-        "longitude": -64.9509581212159
-      },
-      "reportedCustomersInitially": 6,
-      "reportedCustomersOut": 6,
-      "reportedCustomersRestored": 0,
-      "sourceStatus": "Predicted",
-      "startedAt": "2026-11-11T17:06:27Z",
-      "verified": false,
-      "workStatus": null
-    },
-    {
-      "cause": null,
-      "crewAssigned": false,
-      "endedAt": null,
-      "estimatedRestoration": null,
       "id": "688d24f7b6e72cb60f9dd7cfcfc315b9ee0efe7095b9fbf192b7ed84c8031d54",
       "island": "stThomas",
       "locations": [
@@ -3721,7 +3691,7 @@
       "workStatus": null
     },
     {
-      "cause": null,
+      "cause": "000 Power supply",
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
@@ -4042,7 +4012,7 @@
         "VISTA MAR",
         "VISTA MAR LAUNDRY"
       ],
-      "modifiedAt": "2026-11-11T17:14:03Z",
+      "modifiedAt": "2026-11-11T17:59:54Z",
       "name": "STX Feeder 06B",
       "neighborhoodIDs": [],
       "point": {
@@ -6661,45 +6631,9 @@
       "startedAt": "2026-11-08T12:04:28Z",
       "verified": true,
       "workStatus": null
-    },
-    {
-      "cause": null,
-      "crewAssigned": false,
-      "endedAt": null,
-      "estimatedRestoration": null,
-      "id": "fb7ea22054ed510abcd90e2d56c8351b9af02c6cc6aa00507c8c3964b06b7d82",
-      "island": null,
-      "locations": [
-        "EST LERKENLUND 7",
-        "EST LERLENLUND",
-        "ESTATE LERKENLUND 7D-2B",
-        "LERKENLUND",
-        "LERKENLUND 7",
-        "LERKENLUND 7B",
-        "LERKENLUND 7D-2B DW",
-        "LERKENLUND 7D-2B UP",
-        "LERKENLUND 7E",
-        "LERKENLUND 7E REMAINDER",
-        "LERKENLUND 7F",
-        "MISGUNST 7G"
-      ],
-      "modifiedAt": "2026-11-11T17:53:55Z",
-      "name": "T-T-05698",
-      "neighborhoodIDs": [],
-      "point": {
-        "latitude": 18.355084608313575,
-        "longitude": -64.9372601169571
-      },
-      "reportedCustomersInitially": 13,
-      "reportedCustomersOut": 13,
-      "reportedCustomersRestored": 0,
-      "sourceStatus": "Predicted",
-      "startedAt": "2026-11-11T17:53:39Z",
-      "verified": false,
-      "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-11T17:55:37Z",
+  "generatedAt": "2026-11-11T18:00:39Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -6863,26 +6797,22 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "ed140c415009e6f03269b0ea9cbcdbfa3639e288da4a251ccbc107708c2726b0",
+  "snapshotID": "bf5fee984b432b60e81f1b76ebe1fd0b4362e0f1b96f3eb2f16d1213085f6206",
   "source": {
-    "checkedAt": "2026-11-11T17:55:37Z",
+    "checkedAt": "2026-11-11T18:00:39Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-11T17:55:21Z",
+    "updatedAt": "2026-11-11T18:00:21Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "sourceSummary": {
     "customerCountDifference": 2,
-    "customersAffected": 8310,
-    "customersOut": 8310,
+    "customersAffected": 8291,
+    "customersOut": 8291,
     "customersRestored": 0,
     "customersServed": 54723,
-    "eventCustomersOut": 8308,
+    "eventCustomersOut": 8289,
     "hourlyCustomersOut": [
-      {
-        "at": "2026-11-09T17:00:00Z",
-        "customersOut": 2108
-      },
       {
         "at": "2026-11-09T18:00:00Z",
         "customersOut": 5707
@@ -7074,6 +7004,10 @@
       {
         "at": "2026-11-11T17:00:00Z",
         "customersOut": 16004
+      },
+      {
+        "at": "2026-11-11T18:00:00Z",
+        "customersOut": 8289
       }
     ],
     "locations": [
@@ -8508,8 +8442,6 @@
       "EST GEORGES PLOT 194",
       "EST GOLDEN GROVE MOBILE",
       "EST GOLDEN GROVE MOBILE*",
-      "EST LERKENLUND 7",
-      "EST LERLENLUND",
       "EST LOWER LOVE",
       "EST LOWER LOVE CENTERLINE",
       "EST MORNING STAR 212",
@@ -8546,7 +8478,6 @@
       "EST SMITH BAY 84",
       "EST SMITH BAY 93",
       "EST TUTU #173A-52 UP",
-      "EST UPPER JOHN DUNKO #57",
       "EST. ADVENTURE",
       "EST. ELIZABETH 29 MTR. 2",
       "EST. ELIZABETH 29 MTR.1",
@@ -8571,7 +8502,6 @@
       "ESTATE GLYNN 236",
       "ESTATE GOLDEN GROVE",
       "ESTATE GROVE PLACE 48",
-      "ESTATE LERKENLUND 7D-2B",
       "ESTATE LOWER LOVE",
       "ESTATE PARADISE 5-B-1",
       "ESTATE PETERBORG 9-1-26",
@@ -9583,15 +9513,7 @@
       "LEB VILLAS PHASE II A-314",
       "LEB VILLAS PHASE III",
       "LEMON HOLLOW 5-A",
-      "LERKENLUND",
-      "LERKENLUND 7",
-      "LERKENLUND 7B",
       "LERKENLUND 7D 2A",
-      "LERKENLUND 7D-2B DW",
-      "LERKENLUND 7D-2B UP",
-      "LERKENLUND 7E",
-      "LERKENLUND 7E REMAINDER",
-      "LERKENLUND 7F",
       "LERKENLUND 9D-1-2",
       "LIMPRICH PARK (KING ST)",
       "LITTLE LA GRANGE 10 (REM)",
@@ -9938,7 +9860,6 @@
       "MARYS FANCY 76-C",
       "MERCURY LIGHT WHARF",
       "MIDLAND P-1",
-      "MISGUNST 7G",
       "MODULAR CLASSROOM - IEKHS",
       "MON BIJOU",
       "MON BIJOU 18-A",
@@ -11698,10 +11619,6 @@
       "SAPPHIRE WEST",
       "SAPPHIRE WEST D-33",
       "SCALE HOUSE BLDG-WHARF",
-      "SCOTT FREE 47",
-      "SCOTT FREE 54",
-      "SCOTT FREE 54 DWN",
-      "SCOTT FREE UP",
       "SEC DK EST NEGRO BAY",
       "SI0N FARM 49",
       "SION FARM 20",
@@ -12819,7 +12736,6 @@
       "UPPER BETHLEHEM 2-B",
       "UPPER BETHLEHEM PLT 99",
       "UPPER BETHLEHEM TRACT 3",
-      "UPPER JOHN DUNKOE 56",
       "UPPER LOVE",
       "UPPER LOVE (COTTAGE)",
       "UPPER LOVE (WOODEN HSE)",
@@ -13114,8 +13030,8 @@
       "WHIM 135-J",
       "YELLOW CEDAR 40-D"
     ],
-    "totalOutages": 26
+    "totalOutages": 24
   },
   "staleAfterSeconds": 900,
-  "unassignedEventCount": 23
+  "unassignedEventCount": 21
 }
