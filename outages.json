@@ -5320,6 +5320,34 @@
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
+      "id": "d36db8241f1849bc6f4ae2982c7832eae55e4361b11960034310d6c5203961d5",
+      "island": null,
+      "locations": [
+        "LINDBERG BAY 11B",
+        "LINDBERG BAY 4D",
+        "LINDBERG BAY 4DB",
+        "LINDBERG BAY 4-DB UNIT 1"
+      ],
+      "modifiedAt": "2026-11-11T22:37:38Z",
+      "name": "T-T-15947",
+      "neighborhoodIDs": [],
+      "point": {
+        "latitude": 18.339531871665407,
+        "longitude": -64.96143704363254
+      },
+      "reportedCustomersInitially": 4,
+      "reportedCustomersOut": 4,
+      "reportedCustomersRestored": 0,
+      "sourceStatus": "Predicted",
+      "startedAt": "2026-11-11T22:37:07Z",
+      "verified": false,
+      "workStatus": null
+    },
+    {
+      "cause": null,
+      "crewAssigned": false,
+      "endedAt": null,
+      "estimatedRestoration": null,
       "id": "ee87199ed08752e93ea2e03c2d820865d93f6657df16f74381367c76a850c7bd",
       "island": null,
       "locations": [
@@ -5342,7 +5370,7 @@
       "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-11T22:36:11Z",
+  "generatedAt": "2026-11-11T22:41:13Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -5427,21 +5455,21 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "b439cd72fa7790302eb238952d8761e01c20dd3ae4122e14d3070c189a687e73",
+  "snapshotID": "732bf914e007343f2f4130b833dd7a1fcd53ff60b78054b127abb99038bc5818",
   "source": {
-    "checkedAt": "2026-11-11T22:36:11Z",
+    "checkedAt": "2026-11-11T22:41:13Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-11T22:35:21Z",
+    "updatedAt": "2026-11-11T22:40:21Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "sourceSummary": {
     "customerCountDifference": 2,
-    "customersAffected": 6543,
-    "customersOut": 6543,
+    "customersAffected": 6547,
+    "customersOut": 6547,
     "customersRestored": 0,
     "customersServed": 54724,
-    "eventCustomersOut": 6541,
+    "eventCustomersOut": 6545,
     "hourlyCustomersOut": [
       {
         "at": "2026-11-09T22:00:00Z",
@@ -5637,7 +5665,7 @@
       },
       {
         "at": "2026-11-11T22:00:00Z",
-        "customersOut": 9900
+        "customersOut": 9904
       }
     ],
     "locations": [
@@ -8576,6 +8604,10 @@
       "LANGMATH 11-G-8",
       "LERKENLUND 10F AMA VIEW",
       "LERKENLUND 9D-1-2",
+      "LINDBERG BAY 11B",
+      "LINDBERG BAY 4D",
+      "LINDBERG BAY 4DB",
+      "LINDBERG BAY 4-DB UNIT 1",
       "LITTLE ST. JAMES ISLAND",
       "LOT 15 EST. THOMAS",
       "LOT 18-16 SMITH BAY",
@@ -10610,8 +10642,8 @@
       "WEST SAPPHIRE BAY CONDO",
       "WIC DOCK BAY BLDG-2"
     ],
-    "totalOutages": 15
+    "totalOutages": 16
   },
   "staleAfterSeconds": 900,
-  "unassignedEventCount": 12
+  "unassignedEventCount": 13
 }
