@@ -297,3 +297,17 @@ contiguous two-hour slots. Changed layouts, incomplete/extra text, contradictory
 dates, or shifted columns fail closed. A new date is read from both printed
 headings, never inferred from download time or HTTP metadata. Unreviewed or
 past-day PDFs are fetched fully instead of accepting a stale conditional 304.
+
+### November 11, 2026 social-source review
+
+The two current official November 11 STT/STJ images were visually reviewed at
+2026-11-11T18:09:47Z: [daytime](https://www.facebook.com/photo/?fbid=1446021834386654&set=pb.100069365522656.-2207520000)
+and [evening](https://www.facebook.com/photo/?fbid=1446021881053316&set=pb.100069365522656.-2207520000).
+The seven 08:00–22:00 AST windows retain their original published feeder and
+area labels, including partial-feeder qualifiers, and remain tentative only.
+An [independent tracker](https://www.vislandguide.com/wapa-power-outages) claims
+revised noon areas differing from the image;
+the original revision was not verified. The rows therefore retain the official
+images, not the tracker edits, and do not confirm actual outages or the latest
+noon revision. The disputed 12:00–14:00 slot had ended when reviewed. Existing
+today-only filtering and local-midnight expiry remain unchanged.

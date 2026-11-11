@@ -99,5 +99,118 @@
         ]
       }
     ]
+  },
+  "2026-11-11": {
+    "checkedAt": "2026-11-11T18:09:47Z",
+    "sources": [
+      {
+        "url": "https://www.facebook.com/photo/?fbid=1446021834386654&set=pb.100069365522656.-2207520000",
+        "fingerprint": "cc84438db8ac64ef63a86d16acd296e4ae1fe9b84e06f4394aefba000a9c552e"
+      },
+      {
+        "url": "https://www.facebook.com/photo/?fbid=1446021881053316&set=pb.100069365522656.-2207520000",
+        "fingerprint": "8f0302945bbaedf8819d5ad33d91769afbab07041a67c3460a1e89c319a648f7"
+      }
+    ],
+    "windows": [
+      {
+        "id": "2026-11-11-0800",
+        "startsAt": "2026-11-11T08:00:00-04:00",
+        "endsAt": "2026-11-11T10:00:00-04:00",
+        "feeders": [
+          "Feeder 8B",
+          "Feeder 7E"
+        ],
+        "areas": [
+          "Ross Taarneberg to Peterborg",
+          "Mall",
+          "Yacht Haven"
+        ]
+      },
+      {
+        "id": "2026-11-11-1000",
+        "startsAt": "2026-11-11T10:00:00-04:00",
+        "endsAt": "2026-11-11T12:00:00-04:00",
+        "feeders": [
+          "Feeder 7A",
+          "Feeder 10B"
+        ],
+        "areas": [
+          "Altona to Drake’s Seat",
+          "Paul M. Pearson Garden to Bolongo"
+        ]
+      },
+      {
+        "id": "2026-11-11-1200",
+        "startsAt": "2026-11-11T12:00:00-04:00",
+        "endsAt": "2026-11-11T14:00:00-04:00",
+        "feeders": [
+          "Feeder 7C",
+          "Feeder 9C Partial"
+        ],
+        "areas": [
+          "Annas Retreat to Sapphire",
+          "Nadir to Red Hook/Nazareth"
+        ]
+      },
+      {
+        "id": "2026-11-11-1400",
+        "startsAt": "2026-11-11T14:00:00-04:00",
+        "endsAt": "2026-11-11T16:00:00-04:00",
+        "feeders": [
+          "Feeder 8A",
+          "Feeder 8B"
+        ],
+        "areas": [
+          "Crown Bay to Hospital Ground",
+          "Estate Ross to Peterborg"
+        ]
+      },
+      {
+        "id": "2026-11-11-1600",
+        "startsAt": "2026-11-11T16:00:00-04:00",
+        "endsAt": "2026-11-11T18:00:00-04:00",
+        "feeders": [
+          "Feeder 7B",
+          "Feeder 7E",
+          "Feeder 7A"
+        ],
+        "areas": [
+          "Estate Thomas to Tabor and Harmony",
+          "Cruz Bay to Zootenvaal",
+          "Altona to Drake’s Seat"
+        ]
+      },
+      {
+        "id": "2026-11-11-1800",
+        "startsAt": "2026-11-11T18:00:00-04:00",
+        "endsAt": "2026-11-11T20:00:00-04:00",
+        "feeders": [
+          "Feeder 9C",
+          "Feeder 7C Partial",
+          "Feeder 8B"
+        ],
+        "areas": [
+          "Charlotte Amalie/Estate Bovoni/Nadir/Red Hook/Nazareth",
+          "Cassi Hill to Sapphire",
+          "Estate Ross to Peterborg"
+        ]
+      },
+      {
+        "id": "2026-11-11-2000",
+        "startsAt": "2026-11-11T20:00:00-04:00",
+        "endsAt": "2026-11-11T22:00:00-04:00",
+        "feeders": [
+          "Feeder 6A",
+          "Feeder 8A",
+          "Feeder 10B"
+        ],
+        "areas": [
+          "Subbase/Nisky to Crown & Hawk/Estate Pearl/Fortuna",
+          "Crown Bay to Hospital Ground",
+          "PMP Garden to Bolongo"
+        ]
+      }
+    ]
   }
 }
