@@ -241,6 +241,42 @@
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
+      "id": "3256772a23007138b4699b3f3a8656fe436fb629f5f1e4dcb76bc5fa84b82e41",
+      "island": null,
+      "locations": [
+        "ANNAS RETREAT 128 B",
+        "ANNAS RETREAT 128B",
+        "ANNAS RETREAT 128-B",
+        "ANNAS RETREAT 128B APT-7",
+        "ANNAS RETREAT 128B APT-8",
+        "ANNAS RETREAT 128B B-1",
+        "ANNAS RETREAT 128B MTR-6B",
+        "ANNAS RETREAT 148-313",
+        "EST TUTU 148-3",
+        "EST TUTU 148-312",
+        "EST TUTU 148-5",
+        "ESTATE TUTU 148-313"
+      ],
+      "modifiedAt": "2026-11-11T11:06:16Z",
+      "name": "T-T-11468",
+      "neighborhoodIDs": [],
+      "point": {
+        "latitude": 18.338552359480772,
+        "longitude": -64.88650597328426
+      },
+      "reportedCustomersInitially": 19,
+      "reportedCustomersOut": 19,
+      "reportedCustomersRestored": 0,
+      "sourceStatus": "Predicted",
+      "startedAt": "2026-11-11T11:05:43Z",
+      "verified": false,
+      "workStatus": null
+    },
+    {
+      "cause": null,
+      "crewAssigned": false,
+      "endedAt": null,
+      "estimatedRestoration": null,
       "id": "3b1abff2f993f0e54ef12c717c435a1159026058baa2794043d735ef2108d92b",
       "island": null,
       "locations": [
@@ -970,7 +1006,7 @@
       "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-11T11:06:19Z",
+  "generatedAt": "2026-11-11T11:11:21Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -1108,21 +1144,21 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "1210ef2c57da146ad098cb39e5a42c9c07cbf5280e726e146c3c07a2304815ca",
+  "snapshotID": "c4a9dc6fd492d1f2db5f6b3553f2c337f5ac4e6771900e22ae0d66fa26bb6c71",
   "source": {
-    "checkedAt": "2026-11-11T11:06:19Z",
+    "checkedAt": "2026-11-11T11:11:21Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-11T11:05:19Z",
+    "updatedAt": "2026-11-11T11:10:18Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "sourceSummary": {
     "customerCountDifference": 2,
-    "customersAffected": 672,
-    "customersOut": 672,
+    "customersAffected": 691,
+    "customersOut": 691,
     "customersRestored": 0,
     "customersServed": 54723,
-    "eventCustomersOut": 670,
+    "eventCustomersOut": 689,
     "hourlyCustomersOut": [
       {
         "at": "2026-11-09T11:00:00Z",
@@ -1318,7 +1354,7 @@
       },
       {
         "at": "2026-11-11T11:00:00Z",
-        "customersOut": 670
+        "customersOut": 689
       }
     ],
     "locations": [
@@ -1333,6 +1369,14 @@
       "AGNES FANCY 5-A",
       "AGNES FANCY 5B",
       "AGNES FANCY 5F",
+      "ANNAS RETREAT 128 B",
+      "ANNAS RETREAT 128B",
+      "ANNAS RETREAT 128-B",
+      "ANNAS RETREAT 128B APT-7",
+      "ANNAS RETREAT 128B APT-8",
+      "ANNAS RETREAT 128B B-1",
+      "ANNAS RETREAT 128B MTR-6B",
+      "ANNAS RETREAT 148-313",
       "CHURCH HILL APTS 12",
       "CONTANT (EL)",
       "CONTANT 108-26",
@@ -1602,6 +1646,9 @@
       "EST THOMAS PD QTR",
       "EST THOMAS PV DWN",
       "EST THOMAS UNTILITY",
+      "EST TUTU 148-3",
+      "EST TUTU 148-312",
+      "EST TUTU 148-5",
       "EST. CONTANT 3AD-1 APT. 2",
       "EST. ELIZABETH 29 MTR. 2",
       "EST. ELIZABETH 29 MTR.1",
@@ -1655,6 +1702,7 @@
       "ESTATE THOMAS A-1-6",
       "ESTATE THOMAS DOWN 14-72",
       "ESTATE THOMAS NQ 6 14J-4",
+      "ESTATE TUTU 148-313",
       "FLAG HILL",
       "FLAG HILL H 1-G",
       "FRYDENDAHL 53-15",
@@ -1777,8 +1825,8 @@
       "WHIM 135-B",
       "WHIM 135-J"
     ],
-    "totalOutages": 21
+    "totalOutages": 22
   },
   "staleAfterSeconds": 900,
-  "unassignedEventCount": 18
+  "unassignedEventCount": 19
 }
