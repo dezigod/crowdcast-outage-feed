@@ -2176,6 +2176,57 @@
       "workStatus": null
     },
     {
+      "cause": null,
+      "crewAssigned": false,
+      "endedAt": null,
+      "estimatedRestoration": null,
+      "id": "55e79d8e6d11f041dd91fc71b30582139ecb094d7db8e946e175f6a97da167ea",
+      "island": null,
+      "locations": [
+        "MORNING STAR",
+        "MORNING STAR 100",
+        "MORNING STAR 102",
+        "MORNING STAR 41",
+        "MORNING STAR 44",
+        "MORNING STAR 52",
+        "MORNING STAR 53",
+        "MORNING STAR 54",
+        "MORNING STAR 54 A-2",
+        "MORNING STAR 54 A-3",
+        "MORNING STAR 55 (DWNSTRS)",
+        "MORNING STAR 55 (UPSTRS)",
+        "MORNING STAR 57",
+        "MORNING STAR 58",
+        "MORNING STAR 58-B",
+        "MORNING STAR 59",
+        "MORNING STAR 6",
+        "MORNING STAR 61 DWNSTRS",
+        "MORNING STAR 61 MID U-2",
+        "MORNING STAR 61 UPSTRS",
+        "MORNING STAR 63",
+        "MORNING STAR 67",
+        "MORNING STAR 70",
+        "MORNING STAR 71",
+        "MORNING STAR 88",
+        "MORNING STAR 93",
+        "MORNING STAR 94"
+      ],
+      "modifiedAt": "2026-11-11T16:23:42Z",
+      "name": "T-C-14103",
+      "neighborhoodIDs": [],
+      "point": {
+        "latitude": 17.75634955312804,
+        "longitude": -64.76235038410368
+      },
+      "reportedCustomersInitially": 28,
+      "reportedCustomersOut": 28,
+      "reportedCustomersRestored": 0,
+      "sourceStatus": "Predicted",
+      "startedAt": "2026-11-11T16:23:09Z",
+      "verified": false,
+      "workStatus": null
+    },
+    {
       "cause": "000 Power supply",
       "crewAssigned": false,
       "endedAt": null,
@@ -13161,7 +13212,7 @@
       "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-11T16:16:32Z",
+  "generatedAt": "2026-11-11T16:25:34Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -14112,21 +14163,21 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "1a88fc8ad75a1e9878a2ad40f35a198f21cbbcb79d958fa2c4da004afa4c58d7",
+  "snapshotID": "e7790f48cd4c8fa66caca0b42cc06d8b76768698b0d5332d3797dbf5b23fdebd",
   "source": {
-    "checkedAt": "2026-11-11T16:16:32Z",
+    "checkedAt": "2026-11-11T16:25:34Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-11T16:15:26Z",
+    "updatedAt": "2026-11-11T16:25:26Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "sourceSummary": {
     "customerCountDifference": 2,
-    "customersAffected": 16378,
-    "customersOut": 16378,
+    "customersAffected": 16406,
+    "customersOut": 16406,
     "customersRestored": 0,
     "customersServed": 54723,
-    "eventCustomersOut": 16376,
+    "eventCustomersOut": 16404,
     "hourlyCustomersOut": [
       {
         "at": "2026-11-09T16:00:00Z",
@@ -14322,7 +14373,7 @@
       },
       {
         "at": "2026-11-11T16:00:00Z",
-        "customersOut": 17789
+        "customersOut": 17817
       }
     ],
     "locations": [
@@ -20506,6 +20557,33 @@
       "MONTPELLIER 26",
       "MONTPELLIER 5-B",
       "MONTPELLIER 71",
+      "MORNING STAR",
+      "MORNING STAR 100",
+      "MORNING STAR 102",
+      "MORNING STAR 41",
+      "MORNING STAR 44",
+      "MORNING STAR 52",
+      "MORNING STAR 53",
+      "MORNING STAR 54",
+      "MORNING STAR 54 A-2",
+      "MORNING STAR 54 A-3",
+      "MORNING STAR 55 (DWNSTRS)",
+      "MORNING STAR 55 (UPSTRS)",
+      "MORNING STAR 57",
+      "MORNING STAR 58",
+      "MORNING STAR 58-B",
+      "MORNING STAR 59",
+      "MORNING STAR 6",
+      "MORNING STAR 61 DWNSTRS",
+      "MORNING STAR 61 MID U-2",
+      "MORNING STAR 61 UPSTRS",
+      "MORNING STAR 63",
+      "MORNING STAR 67",
+      "MORNING STAR 70",
+      "MORNING STAR 71",
+      "MORNING STAR 88",
+      "MORNING STAR 93",
+      "MORNING STAR 94",
       "MOUNT ROYALE",
       "MOUNT VICTORY 10-11",
       "MOUNT VICTORY 13 ( WELL)",
@@ -26752,8 +26830,8 @@
       "ZUERIENDENHEIT",
       "ZUFRIDENHEIT 1"
     ],
-    "totalOutages": 28
+    "totalOutages": 29
   },
   "staleAfterSeconds": 900,
-  "unassignedEventCount": 25
+  "unassignedEventCount": 26
 }
