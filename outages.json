@@ -241,6 +241,53 @@
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
+      "id": "32f1f11a2c93740aa8fc57d2f9dabe9dc8d6381ea4c5d2f1769ba30f2ddf4d8b",
+      "island": null,
+      "locations": [
+        "RED HOOK 18-7 SUITE 207",
+        "RED HOOK 205",
+        "RED HOOK CENTER",
+        "RED HOOK CENTER SUITE 103",
+        "RED HOOK PLAZA",
+        "RED HOOK SHOP CENTER",
+        "RED HOOK SHOP SHOP C 205",
+        "RED HOOK UNIT 208",
+        "RED HOOK VILLAS B-E A-211",
+        "REDHOOK VILLAS SMITH BAY",
+        "SMITH BAY 18-9 18-10-11",
+        "SMITH BAY 18-9-18-10 U-",
+        "SMITH BAY 18A 1-2-3",
+        "SMITH BAY 18A 1-3-5",
+        "SMITH BAY 18A 1-35 U-215",
+        "SMITH BAY 18A B-E",
+        "SMITH BAY 18A B-E A-311 R",
+        "SMITH BAY 18A REDHOOK VIL",
+        "SMITH BAY 18A U-112",
+        "SMITH BAY 18A-1-2-3",
+        "SMITH BAY 18A-1-3-5",
+        "SMITH BAY 18-A-1-3-5",
+        "SMITH BAY 18A-7 REDHOOK V"
+      ],
+      "modifiedAt": "2026-11-11T11:57:43Z",
+      "name": "T-T-11988",
+      "neighborhoodIDs": [],
+      "point": {
+        "latitude": 18.326685131338188,
+        "longitude": -64.85173688229494
+      },
+      "reportedCustomersInitially": 26,
+      "reportedCustomersOut": 26,
+      "reportedCustomersRestored": 0,
+      "sourceStatus": "Predicted",
+      "startedAt": "2026-11-11T11:57:17Z",
+      "verified": false,
+      "workStatus": null
+    },
+    {
+      "cause": null,
+      "crewAssigned": false,
+      "endedAt": null,
+      "estimatedRestoration": null,
       "id": "3fe68421f129b3d8821626d3bc8f608066a5adebf98d166cab1e2ff3198fba31",
       "island": null,
       "locations": [
@@ -413,53 +460,6 @@
       "reportedCustomersRestored": 0,
       "sourceStatus": "Predicted",
       "startedAt": "2026-11-10T19:44:26Z",
-      "verified": false,
-      "workStatus": null
-    },
-    {
-      "cause": null,
-      "crewAssigned": false,
-      "endedAt": null,
-      "estimatedRestoration": null,
-      "id": "c4d08e451364a7361119068deac8b7cc41406decb83846a1efb164015b328d3c",
-      "island": null,
-      "locations": [
-        "RED HOOK 18-7 SUITE 207",
-        "RED HOOK 205",
-        "RED HOOK CENTER",
-        "RED HOOK CENTER SUITE 103",
-        "RED HOOK PLAZA",
-        "RED HOOK SHOP CENTER",
-        "RED HOOK SHOP SHOP C 205",
-        "RED HOOK UNIT 208",
-        "RED HOOK VILLAS B-E A-211",
-        "REDHOOK VILLAS SMITH BAY",
-        "SMITH BAY 18-9 18-10-11",
-        "SMITH BAY 18-9-18-10 U-",
-        "SMITH BAY 18A 1-2-3",
-        "SMITH BAY 18A 1-3-5",
-        "SMITH BAY 18A 1-35 U-215",
-        "SMITH BAY 18A B-E",
-        "SMITH BAY 18A B-E A-311 R",
-        "SMITH BAY 18A REDHOOK VIL",
-        "SMITH BAY 18A U-112",
-        "SMITH BAY 18A-1-2-3",
-        "SMITH BAY 18A-1-3-5",
-        "SMITH BAY 18-A-1-3-5",
-        "SMITH BAY 18A-7 REDHOOK V"
-      ],
-      "modifiedAt": "2026-11-11T11:49:09Z",
-      "name": "T-T-11988",
-      "neighborhoodIDs": [],
-      "point": {
-        "latitude": 18.326685131338188,
-        "longitude": -64.85173688229494
-      },
-      "reportedCustomersInitially": 26,
-      "reportedCustomersOut": 26,
-      "reportedCustomersRestored": 0,
-      "sourceStatus": "Predicted",
-      "startedAt": "2026-11-11T11:49:05Z",
       "verified": false,
       "workStatus": null
     },
@@ -962,7 +962,7 @@
       "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-11T11:55:30Z",
+  "generatedAt": "2026-11-11T12:00:31Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -1100,11 +1100,11 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "ea64716f326360b2633a43da157970da83fad8a45aabf7cd9956567c0383aa20",
+  "snapshotID": "54bb09e86c357f33dd6a107d4fa68acd1ee1bec88a1731b75f2cf6ecfb799081",
   "source": {
-    "checkedAt": "2026-11-11T11:55:30Z",
+    "checkedAt": "2026-11-11T12:00:31Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-11T11:55:18Z",
+    "updatedAt": "2026-11-11T12:00:18Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
@@ -1116,10 +1116,6 @@
     "customersServed": 54723,
     "eventCustomersOut": 646,
     "hourlyCustomersOut": [
-      {
-        "at": "2026-11-09T11:00:00Z",
-        "customersOut": 419
-      },
       {
         "at": "2026-11-09T12:00:00Z",
         "customersOut": 1504
@@ -1310,6 +1306,10 @@
       },
       {
         "at": "2026-11-11T11:00:00Z",
+        "customersOut": 646
+      },
+      {
+        "at": "2026-11-11T12:00:00Z",
         "customersOut": 646
       }
     ],
