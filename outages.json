@@ -1249,6 +1249,35 @@
       "workStatus": null
     },
     {
+      "cause": null,
+      "crewAssigned": false,
+      "endedAt": null,
+      "estimatedRestoration": null,
+      "id": "4084d2364dd89719cf160ac85951f335b6ad71897f6f5cb26ddb093b1ed0564e",
+      "island": null,
+      "locations": [
+        "CARET BAY 2E-51-14W",
+        "CARET BAY 2E-51-16",
+        "CARET BAY 2E-51-17",
+        "CARET BAY 2E-51-17 UP",
+        "ESTATE CARET BAY 2E-51-5"
+      ],
+      "modifiedAt": "2026-11-11T15:21:00Z",
+      "name": "T-T-02074",
+      "neighborhoodIDs": [],
+      "point": {
+        "latitude": 18.370791968758112,
+        "longitude": -64.9800982935457
+      },
+      "reportedCustomersInitially": 6,
+      "reportedCustomersOut": 6,
+      "reportedCustomersRestored": 0,
+      "sourceStatus": "Predicted",
+      "startedAt": "2026-11-11T15:20:51Z",
+      "verified": false,
+      "workStatus": null
+    },
+    {
       "cause": "000 Power supply",
       "crewAssigned": false,
       "endedAt": null,
@@ -12621,7 +12650,7 @@
       "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-11T15:21:07Z",
+  "generatedAt": "2026-11-11T15:26:09Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -13572,21 +13601,21 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "8601916c2f1cba66a66c9436272dc167ae9c2e92b3eae605ddc0b48129b72138",
+  "snapshotID": "7af12b190d00160318ae45d189eacd994c593fb0c5a78ca90518fdab0a97e419",
   "source": {
-    "checkedAt": "2026-11-11T15:21:07Z",
+    "checkedAt": "2026-11-11T15:26:09Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-11T15:20:25Z",
+    "updatedAt": "2026-11-11T15:25:25Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "sourceSummary": {
     "customerCountDifference": 2,
-    "customersAffected": 15627,
-    "customersOut": 15627,
+    "customersAffected": 15633,
+    "customersOut": 15633,
     "customersRestored": 0,
     "customersServed": 54723,
-    "eventCustomersOut": 15625,
+    "eventCustomersOut": 15631,
     "hourlyCustomersOut": [
       {
         "at": "2026-11-09T15:00:00Z",
@@ -13782,7 +13811,7 @@
       },
       {
         "at": "2026-11-11T15:00:00Z",
-        "customersOut": 15625
+        "customersOut": 15631
       }
     ],
     "locations": [
@@ -15334,6 +15363,10 @@
       "CARAMBOLA-SAMAN VILLAS",
       "CARAMBOLA-SWEET LIME",
       "CARAMBOLA-SWEET LIME U-14",
+      "CARET BAY 2E-51-14W",
+      "CARET BAY 2E-51-16",
+      "CARET BAY 2E-51-17",
+      "CARET BAY 2E-51-17 UP",
       "CARGO TERMINAL",
       "CARGO TERMINAL STX ALEXAN",
       "CARLTON",
@@ -17118,6 +17151,7 @@
       "ESTATE CANE 20A- B",
       "ESTATE CANE 55",
       "ESTATE CANE 56",
+      "ESTATE CARET BAY 2E-51-5",
       "ESTATE CARLTON 1-I",
       "ESTATE CARLTON 33",
       "ESTATE CONCORDIA 118",
@@ -25816,8 +25850,8 @@
       "ZUERIENDENHEIT",
       "ZUFRIDENHEIT 1"
     ],
-    "totalOutages": 22
+    "totalOutages": 23
   },
   "staleAfterSeconds": 900,
-  "unassignedEventCount": 19
+  "unassignedEventCount": 20
 }
