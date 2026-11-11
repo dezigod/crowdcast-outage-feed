@@ -1857,37 +1857,6 @@
       "workStatus": null
     },
     {
-      "cause": null,
-      "crewAssigned": false,
-      "endedAt": null,
-      "estimatedRestoration": null,
-      "id": "190b8f6736cade6749635b460c41d037f64518c3950baeb33ac466ca8c98b45a",
-      "island": null,
-      "locations": [
-        "ELIZABETH",
-        "ELIZABETH 31C UP",
-        "EST ELIZABETH",
-        "EST ELIZABETH 29 & 31",
-        "EST. ELIZABETH 29 MTR. 2",
-        "EST. ELIZABETH 29 MTR.1",
-        "LERKENLUND 7D 2A"
-      ],
-      "modifiedAt": "2026-11-11T12:43:09Z",
-      "name": "T-T-38046_1112",
-      "neighborhoodIDs": [],
-      "point": {
-        "latitude": 18.35411802131439,
-        "longitude": -64.93843345792644
-      },
-      "reportedCustomersInitially": 7,
-      "reportedCustomersOut": 7,
-      "reportedCustomersRestored": 0,
-      "sourceStatus": "Verified",
-      "startedAt": "2026-11-10T23:28:21Z",
-      "verified": true,
-      "workStatus": null
-    },
-    {
       "cause": "300 Material or equipment fault/failure",
       "crewAssigned": false,
       "endedAt": null,
@@ -1960,7 +1929,7 @@
         "SMITH BAY 18-23 A-1C",
         "SMITH BAY 18-26-1"
       ],
-      "modifiedAt": "2026-11-11T18:27:20Z",
+      "modifiedAt": "2026-11-11T18:38:29Z",
       "name": "T-T-08233",
       "neighborhoodIDs": [],
       "point": {
@@ -6478,45 +6447,6 @@
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
-      "id": "b1fb90226909ddc7c33c19d476c3d516fb383d6e50333951644c7d478c51efe1",
-      "island": null,
-      "locations": [
-        "SMITH BAY",
-        "SMITH BAY 98-2 EAST E",
-        "SMITH BAY 98-3",
-        "SMITH BAY 98-8-1",
-        "SMITH BAY 98-8-1 & 98-6 L",
-        "SMITH BAY 98-8-1 98-6 U-M",
-        "SMITH BAY 98-8-1 L-4",
-        "SMITH BAY 98-8-1 L-5",
-        "SMITH BAY 98-8-1/98-6 B-N",
-        "SMITH BAY 98-8-1/98-6 UL-",
-        "SMITH BAY 98-8-1/98-6 UL1",
-        "SMITH BAY 98-8-1A 98-6 N-",
-        "SMITH BAY 98-8-1A/98-6 N-",
-        "SMITH BAY 98-8-1A/98-6 U-",
-        "SMITH BAY 98-8-1A/98-6B-N"
-      ],
-      "modifiedAt": "2026-11-11T18:09:29Z",
-      "name": "T-T-08375",
-      "neighborhoodIDs": [],
-      "point": {
-        "latitude": 18.340828542797695,
-        "longitude": -64.8707609639116
-      },
-      "reportedCustomersInitially": 16,
-      "reportedCustomersOut": 16,
-      "reportedCustomersRestored": 0,
-      "sourceStatus": "Verified",
-      "startedAt": "2026-11-10T19:44:26Z",
-      "verified": true,
-      "workStatus": null
-    },
-    {
-      "cause": null,
-      "crewAssigned": false,
-      "endedAt": null,
-      "estimatedRestoration": null,
       "id": "cbbd2ef62dee6d0405b3a5d5c18b1c3c5a5b4dbca8f2f81c8fc8d71e6fec7176",
       "island": "stThomas",
       "locations": [
@@ -6542,7 +6472,7 @@
       "workStatus": null
     },
     {
-      "cause": null,
+      "cause": "300 Material or equipment fault/failure",
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
@@ -6557,7 +6487,7 @@
         "PETERBORG 9-1-27",
         "PETERBORG 9-1-28"
       ],
-      "modifiedAt": "2026-11-11T13:47:48Z",
+      "modifiedAt": "2026-11-11T18:36:32Z",
       "name": "T-T-14447",
       "neighborhoodIDs": [
         "stThomas-peterborg"
@@ -7517,7 +7447,7 @@
       "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-11T18:35:54Z",
+  "generatedAt": "2026-11-11T18:40:56Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -8088,25 +8018,25 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "2b641142c6d52bf4098f26852136ab6e9e1d986e317a9b9d91de22a6b8817c8a",
+  "snapshotID": "733ffb14f277ba489d7fd7373388f41a307369ad6f76e3a05db8fb839110e8b5",
   "source": {
-    "checkedAt": "2026-11-11T18:35:54Z",
+    "checkedAt": "2026-11-11T18:40:56Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-11T18:35:21Z",
+    "updatedAt": "2026-11-11T18:40:21Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "sourceSummary": {
     "customerCountDifference": 2,
-    "customersAffected": 9751,
-    "customersOut": 9751,
+    "customersAffected": 9728,
+    "customersOut": 9728,
     "customersRestored": 0,
     "customersServed": 54723,
-    "eventCustomersOut": 9749,
+    "eventCustomersOut": 9726,
     "hourlyCustomersOut": [
       {
         "at": "2026-11-09T18:00:00Z",
-        "customersOut": 5698
+        "customersOut": 3623
       },
       {
         "at": "2026-11-09T19:00:00Z",
@@ -8222,83 +8152,83 @@
       },
       {
         "at": "2026-11-10T23:00:00Z",
-        "customersOut": 6521
+        "customersOut": 6514
       },
       {
         "at": "2026-11-11T00:00:00Z",
-        "customersOut": 2552
+        "customersOut": 2545
       },
       {
         "at": "2026-11-11T01:00:00Z",
-        "customersOut": 269
+        "customersOut": 262
       },
       {
         "at": "2026-11-11T02:00:00Z",
-        "customersOut": 269
+        "customersOut": 246
       },
       {
         "at": "2026-11-11T03:00:00Z",
-        "customersOut": 269
+        "customersOut": 246
       },
       {
         "at": "2026-11-11T04:00:00Z",
-        "customersOut": 269
+        "customersOut": 246
       },
       {
         "at": "2026-11-11T05:00:00Z",
-        "customersOut": 761
+        "customersOut": 738
       },
       {
         "at": "2026-11-11T06:00:00Z",
-        "customersOut": 761
+        "customersOut": 738
       },
       {
         "at": "2026-11-11T07:00:00Z",
-        "customersOut": 761
+        "customersOut": 738
       },
       {
         "at": "2026-11-11T08:00:00Z",
-        "customersOut": 761
+        "customersOut": 738
       },
       {
         "at": "2026-11-11T09:00:00Z",
-        "customersOut": 761
+        "customersOut": 738
       },
       {
         "at": "2026-11-11T10:00:00Z",
-        "customersOut": 761
+        "customersOut": 738
       },
       {
         "at": "2026-11-11T11:00:00Z",
-        "customersOut": 761
+        "customersOut": 738
       },
       {
         "at": "2026-11-11T12:00:00Z",
-        "customersOut": 26883
+        "customersOut": 26860
       },
       {
         "at": "2026-11-11T13:00:00Z",
-        "customersOut": 17706
+        "customersOut": 17683
       },
       {
         "at": "2026-11-11T14:00:00Z",
-        "customersOut": 18989
+        "customersOut": 18966
       },
       {
         "at": "2026-11-11T15:00:00Z",
-        "customersOut": 13944
+        "customersOut": 13921
       },
       {
         "at": "2026-11-11T16:00:00Z",
-        "customersOut": 16969
+        "customersOut": 16946
       },
       {
         "at": "2026-11-11T17:00:00Z",
-        "customersOut": 15979
+        "customersOut": 15956
       },
       {
         "at": "2026-11-11T18:00:00Z",
-        "customersOut": 11789
+        "customersOut": 11766
       }
     ],
     "locations": [
@@ -10089,8 +10019,6 @@
       "EAST STREET 1-2",
       "EAST STREET 67 METER A",
       "EAST STREET 67(GUEST HSE)",
-      "ELIZABETH",
-      "ELIZABETH 31C UP",
       "EMANCIPATION GARDEN",
       "EMILE GRIFFITH B PARK",
       "EST 10-A-11 COTTAGE A",
@@ -10109,8 +10037,6 @@
       "EST CONTANT 19-42",
       "EST CONTANT 28-7B",
       "EST DIAMOND 163 (EL)",
-      "EST ELIZABETH",
-      "EST ELIZABETH 29 & 31",
       "EST GEORGES PLOT 194",
       "EST GOLDEN GROVE MOBILE",
       "EST GOLDEN GROVE MOBILE*",
@@ -10206,8 +10132,6 @@
       "EST ZUFRIEDENHEIT #12",
       "EST, TAARNEBERG 40-CB,",
       "EST. ADVENTURE",
-      "EST. ELIZABETH 29 MTR. 2",
-      "EST. ELIZABETH 29 MTR.1",
       "EST. OLD WORKS",
       "EST. PETERBORG 10-2-22",
       "EST. PETERBORG 11-15",
@@ -11920,7 +11844,6 @@
       "LEMON STRADE 2A",
       "LEMON STRADE 2B",
       "LEMON STRAEDE 3A-4B",
-      "LERKENLUND 7D 2A",
       "LERKENLUND 9D-1-2",
       "LEVKOI STRADE",
       "LEVKOI STRADE 10A",
@@ -14396,20 +14319,6 @@
       "SMITH BAY 18-23 A-1C",
       "SMITH BAY 18-26-1",
       "SMITH BAY 88C MTR 2",
-      "SMITH BAY 98-2 EAST E",
-      "SMITH BAY 98-3",
-      "SMITH BAY 98-8-1",
-      "SMITH BAY 98-8-1 & 98-6 L",
-      "SMITH BAY 98-8-1 98-6 U-M",
-      "SMITH BAY 98-8-1 L-4",
-      "SMITH BAY 98-8-1 L-5",
-      "SMITH BAY 98-8-1/98-6 B-N",
-      "SMITH BAY 98-8-1/98-6 UL-",
-      "SMITH BAY 98-8-1/98-6 UL1",
-      "SMITH BAY 98-8-1A 98-6 N-",
-      "SMITH BAY 98-8-1A/98-6 N-",
-      "SMITH BAY 98-8-1A/98-6 U-",
-      "SMITH BAY 98-8-1A/98-6B-N",
       "SMITHFIELD 24",
       "SNEGEL GADE #7",
       "SNEGEL GADE 2B",
@@ -15314,8 +15223,8 @@
       "WINTBERG PEAK 1K",
       "YELLOW CEDAR 40-D"
     ],
-    "totalOutages": 19
+    "totalOutages": 17
   },
   "staleAfterSeconds": 900,
-  "unassignedEventCount": 16
+  "unassignedEventCount": 14
 }
