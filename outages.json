@@ -42,7 +42,7 @@
         "EST. ELIZABETH 29 MTR.1",
         "LERKENLUND 7D 2A"
       ],
-      "modifiedAt": "2026-11-11T00:54:17Z",
+      "modifiedAt": "2026-11-11T04:56:15Z",
       "name": "T-T-38046_1112",
       "neighborhoodIDs": [],
       "point": {
@@ -95,7 +95,7 @@
         "WATER ISLAND LOT 94-B",
         "WATER ISLAND SPRAT BAY"
       ],
-      "modifiedAt": "2026-11-11T00:54:17Z",
+      "modifiedAt": "2026-11-11T04:56:15Z",
       "name": "FUST-03242",
       "neighborhoodIDs": [
         "waterIsland-water-island"
@@ -156,7 +156,7 @@
         "CONTANT 69-7",
         "CONTANT 69-8 7A SS QTR"
       ],
-      "modifiedAt": "2026-11-11T00:54:17Z",
+      "modifiedAt": "2026-11-11T04:56:15Z",
       "name": "T-T-01332",
       "neighborhoodIDs": [],
       "point": {
@@ -192,7 +192,7 @@
         "ESTATE CONTANT 3AD APT-B",
         "ESTATE CONTANT 3AD APT-C"
       ],
-      "modifiedAt": "2026-11-11T00:54:17Z",
+      "modifiedAt": "2026-11-11T04:56:15Z",
       "name": "T-T-16105",
       "neighborhoodIDs": [],
       "point": {
@@ -521,7 +521,7 @@
         "FRYDENHOJ 12Q",
         "TOWERS CONDOMINIUM UNIT"
       ],
-      "modifiedAt": "2026-11-11T00:54:17Z",
+      "modifiedAt": "2026-11-11T04:56:15Z",
       "name": "T-T-16838",
       "neighborhoodIDs": [],
       "point": {
@@ -583,7 +583,7 @@
         "PETERBORG 9-1-27",
         "PETERBORG 9-1-28"
       ],
-      "modifiedAt": "2026-11-10T21:40:00Z",
+      "modifiedAt": "2026-11-11T04:56:15Z",
       "name": "T-T-14447",
       "neighborhoodIDs": [
         "stThomas-peterborg"
@@ -954,7 +954,7 @@
         "CONTANT 108-A-8 UP",
         "CONTANT 108-A-9"
       ],
-      "modifiedAt": "2026-11-11T00:54:17Z",
+      "modifiedAt": "2026-11-11T04:56:15Z",
       "name": "T-T-03301",
       "neighborhoodIDs": [],
       "point": {
@@ -970,7 +970,7 @@
       "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-11T05:01:11Z",
+  "generatedAt": "2026-11-11T05:06:13Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -1108,11 +1108,11 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "5199da545f99c355f740dd433c7bda43a1e13aa68d6f5464516812ef1215e13e",
+  "snapshotID": "acda78519e8d65a697d06783f8efe1ff99e52a46d7432dfd9480e76ceb7e9109",
   "source": {
-    "checkedAt": "2026-11-11T05:01:11Z",
+    "checkedAt": "2026-11-11T05:06:13Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-11T04:55:18Z",
+    "updatedAt": "2026-11-11T05:05:18Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
@@ -1124,10 +1124,6 @@
     "customersServed": 54723,
     "eventCustomersOut": 670,
     "hourlyCustomersOut": [
-      {
-        "at": "2026-11-09T04:00:00Z",
-        "customersOut": 418
-      },
       {
         "at": "2026-11-09T05:00:00Z",
         "customersOut": 418
@@ -1302,22 +1298,26 @@
       },
       {
         "at": "2026-11-11T00:00:00Z",
-        "customersOut": 11899
+        "customersOut": 2903
       },
       {
         "at": "2026-11-11T01:00:00Z",
-        "customersOut": 9616
+        "customersOut": 620
       },
       {
         "at": "2026-11-11T02:00:00Z",
-        "customersOut": 9616
+        "customersOut": 620
       },
       {
         "at": "2026-11-11T03:00:00Z",
-        "customersOut": 6325
+        "customersOut": 670
       },
       {
         "at": "2026-11-11T04:00:00Z",
+        "customersOut": 670
+      },
+      {
+        "at": "2026-11-11T05:00:00Z",
         "customersOut": 670
       }
     ],
