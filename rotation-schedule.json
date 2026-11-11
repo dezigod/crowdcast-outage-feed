@@ -1,19 +1,123 @@
 {
   "nextAttemptAt": "2026-11-11T18:15:49Z",
   "schedule": {
-    "checkedAt": "2026-11-11T18:10:49Z",
-    "coverageEnd": null,
-    "coverageStart": null,
+    "checkedAt": "2026-11-11T18:09:47Z",
+    "coverageEnd": "2026-11-11T22:00:00-04:00",
+    "coverageStart": "2026-11-11T08:00:00-04:00",
     "day": "2026-11-11",
-    "dayStatus": "not_current",
+    "dayStatus": "current",
     "extractionMethod": "manual-review",
-    "extractionStatus": "unavailable",
-    "fingerprint": "10172c3012aa7d0c8f7951b811eca027380e8dc076905c8410401e505f86aa9e",
-    "lastModified": "Mon, 09 Nov 2026 15:27:19 GMT",
-    "revisionSeenAt": "2026-11-11T04:00:57Z",
+    "extractionStatus": "reviewed",
+    "fingerprint": "f4c9405942d8b0b73ecb058c94fd474a54261cfa58a931052534b62a2698851e",
+    "lastModified": null,
+    "revisionSeenAt": "2026-11-11T18:09:47Z",
+    "sourceURLs": [
+      "https://www.facebook.com/photo/?fbid=1446021834386654&set=pb.100069365522656.-2207520000",
+      "https://www.facebook.com/photo/?fbid=1446021881053316&set=pb.100069365522656.-2207520000"
+    ],
     "timeZone": "America/St_Thomas",
-    "url": "https://www.viwapa.vi/docs/default-source/outage-schedule/sttstj-rotational-outage-schedule-doc.pdf?sfvrsn=2c938249_404",
-    "windows": []
+    "url": "https://www.facebook.com/photo/?fbid=1446021834386654&set=pb.100069365522656.-2207520000",
+    "websiteCheckedAt": "2026-11-11T18:10:49Z",
+    "windows": [
+      {
+        "areas": [
+          "Ross Taarneberg to Peterborg",
+          "Mall",
+          "Yacht Haven"
+        ],
+        "endsAt": "2026-11-11T10:00:00-04:00",
+        "feeders": [
+          "Feeder 8B",
+          "Feeder 7E"
+        ],
+        "id": "2026-11-11-0800",
+        "startsAt": "2026-11-11T08:00:00-04:00"
+      },
+      {
+        "areas": [
+          "Altona to Drake\u2019s Seat",
+          "Paul M. Pearson Garden to Bolongo"
+        ],
+        "endsAt": "2026-11-11T12:00:00-04:00",
+        "feeders": [
+          "Feeder 7A",
+          "Feeder 10B"
+        ],
+        "id": "2026-11-11-1000",
+        "startsAt": "2026-11-11T10:00:00-04:00"
+      },
+      {
+        "areas": [
+          "Annas Retreat to Sapphire",
+          "Nadir to Red Hook/Nazareth"
+        ],
+        "endsAt": "2026-11-11T14:00:00-04:00",
+        "feeders": [
+          "Feeder 7C",
+          "Feeder 9C Partial"
+        ],
+        "id": "2026-11-11-1200",
+        "startsAt": "2026-11-11T12:00:00-04:00"
+      },
+      {
+        "areas": [
+          "Crown Bay to Hospital Ground",
+          "Estate Ross to Peterborg"
+        ],
+        "endsAt": "2026-11-11T16:00:00-04:00",
+        "feeders": [
+          "Feeder 8A",
+          "Feeder 8B"
+        ],
+        "id": "2026-11-11-1400",
+        "startsAt": "2026-11-11T14:00:00-04:00"
+      },
+      {
+        "areas": [
+          "Estate Thomas to Tabor and Harmony",
+          "Cruz Bay to Zootenvaal",
+          "Altona to Drake\u2019s Seat"
+        ],
+        "endsAt": "2026-11-11T18:00:00-04:00",
+        "feeders": [
+          "Feeder 7B",
+          "Feeder 7E",
+          "Feeder 7A"
+        ],
+        "id": "2026-11-11-1600",
+        "startsAt": "2026-11-11T16:00:00-04:00"
+      },
+      {
+        "areas": [
+          "Charlotte Amalie/Estate Bovoni/Nadir/Red Hook/Nazareth",
+          "Cassi Hill to Sapphire",
+          "Estate Ross to Peterborg"
+        ],
+        "endsAt": "2026-11-11T20:00:00-04:00",
+        "feeders": [
+          "Feeder 9C",
+          "Feeder 7C Partial",
+          "Feeder 8B"
+        ],
+        "id": "2026-11-11-1800",
+        "startsAt": "2026-11-11T18:00:00-04:00"
+      },
+      {
+        "areas": [
+          "Subbase/Nisky to Crown & Hawk/Estate Pearl/Fortuna",
+          "Crown Bay to Hospital Ground",
+          "PMP Garden to Bolongo"
+        ],
+        "endsAt": "2026-11-11T22:00:00-04:00",
+        "feeders": [
+          "Feeder 6A",
+          "Feeder 8A",
+          "Feeder 10B"
+        ],
+        "id": "2026-11-11-2000",
+        "startsAt": "2026-11-11T20:00:00-04:00"
+      }
+    ]
   },
   "schemaVersion": 1,
   "status": "ok",
