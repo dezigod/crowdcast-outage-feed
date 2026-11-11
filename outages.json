@@ -1457,6 +1457,42 @@
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
+      "id": "236eaa60d6926796f1ac834f1f3b016bd82e2c17ee3df73854743696480044f6",
+      "island": null,
+      "locations": [
+        "CONTANT 3 AD",
+        "CONTANT 3 AD APT-A",
+        "CONTANT 3A",
+        "CONTANT 3A-11",
+        "CONTANT 3AE",
+        "CONTANT 3A-E (EL)",
+        "CONTANT 7B",
+        "CONTANT 7B-3-2",
+        "CONTANT 97-98A",
+        "EST. CONTANT 3AD-1 APT. 2",
+        "ESTATE CONTANT 3AD APT-B",
+        "ESTATE CONTANT 3AD APT-C"
+      ],
+      "modifiedAt": "2026-11-11T00:49:10Z",
+      "name": "T-T-16105",
+      "neighborhoodIDs": [],
+      "point": {
+        "latitude": 18.338640774549646,
+        "longitude": -64.95300950446588
+      },
+      "reportedCustomersInitially": 15,
+      "reportedCustomersOut": 15,
+      "reportedCustomersRestored": 0,
+      "sourceStatus": "Predicted",
+      "startedAt": "2026-11-11T00:48:48Z",
+      "verified": false,
+      "workStatus": null
+    },
+    {
+      "cause": null,
+      "crewAssigned": false,
+      "endedAt": null,
+      "estimatedRestoration": null,
       "id": "2488f75f98539d93e6cc64f74531c322a0ab59b459e8794e1d08aad8f5693740",
       "island": null,
       "locations": [
@@ -3778,7 +3814,7 @@
       "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-11T00:45:49Z",
+  "generatedAt": "2026-11-11T00:50:51Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -3882,21 +3918,21 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "61a8e4439ca79e9401ca391baf6a8004d46ba7fc742c8c424c96f9e04028a010",
+  "snapshotID": "052d4d315eff9d55d8f6b409c8cc54a8445a71468aea0da25303d1208975004e",
   "source": {
-    "checkedAt": "2026-11-11T00:45:49Z",
+    "checkedAt": "2026-11-11T00:50:51Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-11T00:45:18Z",
+    "updatedAt": "2026-11-11T00:50:20Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "sourceSummary": {
     "customerCountDifference": 2,
-    "customersAffected": 4364,
-    "customersOut": 4364,
+    "customersAffected": 4379,
+    "customersOut": 4379,
     "customersRestored": 0,
     "customersServed": 54723,
-    "eventCustomersOut": 4362,
+    "eventCustomersOut": 4377,
     "hourlyCustomersOut": [
       {
         "at": "2026-11-09T00:00:00Z",
@@ -4092,7 +4128,7 @@
       },
       {
         "at": "2026-11-11T00:00:00Z",
-        "customersOut": 4362
+        "customersOut": 4377
       }
     ],
     "locations": [
@@ -4920,6 +4956,15 @@
       "CABRITE POINT 39-B",
       "CABRITE POINT 47A",
       "CABRITE POINT NAZARETH 37",
+      "CONTANT 3 AD",
+      "CONTANT 3 AD APT-A",
+      "CONTANT 3A",
+      "CONTANT 3A-11",
+      "CONTANT 3AE",
+      "CONTANT 3A-E (EL)",
+      "CONTANT 7B",
+      "CONTANT 7B-3-2",
+      "CONTANT 97-98A",
       "CONTANT TOWERS BLDG-A",
       "COTTON VALLEY",
       "COWPET BAY",
@@ -5575,6 +5620,7 @@
       "EST. BOVONI #4A-A-5",
       "EST. BOVONI 22B",
       "EST. BOVONI B/D A/240",
+      "EST. CONTANT 3AD-1 APT. 2",
       "EST. ELIZABETH 29 MTR. 2",
       "EST. ELIZABETH 29 MTR.1",
       "EST. FRYDENHOJ",
@@ -5637,6 +5683,8 @@
       "ESTATE BOVONI APT 1",
       "ESTATE BOVONI BAY",
       "ESTATE BOVONI BAY 4",
+      "ESTATE CONTANT 3AD APT-B",
+      "ESTATE CONTANT 3AD APT-C",
       "ESTATE FRENCHMANS BAY",
       "ESTATE FRYDENHOJ",
       "ESTATE FRYDENHOJ 111C",
@@ -7453,8 +7501,8 @@
       "WHIM 135-J",
       "WIC DOCK BAY BLDG-2"
     ],
-    "totalOutages": 17
+    "totalOutages": 18
   },
   "staleAfterSeconds": 900,
-  "unassignedEventCount": 14
+  "unassignedEventCount": 15
 }
