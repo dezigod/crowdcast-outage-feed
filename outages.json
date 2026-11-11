@@ -58,6 +58,36 @@
       "workStatus": null
     },
     {
+      "cause": null,
+      "crewAssigned": false,
+      "endedAt": null,
+      "estimatedRestoration": null,
+      "id": "1b51530d31f45ad973788e26d8a0a1770dc566a77b6fba61f91aa2252b86b922",
+      "island": null,
+      "locations": [
+        "DIAMOND",
+        "DIAMOND 15",
+        "DIAMOND 15 METER 2",
+        "DIAMOND 23",
+        "DIAMOND 24",
+        "DIAMOND RUBY"
+      ],
+      "modifiedAt": "2026-11-11T16:54:47Z",
+      "name": "T-C-14943",
+      "neighborhoodIDs": [],
+      "point": {
+        "latitude": 17.728337573104834,
+        "longitude": -64.7537905626366
+      },
+      "reportedCustomersInitially": 7,
+      "reportedCustomersOut": 7,
+      "reportedCustomersRestored": 0,
+      "sourceStatus": "Predicted",
+      "startedAt": "2026-11-11T16:54:18Z",
+      "verified": false,
+      "workStatus": null
+    },
+    {
       "cause": "300 Material or equipment fault/failure",
       "crewAssigned": false,
       "endedAt": null,
@@ -5129,6 +5159,37 @@
       "sourceStatus": "Verified",
       "startedAt": "2026-11-11T12:14:11Z",
       "verified": true,
+      "workStatus": null
+    },
+    {
+      "cause": null,
+      "crewAssigned": false,
+      "endedAt": null,
+      "estimatedRestoration": null,
+      "id": "78e779f9628b38112b803856010db6ef092ead3439972567436b28b03134229c",
+      "island": null,
+      "locations": [
+        "ST JOHN",
+        "ST JOHN 10-R",
+        "ST JOHN 10-S",
+        "ST JOHN 10-S UPSTR",
+        "ST JOHN 23-H",
+        "ST. JOHN 10-N",
+        "ST. JOHN 10-U"
+      ],
+      "modifiedAt": "2026-11-11T16:54:13Z",
+      "name": "T-C-20091",
+      "neighborhoodIDs": [],
+      "point": {
+        "latitude": 17.75967903600963,
+        "longitude": -64.74811634238878
+      },
+      "reportedCustomersInitially": 7,
+      "reportedCustomersOut": 7,
+      "reportedCustomersRestored": 0,
+      "sourceStatus": "Predicted",
+      "startedAt": "2026-11-11T16:54:02Z",
+      "verified": false,
       "workStatus": null
     },
     {
@@ -13212,7 +13273,7 @@
       "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-11T16:50:44Z",
+  "generatedAt": "2026-11-11T16:56:15Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -14163,21 +14224,21 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "e3d6212778175cc8b7cfdfbb62b07a46a5957a35c6af50b0fbcd534bb00babb8",
+  "snapshotID": "2b15891aae15e9ef49cce5966dde9257c8d91f20390ef6e69b8ceb3516b371ae",
   "source": {
-    "checkedAt": "2026-11-11T16:50:44Z",
+    "checkedAt": "2026-11-11T16:56:15Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-11T16:50:25Z",
+    "updatedAt": "2026-11-11T16:55:25Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "sourceSummary": {
     "customerCountDifference": 2,
-    "customersAffected": 16406,
-    "customersOut": 16406,
+    "customersAffected": 16420,
+    "customersOut": 16420,
     "customersRestored": 0,
     "customersServed": 54723,
-    "eventCustomersOut": 16404,
+    "eventCustomersOut": 16418,
     "hourlyCustomersOut": [
       {
         "at": "2026-11-09T16:00:00Z",
@@ -14373,7 +14434,7 @@
       },
       {
         "at": "2026-11-11T16:00:00Z",
-        "customersOut": 17817
+        "customersOut": 17831
       }
     ],
     "locations": [
@@ -16706,6 +16767,8 @@
       "DIAMOND 1",
       "DIAMOND 1 C-2",
       "DIAMOND 12B",
+      "DIAMOND 15",
+      "DIAMOND 15 METER 2",
       "DIAMOND 18",
       "DIAMOND 1AR",
       "DIAMOND 1AR STORE # 1",
@@ -16714,6 +16777,8 @@
       "DIAMOND 1D STORE 2",
       "DIAMOND 1-DA",
       "DIAMOND 1-K",
+      "DIAMOND 23",
+      "DIAMOND 24",
       "DIAMOND 26",
       "DIAMOND 3AB (PUMP)",
       "DIAMOND 9",
@@ -23717,6 +23782,10 @@
       "ST GEORGES HILL 9 DWN",
       "ST GEORGES HILL PROXC3178",
       "ST JOHN",
+      "ST JOHN 10-R",
+      "ST JOHN 10-S",
+      "ST JOHN 10-S UPSTR",
+      "ST JOHN 23-H",
       "ST JOHN 25",
       "ST JOHN 25-A EL",
       "ST JOHN 32",
@@ -23963,6 +24032,8 @@
       "ST VINCENT 303E SAPP",
       "ST VINCENT BLDG SAPP VILL",
       "ST VINCENT SAPP HILL",
+      "ST. JOHN 10-N",
+      "ST. JOHN 10-U",
       "ST. KITTS A-204B HSE SAPP",
       "ST. PETER 3A-21 (COTTAGE)",
       "ST. PETER 3A-8",
@@ -26830,8 +26901,8 @@
       "ZUERIENDENHEIT",
       "ZUFRIDENHEIT 1"
     ],
-    "totalOutages": 29
+    "totalOutages": 31
   },
   "staleAfterSeconds": 900,
-  "unassignedEventCount": 26
+  "unassignedEventCount": 28
 }
