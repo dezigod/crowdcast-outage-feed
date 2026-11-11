@@ -4364,6 +4364,32 @@
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
+      "id": "85556a994f686f36bb945bda81ca0657c7bfda37293dee0db406f5543e351a03",
+      "island": null,
+      "locations": [
+        "NAZARETH 7-P BASE A",
+        "NAZARETH 7-P BASE B"
+      ],
+      "modifiedAt": "2026-11-11T19:55:22Z",
+      "name": "T-T-11726_0116",
+      "neighborhoodIDs": [],
+      "point": {
+        "latitude": 18.316038021044267,
+        "longitude": -64.83867749251205
+      },
+      "reportedCustomersInitially": 2,
+      "reportedCustomersOut": 2,
+      "reportedCustomersRestored": 0,
+      "sourceStatus": "Predicted",
+      "startedAt": "2026-11-11T19:55:03Z",
+      "verified": false,
+      "workStatus": null
+    },
+    {
+      "cause": null,
+      "crewAssigned": false,
+      "endedAt": null,
+      "estimatedRestoration": null,
       "id": "855ac18c9c808deb6e3c86b9f2d98cc207a4b01d2ef78ff3701bba320f4a94bc",
       "island": null,
       "locations": [
@@ -7469,7 +7495,7 @@
       "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-11T19:56:26Z",
+  "generatedAt": "2026-11-11T20:01:28Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -8042,26 +8068,22 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "a8f281ebf6bef720ac8d6677c8259d84c6cffe75fc396101d011874df64f5e1d",
+  "snapshotID": "6230651e68c36c2cc62418fbc4ba842e8bb9b7c355a1e8813f2d93af4114a29e",
   "source": {
-    "checkedAt": "2026-11-11T19:56:26Z",
+    "checkedAt": "2026-11-11T20:01:28Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-11T19:55:22Z",
+    "updatedAt": "2026-11-11T20:00:22Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "sourceSummary": {
-    "customerCountDifference": 4,
+    "customerCountDifference": 2,
     "customersAffected": 9715,
     "customersOut": 9715,
     "customersRestored": 0,
     "customersServed": 54724,
-    "eventCustomersOut": 9711,
+    "eventCustomersOut": 9713,
     "hourlyCustomersOut": [
-      {
-        "at": "2026-11-09T19:00:00Z",
-        "customersOut": 6811
-      },
       {
         "at": "2026-11-09T20:00:00Z",
         "customersOut": 11400
@@ -8252,6 +8274,10 @@
       },
       {
         "at": "2026-11-11T19:00:00Z",
+        "customersOut": 9713
+      },
+      {
+        "at": "2026-11-11T20:00:00Z",
         "customersOut": 9713
       }
     ],
@@ -15245,8 +15271,8 @@
       "WINTBERG PEAK 1K",
       "YELLOW CEDAR 40-D"
     ],
-    "totalOutages": 18
+    "totalOutages": 19
   },
   "staleAfterSeconds": 900,
-  "unassignedEventCount": 14
+  "unassignedEventCount": 15
 }
