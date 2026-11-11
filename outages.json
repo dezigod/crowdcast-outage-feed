@@ -1338,6 +1338,44 @@
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
+      "id": "cf7b78d776bb2863bda1d84363b326a8b1a466bd0a016f9603349da5e0fac4aa",
+      "island": null,
+      "locations": [
+        "STRAWBERRY 177",
+        "STRAWBERRY 178",
+        "STRAWBERRY 179-A",
+        "STRAWBERRY 188",
+        "STRAWBERRY 221",
+        "STRAWBERRY HILL 173",
+        "STRAWBERRY HILL 174",
+        "STRAWBERRY HILL 175",
+        "STRAWBERRY HILL 176",
+        "STRAWBERRY HILL 185",
+        "STRAWBERRY HILL 186",
+        "STRAWBERRY HILL 187",
+        "STRAWBERRY HILL 219",
+        "STRAWBERRY HILL 222"
+      ],
+      "modifiedAt": "2026-11-11T21:47:56Z",
+      "name": "T-C-14991",
+      "neighborhoodIDs": [],
+      "point": {
+        "latitude": 17.730353170656485,
+        "longitude": -64.76047889472804
+      },
+      "reportedCustomersInitially": 14,
+      "reportedCustomersOut": 14,
+      "reportedCustomersRestored": 0,
+      "sourceStatus": "Predicted",
+      "startedAt": "2026-11-11T21:47:28Z",
+      "verified": false,
+      "workStatus": null
+    },
+    {
+      "cause": null,
+      "crewAssigned": false,
+      "endedAt": null,
+      "estimatedRestoration": null,
       "id": "ea2fbbe9c4b1f01b72350a9b4594d195608e8e31d908ce424846ca1d69505d0e",
       "island": null,
       "locations": [
@@ -3226,7 +3264,7 @@
       "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-11T21:45:51Z",
+  "generatedAt": "2026-11-11T21:50:53Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -3421,25 +3459,25 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "01567d29c857a8a81b5751bf357a9414b6f4e7c52be543e242e830c7cd15e894",
+  "snapshotID": "29e98acdfc531241b4f1193e2edb93869b937f654e083136ef22c2c5bb9c002b",
   "source": {
-    "checkedAt": "2026-11-11T21:45:51Z",
+    "checkedAt": "2026-11-11T21:50:53Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-11T21:45:20Z",
+    "updatedAt": "2026-11-11T21:50:20Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "sourceSummary": {
     "customerCountDifference": 2,
-    "customersAffected": 3395,
-    "customersOut": 3395,
+    "customersAffected": 3409,
+    "customersOut": 3409,
     "customersRestored": 0,
     "customersServed": 54724,
-    "eventCustomersOut": 3393,
+    "eventCustomersOut": 3407,
     "hourlyCustomersOut": [
       {
         "at": "2026-11-09T21:00:00Z",
-        "customersOut": 4619
+        "customersOut": 4607
       },
       {
         "at": "2026-11-09T22:00:00Z",
@@ -3631,7 +3669,7 @@
       },
       {
         "at": "2026-11-11T21:00:00Z",
-        "customersOut": 3393
+        "customersOut": 3407
       }
     ],
     "locations": [
@@ -6126,6 +6164,20 @@
       "ST.QUACO &ZIMMERMAN",
       "STJOSEPH & ROSENDAHL",
       "STJOSEPH/ROSENDAHL 12A-24",
+      "STRAWBERRY 177",
+      "STRAWBERRY 178",
+      "STRAWBERRY 179-A",
+      "STRAWBERRY 188",
+      "STRAWBERRY 221",
+      "STRAWBERRY HILL 173",
+      "STRAWBERRY HILL 174",
+      "STRAWBERRY HILL 175",
+      "STRAWBERRY HILL 176",
+      "STRAWBERRY HILL 185",
+      "STRAWBERRY HILL 186",
+      "STRAWBERRY HILL 187",
+      "STRAWBERRY HILL 219",
+      "STRAWBERRY HILL 222",
       "STUDIO",
       "STUDIO 1300 HSE MTR",
       "SUBBASE 100",
@@ -6515,8 +6567,8 @@
       "ZOOTENVAAL 3Q (MTR 1)",
       "ZOOTENVAAL 3T"
     ],
-    "totalOutages": 14
+    "totalOutages": 15
   },
   "staleAfterSeconds": 900,
-  "unassignedEventCount": 11
+  "unassignedEventCount": 12
 }
