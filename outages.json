@@ -1224,7 +1224,7 @@
       "workStatus": null
     },
     {
-      "cause": null,
+      "cause": "000 Power supply",
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
@@ -3414,7 +3414,7 @@
         "VISTA CONCORDIA 99",
         "VISTA CONCORDIA LOWER APT"
       ],
-      "modifiedAt": "2026-11-11T12:25:15Z",
+      "modifiedAt": "2026-11-11T13:45:28Z",
       "name": "STX Feeder 06A",
       "neighborhoodIDs": [
         "stCroix-judiths-fancy"
@@ -4769,7 +4769,7 @@
       "workStatus": null
     },
     {
-      "cause": null,
+      "cause": "000 Power supply",
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
@@ -5512,7 +5512,7 @@
         "SUNNY ISLES X-MAS TREE",
         "UNITED SHOPPING PLAZA"
       ],
-      "modifiedAt": "2026-11-11T12:20:48Z",
+      "modifiedAt": "2026-11-11T13:46:03Z",
       "name": "STX Feeder 9A",
       "neighborhoodIDs": [],
       "point": {
@@ -5528,7 +5528,7 @@
       "workStatus": null
     },
     {
-      "cause": null,
+      "cause": "000 Power supply",
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
@@ -6828,7 +6828,7 @@
         "VICORP LAND 325",
         "VICORP LANDS 10 (FARM)"
       ],
-      "modifiedAt": "2026-11-11T12:29:16Z",
+      "modifiedAt": "2026-11-11T13:46:40Z",
       "name": "STX Feeder 10B",
       "neighborhoodIDs": [
         "stCroix-coble",
@@ -10659,7 +10659,7 @@
         "PETERBORG 9-1-27",
         "PETERBORG 9-1-28"
       ],
-      "modifiedAt": "2026-11-11T12:06:29Z",
+      "modifiedAt": "2026-11-11T13:47:48Z",
       "name": "T-T-14447",
       "neighborhoodIDs": [
         "stThomas-peterborg"
@@ -14952,7 +14952,7 @@
       "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-11T13:46:14Z",
+  "generatedAt": "2026-11-11T13:51:17Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -16244,11 +16244,11 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "f1989c3c18c4be03f7b9ede848926411c797e74fef85adecf9c23dc84d10c594",
+  "snapshotID": "5443e8a06e53bbd205ecc0f46e907e648590575abacf0edb4239831ad1ea9ce3",
   "source": {
-    "checkedAt": "2026-11-11T13:46:14Z",
+    "checkedAt": "2026-11-11T13:51:17Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-11T13:45:26Z",
+    "updatedAt": "2026-11-11T13:50:27Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
