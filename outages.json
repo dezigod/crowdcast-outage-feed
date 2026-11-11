@@ -6422,6 +6422,53 @@
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
+      "id": "b1499b28aa69ab004bddb1c51dcdbf9ac2bec93d7b6fa99dbdc1265cc1f40a0b",
+      "island": null,
+      "locations": [
+        "RED HOOK 18-7 SUITE 207",
+        "RED HOOK 205",
+        "RED HOOK CENTER",
+        "RED HOOK CENTER SUITE 103",
+        "RED HOOK PLAZA",
+        "RED HOOK SHOP CENTER",
+        "RED HOOK SHOP SHOP C 205",
+        "RED HOOK UNIT 208",
+        "RED HOOK VILLAS B-E A-211",
+        "REDHOOK VILLAS SMITH BAY",
+        "SMITH BAY 18-9 18-10-11",
+        "SMITH BAY 18-9-18-10 U-",
+        "SMITH BAY 18A 1-2-3",
+        "SMITH BAY 18A 1-3-5",
+        "SMITH BAY 18A 1-35 U-215",
+        "SMITH BAY 18A B-E",
+        "SMITH BAY 18A B-E A-311 R",
+        "SMITH BAY 18A REDHOOK VIL",
+        "SMITH BAY 18A U-112",
+        "SMITH BAY 18A-1-2-3",
+        "SMITH BAY 18A-1-3-5",
+        "SMITH BAY 18-A-1-3-5",
+        "SMITH BAY 18A-7 REDHOOK V"
+      ],
+      "modifiedAt": "2026-11-11T15:30:09Z",
+      "name": "T-T-11988",
+      "neighborhoodIDs": [],
+      "point": {
+        "latitude": 18.326685131338188,
+        "longitude": -64.85173688229494
+      },
+      "reportedCustomersInitially": 26,
+      "reportedCustomersOut": 26,
+      "reportedCustomersRestored": 0,
+      "sourceStatus": "Predicted",
+      "startedAt": "2026-11-11T15:29:45Z",
+      "verified": false,
+      "workStatus": null
+    },
+    {
+      "cause": null,
+      "crewAssigned": false,
+      "endedAt": null,
+      "estimatedRestoration": null,
       "id": "b1fb90226909ddc7c33c19d476c3d516fb383d6e50333951644c7d478c51efe1",
       "island": null,
       "locations": [
@@ -8278,6 +8325,32 @@
       "reportedCustomersRestored": 0,
       "sourceStatus": "Predicted",
       "startedAt": "2026-11-11T14:39:29Z",
+      "verified": false,
+      "workStatus": null
+    },
+    {
+      "cause": null,
+      "crewAssigned": false,
+      "endedAt": null,
+      "estimatedRestoration": null,
+      "id": "caeda1554ca16de625cc027d6811e68708611b82bcfab412cc61c7bc425dbc8b",
+      "island": null,
+      "locations": [
+        "HARBORVIEW APTS B-19",
+        "HARBORVIEW APTS B-20"
+      ],
+      "modifiedAt": "2026-11-11T15:29:23Z",
+      "name": "T-C-06056",
+      "neighborhoodIDs": [],
+      "point": {
+        "latitude": 17.75206090136829,
+        "longitude": -64.72363440871854
+      },
+      "reportedCustomersInitially": 23,
+      "reportedCustomersOut": 23,
+      "reportedCustomersRestored": 0,
+      "sourceStatus": "Predicted",
+      "startedAt": "2026-11-11T15:29:08Z",
       "verified": false,
       "workStatus": null
     },
@@ -12650,7 +12723,7 @@
       "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-11T15:26:09Z",
+  "generatedAt": "2026-11-11T15:31:11Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -13601,25 +13674,25 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "7af12b190d00160318ae45d189eacd994c593fb0c5a78ca90518fdab0a97e419",
+  "snapshotID": "77cb49b0f4ee0ed5ff334b29091743ae7050f689424d57109b1d5cfb48151e99",
   "source": {
-    "checkedAt": "2026-11-11T15:26:09Z",
+    "checkedAt": "2026-11-11T15:31:11Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-11T15:25:25Z",
+    "updatedAt": "2026-11-11T15:30:25Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "sourceSummary": {
     "customerCountDifference": 2,
-    "customersAffected": 15633,
-    "customersOut": 15633,
+    "customersAffected": 15682,
+    "customersOut": 15682,
     "customersRestored": 0,
     "customersServed": 54723,
-    "eventCustomersOut": 15631,
+    "eventCustomersOut": 15680,
     "hourlyCustomersOut": [
       {
         "at": "2026-11-09T15:00:00Z",
-        "customersOut": 4490
+        "customersOut": 4489
       },
       {
         "at": "2026-11-09T16:00:00Z",
@@ -13811,7 +13884,7 @@
       },
       {
         "at": "2026-11-11T15:00:00Z",
-        "customersOut": 15631
+        "customersOut": 15680
       }
     ],
     "locations": [
@@ -18396,6 +18469,8 @@
       "HANNAHS REST 99",
       "HANNAHS REST 99-B",
       "HANNAHS REST/HWY LIGHTS",
+      "HARBORVIEW APTS B-19",
+      "HARBORVIEW APTS B-20",
       "HARD LABOR 12",
       "HARD LABOR 16A",
       "HARD LABOR 16B",
@@ -21604,6 +21679,16 @@
       "RATTAN 95 APT 2",
       "RATTAN ESTATE 32-V",
       "RATTAN ESTATE 86",
+      "RED HOOK 18-7 SUITE 207",
+      "RED HOOK 205",
+      "RED HOOK CENTER",
+      "RED HOOK CENTER SUITE 103",
+      "RED HOOK PLAZA",
+      "RED HOOK SHOP CENTER",
+      "RED HOOK SHOP SHOP C 205",
+      "RED HOOK UNIT 208",
+      "RED HOOK VILLAS B-E A-211",
+      "REDHOOK VILLAS SMITH BAY",
       "REGATTA POINT VILLAS 1& 2",
       "REM ESTATE ST PETER",
       "RENHOLDT JACKSON COMPLEX",
@@ -22281,6 +22366,19 @@
       "SION VALLEY",
       "SLOB",
       "SMITH BAY",
+      "SMITH BAY 18-9 18-10-11",
+      "SMITH BAY 18-9-18-10 U-",
+      "SMITH BAY 18A 1-2-3",
+      "SMITH BAY 18A 1-3-5",
+      "SMITH BAY 18A 1-35 U-215",
+      "SMITH BAY 18A B-E",
+      "SMITH BAY 18A B-E A-311 R",
+      "SMITH BAY 18A REDHOOK VIL",
+      "SMITH BAY 18A U-112",
+      "SMITH BAY 18A-1-2-3",
+      "SMITH BAY 18A-1-3-5",
+      "SMITH BAY 18-A-1-3-5",
+      "SMITH BAY 18A-7 REDHOOK V",
       "SMITH BAY 98-2 EAST E",
       "SMITH BAY 98-3",
       "SMITH BAY 98-8-1",
@@ -25850,8 +25948,8 @@
       "ZUERIENDENHEIT",
       "ZUFRIDENHEIT 1"
     ],
-    "totalOutages": 23
+    "totalOutages": 25
   },
   "staleAfterSeconds": 900,
-  "unassignedEventCount": 20
+  "unassignedEventCount": 22
 }
