@@ -88,6 +88,33 @@
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
+      "id": "296b4e6388cb7e1433b20caa7253b696445f263acde1cca1e0928dd49fc4662c",
+      "island": null,
+      "locations": [
+        "COTTON VALLEY",
+        "COTTON VALLEY 247",
+        "COTTON VALLEY 251"
+      ],
+      "modifiedAt": "2026-11-11T21:36:06Z",
+      "name": "T-C-10712",
+      "neighborhoodIDs": [],
+      "point": {
+        "latitude": 17.757893497879294,
+        "longitude": -64.61591175245081
+      },
+      "reportedCustomersInitially": 3,
+      "reportedCustomersOut": 3,
+      "reportedCustomersRestored": 0,
+      "sourceStatus": "Predicted",
+      "startedAt": "2026-11-11T21:35:36Z",
+      "verified": false,
+      "workStatus": null
+    },
+    {
+      "cause": null,
+      "crewAssigned": false,
+      "endedAt": null,
+      "estimatedRestoration": null,
       "id": "3bc318ec8d22ce535589ecee5c7faef8536cd6bcb2fd72d61faa21f208e90f49",
       "island": null,
       "locations": [
@@ -3199,7 +3226,7 @@
       "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-11T21:35:47Z",
+  "generatedAt": "2026-11-11T21:40:49Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -3394,21 +3421,21 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "2e4b9cd86b2e886216439d71a280286a00ec91f74c66b5354fbbb63375bf3127",
+  "snapshotID": "0df99ed391bfa62faa60ea762b2b672fd08f16dc224148e25cc10590ff7e7382",
   "source": {
-    "checkedAt": "2026-11-11T21:35:47Z",
+    "checkedAt": "2026-11-11T21:40:49Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-11T21:35:21Z",
+    "updatedAt": "2026-11-11T21:40:21Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "sourceSummary": {
     "customerCountDifference": 2,
-    "customersAffected": 3392,
-    "customersOut": 3392,
+    "customersAffected": 3395,
+    "customersOut": 3395,
     "customersRestored": 0,
     "customersServed": 54724,
-    "eventCustomersOut": 3390,
+    "eventCustomersOut": 3393,
     "hourlyCustomersOut": [
       {
         "at": "2026-11-09T21:00:00Z",
@@ -3604,7 +3631,7 @@
       },
       {
         "at": "2026-11-11T21:00:00Z",
-        "customersOut": 3390
+        "customersOut": 3393
       }
     ],
     "locations": [
@@ -4579,6 +4606,8 @@
       "CORAL BAY SEA GRAPE RD",
       "CORAL BAY ST JOHN",
       "COTTON VALLEY",
+      "COTTON VALLEY 247",
+      "COTTON VALLEY 251",
       "CREEK RD BULKHEAD",
       "CREEK ROAD BULKHEAD# 3",
       "CRUZ BAY",
@@ -6486,8 +6515,8 @@
       "ZOOTENVAAL 3Q (MTR 1)",
       "ZOOTENVAAL 3T"
     ],
-    "totalOutages": 13
+    "totalOutages": 14
   },
   "staleAfterSeconds": 900,
-  "unassignedEventCount": 10
+  "unassignedEventCount": 11
 }
