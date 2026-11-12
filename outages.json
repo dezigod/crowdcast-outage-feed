@@ -6,6 +6,46 @@
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
+      "id": "092a9ea29402ab16cda58e200e2b62c9cef4d11d6d3d8b2ce728dfa6d981ccab",
+      "island": null,
+      "locations": [
+        "DOROTHEA",
+        "DOROTHEA 13A DOWN",
+        "DOROTHEA 2C",
+        "DOROTHEA 2C A-4C",
+        "DOROTHEA 2-CA",
+        "DOROTHEA 2-CA B/4 A/11",
+        "DOROTHEA 2CA B-4 A-13",
+        "DOROTHEA 2D",
+        "DOROTHEA 2D A-8",
+        "DOROTHEA 2-D APT",
+        "EST DOROTHEA",
+        "EST DOROTHEA 2B",
+        "EST DOROTHEA 2B UP",
+        "EST DOROTHEA 2-D APT4",
+        "EST DOROTHEA 2-D PUMP",
+        "EST DOROTHEA 3-I REMAINDE"
+      ],
+      "modifiedAt": "2026-11-12T12:10:37Z",
+      "name": "T-T-16227",
+      "neighborhoodIDs": [],
+      "point": {
+        "latitude": 18.35853570879408,
+        "longitude": -64.96435769622346
+      },
+      "reportedCustomersInitially": 22,
+      "reportedCustomersOut": 22,
+      "reportedCustomersRestored": 0,
+      "sourceStatus": "Predicted",
+      "startedAt": "2026-11-12T12:10:16Z",
+      "verified": false,
+      "workStatus": null
+    },
+    {
+      "cause": null,
+      "crewAssigned": false,
+      "endedAt": null,
+      "estimatedRestoration": null,
       "id": "18a9e35ed89f27a79fcbf61bdbab10596d2ef709b9b2c1581c7103d1697c1cd7",
       "island": null,
       "locations": [
@@ -196,6 +236,44 @@
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
+      "id": "616f9e1606b910787b8fe56fcbbfc3d7a9d04bcd5f8172c507c6aa90ab5a1cd1",
+      "island": null,
+      "locations": [
+        "ESTATE SOLBEG 79-43",
+        "ESTATE SOLBERG 79-38",
+        "ESTATE SOLBERG 79-43",
+        "ESTATE SOLBERG 94-8 MTR 2",
+        "SOLBERG",
+        "SOLBERG 79-38 EAST",
+        "SOLBERG 79-39",
+        "SOLBERG 79-40",
+        "SOLBERG 79-41",
+        "SOLBERG 79-42 UP",
+        "SOLBERG 79-43",
+        "SOLBERG 91",
+        "SOLBERG 91 UP",
+        "SOLBERG 94-8 MTR 1"
+      ],
+      "modifiedAt": "2026-11-12T12:11:38Z",
+      "name": "T-T-02150",
+      "neighborhoodIDs": [],
+      "point": {
+        "latitude": 18.346144580514284,
+        "longitude": -64.94534613417767
+      },
+      "reportedCustomersInitially": 16,
+      "reportedCustomersOut": 16,
+      "reportedCustomersRestored": 0,
+      "sourceStatus": "Predicted",
+      "startedAt": "2026-11-12T12:11:05Z",
+      "verified": false,
+      "workStatus": null
+    },
+    {
+      "cause": null,
+      "crewAssigned": false,
+      "endedAt": null,
+      "estimatedRestoration": null,
       "id": "688d24f7b6e72cb60f9dd7cfcfc315b9ee0efe7095b9fbf192b7ed84c8031d54",
       "island": "stThomas",
       "locations": [
@@ -259,6 +337,35 @@
       "reportedCustomersRestored": 0,
       "sourceStatus": "Predicted",
       "startedAt": "2026-11-12T12:09:40Z",
+      "verified": false,
+      "workStatus": null
+    },
+    {
+      "cause": null,
+      "crewAssigned": false,
+      "endedAt": null,
+      "estimatedRestoration": null,
+      "id": "86e44e7c48690f6204d3c27c21ff3c24fc3835f31a743ef4ab1678c729980847",
+      "island": null,
+      "locations": [
+        "BONNE RESOLUTION 4-1",
+        "BONNE RESOLUTION 4-4",
+        "BONNE RESOLUTION 4-5",
+        "BONNE RESOLUTION 4-5 DWN",
+        "EST. BONNE RESOLUTION"
+      ],
+      "modifiedAt": "2026-11-12T12:12:09Z",
+      "name": "T-T-09060",
+      "neighborhoodIDs": [],
+      "point": {
+        "latitude": 18.35489059902936,
+        "longitude": -64.9595321118216
+      },
+      "reportedCustomersInitially": 5,
+      "reportedCustomersOut": 5,
+      "reportedCustomersRestored": 0,
+      "sourceStatus": "Predicted",
+      "startedAt": "2026-11-12T12:12:01Z",
       "verified": false,
       "workStatus": null
     },
@@ -510,9 +617,38 @@
       "startedAt": "2026-11-08T12:04:28Z",
       "verified": true,
       "workStatus": null
+    },
+    {
+      "cause": null,
+      "crewAssigned": false,
+      "endedAt": null,
+      "estimatedRestoration": null,
+      "id": "f87a0f56cae684ad211a113857254a5d445d0da5b4d39a4cbf3d5a37abe2553b",
+      "island": null,
+      "locations": [
+        "ALTONA & WELGUNST",
+        "JOHN DUNKO 26",
+        "JOHN DUNKO 26 A-2",
+        "JOHN DUNKO A4",
+        "LOWER JOHN DUNKO 26"
+      ],
+      "modifiedAt": "2026-11-12T12:10:23Z",
+      "name": "T-T-05443",
+      "neighborhoodIDs": [],
+      "point": {
+        "latitude": 18.340867665186114,
+        "longitude": -64.94796878073493
+      },
+      "reportedCustomersInitially": 30,
+      "reportedCustomersOut": 30,
+      "reportedCustomersRestored": 0,
+      "sourceStatus": "Predicted",
+      "startedAt": "2026-11-12T12:09:54Z",
+      "verified": false,
+      "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-12T12:10:48Z",
+  "generatedAt": "2026-11-12T12:15:50Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -619,21 +755,21 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "7f134b065d8fa0d90dd47b0822132a5117672b2766165293e89885d15c9a93ff",
+  "snapshotID": "c6677cac8921b7bded7b76fc8d4d5a948297c13ec6b4be71396414d2d6ebeedd",
   "source": {
-    "checkedAt": "2026-11-12T12:10:48Z",
+    "checkedAt": "2026-11-12T12:15:50Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-12T12:10:20Z",
+    "updatedAt": "2026-11-12T12:15:21Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "sourceSummary": {
     "customerCountDifference": 2,
-    "customersAffected": 115,
-    "customersOut": 115,
+    "customersAffected": 188,
+    "customersOut": 188,
     "customersRestored": 0,
     "customersServed": 54724,
-    "eventCustomersOut": 113,
+    "eventCustomersOut": 186,
     "hourlyCustomersOut": [
       {
         "at": "2026-11-10T12:00:00Z",
@@ -829,7 +965,7 @@
       },
       {
         "at": "2026-11-12T12:00:00Z",
-        "customersOut": 113
+        "customersOut": 186
       }
     ],
     "locations": [
@@ -839,6 +975,10 @@
       "AGNES FANCY 5B",
       "AGNES FANCY 5F",
       "ALTONA & WELGUNST",
+      "BONNE RESOLUTION 4-1",
+      "BONNE RESOLUTION 4-4",
+      "BONNE RESOLUTION 4-5",
+      "BONNE RESOLUTION 4-5 DWN",
       "CARET BAY 2E-51-14W",
       "CARET BAY 2E-51-16",
       "CARET BAY 2E-51-17",
@@ -875,15 +1015,32 @@
       "COTTON VALLEY 247",
       "COTTON VALLEY 251",
       "DIAMOND 18",
+      "DOROTHEA",
+      "DOROTHEA 13A DOWN",
+      "DOROTHEA 2C",
+      "DOROTHEA 2C A-4C",
+      "DOROTHEA 2-CA",
+      "DOROTHEA 2-CA B/4 A/11",
+      "DOROTHEA 2CA B-4 A-13",
+      "DOROTHEA 2D",
+      "DOROTHEA 2D A-8",
+      "DOROTHEA 2-D APT",
       "EDEN 2-3E",
       "EDEN 2-6-2",
       "EDEN 2-8-3",
       "EDEN 2-8-7",
       "EST BARRETT",
+      "EST DOROTHEA",
+      "EST DOROTHEA 2B",
+      "EST DOROTHEA 2B UP",
+      "EST DOROTHEA 2-D APT4",
+      "EST DOROTHEA 2-D PUMP",
+      "EST DOROTHEA 3-I REMAINDE",
       "EST SMITH BAY 18-1",
       "EST ST PETER 23-D",
       "EST ST PETER 25A",
       "EST THOMAS WEST 4D-4E",
+      "EST. BONNE RESOLUTION",
       "ESTATE CARET BAY 2E-51-5",
       "ESTATE EDEN",
       "ESTATE EDEN 2-3A",
@@ -892,6 +1049,10 @@
       "ESTATE EDEN 2-5-2",
       "ESTATE EDEN 2-6-1A",
       "ESTATE EDEN 2-8-6",
+      "ESTATE SOLBEG 79-43",
+      "ESTATE SOLBERG 79-38",
+      "ESTATE SOLBERG 79-43",
+      "ESTATE SOLBERG 94-8 MTR 2",
       "ESTATE ST PETER 16-1",
       "GLYNN 254",
       "GLYNN 254 A SUITE 6",
@@ -917,6 +1078,16 @@
       "SMITH BAY 18-23",
       "SMITH BAY 18-23 A-1C",
       "SMITH BAY 18-26-1",
+      "SOLBERG",
+      "SOLBERG 79-38 EAST",
+      "SOLBERG 79-39",
+      "SOLBERG 79-40",
+      "SOLBERG 79-41",
+      "SOLBERG 79-42 UP",
+      "SOLBERG 79-43",
+      "SOLBERG 91",
+      "SOLBERG 91 UP",
+      "SOLBERG 94-8 MTR 1",
       "ST JOHN 18-D",
       "ST PETER #15 & 16A DWN",
       "ST PETER #15A & 16A UP",
@@ -932,8 +1103,8 @@
       "SUBBASE 101 (EL)",
       "SUBBASE 69"
     ],
-    "totalOutages": 17
+    "totalOutages": 21
   },
   "staleAfterSeconds": 900,
-  "unassignedEventCount": 14
+  "unassignedEventCount": 18
 }
