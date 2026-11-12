@@ -4136,11 +4136,11 @@
       "workStatus": null
     },
     {
-      "cause": "000 Power supply",
+      "cause": null,
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
-      "id": "e1694c89ca1eccf0d560d76ec469f198d431f90e69468ab6147cba868f04168c",
+      "id": "d6986a374da05cb28d4031e05aaca186167123e342c5fe4965659f9ffd070c08",
       "island": null,
       "locations": [
         "10M MAHOGANY RUN COND",
@@ -5984,7 +5984,7 @@
         "WINTBERG-TRAILER",
         "WINTHBERG 1-B4 APT 303"
       ],
-      "modifiedAt": "2026-11-12T16:27:09Z",
+      "modifiedAt": "2026-11-12T20:02:58Z",
       "name": "ISW-7C-6A-THRM-A",
       "neighborhoodIDs": [
         "stThomas-lovenlund"
@@ -5997,12 +5997,12 @@
       "reportedCustomersOut": 2274,
       "reportedCustomersRestored": 0,
       "sourceStatus": "Verified",
-      "startedAt": "2026-11-12T16:14:56Z",
+      "startedAt": "2026-11-12T20:02:53Z",
       "verified": true,
       "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-12T20:00:41Z",
+  "generatedAt": "2026-11-12T20:05:43Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -6147,7 +6147,7 @@
           "name": "Lovenlund",
           "sourceEventIDs": [
             "a7622fe5ec3f7460243d64545ddffb42dc3c534b3876e2c938737688abde9c58",
-            "e1694c89ca1eccf0d560d76ec469f198d431f90e69468ab6147cba868f04168c"
+            "d6986a374da05cb28d4031e05aaca186167123e342c5fe4965659f9ffd070c08"
           ],
           "sourceStatus": "Verified",
           "startedAt": null
@@ -6197,11 +6197,11 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "014f609c656da93785bd211a7d132eda6fa276983a7dcc7ca232788176a123ab",
+  "snapshotID": "1e21e8c7e51dfffbb5040189635c0b857bb3d4cbaf1bd3d76190ef07602e04df",
   "source": {
-    "checkedAt": "2026-11-12T20:00:41Z",
+    "checkedAt": "2026-11-12T20:05:43Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-12T20:00:23Z",
+    "updatedAt": "2026-11-12T20:05:23Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
@@ -6403,7 +6403,7 @@
       },
       {
         "at": "2026-11-12T19:00:00Z",
-        "customersOut": 6915
+        "customersOut": 4641
       },
       {
         "at": "2026-11-12T20:00:00Z",
