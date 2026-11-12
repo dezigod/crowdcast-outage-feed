@@ -738,9 +738,36 @@
       "startedAt": "2026-11-12T12:09:54Z",
       "verified": false,
       "workStatus": null
+    },
+    {
+      "cause": null,
+      "crewAssigned": false,
+      "endedAt": null,
+      "estimatedRestoration": null,
+      "id": "f9519cd890fa8b445d99ade8b310496ce3da90791c142f73bc24bfd9236b0e04",
+      "island": null,
+      "locations": [
+        "GOLDEN GROVE #52",
+        "GOLDEN GROVE 2D",
+        "GOLDEN GROVE 52"
+      ],
+      "modifiedAt": "2026-11-12T12:42:15Z",
+      "name": "T-C-17923",
+      "neighborhoodIDs": [],
+      "point": {
+        "latitude": 17.719768480704246,
+        "longitude": -64.801751983968
+      },
+      "reportedCustomersInitially": 5,
+      "reportedCustomersOut": 5,
+      "reportedCustomersRestored": 0,
+      "sourceStatus": "Predicted",
+      "startedAt": "2026-11-12T12:42:12Z",
+      "verified": false,
+      "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-12T12:40:58Z",
+  "generatedAt": "2026-11-12T12:45:59Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -850,21 +877,21 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "3669799a5a937358d3789fda04731d643ac38f8e7b40b279b2ecd49faddcd120",
+  "snapshotID": "e922046aa2c5e36f0511f572ba6644ed75f49711c21e4cab6fee7370c8567073",
   "source": {
-    "checkedAt": "2026-11-12T12:40:58Z",
+    "checkedAt": "2026-11-12T12:45:59Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-12T12:40:20Z",
+    "updatedAt": "2026-11-12T12:45:20Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "sourceSummary": {
     "customerCountDifference": 2,
-    "customersAffected": 210,
-    "customersOut": 210,
+    "customersAffected": 215,
+    "customersOut": 215,
     "customersRestored": 0,
     "customersServed": 54724,
-    "eventCustomersOut": 208,
+    "eventCustomersOut": 213,
     "hourlyCustomersOut": [
       {
         "at": "2026-11-10T12:00:00Z",
@@ -1060,7 +1087,7 @@
       },
       {
         "at": "2026-11-12T12:00:00Z",
-        "customersOut": 208
+        "customersOut": 213
       }
     ],
     "locations": [
@@ -1166,6 +1193,9 @@
       "GLYNN 254-A",
       "GLYNN 254A (PUMP)",
       "GLYNN 254-A SUITE # 1",
+      "GOLDEN GROVE #52",
+      "GOLDEN GROVE 2D",
+      "GOLDEN GROVE 52",
       "GRANGE HILL",
       "GRANGE HILL 9",
       "JOHN DUNKO 26",
@@ -1217,8 +1247,8 @@
       "SUBBASE 101 (EL)",
       "SUBBASE 69"
     ],
-    "totalOutages": 24
+    "totalOutages": 25
   },
   "staleAfterSeconds": 900,
-  "unassignedEventCount": 20
+  "unassignedEventCount": 21
 }
