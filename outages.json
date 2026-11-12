@@ -2478,46 +2478,6 @@
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
-      "id": "4a2f636d17ab862cfe60d062da04497adebc3eb9dbef7e9f574073670b58d9c3",
-      "island": null,
-      "locations": [
-        "CONTANT #171 B-7 A-7D",
-        "CONTANT 171",
-        "CONTANT 171 APT 10E",
-        "CONTANT 171 BLD- 8",
-        "CONTANT 171 BLDG 10 APT",
-        "CONTANT 171 BLDG 7",
-        "CONTANT 171 BLDG 7 APT",
-        "CONTANT 171 BLDG 8",
-        "CONTANT 171 BLDG 8 APT",
-        "CONTANT 171 BLDG 8 APT 8H",
-        "CONTANT 171 BLDG 9 APT",
-        "CONTANT 171 BLDG-10",
-        "CONTANT 171 BLDG-7",
-        "CONTANT 171 BLDG-8",
-        "CONTANT 171 BLDG-9",
-        "CONTANT BLDG 10 171"
-      ],
-      "modifiedAt": "2026-11-12T22:01:24Z",
-      "name": "T-T-16857",
-      "neighborhoodIDs": [],
-      "point": {
-        "latitude": 18.343066442472328,
-        "longitude": -64.95761728365184
-      },
-      "reportedCustomersInitially": 39,
-      "reportedCustomersOut": 39,
-      "reportedCustomersRestored": 0,
-      "sourceStatus": "Predicted",
-      "startedAt": "2026-11-12T22:00:51Z",
-      "verified": false,
-      "workStatus": null
-    },
-    {
-      "cause": null,
-      "crewAssigned": false,
-      "endedAt": null,
-      "estimatedRestoration": null,
       "id": "4a3f0a315506757465227b7b8af29e7bb7b6c8ed1cccd49b9833ba4ca8788ac7",
       "island": null,
       "locations": [
@@ -2878,7 +2838,7 @@
       "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-12T23:25:52Z",
+  "generatedAt": "2026-11-12T23:30:54Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -3040,21 +3000,21 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "aac8dea322224167d2dcf8493ad38c23e3504ebda5cf123aee5580e30389ca6a",
+  "snapshotID": "976f8cc62a741afab5acac29710ea8176315008c882d924696a598e222c20526",
   "source": {
-    "checkedAt": "2026-11-12T23:25:52Z",
+    "checkedAt": "2026-11-12T23:30:54Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-12T23:25:23Z",
+    "updatedAt": "2026-11-12T23:30:23Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "sourceSummary": {
     "customerCountDifference": 2,
-    "customersAffected": 3556,
-    "customersOut": 3556,
+    "customersAffected": 3517,
+    "customersOut": 3517,
     "customersRestored": 0,
     "customersServed": 54725,
-    "eventCustomersOut": 3554,
+    "eventCustomersOut": 3515,
     "hourlyCustomersOut": [
       {
         "at": "2026-11-10T23:00:00Z",
@@ -3246,11 +3206,11 @@
       },
       {
         "at": "2026-11-12T22:00:00Z",
-        "customersOut": 5274
+        "customersOut": 5235
       },
       {
         "at": "2026-11-12T23:00:00Z",
-        "customersOut": 8615
+        "customersOut": 8576
       }
     ],
     "locations": [
@@ -3867,7 +3827,6 @@
       "COMMANDANT TVAER GADE 1B",
       "COMMANDANT TVER GADE",
       "CONTANT",
-      "CONTANT #171 B-7 A-7D",
       "CONTANT #25B",
       "CONTANT 10",
       "CONTANT 105A",
@@ -3879,20 +3838,6 @@
       "CONTANT 15A REMAINDER",
       "CONTANT 15A-B",
       "CONTANT 16-MANASSAH BUS",
-      "CONTANT 171",
-      "CONTANT 171 APT 10E",
-      "CONTANT 171 BLD- 8",
-      "CONTANT 171 BLDG 10 APT",
-      "CONTANT 171 BLDG 7",
-      "CONTANT 171 BLDG 7 APT",
-      "CONTANT 171 BLDG 8",
-      "CONTANT 171 BLDG 8 APT",
-      "CONTANT 171 BLDG 8 APT 8H",
-      "CONTANT 171 BLDG 9 APT",
-      "CONTANT 171 BLDG-10",
-      "CONTANT 171 BLDG-7",
-      "CONTANT 171 BLDG-8",
-      "CONTANT 171 BLDG-9",
       "CONTANT 2-3",
       "CONTANT 25 A",
       "CONTANT 25A",
@@ -3927,7 +3872,6 @@
       "CONTANT 7-105-A B/TRAFFIC",
       "CONTANT 7B",
       "CONTANT 8",
-      "CONTANT BLDG 10 171",
       "CONTANT TOWERS BLD-E",
       "CONTANT TOWERS BLDG-E",
       "CONTANT TOWERS BLDG-F",
@@ -5639,8 +5583,8 @@
       "WIMMELSKAFTS GADE 6A(RES)",
       "WINDWARD PASSAGE/TRAFFIC"
     ],
-    "totalOutages": 20
+    "totalOutages": 19
   },
   "staleAfterSeconds": 900,
-  "unassignedEventCount": 17
+  "unassignedEventCount": 16
 }
