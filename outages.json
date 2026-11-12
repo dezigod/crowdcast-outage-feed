@@ -311,6 +311,38 @@
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
+      "id": "7e9936c58d09cc497a340a9bba6f22df1f7cfab14004ae64a2a8937854a5f412",
+      "island": null,
+      "locations": [
+        "EST THOMAS 39 1ST AVE",
+        "EST THOMAS 41",
+        "PMP GARDEN B-1LDG5",
+        "PMP GARDEN BLDG 15",
+        "PMP GARDEN BLDG-14",
+        "PMP GARDEN BLDG-15"
+      ],
+      "modifiedAt": "2026-11-12T22:28:40Z",
+      "name": "T-T-16450",
+      "neighborhoodIDs": [
+        "stCroix-pump-garden"
+      ],
+      "point": {
+        "latitude": 18.33752457346936,
+        "longitude": -64.91803300777434
+      },
+      "reportedCustomersInitially": 19,
+      "reportedCustomersOut": 19,
+      "reportedCustomersRestored": 0,
+      "sourceStatus": "Predicted",
+      "startedAt": "2026-11-12T22:28:32Z",
+      "verified": false,
+      "workStatus": null
+    },
+    {
+      "cause": null,
+      "crewAssigned": false,
+      "endedAt": null,
+      "estimatedRestoration": null,
       "id": "a41e6de618df193361725496b2995215305f55c77bada07e6690d731643f655c",
       "island": null,
       "locations": [
@@ -381,32 +413,6 @@
       "sourceStatus": "Verified",
       "startedAt": "2026-11-04T17:15:35Z",
       "verified": true,
-      "workStatus": null
-    },
-    {
-      "cause": null,
-      "crewAssigned": false,
-      "endedAt": null,
-      "estimatedRestoration": null,
-      "id": "b28980823c4abed2023d2466c220f201cc02b3ed67d062f660c6cbd631ed44fa",
-      "island": null,
-      "locations": [
-        "CAROLINA 10-30C-1A",
-        "CAROLINA 10-30C-5"
-      ],
-      "modifiedAt": "2026-11-12T22:17:17Z",
-      "name": "T-J-03914",
-      "neighborhoodIDs": [],
-      "point": {
-        "latitude": 18.33884437569973,
-        "longitude": -64.71838654311689
-      },
-      "reportedCustomersInitially": 2,
-      "reportedCustomersOut": 2,
-      "reportedCustomersRestored": 0,
-      "sourceStatus": "Predicted",
-      "startedAt": "2026-11-12T22:16:49Z",
-      "verified": false,
       "workStatus": null
     },
     {
@@ -4696,7 +4702,7 @@
       "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-12T22:25:30Z",
+  "generatedAt": "2026-11-12T22:30:32Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -5234,7 +5240,25 @@
       "coverage": "partial",
       "customersOut": null,
       "id": "stCroix",
-      "neighborhoods": []
+      "neighborhoods": [
+        {
+          "affectedCustomers": null,
+          "estimatedRestoration": null,
+          "id": "stCroix-pump-garden",
+          "island": "stCroix",
+          "locations": [
+            "B-1LDG5",
+            "Building 14",
+            "Building 15"
+          ],
+          "name": "Pompano / Pump Garden",
+          "sourceEventIDs": [
+            "7e9936c58d09cc497a340a9bba6f22df1f7cfab14004ae64a2a8937854a5f412"
+          ],
+          "sourceStatus": "Predicted",
+          "startedAt": "2026-11-12T22:28:32Z"
+        }
+      ]
     },
     {
       "coverage": "partial",
@@ -5256,21 +5280,21 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "60a3730a4052b8d3bf6732e7643ab72d7946631d8cbd5da9edab9240c3403381",
+  "snapshotID": "cd06a6982aa088dfa98d81af6324bc560b09ad47df707150963d794b3a5fc185",
   "source": {
-    "checkedAt": "2026-11-12T22:25:30Z",
+    "checkedAt": "2026-11-12T22:30:32Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-12T22:25:23Z",
+    "updatedAt": "2026-11-12T22:30:23Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "sourceSummary": {
     "customerCountDifference": 2,
-    "customersAffected": 5199,
-    "customersOut": 5199,
+    "customersAffected": 5216,
+    "customersOut": 5216,
     "customersRestored": 0,
     "customersServed": 54725,
-    "eventCustomersOut": 5197,
+    "eventCustomersOut": 5214,
     "hourlyCustomersOut": [
       {
         "at": "2026-11-10T22:00:00Z",
@@ -5466,7 +5490,7 @@
       },
       {
         "at": "2026-11-12T22:00:00Z",
-        "customersOut": 5197
+        "customersOut": 5214
       }
     ],
     "locations": [
@@ -6303,8 +6327,6 @@
       "CAROLINA 10-28-9",
       "CAROLINA 10-29-3",
       "CAROLINA 10-3",
-      "CAROLINA 10-30C-1A",
-      "CAROLINA 10-30C-5",
       "CAROLINA 10-39*",
       "CAROLINA 10-40 (1)",
       "CAROLINA 10-40 (2)",
@@ -7169,6 +7191,8 @@
       "EST THOMAS 2 10TH STREET",
       "EST THOMAS 246 1ST STREET",
       "EST THOMAS 2B",
+      "EST THOMAS 39 1ST AVE",
+      "EST THOMAS 41",
       "EST THOMAS 6 10TH ST",
       "EST THOMAS 6-A 10ST",
       "EST THOMAS 6A 10TH",
@@ -8900,6 +8924,10 @@
       "PETERS BAY #5-C T-4",
       "PETERS BAY 2A",
       "PETERS BAY 6A",
+      "PMP GARDEN B-1LDG5",
+      "PMP GARDEN BLDG 15",
+      "PMP GARDEN BLDG-14",
+      "PMP GARDEN BLDG-15",
       "POLLYBERG",
       "POST OFFICE SQ NORRE GADE",
       "POST OFFICE SQUARE NORRE",
