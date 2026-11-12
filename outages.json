@@ -2436,48 +2436,6 @@
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
-      "id": "3f241c979dd6940288949e08e419108cc699dca98ac7c9fd762abd43cac8f425",
-      "island": null,
-      "locations": [
-        "EST THOMAS #10 10TH",
-        "EST THOMAS 10 ST 16",
-        "EST THOMAS 10TH ST LOT 14",
-        "EST THOMAS 12 10TH ST",
-        "EST THOMAS 16 10TH",
-        "EST THOMAS 16 10TH ST",
-        "EST THOMAS 18 10TH ST",
-        "EST THOMAS 18 10TH STREET",
-        "EST THOMAS 2 10TH STREET",
-        "EST THOMAS 6 10TH ST",
-        "EST THOMAS 6-A 10ST",
-        "EST THOMAS 6A 10TH",
-        "EST THOMAS 6A 10TH ST",
-        "EST THOMAS 6A 10TH ST BAS",
-        "EST THOMAS 6A-10TH",
-        "EST THOMAS 6A-10TH STREET",
-        "ESTATE THOMAS 6 10TH ST",
-        "ESTATE THOMAS 6A 10TH ST"
-      ],
-      "modifiedAt": "2026-11-12T22:11:47Z",
-      "name": "T-T-16523",
-      "neighborhoodIDs": [],
-      "point": {
-        "latitude": 18.3387590604904,
-        "longitude": -64.91611120081137
-      },
-      "reportedCustomersInitially": 22,
-      "reportedCustomersOut": 22,
-      "reportedCustomersRestored": 0,
-      "sourceStatus": "Predicted",
-      "startedAt": "2026-11-12T22:11:31Z",
-      "verified": false,
-      "workStatus": null
-    },
-    {
-      "cause": null,
-      "crewAssigned": false,
-      "endedAt": null,
-      "estimatedRestoration": null,
       "id": "4a3f0a315506757465227b7b8af29e7bb7b6c8ed1cccd49b9833ba4ca8788ac7",
       "island": null,
       "locations": [
@@ -2495,6 +2453,41 @@
       "reportedCustomersRestored": 0,
       "sourceStatus": "Predicted",
       "startedAt": "2026-11-12T13:17:30Z",
+      "verified": false,
+      "workStatus": null
+    },
+    {
+      "cause": null,
+      "crewAssigned": false,
+      "endedAt": null,
+      "estimatedRestoration": null,
+      "id": "4ccb3985ff94ba53c43fe1d88ceab7bbd0d468fb3b0aa75cb0f71b08dc3ab796",
+      "island": null,
+      "locations": [
+        "EST FRYDENDAHL",
+        "EST FRYDENDAHL 56-64 UP",
+        "FRYDENDAHL 56-16",
+        "FRYDENDAHL 56-16 MTR-D",
+        "FRYDENDAHL 56-17",
+        "FRYDENDAHL 56-18",
+        "FRYDENDAHL 56-21",
+        "FRYDENDAHL 56-62",
+        "FRYDENDAHL 56-64 DOWN",
+        "FRYDENDAHL 56-65",
+        "FRYDENDAHL 56-73"
+      ],
+      "modifiedAt": "2026-11-12T23:30:54Z",
+      "name": "T-T-07660",
+      "neighborhoodIDs": [],
+      "point": {
+        "latitude": 18.34874196640879,
+        "longitude": -64.87153889318442
+      },
+      "reportedCustomersInitially": 16,
+      "reportedCustomersOut": 16,
+      "reportedCustomersRestored": 0,
+      "sourceStatus": "Predicted",
+      "startedAt": "2026-11-12T23:30:46Z",
       "verified": false,
       "workStatus": null
     },
@@ -2562,67 +2555,6 @@
       "reportedCustomersRestored": 0,
       "sourceStatus": "Predicted",
       "startedAt": "2026-05-24T00:16:58Z",
-      "verified": false,
-      "workStatus": null
-    },
-    {
-      "cause": null,
-      "crewAssigned": false,
-      "endedAt": null,
-      "estimatedRestoration": null,
-      "id": "7e9936c58d09cc497a340a9bba6f22df1f7cfab14004ae64a2a8937854a5f412",
-      "island": null,
-      "locations": [
-        "EST THOMAS 39 1ST AVE",
-        "EST THOMAS 41",
-        "PMP GARDEN B-1LDG5",
-        "PMP GARDEN BLDG 15",
-        "PMP GARDEN BLDG-14",
-        "PMP GARDEN BLDG-15"
-      ],
-      "modifiedAt": "2026-11-12T22:28:40Z",
-      "name": "T-T-16450",
-      "neighborhoodIDs": [
-        "stCroix-pump-garden"
-      ],
-      "point": {
-        "latitude": 18.33752457346936,
-        "longitude": -64.91803300777434
-      },
-      "reportedCustomersInitially": 19,
-      "reportedCustomersOut": 19,
-      "reportedCustomersRestored": 0,
-      "sourceStatus": "Predicted",
-      "startedAt": "2026-11-12T22:28:32Z",
-      "verified": false,
-      "workStatus": null
-    },
-    {
-      "cause": null,
-      "crewAssigned": false,
-      "endedAt": null,
-      "estimatedRestoration": null,
-      "id": "85b29ff0a00484a79b9254c6c8691209ef161a678c369b86030f9d901640ca75",
-      "island": null,
-      "locations": [
-        "CONTANT 7 TOWERS BLDG-F",
-        "CONTANT TOWERS BLD-E",
-        "CONTANT TOWERS BLDG-E",
-        "CONTANT TOWERS BLDG-F",
-        "TOWERS TOWERS BLDG-E"
-      ],
-      "modifiedAt": "2026-11-12T22:35:07Z",
-      "name": "T-T-16839",
-      "neighborhoodIDs": [],
-      "point": {
-        "latitude": 18.337819281659435,
-        "longitude": -64.9534963767135
-      },
-      "reportedCustomersInitially": 39,
-      "reportedCustomersOut": 39,
-      "reportedCustomersRestored": 0,
-      "sourceStatus": "Predicted",
-      "startedAt": "2026-11-12T22:34:39Z",
       "verified": false,
       "workStatus": null
     },
@@ -2743,48 +2675,6 @@
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
-      "id": "b9411582b437ac82244b446be0ceb47f3bb6d8c72b72c6be549f638a8d305cef",
-      "island": null,
-      "locations": [
-        "EST THOMAS 14-62 NQ",
-        "EST THOMAS 14-63 NQ",
-        "EST THOMAS 14-64",
-        "EST THOMAS 14-64 UP",
-        "EST THOMAS 14-67",
-        "EST THOMAS 14-67 2ND-W",
-        "EST THOMAS 14-67 MIDDLE",
-        "EST THOMAS 14-68",
-        "EST THOMAS 7M NEW QTR DW",
-        "EST THOMAS 8K-6E",
-        "EST THOMAS 8N",
-        "EST THOMAS 8-P",
-        "EST THOMAS 8P UP",
-        "ESTATE THOMAS 14-67",
-        "ESTATE THOMAS 14-67A EAST",
-        "ESTATE THOMAS 7M UP",
-        "ESTATE THOMAS 8K-6E",
-        "FRYDENDAHL 53-15"
-      ],
-      "modifiedAt": "2026-11-12T22:10:17Z",
-      "name": "T-T-16489",
-      "neighborhoodIDs": [],
-      "point": {
-        "latitude": 18.33477903076409,
-        "longitude": -64.91434790536466
-      },
-      "reportedCustomersInitially": 25,
-      "reportedCustomersOut": 25,
-      "reportedCustomersRestored": 0,
-      "sourceStatus": "Predicted",
-      "startedAt": "2026-11-12T22:10:03Z",
-      "verified": false,
-      "workStatus": null
-    },
-    {
-      "cause": null,
-      "crewAssigned": false,
-      "endedAt": null,
-      "estimatedRestoration": null,
       "id": "c4f6fc20ed5067e073507447769a1fad062bba1e36e29208f0a249ffb91715fa",
       "island": null,
       "locations": [
@@ -2838,7 +2728,7 @@
       "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-12T23:30:54Z",
+  "generatedAt": "2026-11-12T23:35:56Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -2960,25 +2850,7 @@
       "coverage": "partial",
       "customersOut": null,
       "id": "stCroix",
-      "neighborhoods": [
-        {
-          "affectedCustomers": null,
-          "estimatedRestoration": null,
-          "id": "stCroix-pump-garden",
-          "island": "stCroix",
-          "locations": [
-            "B-1LDG5",
-            "Building 14",
-            "Building 15"
-          ],
-          "name": "Pompano / Pump Garden",
-          "sourceEventIDs": [
-            "7e9936c58d09cc497a340a9bba6f22df1f7cfab14004ae64a2a8937854a5f412"
-          ],
-          "sourceStatus": "Predicted",
-          "startedAt": "2026-11-12T22:28:32Z"
-        }
-      ]
+      "neighborhoods": []
     },
     {
       "coverage": "partial",
@@ -3000,21 +2872,21 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "976f8cc62a741afab5acac29710ea8176315008c882d924696a598e222c20526",
+  "snapshotID": "e9ead93372fb722e81572165d2476fc1fac375d8036b2dc0388bcba4f2d142d0",
   "source": {
-    "checkedAt": "2026-11-12T23:30:54Z",
+    "checkedAt": "2026-11-12T23:35:56Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-12T23:30:23Z",
+    "updatedAt": "2026-11-12T23:35:24Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "sourceSummary": {
     "customerCountDifference": 2,
-    "customersAffected": 3517,
-    "customersOut": 3517,
+    "customersAffected": 3428,
+    "customersOut": 3428,
     "customersRestored": 0,
     "customersServed": 54725,
-    "eventCustomersOut": 3515,
+    "eventCustomersOut": 3426,
     "hourlyCustomersOut": [
       {
         "at": "2026-11-10T23:00:00Z",
@@ -3206,11 +3078,11 @@
       },
       {
         "at": "2026-11-12T22:00:00Z",
-        "customersOut": 5235
+        "customersOut": 5130
       },
       {
         "at": "2026-11-12T23:00:00Z",
-        "customersOut": 8576
+        "customersOut": 8487
       }
     ],
     "locations": [
@@ -3868,13 +3740,9 @@
       "CONTANT 39A",
       "CONTANT 4-D",
       "CONTANT 6-B",
-      "CONTANT 7 TOWERS BLDG-F",
       "CONTANT 7-105-A B/TRAFFIC",
       "CONTANT 7B",
       "CONTANT 8",
-      "CONTANT TOWERS BLD-E",
-      "CONTANT TOWERS BLDG-E",
-      "CONTANT TOWERS BLDG-F",
       "COREENING HOLE (HONDURAS)",
       "COTTON VALLEY",
       "COTTON VALLEY 247",
@@ -4105,40 +3973,11 @@
       "EST ALTONA 178-243 HSE",
       "EST CONTANT 19-42",
       "EST CONTANT 28-7B",
+      "EST FRYDENDAHL",
+      "EST FRYDENDAHL 56-64 UP",
       "EST HONDURAS 30-4",
       "EST MAHOGANY 112",
       "EST ORKANSHULLET(HASS)8-1",
-      "EST THOMAS #10 10TH",
-      "EST THOMAS 10 ST 16",
-      "EST THOMAS 10TH ST LOT 14",
-      "EST THOMAS 12 10TH ST",
-      "EST THOMAS 14-62 NQ",
-      "EST THOMAS 14-63 NQ",
-      "EST THOMAS 14-64",
-      "EST THOMAS 14-64 UP",
-      "EST THOMAS 14-67",
-      "EST THOMAS 14-67 2ND-W",
-      "EST THOMAS 14-67 MIDDLE",
-      "EST THOMAS 14-68",
-      "EST THOMAS 16 10TH",
-      "EST THOMAS 16 10TH ST",
-      "EST THOMAS 18 10TH ST",
-      "EST THOMAS 18 10TH STREET",
-      "EST THOMAS 2 10TH STREET",
-      "EST THOMAS 39 1ST AVE",
-      "EST THOMAS 41",
-      "EST THOMAS 6 10TH ST",
-      "EST THOMAS 6-A 10ST",
-      "EST THOMAS 6A 10TH",
-      "EST THOMAS 6A 10TH ST",
-      "EST THOMAS 6A 10TH ST BAS",
-      "EST THOMAS 6A-10TH",
-      "EST THOMAS 6A-10TH STREET",
-      "EST THOMAS 7M NEW QTR DW",
-      "EST THOMAS 8K-6E",
-      "EST THOMAS 8N",
-      "EST THOMAS 8-P",
-      "EST THOMAS 8P UP",
       "EST THOMAS WEST 4D-4E",
       "ESTATE CARET BAY 2E-51-5",
       "ESTATE ROSS D-18",
@@ -4146,16 +3985,18 @@
       "ESTATE ROSS D-30",
       "ESTATE STAABI 13 9A GNQ",
       "ESTATE THOMAS 1,3, - 5",
-      "ESTATE THOMAS 14-67",
-      "ESTATE THOMAS 14-67A EAST",
       "ESTATE THOMAS 16-1",
-      "ESTATE THOMAS 6 10TH ST",
-      "ESTATE THOMAS 6A 10TH ST",
-      "ESTATE THOMAS 7M UP",
-      "ESTATE THOMAS 8K-6E",
       "FRENCHTOWN B-2",
       "FRYDENDAHL 12B-1",
-      "FRYDENDAHL 53-15",
+      "FRYDENDAHL 56-16",
+      "FRYDENDAHL 56-16 MTR-D",
+      "FRYDENDAHL 56-17",
+      "FRYDENDAHL 56-18",
+      "FRYDENDAHL 56-21",
+      "FRYDENDAHL 56-62",
+      "FRYDENDAHL 56-64 DOWN",
+      "FRYDENDAHL 56-65",
+      "FRYDENDAHL 56-73",
       "FRYDENHOJ #1-19",
       "FRYDENHOJ 1-1",
       "FRYDENHOJ 1-1 DWN",
@@ -5278,10 +5119,6 @@
       "PILE STRADE 7",
       "PILE STRADE A",
       "PILE STRADE BOTTOM FL",
-      "PMP GARDEN B-1LDG5",
-      "PMP GARDEN BLDG 15",
-      "PMP GARDEN BLDG-14",
-      "PMP GARDEN BLDG-15",
       "PRINCESSE GADE",
       "PRINCESSE GADE 11 A",
       "PRINCESSE GADE 11 AA",
@@ -5510,7 +5347,6 @@
       "TEMPLE STREET 9A A-1",
       "TEMPLE STREET UP",
       "TORVET STRADE 6",
-      "TOWERS TOWERS BLDG-E",
       "TROMPETER GADE 1",
       "TROMPETER GADE 1 MTR-1",
       "TROMPETER GADE 2",
@@ -5583,8 +5419,8 @@
       "WIMMELSKAFTS GADE 6A(RES)",
       "WINDWARD PASSAGE/TRAFFIC"
     ],
-    "totalOutages": 19
+    "totalOutages": 16
   },
   "staleAfterSeconds": 900,
-  "unassignedEventCount": 16
+  "unassignedEventCount": 13
 }
