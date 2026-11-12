@@ -2675,34 +2675,6 @@
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
-      "id": "c4f6fc20ed5067e073507447769a1fad062bba1e36e29208f0a249ffb91715fa",
-      "island": null,
-      "locations": [
-        "CONTANT 12",
-        "CONTANT 15A",
-        "CONTANT 15A REMAINDER",
-        "CONTANT 15A-B"
-      ],
-      "modifiedAt": "2026-11-12T22:58:26Z",
-      "name": "T-T-03438",
-      "neighborhoodIDs": [],
-      "point": {
-        "latitude": 18.344784048580884,
-        "longitude": -64.95670415657725
-      },
-      "reportedCustomersInitially": 6,
-      "reportedCustomersOut": 6,
-      "reportedCustomersRestored": 0,
-      "sourceStatus": "Predicted",
-      "startedAt": "2026-11-12T22:57:58Z",
-      "verified": false,
-      "workStatus": null
-    },
-    {
-      "cause": null,
-      "crewAssigned": false,
-      "endedAt": null,
-      "estimatedRestoration": null,
       "id": "cbbd2ef62dee6d0405b3a5d5c18b1c3c5a5b4dbca8f2f81c8fc8d71e6fec7176",
       "island": "stThomas",
       "locations": [
@@ -2728,7 +2700,7 @@
       "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-12T23:45:58Z",
+  "generatedAt": "2026-11-12T23:51:00Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -2872,21 +2844,21 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "875fc54c626936961811727977022b0636685d1299c40d6a46e16ba2a0ce5101",
+  "snapshotID": "b9348e30b3aa937644276428c3529ac69c3dbd30be6d8cfeefae612797e030c3",
   "source": {
-    "checkedAt": "2026-11-12T23:45:58Z",
+    "checkedAt": "2026-11-12T23:51:00Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-12T23:45:23Z",
+    "updatedAt": "2026-11-12T23:50:23Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "sourceSummary": {
     "customerCountDifference": 2,
-    "customersAffected": 3428,
-    "customersOut": 3428,
+    "customersAffected": 3422,
+    "customersOut": 3422,
     "customersRestored": 0,
     "customersServed": 54725,
-    "eventCustomersOut": 3426,
+    "eventCustomersOut": 3420,
     "hourlyCustomersOut": [
       {
         "at": "2026-11-10T23:00:00Z",
@@ -3078,11 +3050,11 @@
       },
       {
         "at": "2026-11-12T22:00:00Z",
-        "customersOut": 5130
+        "customersOut": 5124
       },
       {
         "at": "2026-11-12T23:00:00Z",
-        "customersOut": 8487
+        "customersOut": 8481
       }
     ],
     "locations": [
@@ -3704,11 +3676,7 @@
       "CONTANT 105A",
       "CONTANT 105AA",
       "CONTANT 105AA DOWN",
-      "CONTANT 12",
       "CONTANT 12-14",
-      "CONTANT 15A",
-      "CONTANT 15A REMAINDER",
-      "CONTANT 15A-B",
       "CONTANT 16-MANASSAH BUS",
       "CONTANT 2-3",
       "CONTANT 25 A",
@@ -5419,8 +5387,8 @@
       "WIMMELSKAFTS GADE 6A(RES)",
       "WINDWARD PASSAGE/TRAFFIC"
     ],
-    "totalOutages": 16
+    "totalOutages": 15
   },
   "staleAfterSeconds": 900,
-  "unassignedEventCount": 13
+  "unassignedEventCount": 12
 }
