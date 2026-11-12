@@ -224,6 +224,32 @@
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
+      "id": "7524ef78e9cb3be51215aace886056a83d2124e61335faacdfb9a223f355f385",
+      "island": null,
+      "locations": [
+        "CHARLOTTE AMALIE",
+        "CHARLOTTE AMALIE 3B-2"
+      ],
+      "modifiedAt": "2026-11-12T13:32:32Z",
+      "name": "T-T-11616",
+      "neighborhoodIDs": [],
+      "point": {
+        "latitude": 18.334617814510136,
+        "longitude": -64.89411985892929
+      },
+      "reportedCustomersInitially": 4,
+      "reportedCustomersOut": 4,
+      "reportedCustomersRestored": 0,
+      "sourceStatus": "Predicted",
+      "startedAt": "2026-11-12T13:32:15Z",
+      "verified": false,
+      "workStatus": null
+    },
+    {
+      "cause": null,
+      "crewAssigned": false,
+      "endedAt": null,
+      "estimatedRestoration": null,
       "id": "861fc2718bb0a692432204937a41321b09c3baed399869ad653476a62e35f22e",
       "island": null,
       "locations": [
@@ -1269,6 +1295,55 @@
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
+      "id": "a2d1931c86accab8c139939a31d4035b14adf2fea977dea5d7c3a12844d11ade",
+      "island": null,
+      "locations": [
+        "DONOE 3 BLDG 1",
+        "DONOE 3 BLDG 1 APT G101",
+        "DONOE 3 BLDG 1 APT G102",
+        "DONOE 3 BLDG 1 APT G105",
+        "DONOE 3 BLDG 1 APT G106",
+        "DONOE 3 BLDG 1 APT G110",
+        "DONOE 3 BLDG 1 APT G111",
+        "DONOE 3 BLDG 2 APT G201",
+        "DONOE 3 BLDG 2 APT G203",
+        "DONOE 3 BLDG 2 APT G204",
+        "DONOE 3 BLDG 2 APT G205",
+        "DONOE 3 BLDG 2 APT G206",
+        "DONOE 3 BLDG 3",
+        "DONOE 3 BLDG 3 APT G301",
+        "DONOE 3 BLDG 3 APT G302",
+        "DONOE 3 BLDG 3 APT G303",
+        "DONOE 3 BLDG 3 APT G304",
+        "DONOE 3 BLDG 3 APT G305",
+        "DONOE 3 BLDG 3 APT G306",
+        "DONOE 3 BLDG 3 APT G308",
+        "DONOE 3 BLDG 3 APT G311",
+        "DONOE 3 BLDG 3 APT G312",
+        "DONOE 3 BLDG-1 (HSE)",
+        "DONOE 3 BLDG-2 (HSE)",
+        "DUNOE 3 BLDG 2 APT G202"
+      ],
+      "modifiedAt": "2026-11-12T13:32:00Z",
+      "name": "T-T-11775",
+      "neighborhoodIDs": [],
+      "point": {
+        "latitude": 18.344356746526692,
+        "longitude": -64.89995296974458
+      },
+      "reportedCustomersInitially": 32,
+      "reportedCustomersOut": 32,
+      "reportedCustomersRestored": 0,
+      "sourceStatus": "Predicted",
+      "startedAt": "2026-11-12T13:31:26Z",
+      "verified": false,
+      "workStatus": null
+    },
+    {
+      "cause": null,
+      "crewAssigned": false,
+      "endedAt": null,
+      "estimatedRestoration": null,
       "id": "a41e6de618df193361725496b2995215305f55c77bada07e6690d731643f655c",
       "island": null,
       "locations": [
@@ -1460,7 +1535,7 @@
       "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-12T13:31:15Z",
+  "generatedAt": "2026-11-12T13:36:17Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -1545,21 +1620,21 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "74c2e1150142d0158f78b8a2c598faf03c3fedff40d67a52c85e33e4548fa626",
+  "snapshotID": "3125224192914e65d4bac9b5048e606f369b4c1f12c0860e011ea3066ce04e4f",
   "source": {
-    "checkedAt": "2026-11-12T13:31:15Z",
+    "checkedAt": "2026-11-12T13:36:17Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-12T13:30:21Z",
+    "updatedAt": "2026-11-12T13:35:21Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "sourceSummary": {
     "customerCountDifference": 2,
-    "customersAffected": 1128,
-    "customersOut": 1128,
+    "customersAffected": 1164,
+    "customersOut": 1164,
     "customersRestored": 0,
     "customersServed": 54724,
-    "eventCustomersOut": 1126,
+    "eventCustomersOut": 1162,
     "hourlyCustomersOut": [
       {
         "at": "2026-11-10T13:00:00Z",
@@ -1755,7 +1830,7 @@
       },
       {
         "at": "2026-11-12T13:00:00Z",
-        "customersOut": 1126
+        "customersOut": 1162
       }
     ],
     "locations": [
@@ -2125,6 +2200,8 @@
       "CAROLINA 8-5",
       "CAROLINA REM 6-2-1",
       "CELEBRATION VILLAGE CRUZ",
+      "CHARLOTTE AMALIE",
+      "CHARLOTTE AMALIE 3B-2",
       "CINNAMON BAY",
       "CINNAMON BAY 69",
       "CINNAMON BAY WATER PLANT",
@@ -2339,6 +2416,31 @@
       "DENNIS BAY 1R",
       "DENNIS BAY 3",
       "DIAMOND 18",
+      "DONOE 3 BLDG 1",
+      "DONOE 3 BLDG 1 APT G101",
+      "DONOE 3 BLDG 1 APT G102",
+      "DONOE 3 BLDG 1 APT G105",
+      "DONOE 3 BLDG 1 APT G106",
+      "DONOE 3 BLDG 1 APT G110",
+      "DONOE 3 BLDG 1 APT G111",
+      "DONOE 3 BLDG 2 APT G201",
+      "DONOE 3 BLDG 2 APT G203",
+      "DONOE 3 BLDG 2 APT G204",
+      "DONOE 3 BLDG 2 APT G205",
+      "DONOE 3 BLDG 2 APT G206",
+      "DONOE 3 BLDG 3",
+      "DONOE 3 BLDG 3 APT G301",
+      "DONOE 3 BLDG 3 APT G302",
+      "DONOE 3 BLDG 3 APT G303",
+      "DONOE 3 BLDG 3 APT G304",
+      "DONOE 3 BLDG 3 APT G305",
+      "DONOE 3 BLDG 3 APT G306",
+      "DONOE 3 BLDG 3 APT G308",
+      "DONOE 3 BLDG 3 APT G311",
+      "DONOE 3 BLDG 3 APT G312",
+      "DONOE 3 BLDG-1 (HSE)",
+      "DONOE 3 BLDG-2 (HSE)",
+      "DUNOE 3 BLDG 2 APT G202",
       "EC ESTATE MANDAHL",
       "EDEN 2-2",
       "EDEN 2-3E",
@@ -2804,8 +2906,8 @@
       "ZOOTENVAAL 3Q (MTR 1)",
       "ZOOTENVAAL 3T"
     ],
-    "totalOutages": 17
+    "totalOutages": 19
   },
   "staleAfterSeconds": 900,
-  "unassignedEventCount": 14
+  "unassignedEventCount": 16
 }
