@@ -539,6 +539,65 @@
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
+      "id": "bb1ab80064fdd7ce4d5f0ace82308ee626477e9c05cc4fdb7976520c2409e0d8",
+      "island": "stThomas",
+      "locations": [
+        "ST PETER 31-22 NORTH STAR",
+        "ST PETER 31-22 NORTHSTAR"
+      ],
+      "modifiedAt": "2026-11-12T12:20:00Z",
+      "name": "T-T-16605",
+      "neighborhoodIDs": [
+        "stThomas-st-peter"
+      ],
+      "point": {
+        "latitude": 18.356645455008035,
+        "longitude": -64.94562263999663
+      },
+      "reportedCustomersInitially": 3,
+      "reportedCustomersOut": 3,
+      "reportedCustomersRestored": 0,
+      "sourceStatus": "Predicted",
+      "startedAt": "2026-11-12T12:19:32Z",
+      "verified": false,
+      "workStatus": null
+    },
+    {
+      "cause": null,
+      "crewAssigned": false,
+      "endedAt": null,
+      "estimatedRestoration": null,
+      "id": "bda7305c938fcdedd4f2b6f3a46739643a28a65a7b69c9e1d5fa8c2ffe544197",
+      "island": null,
+      "locations": [
+        "ELIZABETH #41",
+        "EST ELIZABETH 19 #2",
+        "MISGUNST #13",
+        "MISGUNST 12 HOUSE",
+        "MISGUNST 13B",
+        "MISGUNST 13BB",
+        "MISGUNST MAFOLIE"
+      ],
+      "modifiedAt": "2026-11-12T12:15:40Z",
+      "name": "T-T-05709",
+      "neighborhoodIDs": [],
+      "point": {
+        "latitude": 18.353417861858844,
+        "longitude": -64.93276785839458
+      },
+      "reportedCustomersInitially": 10,
+      "reportedCustomersOut": 10,
+      "reportedCustomersRestored": 0,
+      "sourceStatus": "Predicted",
+      "startedAt": "2026-11-12T12:15:11Z",
+      "verified": false,
+      "workStatus": null
+    },
+    {
+      "cause": null,
+      "crewAssigned": false,
+      "endedAt": null,
+      "estimatedRestoration": null,
       "id": "cbbd2ef62dee6d0405b3a5d5c18b1c3c5a5b4dbca8f2f81c8fc8d71e6fec7176",
       "island": "stThomas",
       "locations": [
@@ -561,6 +620,38 @@
       "sourceStatus": "Verified",
       "startedAt": "2026-10-14T15:23:16Z",
       "verified": true,
+      "workStatus": null
+    },
+    {
+      "cause": null,
+      "crewAssigned": false,
+      "endedAt": null,
+      "estimatedRestoration": null,
+      "id": "dfd6e4e00832b575722595125b4b6937af0afac03ba54e0e759b7aa27635c346",
+      "island": null,
+      "locations": [
+        "BONNE RESOLUTION",
+        "BONNE RESOLUTION 14-1",
+        "BONNE RESOLUTION 14-2",
+        "BONNE RESOLUTION 14-2 A-1",
+        "BONNE RESOLUTION 14-50",
+        "BONNE RESOLUTION 14-51",
+        "BONNE RESOLUTION 15-3",
+        "BONNE RESOLUTION 15-4"
+      ],
+      "modifiedAt": "2026-11-12T12:16:27Z",
+      "name": "T-T-09238",
+      "neighborhoodIDs": [],
+      "point": {
+        "latitude": 18.364145456156777,
+        "longitude": -64.95703658952502
+      },
+      "reportedCustomersInitially": 8,
+      "reportedCustomersOut": 8,
+      "reportedCustomersRestored": 0,
+      "sourceStatus": "Predicted",
+      "startedAt": "2026-11-12T12:16:05Z",
+      "verified": false,
       "workStatus": null
     },
     {
@@ -648,7 +739,7 @@
       "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-12T12:15:50Z",
+  "generatedAt": "2026-11-12T12:20:52Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -685,15 +776,18 @@
             "22B",
             "23C",
             "23C-2",
+            "31-22 NORTH STAR",
+            "31-22 NORTHSTAR",
             "DOWN",
             "HULL BAY RD 16"
           ],
           "name": "Estate St. Peter",
           "sourceEventIDs": [
-            "784129a79373f0a988419ecac29dd49722a54b18fec32ace88d5179347228723"
+            "784129a79373f0a988419ecac29dd49722a54b18fec32ace88d5179347228723",
+            "bb1ab80064fdd7ce4d5f0ace82308ee626477e9c05cc4fdb7976520c2409e0d8"
           ],
           "sourceStatus": "Predicted",
-          "startedAt": "2026-11-12T12:09:40Z"
+          "startedAt": null
         },
         {
           "affectedCustomers": null,
@@ -755,21 +849,21 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "c6677cac8921b7bded7b76fc8d4d5a948297c13ec6b4be71396414d2d6ebeedd",
+  "snapshotID": "ddd9aba470bff5cb89c5335738cc283f3c611b03eedd83dc0c5f6ce4ce919b4c",
   "source": {
-    "checkedAt": "2026-11-12T12:15:50Z",
+    "checkedAt": "2026-11-12T12:20:52Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-12T12:15:21Z",
+    "updatedAt": "2026-11-12T12:20:21Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "sourceSummary": {
     "customerCountDifference": 2,
-    "customersAffected": 188,
-    "customersOut": 188,
+    "customersAffected": 209,
+    "customersOut": 209,
     "customersRestored": 0,
     "customersServed": 54724,
-    "eventCustomersOut": 186,
+    "eventCustomersOut": 207,
     "hourlyCustomersOut": [
       {
         "at": "2026-11-10T12:00:00Z",
@@ -965,7 +1059,7 @@
       },
       {
         "at": "2026-11-12T12:00:00Z",
-        "customersOut": 186
+        "customersOut": 207
       }
     ],
     "locations": [
@@ -975,6 +1069,14 @@
       "AGNES FANCY 5B",
       "AGNES FANCY 5F",
       "ALTONA & WELGUNST",
+      "BONNE RESOLUTION",
+      "BONNE RESOLUTION 14-1",
+      "BONNE RESOLUTION 14-2",
+      "BONNE RESOLUTION 14-2 A-1",
+      "BONNE RESOLUTION 14-50",
+      "BONNE RESOLUTION 14-51",
+      "BONNE RESOLUTION 15-3",
+      "BONNE RESOLUTION 15-4",
       "BONNE RESOLUTION 4-1",
       "BONNE RESOLUTION 4-4",
       "BONNE RESOLUTION 4-5",
@@ -1029,6 +1131,7 @@
       "EDEN 2-6-2",
       "EDEN 2-8-3",
       "EDEN 2-8-7",
+      "ELIZABETH #41",
       "EST BARRETT",
       "EST DOROTHEA",
       "EST DOROTHEA 2B",
@@ -1036,6 +1139,7 @@
       "EST DOROTHEA 2-D APT4",
       "EST DOROTHEA 2-D PUMP",
       "EST DOROTHEA 3-I REMAINDE",
+      "EST ELIZABETH 19 #2",
       "EST SMITH BAY 18-1",
       "EST ST PETER 23-D",
       "EST ST PETER 25A",
@@ -1067,6 +1171,11 @@
       "LERKENLUND 9D-1-2",
       "LOVENLUND EST FARMHOUSE",
       "LOWER JOHN DUNKO 26",
+      "MISGUNST #13",
+      "MISGUNST 12 HOUSE",
+      "MISGUNST 13B",
+      "MISGUNST 13BB",
+      "MISGUNST MAFOLIE",
       "PLESSEN 125",
       "PLESSEN 146",
       "PLESSEN 146-A (EL)",
@@ -1096,6 +1205,8 @@
       "ST PETER 23C",
       "ST PETER 23C-2",
       "ST PETER 23C-2 UP",
+      "ST PETER 31-22 NORTH STAR",
+      "ST PETER 31-22 NORTHSTAR",
       "ST PETER HULL BAY RD 16",
       "ST PETER-EST BARRET 25A",
       "ST. PETER DOWN",
@@ -1103,8 +1214,8 @@
       "SUBBASE 101 (EL)",
       "SUBBASE 69"
     ],
-    "totalOutages": 21
+    "totalOutages": 24
   },
   "staleAfterSeconds": 900,
-  "unassignedEventCount": 18
+  "unassignedEventCount": 20
 }
