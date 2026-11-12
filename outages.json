@@ -200,7 +200,7 @@
       "workStatus": null
     },
     {
-      "cause": null,
+      "cause": "000 Power supply",
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
@@ -1215,7 +1215,7 @@
         "ZOOTENVAAL 3Q (MTR 1)",
         "ZOOTENVAAL 3T"
       ],
-      "modifiedAt": "2026-11-12T16:25:17Z",
+      "modifiedAt": "2026-11-12T16:27:04Z",
       "name": "Feeder 07E",
       "neighborhoodIDs": [],
       "point": {
@@ -1362,7 +1362,7 @@
       "workStatus": null
     },
     {
-      "cause": null,
+      "cause": "000 Power supply",
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
@@ -3210,7 +3210,7 @@
         "WINTBERG-TRAILER",
         "WINTHBERG 1-B4 APT 303"
       ],
-      "modifiedAt": "2026-11-12T16:15:02Z",
+      "modifiedAt": "2026-11-12T16:27:09Z",
       "name": "ISW-7C-6A-THRM-A",
       "neighborhoodIDs": [
         "stThomas-lovenlund"
@@ -4422,7 +4422,7 @@
       "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-12T16:26:24Z",
+  "generatedAt": "2026-11-12T16:31:26Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -4617,11 +4617,11 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "aab57a9c9f5a8422c733b15e3067020a5a81eeb7e2cd9276c08dd62ff23f032f",
+  "snapshotID": "b1ac37bf67c2fa4a498534476941ab7197cbd5986521d7819af231acc87b4944",
   "source": {
-    "checkedAt": "2026-11-12T16:26:24Z",
+    "checkedAt": "2026-11-12T16:31:26Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-12T16:25:22Z",
+    "updatedAt": "2026-11-12T16:30:22Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
