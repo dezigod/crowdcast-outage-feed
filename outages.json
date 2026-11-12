@@ -4633,6 +4633,32 @@
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
+      "id": "2866122fc1140af9bcda706113d6bc65b03c1268a9fe19a498891048afc7662e",
+      "island": null,
+      "locations": [
+        "CAROLINA 10-30C-1A",
+        "CAROLINA 10-30C-5"
+      ],
+      "modifiedAt": "2026-11-12T02:39:48Z",
+      "name": "T-J-03914",
+      "neighborhoodIDs": [],
+      "point": {
+        "latitude": 18.33884437569973,
+        "longitude": -64.71838654311689
+      },
+      "reportedCustomersInitially": 2,
+      "reportedCustomersOut": 2,
+      "reportedCustomersRestored": 0,
+      "sourceStatus": "Predicted",
+      "startedAt": "2026-11-12T02:39:28Z",
+      "verified": false,
+      "workStatus": null
+    },
+    {
+      "cause": null,
+      "crewAssigned": false,
+      "endedAt": null,
+      "estimatedRestoration": null,
       "id": "296b4e6388cb7e1433b20caa7253b696445f263acde1cca1e0928dd49fc4662c",
       "island": null,
       "locations": [
@@ -4709,6 +4735,34 @@
       "sourceStatus": "Verified",
       "startedAt": "2026-11-10T16:24:45Z",
       "verified": true,
+      "workStatus": null
+    },
+    {
+      "cause": null,
+      "crewAssigned": false,
+      "endedAt": null,
+      "estimatedRestoration": null,
+      "id": "66c5cdb85099bf1e14d5cef56c4f7ec59cbe03135eabf3ce4e4f49e2394c9657",
+      "island": null,
+      "locations": [
+        "HANSEN BAY 6-0-5",
+        "HAULOVER",
+        "HAULOVER 5D-3-2",
+        "HAULOVER END 5-D UP"
+      ],
+      "modifiedAt": "2026-11-12T02:36:30Z",
+      "name": "T-J-00559",
+      "neighborhoodIDs": [],
+      "point": {
+        "latitude": 18.346893927632113,
+        "longitude": -64.67768539619297
+      },
+      "reportedCustomersInitially": 4,
+      "reportedCustomersOut": 4,
+      "reportedCustomersRestored": 0,
+      "sourceStatus": "Predicted",
+      "startedAt": "2026-11-12T02:36:11Z",
+      "verified": false,
       "workStatus": null
     },
     {
@@ -4958,7 +5012,7 @@
       "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-12T02:36:22Z",
+  "generatedAt": "2026-11-12T02:41:24Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -5043,21 +5097,21 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "037c008d16bbfbcfd501e142e53bf1d5db574fe6933cd5116a39804ad681c36d",
+  "snapshotID": "b777f079a14bbe0a0675c0b7404b441fed1719232faeec0ca7f25bb31af346c0",
   "source": {
-    "checkedAt": "2026-11-12T02:36:22Z",
+    "checkedAt": "2026-11-12T02:41:24Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-12T02:35:22Z",
+    "updatedAt": "2026-11-12T02:40:22Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "sourceSummary": {
     "customerCountDifference": 2,
-    "customersAffected": 5894,
-    "customersOut": 5894,
+    "customersAffected": 5900,
+    "customersOut": 5900,
     "customersRestored": 0,
     "customersServed": 54724,
-    "eventCustomersOut": 5892,
+    "eventCustomersOut": 5898,
     "hourlyCustomersOut": [
       {
         "at": "2026-11-10T02:00:00Z",
@@ -5253,7 +5307,7 @@
       },
       {
         "at": "2026-11-12T02:00:00Z",
-        "customersOut": 5892
+        "customersOut": 5898
       }
     ],
     "locations": [
@@ -5866,6 +5920,8 @@
       "CARET BAY\\WEST 2E-44",
       "CARET BAY21-2E-50A",
       "CARET BAY-EAST #7",
+      "CAROLINA 10-30C-1A",
+      "CAROLINA 10-30C-5",
       "COMMANDANT GADE 12",
       "CONTAN 320",
       "CONTANT",
@@ -7849,8 +7905,12 @@
       "GRAMBOKO HILL BEACON LITE",
       "GRANGE HILL",
       "GRANGE HILL 9",
+      "HANSEN BAY 6-0-5",
       "HARWOOD HIGHWAY/TRAFFIC",
       "HARWOOD RD/HIGHWAY LIGHT",
+      "HAULOVER",
+      "HAULOVER 5D-3-2",
+      "HAULOVER END 5-D UP",
       "HAVENSIGHT 5F-1 B-2 2B UP",
       "HIBISCUS HOUSE 16 PLANTAT",
       "HILL ASR 6",
@@ -9846,8 +9906,8 @@
       "ZUERIENDENHEIT",
       "ZUFRIDENHEIT 1"
     ],
-    "totalOutages": 15
+    "totalOutages": 17
   },
   "staleAfterSeconds": 900,
-  "unassignedEventCount": 12
+  "unassignedEventCount": 14
 }
