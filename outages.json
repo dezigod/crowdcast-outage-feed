@@ -2441,7 +2441,7 @@
       "locations": [
         "BOVONI 1-2"
       ],
-      "modifiedAt": "2026-11-12T22:58:41Z",
+      "modifiedAt": "2026-11-12T23:52:39Z",
       "name": "T-T-14186",
       "neighborhoodIDs": [],
       "point": {
@@ -2588,41 +2588,6 @@
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
-      "id": "a58dfd4585c4f31eae396faeb1ce0d66e4ff56cef0f3b969518914aaf3009620",
-      "island": null,
-      "locations": [
-        "FRYDENHOJ #1-19",
-        "FRYDENHOJ 1-1",
-        "FRYDENHOJ 1-1 DWN",
-        "FRYDENHOJ 1-19 UP",
-        "FRYDENHOJ 1-2",
-        "FRYDENHOJ 1-20",
-        "FRYDENHOJ 1-21",
-        "FRYDENHOJ 1-21 APT-1",
-        "FRYDENHOJ 1-23",
-        "FRYDENHOJ 1-38",
-        "FRYDENHOJ 1-39"
-      ],
-      "modifiedAt": "2026-11-12T22:58:41Z",
-      "name": "T-T-10100",
-      "neighborhoodIDs": [],
-      "point": {
-        "latitude": 18.32453495305715,
-        "longitude": -64.86938226436685
-      },
-      "reportedCustomersInitially": 15,
-      "reportedCustomersOut": 15,
-      "reportedCustomersRestored": 0,
-      "sourceStatus": "Predicted",
-      "startedAt": "2026-11-12T22:58:23Z",
-      "verified": false,
-      "workStatus": null
-    },
-    {
-      "cause": null,
-      "crewAssigned": false,
-      "endedAt": null,
-      "estimatedRestoration": null,
       "id": "a7622fe5ec3f7460243d64545ddffb42dc3c534b3876e2c938737688abde9c58",
       "island": "stThomas",
       "locations": [
@@ -2700,7 +2665,7 @@
       "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-12T23:51:00Z",
+  "generatedAt": "2026-11-12T23:56:02Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -2844,21 +2809,21 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "b9348e30b3aa937644276428c3529ac69c3dbd30be6d8cfeefae612797e030c3",
+  "snapshotID": "bcf84d7eca624e99f364faf070e414d8501bcfefffd40276b3c2de4ed7c76862",
   "source": {
-    "checkedAt": "2026-11-12T23:51:00Z",
+    "checkedAt": "2026-11-12T23:56:02Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-12T23:50:23Z",
+    "updatedAt": "2026-11-12T23:55:23Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "sourceSummary": {
     "customerCountDifference": 2,
-    "customersAffected": 3422,
-    "customersOut": 3422,
+    "customersAffected": 3407,
+    "customersOut": 3407,
     "customersRestored": 0,
     "customersServed": 54725,
-    "eventCustomersOut": 3420,
+    "eventCustomersOut": 3405,
     "hourlyCustomersOut": [
       {
         "at": "2026-11-10T23:00:00Z",
@@ -3050,11 +3015,11 @@
       },
       {
         "at": "2026-11-12T22:00:00Z",
-        "customersOut": 5124
+        "customersOut": 5109
       },
       {
         "at": "2026-11-12T23:00:00Z",
-        "customersOut": 8481
+        "customersOut": 8466
       }
     ],
     "locations": [
@@ -3965,17 +3930,6 @@
       "FRYDENDAHL 56-64 DOWN",
       "FRYDENDAHL 56-65",
       "FRYDENDAHL 56-73",
-      "FRYDENHOJ #1-19",
-      "FRYDENHOJ 1-1",
-      "FRYDENHOJ 1-1 DWN",
-      "FRYDENHOJ 1-19 UP",
-      "FRYDENHOJ 1-2",
-      "FRYDENHOJ 1-20",
-      "FRYDENHOJ 1-21",
-      "FRYDENHOJ 1-21 APT-1",
-      "FRYDENHOJ 1-23",
-      "FRYDENHOJ 1-38",
-      "FRYDENHOJ 1-39",
       "FRYDENHOJ 156",
       "GADE 24 2ND FL B-24&B-25",
       "GAMBLE GADE",
@@ -5387,8 +5341,8 @@
       "WIMMELSKAFTS GADE 6A(RES)",
       "WINDWARD PASSAGE/TRAFFIC"
     ],
-    "totalOutages": 15
+    "totalOutages": 14
   },
   "staleAfterSeconds": 900,
-  "unassignedEventCount": 12
+  "unassignedEventCount": 11
 }
