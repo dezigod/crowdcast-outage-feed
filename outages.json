@@ -386,6 +386,48 @@
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
+      "id": "b9411582b437ac82244b446be0ceb47f3bb6d8c72b72c6be549f638a8d305cef",
+      "island": null,
+      "locations": [
+        "EST THOMAS 14-62 NQ",
+        "EST THOMAS 14-63 NQ",
+        "EST THOMAS 14-64",
+        "EST THOMAS 14-64 UP",
+        "EST THOMAS 14-67",
+        "EST THOMAS 14-67 2ND-W",
+        "EST THOMAS 14-67 MIDDLE",
+        "EST THOMAS 14-68",
+        "EST THOMAS 7M NEW QTR DW",
+        "EST THOMAS 8K-6E",
+        "EST THOMAS 8N",
+        "EST THOMAS 8-P",
+        "EST THOMAS 8P UP",
+        "ESTATE THOMAS 14-67",
+        "ESTATE THOMAS 14-67A EAST",
+        "ESTATE THOMAS 7M UP",
+        "ESTATE THOMAS 8K-6E",
+        "FRYDENDAHL 53-15"
+      ],
+      "modifiedAt": "2026-11-12T22:10:17Z",
+      "name": "T-T-16489",
+      "neighborhoodIDs": [],
+      "point": {
+        "latitude": 18.33477903076409,
+        "longitude": -64.91434790536466
+      },
+      "reportedCustomersInitially": 25,
+      "reportedCustomersOut": 25,
+      "reportedCustomersRestored": 0,
+      "sourceStatus": "Predicted",
+      "startedAt": "2026-11-12T22:10:03Z",
+      "verified": false,
+      "workStatus": null
+    },
+    {
+      "cause": null,
+      "crewAssigned": false,
+      "endedAt": null,
+      "estimatedRestoration": null,
       "id": "c9afe1c22c8b15753220a19d1e8309fd38bc6c4969e659c00704be6d399c495c",
       "island": null,
       "locations": [
@@ -4626,7 +4668,7 @@
       "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-12T22:06:27Z",
+  "generatedAt": "2026-11-12T22:11:28Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -5186,21 +5228,21 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "6bc32c6dcced892189dc009e8f2284f2c36796d39065657ae830642313c922c1",
+  "snapshotID": "e97ec985454f4c5f50eb717833d6f3032e2bd2ce0376b9446ced5891e87449be",
   "source": {
-    "checkedAt": "2026-11-12T22:06:27Z",
+    "checkedAt": "2026-11-12T22:11:28Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-12T22:05:22Z",
+    "updatedAt": "2026-11-12T22:10:23Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "sourceSummary": {
     "customerCountDifference": 2,
-    "customersAffected": 5171,
-    "customersOut": 5171,
+    "customersAffected": 5196,
+    "customersOut": 5196,
     "customersRestored": 0,
     "customersServed": 54725,
-    "eventCustomersOut": 5169,
+    "eventCustomersOut": 5194,
     "hourlyCustomersOut": [
       {
         "at": "2026-11-10T22:00:00Z",
@@ -5396,7 +5438,7 @@
       },
       {
         "at": "2026-11-12T22:00:00Z",
-        "customersOut": 5169
+        "customersOut": 5194
       }
     ],
     "locations": [
@@ -7078,9 +7120,22 @@
       "EST TABOR & HARMONY 4-A",
       "EST TABOR & HARMONY 5-8",
       "EST THOMAS 1 1ST ST",
+      "EST THOMAS 14-62 NQ",
+      "EST THOMAS 14-63 NQ",
+      "EST THOMAS 14-64",
+      "EST THOMAS 14-64 UP",
+      "EST THOMAS 14-67",
+      "EST THOMAS 14-67 2ND-W",
+      "EST THOMAS 14-67 MIDDLE",
+      "EST THOMAS 14-68",
       "EST THOMAS 246 1ST STREET",
       "EST THOMAS 2B",
+      "EST THOMAS 7M NEW QTR DW",
       "EST THOMAS 8 -",
+      "EST THOMAS 8K-6E",
+      "EST THOMAS 8N",
+      "EST THOMAS 8-P",
+      "EST THOMAS 8P UP",
       "EST THOMAS WEST 4D-4E",
       "EST TUTU 129A-6",
       "EST TUTU 129A-7",
@@ -7304,6 +7359,10 @@
       "ESTATE ROSS D-15",
       "ESTATE ROSS D-2",
       "ESTATE TAARNEBERG 39C",
+      "ESTATE THOMAS 14-67",
+      "ESTATE THOMAS 14-67A EAST",
+      "ESTATE THOMAS 7M UP",
+      "ESTATE THOMAS 8K-6E",
       "ESTATE WINTBERG 1-117",
       "ESTATE WINTBERG 1-134",
       "ESTATE WINTBERG 1-B4",
@@ -7353,6 +7412,7 @@
       "FRIIS 5C-2",
       "FRIIS ST JOHN",
       "FRT MYLNER SHP CTR",
+      "FRYDENDAHL 53-15",
       "FRYDENHOJ 1-20",
       "FSTED FISH MARKET BTHRM",
       "FT CHRISTIAN PARKING LOT",
@@ -9598,8 +9658,8 @@
       "ZOOTENVAAL 3Q (MTR 1)",
       "ZOOTENVAAL 3T"
     ],
-    "totalOutages": 17
+    "totalOutages": 18
   },
   "staleAfterSeconds": 900,
-  "unassignedEventCount": 14
+  "unassignedEventCount": 15
 }
