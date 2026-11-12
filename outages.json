@@ -374,6 +374,32 @@
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
+      "id": "8d863dd5ce04dce4ed3a6d782774e953b852a75e31a026ff62ec52731d1a2518",
+      "island": null,
+      "locations": [
+        "CAROLINA 10-30C-1A",
+        "CAROLINA 10-30C-5"
+      ],
+      "modifiedAt": "2026-11-12T12:20:45Z",
+      "name": "T-J-03914",
+      "neighborhoodIDs": [],
+      "point": {
+        "latitude": 18.33884437569973,
+        "longitude": -64.71838654311689
+      },
+      "reportedCustomersInitially": 2,
+      "reportedCustomersOut": 2,
+      "reportedCustomersRestored": 0,
+      "sourceStatus": "Predicted",
+      "startedAt": "2026-11-12T12:20:17Z",
+      "verified": false,
+      "workStatus": null
+    },
+    {
+      "cause": null,
+      "crewAssigned": false,
+      "endedAt": null,
+      "estimatedRestoration": null,
       "id": "a41e6de618df193361725496b2995215305f55c77bada07e6690d731643f655c",
       "island": null,
       "locations": [
@@ -739,7 +765,7 @@
       "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-12T12:20:52Z",
+  "generatedAt": "2026-11-12T12:25:54Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -849,21 +875,21 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "ddd9aba470bff5cb89c5335738cc283f3c611b03eedd83dc0c5f6ce4ce919b4c",
+  "snapshotID": "448d45f56ee4e2b99a07b76106412ad5e849d9a26e04726e10474f8a0db684bd",
   "source": {
-    "checkedAt": "2026-11-12T12:20:52Z",
+    "checkedAt": "2026-11-12T12:25:54Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-12T12:20:21Z",
+    "updatedAt": "2026-11-12T12:25:22Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "sourceSummary": {
     "customerCountDifference": 2,
-    "customersAffected": 209,
-    "customersOut": 209,
+    "customersAffected": 211,
+    "customersOut": 211,
     "customersRestored": 0,
     "customersServed": 54724,
-    "eventCustomersOut": 207,
+    "eventCustomersOut": 209,
     "hourlyCustomersOut": [
       {
         "at": "2026-11-10T12:00:00Z",
@@ -1059,7 +1085,7 @@
       },
       {
         "at": "2026-11-12T12:00:00Z",
-        "customersOut": 207
+        "customersOut": 209
       }
     ],
     "locations": [
@@ -1085,6 +1111,8 @@
       "CARET BAY 2E-51-16",
       "CARET BAY 2E-51-17",
       "CARET BAY 2E-51-17 UP",
+      "CAROLINA 10-30C-1A",
+      "CAROLINA 10-30C-5",
       "CONTANT",
       "CONTANT 17",
       "CONTANT 22-28",
@@ -1214,8 +1242,8 @@
       "SUBBASE 101 (EL)",
       "SUBBASE 69"
     ],
-    "totalOutages": 24
+    "totalOutages": 25
   },
   "staleAfterSeconds": 900,
-  "unassignedEventCount": 20
+  "unassignedEventCount": 21
 }
