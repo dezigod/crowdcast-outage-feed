@@ -5959,9 +5959,63 @@
       "startedAt": "2026-11-12T16:14:56Z",
       "verified": true,
       "workStatus": null
+    },
+    {
+      "cause": null,
+      "crewAssigned": false,
+      "endedAt": null,
+      "estimatedRestoration": null,
+      "id": "f8c91c1151989fa1e7e02cb7a75cbe51a599081d6893536d82ac59c3ce173cd4",
+      "island": null,
+      "locations": [
+        "WHITE BAY 100",
+        "WHITE BAY 101",
+        "WHITE BAY 102",
+        "WHITE BAY 105",
+        "WHITE BAY 108",
+        "WHITE BAY 113",
+        "WHITE BAY 115 (HSE 1)",
+        "WHITE BAY 115 HSE 2",
+        "WHITE BAY 118",
+        "WHITE BAY 119",
+        "WHITE BAY 68",
+        "WHITE BAY 69",
+        "WHITE BAY 71",
+        "WHITE BAY 74",
+        "WHITE BAY 77",
+        "WHITE BAY 80",
+        "WHITE BAY 81",
+        "WHITE BAY 82",
+        "WHITE BAY 83",
+        "WHITE BAY 84",
+        "WHITE BAY 90",
+        "WHITE BAY 90-B",
+        "WHITE BAY 92",
+        "WHITE BAY 92 B",
+        "WHITE BAY 95",
+        "WHITE BAY 96",
+        "WHITE BAY 97",
+        "WHITE BAY 99",
+        "WHITE LADY 72",
+        "WHITE'S BAY 107"
+      ],
+      "modifiedAt": "2026-11-12T18:55:00Z",
+      "name": "T-C-26187",
+      "neighborhoodIDs": [],
+      "point": {
+        "latitude": 17.692763543799398,
+        "longitude": -64.88434649402248
+      },
+      "reportedCustomersInitially": 32,
+      "reportedCustomersOut": 32,
+      "reportedCustomersRestored": 0,
+      "sourceStatus": "Predicted",
+      "startedAt": "2026-11-12T18:54:38Z",
+      "verified": false,
+      "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-12T18:51:15Z",
+  "generatedAt": "2026-11-12T18:56:17Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -6156,21 +6210,21 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "2e59b2537a3cbf24041bf47277a6474d6de95ffe4e81c3c8f245614400f53a9b",
+  "snapshotID": "0b3191a6109fb7ade872b5ff1edc00d0b0975c855b127da84634ffa06fbfebc3",
   "source": {
-    "checkedAt": "2026-11-12T18:51:15Z",
+    "checkedAt": "2026-11-12T18:56:17Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-12T18:50:22Z",
+    "updatedAt": "2026-11-12T18:55:22Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "sourceSummary": {
     "customerCountDifference": 2,
-    "customersAffected": 6898,
-    "customersOut": 6898,
+    "customersAffected": 6930,
+    "customersOut": 6930,
     "customersRestored": 0,
     "customersServed": 54725,
-    "eventCustomersOut": 6896,
+    "eventCustomersOut": 6928,
     "hourlyCustomersOut": [
       {
         "at": "2026-11-10T18:00:00Z",
@@ -6366,7 +6420,7 @@
       },
       {
         "at": "2026-11-12T18:00:00Z",
-        "customersOut": 6896
+        "customersOut": 6928
       }
     ],
     "locations": [
@@ -11633,6 +11687,36 @@
       "WEST INDIAN CO DOCK B-1",
       "WEST SAPPHIRE BAY CONDO",
       "WHARFSIDE VILLAGE 7A",
+      "WHITE BAY 100",
+      "WHITE BAY 101",
+      "WHITE BAY 102",
+      "WHITE BAY 105",
+      "WHITE BAY 108",
+      "WHITE BAY 113",
+      "WHITE BAY 115 (HSE 1)",
+      "WHITE BAY 115 HSE 2",
+      "WHITE BAY 118",
+      "WHITE BAY 119",
+      "WHITE BAY 68",
+      "WHITE BAY 69",
+      "WHITE BAY 71",
+      "WHITE BAY 74",
+      "WHITE BAY 77",
+      "WHITE BAY 80",
+      "WHITE BAY 81",
+      "WHITE BAY 82",
+      "WHITE BAY 83",
+      "WHITE BAY 84",
+      "WHITE BAY 90",
+      "WHITE BAY 90-B",
+      "WHITE BAY 92",
+      "WHITE BAY 92 B",
+      "WHITE BAY 95",
+      "WHITE BAY 96",
+      "WHITE BAY 97",
+      "WHITE BAY 99",
+      "WHITE LADY 72",
+      "WHITE'S BAY 107",
       "WIC DOCK BAY BLDG-2",
       "WINTBEERG 1B-5-6",
       "WINTBERG",
@@ -11935,8 +12019,8 @@
       "ZOOTENVAAL 3Q (MTR 1)",
       "ZOOTENVAAL 3T"
     ],
-    "totalOutages": 16
+    "totalOutages": 17
   },
   "staleAfterSeconds": 900,
-  "unassignedEventCount": 13
+  "unassignedEventCount": 14
 }
