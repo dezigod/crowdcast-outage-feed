@@ -1787,42 +1787,6 @@
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
-      "id": "b2ae64109b5fa6efcc8ebfae81e0fc3e2a8d7ef6db8fbe1b67733d57df71c5ec",
-      "island": null,
-      "locations": [
-        "EDEN 2-3E",
-        "EDEN 2-6-2",
-        "EDEN 2-8-3",
-        "EDEN 2-8-7",
-        "ESTATE EDEN",
-        "ESTATE EDEN 2-3A",
-        "ESTATE EDEN 2-3B",
-        "ESTATE EDEN 2-3C #18B",
-        "ESTATE EDEN 2-5-2",
-        "ESTATE EDEN 2-6-1A",
-        "ESTATE EDEN 2-8-6",
-        "REM EST. EDEN 2-6-1"
-      ],
-      "modifiedAt": "2026-11-12T13:08:05Z",
-      "name": "T-J-02170",
-      "neighborhoodIDs": [],
-      "point": {
-        "latitude": 18.349104578953803,
-        "longitude": -64.70814740881245
-      },
-      "reportedCustomersInitially": 12,
-      "reportedCustomersOut": 12,
-      "reportedCustomersRestored": 0,
-      "sourceStatus": "Verified",
-      "startedAt": "2026-11-12T09:10:09Z",
-      "verified": true,
-      "workStatus": null
-    },
-    {
-      "cause": null,
-      "crewAssigned": false,
-      "endedAt": null,
-      "estimatedRestoration": null,
       "id": "cb3e36023c61bfce9e9c54872b88e8a16571a0bab3276adb5753e265b03e0ce0",
       "island": null,
       "locations": [
@@ -3102,7 +3066,7 @@
       "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-12T14:20:31Z",
+  "generatedAt": "2026-11-12T14:25:33Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -3187,21 +3151,21 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "9554b0127640128f6acece05a15c0eef88eb2a7e8fd2786c6fe6a4e230d9b281",
+  "snapshotID": "05742c8fbb68771d5eead076e6a2f4e94384eb3f62f64e721887e46dc0a64719",
   "source": {
-    "checkedAt": "2026-11-12T14:20:31Z",
+    "checkedAt": "2026-11-12T14:25:33Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-12T14:20:21Z",
+    "updatedAt": "2026-11-12T14:25:21Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "sourceSummary": {
     "customerCountDifference": 2,
-    "customersAffected": 3545,
-    "customersOut": 3545,
+    "customersAffected": 3533,
+    "customersOut": 3533,
     "customersRestored": 0,
     "customersServed": 54724,
-    "eventCustomersOut": 3543,
+    "eventCustomersOut": 3531,
     "hourlyCustomersOut": [
       {
         "at": "2026-11-10T14:00:00Z",
@@ -3377,27 +3341,27 @@
       },
       {
         "at": "2026-11-12T09:00:00Z",
-        "customersOut": 31
+        "customersOut": 19
       },
       {
         "at": "2026-11-12T10:00:00Z",
-        "customersOut": 31
+        "customersOut": 19
       },
       {
         "at": "2026-11-12T11:00:00Z",
-        "customersOut": 32
+        "customersOut": 20
       },
       {
         "at": "2026-11-12T12:00:00Z",
-        "customersOut": 1110
+        "customersOut": 1098
       },
       {
         "at": "2026-11-12T13:00:00Z",
-        "customersOut": 3391
+        "customersOut": 3379
       },
       {
         "at": "2026-11-12T14:00:00Z",
-        "customersOut": 6890
+        "customersOut": 6878
       }
     ],
     "locations": [
@@ -4054,10 +4018,6 @@
       "DOMINICA SAPP VILL 305E",
       "DOMINICA SAPPHIRE",
       "DOMINICA VILL SAPP 202A",
-      "EDEN 2-3E",
-      "EDEN 2-6-2",
-      "EDEN 2-8-3",
-      "EDEN 2-8-7",
       "EST ANNAS RETREAT",
       "EST BAKKERO",
       "EST BAKKERO 1-11",
@@ -4261,13 +4221,6 @@
       "ESTATE BOVONI 5-46",
       "ESTATE BOVONI 5-46 APT-2",
       "ESTATE CARET BAY 2E-51-5",
-      "ESTATE EDEN",
-      "ESTATE EDEN 2-3A",
-      "ESTATE EDEN 2-3B",
-      "ESTATE EDEN 2-3C #18B",
-      "ESTATE EDEN 2-5-2",
-      "ESTATE EDEN 2-6-1A",
-      "ESTATE EDEN 2-8-6",
       "ESTATE FRENCHMANS BAY",
       "ESTATE FRYDENDAHL",
       "ESTATE FRYDENDAHL #4",
@@ -5093,7 +5046,6 @@
       "RED HOOK VILLAS B-E A-211",
       "REDHOOK VILLAS SMITH BAY",
       "REGATTA POINT VILLAS 1& 2",
-      "REM EST. EDEN 2-6-1",
       "SABA 203-E SAPP VILL",
       "SABA 204A SAPP VILL",
       "SABA 303A SAPP",
@@ -6136,8 +6088,8 @@
       "WEST SAPPHIRE BAY CONDO",
       "WIC DOCK BAY BLDG-2"
     ],
-    "totalOutages": 15
+    "totalOutages": 14
   },
   "staleAfterSeconds": 900,
-  "unassignedEventCount": 12
+  "unassignedEventCount": 11
 }
