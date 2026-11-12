@@ -140,21 +140,29 @@
       "id": "56dc1ccd9c687e1209593b892116a2d6b225d659b782a84b350bc192b6bf7ca9",
       "island": null,
       "locations": [
+        "CARET",
         "CARET BAY 2E-51-14W",
         "CARET BAY 2E-51-16",
         "CARET BAY 2E-51-17",
         "CARET BAY 2E-51-17 UP",
+        "CARET BAY 2E-51-19",
+        "CARET BAY 2E-51-19 &2E-53",
+        "CARET BAY 2E-51-19 B-1",
+        "CARET BAY 2E-51-19 B-5",
+        "CARET BAY 2E-51-19 B-6",
+        "CARET BAY 2E-51-19 B-7",
+        "CARET BAY 2E-51-19 B-8",
         "ESTATE CARET BAY 2E-51-5"
       ],
-      "modifiedAt": "2026-11-12T13:52:30Z",
-      "name": "T-T-02074",
+      "modifiedAt": "2026-11-12T16:06:50Z",
+      "name": "FUST-02028",
       "neighborhoodIDs": [],
       "point": {
-        "latitude": 18.370791968758112,
-        "longitude": -64.9800982935457
+        "latitude": 18.371106482037177,
+        "longitude": -64.98029566368868
       },
-      "reportedCustomersInitially": 6,
-      "reportedCustomersOut": 6,
+      "reportedCustomersInitially": 25,
+      "reportedCustomersOut": 25,
       "reportedCustomersRestored": 0,
       "sourceStatus": "Predicted",
       "startedAt": "2026-11-12T13:23:57Z",
@@ -2548,7 +2556,7 @@
       "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-12T16:06:16Z",
+  "generatedAt": "2026-11-12T16:11:18Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -2633,21 +2641,21 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "afb56a5a51009d33a6b652d1f5a80d319e320682d3885fcb59038ac48837693c",
+  "snapshotID": "b448c4c106b4db36a12c3803f8d3898501083e882fd373a183b102b22f1ebb1c",
   "source": {
-    "checkedAt": "2026-11-12T16:06:16Z",
+    "checkedAt": "2026-11-12T16:11:18Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-12T16:05:22Z",
+    "updatedAt": "2026-11-12T16:10:22Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "sourceSummary": {
     "customerCountDifference": 2,
-    "customersAffected": 2529,
-    "customersOut": 2529,
+    "customersAffected": 2548,
+    "customersOut": 2548,
     "customersRestored": 0,
     "customersServed": 54725,
-    "eventCustomersOut": 2527,
+    "eventCustomersOut": 2546,
     "hourlyCustomersOut": [
       {
         "at": "2026-11-10T16:00:00Z",
@@ -2831,19 +2839,19 @@
       },
       {
         "at": "2026-11-12T13:00:00Z",
-        "customersOut": 3379
+        "customersOut": 3398
       },
       {
         "at": "2026-11-12T14:00:00Z",
-        "customersOut": 6868
+        "customersOut": 6887
       },
       {
         "at": "2026-11-12T15:00:00Z",
-        "customersOut": 3518
+        "customersOut": 3537
       },
       {
         "at": "2026-11-12T16:00:00Z",
-        "customersOut": 4603
+        "customersOut": 4622
       }
     ],
     "locations": [
@@ -3438,10 +3446,18 @@
       "CANEEL BAY 6A",
       "CANEEL BAY 6B (BLDG A)",
       "CANEEL BAY EST 238",
+      "CARET",
       "CARET BAY 2E-51-14W",
       "CARET BAY 2E-51-16",
       "CARET BAY 2E-51-17",
       "CARET BAY 2E-51-17 UP",
+      "CARET BAY 2E-51-19",
+      "CARET BAY 2E-51-19 &2E-53",
+      "CARET BAY 2E-51-19 B-1",
+      "CARET BAY 2E-51-19 B-5",
+      "CARET BAY 2E-51-19 B-6",
+      "CARET BAY 2E-51-19 B-7",
+      "CARET BAY 2E-51-19 B-8",
       "CARNIVAL VILLAGE",
       "CAROLINA",
       "CAROLINA #6T-14 MRT-A",
