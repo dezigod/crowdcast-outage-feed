@@ -56,34 +56,6 @@
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
-      "id": "150d0912cbace517ba9454140af0fb26ef476e6f3b539bcc52b82be2b9fd526b",
-      "island": null,
-      "locations": [
-        "BONNE ESPERANCE 14",
-        "BONNE ESPERANCE 14D",
-        "BONNE ESPERANCE 14D DWN",
-        "BONNE ESPERANCE 14F"
-      ],
-      "modifiedAt": "2026-11-12T21:33:46Z",
-      "name": "T-T-00964",
-      "neighborhoodIDs": [],
-      "point": {
-        "latitude": 18.3557176343752,
-        "longitude": -64.98692421446947
-      },
-      "reportedCustomersInitially": 4,
-      "reportedCustomersOut": 4,
-      "reportedCustomersRestored": 0,
-      "sourceStatus": "Predicted",
-      "startedAt": "2026-11-12T21:33:19Z",
-      "verified": false,
-      "workStatus": null
-    },
-    {
-      "cause": null,
-      "crewAssigned": false,
-      "endedAt": null,
-      "estimatedRestoration": null,
       "id": "2488f75f98539d93e6cc64f74531c322a0ab59b459e8794e1d08aad8f5693740",
       "island": null,
       "locations": [
@@ -4657,7 +4629,7 @@
       "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-12T21:36:16Z",
+  "generatedAt": "2026-11-12T21:41:18Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -5217,21 +5189,21 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "a408eb2b8da721a6b92f9810dcc4b43d8e5f08d09d239d98536a8571316c5eaf",
+  "snapshotID": "b10dfcfce4da292122c83fe81ea7794e05413e205dc3ef6663924410736408b9",
   "source": {
-    "checkedAt": "2026-11-12T21:36:16Z",
+    "checkedAt": "2026-11-12T21:41:18Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-12T21:35:23Z",
+    "updatedAt": "2026-11-12T21:40:23Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "sourceSummary": {
     "customerCountDifference": 2,
-    "customersAffected": 5156,
-    "customersOut": 5156,
+    "customersAffected": 5152,
+    "customersOut": 5152,
     "customersRestored": 0,
     "customersServed": 54725,
-    "eventCustomersOut": 5154,
+    "eventCustomersOut": 5150,
     "hourlyCustomersOut": [
       {
         "at": "2026-11-10T21:00:00Z",
@@ -5427,7 +5399,7 @@
       },
       {
         "at": "2026-11-12T21:00:00Z",
-        "customersOut": 5154
+        "customersOut": 5150
       }
     ],
     "locations": [
@@ -6109,10 +6081,6 @@
       "BLACKBEARDS HILL 100",
       "BLACKBEARDS HILL 1000",
       "BLDG. 2 MEADA'S PLAZA",
-      "BONNE ESPERANCE 14",
-      "BONNE ESPERANCE 14D",
-      "BONNE ESPERANCE 14D DWN",
-      "BONNE ESPERANCE 14F",
       "BOVONI",
       "BOVONI 1-2",
       "BOVONI 263",
@@ -9636,8 +9604,8 @@
       "ZOOTENVAAL 3Q (MTR 1)",
       "ZOOTENVAAL 3T"
     ],
-    "totalOutages": 18
+    "totalOutages": 17
   },
   "staleAfterSeconds": 900,
-  "unassignedEventCount": 15
+  "unassignedEventCount": 14
 }
