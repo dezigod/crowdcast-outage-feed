@@ -1337,31 +1337,6 @@
       "workStatus": null
     },
     {
-      "cause": null,
-      "crewAssigned": false,
-      "endedAt": null,
-      "estimatedRestoration": null,
-      "id": "da5afe92f753d5f312e575bf665571168e1b5af0aaab303bd5c4cb399201be4f",
-      "island": null,
-      "locations": [
-        "LEB VILLAS PHASE III"
-      ],
-      "modifiedAt": "2026-11-12T15:46:06Z",
-      "name": "207484",
-      "neighborhoodIDs": [],
-      "point": {
-        "latitude": 17.70549055592868,
-        "longitude": -64.81809268708359
-      },
-      "reportedCustomersInitially": 1,
-      "reportedCustomersOut": 1,
-      "reportedCustomersRestored": 0,
-      "sourceStatus": "Predicted",
-      "startedAt": "2026-11-12T15:45:31Z",
-      "verified": false,
-      "workStatus": null
-    },
-    {
       "cause": "000 Power supply",
       "crewAssigned": false,
       "endedAt": null,
@@ -4422,7 +4397,7 @@
       "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-12T17:30:45Z",
+  "generatedAt": "2026-11-12T17:35:47Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -4617,25 +4592,25 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "9fd3d8734ff5f99ab7f3825177b3e8a5e46082f5ee9a3acee3111218b3e1455d",
+  "snapshotID": "55957511101d97d1f25901beb82cf9d8f526eab53e1cd2f3f67288e91b1212bb",
   "source": {
-    "checkedAt": "2026-11-12T17:30:45Z",
+    "checkedAt": "2026-11-12T17:35:47Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-12T17:30:23Z",
+    "updatedAt": "2026-11-12T17:35:24Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "sourceSummary": {
     "customerCountDifference": 2,
-    "customersAffected": 4822,
-    "customersOut": 4822,
+    "customersAffected": 4821,
+    "customersOut": 4821,
     "customersRestored": 0,
     "customersServed": 54725,
-    "eventCustomersOut": 4820,
+    "eventCustomersOut": 4819,
     "hourlyCustomersOut": [
       {
         "at": "2026-11-10T17:00:00Z",
-        "customersOut": 4836
+        "customersOut": 4835
       },
       {
         "at": "2026-11-10T18:00:00Z",
@@ -4819,15 +4794,15 @@
       },
       {
         "at": "2026-11-12T15:00:00Z",
-        "customersOut": 3537
+        "customersOut": 3536
       },
       {
         "at": "2026-11-12T16:00:00Z",
-        "customersOut": 6896
+        "customersOut": 6895
       },
       {
         "at": "2026-11-12T17:00:00Z",
-        "customersOut": 4820
+        "customersOut": 4819
       }
     ],
     "locations": [
@@ -7678,7 +7653,6 @@
       "JOSEPH & ROSENDAHL 4G-7",
       "JOSEPH & ROSENDAHL 4G-8",
       "JOSEPH & ROSENDAHL 8D-4",
-      "LEB VILLAS PHASE III",
       "LERKENLUND 501L",
       "LERKENLUND 9D-1-2",
       "LIND POINT",
@@ -8884,8 +8858,8 @@
       "ZOOTENVAAL 3Q (MTR 1)",
       "ZOOTENVAAL 3T"
     ],
-    "totalOutages": 15
+    "totalOutages": 14
   },
   "staleAfterSeconds": 900,
-  "unassignedEventCount": 12
+  "unassignedEventCount": 11
 }
