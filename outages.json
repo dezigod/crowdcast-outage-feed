@@ -56,6 +56,46 @@
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
+      "id": "2473d3d5e6917c8ca1812e4bd0102350f4663d40d45a0c1310dd530502b47753",
+      "island": null,
+      "locations": [
+        "FSTED FISH MARKET BTHRM",
+        "MARLEY ADDITIONS B-3",
+        "MARLEY B-11 A-19",
+        "MARLEY B-2 A-4",
+        "MARLEY HOMES B-1",
+        "MARLEY HOMES B-1 A-2",
+        "MARLEY HOMES B-10 A-17",
+        "MARLEY HOMES B-10 A-18",
+        "MARLEY HOMES B-11 A-20",
+        "MARLEY HOMES B-2",
+        "STRAND STREET",
+        "STRAND STREET (PASSAGE)",
+        "STRAND STREET 34-B",
+        "STRAND STREET 36",
+        "STRAND STREET 36 APT D",
+        "STRAND STREET 37"
+      ],
+      "modifiedAt": "2026-11-12T22:03:57Z",
+      "name": "T-C-25335",
+      "neighborhoodIDs": [],
+      "point": {
+        "latitude": 17.70801365472935,
+        "longitude": -64.88302360798576
+      },
+      "reportedCustomersInitially": 21,
+      "reportedCustomersOut": 21,
+      "reportedCustomersRestored": 0,
+      "sourceStatus": "Predicted",
+      "startedAt": "2026-11-12T22:03:28Z",
+      "verified": false,
+      "workStatus": null
+    },
+    {
+      "cause": null,
+      "crewAssigned": false,
+      "endedAt": null,
+      "estimatedRestoration": null,
       "id": "2488f75f98539d93e6cc64f74531c322a0ab59b459e8794e1d08aad8f5693740",
       "island": null,
       "locations": [
@@ -129,6 +169,46 @@
       "reportedCustomersRestored": 0,
       "sourceStatus": "Predicted",
       "startedAt": "2026-11-12T11:28:40Z",
+      "verified": false,
+      "workStatus": null
+    },
+    {
+      "cause": null,
+      "crewAssigned": false,
+      "endedAt": null,
+      "estimatedRestoration": null,
+      "id": "4a2f636d17ab862cfe60d062da04497adebc3eb9dbef7e9f574073670b58d9c3",
+      "island": null,
+      "locations": [
+        "CONTANT #171 B-7 A-7D",
+        "CONTANT 171",
+        "CONTANT 171 APT 10E",
+        "CONTANT 171 BLD- 8",
+        "CONTANT 171 BLDG 10 APT",
+        "CONTANT 171 BLDG 7",
+        "CONTANT 171 BLDG 7 APT",
+        "CONTANT 171 BLDG 8",
+        "CONTANT 171 BLDG 8 APT",
+        "CONTANT 171 BLDG 8 APT 8H",
+        "CONTANT 171 BLDG 9 APT",
+        "CONTANT 171 BLDG-10",
+        "CONTANT 171 BLDG-7",
+        "CONTANT 171 BLDG-8",
+        "CONTANT 171 BLDG-9",
+        "CONTANT BLDG 10 171"
+      ],
+      "modifiedAt": "2026-11-12T22:01:24Z",
+      "name": "T-T-16857",
+      "neighborhoodIDs": [],
+      "point": {
+        "latitude": 18.343066442472328,
+        "longitude": -64.95761728365184
+      },
+      "reportedCustomersInitially": 39,
+      "reportedCustomersOut": 39,
+      "reportedCustomersRestored": 0,
+      "sourceStatus": "Predicted",
+      "startedAt": "2026-11-12T22:00:51Z",
       "verified": false,
       "workStatus": null
     },
@@ -4546,7 +4626,7 @@
       "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-12T22:01:25Z",
+  "generatedAt": "2026-11-12T22:06:27Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -5106,21 +5186,21 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "be058f00fd9d62e0948897d1b3384c74e373bb60a6a2d7ce8ecafab825a5c915",
+  "snapshotID": "6bc32c6dcced892189dc009e8f2284f2c36796d39065657ae830642313c922c1",
   "source": {
-    "checkedAt": "2026-11-12T22:01:25Z",
+    "checkedAt": "2026-11-12T22:06:27Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-12T22:00:23Z",
+    "updatedAt": "2026-11-12T22:05:22Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "sourceSummary": {
     "customerCountDifference": 2,
-    "customersAffected": 5111,
-    "customersOut": 5111,
+    "customersAffected": 5171,
+    "customersOut": 5171,
     "customersRestored": 0,
     "customersServed": 54725,
-    "eventCustomersOut": 5109,
+    "eventCustomersOut": 5169,
     "hourlyCustomersOut": [
       {
         "at": "2026-11-10T22:00:00Z",
@@ -5316,7 +5396,7 @@
       },
       {
         "at": "2026-11-12T22:00:00Z",
-        "customersOut": 5109
+        "customersOut": 5169
       }
     ],
     "locations": [
@@ -6374,6 +6454,7 @@
       "CONCORDIA 2-8",
       "CONCORDIA 2-9",
       "CONTANT",
+      "CONTANT #171 B-7 A-7D",
       "CONTANT & ENIGHED",
       "CONTANT & ENIGHED 109",
       "CONTANT & ENIGHED 110",
@@ -6390,6 +6471,20 @@
       "CONTANT & ENIGHED 249 UP",
       "CONTANT & ENIGHED DWN",
       "CONTANT & ENIGHED UNIT 6",
+      "CONTANT 171",
+      "CONTANT 171 APT 10E",
+      "CONTANT 171 BLD- 8",
+      "CONTANT 171 BLDG 10 APT",
+      "CONTANT 171 BLDG 7",
+      "CONTANT 171 BLDG 7 APT",
+      "CONTANT 171 BLDG 8",
+      "CONTANT 171 BLDG 8 APT",
+      "CONTANT 171 BLDG 8 APT 8H",
+      "CONTANT 171 BLDG 9 APT",
+      "CONTANT 171 BLDG-10",
+      "CONTANT 171 BLDG-7",
+      "CONTANT 171 BLDG-8",
+      "CONTANT 171 BLDG-9",
       "CONTANT 191/192 UNIT 4",
       "CONTANT 197 MTR 1",
       "CONTANT 197 MTR 2",
@@ -6400,6 +6495,7 @@
       "CONTANT 197 MTR 7",
       "CONTANT 225",
       "CONTANT 251",
+      "CONTANT BLDG 10 171",
       "CONTANT ENIGHED",
       "CONTANT ENIGHED 191 & 192",
       "CONTANT ENIGHED 235",
@@ -7258,6 +7354,7 @@
       "FRIIS ST JOHN",
       "FRT MYLNER SHP CTR",
       "FRYDENHOJ 1-20",
+      "FSTED FISH MARKET BTHRM",
       "FT CHRISTIAN PARKING LOT",
       "FT MYINER SHOPPING CENTER",
       "GADE #5 (NATIVE SON)",
@@ -8438,6 +8535,15 @@
       "MANDAHL PLOT 4E",
       "MANDAHL TRAILER 15D",
       "MANDAHL-14-C",
+      "MARLEY ADDITIONS B-3",
+      "MARLEY B-11 A-19",
+      "MARLEY B-2 A-4",
+      "MARLEY HOMES B-1",
+      "MARLEY HOMES B-1 A-2",
+      "MARLEY HOMES B-10 A-17",
+      "MARLEY HOMES B-10 A-18",
+      "MARLEY HOMES B-11 A-20",
+      "MARLEY HOMES B-2",
       "MODULAR CLASSROOM - BES",
       "MODULAR CLASSROOM - CAHS",
       "MODULAR CLASSROOM - GBES",
@@ -9028,6 +9134,12 @@
       "STJOSEPH & ROSENDAHL",
       "STJOSEPH/ROSENDAHL 12A-24",
       "STJOSEPH/ROSENDAHL 6C-6CA",
+      "STRAND STREET",
+      "STRAND STREET (PASSAGE)",
+      "STRAND STREET 34-B",
+      "STRAND STREET 36",
+      "STRAND STREET 36 APT D",
+      "STRAND STREET 37",
       "STUDIO",
       "STUDIO 1300 HSE MTR",
       "SUBBASE 100",
@@ -9486,8 +9598,8 @@
       "ZOOTENVAAL 3Q (MTR 1)",
       "ZOOTENVAAL 3T"
     ],
-    "totalOutages": 15
+    "totalOutages": 17
   },
   "staleAfterSeconds": 900,
-  "unassignedEventCount": 12
+  "unassignedEventCount": 14
 }
