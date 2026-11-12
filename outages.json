@@ -751,7 +751,7 @@
         "GOLDEN GROVE 2D",
         "GOLDEN GROVE 52"
       ],
-      "modifiedAt": "2026-11-12T12:42:15Z",
+      "modifiedAt": "2026-11-12T12:51:25Z",
       "name": "T-C-17923",
       "neighborhoodIDs": [],
       "point": {
@@ -767,7 +767,7 @@
       "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-12T12:51:01Z",
+  "generatedAt": "2026-11-12T12:56:03Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -877,11 +877,11 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "998541a5247d260c07aa79b453ed698c0b17a746f98bef2a8b834be742a58773",
+  "snapshotID": "ee40d381ac5438ff382588d78e37c3f338f08ef8ca4f248b60572a7a8da48a7e",
   "source": {
-    "checkedAt": "2026-11-12T12:51:01Z",
+    "checkedAt": "2026-11-12T12:56:03Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-12T12:50:21Z",
+    "updatedAt": "2026-11-12T12:55:20Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
