@@ -137,6 +137,32 @@
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
+      "id": "3dbf5bc752571faba895116face0bea7d1fc1a8365c51aa836e38a9231c5e139",
+      "island": null,
+      "locations": [
+        "CAROLINA 10-30C-1A",
+        "CAROLINA 10-30C-5"
+      ],
+      "modifiedAt": "2026-11-12T23:07:16Z",
+      "name": "T-J-03914",
+      "neighborhoodIDs": [],
+      "point": {
+        "latitude": 18.33884437569973,
+        "longitude": -64.71838654311689
+      },
+      "reportedCustomersInitially": 2,
+      "reportedCustomersOut": 2,
+      "reportedCustomersRestored": 0,
+      "sourceStatus": "Predicted",
+      "startedAt": "2026-11-12T23:07:06Z",
+      "verified": false,
+      "workStatus": null
+    },
+    {
+      "cause": null,
+      "crewAssigned": false,
+      "endedAt": null,
+      "estimatedRestoration": null,
       "id": "3f241c979dd6940288949e08e419108cc699dca98ac7c9fd762abd43cac8f425",
       "island": null,
       "locations": [
@@ -171,31 +197,6 @@
       "reportedCustomersRestored": 0,
       "sourceStatus": "Predicted",
       "startedAt": "2026-11-12T22:11:31Z",
-      "verified": false,
-      "workStatus": null
-    },
-    {
-      "cause": null,
-      "crewAssigned": false,
-      "endedAt": null,
-      "estimatedRestoration": null,
-      "id": "4859acca18aa75b78bb7effa0530203fb1ba12a6dba87a23a9d09e808e3f2eac",
-      "island": null,
-      "locations": [
-        "HERMAN HILL"
-      ],
-      "modifiedAt": "2026-11-12T22:30:43Z",
-      "name": "T-C-05433",
-      "neighborhoodIDs": [],
-      "point": {
-        "latitude": 17.73413997820512,
-        "longitude": -64.71919730560435
-      },
-      "reportedCustomersInitially": 1,
-      "reportedCustomersOut": 1,
-      "reportedCustomersRestored": 0,
-      "sourceStatus": "Predicted",
-      "startedAt": "2026-11-12T22:30:41Z",
       "verified": false,
       "workStatus": null
     },
@@ -4819,7 +4820,7 @@
       "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-12T23:05:45Z",
+  "generatedAt": "2026-11-12T23:10:47Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -5397,21 +5398,21 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "ebfe603387704e981971de5e49ff16d7a580436fe942a3b9104ce1287ce44167",
+  "snapshotID": "f1d8a1059be4287d5b494928970684ec8f5a2d4b619e8db064948cb68bfd618e",
   "source": {
-    "checkedAt": "2026-11-12T23:05:45Z",
+    "checkedAt": "2026-11-12T23:10:47Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-12T23:05:24Z",
+    "updatedAt": "2026-11-12T23:10:23Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "sourceSummary": {
     "customerCountDifference": 2,
-    "customersAffected": 5277,
-    "customersOut": 5277,
+    "customersAffected": 5278,
+    "customersOut": 5278,
     "customersRestored": 0,
     "customersServed": 54725,
-    "eventCustomersOut": 5275,
+    "eventCustomersOut": 5276,
     "hourlyCustomersOut": [
       {
         "at": "2026-11-10T23:00:00Z",
@@ -5603,11 +5604,11 @@
       },
       {
         "at": "2026-11-12T22:00:00Z",
-        "customersOut": 5275
+        "customersOut": 5274
       },
       {
         "at": "2026-11-12T23:00:00Z",
-        "customersOut": 5275
+        "customersOut": 5276
       }
     ],
     "locations": [
@@ -6444,6 +6445,8 @@
       "CAROLINA 10-28-9",
       "CAROLINA 10-29-3",
       "CAROLINA 10-3",
+      "CAROLINA 10-30C-1A",
+      "CAROLINA 10-30C-5",
       "CAROLINA 10-39*",
       "CAROLINA 10-40 (1)",
       "CAROLINA 10-40 (2)",
@@ -7704,7 +7707,6 @@
       "HAULOVER LIME TREE BAY",
       "HAULOVER PARCEL 5GA-1",
       "HAWKSNEST 1-U DENIS BAY",
-      "HERMAN HILL",
       "HGHWAY LGHT BOYSCOUT BLDG",
       "HOFFMAN C-11",
       "HOFFMAN C-4",
