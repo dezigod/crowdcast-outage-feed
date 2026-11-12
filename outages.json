@@ -211,31 +211,6 @@
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
-      "id": "3fe68421f129b3d8821626d3bc8f608066a5adebf98d166cab1e2ff3198fba31",
-      "island": null,
-      "locations": [
-        "COTTON VALLEY"
-      ],
-      "modifiedAt": "2026-11-10T16:48:24Z",
-      "name": "1006",
-      "neighborhoodIDs": [],
-      "point": {
-        "latitude": 17.75872125582103,
-        "longitude": -64.62421757369839
-      },
-      "reportedCustomersInitially": 1,
-      "reportedCustomersOut": 1,
-      "reportedCustomersRestored": 0,
-      "sourceStatus": "Verified",
-      "startedAt": "2026-11-10T16:24:45Z",
-      "verified": true,
-      "workStatus": null
-    },
-    {
-      "cause": null,
-      "crewAssigned": false,
-      "endedAt": null,
-      "estimatedRestoration": null,
       "id": "616f9e1606b910787b8fe56fcbbfc3d7a9d04bcd5f8172c507c6aa90ab5a1cd1",
       "island": null,
       "locations": [
@@ -765,7 +740,7 @@
       "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-12T12:30:56Z",
+  "generatedAt": "2026-11-12T12:35:57Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -875,21 +850,21 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "e3f68a8fbbbcb7b771011c51ec0d78029f430b80bc0cf67902d2c9cb4e5430c7",
+  "snapshotID": "9d7663408a97785911584d382d36957f1d365be4be800006412e2d050abfd84d",
   "source": {
-    "checkedAt": "2026-11-12T12:30:56Z",
+    "checkedAt": "2026-11-12T12:35:57Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-12T12:30:21Z",
+    "updatedAt": "2026-11-12T12:35:21Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "sourceSummary": {
     "customerCountDifference": 2,
-    "customersAffected": 211,
-    "customersOut": 211,
+    "customersAffected": 210,
+    "customersOut": 210,
     "customersRestored": 0,
     "customersServed": 54724,
-    "eventCustomersOut": 209,
+    "eventCustomersOut": 208,
     "hourlyCustomersOut": [
       {
         "at": "2026-11-10T12:00:00Z",
@@ -925,167 +900,167 @@
       },
       {
         "at": "2026-11-10T20:00:00Z",
-        "customersOut": 14844
+        "customersOut": 14843
       },
       {
         "at": "2026-11-10T21:00:00Z",
-        "customersOut": 13172
+        "customersOut": 13171
       },
       {
         "at": "2026-11-10T22:00:00Z",
-        "customersOut": 12268
+        "customersOut": 12267
       },
       {
         "at": "2026-11-10T23:00:00Z",
-        "customersOut": 6514
+        "customersOut": 6513
       },
       {
         "at": "2026-11-11T00:00:00Z",
-        "customersOut": 2545
+        "customersOut": 2544
       },
       {
         "at": "2026-11-11T01:00:00Z",
-        "customersOut": 262
+        "customersOut": 261
       },
       {
         "at": "2026-11-11T02:00:00Z",
-        "customersOut": 246
+        "customersOut": 245
       },
       {
         "at": "2026-11-11T03:00:00Z",
-        "customersOut": 246
+        "customersOut": 245
       },
       {
         "at": "2026-11-11T04:00:00Z",
-        "customersOut": 246
+        "customersOut": 245
       },
       {
         "at": "2026-11-11T05:00:00Z",
-        "customersOut": 738
+        "customersOut": 737
       },
       {
         "at": "2026-11-11T06:00:00Z",
-        "customersOut": 738
+        "customersOut": 737
       },
       {
         "at": "2026-11-11T07:00:00Z",
-        "customersOut": 738
+        "customersOut": 737
       },
       {
         "at": "2026-11-11T08:00:00Z",
-        "customersOut": 738
+        "customersOut": 737
       },
       {
         "at": "2026-11-11T09:00:00Z",
-        "customersOut": 738
+        "customersOut": 737
       },
       {
         "at": "2026-11-11T10:00:00Z",
-        "customersOut": 738
+        "customersOut": 737
       },
       {
         "at": "2026-11-11T11:00:00Z",
-        "customersOut": 738
+        "customersOut": 737
       },
       {
         "at": "2026-11-11T12:00:00Z",
-        "customersOut": 26859
+        "customersOut": 26858
       },
       {
         "at": "2026-11-11T13:00:00Z",
-        "customersOut": 17683
+        "customersOut": 17682
       },
       {
         "at": "2026-11-11T14:00:00Z",
-        "customersOut": 18966
+        "customersOut": 18965
       },
       {
         "at": "2026-11-11T15:00:00Z",
-        "customersOut": 13921
+        "customersOut": 13920
       },
       {
         "at": "2026-11-11T16:00:00Z",
-        "customersOut": 16946
+        "customersOut": 16945
       },
       {
         "at": "2026-11-11T17:00:00Z",
-        "customersOut": 14708
+        "customersOut": 14707
       },
       {
         "at": "2026-11-11T18:00:00Z",
-        "customersOut": 10492
+        "customersOut": 10491
       },
       {
         "at": "2026-11-11T19:00:00Z",
-        "customersOut": 8452
+        "customersOut": 8451
       },
       {
         "at": "2026-11-11T20:00:00Z",
-        "customersOut": 15211
+        "customersOut": 15210
       },
       {
         "at": "2026-11-11T21:00:00Z",
-        "customersOut": 3393
+        "customersOut": 3392
       },
       {
         "at": "2026-11-11T22:00:00Z",
-        "customersOut": 9890
+        "customersOut": 9889
       },
       {
         "at": "2026-11-11T23:00:00Z",
-        "customersOut": 6531
+        "customersOut": 6530
       },
       {
         "at": "2026-11-12T00:00:00Z",
-        "customersOut": 15686
+        "customersOut": 15685
       },
       {
         "at": "2026-11-12T01:00:00Z",
-        "customersOut": 9193
+        "customersOut": 9192
       },
       {
         "at": "2026-11-12T02:00:00Z",
-        "customersOut": 9194
+        "customersOut": 9193
       },
       {
         "at": "2026-11-12T03:00:00Z",
-        "customersOut": 1119
+        "customersOut": 1118
       },
       {
         "at": "2026-11-12T04:00:00Z",
-        "customersOut": 34
+        "customersOut": 33
       },
       {
         "at": "2026-11-12T05:00:00Z",
-        "customersOut": 34
+        "customersOut": 33
       },
       {
         "at": "2026-11-12T06:00:00Z",
-        "customersOut": 34
+        "customersOut": 33
       },
       {
         "at": "2026-11-12T07:00:00Z",
-        "customersOut": 34
+        "customersOut": 33
       },
       {
         "at": "2026-11-12T08:00:00Z",
-        "customersOut": 40
+        "customersOut": 39
       },
       {
         "at": "2026-11-12T09:00:00Z",
-        "customersOut": 52
+        "customersOut": 51
       },
       {
         "at": "2026-11-12T10:00:00Z",
-        "customersOut": 52
+        "customersOut": 51
       },
       {
         "at": "2026-11-12T11:00:00Z",
-        "customersOut": 53
+        "customersOut": 52
       },
       {
         "at": "2026-11-12T12:00:00Z",
-        "customersOut": 209
+        "customersOut": 208
       }
     ],
     "locations": [
@@ -1242,8 +1217,8 @@
       "SUBBASE 101 (EL)",
       "SUBBASE 69"
     ],
-    "totalOutages": 25
+    "totalOutages": 24
   },
   "staleAfterSeconds": 900,
-  "unassignedEventCount": 21
+  "unassignedEventCount": 20
 }
