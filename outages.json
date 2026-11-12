@@ -11,7 +11,7 @@
       "locations": [
         "GLYNN 204"
       ],
-      "modifiedAt": "2026-11-12T16:19:48Z",
+      "modifiedAt": "2026-11-12T16:22:06Z",
       "name": "54274",
       "neighborhoodIDs": [],
       "point": {
@@ -1215,7 +1215,7 @@
         "ZOOTENVAAL 3Q (MTR 1)",
         "ZOOTENVAAL 3T"
       ],
-      "modifiedAt": "2026-11-12T16:01:46Z",
+      "modifiedAt": "2026-11-12T16:25:17Z",
       "name": "Feeder 07E",
       "neighborhoodIDs": [],
       "point": {
@@ -4422,7 +4422,7 @@
       "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-12T16:21:22Z",
+  "generatedAt": "2026-11-12T16:26:24Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -4617,11 +4617,11 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "b988e3e4ad44d3e124c13fd231f29c4440b5552a88dcf45500515131b54fe9aa",
+  "snapshotID": "aab57a9c9f5a8422c733b15e3067020a5a81eeb7e2cd9276c08dd62ff23f032f",
   "source": {
-    "checkedAt": "2026-11-12T16:21:22Z",
+    "checkedAt": "2026-11-12T16:26:24Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-12T16:20:22Z",
+    "updatedAt": "2026-11-12T16:25:22Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
