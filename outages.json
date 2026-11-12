@@ -307,6 +307,35 @@
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
+      "id": "e53eb088e382d586c1a79cbfe893649b2cace6d486a814f16ffbaf3d6aa867aa",
+      "island": null,
+      "locations": [
+        "CARET BAY 2E-51-14W",
+        "CARET BAY 2E-51-16",
+        "CARET BAY 2E-51-17",
+        "CARET BAY 2E-51-17 UP",
+        "ESTATE CARET BAY 2E-51-5"
+      ],
+      "modifiedAt": "2026-11-12T08:14:45Z",
+      "name": "T-T-02074",
+      "neighborhoodIDs": [],
+      "point": {
+        "latitude": 18.370791968758112,
+        "longitude": -64.9800982935457
+      },
+      "reportedCustomersInitially": 6,
+      "reportedCustomersOut": 6,
+      "reportedCustomersRestored": 0,
+      "sourceStatus": "Predicted",
+      "startedAt": "2026-11-12T08:14:11Z",
+      "verified": false,
+      "workStatus": null
+    },
+    {
+      "cause": null,
+      "crewAssigned": false,
+      "endedAt": null,
+      "estimatedRestoration": null,
       "id": "ee87199ed08752e93ea2e03c2d820865d93f6657df16f74381367c76a850c7bd",
       "island": null,
       "locations": [
@@ -329,7 +358,7 @@
       "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-12T08:11:11Z",
+  "generatedAt": "2026-11-12T08:16:13Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -414,21 +443,21 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "6aeee056269ade7a93a34103d99f847c53f7bc84cb86092bc2735b00f5d368cf",
+  "snapshotID": "21000ec6376fd4cec34277e2a786d695b4bc950d859e7bfdf72c5c9deb96f5ba",
   "source": {
-    "checkedAt": "2026-11-12T08:11:11Z",
+    "checkedAt": "2026-11-12T08:16:13Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-12T08:10:22Z",
+    "updatedAt": "2026-11-12T08:15:20Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "sourceSummary": {
     "customerCountDifference": 2,
-    "customersAffected": 36,
-    "customersOut": 36,
+    "customersAffected": 42,
+    "customersOut": 42,
     "customersRestored": 0,
     "customersServed": 54724,
-    "eventCustomersOut": 34,
+    "eventCustomersOut": 40,
     "hourlyCustomersOut": [
       {
         "at": "2026-11-10T08:00:00Z",
@@ -624,7 +653,7 @@
       },
       {
         "at": "2026-11-12T08:00:00Z",
-        "customersOut": 34
+        "customersOut": 40
       }
     ],
     "locations": [
@@ -632,12 +661,17 @@
       "AGNES FANCY 5-A",
       "AGNES FANCY 5B",
       "AGNES FANCY 5F",
+      "CARET BAY 2E-51-14W",
+      "CARET BAY 2E-51-16",
+      "CARET BAY 2E-51-17",
+      "CARET BAY 2E-51-17 UP",
       "COTTON VALLEY",
       "COTTON VALLEY 247",
       "COTTON VALLEY 251",
       "DIAMOND 18",
       "EST SMITH BAY 18-1",
       "EST THOMAS WEST 4D-4E",
+      "ESTATE CARET BAY 2E-51-5",
       "GLYNN 254",
       "GLYNN 254 A SUITE 6",
       "GLYNN 254-A",
@@ -661,8 +695,8 @@
       "SUBBASE 101 (EL)",
       "SUBBASE 69"
     ],
-    "totalOutages": 12
+    "totalOutages": 13
   },
   "staleAfterSeconds": 900,
-  "unassignedEventCount": 9
+  "unassignedEventCount": 10
 }
