@@ -171,6 +171,31 @@
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
+      "id": "7bd74b90a1d86426ff7a35c94dfd19bf379a10667975b5f785c992a7d198493f",
+      "island": null,
+      "locations": [
+        "LEB VILLAS PHASE III"
+      ],
+      "modifiedAt": "2026-11-12T14:59:12Z",
+      "name": "207484",
+      "neighborhoodIDs": [],
+      "point": {
+        "latitude": 17.70549055592868,
+        "longitude": -64.81809268708359
+      },
+      "reportedCustomersInitially": 1,
+      "reportedCustomersOut": 1,
+      "reportedCustomersRestored": 0,
+      "sourceStatus": "Predicted",
+      "startedAt": "2026-11-12T14:58:43Z",
+      "verified": false,
+      "workStatus": null
+    },
+    {
+      "cause": null,
+      "crewAssigned": false,
+      "endedAt": null,
+      "estimatedRestoration": null,
       "id": "a41e6de618df193361725496b2995215305f55c77bada07e6690d731643f655c",
       "island": null,
       "locations": [
@@ -3006,7 +3031,7 @@
       "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-12T14:55:46Z",
+  "generatedAt": "2026-11-12T15:00:48Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -3091,26 +3116,22 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "40136842f0a8ab90514f26b34b619cb20719ff685bf3abac9b7f714d979e4cbc",
+  "snapshotID": "4c49eab04ec0bd9fb0f86158ef3b30f66a241caa6e5fb8d9aad071b531038402",
   "source": {
-    "checkedAt": "2026-11-12T14:55:46Z",
+    "checkedAt": "2026-11-12T15:00:48Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-12T14:55:21Z",
+    "updatedAt": "2026-11-12T15:00:21Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "sourceSummary": {
     "customerCountDifference": 2,
-    "customersAffected": 3518,
-    "customersOut": 3518,
+    "customersAffected": 3519,
+    "customersOut": 3519,
     "customersRestored": 0,
-    "customersServed": 54724,
-    "eventCustomersOut": 3516,
+    "customersServed": 54725,
+    "eventCustomersOut": 3517,
     "hourlyCustomersOut": [
-      {
-        "at": "2026-11-10T14:00:00Z",
-        "customersOut": 4456
-      },
       {
         "at": "2026-11-10T15:00:00Z",
         "customersOut": 11014
@@ -3301,7 +3322,11 @@
       },
       {
         "at": "2026-11-12T14:00:00Z",
-        "customersOut": 6868
+        "customersOut": 6869
+      },
+      {
+        "at": "2026-11-12T15:00:00Z",
+        "customersOut": 3517
       }
     ],
     "locations": [
@@ -4931,6 +4956,7 @@
       "HAVENSIGHT REMAINDER",
       "HAVENSIGHT WAY 18 A-C",
       "HAWK HILL CONDO APT. 9",
+      "LEB VILLAS PHASE III",
       "LERKENLUND 9D-1-2",
       "LOT 15 EST. THOMAS",
       "LOT 18-16 SMITH BAY",
@@ -6016,8 +6042,8 @@
       "WEST SAPPHIRE BAY CONDO",
       "WIC DOCK BAY BLDG-2"
     ],
-    "totalOutages": 12
+    "totalOutages": 13
   },
   "staleAfterSeconds": 900,
-  "unassignedEventCount": 9
+  "unassignedEventCount": 10
 }
