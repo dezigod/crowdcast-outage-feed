@@ -121,7 +121,7 @@
         "CARET BAY 2E-51-17 UP",
         "ESTATE CARET BAY 2E-51-5"
       ],
-      "modifiedAt": "2026-11-12T13:24:28Z",
+      "modifiedAt": "2026-11-12T13:52:30Z",
       "name": "T-T-02074",
       "neighborhoodIDs": [],
       "point": {
@@ -3273,7 +3273,7 @@
       "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-12T13:51:23Z",
+  "generatedAt": "2026-11-12T13:56:25Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -3468,11 +3468,11 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "034dd538f6302eb533ecc4cab5b621b107d1ee6fcf689e8df3c980574060165e",
+  "snapshotID": "85ede921051977d1bc77eaee7ee781cecdc1ca1e0fdf57ebff22bbdefa117c2c",
   "source": {
-    "checkedAt": "2026-11-12T13:51:23Z",
+    "checkedAt": "2026-11-12T13:56:25Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-12T13:50:21Z",
+    "updatedAt": "2026-11-12T13:55:21Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
@@ -3486,7 +3486,7 @@
     "hourlyCustomersOut": [
       {
         "at": "2026-11-10T13:00:00Z",
-        "customersOut": 12375
+        "customersOut": 6624
       },
       {
         "at": "2026-11-10T14:00:00Z",
