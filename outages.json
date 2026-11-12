@@ -67,7 +67,7 @@
       "locations": [
         "ST JOHN 18-D"
       ],
-      "modifiedAt": "2026-11-12T11:29:13Z",
+      "modifiedAt": "2026-11-12T13:56:17Z",
       "name": "T-C-20074",
       "neighborhoodIDs": [],
       "point": {
@@ -3224,32 +3224,6 @@
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
-      "id": "ee87199ed08752e93ea2e03c2d820865d93f6657df16f74381367c76a850c7bd",
-      "island": null,
-      "locations": [
-        "GRANGE HILL",
-        "GRANGE HILL 9"
-      ],
-      "modifiedAt": "2026-11-08T16:04:56Z",
-      "name": "T-C-18379",
-      "neighborhoodIDs": [],
-      "point": {
-        "latitude": 17.736418459773542,
-        "longitude": -64.72558959822456
-      },
-      "reportedCustomersInitially": 2,
-      "reportedCustomersOut": 2,
-      "reportedCustomersRestored": 0,
-      "sourceStatus": "Verified",
-      "startedAt": "2026-11-08T12:04:28Z",
-      "verified": true,
-      "workStatus": null
-    },
-    {
-      "cause": null,
-      "crewAssigned": false,
-      "endedAt": null,
-      "estimatedRestoration": null,
       "id": "f9519cd890fa8b445d99ade8b310496ce3da90791c142f73bc24bfd9236b0e04",
       "island": null,
       "locations": [
@@ -3273,7 +3247,7 @@
       "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-12T13:56:25Z",
+  "generatedAt": "2026-11-12T14:01:27Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -3468,217 +3442,217 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "85ede921051977d1bc77eaee7ee781cecdc1ca1e0fdf57ebff22bbdefa117c2c",
+  "snapshotID": "663f854e9541f6a3a35ba522b2ae4a538e41dd633e5ffc3660d92512ed951b86",
   "source": {
-    "checkedAt": "2026-11-12T13:56:25Z",
+    "checkedAt": "2026-11-12T14:01:27Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-12T13:55:21Z",
+    "updatedAt": "2026-11-12T14:00:22Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "sourceSummary": {
     "customerCountDifference": 2,
-    "customersAffected": 3397,
-    "customersOut": 3397,
+    "customersAffected": 3395,
+    "customersOut": 3395,
     "customersRestored": 0,
     "customersServed": 54724,
-    "eventCustomersOut": 3395,
+    "eventCustomersOut": 3393,
     "hourlyCustomersOut": [
       {
-        "at": "2026-11-10T13:00:00Z",
-        "customersOut": 6624
-      },
-      {
         "at": "2026-11-10T14:00:00Z",
-        "customersOut": 5548
+        "customersOut": 5546
       },
       {
         "at": "2026-11-10T15:00:00Z",
-        "customersOut": 11016
+        "customersOut": 11014
       },
       {
         "at": "2026-11-10T16:00:00Z",
-        "customersOut": 8154
+        "customersOut": 8152
       },
       {
         "at": "2026-11-10T17:00:00Z",
-        "customersOut": 6252
+        "customersOut": 6250
       },
       {
         "at": "2026-11-10T18:00:00Z",
-        "customersOut": 10883
+        "customersOut": 10881
       },
       {
         "at": "2026-11-10T19:00:00Z",
-        "customersOut": 12327
+        "customersOut": 12325
       },
       {
         "at": "2026-11-10T20:00:00Z",
-        "customersOut": 14843
+        "customersOut": 14841
       },
       {
         "at": "2026-11-10T21:00:00Z",
-        "customersOut": 13171
+        "customersOut": 13169
       },
       {
         "at": "2026-11-10T22:00:00Z",
-        "customersOut": 12267
+        "customersOut": 12265
       },
       {
         "at": "2026-11-10T23:00:00Z",
-        "customersOut": 6509
+        "customersOut": 6507
       },
       {
         "at": "2026-11-11T00:00:00Z",
-        "customersOut": 2539
+        "customersOut": 2537
       },
       {
         "at": "2026-11-11T01:00:00Z",
-        "customersOut": 256
+        "customersOut": 254
       },
       {
         "at": "2026-11-11T02:00:00Z",
-        "customersOut": 240
+        "customersOut": 238
       },
       {
         "at": "2026-11-11T03:00:00Z",
-        "customersOut": 240
+        "customersOut": 238
       },
       {
         "at": "2026-11-11T04:00:00Z",
-        "customersOut": 240
+        "customersOut": 238
       },
       {
         "at": "2026-11-11T05:00:00Z",
-        "customersOut": 732
+        "customersOut": 730
       },
       {
         "at": "2026-11-11T06:00:00Z",
-        "customersOut": 732
+        "customersOut": 730
       },
       {
         "at": "2026-11-11T07:00:00Z",
-        "customersOut": 732
+        "customersOut": 730
       },
       {
         "at": "2026-11-11T08:00:00Z",
-        "customersOut": 732
+        "customersOut": 730
       },
       {
         "at": "2026-11-11T09:00:00Z",
-        "customersOut": 732
+        "customersOut": 730
       },
       {
         "at": "2026-11-11T10:00:00Z",
-        "customersOut": 732
+        "customersOut": 730
       },
       {
         "at": "2026-11-11T11:00:00Z",
-        "customersOut": 732
+        "customersOut": 730
       },
       {
         "at": "2026-11-11T12:00:00Z",
-        "customersOut": 26853
+        "customersOut": 26851
       },
       {
         "at": "2026-11-11T13:00:00Z",
-        "customersOut": 17677
+        "customersOut": 17675
       },
       {
         "at": "2026-11-11T14:00:00Z",
-        "customersOut": 18960
+        "customersOut": 18958
       },
       {
         "at": "2026-11-11T15:00:00Z",
-        "customersOut": 13915
+        "customersOut": 13913
       },
       {
         "at": "2026-11-11T16:00:00Z",
-        "customersOut": 16940
+        "customersOut": 16938
       },
       {
         "at": "2026-11-11T17:00:00Z",
-        "customersOut": 14702
+        "customersOut": 14700
       },
       {
         "at": "2026-11-11T18:00:00Z",
-        "customersOut": 10486
+        "customersOut": 10484
       },
       {
         "at": "2026-11-11T19:00:00Z",
-        "customersOut": 8446
+        "customersOut": 8444
       },
       {
         "at": "2026-11-11T20:00:00Z",
-        "customersOut": 15205
+        "customersOut": 15203
       },
       {
         "at": "2026-11-11T21:00:00Z",
-        "customersOut": 3387
+        "customersOut": 3385
       },
       {
         "at": "2026-11-11T22:00:00Z",
-        "customersOut": 9884
+        "customersOut": 9882
       },
       {
         "at": "2026-11-11T23:00:00Z",
-        "customersOut": 6525
+        "customersOut": 6523
       },
       {
         "at": "2026-11-12T00:00:00Z",
-        "customersOut": 15680
+        "customersOut": 15678
       },
       {
         "at": "2026-11-12T01:00:00Z",
-        "customersOut": 9180
+        "customersOut": 9178
       },
       {
         "at": "2026-11-12T02:00:00Z",
-        "customersOut": 9181
+        "customersOut": 9179
       },
       {
         "at": "2026-11-12T03:00:00Z",
-        "customersOut": 1106
+        "customersOut": 1104
       },
       {
         "at": "2026-11-12T04:00:00Z",
-        "customersOut": 21
+        "customersOut": 19
       },
       {
         "at": "2026-11-12T05:00:00Z",
-        "customersOut": 21
+        "customersOut": 19
       },
       {
         "at": "2026-11-12T06:00:00Z",
-        "customersOut": 21
+        "customersOut": 19
       },
       {
         "at": "2026-11-12T07:00:00Z",
-        "customersOut": 21
+        "customersOut": 19
       },
       {
         "at": "2026-11-12T08:00:00Z",
-        "customersOut": 21
+        "customersOut": 19
       },
       {
         "at": "2026-11-12T09:00:00Z",
-        "customersOut": 33
+        "customersOut": 31
       },
       {
         "at": "2026-11-12T10:00:00Z",
-        "customersOut": 33
+        "customersOut": 31
       },
       {
         "at": "2026-11-12T11:00:00Z",
-        "customersOut": 34
+        "customersOut": 32
       },
       {
         "at": "2026-11-12T12:00:00Z",
-        "customersOut": 1114
+        "customersOut": 1112
       },
       {
         "at": "2026-11-12T13:00:00Z",
-        "customersOut": 3395
+        "customersOut": 3393
+      },
+      {
+        "at": "2026-11-12T14:00:00Z",
+        "customersOut": 3393
       }
     ],
     "locations": [
@@ -5319,8 +5293,6 @@
       "GOLDEN GROVE #52",
       "GOLDEN GROVE 2D",
       "GOLDEN GROVE 52",
-      "GRANGE HILL",
-      "GRANGE HILL 9",
       "GREAT S E QRTS",
       "HANSEN BAY \"\"B\"\"",
       "HANSEN BAY 1-A-2",
@@ -6562,8 +6534,8 @@
       "ZOOTENVAAL 3Q (MTR 1)",
       "ZOOTENVAAL 3T"
     ],
-    "totalOutages": 16
+    "totalOutages": 15
   },
   "staleAfterSeconds": 900,
-  "unassignedEventCount": 13
+  "unassignedEventCount": 12
 }
