@@ -56,6 +56,34 @@
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
+      "id": "150d0912cbace517ba9454140af0fb26ef476e6f3b539bcc52b82be2b9fd526b",
+      "island": null,
+      "locations": [
+        "BONNE ESPERANCE 14",
+        "BONNE ESPERANCE 14D",
+        "BONNE ESPERANCE 14D DWN",
+        "BONNE ESPERANCE 14F"
+      ],
+      "modifiedAt": "2026-11-12T21:33:46Z",
+      "name": "T-T-00964",
+      "neighborhoodIDs": [],
+      "point": {
+        "latitude": 18.3557176343752,
+        "longitude": -64.98692421446947
+      },
+      "reportedCustomersInitially": 4,
+      "reportedCustomersOut": 4,
+      "reportedCustomersRestored": 0,
+      "sourceStatus": "Predicted",
+      "startedAt": "2026-11-12T21:33:19Z",
+      "verified": false,
+      "workStatus": null
+    },
+    {
+      "cause": null,
+      "crewAssigned": false,
+      "endedAt": null,
+      "estimatedRestoration": null,
       "id": "2488f75f98539d93e6cc64f74531c322a0ab59b459e8794e1d08aad8f5693740",
       "island": null,
       "locations": [
@@ -3273,6 +3301,48 @@
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
+      "id": "e26aa8590b7590a4c9b6545fd7925bf892d457c3ffbd16eee18fbf1698ae2534",
+      "island": null,
+      "locations": [
+        "EST THOMAS #10 10TH",
+        "EST THOMAS 10 ST 16",
+        "EST THOMAS 10TH ST LOT 14",
+        "EST THOMAS 12 10TH ST",
+        "EST THOMAS 16 10TH",
+        "EST THOMAS 16 10TH ST",
+        "EST THOMAS 18 10TH ST",
+        "EST THOMAS 18 10TH STREET",
+        "EST THOMAS 2 10TH STREET",
+        "EST THOMAS 6 10TH ST",
+        "EST THOMAS 6-A 10ST",
+        "EST THOMAS 6A 10TH",
+        "EST THOMAS 6A 10TH ST",
+        "EST THOMAS 6A 10TH ST BAS",
+        "EST THOMAS 6A-10TH",
+        "EST THOMAS 6A-10TH STREET",
+        "ESTATE THOMAS 6 10TH ST",
+        "ESTATE THOMAS 6A 10TH ST"
+      ],
+      "modifiedAt": "2026-11-12T21:34:47Z",
+      "name": "T-T-16523",
+      "neighborhoodIDs": [],
+      "point": {
+        "latitude": 18.3387590604904,
+        "longitude": -64.91611120081137
+      },
+      "reportedCustomersInitially": 22,
+      "reportedCustomersOut": 22,
+      "reportedCustomersRestored": 0,
+      "sourceStatus": "Predicted",
+      "startedAt": "2026-11-12T21:34:38Z",
+      "verified": false,
+      "workStatus": null
+    },
+    {
+      "cause": null,
+      "crewAssigned": false,
+      "endedAt": null,
+      "estimatedRestoration": null,
       "id": "e84fb0f831cb313476b1033c4cf043d64e3b04f65523646bcb770fad97fd70f0",
       "island": null,
       "locations": [
@@ -4587,7 +4657,7 @@
       "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-12T21:31:14Z",
+  "generatedAt": "2026-11-12T21:36:16Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -5147,25 +5217,25 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "c6e31382ebe9bd72cae0c373ea4632bfe3c2116cdd5fe99755309f14e2050965",
+  "snapshotID": "a408eb2b8da721a6b92f9810dcc4b43d8e5f08d09d239d98536a8571316c5eaf",
   "source": {
-    "checkedAt": "2026-11-12T21:31:14Z",
+    "checkedAt": "2026-11-12T21:36:16Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-12T21:30:23Z",
+    "updatedAt": "2026-11-12T21:35:23Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "sourceSummary": {
     "customerCountDifference": 2,
-    "customersAffected": 5130,
-    "customersOut": 5130,
+    "customersAffected": 5156,
+    "customersOut": 5156,
     "customersRestored": 0,
     "customersServed": 54725,
-    "eventCustomersOut": 5128,
+    "eventCustomersOut": 5154,
     "hourlyCustomersOut": [
       {
         "at": "2026-11-10T21:00:00Z",
-        "customersOut": 13169
+        "customersOut": 9982
       },
       {
         "at": "2026-11-10T22:00:00Z",
@@ -5357,7 +5427,7 @@
       },
       {
         "at": "2026-11-12T21:00:00Z",
-        "customersOut": 5128
+        "customersOut": 5154
       }
     ],
     "locations": [
@@ -6039,6 +6109,10 @@
       "BLACKBEARDS HILL 100",
       "BLACKBEARDS HILL 1000",
       "BLDG. 2 MEADA'S PLAZA",
+      "BONNE ESPERANCE 14",
+      "BONNE ESPERANCE 14D",
+      "BONNE ESPERANCE 14D DWN",
+      "BONNE ESPERANCE 14F",
       "BOVONI",
       "BOVONI 1-2",
       "BOVONI 263",
@@ -7039,9 +7113,25 @@
       "EST TABOR & HARMONY 2E",
       "EST TABOR & HARMONY 4-A",
       "EST TABOR & HARMONY 5-8",
+      "EST THOMAS #10 10TH",
       "EST THOMAS 1 1ST ST",
+      "EST THOMAS 10 ST 16",
+      "EST THOMAS 10TH ST LOT 14",
+      "EST THOMAS 12 10TH ST",
+      "EST THOMAS 16 10TH",
+      "EST THOMAS 16 10TH ST",
+      "EST THOMAS 18 10TH ST",
+      "EST THOMAS 18 10TH STREET",
+      "EST THOMAS 2 10TH STREET",
       "EST THOMAS 246 1ST STREET",
       "EST THOMAS 2B",
+      "EST THOMAS 6 10TH ST",
+      "EST THOMAS 6-A 10ST",
+      "EST THOMAS 6A 10TH",
+      "EST THOMAS 6A 10TH ST",
+      "EST THOMAS 6A 10TH ST BAS",
+      "EST THOMAS 6A-10TH",
+      "EST THOMAS 6A-10TH STREET",
       "EST THOMAS 8 -",
       "EST THOMAS WEST 4D-4E",
       "EST TUTU 129A-6",
@@ -7266,6 +7356,8 @@
       "ESTATE ROSS D-15",
       "ESTATE ROSS D-2",
       "ESTATE TAARNEBERG 39C",
+      "ESTATE THOMAS 6 10TH ST",
+      "ESTATE THOMAS 6A 10TH ST",
       "ESTATE WINTBERG 1-117",
       "ESTATE WINTBERG 1-134",
       "ESTATE WINTBERG 1-B4",
@@ -9544,8 +9636,8 @@
       "ZOOTENVAAL 3Q (MTR 1)",
       "ZOOTENVAAL 3T"
     ],
-    "totalOutages": 16
+    "totalOutages": 18
   },
   "staleAfterSeconds": 900,
-  "unassignedEventCount": 13
+  "unassignedEventCount": 15
 }
