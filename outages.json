@@ -6,6 +6,31 @@
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
+      "id": "01a0073207256af07162ed9d6ffae8898a226c615b439db9f619053122220f18",
+      "island": null,
+      "locations": [
+        "GLYNN 204"
+      ],
+      "modifiedAt": "2026-11-12T15:48:59Z",
+      "name": "54274",
+      "neighborhoodIDs": [],
+      "point": {
+        "latitude": 17.75141206885746,
+        "longitude": -64.7768468434396
+      },
+      "reportedCustomersInitially": 1,
+      "reportedCustomersOut": 1,
+      "reportedCustomersRestored": 0,
+      "sourceStatus": "Verified",
+      "startedAt": "2026-11-12T15:34:03Z",
+      "verified": true,
+      "workStatus": null
+    },
+    {
+      "cause": null,
+      "crewAssigned": false,
+      "endedAt": null,
+      "estimatedRestoration": null,
       "id": "2488f75f98539d93e6cc64f74531c322a0ab59b459e8794e1d08aad8f5693740",
       "island": null,
       "locations": [
@@ -1816,6 +1841,31 @@
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
+      "id": "da5afe92f753d5f312e575bf665571168e1b5af0aaab303bd5c4cb399201be4f",
+      "island": null,
+      "locations": [
+        "LEB VILLAS PHASE III"
+      ],
+      "modifiedAt": "2026-11-12T15:46:06Z",
+      "name": "207484",
+      "neighborhoodIDs": [],
+      "point": {
+        "latitude": 17.70549055592868,
+        "longitude": -64.81809268708359
+      },
+      "reportedCustomersInitially": 1,
+      "reportedCustomersOut": 1,
+      "reportedCustomersRestored": 0,
+      "sourceStatus": "Predicted",
+      "startedAt": "2026-11-12T15:45:31Z",
+      "verified": false,
+      "workStatus": null
+    },
+    {
+      "cause": null,
+      "crewAssigned": false,
+      "endedAt": null,
+      "estimatedRestoration": null,
       "id": "f1dfafe3bd23ee9168018b98c548f5ef9015a36c85655fea3a4a27c727531a02",
       "island": null,
       "locations": [
@@ -3004,44 +3054,9 @@
       "startedAt": "2026-11-12T14:17:22Z",
       "verified": true,
       "workStatus": null
-    },
-    {
-      "cause": null,
-      "crewAssigned": false,
-      "endedAt": null,
-      "estimatedRestoration": null,
-      "id": "f4517b273c4f06a84d7df97e9b732e7031534f91973a81c72dc9b572a4093489",
-      "island": null,
-      "locations": [
-        "GLYNN 148-A",
-        "GLYNN 148-B",
-        "GLYNN 194",
-        "GLYNN 196",
-        "GLYNN 200",
-        "GLYNN 200-A",
-        "GLYNN 201",
-        "GLYNN 202",
-        "GLYNN 203",
-        "GLYNN 204",
-        "GLYNN 205"
-      ],
-      "modifiedAt": "2026-11-12T15:34:34Z",
-      "name": "T-C-14309",
-      "neighborhoodIDs": [],
-      "point": {
-        "latitude": 17.752284710195163,
-        "longitude": -64.7773398241302
-      },
-      "reportedCustomersInitially": 12,
-      "reportedCustomersOut": 12,
-      "reportedCustomersRestored": 0,
-      "sourceStatus": "Predicted",
-      "startedAt": "2026-11-12T15:34:03Z",
-      "verified": false,
-      "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-12T15:46:08Z",
+  "generatedAt": "2026-11-12T15:51:10Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -3126,21 +3141,21 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "4dc59439f9c6f1cd7fee7c1b9354304392483ed6951a6492598f59e0c448f8f0",
+  "snapshotID": "9c489dac13ac07a6142df6a536b245ea4961d9d1e5784e9629ce80eea47b7e65",
   "source": {
-    "checkedAt": "2026-11-12T15:46:08Z",
+    "checkedAt": "2026-11-12T15:51:10Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-12T15:45:22Z",
+    "updatedAt": "2026-11-12T15:50:22Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "sourceSummary": {
     "customerCountDifference": 2,
-    "customersAffected": 3530,
-    "customersOut": 3530,
+    "customersAffected": 3520,
+    "customersOut": 3520,
     "customersRestored": 0,
     "customersServed": 54725,
-    "eventCustomersOut": 3528,
+    "eventCustomersOut": 3518,
     "hourlyCustomersOut": [
       {
         "at": "2026-11-10T15:00:00Z",
@@ -3336,7 +3351,7 @@
       },
       {
         "at": "2026-11-12T15:00:00Z",
-        "customersOut": 3528
+        "customersOut": 3518
       }
     ],
     "locations": [
@@ -4871,17 +4886,7 @@
       "FRYDENDHL STE 5-7-8",
       "FRYDENHAHL 52-7",
       "FRYDENHOJ 2 12BA A2",
-      "GLYNN 148-A",
-      "GLYNN 148-B",
-      "GLYNN 194",
-      "GLYNN 196",
-      "GLYNN 200",
-      "GLYNN 200-A",
-      "GLYNN 201",
-      "GLYNN 202",
-      "GLYNN 203",
       "GLYNN 204",
-      "GLYNN 205",
       "GLYNN 254",
       "GLYNN 254 A SUITE 6",
       "GLYNN 254-A",
@@ -4977,6 +4982,7 @@
       "HAVENSIGHT REMAINDER",
       "HAVENSIGHT WAY 18 A-C",
       "HAWK HILL CONDO APT. 9",
+      "LEB VILLAS PHASE III",
       "LERKENLUND 9D-1-2",
       "LOT 15 EST. THOMAS",
       "LOT 18-16 SMITH BAY",
@@ -6062,8 +6068,8 @@
       "WEST SAPPHIRE BAY CONDO",
       "WIC DOCK BAY BLDG-2"
     ],
-    "totalOutages": 13
+    "totalOutages": 14
   },
   "staleAfterSeconds": 900,
-  "unassignedEventCount": 10
+  "unassignedEventCount": 11
 }
