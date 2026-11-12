@@ -3004,9 +3004,44 @@
       "startedAt": "2026-11-12T14:17:22Z",
       "verified": true,
       "workStatus": null
+    },
+    {
+      "cause": null,
+      "crewAssigned": false,
+      "endedAt": null,
+      "estimatedRestoration": null,
+      "id": "f4517b273c4f06a84d7df97e9b732e7031534f91973a81c72dc9b572a4093489",
+      "island": null,
+      "locations": [
+        "GLYNN 148-A",
+        "GLYNN 148-B",
+        "GLYNN 194",
+        "GLYNN 196",
+        "GLYNN 200",
+        "GLYNN 200-A",
+        "GLYNN 201",
+        "GLYNN 202",
+        "GLYNN 203",
+        "GLYNN 204",
+        "GLYNN 205"
+      ],
+      "modifiedAt": "2026-11-12T15:34:34Z",
+      "name": "T-C-14309",
+      "neighborhoodIDs": [],
+      "point": {
+        "latitude": 17.752284710195163,
+        "longitude": -64.7773398241302
+      },
+      "reportedCustomersInitially": 12,
+      "reportedCustomersOut": 12,
+      "reportedCustomersRestored": 0,
+      "sourceStatus": "Predicted",
+      "startedAt": "2026-11-12T15:34:03Z",
+      "verified": false,
+      "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-12T15:31:02Z",
+  "generatedAt": "2026-11-12T15:36:04Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -3091,25 +3126,25 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "95468d5e82ed1dd3f638a599a3ade16056fb7a7a12da15d86a66e8133378cdbc",
+  "snapshotID": "c9f62814020a8c0c9ecd226c5e732efc2952f132c2ea37d72af26e0d264e8d03",
   "source": {
-    "checkedAt": "2026-11-12T15:31:02Z",
+    "checkedAt": "2026-11-12T15:36:04Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-12T15:30:22Z",
+    "updatedAt": "2026-11-12T15:35:21Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "sourceSummary": {
     "customerCountDifference": 2,
-    "customersAffected": 3518,
-    "customersOut": 3518,
+    "customersAffected": 3530,
+    "customersOut": 3530,
     "customersRestored": 0,
     "customersServed": 54725,
-    "eventCustomersOut": 3516,
+    "eventCustomersOut": 3528,
     "hourlyCustomersOut": [
       {
         "at": "2026-11-10T15:00:00Z",
-        "customersOut": 11014
+        "customersOut": 6180
       },
       {
         "at": "2026-11-10T16:00:00Z",
@@ -3301,7 +3336,7 @@
       },
       {
         "at": "2026-11-12T15:00:00Z",
-        "customersOut": 3516
+        "customersOut": 3528
       }
     ],
     "locations": [
@@ -4836,6 +4871,17 @@
       "FRYDENDHL STE 5-7-8",
       "FRYDENHAHL 52-7",
       "FRYDENHOJ 2 12BA A2",
+      "GLYNN 148-A",
+      "GLYNN 148-B",
+      "GLYNN 194",
+      "GLYNN 196",
+      "GLYNN 200",
+      "GLYNN 200-A",
+      "GLYNN 201",
+      "GLYNN 202",
+      "GLYNN 203",
+      "GLYNN 204",
+      "GLYNN 205",
       "GLYNN 254",
       "GLYNN 254 A SUITE 6",
       "GLYNN 254-A",
@@ -6016,8 +6062,8 @@
       "WEST SAPPHIRE BAY CONDO",
       "WIC DOCK BAY BLDG-2"
     ],
-    "totalOutages": 12
+    "totalOutages": 13
   },
   "staleAfterSeconds": 900,
-  "unassignedEventCount": 9
+  "unassignedEventCount": 10
 }
