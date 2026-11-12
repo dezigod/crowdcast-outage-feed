@@ -179,6 +179,31 @@
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
+      "id": "4859acca18aa75b78bb7effa0530203fb1ba12a6dba87a23a9d09e808e3f2eac",
+      "island": null,
+      "locations": [
+        "HERMAN HILL"
+      ],
+      "modifiedAt": "2026-11-12T22:30:43Z",
+      "name": "T-C-05433",
+      "neighborhoodIDs": [],
+      "point": {
+        "latitude": 17.73413997820512,
+        "longitude": -64.71919730560435
+      },
+      "reportedCustomersInitially": 1,
+      "reportedCustomersOut": 1,
+      "reportedCustomersRestored": 0,
+      "sourceStatus": "Predicted",
+      "startedAt": "2026-11-12T22:30:41Z",
+      "verified": false,
+      "workStatus": null
+    },
+    {
+      "cause": null,
+      "crewAssigned": false,
+      "endedAt": null,
+      "estimatedRestoration": null,
       "id": "4a2f636d17ab862cfe60d062da04497adebc3eb9dbef7e9f574073670b58d9c3",
       "island": null,
       "locations": [
@@ -335,6 +360,35 @@
       "reportedCustomersRestored": 0,
       "sourceStatus": "Predicted",
       "startedAt": "2026-11-12T22:28:32Z",
+      "verified": false,
+      "workStatus": null
+    },
+    {
+      "cause": null,
+      "crewAssigned": false,
+      "endedAt": null,
+      "estimatedRestoration": null,
+      "id": "85b29ff0a00484a79b9254c6c8691209ef161a678c369b86030f9d901640ca75",
+      "island": null,
+      "locations": [
+        "CONTANT 7 TOWERS BLDG-F",
+        "CONTANT TOWERS BLD-E",
+        "CONTANT TOWERS BLDG-E",
+        "CONTANT TOWERS BLDG-F",
+        "TOWERS TOWERS BLDG-E"
+      ],
+      "modifiedAt": "2026-11-12T22:35:07Z",
+      "name": "T-T-16839",
+      "neighborhoodIDs": [],
+      "point": {
+        "latitude": 18.337819281659435,
+        "longitude": -64.9534963767135
+      },
+      "reportedCustomersInitially": 39,
+      "reportedCustomersOut": 39,
+      "reportedCustomersRestored": 0,
+      "sourceStatus": "Predicted",
+      "startedAt": "2026-11-12T22:34:39Z",
       "verified": false,
       "workStatus": null
     },
@@ -4702,7 +4756,7 @@
       "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-12T22:30:32Z",
+  "generatedAt": "2026-11-12T22:35:35Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -5280,25 +5334,25 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "cd06a6982aa088dfa98d81af6324bc560b09ad47df707150963d794b3a5fc185",
+  "snapshotID": "10d9cecda860fb7db0c6dcc6234bf3c6c50872394265265f5d0f13f4290ca5ef",
   "source": {
-    "checkedAt": "2026-11-12T22:30:32Z",
+    "checkedAt": "2026-11-12T22:35:35Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-12T22:30:23Z",
+    "updatedAt": "2026-11-12T22:35:24Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "sourceSummary": {
     "customerCountDifference": 2,
-    "customersAffected": 5216,
-    "customersOut": 5216,
+    "customersAffected": 5256,
+    "customersOut": 5256,
     "customersRestored": 0,
     "customersServed": 54725,
-    "eventCustomersOut": 5214,
+    "eventCustomersOut": 5254,
     "hourlyCustomersOut": [
       {
         "at": "2026-11-10T22:00:00Z",
-        "customersOut": 12265
+        "customersOut": 11176
       },
       {
         "at": "2026-11-10T23:00:00Z",
@@ -5490,7 +5544,7 @@
       },
       {
         "at": "2026-11-12T22:00:00Z",
-        "customersOut": 5214
+        "customersOut": 5254
       }
     ],
     "locations": [
@@ -6589,10 +6643,14 @@
       "CONTANT 197 MTR 7",
       "CONTANT 225",
       "CONTANT 251",
+      "CONTANT 7 TOWERS BLDG-F",
       "CONTANT BLDG 10 171",
       "CONTANT ENIGHED",
       "CONTANT ENIGHED 191 & 192",
       "CONTANT ENIGHED 235",
+      "CONTANT TOWERS BLD-E",
+      "CONTANT TOWERS BLDG-E",
+      "CONTANT TOWERS BLDG-F",
       "CONTANT&ENIGHED 109 MTR 2",
       "CONTANT/ENIGHED 232",
       "CONTANT/ENIGHED 232 (1-1)",
@@ -7569,6 +7627,7 @@
       "HAULOVER LIME TREE BAY",
       "HAULOVER PARCEL 5GA-1",
       "HAWKSNEST 1-U DENIS BAY",
+      "HERMAN HILL",
       "HGHWAY LGHT BOYSCOUT BLDG",
       "HOFFMAN C-11",
       "HOFFMAN C-4",
@@ -9354,6 +9413,7 @@
       "TABOR HARMONY 4-48",
       "TABOR/HARMONY 4-16A",
       "TOLBOD GADE EMANCIPATION",
+      "TOWERS TOWERS BLDG-E",
       "TRUNK BAY",
       "TRUNK BAY PUMP HOUSE",
       "TRUNK BAY SNACK BAR",
@@ -9718,8 +9778,8 @@
       "ZOOTENVAAL 3Q (MTR 1)",
       "ZOOTENVAAL 3T"
     ],
-    "totalOutages": 19
+    "totalOutages": 21
   },
   "staleAfterSeconds": 900,
-  "unassignedEventCount": 16
+  "unassignedEventCount": 18
 }
