@@ -1787,39 +1787,6 @@
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
-      "id": "cb3e36023c61bfce9e9c54872b88e8a16571a0bab3276adb5753e265b03e0ce0",
-      "island": null,
-      "locations": [
-        "HONDURAS",
-        "HONDURAS 5",
-        "HONDURAS 5-1",
-        "HONDURAS 5A",
-        "HONDURAS 5-D",
-        "HONDURAS 5-E",
-        "HONDURAS 5F",
-        "HONDURAS APT 1",
-        "HONDURAS APT 2"
-      ],
-      "modifiedAt": "2026-11-12T14:07:06Z",
-      "name": "T-T-02489",
-      "neighborhoodIDs": [],
-      "point": {
-        "latitude": 18.33526416351789,
-        "longitude": -64.94413144335454
-      },
-      "reportedCustomersInitially": 10,
-      "reportedCustomersOut": 10,
-      "reportedCustomersRestored": 0,
-      "sourceStatus": "Predicted",
-      "startedAt": "2026-11-12T14:06:36Z",
-      "verified": false,
-      "workStatus": null
-    },
-    {
-      "cause": null,
-      "crewAssigned": false,
-      "endedAt": null,
-      "estimatedRestoration": null,
       "id": "cbbd2ef62dee6d0405b3a5d5c18b1c3c5a5b4dbca8f2f81c8fc8d71e6fec7176",
       "island": "stThomas",
       "locations": [
@@ -3039,7 +3006,7 @@
       "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-12T14:45:41Z",
+  "generatedAt": "2026-11-12T14:50:43Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -3124,21 +3091,21 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "ca74fdf9e0267e78c1bfb2a359a7905f81ab21472741ac2d7dd61d11c15c7a13",
+  "snapshotID": "dd139f80b9e2f66d9228123efa4544ca186aa1f3f5c5a10f3d5ea4eac949a3f8",
   "source": {
-    "checkedAt": "2026-11-12T14:45:41Z",
+    "checkedAt": "2026-11-12T14:50:43Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-12T14:45:21Z",
+    "updatedAt": "2026-11-12T14:50:21Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "sourceSummary": {
     "customerCountDifference": 2,
-    "customersAffected": 3528,
-    "customersOut": 3528,
+    "customersAffected": 3518,
+    "customersOut": 3518,
     "customersRestored": 0,
     "customersServed": 54724,
-    "eventCustomersOut": 3526,
+    "eventCustomersOut": 3516,
     "hourlyCustomersOut": [
       {
         "at": "2026-11-10T14:00:00Z",
@@ -3334,7 +3301,7 @@
       },
       {
         "at": "2026-11-12T14:00:00Z",
-        "customersOut": 6878
+        "customersOut": 6868
       }
     ],
     "locations": [
@@ -4964,15 +4931,6 @@
       "HAVENSIGHT REMAINDER",
       "HAVENSIGHT WAY 18 A-C",
       "HAWK HILL CONDO APT. 9",
-      "HONDURAS",
-      "HONDURAS 5",
-      "HONDURAS 5-1",
-      "HONDURAS 5A",
-      "HONDURAS 5-D",
-      "HONDURAS 5-E",
-      "HONDURAS 5F",
-      "HONDURAS APT 1",
-      "HONDURAS APT 2",
       "LERKENLUND 9D-1-2",
       "LOT 15 EST. THOMAS",
       "LOT 18-16 SMITH BAY",
@@ -6058,8 +6016,8 @@
       "WEST SAPPHIRE BAY CONDO",
       "WIC DOCK BAY BLDG-2"
     ],
-    "totalOutages": 13
+    "totalOutages": 12
   },
   "staleAfterSeconds": 900,
-  "unassignedEventCount": 10
+  "unassignedEventCount": 9
 }
