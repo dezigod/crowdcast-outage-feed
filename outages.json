@@ -249,7 +249,7 @@
       "locations": [
         "BOVONI 1-2"
       ],
-      "modifiedAt": "2026-11-12T21:41:00Z",
+      "modifiedAt": "2026-11-12T22:58:41Z",
       "name": "T-T-14186",
       "neighborhoodIDs": [],
       "point": {
@@ -422,6 +422,41 @@
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
+      "id": "a58dfd4585c4f31eae396faeb1ce0d66e4ff56cef0f3b969518914aaf3009620",
+      "island": null,
+      "locations": [
+        "FRYDENHOJ #1-19",
+        "FRYDENHOJ 1-1",
+        "FRYDENHOJ 1-1 DWN",
+        "FRYDENHOJ 1-19 UP",
+        "FRYDENHOJ 1-2",
+        "FRYDENHOJ 1-20",
+        "FRYDENHOJ 1-21",
+        "FRYDENHOJ 1-21 APT-1",
+        "FRYDENHOJ 1-23",
+        "FRYDENHOJ 1-38",
+        "FRYDENHOJ 1-39"
+      ],
+      "modifiedAt": "2026-11-12T22:58:41Z",
+      "name": "T-T-10100",
+      "neighborhoodIDs": [],
+      "point": {
+        "latitude": 18.32453495305715,
+        "longitude": -64.86938226436685
+      },
+      "reportedCustomersInitially": 15,
+      "reportedCustomersOut": 15,
+      "reportedCustomersRestored": 0,
+      "sourceStatus": "Predicted",
+      "startedAt": "2026-11-12T22:58:23Z",
+      "verified": false,
+      "workStatus": null
+    },
+    {
+      "cause": null,
+      "crewAssigned": false,
+      "endedAt": null,
+      "estimatedRestoration": null,
       "id": "a7622fe5ec3f7460243d64545ddffb42dc3c534b3876e2c938737688abde9c58",
       "island": "stThomas",
       "locations": [
@@ -508,6 +543,34 @@
       "reportedCustomersRestored": 0,
       "sourceStatus": "Predicted",
       "startedAt": "2026-11-12T22:10:03Z",
+      "verified": false,
+      "workStatus": null
+    },
+    {
+      "cause": null,
+      "crewAssigned": false,
+      "endedAt": null,
+      "estimatedRestoration": null,
+      "id": "c4f6fc20ed5067e073507447769a1fad062bba1e36e29208f0a249ffb91715fa",
+      "island": null,
+      "locations": [
+        "CONTANT 12",
+        "CONTANT 15A",
+        "CONTANT 15A REMAINDER",
+        "CONTANT 15A-B"
+      ],
+      "modifiedAt": "2026-11-12T22:58:26Z",
+      "name": "T-T-03438",
+      "neighborhoodIDs": [],
+      "point": {
+        "latitude": 18.344784048580884,
+        "longitude": -64.95670415657725
+      },
+      "reportedCustomersInitially": 6,
+      "reportedCustomersOut": 6,
+      "reportedCustomersRestored": 0,
+      "sourceStatus": "Predicted",
+      "startedAt": "2026-11-12T22:57:58Z",
       "verified": false,
       "workStatus": null
     },
@@ -4756,7 +4819,7 @@
       "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-12T22:55:42Z",
+  "generatedAt": "2026-11-12T23:00:43Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -5334,26 +5397,22 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "2d9b37766b3aa75e699d2f6abd12dc3939f5df66625d1c0e8734682dfbd97e4a",
+  "snapshotID": "f99b3b0f1cb66bac03e7acc7ef34ae1b491f559d3a0e52d23dd837a5939c1170",
   "source": {
-    "checkedAt": "2026-11-12T22:55:42Z",
+    "checkedAt": "2026-11-12T23:00:43Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-12T22:55:24Z",
+    "updatedAt": "2026-11-12T23:00:23Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "sourceSummary": {
     "customerCountDifference": 2,
-    "customersAffected": 5256,
-    "customersOut": 5256,
+    "customersAffected": 5277,
+    "customersOut": 5277,
     "customersRestored": 0,
     "customersServed": 54725,
-    "eventCustomersOut": 5254,
+    "eventCustomersOut": 5275,
     "hourlyCustomersOut": [
-      {
-        "at": "2026-11-10T22:00:00Z",
-        "customersOut": 6507
-      },
       {
         "at": "2026-11-10T23:00:00Z",
         "customersOut": 6507
@@ -5544,7 +5603,11 @@
       },
       {
         "at": "2026-11-12T22:00:00Z",
-        "customersOut": 5254
+        "customersOut": 5275
+      },
+      {
+        "at": "2026-11-12T23:00:00Z",
+        "customersOut": 5275
       }
     ],
     "locations": [
@@ -6619,6 +6682,10 @@
       "CONTANT & ENIGHED 249 UP",
       "CONTANT & ENIGHED DWN",
       "CONTANT & ENIGHED UNIT 6",
+      "CONTANT 12",
+      "CONTANT 15A",
+      "CONTANT 15A REMAINDER",
+      "CONTANT 15A-B",
       "CONTANT 171",
       "CONTANT 171 APT 10E",
       "CONTANT 171 BLD- 8",
@@ -7543,7 +7610,17 @@
       "FRIIS ST JOHN",
       "FRT MYLNER SHP CTR",
       "FRYDENDAHL 53-15",
+      "FRYDENHOJ #1-19",
+      "FRYDENHOJ 1-1",
+      "FRYDENHOJ 1-1 DWN",
+      "FRYDENHOJ 1-19 UP",
+      "FRYDENHOJ 1-2",
       "FRYDENHOJ 1-20",
+      "FRYDENHOJ 1-21",
+      "FRYDENHOJ 1-21 APT-1",
+      "FRYDENHOJ 1-23",
+      "FRYDENHOJ 1-38",
+      "FRYDENHOJ 1-39",
       "FT CHRISTIAN PARKING LOT",
       "FT MYINER SHOPPING CENTER",
       "GADE #5 (NATIVE SON)",
@@ -9778,8 +9855,8 @@
       "ZOOTENVAAL 3Q (MTR 1)",
       "ZOOTENVAAL 3T"
     ],
-    "totalOutages": 21
+    "totalOutages": 23
   },
   "staleAfterSeconds": 900,
-  "unassignedEventCount": 18
+  "unassignedEventCount": 20
 }
