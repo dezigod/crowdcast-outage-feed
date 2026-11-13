@@ -81,6 +81,43 @@
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
+      "id": "17f2c7ef94c374aed347e4a8004e7a24b71d0161a779ccc2127059f8d342233d",
+      "island": null,
+      "locations": [
+        "CONTANT",
+        "CONTANT 11-9 & 11-10 BA",
+        "CONTANT 11-9 & 11-10 B-A",
+        "CONTANT 11-9 & 11-10 B-B",
+        "CONTANT 11-9 &11-10",
+        "CONTANT 11-9 &11-10 B B",
+        "CONTANT 11-9&11-10 BLDG A",
+        "CONTANT 11-9-11-10",
+        "CONTANT BLDG A 11-9&11-10",
+        "EST CONTANT",
+        "EST CONTANT 11-9 & 11-10",
+        "EST CONTANT BLDG A",
+        "EST CONTANT BLDG B"
+      ],
+      "modifiedAt": "2026-11-13T11:27:06Z",
+      "name": "T-T-16861",
+      "neighborhoodIDs": [],
+      "point": {
+        "latitude": 18.344965597713728,
+        "longitude": -64.9528101450382
+      },
+      "reportedCustomersInitially": 22,
+      "reportedCustomersOut": 22,
+      "reportedCustomersRestored": 0,
+      "sourceStatus": "Predicted",
+      "startedAt": "2026-11-13T11:26:56Z",
+      "verified": false,
+      "workStatus": null
+    },
+    {
+      "cause": null,
+      "crewAssigned": false,
+      "endedAt": null,
+      "estimatedRestoration": null,
       "id": "2488f75f98539d93e6cc64f74531c322a0ab59b459e8794e1d08aad8f5693740",
       "island": null,
       "locations": [
@@ -554,7 +591,7 @@
       "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-13T11:25:52Z",
+  "generatedAt": "2026-11-13T11:30:54Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -639,21 +676,21 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "f906a88e46da4b1f8ee64f13151ce27ae6ed3128ee501b8052adaf3433b63b01",
+  "snapshotID": "1bd341819935fa78a4ee1633eed95f1d1c2777167f22669783f1a9268612a911",
   "source": {
-    "checkedAt": "2026-11-13T11:25:52Z",
+    "checkedAt": "2026-11-13T11:30:54Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-13T11:25:25Z",
+    "updatedAt": "2026-11-13T11:30:24Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "sourceSummary": {
     "customerCountDifference": 2,
-    "customersAffected": 117,
-    "customersOut": 117,
+    "customersAffected": 139,
+    "customersOut": 139,
     "customersRestored": 0,
     "customersServed": 54725,
-    "eventCustomersOut": 115,
+    "eventCustomersOut": 137,
     "hourlyCustomersOut": [
       {
         "at": "2026-11-11T11:00:00Z",
@@ -849,7 +886,7 @@
       },
       {
         "at": "2026-11-13T11:00:00Z",
-        "customersOut": 115
+        "customersOut": 137
       }
     ],
     "locations": [
@@ -870,9 +907,22 @@
       "CARET BAY 2E-51-19 B-6",
       "CARET BAY 2E-51-19 B-7",
       "CARET BAY 2E-51-19 B-8",
+      "CONTANT",
+      "CONTANT 11-9 & 11-10 BA",
+      "CONTANT 11-9 & 11-10 B-A",
+      "CONTANT 11-9 & 11-10 B-B",
+      "CONTANT 11-9 &11-10",
+      "CONTANT 11-9 &11-10 B B",
+      "CONTANT 11-9&11-10 BLDG A",
+      "CONTANT 11-9-11-10",
+      "CONTANT BLDG A 11-9&11-10",
       "COTTON VALLEY",
       "COTTON VALLEY 247",
       "COTTON VALLEY 251",
+      "EST CONTANT",
+      "EST CONTANT 11-9 & 11-10",
+      "EST CONTANT BLDG A",
+      "EST CONTANT BLDG B",
       "EST MANDAHL 2C-7",
       "EST THOMAS 14E 6",
       "EST THOMAS 14NJ A-1",
@@ -944,8 +994,8 @@
       "WINTBERG 339 COTTAGE \"\"A\"\"",
       "WINTBERG 340"
     ],
-    "totalOutages": 19
+    "totalOutages": 20
   },
   "staleAfterSeconds": 900,
-  "unassignedEventCount": 16
+  "unassignedEventCount": 17
 }
