@@ -56,6 +56,42 @@
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
+      "id": "142c20a62d01880f9d6096e312eaee173fee441faef1fcce981f238cadc14008",
+      "island": null,
+      "locations": [
+        "CONTANT 11",
+        "CONTANT 11B",
+        "CONTANT 11C",
+        "CONTANT 11-C",
+        "CONTANT 11C PUMP",
+        "CONTANT 11-D",
+        "CONTANT 11E 7BA",
+        "CONTANT 11-G DWN",
+        "CONTANT 11G -UP",
+        "CONTANT 11-H",
+        "CONTANT 11J",
+        "CONTANT 11J APT-3E"
+      ],
+      "modifiedAt": "2026-11-13T02:27:51Z",
+      "name": "T-T-16116",
+      "neighborhoodIDs": [],
+      "point": {
+        "latitude": 18.343622804740704,
+        "longitude": -64.95437838213556
+      },
+      "reportedCustomersInitially": 23,
+      "reportedCustomersOut": 23,
+      "reportedCustomersRestored": 0,
+      "sourceStatus": "Predicted",
+      "startedAt": "2026-11-13T02:27:32Z",
+      "verified": false,
+      "workStatus": null
+    },
+    {
+      "cause": null,
+      "crewAssigned": false,
+      "endedAt": null,
+      "estimatedRestoration": null,
       "id": "1cc46ce3119dc40050a38db0d72be378d42dc7527126bd44328a1c6be73f2533",
       "island": null,
       "locations": [
@@ -5270,7 +5306,7 @@
       "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-13T02:25:56Z",
+  "generatedAt": "2026-11-13T02:30:58Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -5465,21 +5501,21 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "7a6dacd08231cf33fa8119fc2208ba12ab87ec8580bb6e1351522c46af2db7b7",
+  "snapshotID": "f0987e179aa92131998ef4d1cf45e5706d4d42508952de8f25f41b4c21e41cfb",
   "source": {
-    "checkedAt": "2026-11-13T02:25:56Z",
+    "checkedAt": "2026-11-13T02:30:58Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-13T02:25:24Z",
+    "updatedAt": "2026-11-13T02:30:24Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "sourceSummary": {
     "customerCountDifference": 2,
-    "customersAffected": 6255,
-    "customersOut": 6255,
+    "customersAffected": 6278,
+    "customersOut": 6278,
     "customersRestored": 0,
     "customersServed": 54725,
-    "eventCustomersOut": 6253,
+    "eventCustomersOut": 6276,
     "hourlyCustomersOut": [
       {
         "at": "2026-11-11T02:00:00Z",
@@ -5675,7 +5711,7 @@
       },
       {
         "at": "2026-11-13T02:00:00Z",
-        "customersOut": 6253
+        "customersOut": 6276
       }
     ],
     "locations": [
@@ -7473,6 +7509,18 @@
       "COKI POINT C1-C",
       "COKI POINT C-1F DOWN",
       "COKI POINT NO. 7",
+      "CONTANT 11",
+      "CONTANT 11B",
+      "CONTANT 11C",
+      "CONTANT 11-C",
+      "CONTANT 11C PUMP",
+      "CONTANT 11-D",
+      "CONTANT 11E 7BA",
+      "CONTANT 11-G DWN",
+      "CONTANT 11G -UP",
+      "CONTANT 11-H",
+      "CONTANT 11J",
+      "CONTANT 11J APT-3E",
       "COTTON VALLEY",
       "COTTON VALLEY 247",
       "COTTON VALLEY 251",
@@ -10575,8 +10623,8 @@
       "WINTBERG-TRAILER",
       "WINTHBERG 1-B4 APT 303"
     ],
-    "totalOutages": 15
+    "totalOutages": 16
   },
   "staleAfterSeconds": 900,
-  "unassignedEventCount": 12
+  "unassignedEventCount": 13
 }
