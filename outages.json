@@ -415,44 +415,6 @@
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
-      "id": "9ecd83d34aed7401a37f4090d03d058e463408180ce76221b27654bd464994e3",
-      "island": null,
-      "locations": [
-        "EST THOMAS 14E 6",
-        "EST THOMAS 14NJ A-1",
-        "EST THOMAS 14NP",
-        "EST THOMAS 14NP 3FL APT-5",
-        "EST THOMAS 14NP APT 2",
-        "EST THOMAS 14NP-18 6E A-3",
-        "EST THOMAS 14NQ 6E",
-        "EST THOMAS 14NQ-6E",
-        "EST THOMAS 14PI",
-        "EST THOMAS 14PI (EL)",
-        "EST THOMAS 14PI APT-1",
-        "EST THOMAS 14PL (EL)",
-        "EST THOMAS 14PL APT-7",
-        "ESTATE THOMAS 14NQ-6E"
-      ],
-      "modifiedAt": "2026-11-13T11:06:16Z",
-      "name": "T-T-15855",
-      "neighborhoodIDs": [],
-      "point": {
-        "latitude": 18.33546038779535,
-        "longitude": -64.91060845401466
-      },
-      "reportedCustomersInitially": 22,
-      "reportedCustomersOut": 22,
-      "reportedCustomersRestored": 0,
-      "sourceStatus": "Predicted",
-      "startedAt": "2026-11-13T11:05:42Z",
-      "verified": false,
-      "workStatus": null
-    },
-    {
-      "cause": null,
-      "crewAssigned": false,
-      "endedAt": null,
-      "estimatedRestoration": null,
       "id": "a41e6de618df193361725496b2995215305f55c77bada07e6690d731643f655c",
       "island": null,
       "locations": [
@@ -2443,7 +2405,7 @@
       "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-13T12:21:11Z",
+  "generatedAt": "2026-11-13T12:26:13Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -2638,21 +2600,21 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "e6c08a4f305fb0c3f3e16d602b85dd7307b6f6b628af27834897665d5bc3b21f",
+  "snapshotID": "92f669bd16dc4934f6aed120693a57854db5c39a6f0976320206e19adf1e236c",
   "source": {
-    "checkedAt": "2026-11-13T12:21:11Z",
+    "checkedAt": "2026-11-13T12:26:13Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-13T12:20:25Z",
+    "updatedAt": "2026-11-13T12:25:25Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "sourceSummary": {
-    "customerCountDifference": 2,
+    "customerCountDifference": 24,
     "customersAffected": 2369,
     "customersOut": 2369,
     "customersRestored": 0,
     "customersServed": 54725,
-    "eventCustomersOut": 2367,
+    "eventCustomersOut": 2345,
     "hourlyCustomersOut": [
       {
         "at": "2026-11-11T12:00:00Z",
@@ -2844,7 +2806,7 @@
       },
       {
         "at": "2026-11-13T11:00:00Z",
-        "customersOut": 147
+        "customersOut": 125
       },
       {
         "at": "2026-11-13T12:00:00Z",
@@ -3591,19 +3553,22 @@
       "EST TABOR & HARMONY 2E",
       "EST TABOR & HARMONY 4-A",
       "EST TABOR & HARMONY 5-8",
-      "EST THOMAS 14E 6",
-      "EST THOMAS 14NJ A-1",
-      "EST THOMAS 14NP",
-      "EST THOMAS 14NP 3FL APT-5",
-      "EST THOMAS 14NP APT 2",
-      "EST THOMAS 14NP-18 6E A-3",
-      "EST THOMAS 14NQ 6E",
-      "EST THOMAS 14NQ-6E",
-      "EST THOMAS 14PI",
-      "EST THOMAS 14PI (EL)",
-      "EST THOMAS 14PI APT-1",
-      "EST THOMAS 14PL (EL)",
-      "EST THOMAS 14PL APT-7",
+      "EST THOMAS #10 10TH",
+      "EST THOMAS 10 ST 16",
+      "EST THOMAS 10TH ST LOT 14",
+      "EST THOMAS 12 10TH ST",
+      "EST THOMAS 16 10TH",
+      "EST THOMAS 16 10TH ST",
+      "EST THOMAS 18 10TH ST",
+      "EST THOMAS 18 10TH STREET",
+      "EST THOMAS 2 10TH STREET",
+      "EST THOMAS 6 10TH ST",
+      "EST THOMAS 6-A 10ST",
+      "EST THOMAS 6A 10TH",
+      "EST THOMAS 6A 10TH ST",
+      "EST THOMAS 6A 10TH ST BAS",
+      "EST THOMAS 6A-10TH",
+      "EST THOMAS 6A-10TH STREET",
       "EST THOMAS WEST 4D-4E",
       "EST TUTU 129A-6",
       "EST TUTU 129A-7",
@@ -3728,8 +3693,9 @@
       "ESTATE MANDAHL 2D",
       "ESTATE MANDAHL 5B-5",
       "ESTATE MANDAHL 8-1-B-1 UP",
-      "ESTATE THOMAS 14NQ-6E",
       "ESTATE THOMAS 4 REM",
+      "ESTATE THOMAS 6 10TH ST",
+      "ESTATE THOMAS 6A 10TH ST",
       "ESTATE WINTBERG 1-117",
       "ESTATE WINTBERG 1-134",
       "ESTATE WINTBERG 1-B4",
@@ -4756,8 +4722,8 @@
       "WINTBERG-TRAILER",
       "WINTHBERG 1-B4 APT 303"
     ],
-    "totalOutages": 22
+    "totalOutages": 21
   },
   "staleAfterSeconds": 900,
-  "unassignedEventCount": 19
+  "unassignedEventCount": 18
 }
