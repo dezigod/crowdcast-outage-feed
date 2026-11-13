@@ -2,71 +2,6 @@
   "collectionStatus": "ok",
   "events": [
     {
-      "cause": "770 Partial Power",
-      "crewAssigned": false,
-      "endedAt": null,
-      "estimatedRestoration": null,
-      "id": "01a0073207256af07162ed9d6ffae8898a226c615b439db9f619053122220f18",
-      "island": null,
-      "locations": [
-        "GLYNN 204"
-      ],
-      "modifiedAt": "2026-11-12T17:41:19Z",
-      "name": "54274",
-      "neighborhoodIDs": [],
-      "point": {
-        "latitude": 17.75141206885746,
-        "longitude": -64.7768468434396
-      },
-      "reportedCustomersInitially": 1,
-      "reportedCustomersOut": 1,
-      "reportedCustomersRestored": 0,
-      "sourceStatus": "Verified",
-      "startedAt": "2026-11-12T15:34:03Z",
-      "verified": true,
-      "workStatus": null
-    },
-    {
-      "cause": null,
-      "crewAssigned": false,
-      "endedAt": null,
-      "estimatedRestoration": null,
-      "id": "035e328cf5366f7ac56f2b2dfa51767772dd3375c326861f2072463b8959b392",
-      "island": null,
-      "locations": [
-        "EST LOVENLUND 26U R-363/3",
-        "LOVENLUND",
-        "LOVENLUND 31U UNIT 416",
-        "LOVENLUND U &",
-        "LOVENLUND U-31M RM",
-        "LOVENLUND/MAHOGA RUN B-26",
-        "MAHOGANY RUN 32L BARBADOS",
-        "MAHOGANY RUN 60L R429",
-        "MAHOGANY RUN B-31 U-31L",
-        "MAHOGANY RUN B-32 U32U",
-        "MAHOGANY RUN BLD 26",
-        "MAHOGANY RUN CONDO B-31",
-        "MAHOGANY RUN CONDO B-32",
-        "MAHOGANY RUN CONDO B-60"
-      ],
-      "modifiedAt": "2026-11-13T18:05:14Z",
-      "name": "T-T-11842",
-      "neighborhoodIDs": [
-        "stThomas-lovenlund"
-      ],
-      "point": {
-        "latitude": 18.36250224952404,
-        "longitude": -64.90694349003097
-      },
-      "reportedCustomersInitially": 14,
-      "reportedCustomersOut": 14,
-      "reportedCustomersRestored": 0,
-      "sourceStatus": "Predicted",
-      "startedAt": "2026-11-13T18:04:41Z",
-      "verified": false,
-      "workStatus": null
-    },
-    {
       "cause": null,
       "crewAssigned": false,
       "endedAt": null,
@@ -1717,7 +1652,7 @@
         "CASTLE COAKLEY",
         "CASTLE COAKLEY 54"
       ],
-      "modifiedAt": "2026-11-13T17:32:17Z",
+      "modifiedAt": "2026-11-13T18:11:15Z",
       "name": "T-C-06088",
       "neighborhoodIDs": [],
       "point": {
@@ -4150,7 +4085,7 @@
       "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-13T18:11:30Z",
+  "generatedAt": "2026-11-13T18:16:31Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -4211,18 +4146,14 @@
           "id": "stThomas-lovenlund",
           "island": "stThomas",
           "locations": [
-            "31U UNIT 416",
-            "EST FARMHOUSE",
-            "U &",
-            "U-31M RM"
+            "EST FARMHOUSE"
           ],
           "name": "Lovenlund",
           "sourceEventIDs": [
-            "035e328cf5366f7ac56f2b2dfa51767772dd3375c326861f2072463b8959b392",
             "a7622fe5ec3f7460243d64545ddffb42dc3c534b3876e2c938737688abde9c58"
           ],
-          "sourceStatus": "Unconfirmed",
-          "startedAt": null
+          "sourceStatus": "Verified",
+          "startedAt": "2026-11-05T17:32:26Z"
         },
         {
           "affectedCustomers": null,
@@ -4298,21 +4229,21 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "3d0ff47f43617fd908232c38c53f6204b34708c65724917aa0cf19b9c3d3fb6a",
+  "snapshotID": "02b545469e72859612448fd3aeeaa5ac8f60a006f8e9cd8160c22489707da73c",
   "source": {
-    "checkedAt": "2026-11-13T18:11:30Z",
+    "checkedAt": "2026-11-13T18:16:31Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-13T18:10:27Z",
+    "updatedAt": "2026-11-13T18:15:28Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "sourceSummary": {
     "customerCountDifference": 2,
-    "customersAffected": 5076,
-    "customersOut": 5076,
+    "customersAffected": 5061,
+    "customersOut": 5061,
     "customersRestored": 0,
     "customersServed": 54726,
-    "eventCustomersOut": 5074,
+    "eventCustomersOut": 5059,
     "hourlyCustomersOut": [
       {
         "at": "2026-11-11T18:00:00Z",
@@ -4420,95 +4351,95 @@
       },
       {
         "at": "2026-11-12T20:00:00Z",
-        "customersOut": 8570
+        "customersOut": 8569
       },
       {
         "at": "2026-11-12T21:00:00Z",
-        "customersOut": 5080
+        "customersOut": 5079
       },
       {
         "at": "2026-11-12T22:00:00Z",
-        "customersOut": 6704
+        "customersOut": 6703
       },
       {
         "at": "2026-11-12T23:00:00Z",
-        "customersOut": 10045
+        "customersOut": 10044
       },
       {
         "at": "2026-11-13T00:00:00Z",
-        "customersOut": 4984
+        "customersOut": 4983
       },
       {
         "at": "2026-11-13T01:00:00Z",
-        "customersOut": 7060
+        "customersOut": 7059
       },
       {
         "at": "2026-11-13T02:00:00Z",
-        "customersOut": 2095
+        "customersOut": 2094
       },
       {
         "at": "2026-11-13T03:00:00Z",
-        "customersOut": 2095
+        "customersOut": 2094
       },
       {
         "at": "2026-11-13T04:00:00Z",
-        "customersOut": 19
+        "customersOut": 18
       },
       {
         "at": "2026-11-13T05:00:00Z",
-        "customersOut": 19
+        "customersOut": 18
       },
       {
         "at": "2026-11-13T06:00:00Z",
-        "customersOut": 19
+        "customersOut": 18
       },
       {
         "at": "2026-11-13T07:00:00Z",
-        "customersOut": 19
+        "customersOut": 18
       },
       {
         "at": "2026-11-13T08:00:00Z",
-        "customersOut": 19
+        "customersOut": 18
       },
       {
         "at": "2026-11-13T09:00:00Z",
-        "customersOut": 19
+        "customersOut": 18
       },
       {
         "at": "2026-11-13T10:00:00Z",
-        "customersOut": 19
+        "customersOut": 18
       },
       {
         "at": "2026-11-13T11:00:00Z",
-        "customersOut": 19
+        "customersOut": 18
       },
       {
         "at": "2026-11-13T12:00:00Z",
-        "customersOut": 2291
+        "customersOut": 2290
       },
       {
         "at": "2026-11-13T13:00:00Z",
-        "customersOut": 5934
+        "customersOut": 5933
       },
       {
         "at": "2026-11-13T14:00:00Z",
-        "customersOut": 4799
+        "customersOut": 4798
       },
       {
         "at": "2026-11-13T15:00:00Z",
-        "customersOut": 9110
+        "customersOut": 9109
       },
       {
         "at": "2026-11-13T16:00:00Z",
-        "customersOut": 4385
+        "customersOut": 4384
       },
       {
         "at": "2026-11-13T17:00:00Z",
-        "customersOut": 9366
+        "customersOut": 9365
       },
       {
         "at": "2026-11-13T18:00:00Z",
-        "customersOut": 5074
+        "customersOut": 5059
       }
     ],
     "locations": [
@@ -5546,7 +5477,6 @@
       "EST FRYDENHOJ 92",
       "EST FRYDENHOY 37-25",
       "EST HONDURAS 30-4",
-      "EST LOVENLUND 26U R-363/3",
       "EST MAHOGANY 112",
       "EST NADIR",
       "EST NADIR #14H",
@@ -6244,7 +6174,6 @@
       "GENERAL GADE 20",
       "GENERAL GADE 4",
       "GENERAL GADE 8",
-      "GLYNN 204",
       "GLYNN 254",
       "GLYNN 254 A SUITE 6",
       "GLYNN 254-A",
@@ -6960,12 +6889,7 @@
       "LONG BAY STATION",
       "LOT A9 VESSUP BAY EST",
       "LOT ALTONA/TRAFFIC LIGHT",
-      "LOVENLUND",
-      "LOVENLUND 31U UNIT 416",
       "LOVENLUND EST FARMHOUSE",
-      "LOVENLUND U &",
-      "LOVENLUND U-31M RM",
-      "LOVENLUND/MAHOGA RUN B-26",
       "LUCINDA MILLIN",
       "LUCINDA MILLIN #32",
       "LUCINDA MILLIN A/C MGR",
@@ -7053,14 +6977,6 @@
       "MAHOGANY ESTATE 162",
       "MAHOGANY ESTATE 168",
       "MAHOGANY ESTATE 187",
-      "MAHOGANY RUN 32L BARBADOS",
-      "MAHOGANY RUN 60L R429",
-      "MAHOGANY RUN B-31 U-31L",
-      "MAHOGANY RUN B-32 U32U",
-      "MAHOGANY RUN BLD 26",
-      "MAHOGANY RUN CONDO B-31",
-      "MAHOGANY RUN CONDO B-32",
-      "MAHOGANY RUN CONDO B-60",
       "MAHOGANYEST 110",
       "MAIN STREET",
       "MAIN STREET 7-1",
@@ -8213,8 +8129,8 @@
       "WIMMELSKAFTS GADE 6A(RES)",
       "WINDWARD PASSAGE/TRAFFIC"
     ],
-    "totalOutages": 18
+    "totalOutages": 16
   },
   "staleAfterSeconds": 900,
-  "unassignedEventCount": 15
+  "unassignedEventCount": 13
 }
