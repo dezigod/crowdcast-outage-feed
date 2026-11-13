@@ -2589,7 +2589,7 @@
         "SUZANNABERG 2-3 HOUSE",
         "VIRGIN GRAND EST #71"
       ],
-      "modifiedAt": "2026-11-13T15:33:23Z",
+      "modifiedAt": "2026-11-13T15:46:44Z",
       "name": "Feeder 09E",
       "neighborhoodIDs": [
         "stThomas-lovenlund"
@@ -2638,7 +2638,7 @@
       "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-13T15:45:31Z",
+  "generatedAt": "2026-11-13T15:50:35Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -2725,11 +2725,11 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "6a0bf54f6059b29b9facd1e53df66a1f18ed972a826228a8c497874f461e144e",
+  "snapshotID": "84b1ff3876f2b2798394842a58cf0a6ea62d9fedece355749dd15de9867f9576",
   "source": {
-    "checkedAt": "2026-11-13T15:45:31Z",
+    "checkedAt": "2026-11-13T15:50:35Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-13T15:45:27Z",
+    "updatedAt": "2026-11-13T15:50:25Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
