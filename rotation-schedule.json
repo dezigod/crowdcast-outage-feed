@@ -2,135 +2,18 @@
   "nextAttemptAt": "2026-11-13T03:46:27Z",
   "schedule": {
     "checkedAt": "2026-11-13T03:36:24Z",
-    "coverageEnd": "2026-11-13T00:00:00-04:00",
-    "coverageStart": "2026-11-12T08:00:00-04:00",
-    "day": "2026-11-12",
-    "dayStatus": "current",
+    "coverageEnd": null,
+    "coverageStart": null,
+    "day": "2026-11-13",
+    "dayStatus": "not_current",
     "extractionMethod": "manual-review",
-    "extractionStatus": "reviewed",
+    "extractionStatus": "unavailable",
     "fingerprint": "fb5641a7fbbd49e203678ca272ca9f212523be8d237bebc24c35f11e0aa64c60",
     "lastModified": "Thu, 12 Nov 2026 16:15:48 GMT",
     "revisionSeenAt": "2026-11-12T16:16:25Z",
     "timeZone": "America/St_Thomas",
     "url": "https://www.viwapa.vi/docs/default-source/outage-schedule/sttstj-rotational-outage-schedule-doc.pdf?sfvrsn=2c938249_407",
-    "windows": [
-      {
-        "areas": [
-          "Estate Thomas to Tabor & Harmony",
-          "Cruz Bay to Zootenvaal",
-          "Mall",
-          "Yacht Haven"
-        ],
-        "endsAt": "2026-11-12T10:00:00-04:00",
-        "feeders": [
-          "Feeder 7B",
-          "Feeder 7E"
-        ],
-        "id": "2026-11-12-0800",
-        "startsAt": "2026-11-12T08:00:00-04:00"
-      },
-      {
-        "areas": [
-          "Cassi Hill to Red Hook",
-          "PMP Garden to Bolongo",
-          "Contant to Caret Bay"
-        ],
-        "endsAt": "2026-11-12T12:00:00-04:00",
-        "feeders": [
-          "Feeder 7C",
-          "Feeder 10B",
-          "Feeder 6A"
-        ],
-        "id": "2026-11-12-1000",
-        "startsAt": "2026-11-12T10:00:00-04:00"
-      },
-      {
-        "areas": [
-          "Estate Thomas to Tabor & Harmony",
-          "Cruz Bay to Zootenvaal"
-        ],
-        "endsAt": "2026-11-12T14:00:00-04:00",
-        "feeders": [
-          "Feeder 7B",
-          "Feeder 7E"
-        ],
-        "id": "2026-11-12-1200",
-        "startsAt": "2026-11-12T12:00:00-04:00"
-      },
-      {
-        "areas": [
-          "Cassi Hill to Red Hook",
-          "PMP Gardens to Bolongo",
-          "Contant to Caret Bay"
-        ],
-        "endsAt": "2026-11-12T16:00:00-04:00",
-        "feeders": [
-          "Feeder 7C",
-          "Feeder 10B",
-          "Feeder 6A"
-        ],
-        "id": "2026-11-12-1400",
-        "startsAt": "2026-11-12T14:00:00-04:00"
-      },
-      {
-        "areas": [
-          "Estate Thomas to Tabor & Harmony",
-          "Cruz Bay to Zootenvaal"
-        ],
-        "endsAt": "2026-11-12T18:00:00-04:00",
-        "feeders": [
-          "Feeder 7B",
-          "Feeder 7E"
-        ],
-        "id": "2026-11-12-1600",
-        "startsAt": "2026-11-12T16:00:00-04:00"
-      },
-      {
-        "areas": [
-          "Brookman Road to Red Hook/Nazareth",
-          "Crown Bay to Estate Ross",
-          "Market Square to Veterans Drive"
-        ],
-        "endsAt": "2026-11-12T20:00:00-04:00",
-        "feeders": [
-          "Feeder 9C Partial",
-          "Feeder 8A",
-          "Feeder 6B"
-        ],
-        "id": "2026-11-12-1800",
-        "startsAt": "2026-11-12T18:00:00-04:00"
-      },
-      {
-        "areas": [
-          "Contant to Caret Bay/Lindberg Bay to Bordeaux",
-          "Taarneberg to Peterborg",
-          "Cassi Hill to Red Hook"
-        ],
-        "endsAt": "2026-11-12T22:00:00-04:00",
-        "feeders": [
-          "Feeder 6A",
-          "Feeder 8B",
-          "Feeder 7C"
-        ],
-        "id": "2026-11-12-2000",
-        "startsAt": "2026-11-12T20:00:00-04:00"
-      },
-      {
-        "areas": [
-          "Altona to Drake\u2019s Seat",
-          "Crown Bay to Estate Ross",
-          "PMP Gardens to Bolongo"
-        ],
-        "endsAt": "2026-11-13T00:00:00-04:00",
-        "feeders": [
-          "Feeder 7A",
-          "Feeder 8A",
-          "Feeder 10B"
-        ],
-        "id": "2026-11-12-2200",
-        "startsAt": "2026-11-12T22:00:00-04:00"
-      }
-    ]
+    "windows": []
   },
   "schemaVersion": 1,
   "status": "blocked",
