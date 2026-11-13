@@ -56,6 +56,35 @@
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
+      "id": "1cc46ce3119dc40050a38db0d72be378d42dc7527126bd44328a1c6be73f2533",
+      "island": null,
+      "locations": [
+        "EST ELIZABETH 9",
+        "ESTATE ELIZABETH 7A MTR-A",
+        "ESTATE ELIZABETH 7A MTR-B",
+        "MISGUNST 4A-1A",
+        "MISGUNST 4A-1B"
+      ],
+      "modifiedAt": "2026-11-13T02:21:21Z",
+      "name": "T-T-09368",
+      "neighborhoodIDs": [],
+      "point": {
+        "latitude": 18.35361946811677,
+        "longitude": -64.93684242917385
+      },
+      "reportedCustomersInitially": 5,
+      "reportedCustomersOut": 5,
+      "reportedCustomersRestored": 0,
+      "sourceStatus": "Predicted",
+      "startedAt": "2026-11-13T02:20:55Z",
+      "verified": false,
+      "workStatus": null
+    },
+    {
+      "cause": null,
+      "crewAssigned": false,
+      "endedAt": null,
+      "estimatedRestoration": null,
       "id": "2488f75f98539d93e6cc64f74531c322a0ab59b459e8794e1d08aad8f5693740",
       "island": null,
       "locations": [
@@ -5241,7 +5270,7 @@
       "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-13T02:20:54Z",
+  "generatedAt": "2026-11-13T02:25:56Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -5436,21 +5465,21 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "fdfb86f57b5a7751a33dc1e6c2560021a15a1cab1c8d3999b43d4a1b0ab0dfb8",
+  "snapshotID": "7a6dacd08231cf33fa8119fc2208ba12ab87ec8580bb6e1351522c46af2db7b7",
   "source": {
-    "checkedAt": "2026-11-13T02:20:54Z",
+    "checkedAt": "2026-11-13T02:25:56Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-13T02:20:24Z",
+    "updatedAt": "2026-11-13T02:25:24Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "sourceSummary": {
     "customerCountDifference": 2,
-    "customersAffected": 6250,
-    "customersOut": 6250,
+    "customersAffected": 6255,
+    "customersOut": 6255,
     "customersRestored": 0,
     "customersServed": 54725,
-    "eventCustomersOut": 6248,
+    "eventCustomersOut": 6253,
     "hourlyCustomersOut": [
       {
         "at": "2026-11-11T02:00:00Z",
@@ -5646,7 +5675,7 @@
       },
       {
         "at": "2026-11-13T02:00:00Z",
-        "customersOut": 6248
+        "customersOut": 6253
       }
     ],
     "locations": [
@@ -7583,6 +7612,7 @@
       "EST DONOE LOT M",
       "EST DONOE PARCELS 1-13",
       "EST DONOE REM 1-3 REM1-5",
+      "EST ELIZABETH 9",
       "EST FRYDENDAHL",
       "EST FRYDENDAHL 1",
       "EST FRYDENDAHL 11-5-4",
@@ -8171,6 +8201,8 @@
       "ESTATE DONOE 2J-19",
       "ESTATE DONOE 2J-20",
       "ESTATE DONOE 2J-27 DWN",
+      "ESTATE ELIZABETH 7A MTR-A",
+      "ESTATE ELIZABETH 7A MTR-B",
       "ESTATE FRYDENDAHL",
       "ESTATE FRYDENDAHL #4",
       "ESTATE FRYDENDAHL 1B",
@@ -9045,6 +9077,8 @@
       "MANDAHL PLOT 4E",
       "MANDAHL TRAILER 15D",
       "MANDAHL-14-C",
+      "MISGUNST 4A-1A",
+      "MISGUNST 4A-1B",
       "MODULAR CLASSROOM - BES",
       "MODULAR CLASSROOM - IEKHS",
       "NADIR 20-1",
@@ -10541,8 +10575,8 @@
       "WINTBERG-TRAILER",
       "WINTHBERG 1-B4 APT 303"
     ],
-    "totalOutages": 14
+    "totalOutages": 15
   },
   "staleAfterSeconds": 900,
-  "unassignedEventCount": 11
+  "unassignedEventCount": 12
 }
