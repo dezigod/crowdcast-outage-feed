@@ -31,31 +31,6 @@
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
-      "id": "0ce5bf5ccca258dd40f256aaa3983be04ab05754452bba6bcdd7efd0f6547874",
-      "island": null,
-      "locations": [
-        "UPPER LOVE"
-      ],
-      "modifiedAt": "2026-11-13T14:32:08Z",
-      "name": "T-C-14219",
-      "neighborhoodIDs": [],
-      "point": {
-        "latitude": 17.735150820802463,
-        "longitude": -64.80986794585606
-      },
-      "reportedCustomersInitially": 1,
-      "reportedCustomersOut": 1,
-      "reportedCustomersRestored": 0,
-      "sourceStatus": "Predicted",
-      "startedAt": "2026-11-13T14:31:38Z",
-      "verified": false,
-      "workStatus": null
-    },
-    {
-      "cause": null,
-      "crewAssigned": false,
-      "endedAt": null,
-      "estimatedRestoration": null,
       "id": "0e04d83c18431a190cfa8d02f4101fd8c190cee7e76f869079ab1685902cb8bb",
       "island": null,
       "locations": [
@@ -103,6 +78,35 @@
       "sourceStatus": "Verified",
       "startedAt": "2026-10-26T03:47:51Z",
       "verified": true,
+      "workStatus": null
+    },
+    {
+      "cause": null,
+      "crewAssigned": false,
+      "endedAt": null,
+      "estimatedRestoration": null,
+      "id": "28f92e1417024d9bc645e29929311cd794ad48cde2294912f380094103df3203",
+      "island": null,
+      "locations": [
+        "ESTATE ROSS D-18",
+        "ESTATE ROSS D-23",
+        "ESTATE ROSS D-30",
+        "ROSS ESTATE D-27",
+        "ROSS ESTATE D-28"
+      ],
+      "modifiedAt": "2026-11-13T14:44:44Z",
+      "name": "T-T-15070",
+      "neighborhoodIDs": [],
+      "point": {
+        "latitude": 18.343373021530468,
+        "longitude": -64.92218173736863
+      },
+      "reportedCustomersInitially": 5,
+      "reportedCustomersOut": 5,
+      "reportedCustomersRestored": 0,
+      "sourceStatus": "Predicted",
+      "startedAt": "2026-11-13T14:44:38Z",
+      "verified": false,
       "workStatus": null
     },
     {
@@ -2212,61 +2216,6 @@
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
-      "id": "e2ccc03147b6c940cfec70fe35e7860ef0a7df69954bb37002853040819575a7",
-      "island": null,
-      "locations": [
-        "GROVE PLACE 2 BLD 57/58",
-        "GROVE PLACE 233",
-        "GROVE PLACE 233 44 45",
-        "GROVE PLACE 333 B-59/60",
-        "GROVE PLACE 54 55",
-        "MUTUAL HOMES B-43",
-        "MUTUAL HOMES B-43 A-A3",
-        "MUTUAL HOMES B-43 A-B3",
-        "MUTUAL HOMES B-43 B-2",
-        "MUTUAL HOMES B-44 A-A2",
-        "MUTUAL HOMES B-45 A-C1",
-        "MUTUAL HOMES B-45 A-C3",
-        "MUTUAL HOMES B-54 A-C1",
-        "MUTUAL HOMES B-54 A-C2",
-        "MUTUAL HOMES B-54 A-D1",
-        "MUTUAL HOMES B-54 A-D3",
-        "MUTUAL HOMES B-55 A-A1",
-        "MUTUAL HOMES B-55 A-B3",
-        "MUTUAL HOMES B-57",
-        "MUTUAL HOMES B-57 A-A1",
-        "MUTUAL HOMES B-57 A-A2",
-        "MUTUAL HOMES B-57 A-B3",
-        "MUTUAL HOMES B-58 A-C1",
-        "MUTUAL HOMES B-58 A-D3",
-        "MUTUAL HOMES B-59",
-        "MUTUAL HOMES B-59 A-A1",
-        "MUTUAL HOMES B-59 A-A3",
-        "MUTUAL HOMES B-59 A-B1",
-        "MUTUAL HOMES B-60",
-        "MUTUAL HOMES B-60 A-C3",
-        "MUTUAL HOMES B-60 A-D2"
-      ],
-      "modifiedAt": "2026-11-13T14:01:57Z",
-      "name": "T-C-02476",
-      "neighborhoodIDs": [],
-      "point": {
-        "latitude": 17.724069148083426,
-        "longitude": -64.8269988167206
-      },
-      "reportedCustomersInitially": 34,
-      "reportedCustomersOut": 34,
-      "reportedCustomersRestored": 0,
-      "sourceStatus": "Predicted",
-      "startedAt": "2026-11-13T14:01:25Z",
-      "verified": false,
-      "workStatus": null
-    },
-    {
-      "cause": null,
-      "crewAssigned": false,
-      "endedAt": null,
-      "estimatedRestoration": null,
       "id": "eb1d945fa3360b5d6398b9d0e8646da9fd954551268acaf63761b136f2d31879",
       "island": null,
       "locations": [
@@ -3457,7 +3406,7 @@
       "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-13T14:41:07Z",
+  "generatedAt": "2026-11-13T14:46:09Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -3777,21 +3726,21 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "008ed2b6680727cf514faa9fd3d1b085588ac3879e60b3303b33a32c6cfe406d",
+  "snapshotID": "6ffd220bf0689a5724fe14daf0dc3a342f5ea89d96cb8db8eab49857e0d691a4",
   "source": {
-    "checkedAt": "2026-11-13T14:41:07Z",
+    "checkedAt": "2026-11-13T14:46:09Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-13T14:40:25Z",
+    "updatedAt": "2026-11-13T14:45:25Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "sourceSummary": {
-    "customerCountDifference": 2,
-    "customersAffected": 3804,
-    "customersOut": 3804,
+    "customerCountDifference": -50,
+    "customersAffected": 3722,
+    "customersOut": 3722,
     "customersRestored": 0,
     "customersServed": 54726,
-    "eventCustomersOut": 3802,
+    "eventCustomersOut": 3772,
     "hourlyCustomersOut": [
       {
         "at": "2026-11-11T14:00:00Z",
@@ -3987,7 +3936,7 @@
       },
       {
         "at": "2026-11-13T14:00:00Z",
-        "customersOut": 3802
+        "customersOut": 3720
       }
     ],
     "locations": [
@@ -4656,12 +4605,6 @@
       "CARET BAY 2E-51-19 B-7",
       "CARET BAY 2E-51-19 B-8",
       "COMMANDANT GADE 12",
-      "CONCORDIA 145-WEST",
-      "CONCORDIA B-B",
-      "CONCORDIA MANOR II",
-      "CONCORDIA MANOR III",
-      "CONCORDIA MANOR III A-62",
-      "CONCORDIA MANOR IV",
       "CONTANT",
       "CONTANT 107-17",
       "CONTANT 107-18",
@@ -5306,6 +5249,9 @@
       "ESTATE MISGUNST",
       "ESTATE MISGUNST 7K",
       "ESTATE NELTJEBERG",
+      "ESTATE ROSS D-18",
+      "ESTATE ROSS D-23",
+      "ESTATE ROSS D-30",
       "ESTATE SOLBEG 79-43",
       "ESTATE SOLBERG",
       "ESTATE SOLBERG 11D-14",
@@ -5762,11 +5708,6 @@
       "GLYNN 254A (PUMP)",
       "GLYNN 254-A SUITE # 1",
       "GOLDEN ROCK SHOPPING CTR",
-      "GROVE PLACE 2 BLD 57/58",
-      "GROVE PLACE 233",
-      "GROVE PLACE 233 44 45",
-      "GROVE PLACE 333 B-59/60",
-      "GROVE PLACE 54 55",
       "HAVENSGHT MALL B STE 304A",
       "HAVENSIGHT",
       "HAVENSIGHT #12",
@@ -6367,32 +6308,6 @@
       "MISGUNST TERRACE 2 CONDO",
       "MOUNTAIN TOP B-2",
       "MOUNTAIN TOP COND B-2 A-5",
-      "MUTUAL HOMES B-43",
-      "MUTUAL HOMES B-43 A-A3",
-      "MUTUAL HOMES B-43 A-B3",
-      "MUTUAL HOMES B-43 B-2",
-      "MUTUAL HOMES B-44 A-A2",
-      "MUTUAL HOMES B-45 A-C1",
-      "MUTUAL HOMES B-45 A-C3",
-      "MUTUAL HOMES B-54 A-C1",
-      "MUTUAL HOMES B-54 A-C2",
-      "MUTUAL HOMES B-54 A-D1",
-      "MUTUAL HOMES B-54 A-D3",
-      "MUTUAL HOMES B-55 A-A1",
-      "MUTUAL HOMES B-55 A-B3",
-      "MUTUAL HOMES B-57",
-      "MUTUAL HOMES B-57 A-A1",
-      "MUTUAL HOMES B-57 A-A2",
-      "MUTUAL HOMES B-57 A-B3",
-      "MUTUAL HOMES B-58 A-C1",
-      "MUTUAL HOMES B-58 A-D3",
-      "MUTUAL HOMES B-59",
-      "MUTUAL HOMES B-59 A-A1",
-      "MUTUAL HOMES B-59 A-A3",
-      "MUTUAL HOMES B-59 A-B1",
-      "MUTUAL HOMES B-60",
-      "MUTUAL HOMES B-60 A-C3",
-      "MUTUAL HOMES B-60 A-D2",
       "NELTBERG 5 HOUSE METER",
       "NELTEBERG",
       "NELTEBERG 6",
@@ -6427,6 +6342,8 @@
       "REGATTA POINT VILLAS 1& 2",
       "REM ESTATE ST PETER",
       "RESOLUTION",
+      "ROSS ESTATE D-27",
+      "ROSS ESTATE D-28",
       "SCOTT FREE",
       "SCOTT FREE #30",
       "SCOTT FREE #34 APT.2",
@@ -7021,7 +6938,6 @@
       "UPPER JOHN DUNKOE DWN",
       "UPPER JOHN DUNKOE MTR 3",
       "UPPER JOHN DUNKOE MTR 4",
-      "UPPER LOVE",
       "WATERFRONT/VETERAN'S PARK",
       "WATERGATE VILLA B16",
       "WATERGATE VILLA SECTION 6",
@@ -7030,8 +6946,8 @@
       "ZUERIENDENHEIT",
       "ZUFRIDENHEIT 1"
     ],
-    "totalOutages": 17
+    "totalOutages": 16
   },
   "staleAfterSeconds": 900,
-  "unassignedEventCount": 14
+  "unassignedEventCount": 13
 }
