@@ -31,6 +31,36 @@
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
+      "id": "19d9b62e3f71d12a0d5a6dcd259c3f9da13a9c7dbca2b61c016c4b36b2548d73",
+      "island": null,
+      "locations": [
+        "EST ST PETER 24-6J",
+        "ST PETER 20-1",
+        "ST PETER 22A",
+        "ST PETER 6D-1"
+      ],
+      "modifiedAt": "2026-11-13T18:53:32Z",
+      "name": "T-T-06207",
+      "neighborhoodIDs": [
+        "stThomas-st-peter"
+      ],
+      "point": {
+        "latitude": 18.36320194936752,
+        "longitude": -64.945504975774
+      },
+      "reportedCustomersInitially": 5,
+      "reportedCustomersOut": 5,
+      "reportedCustomersRestored": 0,
+      "sourceStatus": "Predicted",
+      "startedAt": "2026-11-13T18:53:19Z",
+      "verified": false,
+      "workStatus": null
+    },
+    {
+      "cause": null,
+      "crewAssigned": false,
+      "endedAt": null,
+      "estimatedRestoration": null,
       "id": "26efcac8ab593bb1c6b4f46fddaee790d2b6894efbbfff868f5d18ac201133b7",
       "island": null,
       "locations": [
@@ -3847,53 +3877,6 @@
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
-      "id": "6a313d6b12ad7a7765ac0e097779d9fc4fb2e1021dd9dcaa394f001243f71dd7",
-      "island": null,
-      "locations": [
-        "SION FARM 131",
-        "SION FARM 132",
-        "SION FARM 133",
-        "SION FARM 56",
-        "SION FARM 57",
-        "SION FARM 58",
-        "SION FARM 59",
-        "SION FARM 60",
-        "SION FARM 61",
-        "SION FARM 62",
-        "SION FARM 63",
-        "SION FARM 64",
-        "SION FARM 65",
-        "SION FARM 66",
-        "SION FARM 67",
-        "SION FARM 68",
-        "SION FARM 69",
-        "SION FARM 70",
-        "SION FARM 71",
-        "SION FARM 72",
-        "SION FARM 73",
-        "SION FARM 74",
-        "SION FARM-GREAT HOUSE"
-      ],
-      "modifiedAt": "2026-11-13T18:38:11Z",
-      "name": "T-C-03674",
-      "neighborhoodIDs": [],
-      "point": {
-        "latitude": 17.729989575165625,
-        "longitude": -64.74412747324435
-      },
-      "reportedCustomersInitially": 23,
-      "reportedCustomersOut": 23,
-      "reportedCustomersRestored": 0,
-      "sourceStatus": "Predicted",
-      "startedAt": "2026-11-13T18:38:05Z",
-      "verified": false,
-      "workStatus": null
-    },
-    {
-      "cause": null,
-      "crewAssigned": false,
-      "endedAt": null,
-      "estimatedRestoration": null,
       "id": "6fe22c1d485aa60cce3793efc3674cc92777985a012d163579a42e734ba78915",
       "island": null,
       "locations": [
@@ -3991,6 +3974,46 @@
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
+      "id": "bb00c2f6f7ace4786eabb825e419a749a918182d5d4c261f51f5818825a8a9f1",
+      "island": null,
+      "locations": [
+        "DOROTHEA",
+        "DOROTHEA 13A DOWN",
+        "DOROTHEA 2C",
+        "DOROTHEA 2C A-4C",
+        "DOROTHEA 2-CA",
+        "DOROTHEA 2-CA B/4 A/11",
+        "DOROTHEA 2CA B-4 A-13",
+        "DOROTHEA 2D",
+        "DOROTHEA 2D A-8",
+        "DOROTHEA 2-D APT",
+        "EST DOROTHEA",
+        "EST DOROTHEA 2B",
+        "EST DOROTHEA 2B UP",
+        "EST DOROTHEA 2-D APT4",
+        "EST DOROTHEA 2-D PUMP",
+        "EST DOROTHEA 3-I REMAINDE"
+      ],
+      "modifiedAt": "2026-11-13T18:51:01Z",
+      "name": "T-T-16227",
+      "neighborhoodIDs": [],
+      "point": {
+        "latitude": 18.35853570879408,
+        "longitude": -64.96435769622346
+      },
+      "reportedCustomersInitially": 22,
+      "reportedCustomersOut": 22,
+      "reportedCustomersRestored": 0,
+      "sourceStatus": "Predicted",
+      "startedAt": "2026-11-13T18:50:54Z",
+      "verified": false,
+      "workStatus": null
+    },
+    {
+      "cause": null,
+      "crewAssigned": false,
+      "endedAt": null,
+      "estimatedRestoration": null,
       "id": "cbbd2ef62dee6d0405b3a5d5c18b1c3c5a5b4dbca8f2f81c8fc8d71e6fec7176",
       "island": "stThomas",
       "locations": [
@@ -4016,7 +4039,7 @@
       "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-13T18:50:41Z",
+  "generatedAt": "2026-11-13T18:55:43Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -4070,6 +4093,23 @@
           ],
           "sourceStatus": "Unconfirmed",
           "startedAt": null
+        },
+        {
+          "affectedCustomers": null,
+          "estimatedRestoration": null,
+          "id": "stThomas-st-peter",
+          "island": "stThomas",
+          "locations": [
+            "20-1",
+            "22A",
+            "6D-1"
+          ],
+          "name": "Estate St. Peter",
+          "sourceEventIDs": [
+            "19d9b62e3f71d12a0d5a6dcd259c3f9da13a9c7dbca2b61c016c4b36b2548d73"
+          ],
+          "sourceStatus": "Predicted",
+          "startedAt": "2026-11-13T18:53:19Z"
         },
         {
           "affectedCustomers": null,
@@ -4160,21 +4200,21 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "856f884c0486284ad95e6283e638e512c4952c68654b4dceebbc96bf47dd8c5a",
+  "snapshotID": "443e7592804714521f0029351a2cac92e5ebd3e9bc9c75472f8b7ccd050df480",
   "source": {
-    "checkedAt": "2026-11-13T18:50:41Z",
+    "checkedAt": "2026-11-13T18:55:43Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-13T18:50:27Z",
+    "updatedAt": "2026-11-13T18:55:27Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "sourceSummary": {
     "customerCountDifference": 2,
-    "customersAffected": 5062,
-    "customersOut": 5062,
+    "customersAffected": 5066,
+    "customersOut": 5066,
     "customersRestored": 0,
     "customersServed": 54726,
-    "eventCustomersOut": 5060,
+    "eventCustomersOut": 5064,
     "hourlyCustomersOut": [
       {
         "at": "2026-11-11T18:00:00Z",
@@ -4370,7 +4410,7 @@
       },
       {
         "at": "2026-11-13T18:00:00Z",
-        "customersOut": 5060
+        "customersOut": 5064
       }
     ],
     "locations": [
@@ -5252,6 +5292,16 @@
       "DOMINI TVER GADE 3A",
       "DOMINI TVER GADE-2",
       "DOMINI TVER GD 4",
+      "DOROTHEA",
+      "DOROTHEA 13A DOWN",
+      "DOROTHEA 2C",
+      "DOROTHEA 2C A-4C",
+      "DOROTHEA 2-CA",
+      "DOROTHEA 2-CA B/4 A/11",
+      "DOROTHEA 2CA B-4 A-13",
+      "DOROTHEA 2D",
+      "DOROTHEA 2D A-8",
+      "DOROTHEA 2-D APT",
       "DRAKES PASSAGE",
       "DRAKES PASSAGE 14-1",
       "DRAKES PASSAGE C-1 31-2",
@@ -5348,6 +5398,12 @@
       "EST ALTONA 178-243 HSE",
       "EST CONTANT 19-42",
       "EST CONTANT 28-7B",
+      "EST DOROTHEA",
+      "EST DOROTHEA 2B",
+      "EST DOROTHEA 2B UP",
+      "EST DOROTHEA 2-D APT4",
+      "EST DOROTHEA 2-D PUMP",
+      "EST DOROTHEA 3-I REMAINDE",
       "EST FRYDEHOJ 37-38",
       "EST FRYDENHOJ",
       "EST FRYDENHOJ #116A",
@@ -5543,6 +5599,7 @@
       "EST SMITH BAY 19-2-30",
       "EST SMITH BAY 19-2-43",
       "EST SMITH BAY 19-2-94",
+      "EST ST PETER 24-6J",
       "EST WIND NAZARETH",
       "EST. FRYDENHOJ",
       "EST. FRYDENHOJ 1-44",
@@ -7762,29 +7819,6 @@
       "SILKE GADE 8B",
       "SILKE GADE 8B - HOUSE MTR",
       "SILKE GADE 9Q",
-      "SION FARM 131",
-      "SION FARM 132",
-      "SION FARM 133",
-      "SION FARM 56",
-      "SION FARM 57",
-      "SION FARM 58",
-      "SION FARM 59",
-      "SION FARM 60",
-      "SION FARM 61",
-      "SION FARM 62",
-      "SION FARM 63",
-      "SION FARM 64",
-      "SION FARM 65",
-      "SION FARM 66",
-      "SION FARM 67",
-      "SION FARM 68",
-      "SION FARM 69",
-      "SION FARM 70",
-      "SION FARM 71",
-      "SION FARM 72",
-      "SION FARM 73",
-      "SION FARM 74",
-      "SION FARM-GREAT HOUSE",
       "SKOV GADE #1",
       "SKOVE GADE",
       "SKOVE GADE 1 HSE 1",
@@ -7888,6 +7922,9 @@
       "SPANIOL STRADE 1 1ST FL",
       "SPANIOL STRADE 2",
       "SPANIOL STRAEDE 1ST FL",
+      "ST PETER 20-1",
+      "ST PETER 22A",
+      "ST PETER 6D-1",
       "STAABILAND",
       "STAABILAND (HOUSE EL)",
       "STAABILAND 16",
@@ -8065,8 +8102,8 @@
       "WIMMELSKAFTS GADE 6A(RES)",
       "WINDWARD PASSAGE/TRAFFIC"
     ],
-    "totalOutages": 13
+    "totalOutages": 14
   },
   "staleAfterSeconds": 900,
-  "unassignedEventCount": 10
+  "unassignedEventCount": 11
 }
