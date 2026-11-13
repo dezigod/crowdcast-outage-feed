@@ -3082,6 +3082,41 @@
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
+      "id": "a2cbbf3262a93974de2b458517eab9fdff822488a01d6abfebb3b44bb62850c1",
+      "island": null,
+      "locations": [
+        "EST FORTUNA",
+        "EST FORTUNA 3C-A-43",
+        "EST FORTUNA 3CA-52",
+        "EST FORTUNA 3C-A-54",
+        "ESTATE FORTUNA",
+        "ESTATE FORTUNA 3C-A-53",
+        "FORTUNA",
+        "FORTUNA 3A-9",
+        "FORTUNA 3C-A-46",
+        "FORTUNA 3CA-50",
+        "FORTUNA 3C-A-51"
+      ],
+      "modifiedAt": "2026-11-13T15:14:40Z",
+      "name": "T-T-01189",
+      "neighborhoodIDs": [],
+      "point": {
+        "latitude": 18.35071631921577,
+        "longitude": -65.01339083299781
+      },
+      "reportedCustomersInitially": 15,
+      "reportedCustomersOut": 15,
+      "reportedCustomersRestored": 0,
+      "sourceStatus": "Predicted",
+      "startedAt": "2026-11-13T15:14:10Z",
+      "verified": false,
+      "workStatus": null
+    },
+    {
+      "cause": null,
+      "crewAssigned": false,
+      "endedAt": null,
+      "estimatedRestoration": null,
       "id": "a7622fe5ec3f7460243d64545ddffb42dc3c534b3876e2c938737688abde9c58",
       "island": "stThomas",
       "locations": [
@@ -4378,7 +4413,7 @@
       "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-13T15:11:19Z",
+  "generatedAt": "2026-11-13T15:16:21Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -4698,21 +4733,21 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "86c59b0e680e8262d7bcdcabd52ce302ccd38a85175dd9ae0c57fa3a65037415",
+  "snapshotID": "bdb90b35e3284249e01921151f53ac8cdb65a2e8e226a7af8e23b1ed21a29d0e",
   "source": {
-    "checkedAt": "2026-11-13T15:11:19Z",
+    "checkedAt": "2026-11-13T15:16:21Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-13T15:10:26Z",
+    "updatedAt": "2026-11-13T15:15:26Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "sourceSummary": {
     "customerCountDifference": 2,
-    "customersAffected": 4802,
-    "customersOut": 4802,
+    "customersAffected": 4817,
+    "customersOut": 4817,
     "customersRestored": 0,
     "customersServed": 54726,
-    "eventCustomersOut": 4800,
+    "eventCustomersOut": 4815,
     "hourlyCustomersOut": [
       {
         "at": "2026-11-11T15:00:00Z",
@@ -4908,7 +4943,7 @@
       },
       {
         "at": "2026-11-13T15:00:00Z",
-        "customersOut": 4800
+        "customersOut": 4815
       }
     ],
     "locations": [
@@ -6562,6 +6597,10 @@
       "EST ENIGHED 18-10-18-37",
       "EST ENIGHED 228",
       "EST FORTSBERG 15E-3",
+      "EST FORTUNA",
+      "EST FORTUNA 3C-A-43",
+      "EST FORTUNA 3CA-52",
+      "EST FORTUNA 3C-A-54",
       "EST FRENCHMANS BAY 14-38",
       "EST FRENCHMAN'S BAY 16-58",
       "EST FRENCHMANS BAY 21-43",
@@ -6927,6 +6966,8 @@
       "ESTATE EMMAUS 2",
       "ESTATE EMMAUS PARCEL 8-27",
       "ESTATE FORSTBERG 16A",
+      "ESTATE FORTUNA",
+      "ESTATE FORTUNA 3C-A-53",
       "ESTATE FRENCHMANS BAY",
       "ESTATE FRIIS 13-AB",
       "ESTATE FRIIS 13C",
@@ -7008,6 +7049,11 @@
       "FORTSBERG 4",
       "FORTSBERG 6",
       "FORTSBERG ESTATE 16K",
+      "FORTUNA",
+      "FORTUNA 3A-9",
+      "FORTUNA 3C-A-46",
+      "FORTUNA 3CA-50",
+      "FORTUNA 3C-A-51",
       "FREEMAN GROUND 3-03",
       "FREEMANS GROUND",
       "FREEMAN'S GROUND",
@@ -8919,8 +8965,8 @@
       "ZUERIENDENHEIT",
       "ZUFRIDENHEIT 1"
     ],
-    "totalOutages": 15
+    "totalOutages": 16
   },
   "staleAfterSeconds": 900,
-  "unassignedEventCount": 12
+  "unassignedEventCount": 13
 }
