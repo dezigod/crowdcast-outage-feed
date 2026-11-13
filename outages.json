@@ -162,41 +162,6 @@
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
-      "id": "4ccb3985ff94ba53c43fe1d88ceab7bbd0d468fb3b0aa75cb0f71b08dc3ab796",
-      "island": null,
-      "locations": [
-        "EST FRYDENDAHL",
-        "EST FRYDENDAHL 56-64 UP",
-        "FRYDENDAHL 56-16",
-        "FRYDENDAHL 56-16 MTR-D",
-        "FRYDENDAHL 56-17",
-        "FRYDENDAHL 56-18",
-        "FRYDENDAHL 56-21",
-        "FRYDENDAHL 56-62",
-        "FRYDENDAHL 56-64 DOWN",
-        "FRYDENDAHL 56-65",
-        "FRYDENDAHL 56-73"
-      ],
-      "modifiedAt": "2026-11-13T01:07:31Z",
-      "name": "T-T-07660",
-      "neighborhoodIDs": [],
-      "point": {
-        "latitude": 18.34874196640879,
-        "longitude": -64.87153889318442
-      },
-      "reportedCustomersInitially": 16,
-      "reportedCustomersOut": 16,
-      "reportedCustomersRestored": 0,
-      "sourceStatus": "Verified",
-      "startedAt": "2026-11-12T23:30:46Z",
-      "verified": true,
-      "workStatus": null
-    },
-    {
-      "cause": null,
-      "crewAssigned": false,
-      "endedAt": null,
-      "estimatedRestoration": null,
       "id": "56dc1ccd9c687e1209593b892116a2d6b225d659b782a84b350bc192b6bf7ca9",
       "island": null,
       "locations": [
@@ -506,6 +471,7 @@
         "EST FRYDENDAHL 56-37",
         "EST FRYDENDAHL 56-51",
         "EST FRYDENDAHL 56-55 1",
+        "EST FRYDENDAHL 56-64 UP",
         "EST FRYDENDAHL 56-81 PUMP",
         "EST FRYDENDAHL 56-9 DWN",
         "EST FRYDENHAL 56-15 UP",
@@ -715,6 +681,11 @@
         "FRYDENDAHL 56-12",
         "FRYDENDAHL 56-13",
         "FRYDENDAHL 56-14 UP",
+        "FRYDENDAHL 56-16",
+        "FRYDENDAHL 56-16 MTR-D",
+        "FRYDENDAHL 56-17",
+        "FRYDENDAHL 56-18",
+        "FRYDENDAHL 56-21",
         "FRYDENDAHL 56-22",
         "FRYDENDAHL 56-25",
         "FRYDENDAHL 56-26",
@@ -752,9 +723,12 @@
         "FRYDENDAHL 56-60 UP",
         "FRYDENDAHL 56-62",
         "FRYDENDAHL 56-63",
+        "FRYDENDAHL 56-64 DOWN",
+        "FRYDENDAHL 56-65",
         "FRYDENDAHL 56-66",
         "FRYDENDAHL 56-67",
         "FRYDENDAHL 56-69 UP",
+        "FRYDENDAHL 56-73",
         "FRYDENDAHL 56-74",
         "FRYDENDAHL 56-79 BOTTOM",
         "FRYDENDAHL 56-80",
@@ -1774,15 +1748,15 @@
         "WEST COND SAPP B-A",
         "WEST SAPPHIRE BAY CONDO"
       ],
-      "modifiedAt": "2026-11-13T01:08:16Z",
+      "modifiedAt": "2026-11-13T01:46:24Z",
       "name": "TSW-7C-7D-CASI-A",
       "neighborhoodIDs": [],
       "point": {
         "latitude": 18.33854504600047,
         "longitude": -64.86485504262069
       },
-      "reportedCustomersInitially": 2060,
-      "reportedCustomersOut": 2060,
+      "reportedCustomersInitially": 2076,
+      "reportedCustomersOut": 2076,
       "reportedCustomersRestored": 0,
       "sourceStatus": "Verified",
       "startedAt": "2026-11-13T01:07:24Z",
@@ -5249,7 +5223,7 @@
         "WINTBERG-TRAILER",
         "WINTHBERG 1-B4 APT 303"
       ],
-      "modifiedAt": "2026-11-13T01:41:50Z",
+      "modifiedAt": "2026-11-13T01:46:24Z",
       "name": "Feeder 07C",
       "neighborhoodIDs": [
         "stThomas-lovenlund"
@@ -5267,7 +5241,7 @@
       "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-13T01:45:41Z",
+  "generatedAt": "2026-11-13T01:50:43Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -5462,11 +5436,11 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "90fe47a85f30ad15daf9f9d21694bcbb95313ef25ba4f58db68270c6289fed26",
+  "snapshotID": "2a63940d653e9c6267aacf96f022024bb1b8e84e94747f46fead9788ca95108b",
   "source": {
-    "checkedAt": "2026-11-13T01:45:41Z",
+    "checkedAt": "2026-11-13T01:50:43Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-13T01:45:24Z",
+    "updatedAt": "2026-11-13T01:50:24Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
@@ -5664,11 +5638,11 @@
       },
       {
         "at": "2026-11-12T23:00:00Z",
-        "customersOut": 10090
+        "customersOut": 10074
       },
       {
         "at": "2026-11-13T00:00:00Z",
-        "customersOut": 5029
+        "customersOut": 5013
       },
       {
         "at": "2026-11-13T01:00:00Z",
@@ -10567,8 +10541,8 @@
       "WINTBERG-TRAILER",
       "WINTHBERG 1-B4 APT 303"
     ],
-    "totalOutages": 15
+    "totalOutages": 14
   },
   "staleAfterSeconds": 900,
-  "unassignedEventCount": 12
+  "unassignedEventCount": 11
 }
