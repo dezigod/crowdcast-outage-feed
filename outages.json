@@ -31,6 +31,39 @@
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
+      "id": "18220bb89449ba241c547f8a7c1184821e3543a6f45c88b0c4e149a55f09c1e5",
+      "island": null,
+      "locations": [
+        "ZOOTENAL #-1",
+        "ZOOTENVAAL 1",
+        "ZOOTENVAAL 3B-2",
+        "ZOOTENVAAL 3C",
+        "ZOOTENVAAL 3-C (WEST)",
+        "ZOOTENVAAL 3D",
+        "ZOOTENVAAL 3E-2",
+        "ZOOTENVAAL 3L",
+        "ZOOTENVAAL 3N*"
+      ],
+      "modifiedAt": "2026-11-13T21:46:00Z",
+      "name": "T-J-00292",
+      "neighborhoodIDs": [],
+      "point": {
+        "latitude": 18.348878074696984,
+        "longitude": -64.70679908793792
+      },
+      "reportedCustomersInitially": 9,
+      "reportedCustomersOut": 9,
+      "reportedCustomersRestored": 0,
+      "sourceStatus": "Predicted",
+      "startedAt": "2026-11-13T21:45:46Z",
+      "verified": false,
+      "workStatus": null
+    },
+    {
+      "cause": null,
+      "crewAssigned": false,
+      "endedAt": null,
+      "estimatedRestoration": null,
       "id": "1dd2f2d0970acbf65639b4b95e266188bebd0bd5e85846e68ee5d49fe98a7eda",
       "island": null,
       "locations": [
@@ -3343,7 +3376,7 @@
       "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-13T21:45:44Z",
+  "generatedAt": "2026-11-13T21:50:46Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -3663,21 +3696,21 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "02810aa676c06a7f50cb0d085e12e1f7fd1ab3d16e6fca8a287d7e279690e425",
+  "snapshotID": "0baf140685a231199fc307bfc3f69e2d169363195ab6c49db3defe0d9816a53b",
   "source": {
-    "checkedAt": "2026-11-13T21:45:44Z",
+    "checkedAt": "2026-11-13T21:50:46Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-13T21:45:27Z",
+    "updatedAt": "2026-11-13T21:50:27Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "sourceSummary": {
     "customerCountDifference": 2,
-    "customersAffected": 3936,
-    "customersOut": 3936,
+    "customersAffected": 3945,
+    "customersOut": 3945,
     "customersRestored": 0,
     "customersServed": 54726,
-    "eventCustomersOut": 3934,
+    "eventCustomersOut": 3943,
     "hourlyCustomersOut": [
       {
         "at": "2026-11-11T21:00:00Z",
@@ -6795,11 +6828,20 @@
       "WIMMELSKAFTS GADE 6A SHOP",
       "WIMMELSKAFTS GADE 6A(RES)",
       "WINDWARD PASSAGE/TRAFFIC",
+      "ZOOTENAL #-1",
+      "ZOOTENVAAL 1",
+      "ZOOTENVAAL 3B-2",
+      "ZOOTENVAAL 3C",
+      "ZOOTENVAAL 3-C (WEST)",
+      "ZOOTENVAAL 3D",
+      "ZOOTENVAAL 3E-2",
+      "ZOOTENVAAL 3L",
+      "ZOOTENVAAL 3N*",
       "ZUERIENDENHEIT",
       "ZUFRIDENHEIT 1"
     ],
-    "totalOutages": 17
+    "totalOutages": 18
   },
   "staleAfterSeconds": 900,
-  "unassignedEventCount": 14
+  "unassignedEventCount": 15
 }
