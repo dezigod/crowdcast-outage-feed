@@ -4193,32 +4193,9 @@
       "startedAt": "2026-10-14T15:23:16Z",
       "verified": true,
       "workStatus": null
-    },
-    {
-      "cause": null,
-      "crewAssigned": false,
-      "endedAt": null,
-      "estimatedRestoration": null,
-      "id": "fd23b7667df8d9a44df34729cf55a12990232aa00f8b98aaca1d2375ac5fbacd",
-      "island": null,
-      "locations": [],
-      "modifiedAt": "2026-11-13T01:05:38Z",
-      "name": "9D IN WAY 2",
-      "neighborhoodIDs": [],
-      "point": {
-        "latitude": 18.323446356357422,
-        "longitude": -64.85484191740062
-      },
-      "reportedCustomersInitially": 1624,
-      "reportedCustomersOut": 1624,
-      "reportedCustomersRestored": 0,
-      "sourceStatus": "Verified",
-      "startedAt": "2026-11-12T22:56:00Z",
-      "verified": true,
-      "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-13T01:16:30Z",
+  "generatedAt": "2026-11-13T01:25:30Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -4362,21 +4339,21 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "7b58c4fef326959febe543b345e5817ef56e34df1186b4de328c6622e79bb3dd",
+  "snapshotID": "2c21f849fc2d36a1bc475517e02bd7ce9ea600c042136ef6cea310f0f78cbd14",
   "source": {
-    "checkedAt": "2026-11-13T01:16:30Z",
+    "checkedAt": "2026-11-13T01:25:30Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-13T01:15:24Z",
+    "updatedAt": "2026-11-13T01:25:23Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "sourceSummary": {
-    "customerCountDifference": -1622,
+    "customerCountDifference": 2,
     "customersAffected": 5467,
     "customersOut": 5467,
     "customersRestored": 0,
     "customersServed": 54725,
-    "eventCustomersOut": 7089,
+    "eventCustomersOut": 5465,
     "hourlyCustomersOut": [
       {
         "at": "2026-11-11T01:00:00Z",
@@ -8397,8 +8374,8 @@
       "WIMMELSKAFTS GADE 6A(RES)",
       "WINDWARD PASSAGE/TRAFFIC"
     ],
-    "totalOutages": 16
+    "totalOutages": 15
   },
   "staleAfterSeconds": 900,
-  "unassignedEventCount": 13
+  "unassignedEventCount": 12
 }
