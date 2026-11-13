@@ -56,6 +56,55 @@
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
+      "id": "20bd6b8ed7bf9b78101cafcbf589dc67ca1865538e2f7d1b6e9161702a9dda90",
+      "island": null,
+      "locations": [
+        "ALTONA",
+        "ALTONA & WELGUNST 104 A-1",
+        "ALTONA & WELGUNST 104 A-2",
+        "ALTONA & WELGUNST 104 A-3",
+        "ALTONA & WELGUNST 104 A-4",
+        "ALTONA & WELGUNST 104 A-5",
+        "ALTONA & WELGUNST 104 STT",
+        "ALTONA & WELGUNST 35",
+        "ALTONA & WELGUNST 36",
+        "ALTONA & WELGUNST 43",
+        "ALTONA & WELGUNST 85 DOWN",
+        "ALTONA & WELGUNST 85 UP",
+        "ALTONA 102",
+        "ALTONA 102 3FL",
+        "ALTONA 102 MIDDLE",
+        "ALTONA 103 APT-1",
+        "ALTONA 103 APT-2",
+        "ALTONA 103 APT-3",
+        "ALTONA 103 APT-4",
+        "ALTONA 103 APT-5",
+        "ALTONA 103A",
+        "ALTONA 38",
+        "ALTONA 45",
+        "ALTONA 45 APT-5",
+        "ALTONA 45 APT-6"
+      ],
+      "modifiedAt": "2026-11-13T01:59:13Z",
+      "name": "T-T-00748",
+      "neighborhoodIDs": [],
+      "point": {
+        "latitude": 18.338366906094063,
+        "longitude": -64.94381684173308
+      },
+      "reportedCustomersInitially": 30,
+      "reportedCustomersOut": 30,
+      "reportedCustomersRestored": 0,
+      "sourceStatus": "Predicted",
+      "startedAt": "2026-11-13T01:59:01Z",
+      "verified": false,
+      "workStatus": null
+    },
+    {
+      "cause": null,
+      "crewAssigned": false,
+      "endedAt": null,
+      "estimatedRestoration": null,
       "id": "2488f75f98539d93e6cc64f74531c322a0ab59b459e8794e1d08aad8f5693740",
       "island": null,
       "locations": [
@@ -5241,7 +5290,7 @@
       "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-13T01:55:45Z",
+  "generatedAt": "2026-11-13T02:00:47Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -5436,26 +5485,22 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "1b2fa30f73fcc0072450f4abf103c6c82c338cc6f8f4fd987f2db8bd9a60f9ee",
+  "snapshotID": "38e7346a026ae337f367c88dc33fdedaf20810d5c9a3cbf9d3df75e1bb9f6b96",
   "source": {
-    "checkedAt": "2026-11-13T01:55:45Z",
+    "checkedAt": "2026-11-13T02:00:47Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-13T01:55:24Z",
+    "updatedAt": "2026-11-13T02:00:24Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "sourceSummary": {
     "customerCountDifference": 2,
-    "customersAffected": 6250,
-    "customersOut": 6250,
+    "customersAffected": 6280,
+    "customersOut": 6280,
     "customersRestored": 0,
     "customersServed": 54725,
-    "eventCustomersOut": 6248,
+    "eventCustomersOut": 6278,
     "hourlyCustomersOut": [
-      {
-        "at": "2026-11-11T01:00:00Z",
-        "customersOut": 238
-      },
       {
         "at": "2026-11-11T02:00:00Z",
         "customersOut": 238
@@ -5647,6 +5692,10 @@
       {
         "at": "2026-11-13T01:00:00Z",
         "customersOut": 11213
+      },
+      {
+        "at": "2026-11-13T02:00:00Z",
+        "customersOut": 6278
       }
     ],
     "locations": [
@@ -5707,6 +5756,31 @@
       "AGNES FANCY 5B",
       "AGNES FANCY 5F",
       "AKA 224 BARBADOS",
+      "ALTONA",
+      "ALTONA & WELGUNST 104 A-1",
+      "ALTONA & WELGUNST 104 A-2",
+      "ALTONA & WELGUNST 104 A-3",
+      "ALTONA & WELGUNST 104 A-4",
+      "ALTONA & WELGUNST 104 A-5",
+      "ALTONA & WELGUNST 104 STT",
+      "ALTONA & WELGUNST 35",
+      "ALTONA & WELGUNST 36",
+      "ALTONA & WELGUNST 43",
+      "ALTONA & WELGUNST 85 DOWN",
+      "ALTONA & WELGUNST 85 UP",
+      "ALTONA 102",
+      "ALTONA 102 3FL",
+      "ALTONA 102 MIDDLE",
+      "ALTONA 103 APT-1",
+      "ALTONA 103 APT-2",
+      "ALTONA 103 APT-3",
+      "ALTONA 103 APT-4",
+      "ALTONA 103 APT-5",
+      "ALTONA 103A",
+      "ALTONA 38",
+      "ALTONA 45",
+      "ALTONA 45 APT-5",
+      "ALTONA 45 APT-6",
       "ANNAS RET 215-54",
       "ANNAS RET 394-155B",
       "ANNAS RET 394-418",
@@ -10541,8 +10615,8 @@
       "WINTBERG-TRAILER",
       "WINTHBERG 1-B4 APT 303"
     ],
-    "totalOutages": 14
+    "totalOutages": 15
   },
   "staleAfterSeconds": 900,
-  "unassignedEventCount": 11
+  "unassignedEventCount": 12
 }
