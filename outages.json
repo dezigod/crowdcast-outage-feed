@@ -264,6 +264,55 @@
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
+      "id": "867f14d8d0d9dfebc482fe06e82afa25f5029c522f92a161ae371f373b9ffa1b",
+      "island": null,
+      "locations": [
+        "ALTONA",
+        "ALTONA & WELGUNST 104 A-1",
+        "ALTONA & WELGUNST 104 A-2",
+        "ALTONA & WELGUNST 104 A-3",
+        "ALTONA & WELGUNST 104 A-4",
+        "ALTONA & WELGUNST 104 A-5",
+        "ALTONA & WELGUNST 104 STT",
+        "ALTONA & WELGUNST 35",
+        "ALTONA & WELGUNST 36",
+        "ALTONA & WELGUNST 43",
+        "ALTONA & WELGUNST 85 DOWN",
+        "ALTONA & WELGUNST 85 UP",
+        "ALTONA 102",
+        "ALTONA 102 3FL",
+        "ALTONA 102 MIDDLE",
+        "ALTONA 103 APT-1",
+        "ALTONA 103 APT-2",
+        "ALTONA 103 APT-3",
+        "ALTONA 103 APT-4",
+        "ALTONA 103 APT-5",
+        "ALTONA 103A",
+        "ALTONA 38",
+        "ALTONA 45",
+        "ALTONA 45 APT-5",
+        "ALTONA 45 APT-6"
+      ],
+      "modifiedAt": "2026-11-13T01:32:16Z",
+      "name": "T-T-00748",
+      "neighborhoodIDs": [],
+      "point": {
+        "latitude": 18.338366906094063,
+        "longitude": -64.94381684173308
+      },
+      "reportedCustomersInitially": 30,
+      "reportedCustomersOut": 30,
+      "reportedCustomersRestored": 0,
+      "sourceStatus": "Predicted",
+      "startedAt": "2026-11-13T01:32:12Z",
+      "verified": false,
+      "workStatus": null
+    },
+    {
+      "cause": null,
+      "crewAssigned": false,
+      "endedAt": null,
+      "estimatedRestoration": null,
       "id": "a05cc55eabf56dc80a51838220c7b0fc021f513b5e7d29b6a338b0e022e8175c",
       "island": null,
       "locations": [
@@ -1896,7 +1945,7 @@
       "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-13T01:30:35Z",
+  "generatedAt": "2026-11-13T01:35:37Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -1981,21 +2030,21 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "ea2c95f980fe28b10f61e4c0fa5386a73f10a836670863ed0e6b38dd83964981",
+  "snapshotID": "01a70361c756233555f73637a6b10cbefa8c83c0735b78c886453f262fc27178",
   "source": {
-    "checkedAt": "2026-11-13T01:30:35Z",
+    "checkedAt": "2026-11-13T01:35:37Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-13T01:30:22Z",
+    "updatedAt": "2026-11-13T01:35:24Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "sourceSummary": {
     "customerCountDifference": 2,
-    "customersAffected": 2126,
-    "customersOut": 2126,
+    "customersAffected": 2156,
+    "customersOut": 2156,
     "customersRestored": 0,
     "customersServed": 54725,
-    "eventCustomersOut": 2124,
+    "eventCustomersOut": 2154,
     "hourlyCustomersOut": [
       {
         "at": "2026-11-11T01:00:00Z",
@@ -2228,6 +2277,31 @@
       "AGNES FANCY 5B",
       "AGNES FANCY 5F",
       "AKA 224 BARBADOS",
+      "ALTONA",
+      "ALTONA & WELGUNST 104 A-1",
+      "ALTONA & WELGUNST 104 A-2",
+      "ALTONA & WELGUNST 104 A-3",
+      "ALTONA & WELGUNST 104 A-4",
+      "ALTONA & WELGUNST 104 A-5",
+      "ALTONA & WELGUNST 104 STT",
+      "ALTONA & WELGUNST 35",
+      "ALTONA & WELGUNST 36",
+      "ALTONA & WELGUNST 43",
+      "ALTONA & WELGUNST 85 DOWN",
+      "ALTONA & WELGUNST 85 UP",
+      "ALTONA 102",
+      "ALTONA 102 3FL",
+      "ALTONA 102 MIDDLE",
+      "ALTONA 103 APT-1",
+      "ALTONA 103 APT-2",
+      "ALTONA 103 APT-3",
+      "ALTONA 103 APT-4",
+      "ALTONA 103 APT-5",
+      "ALTONA 103A",
+      "ALTONA 38",
+      "ALTONA 45",
+      "ALTONA 45 APT-5",
+      "ALTONA 45 APT-6",
       "ANNAS RETERAT 173- D3",
       "ANNAS RETREAT",
       "ANNAS RETREAT #1 NW QTR.",
@@ -3746,8 +3820,8 @@
       "WEST COND SAPP B-A",
       "WEST SAPPHIRE BAY CONDO"
     ],
-    "totalOutages": 14
+    "totalOutages": 15
   },
   "staleAfterSeconds": 900,
-  "unassignedEventCount": 11
+  "unassignedEventCount": 12
 }
