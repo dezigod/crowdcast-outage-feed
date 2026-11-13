@@ -1845,6 +1845,51 @@
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
+      "id": "bfe82e68abe05aa126fdd2a3e2fb8cbde5c9d1136d5396a34c61fe3539f37d47",
+      "island": null,
+      "locations": [
+        "CONTANT & ENIGHED 199",
+        "CONTANT 197 MTR 1",
+        "CONTANT 197 MTR 2",
+        "CONTANT 197 MTR 3",
+        "CONTANT 197 MTR 4",
+        "CONTANT 197 MTR 5",
+        "CONTANT 197 MTR 6",
+        "CONTANT 197 MTR 7",
+        "ENIGHED #196 & 198 MTR 4",
+        "ENIGHED 196",
+        "ENIGHED 196 (2)",
+        "ENIGHED 196 (APT 4)",
+        "ENIGHED 196 MTR 1",
+        "ENIGHED 198 (1)",
+        "ENIGHED 198 (3)",
+        "ENIGHED 198 MTR 2",
+        "ENIGHED 199",
+        "ENIGHED 202",
+        "ENIGHED/CONTANT # 193",
+        "ENIGHED-CONTANT 193",
+        "ENIGHED-CONTANT 193 1ST"
+      ],
+      "modifiedAt": "2026-11-13T04:00:08Z",
+      "name": "T-J-02710",
+      "neighborhoodIDs": [],
+      "point": {
+        "latitude": 18.328379372866763,
+        "longitude": -64.79646849238996
+      },
+      "reportedCustomersInitially": 28,
+      "reportedCustomersOut": 28,
+      "reportedCustomersRestored": 0,
+      "sourceStatus": "Predicted",
+      "startedAt": "2026-11-13T03:59:56Z",
+      "verified": false,
+      "workStatus": null
+    },
+    {
+      "cause": null,
+      "crewAssigned": false,
+      "endedAt": null,
+      "estimatedRestoration": null,
       "id": "cbbd2ef62dee6d0405b3a5d5c18b1c3c5a5b4dbca8f2f81c8fc8d71e6fec7176",
       "island": "stThomas",
       "locations": [
@@ -1867,6 +1912,32 @@
       "sourceStatus": "Verified",
       "startedAt": "2026-10-14T15:23:16Z",
       "verified": true,
+      "workStatus": null
+    },
+    {
+      "cause": null,
+      "crewAssigned": false,
+      "endedAt": null,
+      "estimatedRestoration": null,
+      "id": "cc45136272e5f14c34f900872b79c12b9fce0b9b49b28daf751b0c6239ef009c",
+      "island": null,
+      "locations": [
+        "PETER'S BAY #2B",
+        "PETERS BAY 2A"
+      ],
+      "modifiedAt": "2026-11-13T03:55:34Z",
+      "name": "T-J-01861",
+      "neighborhoodIDs": [],
+      "point": {
+        "latitude": 18.354142821809887,
+        "longitude": -64.76383898143101
+      },
+      "reportedCustomersInitially": 2,
+      "reportedCustomersOut": 2,
+      "reportedCustomersRestored": 0,
+      "sourceStatus": "Predicted",
+      "startedAt": "2026-11-13T03:55:05Z",
+      "verified": false,
       "workStatus": null
     },
     {
@@ -5241,7 +5312,7 @@
       "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-13T03:56:28Z",
+  "generatedAt": "2026-11-13T04:01:30Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -5436,26 +5507,22 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "99a7b63088ef33010d2a9fa95758261f069f8ce1b6b5f07e7173278512750c0a",
+  "snapshotID": "b730b14671550f4a46cb37450319e85860a3541521b7bf5191d0586d71186914",
   "source": {
-    "checkedAt": "2026-11-13T03:56:28Z",
+    "checkedAt": "2026-11-13T04:01:30Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-13T03:55:25Z",
+    "updatedAt": "2026-11-13T04:00:25Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "sourceSummary": {
     "customerCountDifference": 2,
-    "customersAffected": 6250,
-    "customersOut": 6250,
+    "customersAffected": 6280,
+    "customersOut": 6280,
     "customersRestored": 0,
     "customersServed": 54725,
-    "eventCustomersOut": 6248,
+    "eventCustomersOut": 6278,
     "hourlyCustomersOut": [
-      {
-        "at": "2026-11-11T03:00:00Z",
-        "customersOut": 238
-      },
       {
         "at": "2026-11-11T04:00:00Z",
         "customersOut": 238
@@ -5646,7 +5713,11 @@
       },
       {
         "at": "2026-11-13T03:00:00Z",
-        "customersOut": 6248
+        "customersOut": 6278
+      },
+      {
+        "at": "2026-11-13T04:00:00Z",
+        "customersOut": 6278
       }
     ],
     "locations": [
@@ -7444,6 +7515,14 @@
       "COKI POINT C1-C",
       "COKI POINT C-1F DOWN",
       "COKI POINT NO. 7",
+      "CONTANT & ENIGHED 199",
+      "CONTANT 197 MTR 1",
+      "CONTANT 197 MTR 2",
+      "CONTANT 197 MTR 3",
+      "CONTANT 197 MTR 4",
+      "CONTANT 197 MTR 5",
+      "CONTANT 197 MTR 6",
+      "CONTANT 197 MTR 7",
       "COTTON VALLEY",
       "COTTON VALLEY 247",
       "COTTON VALLEY 251",
@@ -7547,6 +7626,19 @@
       "E ESTATE MANDAHL",
       "EMERALD HILL 57B-2 APT-2",
       "EMERALD HILLS 57B-2",
+      "ENIGHED #196 & 198 MTR 4",
+      "ENIGHED 196",
+      "ENIGHED 196 (2)",
+      "ENIGHED 196 (APT 4)",
+      "ENIGHED 196 MTR 1",
+      "ENIGHED 198 (1)",
+      "ENIGHED 198 (3)",
+      "ENIGHED 198 MTR 2",
+      "ENIGHED 199",
+      "ENIGHED 202",
+      "ENIGHED/CONTANT # 193",
+      "ENIGHED-CONTANT 193",
+      "ENIGHED-CONTANT 193 1ST",
       "EST ANNAS RET 260-8",
       "EST ANNAS RET 394-327",
       "EST ANNAS RETREAT",
@@ -9067,6 +9159,8 @@
       "PARCEL 56-7 FRYDENDAHL",
       "PCL 148-227 ANNAS RET",
       "PCL SMITH BAY 20-11 UP",
+      "PETER'S BAY #2B",
+      "PETERS BAY 2A",
       "PINEAPPLE 152-155 B-D",
       "PINEAPPLE BEACH E-1 B-E",
       "PINEAPPLE BEACH UNIT 3603",
@@ -10541,8 +10635,8 @@
       "WINTBERG-TRAILER",
       "WINTHBERG 1-B4 APT 303"
     ],
-    "totalOutages": 14
+    "totalOutages": 16
   },
   "staleAfterSeconds": 900,
-  "unassignedEventCount": 11
+  "unassignedEventCount": 13
 }
