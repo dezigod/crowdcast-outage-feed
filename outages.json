@@ -81,43 +81,6 @@
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
-      "id": "17f2c7ef94c374aed347e4a8004e7a24b71d0161a779ccc2127059f8d342233d",
-      "island": null,
-      "locations": [
-        "CONTANT",
-        "CONTANT 11-9 & 11-10 BA",
-        "CONTANT 11-9 & 11-10 B-A",
-        "CONTANT 11-9 & 11-10 B-B",
-        "CONTANT 11-9 &11-10",
-        "CONTANT 11-9 &11-10 B B",
-        "CONTANT 11-9&11-10 BLDG A",
-        "CONTANT 11-9-11-10",
-        "CONTANT BLDG A 11-9&11-10",
-        "EST CONTANT",
-        "EST CONTANT 11-9 & 11-10",
-        "EST CONTANT BLDG A",
-        "EST CONTANT BLDG B"
-      ],
-      "modifiedAt": "2026-11-13T11:27:06Z",
-      "name": "T-T-16861",
-      "neighborhoodIDs": [],
-      "point": {
-        "latitude": 18.344965597713728,
-        "longitude": -64.9528101450382
-      },
-      "reportedCustomersInitially": 22,
-      "reportedCustomersOut": 22,
-      "reportedCustomersRestored": 0,
-      "sourceStatus": "Predicted",
-      "startedAt": "2026-11-13T11:26:56Z",
-      "verified": false,
-      "workStatus": null
-    },
-    {
-      "cause": null,
-      "crewAssigned": false,
-      "endedAt": null,
-      "estimatedRestoration": null,
       "id": "2488f75f98539d93e6cc64f74531c322a0ab59b459e8794e1d08aad8f5693740",
       "island": null,
       "locations": [
@@ -196,7 +159,7 @@
         "COTTON VALLEY 247",
         "COTTON VALLEY 251"
       ],
-      "modifiedAt": "2026-11-11T21:36:06Z",
+      "modifiedAt": "2026-11-13T12:32:59Z",
       "name": "T-C-10712",
       "neighborhoodIDs": [],
       "point": {
@@ -303,43 +266,6 @@
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
-      "id": "56dc1ccd9c687e1209593b892116a2d6b225d659b782a84b350bc192b6bf7ca9",
-      "island": null,
-      "locations": [
-        "CARET",
-        "CARET BAY 2E-51-14W",
-        "CARET BAY 2E-51-16",
-        "CARET BAY 2E-51-17",
-        "CARET BAY 2E-51-17 UP",
-        "CARET BAY 2E-51-19",
-        "CARET BAY 2E-51-19 &2E-53",
-        "CARET BAY 2E-51-19 B-1",
-        "CARET BAY 2E-51-19 B-5",
-        "CARET BAY 2E-51-19 B-6",
-        "CARET BAY 2E-51-19 B-7",
-        "CARET BAY 2E-51-19 B-8",
-        "ESTATE CARET BAY 2E-51-5"
-      ],
-      "modifiedAt": "2026-11-12T16:06:50Z",
-      "name": "FUST-02028",
-      "neighborhoodIDs": [],
-      "point": {
-        "latitude": 18.371106482037177,
-        "longitude": -64.98029566368868
-      },
-      "reportedCustomersInitially": 25,
-      "reportedCustomersOut": 25,
-      "reportedCustomersRestored": 0,
-      "sourceStatus": "Predicted",
-      "startedAt": "2026-11-12T13:23:57Z",
-      "verified": false,
-      "workStatus": null
-    },
-    {
-      "cause": null,
-      "crewAssigned": false,
-      "endedAt": null,
-      "estimatedRestoration": null,
       "id": "5be39dfe1c9db5e1338432f62faf3ac71814715ce7a7882bf7d0331254cdb526",
       "island": null,
       "locations": [
@@ -362,6 +288,33 @@
       "sourceStatus": "Verified",
       "startedAt": "2026-11-13T11:11:37Z",
       "verified": true,
+      "workStatus": null
+    },
+    {
+      "cause": null,
+      "crewAssigned": false,
+      "endedAt": null,
+      "estimatedRestoration": null,
+      "id": "6117cc18c69ff5bc4b19988124d4a4f89d67f1575f9ec1210760b9c6313d436e",
+      "island": null,
+      "locations": [
+        "CARET",
+        "CARET BAY 2E-51-19",
+        "CARET BAY 2E-51-19 &2E-53"
+      ],
+      "modifiedAt": "2026-11-13T12:33:57Z",
+      "name": "T-T-11711",
+      "neighborhoodIDs": [],
+      "point": {
+        "latitude": 18.371982079629248,
+        "longitude": -64.98034203043846
+      },
+      "reportedCustomersInitially": 5,
+      "reportedCustomersOut": 5,
+      "reportedCustomersRestored": 0,
+      "sourceStatus": "Predicted",
+      "startedAt": "2026-11-13T12:33:55Z",
+      "verified": false,
       "workStatus": null
     },
     {
@@ -449,31 +402,6 @@
       "reportedCustomersRestored": 0,
       "sourceStatus": "Verified",
       "startedAt": "2026-11-13T11:03:48Z",
-      "verified": true,
-      "workStatus": null
-    },
-    {
-      "cause": null,
-      "crewAssigned": false,
-      "endedAt": null,
-      "estimatedRestoration": null,
-      "id": "a41e6de618df193361725496b2995215305f55c77bada07e6690d731643f655c",
-      "island": null,
-      "locations": [
-        "EST THOMAS WEST 4D-4E"
-      ],
-      "modifiedAt": "2026-11-11T20:13:16Z",
-      "name": "Feeder YH2",
-      "neighborhoodIDs": [],
-      "point": {
-        "latitude": 18.33758189193682,
-        "longitude": -64.92167294812789
-      },
-      "reportedCustomersInitially": 1,
-      "reportedCustomersOut": 1,
-      "reportedCustomersRestored": 0,
-      "sourceStatus": "Verified",
-      "startedAt": "2026-11-11T13:22:20Z",
       "verified": true,
       "workStatus": null
     },
@@ -2447,7 +2375,7 @@
       "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-13T12:31:15Z",
+  "generatedAt": "2026-11-13T12:36:17Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -2642,21 +2570,21 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "fbdfb060eeb9b5796f245f46ec315113f0a5605377552f02150c80f213a6abbb",
+  "snapshotID": "b7acfc637d798f297f9f4c5eefe7a1476b5f86fba0796d25a8b5d5aa92a12a29",
   "source": {
-    "checkedAt": "2026-11-13T12:31:15Z",
+    "checkedAt": "2026-11-13T12:36:17Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-13T12:30:24Z",
+    "updatedAt": "2026-11-13T12:35:25Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "sourceSummary": {
     "customerCountDifference": 2,
-    "customersAffected": 2369,
-    "customersOut": 2369,
+    "customersAffected": 2326,
+    "customersOut": 2326,
     "customersRestored": 0,
     "customersServed": 54725,
-    "eventCustomersOut": 2367,
+    "eventCustomersOut": 2324,
     "hourlyCustomersOut": [
       {
         "at": "2026-11-11T12:00:00Z",
@@ -2768,91 +2696,91 @@
       },
       {
         "at": "2026-11-12T15:00:00Z",
-        "customersOut": 3536
+        "customersOut": 3511
       },
       {
         "at": "2026-11-12T16:00:00Z",
-        "customersOut": 6895
+        "customersOut": 6870
       },
       {
         "at": "2026-11-12T17:00:00Z",
-        "customersOut": 3407
+        "customersOut": 3382
       },
       {
         "at": "2026-11-12T18:00:00Z",
-        "customersOut": 6896
+        "customersOut": 6871
       },
       {
         "at": "2026-11-12T19:00:00Z",
-        "customersOut": 3537
+        "customersOut": 3512
       },
       {
         "at": "2026-11-12T20:00:00Z",
-        "customersOut": 8598
+        "customersOut": 8573
       },
       {
         "at": "2026-11-12T21:00:00Z",
-        "customersOut": 5109
+        "customersOut": 5083
       },
       {
         "at": "2026-11-12T22:00:00Z",
-        "customersOut": 6733
+        "customersOut": 6707
       },
       {
         "at": "2026-11-12T23:00:00Z",
-        "customersOut": 10074
+        "customersOut": 10048
       },
       {
         "at": "2026-11-13T00:00:00Z",
-        "customersOut": 5013
+        "customersOut": 4987
       },
       {
         "at": "2026-11-13T01:00:00Z",
-        "customersOut": 7089
+        "customersOut": 7063
       },
       {
         "at": "2026-11-13T02:00:00Z",
-        "customersOut": 2124
+        "customersOut": 2098
       },
       {
         "at": "2026-11-13T03:00:00Z",
-        "customersOut": 2124
+        "customersOut": 2098
       },
       {
         "at": "2026-11-13T04:00:00Z",
-        "customersOut": 48
+        "customersOut": 22
       },
       {
         "at": "2026-11-13T05:00:00Z",
-        "customersOut": 48
+        "customersOut": 22
       },
       {
         "at": "2026-11-13T06:00:00Z",
-        "customersOut": 48
+        "customersOut": 22
       },
       {
         "at": "2026-11-13T07:00:00Z",
-        "customersOut": 48
+        "customersOut": 22
       },
       {
         "at": "2026-11-13T08:00:00Z",
-        "customersOut": 48
+        "customersOut": 22
       },
       {
         "at": "2026-11-13T09:00:00Z",
-        "customersOut": 48
+        "customersOut": 22
       },
       {
         "at": "2026-11-13T10:00:00Z",
-        "customersOut": 48
+        "customersOut": 22
       },
       {
         "at": "2026-11-13T11:00:00Z",
-        "customersOut": 125
+        "customersOut": 77
       },
       {
         "at": "2026-11-13T12:00:00Z",
-        "customersOut": 2367
+        "customersOut": 2324
       }
     ],
     "locations": [
@@ -3402,17 +3330,8 @@
       "BOVONI 1-2",
       "C-5-B-24,LOVENLUND",
       "CARET",
-      "CARET BAY 2E-51-14W",
-      "CARET BAY 2E-51-16",
-      "CARET BAY 2E-51-17",
-      "CARET BAY 2E-51-17 UP",
       "CARET BAY 2E-51-19",
       "CARET BAY 2E-51-19 &2E-53",
-      "CARET BAY 2E-51-19 B-1",
-      "CARET BAY 2E-51-19 B-5",
-      "CARET BAY 2E-51-19 B-6",
-      "CARET BAY 2E-51-19 B-7",
-      "CARET BAY 2E-51-19 B-8",
       "CHARLOTTE AMALIE",
       "CHARLOTTE AMALIE 13",
       "CHARLOTTE AMALIE 2-1B & C",
@@ -3427,15 +3346,6 @@
       "CHARLOTTE AMALIE 5A",
       "CHARLOTTE AMALIE 5C",
       "CHARLOTTE AMALIE PCL 5B",
-      "CONTANT",
-      "CONTANT 11-9 & 11-10 BA",
-      "CONTANT 11-9 & 11-10 B-A",
-      "CONTANT 11-9 & 11-10 B-B",
-      "CONTANT 11-9 &11-10",
-      "CONTANT 11-9 &11-10 B B",
-      "CONTANT 11-9&11-10 BLDG A",
-      "CONTANT 11-9-11-10",
-      "CONTANT BLDG A 11-9&11-10",
       "COTTON VALLEY",
       "COTTON VALLEY 247",
       "COTTON VALLEY 251",
@@ -3526,10 +3436,6 @@
       "EST ANNAS RETREAT 290",
       "EST ANNAS RETREAT 404-79",
       "EST CHARLOTTE AMALIE",
-      "EST CONTANT",
-      "EST CONTANT 11-9 & 11-10",
-      "EST CONTANT BLDG A",
-      "EST CONTANT BLDG B",
       "EST DONOE",
       "EST DONOE 1-13-1",
       "EST DONOE 1-13-49 HSE 76",
@@ -3611,7 +3517,6 @@
       "EST THOMAS 6A 10TH ST BAS",
       "EST THOMAS 6A-10TH",
       "EST THOMAS 6A-10TH STREET",
-      "EST THOMAS WEST 4D-4E",
       "EST TUTU 129A-6",
       "EST TUTU 129A-7",
       "EST TUTU 129A-8",
@@ -3704,7 +3609,6 @@
       "EST. WINTBERG 1X-1G",
       "EST. WINTBERG 202",
       "EST.LOVENLUND STUDIO 1320",
-      "ESTATE CARET BAY 2E-51-5",
       "ESTATE DONOE",
       "ESTATE DONOE #3 BLDG 5",
       "ESTATE DONOE 1-13-34 NQ",
@@ -4764,8 +4668,8 @@
       "WINTBERG-TRAILER",
       "WINTHBERG 1-B4 APT 303"
     ],
-    "totalOutages": 22
+    "totalOutages": 20
   },
   "staleAfterSeconds": 900,
-  "unassignedEventCount": 19
+  "unassignedEventCount": 17
 }
