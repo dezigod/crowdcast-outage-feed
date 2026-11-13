@@ -2158,6 +2158,31 @@
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
+      "id": "c4c73ffdf44281e436a8c51ebf05ba06db2408f5c0e277011108fd04f278cc5e",
+      "island": null,
+      "locations": [
+        "GOLDEN ROCK SHOPPING CTR"
+      ],
+      "modifiedAt": "2026-11-13T14:39:03Z",
+      "name": "T-C-18156",
+      "neighborhoodIDs": [],
+      "point": {
+        "latitude": 17.744585229490472,
+        "longitude": -64.72041457880967
+      },
+      "reportedCustomersInitially": 4,
+      "reportedCustomersOut": 4,
+      "reportedCustomersRestored": 0,
+      "sourceStatus": "Predicted",
+      "startedAt": "2026-11-13T13:35:13Z",
+      "verified": false,
+      "workStatus": null
+    },
+    {
+      "cause": null,
+      "crewAssigned": false,
+      "endedAt": null,
+      "estimatedRestoration": null,
       "id": "cbbd2ef62dee6d0405b3a5d5c18b1c3c5a5b4dbca8f2f81c8fc8d71e6fec7176",
       "island": "stThomas",
       "locations": [
@@ -3432,7 +3457,7 @@
       "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-13T14:36:05Z",
+  "generatedAt": "2026-11-13T14:41:07Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -3752,21 +3777,21 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "523c2414c38e2f53f8704188762c0bc97fdc7e6ba1a676b600527dabe9d7ab54",
+  "snapshotID": "008ed2b6680727cf514faa9fd3d1b085588ac3879e60b3303b33a32c6cfe406d",
   "source": {
-    "checkedAt": "2026-11-13T14:36:05Z",
+    "checkedAt": "2026-11-13T14:41:07Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-13T14:35:25Z",
+    "updatedAt": "2026-11-13T14:40:25Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "sourceSummary": {
     "customerCountDifference": 2,
-    "customersAffected": 3800,
-    "customersOut": 3800,
+    "customersAffected": 3804,
+    "customersOut": 3804,
     "customersRestored": 0,
     "customersServed": 54726,
-    "eventCustomersOut": 3798,
+    "eventCustomersOut": 3802,
     "hourlyCustomersOut": [
       {
         "at": "2026-11-11T14:00:00Z",
@@ -3958,11 +3983,11 @@
       },
       {
         "at": "2026-11-13T13:00:00Z",
-        "customersOut": 5931
+        "customersOut": 5935
       },
       {
         "at": "2026-11-13T14:00:00Z",
-        "customersOut": 3798
+        "customersOut": 3802
       }
     ],
     "locations": [
@@ -5736,6 +5761,7 @@
       "GLYNN 254-A",
       "GLYNN 254A (PUMP)",
       "GLYNN 254-A SUITE # 1",
+      "GOLDEN ROCK SHOPPING CTR",
       "GROVE PLACE 2 BLD 57/58",
       "GROVE PLACE 233",
       "GROVE PLACE 233 44 45",
@@ -7004,8 +7030,8 @@
       "ZUERIENDENHEIT",
       "ZUFRIDENHEIT 1"
     ],
-    "totalOutages": 16
+    "totalOutages": 17
   },
   "staleAfterSeconds": 900,
-  "unassignedEventCount": 13
+  "unassignedEventCount": 14
 }
