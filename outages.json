@@ -1141,43 +1141,6 @@
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
-      "id": "3ae2b010a41526be40c9ca1c81eb46f40d000cbdd0e176866e2efcf7de59870d",
-      "island": null,
-      "locations": [
-        "CONTANT",
-        "CONTANT 11-9 & 11-10 BA",
-        "CONTANT 11-9 & 11-10 B-A",
-        "CONTANT 11-9 & 11-10 B-B",
-        "CONTANT 11-9 &11-10",
-        "CONTANT 11-9 &11-10 B B",
-        "CONTANT 11-9&11-10 BLDG A",
-        "CONTANT 11-9-11-10",
-        "CONTANT BLDG A 11-9&11-10",
-        "EST CONTANT",
-        "EST CONTANT 11-9 & 11-10",
-        "EST CONTANT BLDG A",
-        "EST CONTANT BLDG B"
-      ],
-      "modifiedAt": "2026-11-13T15:19:44Z",
-      "name": "T-T-16861",
-      "neighborhoodIDs": [],
-      "point": {
-        "latitude": 18.344965597713728,
-        "longitude": -64.9528101450382
-      },
-      "reportedCustomersInitially": 22,
-      "reportedCustomersOut": 22,
-      "reportedCustomersRestored": 0,
-      "sourceStatus": "Predicted",
-      "startedAt": "2026-11-13T15:19:13Z",
-      "verified": false,
-      "workStatus": null
-    },
-    {
-      "cause": null,
-      "crewAssigned": false,
-      "endedAt": null,
-      "estimatedRestoration": null,
       "id": "4a3f0a315506757465227b7b8af29e7bb7b6c8ed1cccd49b9833ba4ca8788ac7",
       "island": null,
       "locations": [
@@ -1220,7 +1183,7 @@
         "CARET BAY 2E-51-19 B-8",
         "ESTATE CARET BAY 2E-51-5"
       ],
-      "modifiedAt": "2026-11-13T13:15:08Z",
+      "modifiedAt": "2026-11-13T15:30:24Z",
       "name": "FUST-02028",
       "neighborhoodIDs": [],
       "point": {
@@ -3119,81 +3082,6 @@
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
-      "id": "90913864df96fb24ced0ae007417983b5f80b163a3dadcf64bb05bb9f5681e0a",
-      "island": null,
-      "locations": [
-        "CONTANT #171 B-7 A-7D",
-        "CONTANT 171",
-        "CONTANT 171 APT 10E",
-        "CONTANT 171 BLD- 8",
-        "CONTANT 171 BLDG 10 APT",
-        "CONTANT 171 BLDG 7",
-        "CONTANT 171 BLDG 7 APT",
-        "CONTANT 171 BLDG 8",
-        "CONTANT 171 BLDG 8 APT",
-        "CONTANT 171 BLDG 8 APT 8H",
-        "CONTANT 171 BLDG 9 APT",
-        "CONTANT 171 BLDG-10",
-        "CONTANT 171 BLDG-7",
-        "CONTANT 171 BLDG-8",
-        "CONTANT 171 BLDG-9",
-        "CONTANT BLDG 10 171"
-      ],
-      "modifiedAt": "2026-11-13T15:22:45Z",
-      "name": "T-T-16857",
-      "neighborhoodIDs": [],
-      "point": {
-        "latitude": 18.343066442472328,
-        "longitude": -64.95761728365184
-      },
-      "reportedCustomersInitially": 39,
-      "reportedCustomersOut": 39,
-      "reportedCustomersRestored": 0,
-      "sourceStatus": "Predicted",
-      "startedAt": "2026-11-13T15:22:29Z",
-      "verified": false,
-      "workStatus": null
-    },
-    {
-      "cause": null,
-      "crewAssigned": false,
-      "endedAt": null,
-      "estimatedRestoration": null,
-      "id": "a2cbbf3262a93974de2b458517eab9fdff822488a01d6abfebb3b44bb62850c1",
-      "island": null,
-      "locations": [
-        "EST FORTUNA",
-        "EST FORTUNA 3C-A-43",
-        "EST FORTUNA 3CA-52",
-        "EST FORTUNA 3C-A-54",
-        "ESTATE FORTUNA",
-        "ESTATE FORTUNA 3C-A-53",
-        "FORTUNA",
-        "FORTUNA 3A-9",
-        "FORTUNA 3C-A-46",
-        "FORTUNA 3CA-50",
-        "FORTUNA 3C-A-51"
-      ],
-      "modifiedAt": "2026-11-13T15:14:40Z",
-      "name": "T-T-01189",
-      "neighborhoodIDs": [],
-      "point": {
-        "latitude": 18.35071631921577,
-        "longitude": -65.01339083299781
-      },
-      "reportedCustomersInitially": 15,
-      "reportedCustomersOut": 15,
-      "reportedCustomersRestored": 0,
-      "sourceStatus": "Predicted",
-      "startedAt": "2026-11-13T15:14:10Z",
-      "verified": false,
-      "workStatus": null
-    },
-    {
-      "cause": null,
-      "crewAssigned": false,
-      "endedAt": null,
-      "estimatedRestoration": null,
       "id": "a7622fe5ec3f7460243d64545ddffb42dc3c534b3876e2c938737688abde9c58",
       "island": "stThomas",
       "locations": [
@@ -4570,7 +4458,7 @@
       "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-13T15:26:25Z",
+  "generatedAt": "2026-11-13T15:31:27Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -4890,21 +4778,21 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "e9f8471c0c29469230b36a4b4e1d9cafc95008e443d25110e5a9caffbb3b5712",
+  "snapshotID": "e7d6c5b88362b45f1b3b141e07eb4b43fd0db376d01d36dcfe671e664371a503",
   "source": {
-    "checkedAt": "2026-11-13T15:26:25Z",
+    "checkedAt": "2026-11-13T15:31:27Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-13T15:25:26Z",
+    "updatedAt": "2026-11-13T15:30:27Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "sourceSummary": {
     "customerCountDifference": 2,
-    "customersAffected": 4918,
-    "customersOut": 4918,
+    "customersAffected": 4842,
+    "customersOut": 4842,
     "customersRestored": 0,
     "customersServed": 54726,
-    "eventCustomersOut": 4916,
+    "eventCustomersOut": 4840,
     "hourlyCustomersOut": [
       {
         "at": "2026-11-11T15:00:00Z",
@@ -5100,7 +4988,7 @@
       },
       {
         "at": "2026-11-13T15:00:00Z",
-        "customersOut": 4916
+        "customersOut": 4840
       }
     ],
     "locations": [
@@ -6150,7 +6038,6 @@
       "CONCORDIA 2-8",
       "CONCORDIA 2-9",
       "CONTANT",
-      "CONTANT #171 B-7 A-7D",
       "CONTANT & ENIGHED",
       "CONTANT & ENIGHED 109",
       "CONTANT & ENIGHED 110",
@@ -6176,27 +6063,6 @@
       "CONTANT 11-4 MAIN HOUSE",
       "CONTANT 11-6 DWN",
       "CONTANT 11-7",
-      "CONTANT 11-9 & 11-10 BA",
-      "CONTANT 11-9 & 11-10 B-A",
-      "CONTANT 11-9 & 11-10 B-B",
-      "CONTANT 11-9 &11-10",
-      "CONTANT 11-9 &11-10 B B",
-      "CONTANT 11-9&11-10 BLDG A",
-      "CONTANT 11-9-11-10",
-      "CONTANT 171",
-      "CONTANT 171 APT 10E",
-      "CONTANT 171 BLD- 8",
-      "CONTANT 171 BLDG 10 APT",
-      "CONTANT 171 BLDG 7",
-      "CONTANT 171 BLDG 7 APT",
-      "CONTANT 171 BLDG 8",
-      "CONTANT 171 BLDG 8 APT",
-      "CONTANT 171 BLDG 8 APT 8H",
-      "CONTANT 171 BLDG 9 APT",
-      "CONTANT 171 BLDG-10",
-      "CONTANT 171 BLDG-7",
-      "CONTANT 171 BLDG-8",
-      "CONTANT 171 BLDG-9",
       "CONTANT 191/192 UNIT 4",
       "CONTANT 197 MTR 1",
       "CONTANT 197 MTR 2",
@@ -6207,8 +6073,6 @@
       "CONTANT 197 MTR 7",
       "CONTANT 225",
       "CONTANT 251",
-      "CONTANT BLDG 10 171",
-      "CONTANT BLDG A 11-9&11-10",
       "CONTANT ENIGHED",
       "CONTANT ENIGHED 191 & 192",
       "CONTANT ENIGHED 235",
@@ -6728,11 +6592,7 @@
       "EST CAROLINA 6R1",
       "EST CAROLINA 7CF",
       "EST CONCORDIA 20-27",
-      "EST CONTANT",
       "EST CONTANT & ENIGHED",
-      "EST CONTANT 11-9 & 11-10",
-      "EST CONTANT BLDG A",
-      "EST CONTANT BLDG B",
       "EST DENNIS BAY",
       "EST DOROTHEA",
       "EST DOROTHEA #8",
@@ -6787,10 +6647,6 @@
       "EST ENIGHED 18-10-18-37",
       "EST ENIGHED 228",
       "EST FORTSBERG 15E-3",
-      "EST FORTUNA",
-      "EST FORTUNA 3C-A-43",
-      "EST FORTUNA 3CA-52",
-      "EST FORTUNA 3C-A-54",
       "EST FRENCHMANS BAY 14-38",
       "EST FRENCHMAN'S BAY 16-58",
       "EST FRENCHMANS BAY 21-43",
@@ -7156,8 +7012,6 @@
       "ESTATE EMMAUS 2",
       "ESTATE EMMAUS PARCEL 8-27",
       "ESTATE FORSTBERG 16A",
-      "ESTATE FORTUNA",
-      "ESTATE FORTUNA 3C-A-53",
       "ESTATE FRENCHMANS BAY",
       "ESTATE FRIIS 13-AB",
       "ESTATE FRIIS 13C",
@@ -7239,11 +7093,6 @@
       "FORTSBERG 4",
       "FORTSBERG 6",
       "FORTSBERG ESTATE 16K",
-      "FORTUNA",
-      "FORTUNA 3A-9",
-      "FORTUNA 3C-A-46",
-      "FORTUNA 3CA-50",
-      "FORTUNA 3C-A-51",
       "FREDERICKBERG GADE #1A",
       "FREEMAN GROUND 3-03",
       "FREEMANS GROUND",
@@ -9182,8 +9031,8 @@
       "ZUERIENDENHEIT",
       "ZUFRIDENHEIT 1"
     ],
-    "totalOutages": 20
+    "totalOutages": 17
   },
   "staleAfterSeconds": 900,
-  "unassignedEventCount": 17
+  "unassignedEventCount": 14
 }
