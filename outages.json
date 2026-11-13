@@ -31,6 +31,46 @@
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
+      "id": "035e328cf5366f7ac56f2b2dfa51767772dd3375c326861f2072463b8959b392",
+      "island": null,
+      "locations": [
+        "EST LOVENLUND 26U R-363/3",
+        "LOVENLUND",
+        "LOVENLUND 31U UNIT 416",
+        "LOVENLUND U &",
+        "LOVENLUND U-31M RM",
+        "LOVENLUND/MAHOGA RUN B-26",
+        "MAHOGANY RUN 32L BARBADOS",
+        "MAHOGANY RUN 60L R429",
+        "MAHOGANY RUN B-31 U-31L",
+        "MAHOGANY RUN B-32 U32U",
+        "MAHOGANY RUN BLD 26",
+        "MAHOGANY RUN CONDO B-31",
+        "MAHOGANY RUN CONDO B-32",
+        "MAHOGANY RUN CONDO B-60"
+      ],
+      "modifiedAt": "2026-11-13T18:05:14Z",
+      "name": "T-T-11842",
+      "neighborhoodIDs": [
+        "stThomas-lovenlund"
+      ],
+      "point": {
+        "latitude": 18.36250224952404,
+        "longitude": -64.90694349003097
+      },
+      "reportedCustomersInitially": 14,
+      "reportedCustomersOut": 14,
+      "reportedCustomersRestored": 0,
+      "sourceStatus": "Predicted",
+      "startedAt": "2026-11-13T18:04:41Z",
+      "verified": false,
+      "workStatus": null
+    },
+    {
+      "cause": null,
+      "crewAssigned": false,
+      "endedAt": null,
+      "estimatedRestoration": null,
       "id": "0e04d83c18431a190cfa8d02f4101fd8c190cee7e76f869079ab1685902cb8bb",
       "island": null,
       "locations": [
@@ -4135,7 +4175,7 @@
       "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-13T18:01:25Z",
+  "generatedAt": "2026-11-13T18:06:27Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -4196,14 +4236,18 @@
           "id": "stThomas-lovenlund",
           "island": "stThomas",
           "locations": [
-            "EST FARMHOUSE"
+            "31U UNIT 416",
+            "EST FARMHOUSE",
+            "U &",
+            "U-31M RM"
           ],
           "name": "Lovenlund",
           "sourceEventIDs": [
+            "035e328cf5366f7ac56f2b2dfa51767772dd3375c326861f2072463b8959b392",
             "a7622fe5ec3f7460243d64545ddffb42dc3c534b3876e2c938737688abde9c58"
           ],
-          "sourceStatus": "Verified",
-          "startedAt": "2026-11-05T17:32:26Z"
+          "sourceStatus": "Unconfirmed",
+          "startedAt": null
         },
         {
           "affectedCustomers": null,
@@ -4279,21 +4323,21 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "38e9d1430c8aa97e4da417535ed94bc771128448626a0450b8f3a6dd9385930a",
+  "snapshotID": "c7820e91bdd1280976ebcbe26a70041dc21f514310f96e1bf9f82521207e4ecd",
   "source": {
-    "checkedAt": "2026-11-13T18:01:25Z",
+    "checkedAt": "2026-11-13T18:06:27Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-13T18:00:27Z",
+    "updatedAt": "2026-11-13T18:05:27Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "sourceSummary": {
     "customerCountDifference": 2,
-    "customersAffected": 5064,
-    "customersOut": 5064,
+    "customersAffected": 5078,
+    "customersOut": 5078,
     "customersRestored": 0,
     "customersServed": 54726,
-    "eventCustomersOut": 5062,
+    "eventCustomersOut": 5076,
     "hourlyCustomersOut": [
       {
         "at": "2026-11-11T18:00:00Z",
@@ -4489,7 +4533,7 @@
       },
       {
         "at": "2026-11-13T18:00:00Z",
-        "customersOut": 5062
+        "customersOut": 5076
       }
     ],
     "locations": [
@@ -5527,6 +5571,7 @@
       "EST FRYDENHOJ 92",
       "EST FRYDENHOY 37-25",
       "EST HONDURAS 30-4",
+      "EST LOVENLUND 26U R-363/3",
       "EST MAHOGANY 112",
       "EST NADIR",
       "EST NADIR #14H",
@@ -6941,7 +6986,12 @@
       "LONG BAY STATION",
       "LOT A9 VESSUP BAY EST",
       "LOT ALTONA/TRAFFIC LIGHT",
+      "LOVENLUND",
+      "LOVENLUND 31U UNIT 416",
       "LOVENLUND EST FARMHOUSE",
+      "LOVENLUND U &",
+      "LOVENLUND U-31M RM",
+      "LOVENLUND/MAHOGA RUN B-26",
       "LUCINDA MILLIN",
       "LUCINDA MILLIN #32",
       "LUCINDA MILLIN A/C MGR",
@@ -7029,6 +7079,14 @@
       "MAHOGANY ESTATE 162",
       "MAHOGANY ESTATE 168",
       "MAHOGANY ESTATE 187",
+      "MAHOGANY RUN 32L BARBADOS",
+      "MAHOGANY RUN 60L R429",
+      "MAHOGANY RUN B-31 U-31L",
+      "MAHOGANY RUN B-32 U32U",
+      "MAHOGANY RUN BLD 26",
+      "MAHOGANY RUN CONDO B-31",
+      "MAHOGANY RUN CONDO B-32",
+      "MAHOGANY RUN CONDO B-60",
       "MAHOGANYEST 110",
       "MAIN STREET",
       "MAIN STREET 7-1",
@@ -8181,8 +8239,8 @@
       "WIMMELSKAFTS GADE 6A(RES)",
       "WINDWARD PASSAGE/TRAFFIC"
     ],
-    "totalOutages": 18
+    "totalOutages": 19
   },
   "staleAfterSeconds": 900,
-  "unassignedEventCount": 15
+  "unassignedEventCount": 16
 }
