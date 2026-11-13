@@ -589,9 +589,41 @@
       "startedAt": "2026-11-13T11:05:41Z",
       "verified": false,
       "workStatus": null
+    },
+    {
+      "cause": null,
+      "crewAssigned": false,
+      "endedAt": null,
+      "estimatedRestoration": null,
+      "id": "e141eb38377fd59343fbed82e81f891fa9020cd2250c48df84c8d9fed7e56721",
+      "island": null,
+      "locations": [
+        "JOSEPH & ROSENDAHL 12-3",
+        "JOSEPH & ROSENDAHL 12B-3",
+        "JOSEPH & ROSENDAHL 12B-6",
+        "ST JOSEPH & ROSEN 12-3N",
+        "ST JOSEPH & ROSEND 12-B-3",
+        "ST JOSEPH & ROSENDAHL 12-",
+        "ST JOSEPH & ROSENDAHL 12B",
+        "STJOSEPH & ROSENDAHL"
+      ],
+      "modifiedAt": "2026-11-13T11:37:06Z",
+      "name": "T-T-10326",
+      "neighborhoodIDs": [],
+      "point": {
+        "latitude": 18.354476930376624,
+        "longitude": -64.90925863983921
+      },
+      "reportedCustomersInitially": 10,
+      "reportedCustomersOut": 10,
+      "reportedCustomersRestored": 0,
+      "sourceStatus": "Predicted",
+      "startedAt": "2026-11-13T11:36:54Z",
+      "verified": false,
+      "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-13T11:35:56Z",
+  "generatedAt": "2026-11-13T11:40:57Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -676,21 +708,21 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "c1e3a7353d3577bb0c7c7a1ea3ed0c1367f1554dd193ec96d9aba4af7514cd48",
+  "snapshotID": "710eea567d0f80cd11e3fb7f2b5b89117a2032da90b349bde96c351bff66e042",
   "source": {
-    "checkedAt": "2026-11-13T11:35:56Z",
+    "checkedAt": "2026-11-13T11:40:57Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-13T11:35:25Z",
+    "updatedAt": "2026-11-13T11:40:25Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "sourceSummary": {
     "customerCountDifference": 2,
-    "customersAffected": 139,
-    "customersOut": 139,
+    "customersAffected": 149,
+    "customersOut": 149,
     "customersRestored": 0,
     "customersServed": 54725,
-    "eventCustomersOut": 137,
+    "eventCustomersOut": 147,
     "hourlyCustomersOut": [
       {
         "at": "2026-11-11T11:00:00Z",
@@ -886,7 +918,7 @@
       },
       {
         "at": "2026-11-13T11:00:00Z",
-        "customersOut": 137
+        "customersOut": 147
       }
     ],
     "locations": [
@@ -952,6 +984,9 @@
       "GLYNN 254A (PUMP)",
       "GLYNN 254-A SUITE # 1",
       "HARMONY 4-36",
+      "JOSEPH & ROSENDAHL 12-3",
+      "JOSEPH & ROSENDAHL 12B-3",
+      "JOSEPH & ROSENDAHL 12B-6",
       "LERKENLUND 9D-1-2",
       "LOVENLUND EST FARMHOUSE",
       "MAHOGANY RUN 17M MTR 4",
@@ -982,6 +1017,11 @@
       "MANDAHL 2C-6*",
       "PROFIT HILLS 169",
       "ST JOHN 18-D",
+      "ST JOSEPH & ROSEN 12-3N",
+      "ST JOSEPH & ROSEND 12-B-3",
+      "ST JOSEPH & ROSENDAHL 12-",
+      "ST JOSEPH & ROSENDAHL 12B",
+      "STJOSEPH & ROSENDAHL",
       "SUBBASE 100",
       "SUBBASE 101 (EL)",
       "SUBBASE 69",
@@ -994,8 +1034,8 @@
       "WINTBERG 339 COTTAGE \"\"A\"\"",
       "WINTBERG 340"
     ],
-    "totalOutages": 20
+    "totalOutages": 21
   },
   "staleAfterSeconds": 900,
-  "unassignedEventCount": 17
+  "unassignedEventCount": 18
 }
