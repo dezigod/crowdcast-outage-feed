@@ -184,51 +184,6 @@
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
-      "id": "40dda6063bf3820ebb7f2648e14ca40ca30a6b850248b39c35d08657c928ddc8",
-      "island": null,
-      "locations": [
-        "ALTONA #131",
-        "ALTONA & WELGUNST 158",
-        "EST ALTONA & WELGUNST 150",
-        "EST ALTONA & WELGUNST 154",
-        "MAHOGANY EST",
-        "MAHOGANY EST 122",
-        "MAHOGANY ESTATE",
-        "MAHOGANY ESTATE 123",
-        "MAHOGANY ESTATE 124",
-        "MAHOGANY ESTATE 126",
-        "MAHOGANY ESTATE 127",
-        "MAHOGANY ESTATE 128",
-        "MAHOGANY ESTATE 129",
-        "MAHOGANY ESTATE 130",
-        "MAHOGANY ESTATE 131 UP",
-        "MAHOGANY ESTATE 134",
-        "MAHOGANY ESTATE 146",
-        "MAHOGANY ESTATE 148",
-        "MAHOGANY ESTATE 152",
-        "MAHOGANY ESTATE 160",
-        "MAHOGANY ESTATE 187"
-      ],
-      "modifiedAt": "2026-11-13T15:33:09Z",
-      "name": "T-T-16370",
-      "neighborhoodIDs": [],
-      "point": {
-        "latitude": 18.341732947339693,
-        "longitude": -64.94554226576241
-      },
-      "reportedCustomersInitially": 23,
-      "reportedCustomersOut": 23,
-      "reportedCustomersRestored": 0,
-      "sourceStatus": "Predicted",
-      "startedAt": "2026-11-13T15:32:48Z",
-      "verified": false,
-      "workStatus": null
-    },
-    {
-      "cause": null,
-      "crewAssigned": false,
-      "endedAt": null,
-      "estimatedRestoration": null,
       "id": "4a3f0a315506757465227b7b8af29e7bb7b6c8ed1cccd49b9833ba4ca8788ac7",
       "island": null,
       "locations": [
@@ -246,35 +201,6 @@
       "reportedCustomersRestored": 0,
       "sourceStatus": "Predicted",
       "startedAt": "2026-11-12T13:17:30Z",
-      "verified": false,
-      "workStatus": null
-    },
-    {
-      "cause": null,
-      "crewAssigned": false,
-      "endedAt": null,
-      "estimatedRestoration": null,
-      "id": "605581b827ed21234aae7586ece955e4161fd76502b190cc1bc29c5140ed207a",
-      "island": null,
-      "locations": [
-        "EST ELIZABETH 9",
-        "ESTATE ELIZABETH 7A MTR-A",
-        "ESTATE ELIZABETH 7A MTR-B",
-        "MISGUNST 4A-1A",
-        "MISGUNST 4A-1B"
-      ],
-      "modifiedAt": "2026-11-13T15:41:27Z",
-      "name": "T-T-09368",
-      "neighborhoodIDs": [],
-      "point": {
-        "latitude": 18.35361946811677,
-        "longitude": -64.93684242917385
-      },
-      "reportedCustomersInitially": 5,
-      "reportedCustomersOut": 5,
-      "reportedCustomersRestored": 0,
-      "sourceStatus": "Predicted",
-      "startedAt": "2026-11-13T15:40:55Z",
       "verified": false,
       "workStatus": null
     },
@@ -4160,7 +4086,7 @@
       "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-13T16:40:54Z",
+  "generatedAt": "2026-11-13T16:45:56Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -4247,21 +4173,21 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "2482aca9a90416d6b2de87ed0f73fb0a95f61c00c70e9d35570bd7f571a187a4",
+  "snapshotID": "cc63805b4465da5ea1f86ddad9e059262f97da49676d014d3b8f01cd32daaef6",
   "source": {
-    "checkedAt": "2026-11-13T16:40:54Z",
+    "checkedAt": "2026-11-13T16:45:56Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-13T16:40:26Z",
+    "updatedAt": "2026-11-13T16:45:27Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "sourceSummary": {
     "customerCountDifference": 2,
-    "customersAffected": 4442,
-    "customersOut": 4442,
+    "customersAffected": 4414,
+    "customersOut": 4414,
     "customersRestored": 0,
     "customersServed": 54726,
-    "eventCustomersOut": 4440,
+    "eventCustomersOut": 4412,
     "hourlyCustomersOut": [
       {
         "at": "2026-11-11T16:00:00Z",
@@ -4453,11 +4379,11 @@
       },
       {
         "at": "2026-11-13T15:00:00Z",
-        "customersOut": 9160
+        "customersOut": 9137
       },
       {
         "at": "2026-11-13T16:00:00Z",
-        "customersOut": 4440
+        "customersOut": 4412
       }
     ],
     "locations": [
@@ -4606,8 +4532,6 @@
       "AGNES FANCY 5B",
       "AGNES FANCY 5F",
       "AKA 224 BARBADOS",
-      "ALTONA #131",
-      "ALTONA & WELGUNST 158",
       "ANNAS RETERAT 173- D3",
       "ANNAS RETREAT",
       "ANNAS RETREAT #1 NW QTR.",
@@ -5985,8 +5909,6 @@
       "EST ADRIAN 13",
       "EST ADRIAN 3-3",
       "EST ADRIAN 5 REMAINDER",
-      "EST ALTONA & WELGUNST 150",
-      "EST ALTONA & WELGUNST 154",
       "EST ANNAS RETREAT",
       "EST BELLEVUE #11-U",
       "EST BELLEVUE #21-L",
@@ -6011,7 +5933,6 @@
       "EST CHOCOLATE HOLE",
       "EST CONTANT 13",
       "EST CORALINA 9-1",
-      "EST ELIZABETH 9",
       "EST ENIGHED",
       "EST ENIGHED 11 U 1B 201",
       "EST ENIGHED 16-2A",
@@ -6184,8 +6105,6 @@
       "ESTATE CHOCOLATE HOLE",
       "ESTATE CONTANT 1R",
       "ESTATE CONTANT 1R APT-10",
-      "ESTATE ELIZABETH 7A MTR-A",
-      "ESTATE ELIZABETH 7A MTR-B",
       "ESTATE ENIGHED",
       "ESTATE ENIGHED 10-17",
       "ESTATE ENIGHED 10-3",
@@ -6823,23 +6742,6 @@
       "LOVENLUND EST FARMHOUSE",
       "LOVENLUND PCL D-12 L/41",
       "MAGENHAABET DEGUNST 8",
-      "MAHOGANY EST",
-      "MAHOGANY EST 122",
-      "MAHOGANY ESTATE",
-      "MAHOGANY ESTATE 123",
-      "MAHOGANY ESTATE 124",
-      "MAHOGANY ESTATE 126",
-      "MAHOGANY ESTATE 127",
-      "MAHOGANY ESTATE 128",
-      "MAHOGANY ESTATE 129",
-      "MAHOGANY ESTATE 130",
-      "MAHOGANY ESTATE 131 UP",
-      "MAHOGANY ESTATE 134",
-      "MAHOGANY ESTATE 146",
-      "MAHOGANY ESTATE 148",
-      "MAHOGANY ESTATE 152",
-      "MAHOGANY ESTATE 160",
-      "MAHOGANY ESTATE 187",
       "MAMEY PEAK",
       "MANDAHL 13B-5",
       "MARLEY ADDITIONS B-3",
@@ -6851,8 +6753,6 @@
       "MARLEY HOMES B-10 A-18",
       "MARLEY HOMES B-11 A-20",
       "MARLEY HOMES B-2",
-      "MISGUNST 4A-1A",
-      "MISGUNST 4A-1B",
       "MODULAR CLASSROOM - IEKHS",
       "N ESTATE ENIGHED",
       "NAZARETH - EUDORA KEAN",
@@ -8179,8 +8079,8 @@
       "WESTERN SUBURB 8 A-B2",
       "WESTERN SUBURB 8B-A-8"
     ],
-    "totalOutages": 18
+    "totalOutages": 16
   },
   "staleAfterSeconds": 900,
-  "unassignedEventCount": 15
+  "unassignedEventCount": 13
 }
