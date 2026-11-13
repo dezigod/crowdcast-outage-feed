@@ -31,60 +31,6 @@
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
-      "id": "01a366aa111a3f5dc7746fde4d634ca67e80b59bb9708195ded5afc57fe25944",
-      "island": null,
-      "locations": [
-        "ESTATE THOMAS 4 REM"
-      ],
-      "modifiedAt": "2026-11-13T11:06:46Z",
-      "name": "T-T-03657",
-      "neighborhoodIDs": [],
-      "point": {
-        "latitude": 18.336776789314367,
-        "longitude": -64.90901522962939
-      },
-      "reportedCustomersInitially": 1,
-      "reportedCustomersOut": 1,
-      "reportedCustomersRestored": 0,
-      "sourceStatus": "Predicted",
-      "startedAt": "2026-11-13T11:06:14Z",
-      "verified": false,
-      "workStatus": null
-    },
-    {
-      "cause": null,
-      "crewAssigned": false,
-      "endedAt": null,
-      "estimatedRestoration": null,
-      "id": "02a14021c89c48cf077e59d76e75af3c1b803bcd4ef6b427022c954a9bf2638a",
-      "island": null,
-      "locations": [
-        "ALTONA & WELGUNST",
-        "JOHN DUNKO 26",
-        "JOHN DUNKO 26 A-2",
-        "JOHN DUNKO A4",
-        "LOWER JOHN DUNKO 26"
-      ],
-      "modifiedAt": "2026-11-13T13:06:56Z",
-      "name": "T-T-05443",
-      "neighborhoodIDs": [],
-      "point": {
-        "latitude": 18.340867665186114,
-        "longitude": -64.94796878073493
-      },
-      "reportedCustomersInitially": 30,
-      "reportedCustomersOut": 30,
-      "reportedCustomersRestored": 0,
-      "sourceStatus": "Predicted",
-      "startedAt": "2026-11-13T13:06:34Z",
-      "verified": false,
-      "workStatus": null
-    },
-    {
-      "cause": null,
-      "crewAssigned": false,
-      "endedAt": null,
-      "estimatedRestoration": null,
       "id": "0e04d83c18431a190cfa8d02f4101fd8c190cee7e76f869079ab1685902cb8bb",
       "island": null,
       "locations": [
@@ -132,48 +78,6 @@
       "sourceStatus": "Verified",
       "startedAt": "2026-10-26T03:47:51Z",
       "verified": true,
-      "workStatus": null
-    },
-    {
-      "cause": null,
-      "crewAssigned": false,
-      "endedAt": null,
-      "estimatedRestoration": null,
-      "id": "250b92a20ae41a4afb3d47839a4f914887610fdbfb941fca9dc598b0227c2d58",
-      "island": null,
-      "locations": [
-        "EST THOMAS #10 10TH",
-        "EST THOMAS 10 ST 16",
-        "EST THOMAS 10TH ST LOT 14",
-        "EST THOMAS 12 10TH ST",
-        "EST THOMAS 16 10TH",
-        "EST THOMAS 16 10TH ST",
-        "EST THOMAS 18 10TH ST",
-        "EST THOMAS 18 10TH STREET",
-        "EST THOMAS 2 10TH STREET",
-        "EST THOMAS 6 10TH ST",
-        "EST THOMAS 6-A 10ST",
-        "EST THOMAS 6A 10TH",
-        "EST THOMAS 6A 10TH ST",
-        "EST THOMAS 6A 10TH ST BAS",
-        "EST THOMAS 6A-10TH",
-        "EST THOMAS 6A-10TH STREET",
-        "ESTATE THOMAS 6 10TH ST",
-        "ESTATE THOMAS 6A 10TH ST"
-      ],
-      "modifiedAt": "2026-11-13T12:25:25Z",
-      "name": "T-T-16523",
-      "neighborhoodIDs": [],
-      "point": {
-        "latitude": 18.3387590604904,
-        "longitude": -64.91611120081137
-      },
-      "reportedCustomersInitially": 22,
-      "reportedCustomersOut": 22,
-      "reportedCustomersRestored": 0,
-      "sourceStatus": "Predicted",
-      "startedAt": "2026-11-13T12:25:09Z",
-      "verified": false,
       "workStatus": null
     },
     {
@@ -258,55 +162,32 @@
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
-      "id": "5af01c48b1057e0a762ba252ec352424f02a9b05f1a5c7d93cd084ad301d3fe4",
-      "island": null,
-      "locations": [
-        "WINTBERG 1 A-2",
-        "WINTBERG 1A-2",
-        "WINTBERG 1A-2 B-2 A-C",
-        "WINTBERG 1A-3"
-      ],
-      "modifiedAt": "2026-11-13T13:09:19Z",
-      "name": "T-T-11085",
-      "neighborhoodIDs": [],
-      "point": {
-        "latitude": 18.355442267142912,
-        "longitude": -64.90270007220299
-      },
-      "reportedCustomersInitially": 5,
-      "reportedCustomersOut": 5,
-      "reportedCustomersRestored": 0,
-      "sourceStatus": "Predicted",
-      "startedAt": "2026-11-13T13:08:53Z",
-      "verified": false,
-      "workStatus": null
-    },
-    {
-      "cause": null,
-      "crewAssigned": false,
-      "endedAt": null,
-      "estimatedRestoration": null,
       "id": "6117cc18c69ff5bc4b19988124d4a4f89d67f1575f9ec1210760b9c6313d436e",
       "island": null,
       "locations": [
         "CARET",
+        "CARET BAY 2E-51-14W",
+        "CARET BAY 2E-51-16",
+        "CARET BAY 2E-51-17",
+        "CARET BAY 2E-51-17 UP",
         "CARET BAY 2E-51-19",
         "CARET BAY 2E-51-19 &2E-53",
         "CARET BAY 2E-51-19 B-1",
         "CARET BAY 2E-51-19 B-5",
         "CARET BAY 2E-51-19 B-6",
         "CARET BAY 2E-51-19 B-7",
-        "CARET BAY 2E-51-19 B-8"
+        "CARET BAY 2E-51-19 B-8",
+        "ESTATE CARET BAY 2E-51-5"
       ],
-      "modifiedAt": "2026-11-13T13:01:36Z",
-      "name": "STT_16692",
+      "modifiedAt": "2026-11-13T13:15:08Z",
+      "name": "FUST-02028",
       "neighborhoodIDs": [],
       "point": {
-        "latitude": 18.371821478695065,
+        "latitude": 18.371106482037177,
         "longitude": -64.98029566368868
       },
-      "reportedCustomersInitially": 19,
-      "reportedCustomersOut": 19,
+      "reportedCustomersInitially": 25,
+      "reportedCustomersOut": 25,
       "reportedCustomersRestored": 0,
       "sourceStatus": "Predicted",
       "startedAt": "2026-11-13T12:33:55Z",
@@ -2192,36 +2073,6 @@
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
-      "id": "80503196b947938dab3a2cac324a7c32add28f8743be24db9b529473e6ee6ead",
-      "island": null,
-      "locations": [
-        "HARMONY 4-36",
-        "TABOR & HARMONY 4-18",
-        "TABOR & HARMONY 4-19",
-        "TABOR & HARMONY 4-21",
-        "TABOR & HARMONY 4-21 UP",
-        "TABOR & HARMONY 4-32"
-      ],
-      "modifiedAt": "2026-11-13T13:10:05Z",
-      "name": "T-T-15213",
-      "neighborhoodIDs": [],
-      "point": {
-        "latitude": 18.354157539831824,
-        "longitude": -64.88482467855287
-      },
-      "reportedCustomersInitially": 6,
-      "reportedCustomersOut": 6,
-      "reportedCustomersRestored": 0,
-      "sourceStatus": "Verified",
-      "startedAt": "2026-11-13T11:13:06Z",
-      "verified": true,
-      "workStatus": null
-    },
-    {
-      "cause": null,
-      "crewAssigned": false,
-      "endedAt": null,
-      "estimatedRestoration": null,
       "id": "89b35e56a82c5e8fdcbb671c5e1d8c0ad9fa61d24f35b2afd60adc781ee299e2",
       "island": null,
       "locations": [
@@ -3553,7 +3404,7 @@
       "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-13T13:11:29Z",
+  "generatedAt": "2026-11-13T13:16:31Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -3873,21 +3724,21 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "2c4d617673ed1e74afc76ddffe757bce1dd23330d3ba9c6ba8244551843d3ea5",
+  "snapshotID": "c390c91e2e62c807c5539819078c2e1d7177bb8bb5f8d88297204f58218cb022",
   "source": {
-    "checkedAt": "2026-11-13T13:11:29Z",
+    "checkedAt": "2026-11-13T13:16:31Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-13T13:10:25Z",
+    "updatedAt": "2026-11-13T13:15:25Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "sourceSummary": {
     "customerCountDifference": 2,
-    "customersAffected": 3782,
-    "customersOut": 3782,
+    "customersAffected": 3724,
+    "customersOut": 3724,
     "customersRestored": 0,
     "customersServed": 54725,
-    "eventCustomersOut": 3780,
+    "eventCustomersOut": 3722,
     "hourlyCustomersOut": [
       {
         "at": "2026-11-11T13:00:00Z",
@@ -4075,15 +3926,15 @@
       },
       {
         "at": "2026-11-13T11:00:00Z",
-        "customersOut": 29
+        "customersOut": 22
       },
       {
         "at": "2026-11-13T12:00:00Z",
-        "customersOut": 2317
+        "customersOut": 2294
       },
       {
         "at": "2026-11-13T13:00:00Z",
-        "customersOut": 5995
+        "customersOut": 5942
       }
     ],
     "locations": [
@@ -4740,6 +4591,10 @@
       "BOVONI LOT 5-98",
       "BOVONI UP",
       "CARET",
+      "CARET BAY 2E-51-14W",
+      "CARET BAY 2E-51-16",
+      "CARET BAY 2E-51-17",
+      "CARET BAY 2E-51-17 UP",
       "CARET BAY 2E-51-19",
       "CARET BAY 2E-51-19 &2E-53",
       "CARET BAY 2E-51-19 B-1",
@@ -5236,11 +5091,7 @@
       "EST ST. PETER 3QA COTT 2",
       "EST ST. PETER 5C-1-B",
       "EST THOMAS",
-      "EST THOMAS #10 10TH",
       "EST THOMAS 10",
-      "EST THOMAS 10 ST 16",
-      "EST THOMAS 10TH ST LOT 14",
-      "EST THOMAS 12 10TH ST",
       "EST THOMAS 14",
       "EST THOMAS 14 BASE P-5",
       "EST THOMAS 14-6C BASE 2ND",
@@ -5248,11 +5099,7 @@
       "EST THOMAS 14B-14-64 B UP",
       "EST THOMAS 14B-15-6-H-14",
       "EST THOMAS 15",
-      "EST THOMAS 16 10TH",
-      "EST THOMAS 16 10TH ST",
       "EST THOMAS 18",
-      "EST THOMAS 18 10TH ST",
-      "EST THOMAS 18 10TH STREET",
       "EST THOMAS 18 DECK BAY",
       "EST THOMAS 18 STE-105A",
       "EST THOMAS 18 STE-107B",
@@ -5271,18 +5118,10 @@
       "EST THOMAS 1A-1",
       "EST THOMAS 1B",
       "EST THOMAS 1-C",
-      "EST THOMAS 2 10TH STREET",
       "EST THOMAS 2-6F",
       "EST THOMAS 2A*",
       "EST THOMAS 5A-5B",
-      "EST THOMAS 6 10TH ST",
       "EST THOMAS 6-3 SUITE 308",
-      "EST THOMAS 6-A 10ST",
-      "EST THOMAS 6A 10TH",
-      "EST THOMAS 6A 10TH ST",
-      "EST THOMAS 6A 10TH ST BAS",
-      "EST THOMAS 6A-10TH",
-      "EST THOMAS 6A-10TH STREET",
       "EST THOMAS 6B&F #J 104",
       "EST THOMAS 6BF CHILLER",
       "EST THOMAS 6F",
@@ -5363,6 +5202,7 @@
       "ESTATE BOVONI 12B-37",
       "ESTATE BOVONI 5-46",
       "ESTATE BOVONI 5-46 APT-2",
+      "ESTATE CARET BAY 2E-51-5",
       "ESTATE DOROTHEA 13B-2",
       "ESTATE DOROTHEA 13-BA",
       "ESTATE DOROTHEA 13-D",
@@ -5431,9 +5271,6 @@
       "ESTATE THOMAS 18 REMAINER",
       "ESTATE THOMAS 19",
       "ESTATE THOMAS 1F-LONG BAY",
-      "ESTATE THOMAS 4 REM",
-      "ESTATE THOMAS 6 10TH ST",
-      "ESTATE THOMAS 6A 10TH ST",
       "ESTATE THOMAS 6A-1",
       "ESTATE THOMAS 6B&F",
       "ESTATE THOMAS 6F",
@@ -5868,7 +5705,6 @@
       "GLYNN 254-A",
       "GLYNN 254A (PUMP)",
       "GLYNN 254-A SUITE # 1",
-      "HARMONY 4-36",
       "HAVENSGHT MALL B STE 304A",
       "HAVENSIGHT",
       "HAVENSIGHT #12",
@@ -6079,9 +5915,6 @@
       "HULL EST 5H-3",
       "HULL PCL",
       "HULLBAY 4-30-1 TROPACO",
-      "JOHN DUNKO 26",
-      "JOHN DUNKO 26 A-2",
-      "JOHN DUNKO A4",
       "JOHN DUNKOE",
       "JOHN DUNKOE 11",
       "JOHN DUNKOE 41",
@@ -6405,7 +6238,6 @@
       "LOUISENHOJ 8C & 9A DWN",
       "LOUISENHOJ 9B",
       "LOVENLUND EST FARMHOUSE",
-      "LOWER JOHN DUNKO 26",
       "LOWER JOHN DUNKO 3",
       "LOWER JOHN DUNKOE",
       "LOWER JOHN DUNKOE #8",
@@ -6971,11 +6803,6 @@
       "SUBBASE 100",
       "SUBBASE 101 (EL)",
       "SUBBASE 69",
-      "TABOR & HARMONY 4-18",
-      "TABOR & HARMONY 4-19",
-      "TABOR & HARMONY 4-21",
-      "TABOR & HARMONY 4-21 UP",
-      "TABOR & HARMONY 4-32",
       "THOMASVILLE",
       "THOMASVILLE 10A",
       "THOMASVILLE 10C",
@@ -7118,15 +6945,11 @@
       "WATERGATE VILLA SECTION 6",
       "WEST INDIAN CO DOCK B-1",
       "WIC DOCK BAY BLDG-2",
-      "WINTBERG 1 A-2",
-      "WINTBERG 1A-2",
-      "WINTBERG 1A-2 B-2 A-C",
-      "WINTBERG 1A-3",
       "ZUERIENDENHEIT",
       "ZUFRIDENHEIT 1"
     ],
-    "totalOutages": 21
+    "totalOutages": 16
   },
   "staleAfterSeconds": 900,
-  "unassignedEventCount": 18
+  "unassignedEventCount": 13
 }
