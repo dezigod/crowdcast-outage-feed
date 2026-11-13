@@ -4376,49 +4376,9 @@
       "startedAt": "2026-11-13T13:04:42Z",
       "verified": true,
       "workStatus": null
-    },
-    {
-      "cause": null,
-      "crewAssigned": false,
-      "endedAt": null,
-      "estimatedRestoration": null,
-      "id": "f4db3b307a520eff755c93516af3a089507f55765138abe0397f6521e1e30092",
-      "island": null,
-      "locations": [
-        "CONTANT #171 B-7 A-7D",
-        "CONTANT 171",
-        "CONTANT 171 APT 10E",
-        "CONTANT 171 BLD- 8",
-        "CONTANT 171 BLDG 10 APT",
-        "CONTANT 171 BLDG 7",
-        "CONTANT 171 BLDG 7 APT",
-        "CONTANT 171 BLDG 8",
-        "CONTANT 171 BLDG 8 APT",
-        "CONTANT 171 BLDG 8 APT 8H",
-        "CONTANT 171 BLDG 9 APT",
-        "CONTANT 171 BLDG-10",
-        "CONTANT 171 BLDG-7",
-        "CONTANT 171 BLDG-8",
-        "CONTANT 171 BLDG-9",
-        "CONTANT BLDG 10 171"
-      ],
-      "modifiedAt": "2026-11-13T14:46:50Z",
-      "name": "T-T-16857",
-      "neighborhoodIDs": [],
-      "point": {
-        "latitude": 18.343066442472328,
-        "longitude": -64.95761728365184
-      },
-      "reportedCustomersInitially": 39,
-      "reportedCustomersOut": 39,
-      "reportedCustomersRestored": 0,
-      "sourceStatus": "Predicted",
-      "startedAt": "2026-11-13T14:46:43Z",
-      "verified": false,
-      "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-13T14:56:13Z",
+  "generatedAt": "2026-11-13T15:01:15Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -4738,26 +4698,22 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "4dcc89a5ae3c155618128aa838c3d460f625b00ad8fddf9b378c175b449bea84",
+  "snapshotID": "314d8b664b4a609624e70a23ac8a372c28192edfac0e70910a401f03ce34b225",
   "source": {
-    "checkedAt": "2026-11-13T14:56:13Z",
+    "checkedAt": "2026-11-13T15:01:15Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-13T14:55:25Z",
+    "updatedAt": "2026-11-13T15:00:25Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "sourceSummary": {
     "customerCountDifference": 2,
-    "customersAffected": 4841,
-    "customersOut": 4841,
+    "customersAffected": 4802,
+    "customersOut": 4802,
     "customersRestored": 0,
     "customersServed": 54726,
-    "eventCustomersOut": 4839,
+    "eventCustomersOut": 4800,
     "hourlyCustomersOut": [
-      {
-        "at": "2026-11-11T14:00:00Z",
-        "customersOut": 13863
-      },
       {
         "at": "2026-11-11T15:00:00Z",
         "customersOut": 13913
@@ -4948,7 +4904,11 @@
       },
       {
         "at": "2026-11-13T14:00:00Z",
-        "customersOut": 4839
+        "customersOut": 4800
+      },
+      {
+        "at": "2026-11-13T15:00:00Z",
+        "customersOut": 4800
       }
     ],
     "locations": [
@@ -5993,7 +5953,6 @@
       "CONCORDIA 2-8",
       "CONCORDIA 2-9",
       "CONTANT",
-      "CONTANT #171 B-7 A-7D",
       "CONTANT & ENIGHED",
       "CONTANT & ENIGHED 109",
       "CONTANT & ENIGHED 110",
@@ -6019,20 +5978,6 @@
       "CONTANT 11-4 MAIN HOUSE",
       "CONTANT 11-6 DWN",
       "CONTANT 11-7",
-      "CONTANT 171",
-      "CONTANT 171 APT 10E",
-      "CONTANT 171 BLD- 8",
-      "CONTANT 171 BLDG 10 APT",
-      "CONTANT 171 BLDG 7",
-      "CONTANT 171 BLDG 7 APT",
-      "CONTANT 171 BLDG 8",
-      "CONTANT 171 BLDG 8 APT",
-      "CONTANT 171 BLDG 8 APT 8H",
-      "CONTANT 171 BLDG 9 APT",
-      "CONTANT 171 BLDG-10",
-      "CONTANT 171 BLDG-7",
-      "CONTANT 171 BLDG-8",
-      "CONTANT 171 BLDG-9",
       "CONTANT 191/192 UNIT 4",
       "CONTANT 197 MTR 1",
       "CONTANT 197 MTR 2",
@@ -6043,7 +5988,6 @@
       "CONTANT 197 MTR 7",
       "CONTANT 225",
       "CONTANT 251",
-      "CONTANT BLDG 10 171",
       "CONTANT ENIGHED",
       "CONTANT ENIGHED 191 & 192",
       "CONTANT ENIGHED 235",
@@ -8975,8 +8919,8 @@
       "ZUERIENDENHEIT",
       "ZUFRIDENHEIT 1"
     ],
-    "totalOutages": 16
+    "totalOutages": 15
   },
   "staleAfterSeconds": 900,
-  "unassignedEventCount": 13
+  "unassignedEventCount": 12
 }
