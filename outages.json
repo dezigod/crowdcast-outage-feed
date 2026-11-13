@@ -261,6 +261,35 @@
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
+      "id": "5be39dfe1c9db5e1338432f62faf3ac71814715ce7a7882bf7d0331254cdb526",
+      "island": null,
+      "locations": [
+        "EST. MANDAHL 15H",
+        "MANDAHL 14C",
+        "MANDAHL 15 J",
+        "MANDAHL 15D",
+        "MANDAHL 15-D"
+      ],
+      "modifiedAt": "2026-11-13T11:11:47Z",
+      "name": "T-T-10148",
+      "neighborhoodIDs": [],
+      "point": {
+        "latitude": 18.352809414648092,
+        "longitude": -64.8982389981604
+      },
+      "reportedCustomersInitially": 5,
+      "reportedCustomersOut": 5,
+      "reportedCustomersRestored": 0,
+      "sourceStatus": "Predicted",
+      "startedAt": "2026-11-13T11:11:37Z",
+      "verified": false,
+      "workStatus": null
+    },
+    {
+      "cause": null,
+      "crewAssigned": false,
+      "endedAt": null,
+      "estimatedRestoration": null,
       "id": "688d24f7b6e72cb60f9dd7cfcfc315b9ee0efe7095b9fbf192b7ed84c8031d54",
       "island": "stThomas",
       "locations": [
@@ -283,6 +312,36 @@
       "reportedCustomersRestored": 0,
       "sourceStatus": "Predicted",
       "startedAt": "2026-05-24T00:16:58Z",
+      "verified": false,
+      "workStatus": null
+    },
+    {
+      "cause": null,
+      "crewAssigned": false,
+      "endedAt": null,
+      "estimatedRestoration": null,
+      "id": "80503196b947938dab3a2cac324a7c32add28f8743be24db9b529473e6ee6ead",
+      "island": null,
+      "locations": [
+        "HARMONY 4-36",
+        "TABOR & HARMONY 4-18",
+        "TABOR & HARMONY 4-19",
+        "TABOR & HARMONY 4-21",
+        "TABOR & HARMONY 4-21 UP",
+        "TABOR & HARMONY 4-32"
+      ],
+      "modifiedAt": "2026-11-13T11:13:33Z",
+      "name": "T-T-15213",
+      "neighborhoodIDs": [],
+      "point": {
+        "latitude": 18.354157539831824,
+        "longitude": -64.88482467855287
+      },
+      "reportedCustomersInitially": 6,
+      "reportedCustomersOut": 6,
+      "reportedCustomersRestored": 0,
+      "sourceStatus": "Predicted",
+      "startedAt": "2026-11-13T11:13:06Z",
       "verified": false,
       "workStatus": null
     },
@@ -495,7 +554,7 @@
       "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-13T11:10:46Z",
+  "generatedAt": "2026-11-13T11:15:48Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -580,21 +639,21 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "d0ca2bad55bf1736341dc331eff6896e04d6a0b7b44f1c6309eec0268f5bf21c",
+  "snapshotID": "563f744b755779a035abfadea182811471521079c69658ea9f2f20951b98e130",
   "source": {
-    "checkedAt": "2026-11-13T11:10:46Z",
+    "checkedAt": "2026-11-13T11:15:48Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-13T11:10:24Z",
+    "updatedAt": "2026-11-13T11:15:25Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "sourceSummary": {
     "customerCountDifference": 2,
-    "customersAffected": 106,
-    "customersOut": 106,
+    "customersAffected": 117,
+    "customersOut": 117,
     "customersRestored": 0,
     "customersServed": 54725,
-    "eventCustomersOut": 104,
+    "eventCustomersOut": 115,
     "hourlyCustomersOut": [
       {
         "at": "2026-11-11T11:00:00Z",
@@ -790,7 +849,7 @@
       },
       {
         "at": "2026-11-13T11:00:00Z",
-        "customersOut": 104
+        "customersOut": 115
       }
     ],
     "locations": [
@@ -830,6 +889,7 @@
       "EST THOMAS 14PL APT-7",
       "EST THOMAS WEST 4D-4E",
       "EST WINTBERG",
+      "EST. MANDAHL 15H",
       "EST. MANDAHL 2C-9",
       "ESTATE CARET BAY 2E-51-5",
       "ESTATE MANDAHL 2C-1",
@@ -841,6 +901,7 @@
       "GLYNN 254-A",
       "GLYNN 254A (PUMP)",
       "GLYNN 254-A SUITE # 1",
+      "HARMONY 4-36",
       "LERKENLUND 9D-1-2",
       "LOVENLUND EST FARMHOUSE",
       "MAHOGANY RUN 17M MTR 4",
@@ -858,6 +919,10 @@
       "MAHOGONY RUN CONDO 20L",
       "MANDAHL #2C-3 DWN",
       "MANDAHL (UP)",
+      "MANDAHL 14C",
+      "MANDAHL 15 J",
+      "MANDAHL 15D",
+      "MANDAHL 15-D",
       "MANDAHL 2 C-3",
       "MANDAHL 2C-1& 2D-3C",
       "MANDAHL 2C-10",
@@ -870,12 +935,17 @@
       "SUBBASE 100",
       "SUBBASE 101 (EL)",
       "SUBBASE 69",
+      "TABOR & HARMONY 4-18",
+      "TABOR & HARMONY 4-19",
+      "TABOR & HARMONY 4-21",
+      "TABOR & HARMONY 4-21 UP",
+      "TABOR & HARMONY 4-32",
       "WINTBERG 339",
       "WINTBERG 339 COTTAGE \"\"A\"\"",
       "WINTBERG 340"
     ],
-    "totalOutages": 17
+    "totalOutages": 19
   },
   "staleAfterSeconds": 900,
-  "unassignedEventCount": 14
+  "unassignedEventCount": 16
 }
