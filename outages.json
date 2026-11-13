@@ -2159,37 +2159,6 @@
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
-      "id": "d3987e0b28aa2a9c22a873c4043c680858c094d465aee244609d1bf8378e1de3",
-      "island": null,
-      "locations": [
-        "UNION/MT WASHINGTON 433",
-        "UNION/MT WASHINGTON 434",
-        "UNION/MT WASHINGTON 435",
-        "UNION/MT WASHINGTON 437",
-        "UNION/MT WASHINGTON 438",
-        "UNION/MT WASHINGTON 449",
-        "UNION/MT WASHINGTON 452"
-      ],
-      "modifiedAt": "2026-11-13T13:02:37Z",
-      "name": "T-C-09214",
-      "neighborhoodIDs": [],
-      "point": {
-        "latitude": 17.733628202268847,
-        "longitude": -64.65385788067329
-      },
-      "reportedCustomersInitially": 8,
-      "reportedCustomersOut": 8,
-      "reportedCustomersRestored": 0,
-      "sourceStatus": "Predicted",
-      "startedAt": "2026-11-13T13:02:04Z",
-      "verified": false,
-      "workStatus": null
-    },
-    {
-      "cause": null,
-      "crewAssigned": false,
-      "endedAt": null,
-      "estimatedRestoration": null,
       "id": "eb1d945fa3360b5d6398b9d0e8646da9fd954551268acaf63761b136f2d31879",
       "island": null,
       "locations": [
@@ -3380,7 +3349,7 @@
       "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-13T13:25:31Z",
+  "generatedAt": "2026-11-13T13:30:37Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -3700,21 +3669,21 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "46c33a1d9fd4697553b3e5074b58b4e38385a438182e16d19fd6ad6ca229ce14",
+  "snapshotID": "c7b06908ab38a6845a46ae03dc3c161f5b7abd1c4aed0c1e314fa6f6279c10b4",
   "source": {
-    "checkedAt": "2026-11-13T13:25:31Z",
+    "checkedAt": "2026-11-13T13:30:37Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-13T13:25:25Z",
+    "updatedAt": "2026-11-13T13:30:25Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "sourceSummary": {
     "customerCountDifference": 2,
-    "customersAffected": 3724,
-    "customersOut": 3724,
+    "customersAffected": 3716,
+    "customersOut": 3716,
     "customersRestored": 0,
     "customersServed": 54725,
-    "eventCustomersOut": 3722,
+    "eventCustomersOut": 3714,
     "hourlyCustomersOut": [
       {
         "at": "2026-11-11T13:00:00Z",
@@ -3910,7 +3879,7 @@
       },
       {
         "at": "2026-11-13T13:00:00Z",
-        "customersOut": 5942
+        "customersOut": 5934
       }
     ],
     "locations": [
@@ -6863,13 +6832,6 @@
       "THOMASVILLE BOVONI 12H",
       "TROPACO PT HULL BAY",
       "TUTU 1-9",
-      "UNION/MT WASHINGTON 433",
-      "UNION/MT WASHINGTON 434",
-      "UNION/MT WASHINGTON 435",
-      "UNION/MT WASHINGTON 437",
-      "UNION/MT WASHINGTON 438",
-      "UNION/MT WASHINGTON 449",
-      "UNION/MT WASHINGTON 452",
       "UPPER JOHN DONKO 2-5 MTR",
       "UPPER JOHN DONKO 58",
       "UPPER JOHN DONKOE #19",
@@ -6924,8 +6886,8 @@
       "ZUERIENDENHEIT",
       "ZUFRIDENHEIT 1"
     ],
-    "totalOutages": 15
+    "totalOutages": 14
   },
   "staleAfterSeconds": 900,
-  "unassignedEventCount": 12
+  "unassignedEventCount": 11
 }
