@@ -148,7 +148,7 @@
       "workStatus": null
     },
     {
-      "cause": null,
+      "cause": "300 Material or equipment fault/failure",
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
@@ -159,7 +159,7 @@
         "COTTON VALLEY 247",
         "COTTON VALLEY 251"
       ],
-      "modifiedAt": "2026-11-13T12:32:59Z",
+      "modifiedAt": "2026-11-13T12:41:32Z",
       "name": "T-C-10712",
       "neighborhoodIDs": [],
       "point": {
@@ -2375,7 +2375,7 @@
       "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-13T12:41:19Z",
+  "generatedAt": "2026-11-13T12:46:21Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -2570,11 +2570,11 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "2a154db29c2c290a2131d2bab4b8bc1f1483ffc1857d9bc103dc1006ab5bf547",
+  "snapshotID": "84f002f94dfdafbc1a97ed0d6aa53005482c675b26738240242052405f53cf67",
   "source": {
-    "checkedAt": "2026-11-13T12:41:19Z",
+    "checkedAt": "2026-11-13T12:46:21Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-13T12:40:25Z",
+    "updatedAt": "2026-11-13T12:45:25Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
