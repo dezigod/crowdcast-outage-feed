@@ -31,6 +31,31 @@
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
+      "id": "0ce5bf5ccca258dd40f256aaa3983be04ab05754452bba6bcdd7efd0f6547874",
+      "island": null,
+      "locations": [
+        "UPPER LOVE"
+      ],
+      "modifiedAt": "2026-11-13T14:32:08Z",
+      "name": "T-C-14219",
+      "neighborhoodIDs": [],
+      "point": {
+        "latitude": 17.735150820802463,
+        "longitude": -64.80986794585606
+      },
+      "reportedCustomersInitially": 1,
+      "reportedCustomersOut": 1,
+      "reportedCustomersRestored": 0,
+      "sourceStatus": "Predicted",
+      "startedAt": "2026-11-13T14:31:38Z",
+      "verified": false,
+      "workStatus": null
+    },
+    {
+      "cause": null,
+      "crewAssigned": false,
+      "endedAt": null,
+      "estimatedRestoration": null,
       "id": "0e04d83c18431a190cfa8d02f4101fd8c190cee7e76f869079ab1685902cb8bb",
       "island": null,
       "locations": [
@@ -78,6 +103,36 @@
       "sourceStatus": "Verified",
       "startedAt": "2026-10-26T03:47:51Z",
       "verified": true,
+      "workStatus": null
+    },
+    {
+      "cause": null,
+      "crewAssigned": false,
+      "endedAt": null,
+      "estimatedRestoration": null,
+      "id": "364a33addd3180091e7d1c670164c8336543622acaea6bc7977ffaf2184aba79",
+      "island": null,
+      "locations": [
+        "CONCORDIA 145-WEST",
+        "CONCORDIA B-B",
+        "CONCORDIA MANOR II",
+        "CONCORDIA MANOR III",
+        "CONCORDIA MANOR III A-62",
+        "CONCORDIA MANOR IV"
+      ],
+      "modifiedAt": "2026-11-13T14:31:52Z",
+      "name": "T-C-12126",
+      "neighborhoodIDs": [],
+      "point": {
+        "latitude": 17.70376611960952,
+        "longitude": -64.86844661933247
+      },
+      "reportedCustomersInitially": 52,
+      "reportedCustomersOut": 52,
+      "reportedCustomersRestored": 0,
+      "sourceStatus": "Predicted",
+      "startedAt": "2026-11-13T14:31:45Z",
+      "verified": false,
       "workStatus": null
     },
     {
@@ -3377,7 +3432,7 @@
       "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-13T14:31:03Z",
+  "generatedAt": "2026-11-13T14:36:05Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -3697,21 +3752,21 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "b0df19e3fded9ff352ce02dde6311d1c27d20e584e7358daef3f4fe0dbc683bb",
+  "snapshotID": "523c2414c38e2f53f8704188762c0bc97fdc7e6ba1a676b600527dabe9d7ab54",
   "source": {
-    "checkedAt": "2026-11-13T14:31:03Z",
+    "checkedAt": "2026-11-13T14:36:05Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-13T14:30:25Z",
+    "updatedAt": "2026-11-13T14:35:25Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "sourceSummary": {
     "customerCountDifference": 2,
-    "customersAffected": 3747,
-    "customersOut": 3747,
+    "customersAffected": 3800,
+    "customersOut": 3800,
     "customersRestored": 0,
     "customersServed": 54726,
-    "eventCustomersOut": 3745,
+    "eventCustomersOut": 3798,
     "hourlyCustomersOut": [
       {
         "at": "2026-11-11T14:00:00Z",
@@ -3907,7 +3962,7 @@
       },
       {
         "at": "2026-11-13T14:00:00Z",
-        "customersOut": 3745
+        "customersOut": 3798
       }
     ],
     "locations": [
@@ -4576,6 +4631,12 @@
       "CARET BAY 2E-51-19 B-7",
       "CARET BAY 2E-51-19 B-8",
       "COMMANDANT GADE 12",
+      "CONCORDIA 145-WEST",
+      "CONCORDIA B-B",
+      "CONCORDIA MANOR II",
+      "CONCORDIA MANOR III",
+      "CONCORDIA MANOR III A-62",
+      "CONCORDIA MANOR IV",
       "CONTANT",
       "CONTANT 107-17",
       "CONTANT 107-18",
@@ -6934,6 +6995,7 @@
       "UPPER JOHN DUNKOE DWN",
       "UPPER JOHN DUNKOE MTR 3",
       "UPPER JOHN DUNKOE MTR 4",
+      "UPPER LOVE",
       "WATERFRONT/VETERAN'S PARK",
       "WATERGATE VILLA B16",
       "WATERGATE VILLA SECTION 6",
@@ -6942,8 +7004,8 @@
       "ZUERIENDENHEIT",
       "ZUFRIDENHEIT 1"
     ],
-    "totalOutages": 14
+    "totalOutages": 16
   },
   "staleAfterSeconds": 900,
-  "unassignedEventCount": 11
+  "unassignedEventCount": 13
 }
