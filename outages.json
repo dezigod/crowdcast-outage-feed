@@ -27,6 +27,50 @@
       "workStatus": null
     },
     {
+      "cause": null,
+      "crewAssigned": false,
+      "endedAt": null,
+      "estimatedRestoration": null,
+      "id": "1dd2f2d0970acbf65639b4b95e266188bebd0bd5e85846e68ee5d49fe98a7eda",
+      "island": null,
+      "locations": [
+        "CLIFTON HILL 103",
+        "CLIFTON HILL 104",
+        "CLIFTON HILL 110",
+        "CLIFTON HILL 111 APT-B EL",
+        "CLIFTON HILL 112",
+        "CLIFTON HILL 113",
+        "CLIFTON HILL 114",
+        "CLIFTON HILL 115",
+        "CLIFTON HILL 116",
+        "CLIFTON HILL 118",
+        "CLIFTON HILL 11O",
+        "CLIFTON HILL 121",
+        "CLIFTON HILL 122",
+        "CLIFTON HILL 123",
+        "CLIFTON HILL 124",
+        "CLIFTON HILL 125",
+        "CLIFTON HILL 126",
+        "CLIFTON HILL 127",
+        "CLIFTON HILL 128",
+        "EST CLIFTON HILL"
+      ],
+      "modifiedAt": "2026-11-13T20:56:57Z",
+      "name": "T-C-06101",
+      "neighborhoodIDs": [],
+      "point": {
+        "latitude": 17.722833244766097,
+        "longitude": -64.77358012286993
+      },
+      "reportedCustomersInitially": 23,
+      "reportedCustomersOut": 23,
+      "reportedCustomersRestored": 0,
+      "sourceStatus": "Predicted",
+      "startedAt": "2026-11-13T20:56:37Z",
+      "verified": false,
+      "workStatus": null
+    },
+    {
       "cause": "000 Power supply",
       "crewAssigned": false,
       "endedAt": null,
@@ -4063,7 +4107,7 @@
         "CASTLE COAKLEY",
         "CASTLE COAKLEY 54"
       ],
-      "modifiedAt": "2026-11-13T18:11:15Z",
+      "modifiedAt": "2026-11-13T20:56:12Z",
       "name": "T-C-06088",
       "neighborhoodIDs": [],
       "point": {
@@ -4137,6 +4181,35 @@
       "reportedCustomersRestored": 0,
       "sourceStatus": "Predicted",
       "startedAt": "2026-11-13T12:33:55Z",
+      "verified": false,
+      "workStatus": null
+    },
+    {
+      "cause": null,
+      "crewAssigned": false,
+      "endedAt": null,
+      "estimatedRestoration": null,
+      "id": "634012b1cca88e101299933b6f484cbb0a4b050dd12f39c2c851af1191fbbba4",
+      "island": null,
+      "locations": [
+        "CASTLE COAKLEY",
+        "CASTLE COAKLEY 14A (UPST)",
+        "CASTLE COAKLEY 15 SM-HSE",
+        "NEW CASTLE COAKLEY",
+        "NEW CASTLE COAKLEY 5"
+      ],
+      "modifiedAt": "2026-11-13T21:02:43Z",
+      "name": "T-C-06105",
+      "neighborhoodIDs": [],
+      "point": {
+        "latitude": 17.725991241691034,
+        "longitude": -64.74982587420055
+      },
+      "reportedCustomersInitially": 9,
+      "reportedCustomersOut": 9,
+      "reportedCustomersRestored": 0,
+      "sourceStatus": "Predicted",
+      "startedAt": "2026-11-13T21:02:21Z",
       "verified": false,
       "workStatus": null
     },
@@ -5252,6 +5325,48 @@
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
+      "id": "7b23240931f87db56b720737cd3f98e2d90bafec81c4a816889d37a67e49cbfa",
+      "island": null,
+      "locations": [
+        "CLIFTON HILL 27-G",
+        "CLIFTON HILL 27-H",
+        "CLIFTON HILL 57-B HSE B",
+        "CLIFTON HILL 63",
+        "CLIFTON HILL 64",
+        "CLIFTON HILL 65-A",
+        "CLIFTON HILL 65-B",
+        "CLIFTON HILL 66",
+        "CLIFTON HILL 68",
+        "CLIFTON HILL 69",
+        "CLIFTON HILL 70",
+        "CLIFTON HILL 72",
+        "CLIFTON HILL 75",
+        "CLIFTON HILL 75-A",
+        "CLIFTON HILL 76",
+        "CLIFTON HILL 77",
+        "CLIFTON HILL 79 (BAR)",
+        "CLIFTON HILL 84"
+      ],
+      "modifiedAt": "2026-11-13T20:56:12Z",
+      "name": "T-C-19345",
+      "neighborhoodIDs": [],
+      "point": {
+        "latitude": 17.720901741374554,
+        "longitude": -64.77217696641002
+      },
+      "reportedCustomersInitially": 22,
+      "reportedCustomersOut": 22,
+      "reportedCustomersRestored": 0,
+      "sourceStatus": "Predicted",
+      "startedAt": "2026-11-13T20:55:56Z",
+      "verified": false,
+      "workStatus": null
+    },
+    {
+      "cause": null,
+      "crewAssigned": false,
+      "endedAt": null,
+      "estimatedRestoration": null,
       "id": "a7622fe5ec3f7460243d64545ddffb42dc3c534b3876e2c938737688abde9c58",
       "island": "stThomas",
       "locations": [
@@ -6360,7 +6475,7 @@
       "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-13T20:56:31Z",
+  "generatedAt": "2026-11-13T21:05:31Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -7130,26 +7245,22 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "b7435fe272a1fc7d267378892d78bc2b0e35a903b86e977518f47c854d67f9f9",
+  "snapshotID": "432a670b6e7b652e232ffc59dff2cfb8e237d70588984ea07ef05a2c7f75ba11",
   "source": {
-    "checkedAt": "2026-11-13T20:56:31Z",
+    "checkedAt": "2026-11-13T21:05:31Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-13T20:55:28Z",
+    "updatedAt": "2026-11-13T21:05:29Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "sourceSummary": {
     "customerCountDifference": 2,
-    "customersAffected": 7996,
-    "customersOut": 7996,
+    "customersAffected": 8050,
+    "customersOut": 8050,
     "customersRestored": 0,
     "customersServed": 54726,
-    "eventCustomersOut": 7994,
+    "eventCustomersOut": 8048,
     "hourlyCustomersOut": [
-      {
-        "at": "2026-11-11T20:00:00Z",
-        "customersOut": 6777
-      },
       {
         "at": "2026-11-11T21:00:00Z",
         "customersOut": 3380
@@ -7340,7 +7451,11 @@
       },
       {
         "at": "2026-11-13T20:00:00Z",
-        "customersOut": 7994
+        "customersOut": 8039
+      },
+      {
+        "at": "2026-11-13T21:00:00Z",
+        "customersOut": 8048
       }
     ],
     "locations": [
@@ -8525,6 +8640,8 @@
       "CAROLINA 8-5",
       "CAROLINA REM 6-2-1",
       "CASTLE COAKLEY",
+      "CASTLE COAKLEY 14A (UPST)",
+      "CASTLE COAKLEY 15 SM-HSE",
       "CASTLE COAKLEY 54",
       "CATHERINEBERG 8",
       "CELEBRATION VILLAGE CRUZ",
@@ -8541,6 +8658,43 @@
       "CINNAMON BAY WATER PLANT",
       "CINNAMON BAY-INCINERTOR",
       "CIRCLE STREET 5 & 6",
+      "CLIFTON HILL 103",
+      "CLIFTON HILL 104",
+      "CLIFTON HILL 110",
+      "CLIFTON HILL 111 APT-B EL",
+      "CLIFTON HILL 112",
+      "CLIFTON HILL 113",
+      "CLIFTON HILL 114",
+      "CLIFTON HILL 115",
+      "CLIFTON HILL 116",
+      "CLIFTON HILL 118",
+      "CLIFTON HILL 11O",
+      "CLIFTON HILL 121",
+      "CLIFTON HILL 122",
+      "CLIFTON HILL 123",
+      "CLIFTON HILL 124",
+      "CLIFTON HILL 125",
+      "CLIFTON HILL 126",
+      "CLIFTON HILL 127",
+      "CLIFTON HILL 128",
+      "CLIFTON HILL 27-G",
+      "CLIFTON HILL 27-H",
+      "CLIFTON HILL 57-B HSE B",
+      "CLIFTON HILL 63",
+      "CLIFTON HILL 64",
+      "CLIFTON HILL 65-A",
+      "CLIFTON HILL 65-B",
+      "CLIFTON HILL 66",
+      "CLIFTON HILL 68",
+      "CLIFTON HILL 69",
+      "CLIFTON HILL 70",
+      "CLIFTON HILL 72",
+      "CLIFTON HILL 75",
+      "CLIFTON HILL 75-A",
+      "CLIFTON HILL 76",
+      "CLIFTON HILL 77",
+      "CLIFTON HILL 79 (BAR)",
+      "CLIFTON HILL 84",
       "COMM TVAER GADE #3",
       "COMMAMDANT GADE 11-3",
       "COMMANDANT GADE",
@@ -9698,6 +9852,7 @@
       "EST CAROLINA 6-1-11 DWN",
       "EST CAROLINA 6R1",
       "EST CAROLINA 7CF",
+      "EST CLIFTON HILL",
       "EST CONCORDIA 20-27",
       "EST CONTANT #7BA A2",
       "EST CONTANT & ENIGHED",
@@ -11903,6 +12058,8 @@
       "NELTJEBERG 5 UP EAST",
       "NELTJEBERG MRT-1UP",
       "NELTJEBERG PUMP 12 C",
+      "NEW CASTLE COAKLEY",
+      "NEW CASTLE COAKLEY 5",
       "NISKY 17-3",
       "NISKY 6",
       "NO. 5 FREENMANS GROUND",
@@ -13379,8 +13536,8 @@
       "ZUERIENDENHEIT",
       "ZUFRIDENHEIT 1"
     ],
-    "totalOutages": 12
+    "totalOutages": 15
   },
   "staleAfterSeconds": 900,
-  "unassignedEventCount": 9
+  "unassignedEventCount": 12
 }
