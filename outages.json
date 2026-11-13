@@ -352,6 +352,41 @@
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
+      "id": "6fe22c1d485aa60cce3793efc3674cc92777985a012d163579a42e734ba78915",
+      "island": null,
+      "locations": [
+        "ANNAS RETREAT",
+        "ANNAS RETREAT #1 NW QTR.",
+        "ANNAS RETREAT 12-130",
+        "ANNAS RETREAT 130-12A",
+        "ANNAS RETREAT 1-5",
+        "ANNAS RETREAT 1-6 1-3C",
+        "ANNAS RETREAT 173B-49",
+        "ANNAS RETREAT 173B-51",
+        "ANNAS RETREAT 1-8",
+        "ANNAS RETREAT 1-8 UP",
+        "TUTU 1-9"
+      ],
+      "modifiedAt": "2026-11-13T12:45:58Z",
+      "name": "T-T-10966",
+      "neighborhoodIDs": [],
+      "point": {
+        "latitude": 18.340687038407516,
+        "longitude": -64.88012215407227
+      },
+      "reportedCustomersInitially": 15,
+      "reportedCustomersOut": 15,
+      "reportedCustomersRestored": 0,
+      "sourceStatus": "Predicted",
+      "startedAt": "2026-11-13T12:45:42Z",
+      "verified": false,
+      "workStatus": null
+    },
+    {
+      "cause": null,
+      "crewAssigned": false,
+      "endedAt": null,
+      "estimatedRestoration": null,
       "id": "80503196b947938dab3a2cac324a7c32add28f8743be24db9b529473e6ee6ead",
       "island": null,
       "locations": [
@@ -2375,7 +2410,7 @@
       "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-13T12:46:21Z",
+  "generatedAt": "2026-11-13T12:51:23Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -2570,25 +2605,25 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "84f002f94dfdafbc1a97ed0d6aa53005482c675b26738240242052405f53cf67",
+  "snapshotID": "7eb5d4b11c873054a5327ccea6c94f71ae719db48559ffcd3bbb84a3f320f88b",
   "source": {
-    "checkedAt": "2026-11-13T12:46:21Z",
+    "checkedAt": "2026-11-13T12:51:23Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-13T12:45:25Z",
+    "updatedAt": "2026-11-13T12:50:25Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "sourceSummary": {
     "customerCountDifference": 2,
-    "customersAffected": 2326,
-    "customersOut": 2326,
+    "customersAffected": 2341,
+    "customersOut": 2341,
     "customersRestored": 0,
     "customersServed": 54725,
-    "eventCustomersOut": 2324,
+    "eventCustomersOut": 2339,
     "hourlyCustomersOut": [
       {
         "at": "2026-11-11T12:00:00Z",
-        "customersOut": 18702
+        "customersOut": 17674
       },
       {
         "at": "2026-11-11T13:00:00Z",
@@ -2780,7 +2815,7 @@
       },
       {
         "at": "2026-11-13T12:00:00Z",
-        "customersOut": 2324
+        "customersOut": 2339
       }
     ],
     "locations": [
@@ -2809,11 +2844,13 @@
       "ANNAS RET 215-54",
       "ANNAS RET. A-B",
       "ANNAS RETREAT",
+      "ANNAS RETREAT #1 NW QTR.",
       "ANNAS RETREAT #117",
       "ANNAS RETREAT #250",
       "ANNAS RETREAT 113A",
       "ANNAS RETREAT 114 APT-1",
       "ANNAS RETREAT 114 APT-2",
+      "ANNAS RETREAT 12-130",
       "ANNAS RETREAT 123-A",
       "ANNAS RETREAT 123A LOW",
       "ANNAS RETREAT 123B-1",
@@ -2821,6 +2858,7 @@
       "ANNAS RETREAT 125",
       "ANNAS RETREAT 125D",
       "ANNAS RETREAT 125F-3",
+      "ANNAS RETREAT 130-12A",
       "ANNAS RETREAT 143",
       "ANNAS RETREAT 143-10 UP",
       "ANNAS RETREAT 143-12",
@@ -2866,6 +2904,12 @@
       "ANNAS RETREAT 143A-6",
       "ANNAS RETREAT 143A-8",
       "ANNAS RETREAT 143A-9",
+      "ANNAS RETREAT 1-5",
+      "ANNAS RETREAT 1-6 1-3C",
+      "ANNAS RETREAT 173B-49",
+      "ANNAS RETREAT 173B-51",
+      "ANNAS RETREAT 1-8",
+      "ANNAS RETREAT 1-8 UP",
       "ANNAS RETREAT 20A",
       "ANNAS RETREAT 20-B",
       "ANNAS RETREAT 20-B UP",
@@ -4378,6 +4422,7 @@
       "TABOR & HARMONY TOP FL",
       "TABOR HARMONY 4-48",
       "TABOR/HARMONY 4-16A",
+      "TUTU 1-9",
       "U HSE METER",
       "U MAHOGANY RUN",
       "U25M MAHOGANY",
@@ -4668,8 +4713,8 @@
       "WINTBERG-TRAILER",
       "WINTHBERG 1-B4 APT 303"
     ],
-    "totalOutages": 20
+    "totalOutages": 21
   },
   "staleAfterSeconds": 900,
-  "unassignedEventCount": 17
+  "unassignedEventCount": 18
 }
