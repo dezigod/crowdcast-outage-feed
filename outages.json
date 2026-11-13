@@ -56,6 +56,43 @@
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
+      "id": "0792ca02bde738da639f2e1c4b0750d05b0c1396003db8243fe988412f05c2c8",
+      "island": null,
+      "locations": [
+        "FISHER STREET",
+        "FISHER STREET 39-B",
+        "FISHER STREET 39B APT. 7",
+        "KING STREET",
+        "KING STREET (APT)",
+        "KING STREET 38",
+        "KING STREET 42 BACK MTR",
+        "KING STREET 42 FRONT MTR",
+        "KING STREET 45 A",
+        "KING STREET 45 B",
+        "KING STREET 45 D",
+        "STRAND STREET",
+        "STRAND STREET 30"
+      ],
+      "modifiedAt": "2026-11-13T12:51:30Z",
+      "name": "T-C-25359",
+      "neighborhoodIDs": [],
+      "point": {
+        "latitude": 17.70927863733202,
+        "longitude": -64.8822779516197
+      },
+      "reportedCustomersInitially": 23,
+      "reportedCustomersOut": 23,
+      "reportedCustomersRestored": 0,
+      "sourceStatus": "Predicted",
+      "startedAt": "2026-11-13T12:51:18Z",
+      "verified": false,
+      "workStatus": null
+    },
+    {
+      "cause": null,
+      "crewAssigned": false,
+      "endedAt": null,
+      "estimatedRestoration": null,
       "id": "0e04d83c18431a190cfa8d02f4101fd8c190cee7e76f869079ab1685902cb8bb",
       "island": null,
       "locations": [
@@ -2410,7 +2447,7 @@
       "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-13T12:51:23Z",
+  "generatedAt": "2026-11-13T12:56:25Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -2605,21 +2642,21 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "7eb5d4b11c873054a5327ccea6c94f71ae719db48559ffcd3bbb84a3f320f88b",
+  "snapshotID": "1495c348409a2f8e78fabd4d7819345d12c6787ed6ee23068377821f9fe01de3",
   "source": {
-    "checkedAt": "2026-11-13T12:51:23Z",
+    "checkedAt": "2026-11-13T12:56:25Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-13T12:50:25Z",
+    "updatedAt": "2026-11-13T12:55:25Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "sourceSummary": {
     "customerCountDifference": 2,
-    "customersAffected": 2341,
-    "customersOut": 2341,
+    "customersAffected": 2364,
+    "customersOut": 2364,
     "customersRestored": 0,
     "customersServed": 54725,
-    "eventCustomersOut": 2339,
+    "eventCustomersOut": 2362,
     "hourlyCustomersOut": [
       {
         "at": "2026-11-11T12:00:00Z",
@@ -2815,7 +2852,7 @@
       },
       {
         "at": "2026-11-13T12:00:00Z",
-        "customersOut": 2339
+        "customersOut": 2362
       }
     ],
     "locations": [
@@ -3692,6 +3729,9 @@
       "ESTATE WINTBERG 301",
       "ESTATE WINTBERG 314",
       "ESTATE WINTBERG 373",
+      "FISHER STREET",
+      "FISHER STREET 39-B",
+      "FISHER STREET 39B APT. 7",
       "FRT MYLNER SHP CTR",
       "FRYDENHOJ 1-20",
       "FT MYINER SHOPPING CENTER",
@@ -3732,6 +3772,14 @@
       "JOSEPH & ROSENDAHL 4G-7",
       "JOSEPH & ROSENDAHL 4G-8",
       "JOSEPH & ROSENDAHL 8D-4",
+      "KING STREET",
+      "KING STREET (APT)",
+      "KING STREET 38",
+      "KING STREET 42 BACK MTR",
+      "KING STREET 42 FRONT MTR",
+      "KING STREET 45 A",
+      "KING STREET 45 B",
+      "KING STREET 45 D",
       "LERKENLUND 501L",
       "LERKENLUND 9D-1-2",
       "L'LUND MAHOGANY RN UPPER",
@@ -4344,6 +4392,8 @@
       "ST.JOSEPH & ROSENDAH 10S",
       "STJOSEPH & ROSENDAHL",
       "STJOSEPH/ROSENDAHL 12A-24",
+      "STRAND STREET",
+      "STRAND STREET 30",
       "STUDIO",
       "STUDIO 1300 HSE MTR",
       "SUBBASE 100",
@@ -4713,8 +4763,8 @@
       "WINTBERG-TRAILER",
       "WINTHBERG 1-B4 APT 303"
     ],
-    "totalOutages": 21
+    "totalOutages": 22
   },
   "staleAfterSeconds": 900,
-  "unassignedEventCount": 18
+  "unassignedEventCount": 19
 }
