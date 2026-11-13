@@ -2159,6 +2159,61 @@
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
+      "id": "e2ccc03147b6c940cfec70fe35e7860ef0a7df69954bb37002853040819575a7",
+      "island": null,
+      "locations": [
+        "GROVE PLACE 2 BLD 57/58",
+        "GROVE PLACE 233",
+        "GROVE PLACE 233 44 45",
+        "GROVE PLACE 333 B-59/60",
+        "GROVE PLACE 54 55",
+        "MUTUAL HOMES B-43",
+        "MUTUAL HOMES B-43 A-A3",
+        "MUTUAL HOMES B-43 A-B3",
+        "MUTUAL HOMES B-43 B-2",
+        "MUTUAL HOMES B-44 A-A2",
+        "MUTUAL HOMES B-45 A-C1",
+        "MUTUAL HOMES B-45 A-C3",
+        "MUTUAL HOMES B-54 A-C1",
+        "MUTUAL HOMES B-54 A-C2",
+        "MUTUAL HOMES B-54 A-D1",
+        "MUTUAL HOMES B-54 A-D3",
+        "MUTUAL HOMES B-55 A-A1",
+        "MUTUAL HOMES B-55 A-B3",
+        "MUTUAL HOMES B-57",
+        "MUTUAL HOMES B-57 A-A1",
+        "MUTUAL HOMES B-57 A-A2",
+        "MUTUAL HOMES B-57 A-B3",
+        "MUTUAL HOMES B-58 A-C1",
+        "MUTUAL HOMES B-58 A-D3",
+        "MUTUAL HOMES B-59",
+        "MUTUAL HOMES B-59 A-A1",
+        "MUTUAL HOMES B-59 A-A3",
+        "MUTUAL HOMES B-59 A-B1",
+        "MUTUAL HOMES B-60",
+        "MUTUAL HOMES B-60 A-C3",
+        "MUTUAL HOMES B-60 A-D2"
+      ],
+      "modifiedAt": "2026-11-13T14:01:57Z",
+      "name": "T-C-02476",
+      "neighborhoodIDs": [],
+      "point": {
+        "latitude": 17.724069148083426,
+        "longitude": -64.8269988167206
+      },
+      "reportedCustomersInitially": 34,
+      "reportedCustomersOut": 34,
+      "reportedCustomersRestored": 0,
+      "sourceStatus": "Predicted",
+      "startedAt": "2026-11-13T14:01:25Z",
+      "verified": false,
+      "workStatus": null
+    },
+    {
+      "cause": null,
+      "crewAssigned": false,
+      "endedAt": null,
+      "estimatedRestoration": null,
       "id": "eb1d945fa3360b5d6398b9d0e8646da9fd954551268acaf63761b136f2d31879",
       "island": null,
       "locations": [
@@ -3349,7 +3404,7 @@
       "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-13T14:00:50Z",
+  "generatedAt": "2026-11-13T14:05:52Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -3669,25 +3724,25 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "e7570ac3e5f0ff98ee1638f08c8ae4b0ed23889a22587662d05b5c516aeff6c2",
+  "snapshotID": "318d3417d4a2f2df43d98bb21baa846b98203dcd8dddc6e73ea9de655378dda3",
   "source": {
-    "checkedAt": "2026-11-13T14:00:50Z",
+    "checkedAt": "2026-11-13T14:05:52Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-13T14:00:26Z",
+    "updatedAt": "2026-11-13T14:05:25Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "sourceSummary": {
     "customerCountDifference": 2,
-    "customersAffected": 3716,
-    "customersOut": 3716,
+    "customersAffected": 3750,
+    "customersOut": 3750,
     "customersRestored": 0,
-    "customersServed": 54725,
-    "eventCustomersOut": 3714,
+    "customersServed": 54726,
+    "eventCustomersOut": 3748,
     "hourlyCustomersOut": [
       {
         "at": "2026-11-11T14:00:00Z",
-        "customersOut": 18958
+        "customersOut": 13863
       },
       {
         "at": "2026-11-11T15:00:00Z",
@@ -3879,7 +3934,7 @@
       },
       {
         "at": "2026-11-13T14:00:00Z",
-        "customersOut": 3714
+        "customersOut": 3748
       }
     ],
     "locations": [
@@ -5650,6 +5705,11 @@
       "GLYNN 254-A",
       "GLYNN 254A (PUMP)",
       "GLYNN 254-A SUITE # 1",
+      "GROVE PLACE 2 BLD 57/58",
+      "GROVE PLACE 233",
+      "GROVE PLACE 233 44 45",
+      "GROVE PLACE 333 B-59/60",
+      "GROVE PLACE 54 55",
       "HAVENSGHT MALL B STE 304A",
       "HAVENSIGHT",
       "HAVENSIGHT #12",
@@ -6250,6 +6310,32 @@
       "MISGUNST TERRACE 2 CONDO",
       "MOUNTAIN TOP B-2",
       "MOUNTAIN TOP COND B-2 A-5",
+      "MUTUAL HOMES B-43",
+      "MUTUAL HOMES B-43 A-A3",
+      "MUTUAL HOMES B-43 A-B3",
+      "MUTUAL HOMES B-43 B-2",
+      "MUTUAL HOMES B-44 A-A2",
+      "MUTUAL HOMES B-45 A-C1",
+      "MUTUAL HOMES B-45 A-C3",
+      "MUTUAL HOMES B-54 A-C1",
+      "MUTUAL HOMES B-54 A-C2",
+      "MUTUAL HOMES B-54 A-D1",
+      "MUTUAL HOMES B-54 A-D3",
+      "MUTUAL HOMES B-55 A-A1",
+      "MUTUAL HOMES B-55 A-B3",
+      "MUTUAL HOMES B-57",
+      "MUTUAL HOMES B-57 A-A1",
+      "MUTUAL HOMES B-57 A-A2",
+      "MUTUAL HOMES B-57 A-B3",
+      "MUTUAL HOMES B-58 A-C1",
+      "MUTUAL HOMES B-58 A-D3",
+      "MUTUAL HOMES B-59",
+      "MUTUAL HOMES B-59 A-A1",
+      "MUTUAL HOMES B-59 A-A3",
+      "MUTUAL HOMES B-59 A-B1",
+      "MUTUAL HOMES B-60",
+      "MUTUAL HOMES B-60 A-C3",
+      "MUTUAL HOMES B-60 A-D2",
       "NELTBERG 5 HOUSE METER",
       "NELTEBERG",
       "NELTEBERG 6",
@@ -6886,8 +6972,8 @@
       "ZUERIENDENHEIT",
       "ZUFRIDENHEIT 1"
     ],
-    "totalOutages": 14
+    "totalOutages": 15
   },
   "staleAfterSeconds": 900,
-  "unassignedEventCount": 11
+  "unassignedEventCount": 12
 }
