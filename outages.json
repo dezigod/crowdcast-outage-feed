@@ -3158,6 +3158,50 @@
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
+      "id": "848de358d1bfb503e077d24a928bf5008f6590c6314f9a8283b1ba206ce079a4",
+      "island": null,
+      "locations": [
+        "3R AGNES FANCY",
+        "AGNES FANCY",
+        "AGNES FANCY 3B-1",
+        "AGNES FANCY 3C",
+        "AGNES FANCY 3D-1",
+        "AGNES FANCY 3F MTR-1",
+        "AGNES FANCY 3K",
+        "AGNES FANCY 3K-1",
+        "AGNES FANCY 3L",
+        "AGNES FANCY 3-N",
+        "AGNES FANCY 3Q",
+        "AGNES FANCY 3S",
+        "AGNES FANCY 5D",
+        "AGNES FANCY 5D DWELLING",
+        "AGNES FANCY 5D DWN",
+        "AGNES FANCY 5E",
+        "AGNES FANCY 5-E",
+        "EST AGNES FANCY 5H"
+      ],
+      "modifiedAt": "2026-11-13T23:49:47Z",
+      "name": "T-T-04226",
+      "neighborhoodIDs": [
+        "stThomas-agnes-fancy"
+      ],
+      "point": {
+        "latitude": 18.349069598570136,
+        "longitude": -64.9351704926616
+      },
+      "reportedCustomersInitially": 19,
+      "reportedCustomersOut": 19,
+      "reportedCustomersRestored": 0,
+      "sourceStatus": "Predicted",
+      "startedAt": "2026-11-13T23:49:23Z",
+      "verified": false,
+      "workStatus": null
+    },
+    {
+      "cause": null,
+      "crewAssigned": false,
+      "endedAt": null,
+      "estimatedRestoration": null,
       "id": "8e17fd573623d4566e18574161de279e3c004ce54369adf75d674f690cdcb269",
       "island": null,
       "locations": [
@@ -3599,7 +3643,7 @@
       "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-13T23:46:29Z",
+  "generatedAt": "2026-11-13T23:55:32Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -3613,16 +3657,31 @@
           "id": "stThomas-agnes-fancy",
           "island": "stThomas",
           "locations": [
+            "3-N",
+            "3B-1",
+            "3C",
+            "3D-1",
+            "3F MTR-1",
+            "3K",
+            "3K-1",
+            "3L",
+            "3Q",
+            "3S",
             "5-A",
+            "5-E",
             "5B",
+            "5D",
+            "5D DWELLING",
+            "5E",
             "5F"
           ],
           "name": "Agnes Fancy",
           "sourceEventIDs": [
-            "688d24f7b6e72cb60f9dd7cfcfc315b9ee0efe7095b9fbf192b7ed84c8031d54"
+            "688d24f7b6e72cb60f9dd7cfcfc315b9ee0efe7095b9fbf192b7ed84c8031d54",
+            "848de358d1bfb503e077d24a928bf5008f6590c6314f9a8283b1ba206ce079a4"
           ],
           "sourceStatus": "Predicted",
-          "startedAt": "2026-05-24T00:16:58Z"
+          "startedAt": null
         },
         {
           "affectedCustomers": null,
@@ -3943,21 +4002,21 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "c0315d6e6a61d82e724e2d311d40cc68d00d16c7451d3ab52b1833c504c94aef",
+  "snapshotID": "002cdff5a194c825f582c5a1d103fdea1e98e665867abb014bbc42ccaa9a38cb",
   "source": {
-    "checkedAt": "2026-11-13T23:46:29Z",
+    "checkedAt": "2026-11-13T23:55:32Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-13T23:45:27Z",
+    "updatedAt": "2026-11-13T23:55:28Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "sourceSummary": {
     "customerCountDifference": 2,
-    "customersAffected": 4046,
-    "customersOut": 4046,
+    "customersAffected": 4065,
+    "customersOut": 4065,
     "customersRestored": 0,
     "customersServed": 54726,
-    "eventCustomersOut": 4044,
+    "eventCustomersOut": 4063,
     "hourlyCustomersOut": [
       {
         "at": "2026-11-11T23:00:00Z",
@@ -4153,7 +4212,7 @@
       },
       {
         "at": "2026-11-13T23:00:00Z",
-        "customersOut": 4044
+        "customersOut": 4063
       }
     ],
     "locations": [
@@ -4180,6 +4239,7 @@
       "3M BAKKERO",
       "3M-1A ESTATE ST PETER",
       "3M-1A ST PETER MTR 1",
+      "3R AGNES FANCY",
       "47E KRONPRINDSENS GADE",
       "5&9A EST LOWER JOHN DUNKO",
       "5-A APT #4 DOROTHEA",
@@ -4195,8 +4255,23 @@
       "9F GAMBLE NORDSIDEVEJ",
       "A LUCINDA MILLIN HM",
       "AGNES FANCY",
+      "AGNES FANCY 3B-1",
+      "AGNES FANCY 3C",
+      "AGNES FANCY 3D-1",
+      "AGNES FANCY 3F MTR-1",
+      "AGNES FANCY 3K",
+      "AGNES FANCY 3K-1",
+      "AGNES FANCY 3L",
+      "AGNES FANCY 3-N",
+      "AGNES FANCY 3Q",
+      "AGNES FANCY 3S",
       "AGNES FANCY 5-A",
       "AGNES FANCY 5B",
+      "AGNES FANCY 5D",
+      "AGNES FANCY 5D DWELLING",
+      "AGNES FANCY 5D DWN",
+      "AGNES FANCY 5E",
+      "AGNES FANCY 5-E",
       "AGNES FANCY 5F",
       "AIRBOAT RAMP CONCESS V/D",
       "AKA 224 BARBADOS",
@@ -5062,6 +5137,7 @@
       "ELIZABETH FANCY",
       "EMANCIPATION GARDEN",
       "EMILE GRIFFITH B PARK",
+      "EST AGNES FANCY 5H",
       "EST ALTONA & WELGUNST",
       "EST ALTONA 200-5C-5",
       "EST BARETT LOT",
@@ -7189,8 +7265,8 @@
       "ZUERIENDENHEIT",
       "ZUFRIDENHEIT 1"
     ],
-    "totalOutages": 23
+    "totalOutages": 24
   },
   "staleAfterSeconds": 900,
-  "unassignedEventCount": 19
+  "unassignedEventCount": 20
 }
