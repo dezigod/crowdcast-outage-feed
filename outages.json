@@ -1902,7 +1902,7 @@
       "locations": [
         "BOVONI 1-2"
       ],
-      "modifiedAt": "2026-11-13T13:05:32Z",
+      "modifiedAt": "2026-11-13T23:18:21Z",
       "name": "T-T-14186",
       "neighborhoodIDs": [],
       "point": {
@@ -3063,6 +3063,34 @@
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
+      "id": "8e17fd573623d4566e18574161de279e3c004ce54369adf75d674f690cdcb269",
+      "island": null,
+      "locations": [
+        "EST WINTBERG",
+        "WINTBERG 339",
+        "WINTBERG 339 COTTAGE \"\"A\"\"",
+        "WINTBERG 340"
+      ],
+      "modifiedAt": "2026-11-13T23:19:34Z",
+      "name": "T-T-11284",
+      "neighborhoodIDs": [],
+      "point": {
+        "latitude": 18.35060459405134,
+        "longitude": -64.90370491068215
+      },
+      "reportedCustomersInitially": 6,
+      "reportedCustomersOut": 6,
+      "reportedCustomersRestored": 0,
+      "sourceStatus": "Predicted",
+      "startedAt": "2026-11-13T23:19:05Z",
+      "verified": false,
+      "workStatus": null
+    },
+    {
+      "cause": null,
+      "crewAssigned": false,
+      "endedAt": null,
+      "estimatedRestoration": null,
       "id": "9bcdf85596d0f6f62b7c7c64316dc48dae09421193fdafff2a92f34e045ba01f",
       "island": null,
       "locations": [
@@ -3224,6 +3252,41 @@
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
+      "id": "ce87d3cb23994018d00d36ad59b7ae7b21d113170e88e87cfffab08530e55d37",
+      "island": null,
+      "locations": [
+        "FRENCH VIEW COND 14-34",
+        "FRENCHMAN BAY 14-34",
+        "FRENCHMAN BAY 14-34 A-24",
+        "FRENCHMAN BAY 14-34 A-26",
+        "FRENCHMAN BAY 14-34 B-2",
+        "FRENCHMAN BAY 14-34 U-21",
+        "FRENCHMAN BAY 14-34 U-23",
+        "FRENCHMAN BAY 14-37 DWN",
+        "FRENCHMAN BAY 14-37 UP",
+        "FRENCHMAN'S BAY 14-37 C",
+        "FRENCHMAN'S BAY 14-37C"
+      ],
+      "modifiedAt": "2026-11-13T23:18:21Z",
+      "name": "T-T-15145",
+      "neighborhoodIDs": [],
+      "point": {
+        "latitude": 18.326372568998273,
+        "longitude": -64.90177501112535
+      },
+      "reportedCustomersInitially": 11,
+      "reportedCustomersOut": 11,
+      "reportedCustomersRestored": 0,
+      "sourceStatus": "Predicted",
+      "startedAt": "2026-11-13T23:18:04Z",
+      "verified": false,
+      "workStatus": null
+    },
+    {
+      "cause": null,
+      "crewAssigned": false,
+      "endedAt": null,
+      "estimatedRestoration": null,
       "id": "dd1b95adffb9714a4107bf14644b509a6d8105e140fc4fbc4139e21fc326fe24",
       "island": null,
       "locations": [
@@ -3319,7 +3382,7 @@
       "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-13T23:16:17Z",
+  "generatedAt": "2026-11-13T23:21:19Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -3639,21 +3702,21 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "21f3f4832a9bf0d7e2dab16cb1e12b3855158351badac918a9621456dce8ddc5",
+  "snapshotID": "4dc1f48edc121b1e327e2a037eb020a9f9efc32aabf2605ad4c9e413bef59139",
   "source": {
-    "checkedAt": "2026-11-13T23:16:17Z",
+    "checkedAt": "2026-11-13T23:21:19Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-13T23:15:27Z",
+    "updatedAt": "2026-11-13T23:20:27Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "sourceSummary": {
     "customerCountDifference": 2,
-    "customersAffected": 3893,
-    "customersOut": 3893,
+    "customersAffected": 3910,
+    "customersOut": 3910,
     "customersRestored": 0,
     "customersServed": 54726,
-    "eventCustomersOut": 3891,
+    "eventCustomersOut": 3908,
     "hourlyCustomersOut": [
       {
         "at": "2026-11-11T23:00:00Z",
@@ -3849,7 +3912,7 @@
       },
       {
         "at": "2026-11-13T23:00:00Z",
-        "customersOut": 3891
+        "customersOut": 3908
       }
     ],
     "locations": [
@@ -5005,6 +5068,7 @@
       "EST UPPER JOHN DUNKO 20",
       "EST UPPER JOHN DUNKO 64",
       "EST UPPER JOHN DUNKOE",
+      "EST WINTBERG",
       "EST ZUFRIEDENHEIT 7",
       "EST. BONNE RESOLUTION",
       "EST. DOROTHEA 1A-9-2",
@@ -5090,6 +5154,17 @@
       "ESTATE THOMAS 4 REM",
       "ESTATE THOMAS 6 10TH ST",
       "ESTATE THOMAS 6A 10TH ST",
+      "FRENCH VIEW COND 14-34",
+      "FRENCHMAN BAY 14-34",
+      "FRENCHMAN BAY 14-34 A-24",
+      "FRENCHMAN BAY 14-34 A-26",
+      "FRENCHMAN BAY 14-34 B-2",
+      "FRENCHMAN BAY 14-34 U-21",
+      "FRENCHMAN BAY 14-34 U-23",
+      "FRENCHMAN BAY 14-37 DWN",
+      "FRENCHMAN BAY 14-37 UP",
+      "FRENCHMAN'S BAY 14-37 C",
+      "FRENCHMAN'S BAY 14-37C",
       "FRENCHTOWN B-2",
       "FRYDENDAHL 56-16 MTR-C",
       "FRYDENHOJ 156",
@@ -6739,6 +6814,9 @@
       "WIMMELSKAFTS GADE 6A SHOP",
       "WIMMELSKAFTS GADE 6A(RES)",
       "WINDWARD PASSAGE/TRAFFIC",
+      "WINTBERG 339",
+      "WINTBERG 339 COTTAGE \"\"A\"\"",
+      "WINTBERG 340",
       "ZOOTENAL #-1",
       "ZOOTENVAAL 1",
       "ZOOTENVAAL 3B-2",
@@ -6751,8 +6829,8 @@
       "ZUERIENDENHEIT",
       "ZUFRIDENHEIT 1"
     ],
-    "totalOutages": 17
+    "totalOutages": 19
   },
   "staleAfterSeconds": 900,
-  "unassignedEventCount": 14
+  "unassignedEventCount": 16
 }
