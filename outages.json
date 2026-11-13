@@ -2639,40 +2639,9 @@
       "startedAt": "2026-11-13T15:12:00Z",
       "verified": true,
       "workStatus": null
-    },
-    {
-      "cause": null,
-      "crewAssigned": false,
-      "endedAt": null,
-      "estimatedRestoration": null,
-      "id": "ff40d7115120e016d49250c7c35013e6479bc5e3f0aef1b155a2c0d7eeaa1302",
-      "island": null,
-      "locations": [
-        "JOSEPH & ROSENDAHL 4C",
-        "ST JOSEPH & ROSEN 4C",
-        "ST JOSEPH & ROSEN 4-C",
-        "ST JOSEPH & ROSEN 4C 6-B",
-        "ST JOSEPH & ROSEN 4C U-D",
-        "ST JOSEPH & ROSENDAHL",
-        "ST JOSEPH & ROSENDAHL 4C"
-      ],
-      "modifiedAt": "2026-11-13T15:16:55Z",
-      "name": "T-T-09758",
-      "neighborhoodIDs": [],
-      "point": {
-        "latitude": 18.347667405504573,
-        "longitude": -64.91016404120575
-      },
-      "reportedCustomersInitially": 10,
-      "reportedCustomersOut": 10,
-      "reportedCustomersRestored": 0,
-      "sourceStatus": "Predicted",
-      "startedAt": "2026-11-13T15:16:31Z",
-      "verified": false,
-      "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-13T16:10:43Z",
+  "generatedAt": "2026-11-13T16:15:45Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -2759,21 +2728,21 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "35a69bc2428aa5ce710d86ea7afc8acd9d86d8bf73f9e31a3dfbc06893225f5b",
+  "snapshotID": "7a1559d9e2d543a29bd130b30b484fdb5d476ed7a3a6d795df591f8bbfc385dc",
   "source": {
-    "checkedAt": "2026-11-13T16:10:43Z",
+    "checkedAt": "2026-11-13T16:15:45Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-13T16:10:25Z",
+    "updatedAt": "2026-11-13T16:15:26Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "sourceSummary": {
     "customerCountDifference": 2,
-    "customersAffected": 2403,
-    "customersOut": 2403,
+    "customersAffected": 2393,
+    "customersOut": 2393,
     "customersRestored": 0,
     "customersServed": 54726,
-    "eventCustomersOut": 2401,
+    "eventCustomersOut": 2391,
     "hourlyCustomersOut": [
       {
         "at": "2026-11-11T16:00:00Z",
@@ -2965,11 +2934,11 @@
       },
       {
         "at": "2026-11-13T15:00:00Z",
-        "customersOut": 7121
+        "customersOut": 7111
       },
       {
         "at": "2026-11-13T16:00:00Z",
-        "customersOut": 2401
+        "customersOut": 2391
       }
     ],
     "locations": [
@@ -4823,7 +4792,6 @@
       "GRUNWALD APT.#4",
       "GRUNWALD EST 1-1-21",
       "HP & R PARKING LOT",
-      "JOSEPH & ROSENDAHL 4C",
       "KC BETHANY 5",
       "LERKENLUND 9D-1-2",
       "LOVENLUND EST FARMHOUSE",
@@ -5151,12 +5119,6 @@
       "SANS SOUCI& GUINEA GUT3B-",
       "ST JOHN 18-D",
       "ST JOHN 7",
-      "ST JOSEPH & ROSEN 4C",
-      "ST JOSEPH & ROSEN 4-C",
-      "ST JOSEPH & ROSEN 4C 6-B",
-      "ST JOSEPH & ROSEN 4C U-D",
-      "ST JOSEPH & ROSENDAHL",
-      "ST JOSEPH & ROSENDAHL 4C",
       "STRAND STREET",
       "STRAND STREET (PASSAGE)",
       "STRAND STREET 34-B",
@@ -5204,8 +5166,8 @@
       "WESTERN SUBURB 8 A-B2",
       "WESTERN SUBURB 8B-A-8"
     ],
-    "totalOutages": 18
+    "totalOutages": 17
   },
   "staleAfterSeconds": 900,
-  "unassignedEventCount": 15
+  "unassignedEventCount": 14
 }
