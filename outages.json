@@ -3221,31 +3221,6 @@
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
-      "id": "38b9bc05aae20e7dc9d3f2cc392f12775bd3df5a05efd4f2ddeaf6936e2687b7",
-      "island": null,
-      "locations": [
-        "FRIEDENSTHAL 16 (EL)"
-      ],
-      "modifiedAt": "2026-11-13T17:25:44Z",
-      "name": "202210",
-      "neighborhoodIDs": [],
-      "point": {
-        "latitude": 17.740195819496325,
-        "longitude": -64.70797235554015
-      },
-      "reportedCustomersInitially": 1,
-      "reportedCustomersOut": 1,
-      "reportedCustomersRestored": 0,
-      "sourceStatus": "Verified",
-      "startedAt": "2026-11-13T15:59:43Z",
-      "verified": true,
-      "workStatus": null
-    },
-    {
-      "cause": null,
-      "crewAssigned": false,
-      "endedAt": null,
-      "estimatedRestoration": null,
       "id": "440fad937fa7aee943e24c27534fc96627938105784a348a02fcb8cfa5ec76c4",
       "island": null,
       "locations": [
@@ -6779,7 +6754,7 @@
       "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-13T19:35:59Z",
+  "generatedAt": "2026-11-13T19:41:01Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -7550,21 +7525,21 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "1c812fed34594c42940bad7e9e935125ced9f30c12464c845e0961b4c4ffce95",
+  "snapshotID": "ca2848a158e5b3272ff7a98be07d9fdab4d8e9ae38c56cc3cf7ba89a3d2b5c8e",
   "source": {
-    "checkedAt": "2026-11-13T19:35:59Z",
+    "checkedAt": "2026-11-13T19:41:01Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-13T19:35:28Z",
+    "updatedAt": "2026-11-13T19:40:28Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "sourceSummary": {
     "customerCountDifference": 2,
-    "customersAffected": 8064,
-    "customersOut": 8064,
+    "customersAffected": 8063,
+    "customersOut": 8063,
     "customersRestored": 0,
     "customersServed": 54726,
-    "eventCustomersOut": 8062,
+    "eventCustomersOut": 8061,
     "hourlyCustomersOut": [
       {
         "at": "2026-11-11T19:00:00Z",
@@ -10567,7 +10542,6 @@
       "FREEMANS GROUND 7-1",
       "FREEMANS GROUND 7-2",
       "FREEMANS GROUND 8A",
-      "FRIEDENSTHAL 16 (EL)",
       "FRIIS 5C-2",
       "FRIIS ST JOHN",
       "FRYDENDAHL 56-16 MTR-C",
@@ -14131,8 +14105,8 @@
       "ZUERIENDENHEIT",
       "ZUFRIDENHEIT 1"
     ],
-    "totalOutages": 16
+    "totalOutages": 15
   },
   "staleAfterSeconds": 900,
-  "unassignedEventCount": 13
+  "unassignedEventCount": 12
 }
