@@ -31,6 +31,31 @@
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
+      "id": "01a366aa111a3f5dc7746fde4d634ca67e80b59bb9708195ded5afc57fe25944",
+      "island": null,
+      "locations": [
+        "ESTATE THOMAS 4 REM"
+      ],
+      "modifiedAt": "2026-11-13T11:06:46Z",
+      "name": "T-T-03657",
+      "neighborhoodIDs": [],
+      "point": {
+        "latitude": 18.336776789314367,
+        "longitude": -64.90901522962939
+      },
+      "reportedCustomersInitially": 1,
+      "reportedCustomersOut": 1,
+      "reportedCustomersRestored": 0,
+      "sourceStatus": "Predicted",
+      "startedAt": "2026-11-13T11:06:14Z",
+      "verified": false,
+      "workStatus": null
+    },
+    {
+      "cause": null,
+      "crewAssigned": false,
+      "endedAt": null,
+      "estimatedRestoration": null,
       "id": "0e04d83c18431a190cfa8d02f4101fd8c190cee7e76f869079ab1685902cb8bb",
       "island": null,
       "locations": [
@@ -162,6 +187,43 @@
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
+      "id": "4acc869f0b433180ef68e19b36af346861bd4afab7a6ff4af86a49cda3040aec",
+      "island": null,
+      "locations": [
+        "MAHOGANY RUN 17M MTR 4",
+        "MAHOGANY RUN 17U A-386",
+        "MAHOGANY RUN 19U",
+        "MAHOGANY RUN B-17 A-389",
+        "MAHOGANY RUN B18",
+        "MAHOGANY RUN COND 20",
+        "MAHOGANY RUN COND0 B-19",
+        "MAHOGANY RUN CONDO 20W",
+        "MAHOGANY RUN CONDO B-10",
+        "MAHOGANY RUN CONDO B-18",
+        "MAHOGANY RUN CONDO B-19",
+        "MAHOGANY RUN CONDO B-20",
+        "MAHOGONY RUN CONDO 20L"
+      ],
+      "modifiedAt": "2026-11-13T11:05:42Z",
+      "name": "T-T-17270",
+      "neighborhoodIDs": [],
+      "point": {
+        "latitude": 18.363170241078116,
+        "longitude": -64.90518530625968
+      },
+      "reportedCustomersInitially": 15,
+      "reportedCustomersOut": 15,
+      "reportedCustomersRestored": 0,
+      "sourceStatus": "Predicted",
+      "startedAt": "2026-11-13T11:05:16Z",
+      "verified": false,
+      "workStatus": null
+    },
+    {
+      "cause": null,
+      "crewAssigned": false,
+      "endedAt": null,
+      "estimatedRestoration": null,
       "id": "56dc1ccd9c687e1209593b892116a2d6b225d659b782a84b350bc192b6bf7ca9",
       "island": null,
       "locations": [
@@ -249,6 +311,44 @@
       "reportedCustomersRestored": 0,
       "sourceStatus": "Predicted",
       "startedAt": "2026-11-13T11:03:48Z",
+      "verified": false,
+      "workStatus": null
+    },
+    {
+      "cause": null,
+      "crewAssigned": false,
+      "endedAt": null,
+      "estimatedRestoration": null,
+      "id": "9ecd83d34aed7401a37f4090d03d058e463408180ce76221b27654bd464994e3",
+      "island": null,
+      "locations": [
+        "EST THOMAS 14E 6",
+        "EST THOMAS 14NJ A-1",
+        "EST THOMAS 14NP",
+        "EST THOMAS 14NP 3FL APT-5",
+        "EST THOMAS 14NP APT 2",
+        "EST THOMAS 14NP-18 6E A-3",
+        "EST THOMAS 14NQ 6E",
+        "EST THOMAS 14NQ-6E",
+        "EST THOMAS 14PI",
+        "EST THOMAS 14PI (EL)",
+        "EST THOMAS 14PI APT-1",
+        "EST THOMAS 14PL (EL)",
+        "EST THOMAS 14PL APT-7",
+        "ESTATE THOMAS 14NQ-6E"
+      ],
+      "modifiedAt": "2026-11-13T11:06:16Z",
+      "name": "T-T-15855",
+      "neighborhoodIDs": [],
+      "point": {
+        "latitude": 18.33546038779535,
+        "longitude": -64.91060845401466
+      },
+      "reportedCustomersInitially": 22,
+      "reportedCustomersOut": 22,
+      "reportedCustomersRestored": 0,
+      "sourceStatus": "Predicted",
+      "startedAt": "2026-11-13T11:05:42Z",
       "verified": false,
       "workStatus": null
     },
@@ -357,9 +457,45 @@
       "startedAt": "2026-10-14T15:23:16Z",
       "verified": true,
       "workStatus": null
+    },
+    {
+      "cause": null,
+      "crewAssigned": false,
+      "endedAt": null,
+      "estimatedRestoration": null,
+      "id": "dba819db5869bab3b895ff62c9d825c76a23e37f446117cb78b208fb6d4345c8",
+      "island": null,
+      "locations": [
+        "EST MANDAHL 2C-7",
+        "EST. MANDAHL 2C-9",
+        "ESTATE MANDAHL 2C-1",
+        "MANDAHL #2C-3 DWN",
+        "MANDAHL (UP)",
+        "MANDAHL 2 C-3",
+        "MANDAHL 2C-1& 2D-3C",
+        "MANDAHL 2C-10",
+        "MANDAHL 2C-2",
+        "MANDAHL 2C-4",
+        "MANDAHL 2C-5",
+        "MANDAHL 2C-6*"
+      ],
+      "modifiedAt": "2026-11-13T11:05:58Z",
+      "name": "T-T-10263_1217",
+      "neighborhoodIDs": [],
+      "point": {
+        "latitude": 18.355551873003947,
+        "longitude": -64.90033879390641
+      },
+      "reportedCustomersInitially": 12,
+      "reportedCustomersOut": 12,
+      "reportedCustomersRestored": 0,
+      "sourceStatus": "Predicted",
+      "startedAt": "2026-11-13T11:05:41Z",
+      "verified": false,
+      "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-13T11:05:44Z",
+  "generatedAt": "2026-11-13T11:10:46Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -444,21 +580,21 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "2e6c46747228b94f626a299654e87cc11407b3f7117fd8590f84f8e0df8e8885",
+  "snapshotID": "d0ca2bad55bf1736341dc331eff6896e04d6a0b7b44f1c6309eec0268f5bf21c",
   "source": {
-    "checkedAt": "2026-11-13T11:05:44Z",
+    "checkedAt": "2026-11-13T11:10:46Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-13T11:05:24Z",
+    "updatedAt": "2026-11-13T11:10:24Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "sourceSummary": {
     "customerCountDifference": 2,
-    "customersAffected": 56,
-    "customersOut": 56,
+    "customersAffected": 106,
+    "customersOut": 106,
     "customersRestored": 0,
     "customersServed": 54725,
-    "eventCustomersOut": 54,
+    "eventCustomersOut": 104,
     "hourlyCustomersOut": [
       {
         "at": "2026-11-11T11:00:00Z",
@@ -654,7 +790,7 @@
       },
       {
         "at": "2026-11-13T11:00:00Z",
-        "customersOut": 54
+        "customersOut": 104
       }
     ],
     "locations": [
@@ -678,9 +814,27 @@
       "COTTON VALLEY",
       "COTTON VALLEY 247",
       "COTTON VALLEY 251",
+      "EST MANDAHL 2C-7",
+      "EST THOMAS 14E 6",
+      "EST THOMAS 14NJ A-1",
+      "EST THOMAS 14NP",
+      "EST THOMAS 14NP 3FL APT-5",
+      "EST THOMAS 14NP APT 2",
+      "EST THOMAS 14NP-18 6E A-3",
+      "EST THOMAS 14NQ 6E",
+      "EST THOMAS 14NQ-6E",
+      "EST THOMAS 14PI",
+      "EST THOMAS 14PI (EL)",
+      "EST THOMAS 14PI APT-1",
+      "EST THOMAS 14PL (EL)",
+      "EST THOMAS 14PL APT-7",
       "EST THOMAS WEST 4D-4E",
       "EST WINTBERG",
+      "EST. MANDAHL 2C-9",
       "ESTATE CARET BAY 2E-51-5",
+      "ESTATE MANDAHL 2C-1",
+      "ESTATE THOMAS 14NQ-6E",
+      "ESTATE THOMAS 4 REM",
       "GLYNN 204",
       "GLYNN 254",
       "GLYNN 254 A SUITE 6",
@@ -689,6 +843,28 @@
       "GLYNN 254-A SUITE # 1",
       "LERKENLUND 9D-1-2",
       "LOVENLUND EST FARMHOUSE",
+      "MAHOGANY RUN 17M MTR 4",
+      "MAHOGANY RUN 17U A-386",
+      "MAHOGANY RUN 19U",
+      "MAHOGANY RUN B-17 A-389",
+      "MAHOGANY RUN B18",
+      "MAHOGANY RUN COND 20",
+      "MAHOGANY RUN COND0 B-19",
+      "MAHOGANY RUN CONDO 20W",
+      "MAHOGANY RUN CONDO B-10",
+      "MAHOGANY RUN CONDO B-18",
+      "MAHOGANY RUN CONDO B-19",
+      "MAHOGANY RUN CONDO B-20",
+      "MAHOGONY RUN CONDO 20L",
+      "MANDAHL #2C-3 DWN",
+      "MANDAHL (UP)",
+      "MANDAHL 2 C-3",
+      "MANDAHL 2C-1& 2D-3C",
+      "MANDAHL 2C-10",
+      "MANDAHL 2C-2",
+      "MANDAHL 2C-4",
+      "MANDAHL 2C-5",
+      "MANDAHL 2C-6*",
       "PROFIT HILLS 169",
       "ST JOHN 18-D",
       "SUBBASE 100",
@@ -698,8 +874,8 @@
       "WINTBERG 339 COTTAGE \"\"A\"\"",
       "WINTBERG 340"
     ],
-    "totalOutages": 13
+    "totalOutages": 17
   },
   "staleAfterSeconds": 900,
-  "unassignedEventCount": 10
+  "unassignedEventCount": 14
 }
