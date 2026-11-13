@@ -1843,6 +1843,34 @@
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
+      "id": "331bbe72760534c3ad02ff6b0f7cfb14392c5f29a7ad6f5dae764829a796b60f",
+      "island": null,
+      "locations": [
+        "MODULAR CLASSROOM - IEKHS",
+        "NAZARETH - EUDORA KEAN",
+        "SMITH BAY",
+        "SMITH BAY 18-14"
+      ],
+      "modifiedAt": "2026-11-13T23:14:31Z",
+      "name": "T-T-08224",
+      "neighborhoodIDs": [],
+      "point": {
+        "latitude": 18.32602409964683,
+        "longitude": -64.85279854510034
+      },
+      "reportedCustomersInitially": 4,
+      "reportedCustomersOut": 4,
+      "reportedCustomersRestored": 0,
+      "sourceStatus": "Predicted",
+      "startedAt": "2026-11-13T23:14:19Z",
+      "verified": false,
+      "workStatus": null
+    },
+    {
+      "cause": null,
+      "crewAssigned": false,
+      "endedAt": null,
+      "estimatedRestoration": null,
       "id": "466bc9614c76460646f6e693474c200e210063775b3dac783172ab48908c90e8",
       "island": null,
       "locations": [
@@ -3291,7 +3319,7 @@
       "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-13T23:11:15Z",
+  "generatedAt": "2026-11-13T23:16:17Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -3611,21 +3639,21 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "d31bb353f0d57338663849e4498e333f495517cf486e0c90b014f6bd4be1201f",
+  "snapshotID": "21f3f4832a9bf0d7e2dab16cb1e12b3855158351badac918a9621456dce8ddc5",
   "source": {
-    "checkedAt": "2026-11-13T23:11:15Z",
+    "checkedAt": "2026-11-13T23:16:17Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-13T23:10:27Z",
+    "updatedAt": "2026-11-13T23:15:27Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "sourceSummary": {
     "customerCountDifference": 2,
-    "customersAffected": 3889,
-    "customersOut": 3889,
+    "customersAffected": 3893,
+    "customersOut": 3893,
     "customersRestored": 0,
     "customersServed": 54726,
-    "eventCustomersOut": 3887,
+    "eventCustomersOut": 3891,
     "hourlyCustomersOut": [
       {
         "at": "2026-11-11T23:00:00Z",
@@ -3821,7 +3849,7 @@
       },
       {
         "at": "2026-11-13T23:00:00Z",
-        "customersOut": 3887
+        "customersOut": 3891
       }
     ],
     "locations": [
@@ -5941,6 +5969,7 @@
       "MISGUNST MAFOLIE",
       "MISGUNST NO. 5F",
       "MISGUNST TERRACE 2 CONDO",
+      "MODULAR CLASSROOM - IEKHS",
       "MOUNTAIN TOP B-2",
       "MOUNTAIN TOP COND B-2 A-5",
       "MURPHY GADE",
@@ -5948,6 +5977,7 @@
       "MURPHY GADE 20B",
       "MURPHY GADE 2A",
       "MURPHY GADE 4",
+      "NAZARETH - EUDORA KEAN",
       "NELLIKE GADE #1",
       "NELLIKE GADE #9 APT 3",
       "NELLIKE GADE 6 7A & 7B",
@@ -6143,6 +6173,8 @@
       "SMALL STRADE",
       "SMALL STRADE 3",
       "SMALL STRADE 5B",
+      "SMITH BAY",
+      "SMITH BAY 18-14",
       "SMITH BAY 88C MTR 2",
       "SNEGEL GADE #7",
       "SNEGEL GADE DWN",
@@ -6719,8 +6751,8 @@
       "ZUERIENDENHEIT",
       "ZUFRIDENHEIT 1"
     ],
-    "totalOutages": 16
+    "totalOutages": 17
   },
   "staleAfterSeconds": 900,
-  "unassignedEventCount": 13
+  "unassignedEventCount": 14
 }
