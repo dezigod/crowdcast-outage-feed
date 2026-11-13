@@ -1671,6 +1671,32 @@
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
+      "id": "466bc9614c76460646f6e693474c200e210063775b3dac783172ab48908c90e8",
+      "island": null,
+      "locations": [
+        "CASTLE COAKLEY",
+        "CASTLE COAKLEY 54"
+      ],
+      "modifiedAt": "2026-11-13T17:32:17Z",
+      "name": "T-C-06088",
+      "neighborhoodIDs": [],
+      "point": {
+        "latitude": 17.72783857305157,
+        "longitude": -64.74354200938487
+      },
+      "reportedCustomersInitially": 7,
+      "reportedCustomersOut": 7,
+      "reportedCustomersRestored": 0,
+      "sourceStatus": "Predicted",
+      "startedAt": "2026-11-13T17:31:46Z",
+      "verified": false,
+      "workStatus": null
+    },
+    {
+      "cause": null,
+      "crewAssigned": false,
+      "endedAt": null,
+      "estimatedRestoration": null,
       "id": "4a3f0a315506757465227b7b8af29e7bb7b6c8ed1cccd49b9833ba4ca8788ac7",
       "island": null,
       "locations": [
@@ -4109,7 +4135,7 @@
       "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-13T17:31:12Z",
+  "generatedAt": "2026-11-13T17:36:15Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -4253,21 +4279,21 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "cd072b97e5443155a3549fe742570095d93ecd6bcc987507686c6577535a8436",
+  "snapshotID": "d77f39edb88881c18a6e831b05cd12077a59f6a9f97d168200eb1707a5ac6dde",
   "source": {
-    "checkedAt": "2026-11-13T17:31:12Z",
+    "checkedAt": "2026-11-13T17:36:15Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-13T17:30:27Z",
+    "updatedAt": "2026-11-13T17:35:26Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "sourceSummary": {
     "customerCountDifference": 2,
-    "customersAffected": 5059,
-    "customersOut": 5059,
+    "customersAffected": 5066,
+    "customersOut": 5066,
     "customersRestored": 0,
     "customersServed": 54726,
-    "eventCustomersOut": 5057,
+    "eventCustomersOut": 5064,
     "hourlyCustomersOut": [
       {
         "at": "2026-11-11T17:00:00Z",
@@ -4463,7 +4489,7 @@
       },
       {
         "at": "2026-11-13T17:00:00Z",
-        "customersOut": 9363
+        "customersOut": 9370
       }
     ],
     "locations": [
@@ -5079,6 +5105,8 @@
       "CARET BAY 2E-51-19 B-6",
       "CARET BAY 2E-51-19 B-7",
       "CARET BAY 2E-51-19 B-8",
+      "CASTLE COAKLEY",
+      "CASTLE COAKLEY 54",
       "CATHERINEBERG",
       "CATHERINEBERG 1-AB",
       "CATHERINEBERG 8",
@@ -8153,8 +8181,8 @@
       "WIMMELSKAFTS GADE 6A(RES)",
       "WINDWARD PASSAGE/TRAFFIC"
     ],
-    "totalOutages": 17
+    "totalOutages": 18
   },
   "staleAfterSeconds": 900,
-  "unassignedEventCount": 14
+  "unassignedEventCount": 15
 }
