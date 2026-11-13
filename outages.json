@@ -254,7 +254,7 @@
         "ANNAS RETREAT 1-8 UP",
         "TUTU 1-9"
       ],
-      "modifiedAt": "2026-11-13T13:06:42Z",
+      "modifiedAt": "2026-11-13T13:19:06Z",
       "name": "FUST-10964",
       "neighborhoodIDs": [],
       "point": {
@@ -1554,6 +1554,8 @@
         "SCOTT FREE 42",
         "SCOTT FREE 42A",
         "SCOTT FREE 47",
+        "SCOTT FREE 49",
+        "SCOTT FREE 53",
         "SCOTT FREE 54",
         "SCOTT FREE 54 DWN",
         "SCOTT FREE 62",
@@ -2022,6 +2024,7 @@
         "UPPER JOHN DUNKO 33 MTR 2",
         "UPPER JOHN DUNKO 43",
         "UPPER JOHN DUNKO 44",
+        "UPPER JOHN DUNKO 52 REM",
         "UPPER JOHN DUNKO 58",
         "UPPER JOHN DUNKO 58 UNIT3",
         "UPPER JOHN DUNKO 58A",
@@ -2040,6 +2043,8 @@
         "UPPER JOHN DUNKOE 32",
         "UPPER JOHN DUNKOE 38",
         "UPPER JOHN DUNKOE 39-1",
+        "UPPER JOHN DUNKOE 48",
+        "UPPER JOHN DUNKOE 51",
         "UPPER JOHN DUNKOE 56",
         "UPPER JOHN DUNKOE 59",
         "UPPER JOHN DUNKOE 60",
@@ -2051,7 +2056,7 @@
         "ZUERIENDENHEIT",
         "ZUFRIDENHEIT 1"
       ],
-      "modifiedAt": "2026-11-13T13:03:44Z",
+      "modifiedAt": "2026-11-13T13:19:21Z",
       "name": "STT106815_1022",
       "neighborhoodIDs": [
         "stThomas-st-peter"
@@ -2060,40 +2065,11 @@
         "latitude": 18.359396516782887,
         "longitude": -64.94922041540872
       },
-      "reportedCustomersInitially": 2220,
-      "reportedCustomersOut": 2220,
+      "reportedCustomersInitially": 2227,
+      "reportedCustomersOut": 2227,
       "reportedCustomersRestored": 0,
       "sourceStatus": "Verified",
       "startedAt": "2026-11-13T13:03:38Z",
-      "verified": true,
-      "workStatus": null
-    },
-    {
-      "cause": null,
-      "crewAssigned": false,
-      "endedAt": null,
-      "estimatedRestoration": null,
-      "id": "89b35e56a82c5e8fdcbb671c5e1d8c0ad9fa61d24f35b2afd60adc781ee299e2",
-      "island": null,
-      "locations": [
-        "SCOTT FREE 49",
-        "SCOTT FREE 53",
-        "UPPER JOHN DUNKO 52 REM",
-        "UPPER JOHN DUNKOE 48",
-        "UPPER JOHN DUNKOE 51"
-      ],
-      "modifiedAt": "2026-11-13T13:03:44Z",
-      "name": "T-T-09091",
-      "neighborhoodIDs": [],
-      "point": {
-        "latitude": 18.346326383295196,
-        "longitude": -64.95193260613348
-      },
-      "reportedCustomersInitially": 7,
-      "reportedCustomersOut": 7,
-      "reportedCustomersRestored": 0,
-      "sourceStatus": "Verified",
-      "startedAt": "2026-11-13T13:01:36Z",
       "verified": true,
       "workStatus": null
     },
@@ -3404,7 +3380,7 @@
       "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-13T13:16:31Z",
+  "generatedAt": "2026-11-13T13:25:31Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -3724,11 +3700,11 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "c390c91e2e62c807c5539819078c2e1d7177bb8bb5f8d88297204f58218cb022",
+  "snapshotID": "46c33a1d9fd4697553b3e5074b58b4e38385a438182e16d19fd6ad6ca229ce14",
   "source": {
-    "checkedAt": "2026-11-13T13:16:31Z",
+    "checkedAt": "2026-11-13T13:25:31Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-13T13:15:25Z",
+    "updatedAt": "2026-11-13T13:25:25Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
@@ -6948,8 +6924,8 @@
       "ZUERIENDENHEIT",
       "ZUFRIDENHEIT 1"
     ],
-    "totalOutages": 16
+    "totalOutages": 15
   },
   "staleAfterSeconds": 900,
-  "unassignedEventCount": 13
+  "unassignedEventCount": 12
 }
