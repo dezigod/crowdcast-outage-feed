@@ -1874,31 +1874,6 @@
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
-      "id": "8faf0c7298910fe5d3783c8729d3303898ec8a220cbd8530ecee6f8527b0d195",
-      "island": null,
-      "locations": [
-        "HERMAN HILL"
-      ],
-      "modifiedAt": "2026-11-13T17:45:35Z",
-      "name": "T-C-03560",
-      "neighborhoodIDs": [],
-      "point": {
-        "latitude": 17.734562276610667,
-        "longitude": -64.70905137080008
-      },
-      "reportedCustomersInitially": 2,
-      "reportedCustomersOut": 2,
-      "reportedCustomersRestored": 0,
-      "sourceStatus": "Predicted",
-      "startedAt": "2026-11-13T17:45:13Z",
-      "verified": false,
-      "workStatus": null
-    },
-    {
-      "cause": null,
-      "crewAssigned": false,
-      "endedAt": null,
-      "estimatedRestoration": null,
       "id": "a7622fe5ec3f7460243d64545ddffb42dc3c534b3876e2c938737688abde9c58",
       "island": "stThomas",
       "locations": [
@@ -4175,7 +4150,7 @@
       "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-13T18:06:27Z",
+  "generatedAt": "2026-11-13T18:11:30Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -4323,25 +4298,25 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "c7820e91bdd1280976ebcbe26a70041dc21f514310f96e1bf9f82521207e4ecd",
+  "snapshotID": "3d0ff47f43617fd908232c38c53f6204b34708c65724917aa0cf19b9c3d3fb6a",
   "source": {
-    "checkedAt": "2026-11-13T18:06:27Z",
+    "checkedAt": "2026-11-13T18:11:30Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-13T18:05:27Z",
+    "updatedAt": "2026-11-13T18:10:27Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "sourceSummary": {
     "customerCountDifference": 2,
-    "customersAffected": 5078,
-    "customersOut": 5078,
+    "customersAffected": 5076,
+    "customersOut": 5076,
     "customersRestored": 0,
     "customersServed": 54726,
-    "eventCustomersOut": 5076,
+    "eventCustomersOut": 5074,
     "hourlyCustomersOut": [
       {
         "at": "2026-11-11T18:00:00Z",
-        "customersOut": 10484
+        "customersOut": 8444
       },
       {
         "at": "2026-11-11T19:00:00Z",
@@ -4529,11 +4504,11 @@
       },
       {
         "at": "2026-11-13T17:00:00Z",
-        "customersOut": 9368
+        "customersOut": 9366
       },
       {
         "at": "2026-11-13T18:00:00Z",
-        "customersOut": 5076
+        "customersOut": 5074
       }
     ],
     "locations": [
@@ -6327,7 +6302,6 @@
       "HASSEL ISLAND",
       "HASSEL ISLAND #2",
       "HASSEL ISLAND ALLAMANDA H",
-      "HERMAN HILL",
       "HGHWAY/TRAFFIC LIGHT POST",
       "HILL ST 27",
       "HILL STREET",
@@ -8239,8 +8213,8 @@
       "WIMMELSKAFTS GADE 6A(RES)",
       "WINDWARD PASSAGE/TRAFFIC"
     ],
-    "totalOutages": 19
+    "totalOutages": 18
   },
   "staleAfterSeconds": 900,
-  "unassignedEventCount": 16
+  "unassignedEventCount": 15
 }
