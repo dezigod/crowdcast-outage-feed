@@ -3992,45 +3992,9 @@
       "startedAt": "2026-10-14T15:23:16Z",
       "verified": true,
       "workStatus": null
-    },
-    {
-      "cause": null,
-      "crewAssigned": false,
-      "endedAt": null,
-      "estimatedRestoration": null,
-      "id": "fc250aab43cde858b39aa1483ce0812f2e3239c1f36258f61db7da27ccd2e075",
-      "island": null,
-      "locations": [
-        "EST THOMAS #5 2ND ST",
-        "EST THOMAS #8 2ND ST",
-        "EST THOMAS 11 2ND ST",
-        "EST THOMAS 1ST AVE LOT 4",
-        "EST THOMAS 2ND",
-        "EST THOMAS 2ND ST #7",
-        "EST THOMAS 2ND ST B-7 A-1",
-        "EST THOMAS 3E 2ND ST A-2",
-        "EST THOMAS 6 2ND ST",
-        "EST THOMAS 7 2ND ST",
-        "EST THOMAS 8 2ND ST",
-        "EST THOMAS PCL 1 2ND"
-      ],
-      "modifiedAt": "2026-11-13T17:27:27Z",
-      "name": "T-T-05197",
-      "neighborhoodIDs": [],
-      "point": {
-        "latitude": 18.340432385361648,
-        "longitude": -64.92019297888356
-      },
-      "reportedCustomersInitially": 16,
-      "reportedCustomersOut": 16,
-      "reportedCustomersRestored": 0,
-      "sourceStatus": "Predicted",
-      "startedAt": "2026-11-13T17:26:54Z",
-      "verified": false,
-      "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-13T18:21:34Z",
+  "generatedAt": "2026-11-13T18:30:34Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -4174,21 +4138,21 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "03ed230ef1c2b3679d188b1b2e3f18c53c1ca7d6b17d6e741134cc512b82e607",
+  "snapshotID": "2e5e3dd5515643fefa3bb2895377f26ab87edf1abf620f97bafba115ec091214",
   "source": {
-    "checkedAt": "2026-11-13T18:21:34Z",
+    "checkedAt": "2026-11-13T18:30:34Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-13T18:20:27Z",
+    "updatedAt": "2026-11-13T18:30:27Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "sourceSummary": {
     "customerCountDifference": 2,
-    "customersAffected": 5056,
-    "customersOut": 5056,
+    "customersAffected": 5040,
+    "customersOut": 5040,
     "customersRestored": 0,
     "customersServed": 54726,
-    "eventCustomersOut": 5054,
+    "eventCustomersOut": 5038,
     "hourlyCustomersOut": [
       {
         "at": "2026-11-11T18:00:00Z",
@@ -4380,11 +4344,11 @@
       },
       {
         "at": "2026-11-13T17:00:00Z",
-        "customersOut": 9360
+        "customersOut": 9344
       },
       {
         "at": "2026-11-13T18:00:00Z",
-        "customersOut": 5054
+        "customersOut": 5038
       }
     ],
     "locations": [
@@ -5557,18 +5521,6 @@
       "EST SMITH BAY 19-2-30",
       "EST SMITH BAY 19-2-43",
       "EST SMITH BAY 19-2-94",
-      "EST THOMAS #5 2ND ST",
-      "EST THOMAS #8 2ND ST",
-      "EST THOMAS 11 2ND ST",
-      "EST THOMAS 1ST AVE LOT 4",
-      "EST THOMAS 2ND",
-      "EST THOMAS 2ND ST #7",
-      "EST THOMAS 2ND ST B-7 A-1",
-      "EST THOMAS 3E 2ND ST A-2",
-      "EST THOMAS 6 2ND ST",
-      "EST THOMAS 7 2ND ST",
-      "EST THOMAS 8 2ND ST",
-      "EST THOMAS PCL 1 2ND",
       "EST WIND NAZARETH",
       "EST. FRYDENHOJ",
       "EST. FRYDENHOJ 1-44",
@@ -8069,8 +8021,8 @@
       "WIMMELSKAFTS GADE 6A(RES)",
       "WINDWARD PASSAGE/TRAFFIC"
     ],
-    "totalOutages": 14
+    "totalOutages": 13
   },
   "staleAfterSeconds": 900,
-  "unassignedEventCount": 11
+  "unassignedEventCount": 10
 }
