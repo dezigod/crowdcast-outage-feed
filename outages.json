@@ -2563,6 +2563,46 @@
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
+      "id": "97160995e437bef701191d380840f149ff7de7cd38315adc682f9cb63567197a",
+      "island": null,
+      "locations": [
+        "CONTANT #171 B-7 A-7D",
+        "CONTANT 171",
+        "CONTANT 171 APT 10E",
+        "CONTANT 171 BLD- 8",
+        "CONTANT 171 BLDG 10 APT",
+        "CONTANT 171 BLDG 7",
+        "CONTANT 171 BLDG 7 APT",
+        "CONTANT 171 BLDG 8",
+        "CONTANT 171 BLDG 8 APT",
+        "CONTANT 171 BLDG 8 APT 8H",
+        "CONTANT 171 BLDG 9 APT",
+        "CONTANT 171 BLDG-10",
+        "CONTANT 171 BLDG-7",
+        "CONTANT 171 BLDG-8",
+        "CONTANT 171 BLDG-9",
+        "CONTANT BLDG 10 171"
+      ],
+      "modifiedAt": "2026-11-13T00:33:05Z",
+      "name": "T-T-16857",
+      "neighborhoodIDs": [],
+      "point": {
+        "latitude": 18.343066442472328,
+        "longitude": -64.95761728365184
+      },
+      "reportedCustomersInitially": 39,
+      "reportedCustomersOut": 39,
+      "reportedCustomersRestored": 0,
+      "sourceStatus": "Predicted",
+      "startedAt": "2026-11-13T00:33:01Z",
+      "verified": false,
+      "workStatus": null
+    },
+    {
+      "cause": null,
+      "crewAssigned": false,
+      "endedAt": null,
+      "estimatedRestoration": null,
       "id": "a41e6de618df193361725496b2995215305f55c77bada07e6690d731643f655c",
       "island": null,
       "locations": [
@@ -2665,7 +2705,7 @@
       "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-13T00:31:16Z",
+  "generatedAt": "2026-11-13T00:36:18Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -2809,21 +2849,21 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "2f5016d266e1882a71ac6a3c7eac6753d562489da80cf990f74b4feb454d0abd",
+  "snapshotID": "5a7893b414cb04d3204dce2a2a6f1d97966c58024dde1d295faf7bbf82a8aa72",
   "source": {
-    "checkedAt": "2026-11-13T00:31:16Z",
+    "checkedAt": "2026-11-13T00:36:18Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-13T00:30:23Z",
+    "updatedAt": "2026-11-13T00:35:23Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "sourceSummary": {
     "customerCountDifference": 2,
-    "customersAffected": 3407,
-    "customersOut": 3407,
+    "customersAffected": 3446,
+    "customersOut": 3446,
     "customersRestored": 0,
     "customersServed": 54725,
-    "eventCustomersOut": 3405,
+    "eventCustomersOut": 3444,
     "hourlyCustomersOut": [
       {
         "at": "2026-11-11T00:00:00Z",
@@ -3019,7 +3059,7 @@
       },
       {
         "at": "2026-11-13T00:00:00Z",
-        "customersOut": 3405
+        "customersOut": 3444
       }
     ],
     "locations": [
@@ -3636,6 +3676,7 @@
       "COMMANDANT TVAER GADE 1B",
       "COMMANDANT TVER GADE",
       "CONTANT",
+      "CONTANT #171 B-7 A-7D",
       "CONTANT #25B",
       "CONTANT 10",
       "CONTANT 105A",
@@ -3643,6 +3684,20 @@
       "CONTANT 105AA DOWN",
       "CONTANT 12-14",
       "CONTANT 16-MANASSAH BUS",
+      "CONTANT 171",
+      "CONTANT 171 APT 10E",
+      "CONTANT 171 BLD- 8",
+      "CONTANT 171 BLDG 10 APT",
+      "CONTANT 171 BLDG 7",
+      "CONTANT 171 BLDG 7 APT",
+      "CONTANT 171 BLDG 8",
+      "CONTANT 171 BLDG 8 APT",
+      "CONTANT 171 BLDG 8 APT 8H",
+      "CONTANT 171 BLDG 9 APT",
+      "CONTANT 171 BLDG-10",
+      "CONTANT 171 BLDG-7",
+      "CONTANT 171 BLDG-8",
+      "CONTANT 171 BLDG-9",
       "CONTANT 2-3",
       "CONTANT 25 A",
       "CONTANT 25A",
@@ -3676,6 +3731,7 @@
       "CONTANT 7-105-A B/TRAFFIC",
       "CONTANT 7B",
       "CONTANT 8",
+      "CONTANT BLDG 10 171",
       "COREENING HOLE (HONDURAS)",
       "COTTON VALLEY",
       "COTTON VALLEY 247",
@@ -5341,8 +5397,8 @@
       "WIMMELSKAFTS GADE 6A(RES)",
       "WINDWARD PASSAGE/TRAFFIC"
     ],
-    "totalOutages": 14
+    "totalOutages": 15
   },
   "staleAfterSeconds": 900,
-  "unassignedEventCount": 11
+  "unassignedEventCount": 12
 }
