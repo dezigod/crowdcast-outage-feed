@@ -1930,6 +1930,40 @@
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
+      "id": "581b7ad8723bc7d29c908e46d48e9d17f82335c9ee8e1d562947a88174226d78",
+      "island": null,
+      "locations": [
+        "CAROLINA 10-6",
+        "CAROLINA 15 (REM)",
+        "CAROLINA 15-1-B",
+        "CAROLINA 15-2",
+        "CAROLINA 15-3",
+        "CAROLINA 15-5",
+        "CAROLINA 15-6",
+        "CAROLINA 15-8",
+        "EST CAROLINA 13D",
+        "EST CAROLINA 15-4"
+      ],
+      "modifiedAt": "2026-11-13T21:33:22Z",
+      "name": "T-J-01658",
+      "neighborhoodIDs": [],
+      "point": {
+        "latitude": 18.341334945066265,
+        "longitude": -64.71604633591915
+      },
+      "reportedCustomersInitially": 10,
+      "reportedCustomersOut": 10,
+      "reportedCustomersRestored": 0,
+      "sourceStatus": "Predicted",
+      "startedAt": "2026-11-13T21:33:02Z",
+      "verified": false,
+      "workStatus": null
+    },
+    {
+      "cause": null,
+      "crewAssigned": false,
+      "endedAt": null,
+      "estimatedRestoration": null,
       "id": "6117cc18c69ff5bc4b19988124d4a4f89d67f1575f9ec1210760b9c6313d436e",
       "island": null,
       "locations": [
@@ -3246,9 +3280,70 @@
       "startedAt": "2026-10-14T15:23:16Z",
       "verified": true,
       "workStatus": null
+    },
+    {
+      "cause": null,
+      "crewAssigned": false,
+      "endedAt": null,
+      "estimatedRestoration": null,
+      "id": "cc96f3dbf32407ff828a11a4b17e89dd372a5a14c2fb6af7289e3e8315df2a98",
+      "island": null,
+      "locations": [
+        "CAROLINA 6-3-141",
+        "CAROLINA 6-3-142",
+        "CAROLINA 6-3-149",
+        "CAROLINA 6-3-150",
+        "CAROLINA 6-3-152"
+      ],
+      "modifiedAt": "2026-11-13T21:33:22Z",
+      "name": "T-J-01520",
+      "neighborhoodIDs": [],
+      "point": {
+        "latitude": 18.3506526139835,
+        "longitude": -64.7151374441354
+      },
+      "reportedCustomersInitially": 5,
+      "reportedCustomersOut": 5,
+      "reportedCustomersRestored": 0,
+      "sourceStatus": "Predicted",
+      "startedAt": "2026-11-13T21:33:13Z",
+      "verified": false,
+      "workStatus": null
+    },
+    {
+      "cause": null,
+      "crewAssigned": false,
+      "endedAt": null,
+      "estimatedRestoration": null,
+      "id": "e6e976c955b71783f1480e3debb710a4859381e1f6e644f88598e9393b369af5",
+      "island": null,
+      "locations": [
+        "CONTANT",
+        "CONTANT 10H",
+        "CONTANT 11-E",
+        "CONTANT 11P",
+        "CONTANT 15A-10",
+        "CONTANT 15A-10 UPPER",
+        "CONTANT 15A-11",
+        "CONTANT 15A-12"
+      ],
+      "modifiedAt": "2026-11-13T21:34:53Z",
+      "name": "T-J-02946",
+      "neighborhoodIDs": [],
+      "point": {
+        "latitude": 18.324626016521144,
+        "longitude": -64.79454877099522
+      },
+      "reportedCustomersInitially": 8,
+      "reportedCustomersOut": 8,
+      "reportedCustomersRestored": 0,
+      "sourceStatus": "Predicted",
+      "startedAt": "2026-11-13T21:34:30Z",
+      "verified": false,
+      "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-13T21:30:40Z",
+  "generatedAt": "2026-11-13T21:35:41Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -3568,21 +3663,21 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "ef09443c620c56a1b784140e94dc5d2cdc933db06b0084d6bac29b815e44e23b",
+  "snapshotID": "7e26bf56a4518d0f72f78b1d1f0981171f579cfd88d5627074bbea47db96cc88",
   "source": {
-    "checkedAt": "2026-11-13T21:30:40Z",
+    "checkedAt": "2026-11-13T21:35:41Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-13T21:30:28Z",
+    "updatedAt": "2026-11-13T21:35:27Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "sourceSummary": {
     "customerCountDifference": 2,
-    "customersAffected": 3913,
-    "customersOut": 3913,
+    "customersAffected": 3936,
+    "customersOut": 3936,
     "customersRestored": 0,
     "customersServed": 54726,
-    "eventCustomersOut": 3911,
+    "eventCustomersOut": 3934,
     "hourlyCustomersOut": [
       {
         "at": "2026-11-11T21:00:00Z",
@@ -3778,7 +3873,7 @@
       },
       {
         "at": "2026-11-13T21:00:00Z",
-        "customersOut": 8050
+        "customersOut": 8058
       }
     ],
     "locations": [
@@ -4212,6 +4307,19 @@
       "CARET BAY 2E-51-19 B-6",
       "CARET BAY 2E-51-19 B-7",
       "CARET BAY 2E-51-19 B-8",
+      "CAROLINA 10-6",
+      "CAROLINA 15 (REM)",
+      "CAROLINA 15-1-B",
+      "CAROLINA 15-2",
+      "CAROLINA 15-3",
+      "CAROLINA 15-5",
+      "CAROLINA 15-6",
+      "CAROLINA 15-8",
+      "CAROLINA 6-3-141",
+      "CAROLINA 6-3-142",
+      "CAROLINA 6-3-149",
+      "CAROLINA 6-3-150",
+      "CAROLINA 6-3-152",
       "CAROLINA 9-9-8",
       "CASTLE COAKLEY",
       "CASTLE COAKLEY 14A (UPST)",
@@ -4314,6 +4422,7 @@
       "CONTANT",
       "CONTANT 107-17",
       "CONTANT 107-18",
+      "CONTANT 10H",
       "CONTANT 11",
       "CONTANT 11-1B MAIN HOUSE",
       "CONTANT 11-1C*",
@@ -4321,6 +4430,12 @@
       "CONTANT 11-4 MAIN HOUSE",
       "CONTANT 11-6 DWN",
       "CONTANT 11-7",
+      "CONTANT 11-E",
+      "CONTANT 11P",
+      "CONTANT 15A-10",
+      "CONTANT 15A-10 UPPER",
+      "CONTANT 15A-11",
+      "CONTANT 15A-12",
       "COREENING HOLE (HONDURAS)",
       "CROWN BAY",
       "CROWN BAY 1 (CANCRYN)",
@@ -4702,6 +4817,8 @@
       "EST BONNE RESOLUTION",
       "EST BONNE RESOLUTION 5E",
       "EST BROWN",
+      "EST CAROLINA 13D",
+      "EST CAROLINA 15-4",
       "EST CLIFTON HILL",
       "EST DOROTHEA",
       "EST DOROTHEA #8",
@@ -6681,8 +6798,8 @@
       "ZUERIENDENHEIT",
       "ZUFRIDENHEIT 1"
     ],
-    "totalOutages": 14
+    "totalOutages": 17
   },
   "staleAfterSeconds": 900,
-  "unassignedEventCount": 11
+  "unassignedEventCount": 14
 }
