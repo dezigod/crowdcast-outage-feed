@@ -6777,42 +6777,9 @@
       "startedAt": "2026-10-14T15:23:16Z",
       "verified": true,
       "workStatus": null
-    },
-    {
-      "cause": null,
-      "crewAssigned": false,
-      "endedAt": null,
-      "estimatedRestoration": null,
-      "id": "d174e322426ae684cc2b3ebd3c2cd33e99f807638a7ed6b2b1bfe7d8f43144fb",
-      "island": null,
-      "locations": [
-        "WHIM 113 A-2",
-        "WHIM 113-A",
-        "WHIM 113-A (HSE 2)",
-        "WHIM 113-D",
-        "WHIM 113H",
-        "WHIM 113-H",
-        "WHIM 113-I",
-        "WHIM 113-L",
-        "WHIM 114C"
-      ],
-      "modifiedAt": "2026-11-13T18:57:21Z",
-      "name": "T-C-23507",
-      "neighborhoodIDs": [],
-      "point": {
-        "latitude": 17.692164017155157,
-        "longitude": -64.85815107173792
-      },
-      "reportedCustomersInitially": 10,
-      "reportedCustomersOut": 10,
-      "reportedCustomersRestored": 0,
-      "sourceStatus": "Predicted",
-      "startedAt": "2026-11-13T18:56:51Z",
-      "verified": false,
-      "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-13T19:25:55Z",
+  "generatedAt": "2026-11-13T19:30:56Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -7583,21 +7550,21 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "f1d61e9f3847cb48d7c958028f88494ea49b6de5f3763f1f3aea55f29e1d1da2",
+  "snapshotID": "1576dccfbd4a3e3420b261003b58818dd1d9c00824b8c54149477a399e8c689d",
   "source": {
-    "checkedAt": "2026-11-13T19:25:55Z",
+    "checkedAt": "2026-11-13T19:30:56Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-13T19:25:28Z",
+    "updatedAt": "2026-11-13T19:30:28Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "sourceSummary": {
     "customerCountDifference": 2,
-    "customersAffected": 8074,
-    "customersOut": 8074,
+    "customersAffected": 8064,
+    "customersOut": 8064,
     "customersRestored": 0,
     "customersServed": 54726,
-    "eventCustomersOut": 8072,
+    "eventCustomersOut": 8062,
     "hourlyCustomersOut": [
       {
         "at": "2026-11-11T19:00:00Z",
@@ -7789,11 +7756,11 @@
       },
       {
         "at": "2026-11-13T18:00:00Z",
-        "customersOut": 8359
+        "customersOut": 8349
       },
       {
         "at": "2026-11-13T19:00:00Z",
-        "customersOut": 8072
+        "customersOut": 8062
       }
     ],
     "locations": [
@@ -14096,15 +14063,6 @@
       "VETERANS DRIVE",
       "VETERANS DRIVE -FED BLDG",
       "WHARFSIDE VILLAGE 7A",
-      "WHIM 113 A-2",
-      "WHIM 113-A",
-      "WHIM 113-A (HSE 2)",
-      "WHIM 113-D",
-      "WHIM 113H",
-      "WHIM 113-H",
-      "WHIM 113-I",
-      "WHIM 113-L",
-      "WHIM 114C",
       "WINTBERG 1",
       "WINTBERG 1 CD-5 UP",
       "WINTBERG 1 G-2",
@@ -14173,8 +14131,8 @@
       "ZUERIENDENHEIT",
       "ZUFRIDENHEIT 1"
     ],
-    "totalOutages": 17
+    "totalOutages": 16
   },
   "staleAfterSeconds": 900,
-  "unassignedEventCount": 14
+  "unassignedEventCount": 13
 }
