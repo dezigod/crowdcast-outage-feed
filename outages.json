@@ -1936,6 +1936,34 @@
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
+      "id": "46bc526fd4b73514d693053edfc9557a0ed9b915918178a90e96d18a9f4bbe5d",
+      "island": null,
+      "locations": [
+        "C-IF EST COKIE POINT",
+        "COKI POINT C-1A",
+        "COKI POINT C1-C",
+        "COKI POINT C-1F DOWN"
+      ],
+      "modifiedAt": "2026-11-13T23:41:14Z",
+      "name": "T-T-07927",
+      "neighborhoodIDs": [],
+      "point": {
+        "latitude": 18.349281734945112,
+        "longitude": -64.86340460963713
+      },
+      "reportedCustomersInitially": 4,
+      "reportedCustomersOut": 4,
+      "reportedCustomersRestored": 0,
+      "sourceStatus": "Predicted",
+      "startedAt": "2026-11-13T23:40:50Z",
+      "verified": false,
+      "workStatus": null
+    },
+    {
+      "cause": null,
+      "crewAssigned": false,
+      "endedAt": null,
+      "estimatedRestoration": null,
       "id": "4a3f0a315506757465227b7b8af29e7bb7b6c8ed1cccd49b9833ba4ca8788ac7",
       "island": null,
       "locations": [
@@ -3571,7 +3599,7 @@
       "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-13T23:41:27Z",
+  "generatedAt": "2026-11-13T23:46:29Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -3915,21 +3943,21 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "ea347c71dae3adabf3afb6f2a881c80001ed4831f8cd85b21fd374aaed29d67f",
+  "snapshotID": "c0315d6e6a61d82e724e2d311d40cc68d00d16c7451d3ab52b1833c504c94aef",
   "source": {
-    "checkedAt": "2026-11-13T23:41:27Z",
+    "checkedAt": "2026-11-13T23:46:29Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-13T23:40:27Z",
+    "updatedAt": "2026-11-13T23:45:27Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "sourceSummary": {
     "customerCountDifference": 2,
-    "customersAffected": 4042,
-    "customersOut": 4042,
+    "customersAffected": 4046,
+    "customersOut": 4046,
     "customersRestored": 0,
     "customersServed": 54726,
-    "eventCustomersOut": 4040,
+    "eventCustomersOut": 4044,
     "hourlyCustomersOut": [
       {
         "at": "2026-11-11T23:00:00Z",
@@ -4125,7 +4153,7 @@
       },
       {
         "at": "2026-11-13T23:00:00Z",
-        "customersOut": 4040
+        "customersOut": 4044
       }
     ],
     "locations": [
@@ -4585,7 +4613,11 @@
       "CASTLE COAKLEY",
       "CASTLE COAKLEY 54",
       "CATHERINEBERG 8",
+      "C-IF EST COKIE POINT",
       "CIRCLE STREET 5 & 6",
+      "COKI POINT C-1A",
+      "COKI POINT C1-C",
+      "COKI POINT C-1F DOWN",
       "COMM TVAER GADE #3",
       "COMMAMDANT GADE 11-3",
       "COMMANDANT GADE",
@@ -7157,8 +7189,8 @@
       "ZUERIENDENHEIT",
       "ZUFRIDENHEIT 1"
     ],
-    "totalOutages": 22
+    "totalOutages": 23
   },
   "staleAfterSeconds": 900,
-  "unassignedEventCount": 18
+  "unassignedEventCount": 19
 }
