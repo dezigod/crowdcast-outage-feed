@@ -3212,6 +3212,31 @@
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
+      "id": "9bcdf85596d0f6f62b7c7c64316dc48dae09421193fdafff2a92f34e045ba01f",
+      "island": null,
+      "locations": [
+        "ESTATE CAROLINA 10-10-22"
+      ],
+      "modifiedAt": "2026-11-13T21:54:18Z",
+      "name": "T-J-03913",
+      "neighborhoodIDs": [],
+      "point": {
+        "latitude": 18.33829267469986,
+        "longitude": -64.72621743220539
+      },
+      "reportedCustomersInitially": 1,
+      "reportedCustomersOut": 1,
+      "reportedCustomersRestored": 0,
+      "sourceStatus": "Predicted",
+      "startedAt": "2026-11-13T21:53:45Z",
+      "verified": false,
+      "workStatus": null
+    },
+    {
+      "cause": null,
+      "crewAssigned": false,
+      "endedAt": null,
+      "estimatedRestoration": null,
       "id": "a7622fe5ec3f7460243d64545ddffb42dc3c534b3876e2c938737688abde9c58",
       "island": "stThomas",
       "locations": [
@@ -3376,7 +3401,7 @@
       "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-13T21:50:46Z",
+  "generatedAt": "2026-11-13T21:55:48Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -3696,21 +3721,21 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "0baf140685a231199fc307bfc3f69e2d169363195ab6c49db3defe0d9816a53b",
+  "snapshotID": "0a241828296abff3f9e8421bacaad6a6f6f578f64f34b63c0dcc0041bfad26e0",
   "source": {
-    "checkedAt": "2026-11-13T21:50:46Z",
+    "checkedAt": "2026-11-13T21:55:48Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-13T21:50:27Z",
+    "updatedAt": "2026-11-13T21:55:32Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "sourceSummary": {
     "customerCountDifference": 2,
-    "customersAffected": 3945,
-    "customersOut": 3945,
+    "customersAffected": 3946,
+    "customersOut": 3946,
     "customersRestored": 0,
     "customersServed": 54726,
-    "eventCustomersOut": 3943,
+    "eventCustomersOut": 3944,
     "hourlyCustomersOut": [
       {
         "at": "2026-11-11T21:00:00Z",
@@ -3906,7 +3931,7 @@
       },
       {
         "at": "2026-11-13T21:00:00Z",
-        "customersOut": 8058
+        "customersOut": 8059
       }
     ],
     "locations": [
@@ -5116,6 +5141,7 @@
       "EST. ST. PETER 4 DWN",
       "EST. UPPER JOHN DUNKOE 9",
       "ESTATE CARET BAY 2E-51-5",
+      "ESTATE CAROLINA 10-10-22",
       "ESTATE DOROTHEA 13B-2",
       "ESTATE DOROTHEA 13-BA",
       "ESTATE DOROTHEA 13-D",
@@ -6840,8 +6866,8 @@
       "ZUERIENDENHEIT",
       "ZUFRIDENHEIT 1"
     ],
-    "totalOutages": 18
+    "totalOutages": 19
   },
   "staleAfterSeconds": 900,
-  "unassignedEventCount": 15
+  "unassignedEventCount": 16
 }
