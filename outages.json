@@ -3704,31 +3704,6 @@
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
-      "id": "365e586376867801278725d4ac3dfe631078418235ba69ffe1ecfafeb739056d",
-      "island": null,
-      "locations": [
-        "ST JOHN 18-D"
-      ],
-      "modifiedAt": "2026-11-13T18:18:50Z",
-      "name": "T-C-20074",
-      "neighborhoodIDs": [],
-      "point": {
-        "latitude": 17.75737628362723,
-        "longitude": -64.74363716103866
-      },
-      "reportedCustomersInitially": 1,
-      "reportedCustomersOut": 1,
-      "reportedCustomersRestored": 0,
-      "sourceStatus": "Predicted",
-      "startedAt": "2026-11-12T11:28:40Z",
-      "verified": false,
-      "workStatus": null
-    },
-    {
-      "cause": null,
-      "crewAssigned": false,
-      "endedAt": null,
-      "estimatedRestoration": null,
       "id": "38b9bc05aae20e7dc9d3f2cc392f12775bd3df5a05efd4f2ddeaf6936e2687b7",
       "island": null,
       "locations": [
@@ -4041,7 +4016,7 @@
       "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-13T18:45:40Z",
+  "generatedAt": "2026-11-13T18:50:41Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -4185,21 +4160,21 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "bbe9d9d2b97ed2d8a87be433067032b9bb35cd7b684497fae1b948d3e0a8a0da",
+  "snapshotID": "856f884c0486284ad95e6283e638e512c4952c68654b4dceebbc96bf47dd8c5a",
   "source": {
-    "checkedAt": "2026-11-13T18:45:40Z",
+    "checkedAt": "2026-11-13T18:50:41Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-13T18:45:28Z",
+    "updatedAt": "2026-11-13T18:50:27Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "sourceSummary": {
     "customerCountDifference": 2,
-    "customersAffected": 5063,
-    "customersOut": 5063,
+    "customersAffected": 5062,
+    "customersOut": 5062,
     "customersRestored": 0,
     "customersServed": 54726,
-    "eventCustomersOut": 5061,
+    "eventCustomersOut": 5060,
     "hourlyCustomersOut": [
       {
         "at": "2026-11-11T18:00:00Z",
@@ -4307,95 +4282,95 @@
       },
       {
         "at": "2026-11-12T20:00:00Z",
-        "customersOut": 8564
+        "customersOut": 8563
       },
       {
         "at": "2026-11-12T21:00:00Z",
-        "customersOut": 5074
+        "customersOut": 5073
       },
       {
         "at": "2026-11-12T22:00:00Z",
-        "customersOut": 6698
+        "customersOut": 6697
       },
       {
         "at": "2026-11-12T23:00:00Z",
-        "customersOut": 10039
+        "customersOut": 10038
       },
       {
         "at": "2026-11-13T00:00:00Z",
-        "customersOut": 4978
+        "customersOut": 4977
       },
       {
         "at": "2026-11-13T01:00:00Z",
-        "customersOut": 7054
+        "customersOut": 7053
       },
       {
         "at": "2026-11-13T02:00:00Z",
-        "customersOut": 2089
+        "customersOut": 2088
       },
       {
         "at": "2026-11-13T03:00:00Z",
-        "customersOut": 2089
+        "customersOut": 2088
       },
       {
         "at": "2026-11-13T04:00:00Z",
-        "customersOut": 13
+        "customersOut": 12
       },
       {
         "at": "2026-11-13T05:00:00Z",
-        "customersOut": 13
+        "customersOut": 12
       },
       {
         "at": "2026-11-13T06:00:00Z",
-        "customersOut": 13
+        "customersOut": 12
       },
       {
         "at": "2026-11-13T07:00:00Z",
-        "customersOut": 13
+        "customersOut": 12
       },
       {
         "at": "2026-11-13T08:00:00Z",
-        "customersOut": 13
+        "customersOut": 12
       },
       {
         "at": "2026-11-13T09:00:00Z",
-        "customersOut": 13
+        "customersOut": 12
       },
       {
         "at": "2026-11-13T10:00:00Z",
-        "customersOut": 13
+        "customersOut": 12
       },
       {
         "at": "2026-11-13T11:00:00Z",
-        "customersOut": 13
+        "customersOut": 12
       },
       {
         "at": "2026-11-13T12:00:00Z",
-        "customersOut": 2285
+        "customersOut": 2284
       },
       {
         "at": "2026-11-13T13:00:00Z",
-        "customersOut": 5928
+        "customersOut": 5927
       },
       {
         "at": "2026-11-13T14:00:00Z",
-        "customersOut": 4793
+        "customersOut": 4792
       },
       {
         "at": "2026-11-13T15:00:00Z",
-        "customersOut": 9104
+        "customersOut": 9103
       },
       {
         "at": "2026-11-13T16:00:00Z",
-        "customersOut": 4379
+        "customersOut": 4378
       },
       {
         "at": "2026-11-13T17:00:00Z",
-        "customersOut": 9344
+        "customersOut": 9343
       },
       {
         "at": "2026-11-13T18:00:00Z",
-        "customersOut": 5061
+        "customersOut": 5060
       }
     ],
     "locations": [
@@ -7913,7 +7888,6 @@
       "SPANIOL STRADE 1 1ST FL",
       "SPANIOL STRADE 2",
       "SPANIOL STRAEDE 1ST FL",
-      "ST JOHN 18-D",
       "STAABILAND",
       "STAABILAND (HOUSE EL)",
       "STAABILAND 16",
@@ -8091,8 +8065,8 @@
       "WIMMELSKAFTS GADE 6A(RES)",
       "WINDWARD PASSAGE/TRAFFIC"
     ],
-    "totalOutages": 14
+    "totalOutages": 13
   },
   "staleAfterSeconds": 900,
-  "unassignedEventCount": 11
+  "unassignedEventCount": 10
 }
