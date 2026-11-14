@@ -121,6 +121,43 @@
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
+      "id": "1f63b45ec39ba570a0accc134fae502136de15af366709e2072cd82ec2cd74c2",
+      "island": null,
+      "locations": [
+        "ESTATE SION HILL 13-16",
+        "SION HILL 13-12",
+        "SION HILL 13-20",
+        "SION HILL 13-22",
+        "SION HILL 13-32",
+        "SION HILL 13-33",
+        "SION HILL 13-34",
+        "SION HILL 13-35",
+        "SION HILL 13-36",
+        "SION HILL 13-38",
+        "SION HILL 13-40"
+      ],
+      "modifiedAt": "2026-11-14T13:54:45Z",
+      "name": "T-C-15985",
+      "neighborhoodIDs": [
+        "stCroix-sion-hill"
+      ],
+      "point": {
+        "latitude": 17.737706323285646,
+        "longitude": -64.7491514070791
+      },
+      "reportedCustomersInitially": 11,
+      "reportedCustomersOut": 11,
+      "reportedCustomersRestored": 0,
+      "sourceStatus": "Predicted",
+      "startedAt": "2026-11-14T13:54:25Z",
+      "verified": false,
+      "workStatus": null
+    },
+    {
+      "cause": null,
+      "crewAssigned": false,
+      "endedAt": null,
+      "estimatedRestoration": null,
       "id": "274347450dfd7be4b6c6057f03589de0b86a996b09bd03cd7c2f295189a73462",
       "island": null,
       "locations": [
@@ -2618,7 +2655,7 @@
       "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-14T13:50:53Z",
+  "generatedAt": "2026-11-14T13:55:54Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -2735,6 +2772,30 @@
           ],
           "sourceStatus": "Predicted",
           "startedAt": "2026-11-14T13:32:40Z"
+        },
+        {
+          "affectedCustomers": null,
+          "estimatedRestoration": null,
+          "id": "stCroix-sion-hill",
+          "island": "stCroix",
+          "locations": [
+            "13-12",
+            "13-20",
+            "13-22",
+            "13-32",
+            "13-33",
+            "13-34",
+            "13-35",
+            "13-36",
+            "13-38",
+            "13-40"
+          ],
+          "name": "Sion Hill",
+          "sourceEventIDs": [
+            "1f63b45ec39ba570a0accc134fae502136de15af366709e2072cd82ec2cd74c2"
+          ],
+          "sourceStatus": "Predicted",
+          "startedAt": "2026-11-14T13:54:25Z"
         }
       ]
     },
@@ -2758,21 +2819,21 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "706a927191941de035d74d9e5b88bfa276e94a10acfec8c38d8122bd1c5a7a81",
+  "snapshotID": "ceefeebf5d252b8ba6a83372f769544a85994d9b2ba9d9bfa83d094fc8e5f87e",
   "source": {
-    "checkedAt": "2026-11-14T13:50:53Z",
+    "checkedAt": "2026-11-14T13:55:54Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-14T13:50:28Z",
+    "updatedAt": "2026-11-14T13:55:28Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "sourceSummary": {
     "customerCountDifference": 2,
-    "customersAffected": 2360,
-    "customersOut": 2330,
+    "customersAffected": 2371,
+    "customersOut": 2341,
     "customersRestored": 30,
     "customersServed": 54726,
-    "eventCustomersOut": 2328,
+    "eventCustomersOut": 2339,
     "hourlyCustomersOut": [
       {
         "at": "2026-11-12T13:00:00Z",
@@ -2968,7 +3029,7 @@
       },
       {
         "at": "2026-11-14T13:00:00Z",
-        "customersOut": 2328
+        "customersOut": 2339
       }
     ],
     "locations": [
@@ -3579,6 +3640,7 @@
       "ESTATE BOVONI BAY 4",
       "ESTATE FRENCHMANS BAY",
       "ESTATE GROVE PLACE 48",
+      "ESTATE SION HILL 13-16",
       "ESTATE THOMAS #6H",
       "ESTATE THOMAS 16-1",
       "ESTATE THOMAS 18 REMAINER",
@@ -4527,6 +4589,16 @@
       "REGATTA POINT VILLAS 1& 2",
       "RIVER 72",
       "SAMAN CARAMBOLA 1603",
+      "SION HILL 13-12",
+      "SION HILL 13-20",
+      "SION HILL 13-22",
+      "SION HILL 13-32",
+      "SION HILL 13-33",
+      "SION HILL 13-34",
+      "SION HILL 13-35",
+      "SION HILL 13-36",
+      "SION HILL 13-38",
+      "SION HILL 13-40",
       "SMITHFIELD 199",
       "SMITHFIELD 205",
       "SMITHFIELD 207",
@@ -4638,8 +4710,8 @@
       "WILLIAMS DELIGHT 97",
       "WILLIAMS DELIGHT 98"
     ],
-    "totalOutages": 39
+    "totalOutages": 40
   },
   "staleAfterSeconds": 900,
-  "unassignedEventCount": 35
+  "unassignedEventCount": 36
 }
