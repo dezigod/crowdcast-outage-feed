@@ -518,7 +518,6 @@
         "ESTATE THOMAS 6-F UNIT-9",
         "ESTATE THOMAS 6H-16",
         "ESTATE THOMAS 7",
-        "ESTATE THOMAS 8B-1",
         "ESTATE THOMAS WHOUSE J",
         "FRENCHMAN BAY",
         "FRENCHMAN BAY 14-127",
@@ -720,15 +719,6 @@
         "HAVENSIGHT MALL SHOP B-2",
         "HAVENSIGHT PARCEL 2A",
         "HAVENSIGHT PCL B-F",
-        "LONGBAY LANDFILL PAN YARD",
-        "P M P GARDEN BLDG 25",
-        "P M P GARDEN BLDG. 25",
-        "PMP GARDEN B-1",
-        "PMP GARDEN BLDG-1",
-        "PMP GARDEN BLDG-24",
-        "PMP GARDEN BLDG-25",
-        "PMP GARDEN BLDG-25 LIGHT",
-        "PMP GARDEN BLDG-25 STAIR",
         "REGATTA POINT VILLAS 1& 2",
         "WATERFRONT/VETERAN'S PARK",
         "WATERGATE VILLA B16",
@@ -736,18 +726,16 @@
         "WEST INDIAN CO DOCK B-1",
         "WIC DOCK BAY BLDG-2"
       ],
-      "modifiedAt": "2026-11-14T08:18:15Z",
+      "modifiedAt": "2026-11-14T10:05:03Z",
       "name": "FUST-12648",
-      "neighborhoodIDs": [
-        "stCroix-pump-garden"
-      ],
+      "neighborhoodIDs": [],
       "point": {
-        "latitude": 18.324426605401598,
+        "latitude": 18.322832420485042,
         "longitude": -64.90193513816413
       },
       "reportedCustomersInitially": 867,
-      "reportedCustomersOut": 867,
-      "reportedCustomersRestored": 0,
+      "reportedCustomersOut": 837,
+      "reportedCustomersRestored": 30,
       "sourceStatus": "Predicted",
       "startedAt": "2026-11-12T13:17:30Z",
       "verified": false,
@@ -1667,7 +1655,7 @@
       "locations": [
         "BAKKERO 3-S"
       ],
-      "modifiedAt": "2026-11-14T07:39:47Z",
+      "modifiedAt": "2026-11-14T10:05:03Z",
       "name": "T-T-14463",
       "neighborhoodIDs": [],
       "point": {
@@ -1683,7 +1671,7 @@
       "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-14T10:00:37Z",
+  "generatedAt": "2026-11-14T10:05:39Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -1785,28 +1773,7 @@
       "coverage": "partial",
       "customersOut": null,
       "id": "stCroix",
-      "neighborhoods": [
-        {
-          "affectedCustomers": null,
-          "estimatedRestoration": null,
-          "id": "stCroix-pump-garden",
-          "island": "stCroix",
-          "locations": [
-            "B-1",
-            "Building 1",
-            "Building 24",
-            "Building 25",
-            "Building 25 LIGHT",
-            "Building 25 STAIR"
-          ],
-          "name": "Pompano / Pump Garden",
-          "sourceEventIDs": [
-            "4a3f0a315506757465227b7b8af29e7bb7b6c8ed1cccd49b9833ba4ca8788ac7"
-          ],
-          "sourceStatus": "Predicted",
-          "startedAt": "2026-11-12T13:17:30Z"
-        }
-      ]
+      "neighborhoods": []
     },
     {
       "coverage": "partial",
@@ -1828,21 +1795,21 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "783ddb4d0296fcacc6b478d1124a54567066df41a00a9ed7c33d6e79306733ac",
+  "snapshotID": "8c7bfbacbce1e953d6fdd975cad4992a439220160d54739e712618ad38348dc6",
   "source": {
-    "checkedAt": "2026-11-14T10:00:37Z",
+    "checkedAt": "2026-11-14T10:05:39Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-14T10:00:28Z",
+    "updatedAt": "2026-11-14T10:05:28Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "sourceSummary": {
     "customerCountDifference": 2,
     "customersAffected": 1601,
-    "customersOut": 1601,
-    "customersRestored": 0,
+    "customersOut": 1571,
+    "customersRestored": 30,
     "customersServed": 54726,
-    "eventCustomersOut": 1599,
+    "eventCustomersOut": 1569,
     "hourlyCustomersOut": [
       {
         "at": "2026-11-12T10:00:00Z",
@@ -1858,187 +1825,187 @@
       },
       {
         "at": "2026-11-12T13:00:00Z",
-        "customersOut": 4259
+        "customersOut": 4229
       },
       {
         "at": "2026-11-12T14:00:00Z",
-        "customersOut": 7171
+        "customersOut": 7141
       },
       {
         "at": "2026-11-12T15:00:00Z",
-        "customersOut": 3795
+        "customersOut": 3765
       },
       {
         "at": "2026-11-12T16:00:00Z",
-        "customersOut": 7154
+        "customersOut": 7124
       },
       {
         "at": "2026-11-12T17:00:00Z",
-        "customersOut": 4240
+        "customersOut": 4210
       },
       {
         "at": "2026-11-12T18:00:00Z",
-        "customersOut": 7152
+        "customersOut": 7122
       },
       {
         "at": "2026-11-12T19:00:00Z",
-        "customersOut": 3793
+        "customersOut": 3763
       },
       {
         "at": "2026-11-12T20:00:00Z",
-        "customersOut": 8852
+        "customersOut": 8822
       },
       {
         "at": "2026-11-12T21:00:00Z",
-        "customersOut": 5939
+        "customersOut": 5909
       },
       {
         "at": "2026-11-12T22:00:00Z",
-        "customersOut": 7563
+        "customersOut": 7533
       },
       {
         "at": "2026-11-12T23:00:00Z",
-        "customersOut": 10904
+        "customersOut": 10874
       },
       {
         "at": "2026-11-13T00:00:00Z",
-        "customersOut": 5843
+        "customersOut": 5813
       },
       {
         "at": "2026-11-13T01:00:00Z",
-        "customersOut": 7919
+        "customersOut": 7889
       },
       {
         "at": "2026-11-13T02:00:00Z",
-        "customersOut": 2954
+        "customersOut": 2924
       },
       {
         "at": "2026-11-13T03:00:00Z",
-        "customersOut": 2954
+        "customersOut": 2924
       },
       {
         "at": "2026-11-13T04:00:00Z",
-        "customersOut": 878
+        "customersOut": 848
       },
       {
         "at": "2026-11-13T05:00:00Z",
-        "customersOut": 878
+        "customersOut": 848
       },
       {
         "at": "2026-11-13T06:00:00Z",
-        "customersOut": 878
+        "customersOut": 848
       },
       {
         "at": "2026-11-13T07:00:00Z",
-        "customersOut": 878
+        "customersOut": 848
       },
       {
         "at": "2026-11-13T08:00:00Z",
-        "customersOut": 878
+        "customersOut": 848
       },
       {
         "at": "2026-11-13T09:00:00Z",
-        "customersOut": 878
+        "customersOut": 848
       },
       {
         "at": "2026-11-13T10:00:00Z",
-        "customersOut": 878
+        "customersOut": 848
       },
       {
         "at": "2026-11-13T11:00:00Z",
-        "customersOut": 878
+        "customersOut": 848
       },
       {
         "at": "2026-11-13T12:00:00Z",
-        "customersOut": 3125
+        "customersOut": 3095
       },
       {
         "at": "2026-11-13T13:00:00Z",
-        "customersOut": 6191
+        "customersOut": 6161
       },
       {
         "at": "2026-11-13T14:00:00Z",
-        "customersOut": 5056
+        "customersOut": 5026
       },
       {
         "at": "2026-11-13T15:00:00Z",
-        "customersOut": 9367
+        "customersOut": 9337
       },
       {
         "at": "2026-11-13T16:00:00Z",
-        "customersOut": 5219
+        "customersOut": 5189
       },
       {
         "at": "2026-11-13T17:00:00Z",
-        "customersOut": 10184
+        "customersOut": 10154
       },
       {
         "at": "2026-11-13T18:00:00Z",
-        "customersOut": 9190
+        "customersOut": 9160
       },
       {
         "at": "2026-11-13T19:00:00Z",
-        "customersOut": 8903
+        "customersOut": 8873
       },
       {
         "at": "2026-11-13T20:00:00Z",
-        "customersOut": 8270
+        "customersOut": 8240
       },
       {
         "at": "2026-11-13T21:00:00Z",
-        "customersOut": 8270
+        "customersOut": 8240
       },
       {
         "at": "2026-11-13T22:00:00Z",
-        "customersOut": 6089
+        "customersOut": 6059
       },
       {
         "at": "2026-11-13T23:00:00Z",
-        "customersOut": 3383
+        "customersOut": 3353
       },
       {
         "at": "2026-11-14T00:00:00Z",
-        "customersOut": 3625
+        "customersOut": 3595
       },
       {
         "at": "2026-11-14T01:00:00Z",
-        "customersOut": 6492
+        "customersOut": 6462
       },
       {
         "at": "2026-11-14T02:00:00Z",
-        "customersOut": 6492
+        "customersOut": 6462
       },
       {
         "at": "2026-11-14T03:00:00Z",
-        "customersOut": 6492
+        "customersOut": 6462
       },
       {
         "at": "2026-11-14T04:00:00Z",
-        "customersOut": 11858
+        "customersOut": 11828
       },
       {
         "at": "2026-11-14T05:00:00Z",
-        "customersOut": 9001
+        "customersOut": 8971
       },
       {
         "at": "2026-11-14T06:00:00Z",
-        "customersOut": 6649
+        "customersOut": 6619
       },
       {
         "at": "2026-11-14T07:00:00Z",
-        "customersOut": 1434
+        "customersOut": 1404
       },
       {
         "at": "2026-11-14T08:00:00Z",
-        "customersOut": 1597
+        "customersOut": 1567
       },
       {
         "at": "2026-11-14T09:00:00Z",
-        "customersOut": 1599
+        "customersOut": 1569
       },
       {
         "at": "2026-11-14T10:00:00Z",
-        "customersOut": 1599
+        "customersOut": 1569
       }
     ],
     "locations": [
@@ -2662,7 +2629,6 @@
       "ESTATE THOMAS 6-F UNIT-9",
       "ESTATE THOMAS 6H-16",
       "ESTATE THOMAS 7",
-      "ESTATE THOMAS 8B-1",
       "ESTATE THOMAS WHOUSE J",
       "FRENCH VIEW COND 14-34",
       "FRENCHMAN BAY",
@@ -3134,14 +3100,11 @@
       "JOSEPH & ROSENDAHL 2-32",
       "JOSEPH & ROSENDAHL 3-26",
       "LERKENLUND 9D-1-2",
-      "LONGBAY LANDFILL PAN YARD",
       "LOVENLUND EST FARMHOUSE",
       "ORKANSHULLET 2-1 HASSLE",
       "ORKANSHULLET 2-1 HASSLE I",
       "ORKANSHULLET 2-2",
       "ORKANSHULLET 2-3 (HASSEL)",
-      "P M P GARDEN BLDG 25",
-      "P M P GARDEN BLDG. 25",
       "PETERBORG 10-1-1",
       "PETERBORG 10-1-1 A-1",
       "PETERBORG 10-1-1 A-2",
@@ -3152,12 +3115,6 @@
       "PETERBORG 8-5 APT B",
       "PETERBORG 8-5 COT APT A",
       "PETERBORG 8-6",
-      "PMP GARDEN B-1",
-      "PMP GARDEN BLDG-1",
-      "PMP GARDEN BLDG-24",
-      "PMP GARDEN BLDG-25",
-      "PMP GARDEN BLDG-25 LIGHT",
-      "PMP GARDEN BLDG-25 STAIR",
       "REGATTA POINT VILLAS 1& 2",
       "ST JOSEPH & ROSEN 2-31",
       "ST JOSEPH & ROSEN 317-318",
