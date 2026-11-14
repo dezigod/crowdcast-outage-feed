@@ -1302,7 +1302,7 @@
       "workStatus": null
     },
     {
-      "cause": null,
+      "cause": "190 Other planned",
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
@@ -2254,7 +2254,7 @@
         "ZUERIENDENHEIT",
         "ZUFRIDENHEIT 1"
       ],
-      "modifiedAt": "2026-11-14T21:05:10Z",
+      "modifiedAt": "2026-11-14T21:05:41Z",
       "name": "REC-7A-1B-NSTR",
       "neighborhoodIDs": [
         "stThomas-st-peter"
@@ -4013,7 +4013,7 @@
       "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-14T21:06:19Z",
+  "generatedAt": "2026-11-14T21:11:21Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -4361,11 +4361,11 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "56a4e0290b1f93cbdfbf15123ced9bd7ec17d392c01c94ef1ed70dd3a9907961",
+  "snapshotID": "3fb9a7cedbcea87864aabbcd53fe2abb29049ffbd43a905de54c001cbb0edd0f",
   "source": {
-    "checkedAt": "2026-11-14T21:06:19Z",
+    "checkedAt": "2026-11-14T21:11:21Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-14T21:05:29Z",
+    "updatedAt": "2026-11-14T21:10:29Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
