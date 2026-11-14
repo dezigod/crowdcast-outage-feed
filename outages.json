@@ -1363,6 +1363,42 @@
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
+      "id": "c22746ac103222566336cb01e614bd1705c0894e67b711f1dd0083ce0005dcae",
+      "island": null,
+      "locations": [
+        "CIRCLE STREET",
+        "CIRCLE STREET 1A",
+        "GYLLING STREET",
+        "GYLLING STREET 8",
+        "GYLLING STREET UP",
+        "GYLLINGS STREET",
+        "GYLLINGS STREET 11",
+        "GYLLINGS STREET 8",
+        "HILL ST 27",
+        "HILL STREET 14A",
+        "HILL STREET 21",
+        "HILL STREET 25"
+      ],
+      "modifiedAt": "2026-11-14T11:21:02Z",
+      "name": "T-T-15012",
+      "neighborhoodIDs": [],
+      "point": {
+        "latitude": 18.345085418867523,
+        "longitude": -64.93828171248101
+      },
+      "reportedCustomersInitially": 14,
+      "reportedCustomersOut": 14,
+      "reportedCustomersRestored": 0,
+      "sourceStatus": "Predicted",
+      "startedAt": "2026-11-14T11:20:35Z",
+      "verified": false,
+      "workStatus": null
+    },
+    {
+      "cause": null,
+      "crewAssigned": false,
+      "endedAt": null,
+      "estimatedRestoration": null,
       "id": "c381002327670be868af3f50aafdefc9fac4ebb90784193865d0729666657998",
       "island": "stThomas",
       "locations": [
@@ -1772,7 +1808,7 @@
       "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-14T11:21:04Z",
+  "generatedAt": "2026-11-14T11:26:06Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -1913,21 +1949,21 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "305eae1e294eac60401dfb82a95c9ac6effa6cbd5a950c5ef2883fc621820d3e",
+  "snapshotID": "f42485c9a47c840bece6c62f5dcebc76d58051baddab69406ac9b4320e73c471",
   "source": {
-    "checkedAt": "2026-11-14T11:21:04Z",
+    "checkedAt": "2026-11-14T11:26:06Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-14T11:20:27Z",
+    "updatedAt": "2026-11-14T11:25:28Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "sourceSummary": {
     "customerCountDifference": 2,
-    "customersAffected": 1658,
-    "customersOut": 1628,
+    "customersAffected": 1672,
+    "customersOut": 1642,
     "customersRestored": 30,
     "customersServed": 54726,
-    "eventCustomersOut": 1626,
+    "eventCustomersOut": 1640,
     "hourlyCustomersOut": [
       {
         "at": "2026-11-12T11:00:00Z",
@@ -2123,7 +2159,7 @@
       },
       {
         "at": "2026-11-14T11:00:00Z",
-        "customersOut": 2123
+        "customersOut": 2137
       }
     ],
     "locations": [
@@ -2577,6 +2613,8 @@
       "BOVONI UP",
       "CASTLE COAKLEY",
       "CASTLE COAKLEY 54",
+      "CIRCLE STREET",
+      "CIRCLE STREET 1A",
       "CROWN BAY",
       "CROWN BAY 1 (CANCRYN)",
       "CROWN BAY 101 BOOTH",
@@ -2921,6 +2959,12 @@
       "GROUND A13 & A14 B-4 APT-",
       "GUTTETS GADE 2",
       "GUTTETS GADE 2 (UP)",
+      "GYLLING STREET",
+      "GYLLING STREET 8",
+      "GYLLING STREET UP",
+      "GYLLINGS STREET",
+      "GYLLINGS STREET 11",
+      "GYLLINGS STREET 8",
       "HASSEL ISLAND",
       "HASSEL ISLAND #2",
       "HASSEL ISLAND ALLAMANDA H",
@@ -2985,6 +3029,10 @@
       "HAVENSIGHT MALL SHOP B-2",
       "HAVENSIGHT PARCEL 2A",
       "HAVENSIGHT PCL B-F",
+      "HILL ST 27",
+      "HILL STREET 14A",
+      "HILL STREET 21",
+      "HILL STREET 25",
       "HILLSIDE VILLAGE PCL",
       "HONDURAS",
       "HONDURAS # 62",
@@ -3377,8 +3425,8 @@
       "WORK AND REST 245",
       "WORK AND REST 266"
     ],
-    "totalOutages": 21
+    "totalOutages": 22
   },
   "staleAfterSeconds": 900,
-  "unassignedEventCount": 17
+  "unassignedEventCount": 18
 }
