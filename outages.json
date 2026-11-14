@@ -6,6 +6,34 @@
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
+      "id": "095847b3090781008caf5858365cdb94e1c65d62181c44e5df5b6fab96f60165",
+      "island": "stThomas",
+      "locations": [
+        "ST PETER 14-6",
+        "ST PETER 18A"
+      ],
+      "modifiedAt": "2026-11-14T06:26:22Z",
+      "name": "T-T-06053",
+      "neighborhoodIDs": [
+        "stThomas-st-peter"
+      ],
+      "point": {
+        "latitude": 18.368025283136575,
+        "longitude": -64.94399401394799
+      },
+      "reportedCustomersInitially": 3,
+      "reportedCustomersOut": 3,
+      "reportedCustomersRestored": 0,
+      "sourceStatus": "Predicted",
+      "startedAt": "2026-11-14T06:25:50Z",
+      "verified": false,
+      "workStatus": null
+    },
+    {
+      "cause": null,
+      "crewAssigned": false,
+      "endedAt": null,
+      "estimatedRestoration": null,
       "id": "275f4d344817f20a91cc67e0eb00c5fe71cde7238b49d33564f9e82f3580306d",
       "island": null,
       "locations": [
@@ -581,6 +609,69 @@
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
+      "id": "ae2fa3e7379e53b2c562b63a2bc3909c93fbcd2f4ecb9cc5857631c1979b46af",
+      "island": null,
+      "locations": [
+        "EST LERKENLUND 9D-6",
+        "LERKENLUND 8-63 TOP",
+        "LERKENLUND 9D-10",
+        "LITTLE N. STAR VILL 3-I24",
+        "ST PETER 31-18 HSE METER",
+        "ST PETER 31-19 & 31-18",
+        "ST PETER 31-22 NORTH STAR",
+        "ST PETER 31-22 NORTHSTAR",
+        "ST PETER 3I-20 HIBIS LANE"
+      ],
+      "modifiedAt": "2026-11-14T06:25:35Z",
+      "name": "T-T-16676",
+      "neighborhoodIDs": [
+        "stThomas-st-peter"
+      ],
+      "point": {
+        "latitude": 18.35671960987612,
+        "longitude": -64.94569466203092
+      },
+      "reportedCustomersInitially": 12,
+      "reportedCustomersOut": 12,
+      "reportedCustomersRestored": 0,
+      "sourceStatus": "Predicted",
+      "startedAt": "2026-11-14T06:25:09Z",
+      "verified": false,
+      "workStatus": null
+    },
+    {
+      "cause": null,
+      "crewAssigned": false,
+      "endedAt": null,
+      "estimatedRestoration": null,
+      "id": "b428e82e145c90d44d6c74b4472e0eff95780a8104c37295a5bfa3a746ca9142",
+      "island": "stThomas",
+      "locations": [
+        "ST PETER 8-2",
+        "ST PETER 8-3"
+      ],
+      "modifiedAt": "2026-11-14T06:29:24Z",
+      "name": "T-T-09652",
+      "neighborhoodIDs": [
+        "stThomas-st-peter"
+      ],
+      "point": {
+        "latitude": 18.360875364384064,
+        "longitude": -64.94893791209145
+      },
+      "reportedCustomersInitially": 2,
+      "reportedCustomersOut": 2,
+      "reportedCustomersRestored": 0,
+      "sourceStatus": "Predicted",
+      "startedAt": "2026-11-14T06:28:57Z",
+      "verified": false,
+      "workStatus": null
+    },
+    {
+      "cause": null,
+      "crewAssigned": false,
+      "endedAt": null,
+      "estimatedRestoration": null,
       "id": "c381002327670be868af3f50aafdefc9fac4ebb90784193865d0729666657998",
       "island": "stThomas",
       "locations": [
@@ -843,7 +934,7 @@
       "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-14T06:25:33Z",
+  "generatedAt": "2026-11-14T06:30:34Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -881,6 +972,31 @@
             "848de358d1bfb503e077d24a928bf5008f6590c6314f9a8283b1ba206ce079a4"
           ],
           "sourceStatus": "Unconfirmed",
+          "startedAt": null
+        },
+        {
+          "affectedCustomers": null,
+          "estimatedRestoration": null,
+          "id": "stThomas-st-peter",
+          "island": "stThomas",
+          "locations": [
+            "14-6",
+            "18A",
+            "31-18 HSE METER",
+            "31-19 & 31-18",
+            "31-22 NORTH STAR",
+            "31-22 NORTHSTAR",
+            "3I-20 HIBIS LANE",
+            "8-2",
+            "8-3"
+          ],
+          "name": "Estate St. Peter",
+          "sourceEventIDs": [
+            "095847b3090781008caf5858365cdb94e1c65d62181c44e5df5b6fab96f60165",
+            "ae2fa3e7379e53b2c562b63a2bc3909c93fbcd2f4ecb9cc5857631c1979b46af",
+            "b428e82e145c90d44d6c74b4472e0eff95780a8104c37295a5bfa3a746ca9142"
+          ],
+          "sourceStatus": "Predicted",
           "startedAt": null
         },
         {
@@ -967,21 +1083,21 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "87c83ccdaff68b0a5407166e6fe26c0df2d7635d710546ba9061c59ea6b5c031",
+  "snapshotID": "6afd2bf5c5b5eeaef96e769a6b713837d3a1263ffc756e616c862f4892618440",
   "source": {
-    "checkedAt": "2026-11-14T06:25:33Z",
+    "checkedAt": "2026-11-14T06:30:34Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-14T06:25:27Z",
+    "updatedAt": "2026-11-14T06:30:27Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "sourceSummary": {
     "customerCountDifference": 2,
-    "customersAffected": 590,
-    "customersOut": 590,
+    "customersAffected": 607,
+    "customersOut": 607,
     "customersRestored": 0,
     "customersServed": 54726,
-    "eventCustomersOut": 588,
+    "eventCustomersOut": 605,
     "hourlyCustomersOut": [
       {
         "at": "2026-11-12T06:00:00Z",
@@ -1310,6 +1426,7 @@
       "EST DOROTHEA 12D",
       "EST DOROTHEA 2D COTTAGE",
       "EST DOROTHEA 3-B (UP)-B",
+      "EST LERKENLUND 9D-6",
       "EST ORKANSHULLET(HASS)8-1",
       "EST. BONNE RESOLUTION",
       "ESTATE SOLBEG 79-43",
@@ -1566,9 +1683,12 @@
       "JOSEPH & ROSENDAHL 2-27",
       "JOSEPH & ROSENDAHL 2-32",
       "JOSEPH & ROSENDAHL 3-26",
+      "LERKENLUND 8-63 TOP",
+      "LERKENLUND 9D-10",
       "LERKENLUND 9D-1-2",
       "LILLIENDAH & MARIEN 6A-28",
       "LILLIENDAHL & MARIENHOJ",
+      "LITTLE N. STAR VILL 3-I24",
       "LOVENLUND EST FARMHOUSE",
       "ORKANSHULLET 2-1 HASSLE",
       "ORKANSHULLET 2-1 HASSLE I",
@@ -1597,14 +1717,23 @@
       "ST JOSEPH & ROSEN 2-31",
       "ST JOSEPH & ROSEN 317-318",
       "ST JOSEPH & ROSENDAHL",
+      "ST PETER 14-6",
+      "ST PETER 18A",
+      "ST PETER 31-18 HSE METER",
+      "ST PETER 31-19 & 31-18",
+      "ST PETER 31-22 NORTH STAR",
+      "ST PETER 31-22 NORTHSTAR",
+      "ST PETER 3I-20 HIBIS LANE",
+      "ST PETER 8-2",
+      "ST PETER 8-3",
       "ST. JOSEPH & ROSENDAHL",
       "SUBBASE 100",
       "SUBBASE 101 (EL)",
       "SUBBASE 69",
       "UPPER JOHN DUNKOE"
     ],
-    "totalOutages": 17
+    "totalOutages": 20
   },
   "staleAfterSeconds": 900,
-  "unassignedEventCount": 13
+  "unassignedEventCount": 14
 }
