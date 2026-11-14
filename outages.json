@@ -640,6 +640,34 @@
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
+      "id": "6f9633a610ee3793e7da0b2a681ee7f420a31cdb617624e16bfbcc91648a54a6",
+      "island": null,
+      "locations": [
+        "CONTANT",
+        "CONTANT 11-1C*",
+        "CONTANT 11-4",
+        "CONTANT 11-4 MAIN HOUSE"
+      ],
+      "modifiedAt": "2026-11-14T17:12:27Z",
+      "name": "T-T-05582",
+      "neighborhoodIDs": [],
+      "point": {
+        "latitude": 18.34510633429899,
+        "longitude": -64.95387138451386
+      },
+      "reportedCustomersInitially": 6,
+      "reportedCustomersOut": 6,
+      "reportedCustomersRestored": 0,
+      "sourceStatus": "Predicted",
+      "startedAt": "2026-11-14T17:12:03Z",
+      "verified": false,
+      "workStatus": null
+    },
+    {
+      "cause": null,
+      "crewAssigned": false,
+      "endedAt": null,
+      "estimatedRestoration": null,
       "id": "7bd61efa0455ef3fa9aee05c40aa0b479400e216931ee6e75936e8a51d78c04f",
       "island": null,
       "locations": [
@@ -6621,7 +6649,7 @@
       "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-14T17:10:58Z",
+  "generatedAt": "2026-11-14T17:16:00Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -6993,21 +7021,21 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "300b26d627348251e69e30f838c344738ba3d03d0e35104532389ea6c6e9c30d",
+  "snapshotID": "a51e83073b12402c0310a9603f4282eb9d88ccb04598d69d33e43b42e51aa81d",
   "source": {
-    "checkedAt": "2026-11-14T17:10:58Z",
+    "checkedAt": "2026-11-14T17:16:00Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-14T17:10:32Z",
+    "updatedAt": "2026-11-14T17:15:31Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "sourceSummary": {
     "customerCountDifference": 2,
-    "customersAffected": 8062,
-    "customersOut": 7863,
+    "customersAffected": 8068,
+    "customersOut": 7869,
     "customersRestored": 199,
     "customersServed": 54726,
-    "eventCustomersOut": 7861,
+    "eventCustomersOut": 7867,
     "hourlyCustomersOut": [
       {
         "at": "2026-11-12T17:00:00Z",
@@ -7203,7 +7231,7 @@
       },
       {
         "at": "2026-11-14T17:00:00Z",
-        "customersOut": 7861
+        "customersOut": 7867
       }
     ],
     "locations": [
@@ -8247,6 +8275,10 @@
       "CONTAINER PORT (GARAGE)",
       "CONTAINER PORT (HESS)",
       "CONTAINER PORT (NEW)",
+      "CONTANT",
+      "CONTANT 11-1C*",
+      "CONTANT 11-4",
+      "CONTANT 11-4 MAIN HOUSE",
       "CONTANT TOWERS BLDG-A",
       "COWPET BAY",
       "COWPET BAY EAST",
@@ -13553,8 +13585,8 @@
       "WILLIAMS DELIGHT PLOT 577",
       "WILLIAMS DELIGHT/LED HWY"
     ],
-    "totalOutages": 11
+    "totalOutages": 12
   },
   "staleAfterSeconds": 900,
-  "unassignedEventCount": 7
+  "unassignedEventCount": 8
 }
