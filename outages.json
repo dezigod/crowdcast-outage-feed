@@ -4902,6 +4902,36 @@
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
+      "id": "499a69431240df973214d1774af2f07d5b96752f32734422ae2e37e5db21cc36",
+      "island": null,
+      "locations": [
+        "267A EST HOSPITAL GROUND",
+        "HOSPITAL GROUND",
+        "HOSPITAL GROUND 290",
+        "HOSPITAL GROUND 290 A-2",
+        "HOSPITAL GROUND 290A",
+        "HOSPITAL GROUND 290C"
+      ],
+      "modifiedAt": "2026-11-14T23:51:52Z",
+      "name": "T-T-04205",
+      "neighborhoodIDs": [],
+      "point": {
+        "latitude": 18.348474337001427,
+        "longitude": -64.92784087429197
+      },
+      "reportedCustomersInitially": 12,
+      "reportedCustomersOut": 12,
+      "reportedCustomersRestored": 0,
+      "sourceStatus": "Predicted",
+      "startedAt": "2026-11-14T23:51:33Z",
+      "verified": false,
+      "workStatus": null
+    },
+    {
+      "cause": null,
+      "crewAssigned": false,
+      "endedAt": null,
+      "estimatedRestoration": null,
       "id": "4a3f0a315506757465227b7b8af29e7bb7b6c8ed1cccd49b9833ba4ca8788ac7",
       "island": null,
       "locations": [
@@ -6678,7 +6708,7 @@
       "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-14T23:51:15Z",
+  "generatedAt": "2026-11-14T23:56:16Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -7054,21 +7084,21 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "dbee49ed05f3641dd7060fccadb1b098efbcf88f07989859a82c1d978a4a407c",
+  "snapshotID": "0dbb15bfd5f5bfe62fa59efe5aca5aea9ecee4162a1398c05efb3ef7af142f3d",
   "source": {
-    "checkedAt": "2026-11-14T23:51:15Z",
+    "checkedAt": "2026-11-14T23:56:16Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-14T23:50:30Z",
+    "updatedAt": "2026-11-14T23:55:30Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "sourceSummary": {
     "customerCountDifference": 2,
-    "customersAffected": 9224,
-    "customersOut": 7802,
+    "customersAffected": 9236,
+    "customersOut": 7814,
     "customersRestored": 1422,
     "customersServed": 54726,
-    "eventCustomersOut": 7800,
+    "eventCustomersOut": 7812,
     "hourlyCustomersOut": [
       {
         "at": "2026-11-12T23:00:00Z",
@@ -7264,7 +7294,7 @@
       },
       {
         "at": "2026-11-14T23:00:00Z",
-        "customersOut": 7800
+        "customersOut": 7812
       }
     ],
     "locations": [
@@ -7287,6 +7317,7 @@
       "17E ESTATE BOVONI LOT 4",
       "200-8F ALTONA & WELGUNST",
       "21-F-H LINDBERG BAY",
+      "267A EST HOSPITAL GROUND",
       "27H LINDBERG BAY A-A",
       "27-I BOLONGO",
       "27N LINDBERG BAY",
@@ -11603,6 +11634,11 @@
       "HOPE 2H MTR-A",
       "HOPE 8-B",
       "HOPE EST 24-5",
+      "HOSPITAL GROUND",
+      "HOSPITAL GROUND 290",
+      "HOSPITAL GROUND 290 A-2",
+      "HOSPITAL GROUND 290A",
+      "HOSPITAL GROUND 290C",
       "HOSPITAL GROUND 303",
       "HOSPITAL GROUND 303A",
       "HOSPITAL GROUND 303-A A-E",
@@ -13483,8 +13519,8 @@
       "ZUERIENDENHEIT",
       "ZUFRIDENHEIT 1"
     ],
-    "totalOutages": 18
+    "totalOutages": 19
   },
   "staleAfterSeconds": 900,
-  "unassignedEventCount": 15
+  "unassignedEventCount": 16
 }
