@@ -127,6 +127,38 @@
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
+      "id": "482b58999cf83c625a89ff0f7ba0203c94a7121d2c5a5ed095bcef27583ca9ca",
+      "island": null,
+      "locations": [
+        "BONNE RESOLUTION",
+        "BONNE RESOLUTION 14-1",
+        "BONNE RESOLUTION 14-2",
+        "BONNE RESOLUTION 14-2 A-1",
+        "BONNE RESOLUTION 14-50",
+        "BONNE RESOLUTION 14-51",
+        "BONNE RESOLUTION 15-3",
+        "BONNE RESOLUTION 15-4"
+      ],
+      "modifiedAt": "2026-11-14T06:23:49Z",
+      "name": "T-T-09238",
+      "neighborhoodIDs": [],
+      "point": {
+        "latitude": 18.364145456156777,
+        "longitude": -64.95703658952502
+      },
+      "reportedCustomersInitially": 8,
+      "reportedCustomersOut": 8,
+      "reportedCustomersRestored": 0,
+      "sourceStatus": "Predicted",
+      "startedAt": "2026-11-14T06:23:40Z",
+      "verified": false,
+      "workStatus": null
+    },
+    {
+      "cause": null,
+      "crewAssigned": false,
+      "endedAt": null,
+      "estimatedRestoration": null,
       "id": "4a3f0a315506757465227b7b8af29e7bb7b6c8ed1cccd49b9833ba4ca8788ac7",
       "island": null,
       "locations": [
@@ -811,7 +843,7 @@
       "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-14T06:20:31Z",
+  "generatedAt": "2026-11-14T06:25:33Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -935,21 +967,21 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "0a3a3d49a009e7dc3f5f00beaefa0b486477e3e0d4fc1d5d45705b39e9aaf8ff",
+  "snapshotID": "87c83ccdaff68b0a5407166e6fe26c0df2d7635d710546ba9061c59ea6b5c031",
   "source": {
-    "checkedAt": "2026-11-14T06:20:31Z",
+    "checkedAt": "2026-11-14T06:25:33Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-14T06:20:26Z",
+    "updatedAt": "2026-11-14T06:25:27Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "sourceSummary": {
     "customerCountDifference": 2,
-    "customersAffected": 582,
-    "customersOut": 582,
+    "customersAffected": 590,
+    "customersOut": 590,
     "customersRestored": 0,
     "customersServed": 54726,
-    "eventCustomersOut": 580,
+    "eventCustomersOut": 588,
     "hourlyCustomersOut": [
       {
         "at": "2026-11-12T06:00:00Z",
@@ -1241,6 +1273,14 @@
       "ALTONA 87B",
       "ALTONA A-2",
       "ALTONA APT-3 UP",
+      "BONNE RESOLUTION",
+      "BONNE RESOLUTION 14-1",
+      "BONNE RESOLUTION 14-2",
+      "BONNE RESOLUTION 14-2 A-1",
+      "BONNE RESOLUTION 14-50",
+      "BONNE RESOLUTION 14-51",
+      "BONNE RESOLUTION 15-3",
+      "BONNE RESOLUTION 15-4",
       "BONNE RESOLUTION 4-1",
       "BONNE RESOLUTION 4-4",
       "BONNE RESOLUTION 4-5",
@@ -1563,8 +1603,8 @@
       "SUBBASE 69",
       "UPPER JOHN DUNKOE"
     ],
-    "totalOutages": 16
+    "totalOutages": 17
   },
   "staleAfterSeconds": 900,
-  "unassignedEventCount": 12
+  "unassignedEventCount": 13
 }
