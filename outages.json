@@ -6,6 +6,51 @@
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
+      "id": "0e28ca95eaafeb3b7c9e24aee25ee7a3c013d9e9a068f7db942700848695a7d0",
+      "island": null,
+      "locations": [
+        "CONTANT & ENIGHED 199",
+        "CONTANT 197 MTR 1",
+        "CONTANT 197 MTR 2",
+        "CONTANT 197 MTR 3",
+        "CONTANT 197 MTR 4",
+        "CONTANT 197 MTR 5",
+        "CONTANT 197 MTR 6",
+        "CONTANT 197 MTR 7",
+        "ENIGHED #196 & 198 MTR 4",
+        "ENIGHED 196",
+        "ENIGHED 196 (2)",
+        "ENIGHED 196 (APT 4)",
+        "ENIGHED 196 MTR 1",
+        "ENIGHED 198 (1)",
+        "ENIGHED 198 (3)",
+        "ENIGHED 198 MTR 2",
+        "ENIGHED 199",
+        "ENIGHED 202",
+        "ENIGHED/CONTANT # 193",
+        "ENIGHED-CONTANT 193",
+        "ENIGHED-CONTANT 193 1ST"
+      ],
+      "modifiedAt": "2026-11-14T01:56:07Z",
+      "name": "T-J-02710",
+      "neighborhoodIDs": [],
+      "point": {
+        "latitude": 18.328379372866763,
+        "longitude": -64.79646849238996
+      },
+      "reportedCustomersInitially": 28,
+      "reportedCustomersOut": 28,
+      "reportedCustomersRestored": 0,
+      "sourceStatus": "Predicted",
+      "startedAt": "2026-11-14T01:55:50Z",
+      "verified": false,
+      "workStatus": null
+    },
+    {
+      "cause": null,
+      "crewAssigned": false,
+      "endedAt": null,
+      "estimatedRestoration": null,
       "id": "10222721c3f0abe2379ae6df4fbf923fe5d7143760de3f2935f357782e786f34",
       "island": null,
       "locations": [
@@ -31,6 +76,41 @@
       "reportedCustomersRestored": 0,
       "sourceStatus": "Predicted",
       "startedAt": "2026-11-13T23:37:41Z",
+      "verified": false,
+      "workStatus": null
+    },
+    {
+      "cause": null,
+      "crewAssigned": false,
+      "endedAt": null,
+      "estimatedRestoration": null,
+      "id": "14ee389c96f74da56542353d83cb4fdbdbc23b92eaa7a5b53e9084dc96e04df3",
+      "island": null,
+      "locations": [
+        "FRYDENHOJ #1-19",
+        "FRYDENHOJ 1-1",
+        "FRYDENHOJ 1-1 DWN",
+        "FRYDENHOJ 1-19 UP",
+        "FRYDENHOJ 1-2",
+        "FRYDENHOJ 1-20",
+        "FRYDENHOJ 1-21",
+        "FRYDENHOJ 1-21 APT-1",
+        "FRYDENHOJ 1-23",
+        "FRYDENHOJ 1-38",
+        "FRYDENHOJ 1-39"
+      ],
+      "modifiedAt": "2026-11-14T01:58:55Z",
+      "name": "T-T-10100",
+      "neighborhoodIDs": [],
+      "point": {
+        "latitude": 18.32453495305715,
+        "longitude": -64.86938226436685
+      },
+      "reportedCustomersInitially": 15,
+      "reportedCustomersOut": 15,
+      "reportedCustomersRestored": 0,
+      "sourceStatus": "Predicted",
+      "startedAt": "2026-11-14T01:58:29Z",
       "verified": false,
       "workStatus": null
     },
@@ -1902,7 +1982,7 @@
       "locations": [
         "BOVONI 1-2"
       ],
-      "modifiedAt": "2026-11-13T23:18:21Z",
+      "modifiedAt": "2026-11-14T01:58:55Z",
       "name": "T-T-14186",
       "neighborhoodIDs": [],
       "point": {
@@ -3744,7 +3824,7 @@
       "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-14T01:56:14Z",
+  "generatedAt": "2026-11-14T02:01:16Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -4103,26 +4183,22 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "85f9f580d37260f89a18d75c09c5bb2fa75848123539ce78af4ee669210875b5",
+  "snapshotID": "1d36cb64069cef1652e0efd5d58b35f29aa9129a065feacdcfcb93a390b06d91",
   "source": {
-    "checkedAt": "2026-11-14T01:56:14Z",
+    "checkedAt": "2026-11-14T02:01:16Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-14T01:55:28Z",
+    "updatedAt": "2026-11-14T02:00:28Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "sourceSummary": {
     "customerCountDifference": 2,
-    "customersAffected": 4139,
-    "customersOut": 4139,
+    "customersAffected": 4182,
+    "customersOut": 4182,
     "customersRestored": 0,
     "customersServed": 54726,
-    "eventCustomersOut": 4137,
+    "eventCustomersOut": 4180,
     "hourlyCustomersOut": [
-      {
-        "at": "2026-11-12T01:00:00Z",
-        "customersOut": 5832
-      },
       {
         "at": "2026-11-12T02:00:00Z",
         "customersOut": 9174
@@ -4313,7 +4389,11 @@
       },
       {
         "at": "2026-11-14T01:00:00Z",
-        "customersOut": 4137
+        "customersOut": 4180
+      },
+      {
+        "at": "2026-11-14T02:00:00Z",
+        "customersOut": 4180
       }
     ],
     "locations": [
@@ -4852,6 +4932,7 @@
       "COMMANDANT TVER GADE",
       "CONSOLIDATED EST CAROLINA",
       "CONTANT",
+      "CONTANT & ENIGHED 199",
       "CONTANT 107-17",
       "CONTANT 107-18",
       "CONTANT 10H",
@@ -4868,6 +4949,13 @@
       "CONTANT 15A-10 UPPER",
       "CONTANT 15A-11",
       "CONTANT 15A-12",
+      "CONTANT 197 MTR 1",
+      "CONTANT 197 MTR 2",
+      "CONTANT 197 MTR 3",
+      "CONTANT 197 MTR 4",
+      "CONTANT 197 MTR 5",
+      "CONTANT 197 MTR 6",
+      "CONTANT 197 MTR 7",
       "CONTANT 2D",
       "CONTANT 3 AD",
       "CONTANT 3 AD APT-A",
@@ -5258,6 +5346,19 @@
       "ELIZABETH FANCY",
       "EMANCIPATION GARDEN",
       "EMILE GRIFFITH B PARK",
+      "ENIGHED #196 & 198 MTR 4",
+      "ENIGHED 196",
+      "ENIGHED 196 (2)",
+      "ENIGHED 196 (APT 4)",
+      "ENIGHED 196 MTR 1",
+      "ENIGHED 198 (1)",
+      "ENIGHED 198 (3)",
+      "ENIGHED 198 MTR 2",
+      "ENIGHED 199",
+      "ENIGHED 202",
+      "ENIGHED/CONTANT # 193",
+      "ENIGHED-CONTANT 193",
+      "ENIGHED-CONTANT 193 1ST",
       "EST AGNES FANCY 5H",
       "EST ALTONA & WELGUNST",
       "EST ALTONA 200-5C-5",
@@ -5638,7 +5739,18 @@
       "FRENCHMAN'S BAY 14-37C",
       "FRENCHTOWN B-2",
       "FRYDENDAHL 56-16 MTR-C",
+      "FRYDENHOJ #1-19",
+      "FRYDENHOJ 1-1",
+      "FRYDENHOJ 1-1 DWN",
+      "FRYDENHOJ 1-19 UP",
+      "FRYDENHOJ 1-2",
+      "FRYDENHOJ 1-20",
+      "FRYDENHOJ 1-21",
+      "FRYDENHOJ 1-21 APT-1",
+      "FRYDENHOJ 1-23",
       "FRYDENHOJ 12Q",
+      "FRYDENHOJ 1-38",
+      "FRYDENHOJ 1-39",
       "FRYDENHOJ 156",
       "GADE 24 2ND FL B-24&B-25",
       "GAMBLE GADE",
@@ -7371,8 +7483,8 @@
       "ZUERIENDENHEIT",
       "ZUFRIDENHEIT 1"
     ],
-    "totalOutages": 28
+    "totalOutages": 30
   },
   "staleAfterSeconds": 900,
-  "unassignedEventCount": 24
+  "unassignedEventCount": 26
 }
