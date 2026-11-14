@@ -1465,6 +1465,34 @@
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
+      "id": "7c32a76274f2906078a685be3c9aef57c86f86c12d202cbb6211515ad1e7bfe4",
+      "island": null,
+      "locations": [
+        "3M BAKKERO",
+        "BAKKERO 3A-2-REMAINDER",
+        "BAKKERO 3C",
+        "BAKKERO 3L FLAG HILL"
+      ],
+      "modifiedAt": "2026-11-14T14:13:23Z",
+      "name": "T-T-14640",
+      "neighborhoodIDs": [],
+      "point": {
+        "latitude": 18.327975674240342,
+        "longitude": -64.91384419899413
+      },
+      "reportedCustomersInitially": 4,
+      "reportedCustomersOut": 4,
+      "reportedCustomersRestored": 0,
+      "sourceStatus": "Predicted",
+      "startedAt": "2026-11-14T14:12:55Z",
+      "verified": false,
+      "workStatus": null
+    },
+    {
+      "cause": null,
+      "crewAssigned": false,
+      "endedAt": null,
+      "estimatedRestoration": null,
       "id": "7cb2d66acc0be1932570f46d94d5449526818525d70a06db378ea796d9f80456",
       "island": null,
       "locations": [
@@ -2772,7 +2800,7 @@
       "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-14T14:10:58Z",
+  "generatedAt": "2026-11-14T14:16:00Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -2936,21 +2964,21 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "7b6190623b4411db089c95f9ca937c92741688de18a7f00a530736a0bb501cc8",
+  "snapshotID": "dc3bd1255aa92c62127029f3830c3a88cb9d64fb5ad5a1872839b5c2ea901e64",
   "source": {
-    "checkedAt": "2026-11-14T14:10:58Z",
+    "checkedAt": "2026-11-14T14:16:00Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-14T14:10:28Z",
+    "updatedAt": "2026-11-14T14:15:28Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "sourceSummary": {
     "customerCountDifference": 2,
-    "customersAffected": 2433,
-    "customersOut": 2403,
+    "customersAffected": 2437,
+    "customersOut": 2407,
     "customersRestored": 30,
     "customersServed": 54726,
-    "eventCustomersOut": 2401,
+    "eventCustomersOut": 2405,
     "hourlyCustomersOut": [
       {
         "at": "2026-11-12T14:00:00Z",
@@ -3146,7 +3174,7 @@
       },
       {
         "at": "2026-11-14T14:00:00Z",
-        "customersOut": 2401
+        "customersOut": 2405
       }
     ],
     "locations": [
@@ -3156,6 +3184,7 @@
       "17E ESTATE BOVONI LOT 4",
       "27-I BOLONGO",
       "3-39B BOVONI",
+      "3M BAKKERO",
       "3R AGNES FANCY",
       "60B BOLONGO (DOWN)",
       "6B-F EST THOMAS WAREHSE J",
@@ -3295,6 +3324,9 @@
       "BAKKERO 2N",
       "BAKKERO 2N A-1",
       "BAKKERO 2N-1 M/H",
+      "BAKKERO 3A-2-REMAINDER",
+      "BAKKERO 3C",
+      "BAKKERO 3L FLAG HILL",
       "BAKKERO MAIN HOUSE",
       "BAKKERO P-1-52 SEC. AA",
       "BAKKERO REM 1-3",
@@ -4872,8 +4904,8 @@
       "WILLIAMS DELIGHT 97",
       "WILLIAMS DELIGHT 98"
     ],
-    "totalOutages": 43
+    "totalOutages": 44
   },
   "staleAfterSeconds": 900,
-  "unassignedEventCount": 39
+  "unassignedEventCount": 40
 }
