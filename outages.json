@@ -746,6 +746,32 @@
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
+      "id": "4d500db839e82a3111ab9eec62d125fcfd5937896f37a0a7fa3520a0c788b54b",
+      "island": null,
+      "locations": [
+        "MANDAHL 34 J3",
+        "MANDAHL 34J"
+      ],
+      "modifiedAt": "2026-11-14T12:58:21Z",
+      "name": "T-T-15351",
+      "neighborhoodIDs": [],
+      "point": {
+        "latitude": 18.361085626334184,
+        "longitude": -64.89975519931279
+      },
+      "reportedCustomersInitially": 2,
+      "reportedCustomersOut": 2,
+      "reportedCustomersRestored": 0,
+      "sourceStatus": "Predicted",
+      "startedAt": "2026-11-14T12:57:49Z",
+      "verified": false,
+      "workStatus": null
+    },
+    {
+      "cause": null,
+      "crewAssigned": false,
+      "endedAt": null,
+      "estimatedRestoration": null,
       "id": "5c766731c546f70cfbf237d8f64f967cfaba2bf332d2d5c50a39760f0085222b",
       "island": null,
       "locations": [
@@ -1409,7 +1435,7 @@
       "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-14T12:55:36Z",
+  "generatedAt": "2026-11-14T13:00:37Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -1533,26 +1559,22 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "96e65d661a159a560eb972d6cf34b8ac38a28e2da1957c513483ae2602c42340",
+  "snapshotID": "2ae54b129cd330ac257aee451e4715ff02566a14ec85d5f605813cbfae16e399",
   "source": {
-    "checkedAt": "2026-11-14T12:55:36Z",
+    "checkedAt": "2026-11-14T13:00:37Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-14T12:55:27Z",
+    "updatedAt": "2026-11-14T13:00:27Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "sourceSummary": {
     "customerCountDifference": 2,
-    "customersAffected": 1433,
-    "customersOut": 1403,
+    "customersAffected": 1435,
+    "customersOut": 1405,
     "customersRestored": 30,
     "customersServed": 54726,
-    "eventCustomersOut": 1401,
+    "eventCustomersOut": 1403,
     "hourlyCustomersOut": [
-      {
-        "at": "2026-11-12T12:00:00Z",
-        "customersOut": 1093
-      },
       {
         "at": "2026-11-12T13:00:00Z",
         "customersOut": 4229
@@ -1743,7 +1765,11 @@
       },
       {
         "at": "2026-11-14T12:00:00Z",
-        "customersOut": 1401
+        "customersOut": 1403
+      },
+      {
+        "at": "2026-11-14T13:00:00Z",
+        "customersOut": 1403
       }
     ],
     "locations": [
@@ -2779,6 +2805,8 @@
       "LEB VILLAS PHASE III",
       "LERKENLUND 9D-1-2",
       "LOVENLUND EST FARMHOUSE",
+      "MANDAHL 34 J3",
+      "MANDAHL 34J",
       "ORKANSHULLET 2-1 HASSLE",
       "ORKANSHULLET 2-1 HASSLE I",
       "ORKANSHULLET 2-2",
@@ -2807,8 +2835,8 @@
       "WEST INDIAN CO DOCK B-1",
       "WIC DOCK BAY BLDG-2"
     ],
-    "totalOutages": 14
+    "totalOutages": 15
   },
   "staleAfterSeconds": 900,
-  "unassignedEventCount": 10
+  "unassignedEventCount": 11
 }
