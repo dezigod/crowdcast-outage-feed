@@ -976,6 +976,46 @@
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
+      "id": "6387403d4c254e51e3f7b76d1d9267c14144fbbe1c1bb3269b877e6c0fdbb4d7",
+      "island": null,
+      "locations": [
+        "DIAMOND 131",
+        "MT PLEASANT",
+        "MT PLEASANT 383 U-II",
+        "MT PLEASANT 384",
+        "MT PLEASANT 385 II",
+        "MT PLEASANT 386",
+        "MT PLEASANT 387",
+        "MT PLEASANT 388",
+        "MT PLEASANT 389",
+        "MT PLEASANT 390",
+        "MT PLEASANT 391",
+        "MT PLEASANT 392",
+        "MT PLEASANT 393",
+        "MT PLEASANT 394",
+        "MT PLEASANT 395",
+        "MT PLEASANT 397"
+      ],
+      "modifiedAt": "2026-11-14T13:30:22Z",
+      "name": "T-C-25983",
+      "neighborhoodIDs": [],
+      "point": {
+        "latitude": 17.705260182779625,
+        "longitude": -64.82066022547596
+      },
+      "reportedCustomersInitially": 16,
+      "reportedCustomersOut": 16,
+      "reportedCustomersRestored": 0,
+      "sourceStatus": "Predicted",
+      "startedAt": "2026-11-14T13:30:03Z",
+      "verified": false,
+      "workStatus": null
+    },
+    {
+      "cause": null,
+      "crewAssigned": false,
+      "endedAt": null,
+      "estimatedRestoration": null,
       "id": "652acb60ea792a5beb02bb0d4de71193e5cf3b25d10a73ff2602be5f6b48bc80",
       "island": null,
       "locations": [
@@ -1452,20 +1492,49 @@
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
+      "id": "eb4b72804fd23820289998202419e2a27a437fc81ec503a47d739e418213099e",
+      "island": null,
+      "locations": [
+        "WHIM 58-C",
+        "WHIM 58-D",
+        "WHIM 58-H",
+        "WHIM 58-J",
+        "WHIM 58-K (BACK APT)"
+      ],
+      "modifiedAt": "2026-11-14T13:28:20Z",
+      "name": "T-C-12216",
+      "neighborhoodIDs": [],
+      "point": {
+        "latitude": 17.697306801176296,
+        "longitude": -64.86097903681829
+      },
+      "reportedCustomersInitially": 6,
+      "reportedCustomersOut": 6,
+      "reportedCustomersRestored": 0,
+      "sourceStatus": "Predicted",
+      "startedAt": "2026-11-14T13:27:50Z",
+      "verified": false,
+      "workStatus": null
+    },
+    {
+      "cause": null,
+      "crewAssigned": false,
+      "endedAt": null,
+      "estimatedRestoration": null,
       "id": "f0741b879d4d96029172b2657d83ef6640ec5a53cda643b7622d08ba335d1399",
       "island": null,
       "locations": [
         "LEB VILLAS PHASE III"
       ],
-      "modifiedAt": "2026-11-14T12:38:28Z",
-      "name": "207574",
+      "modifiedAt": "2026-11-14T13:28:41Z",
+      "name": "FUSC-26120",
       "neighborhoodIDs": [],
       "point": {
-        "latitude": 17.705275075070173,
-        "longitude": -64.81900432385386
+        "latitude": 17.704946246785187,
+        "longitude": -64.81800378520504
       },
-      "reportedCustomersInitially": 1,
-      "reportedCustomersOut": 1,
+      "reportedCustomersInitially": 87,
+      "reportedCustomersOut": 87,
       "reportedCustomersRestored": 0,
       "sourceStatus": "Predicted",
       "startedAt": "2026-11-14T12:37:59Z",
@@ -1473,7 +1542,7 @@
       "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-14T13:25:45Z",
+  "generatedAt": "2026-11-14T13:30:47Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -1597,21 +1666,21 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "9cfc0aaed4a84859c9460c3ace71a67388808ad9a8cc596a7fdd72674769e104",
+  "snapshotID": "59313130d4bea355b006c5348682cd0896d1f2a0e046b6a0d66a9459c4462c5c",
   "source": {
-    "checkedAt": "2026-11-14T13:25:45Z",
+    "checkedAt": "2026-11-14T13:30:47Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-14T13:25:28Z",
+    "updatedAt": "2026-11-14T13:30:28Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "sourceSummary": {
     "customerCountDifference": 2,
-    "customersAffected": 1453,
-    "customersOut": 1423,
+    "customersAffected": 1561,
+    "customersOut": 1531,
     "customersRestored": 30,
     "customersServed": 54726,
-    "eventCustomersOut": 1421,
+    "eventCustomersOut": 1529,
     "hourlyCustomersOut": [
       {
         "at": "2026-11-12T13:00:00Z",
@@ -1803,11 +1872,11 @@
       },
       {
         "at": "2026-11-14T12:00:00Z",
-        "customersOut": 1403
+        "customersOut": 1489
       },
       {
         "at": "2026-11-14T13:00:00Z",
-        "customersOut": 1421
+        "customersOut": 1529
       }
     ],
     "locations": [
@@ -2222,6 +2291,7 @@
       "CROWNBAY TRANSMITTING",
       "DEMARARA 2",
       "DEMERARA #1A & 1B",
+      "DIAMOND 131",
       "EST AGNES FANCY 5H",
       "EST BAKKERO 1-11",
       "EST BAKKERO 1-55",
@@ -2845,6 +2915,21 @@
       "LOVENLUND EST FARMHOUSE",
       "MANDAHL 34 J3",
       "MANDAHL 34J",
+      "MT PLEASANT",
+      "MT PLEASANT 383 U-II",
+      "MT PLEASANT 384",
+      "MT PLEASANT 385 II",
+      "MT PLEASANT 386",
+      "MT PLEASANT 387",
+      "MT PLEASANT 388",
+      "MT PLEASANT 389",
+      "MT PLEASANT 390",
+      "MT PLEASANT 391",
+      "MT PLEASANT 392",
+      "MT PLEASANT 393",
+      "MT PLEASANT 394",
+      "MT PLEASANT 395",
+      "MT PLEASANT 397",
       "ORKANSHULLET 2-1 HASSLE",
       "ORKANSHULLET 2-1 HASSLE I",
       "ORKANSHULLET 2-2",
@@ -2871,6 +2956,11 @@
       "WATERGATE VILLA B16",
       "WATERGATE VILLA SECTION 6",
       "WEST INDIAN CO DOCK B-1",
+      "WHIM 58-C",
+      "WHIM 58-D",
+      "WHIM 58-H",
+      "WHIM 58-J",
+      "WHIM 58-K (BACK APT)",
       "WIC DOCK BAY BLDG-2",
       "WILLIAMS DELIGHT 100 (EL)",
       "WILLIAMS DELIGHT 102",
@@ -2887,8 +2977,8 @@
       "WILLIAMS DELIGHT 97",
       "WILLIAMS DELIGHT 98"
     ],
-    "totalOutages": 16
+    "totalOutages": 18
   },
   "staleAfterSeconds": 900,
-  "unassignedEventCount": 12
+  "unassignedEventCount": 14
 }
