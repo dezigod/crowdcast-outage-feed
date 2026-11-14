@@ -1340,9 +1340,34 @@
       "startedAt": "2026-11-14T00:14:00Z",
       "verified": true,
       "workStatus": null
+    },
+    {
+      "cause": null,
+      "crewAssigned": false,
+      "endedAt": null,
+      "estimatedRestoration": null,
+      "id": "f0741b879d4d96029172b2657d83ef6640ec5a53cda643b7622d08ba335d1399",
+      "island": null,
+      "locations": [
+        "LEB VILLAS PHASE III"
+      ],
+      "modifiedAt": "2026-11-14T12:38:28Z",
+      "name": "207574",
+      "neighborhoodIDs": [],
+      "point": {
+        "latitude": 17.705275075070173,
+        "longitude": -64.81900432385386
+      },
+      "reportedCustomersInitially": 1,
+      "reportedCustomersOut": 1,
+      "reportedCustomersRestored": 0,
+      "sourceStatus": "Predicted",
+      "startedAt": "2026-11-14T12:37:59Z",
+      "verified": false,
+      "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-14T12:31:30Z",
+  "generatedAt": "2026-11-14T12:40:30Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -1466,21 +1491,21 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "1bdce6092b04b613299be6ee9e480de81d7bbc28aad5df4bd9db4391917983d0",
+  "snapshotID": "9cc1d1f3c6610c992ffad83aecccf6c40439f578615455eac7ada2528e90161e",
   "source": {
-    "checkedAt": "2026-11-14T12:31:30Z",
+    "checkedAt": "2026-11-14T12:40:30Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-14T12:30:27Z",
+    "updatedAt": "2026-11-14T12:40:27Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "sourceSummary": {
     "customerCountDifference": 2,
-    "customersAffected": 1410,
-    "customersOut": 1380,
+    "customersAffected": 1411,
+    "customersOut": 1381,
     "customersRestored": 30,
     "customersServed": 54726,
-    "eventCustomersOut": 1378,
+    "eventCustomersOut": 1379,
     "hourlyCustomersOut": [
       {
         "at": "2026-11-12T12:00:00Z",
@@ -1676,7 +1701,7 @@
       },
       {
         "at": "2026-11-14T12:00:00Z",
-        "customersOut": 1378
+        "customersOut": 1379
       }
     ],
     "locations": [
@@ -2691,6 +2716,7 @@
       "JOSEPH & ROSENDAHL 2-27",
       "JOSEPH & ROSENDAHL 2-32",
       "JOSEPH & ROSENDAHL 3-26",
+      "LEB VILLAS PHASE III",
       "LERKENLUND 9D-1-2",
       "LOVENLUND EST FARMHOUSE",
       "ORKANSHULLET 2-1 HASSLE",
@@ -2721,8 +2747,8 @@
       "WEST INDIAN CO DOCK B-1",
       "WIC DOCK BAY BLDG-2"
     ],
-    "totalOutages": 12
+    "totalOutages": 13
   },
   "staleAfterSeconds": 900,
-  "unassignedEventCount": 8
+  "unassignedEventCount": 9
 }
