@@ -34,6 +34,35 @@
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
+      "id": "4452ce6dd4c096fa8d9f44a531eb54c74b1a11b5c6c4465faa118dfe1affa460",
+      "island": null,
+      "locations": [
+        "TRACT A WATER ISLAND",
+        "WATER ISLAND 8-1",
+        "WATER ISLAND LOT 10"
+      ],
+      "modifiedAt": "2026-11-14T10:46:42Z",
+      "name": "T-T-00601",
+      "neighborhoodIDs": [
+        "waterIsland-water-island"
+      ],
+      "point": {
+        "latitude": 18.30739824936645,
+        "longitude": -64.95682225591158
+      },
+      "reportedCustomersInitially": 3,
+      "reportedCustomersOut": 3,
+      "reportedCustomersRestored": 0,
+      "sourceStatus": "Predicted",
+      "startedAt": "2026-11-14T10:46:14Z",
+      "verified": false,
+      "workStatus": null
+    },
+    {
+      "cause": null,
+      "crewAssigned": false,
+      "endedAt": null,
+      "estimatedRestoration": null,
       "id": "466bc9614c76460646f6e693474c200e210063775b3dac783172ab48908c90e8",
       "island": null,
       "locations": [
@@ -1089,7 +1118,7 @@
       "workStatus": null
     },
     {
-      "cause": null,
+      "cause": "Feeder",
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
@@ -1415,7 +1444,7 @@
         "VISTA MAR",
         "VISTA MAR LAUNDRY"
       ],
-      "modifiedAt": "2026-11-14T10:37:21Z",
+      "modifiedAt": "2026-11-14T10:49:17Z",
       "name": "STX Feeder 06B",
       "neighborhoodIDs": [],
       "point": {
@@ -1486,6 +1515,78 @@
       "reportedCustomersRestored": 0,
       "sourceStatus": "Predicted",
       "startedAt": "2026-11-14T08:33:23Z",
+      "verified": false,
+      "workStatus": null
+    },
+    {
+      "cause": null,
+      "crewAssigned": false,
+      "endedAt": null,
+      "estimatedRestoration": null,
+      "id": "a1851c786da811cb4f6d5b8807f50fec015828583c9f89e1ea4c73956ebc9e9b",
+      "island": null,
+      "locations": [
+        "GAMBLE GADE 1",
+        "GAMBLE GADE 1 (EL)",
+        "GAMBLE GADE 1A",
+        "GAMBLE GADE 1A APT-4",
+        "GAMBLE GADE 4 B-3C",
+        "GAMBLE GADE 4B-3C APT-1",
+        "GAMBLE GADE 4B-3C APT-2",
+        "GAMBLE GADE 4B-3C APT-3",
+        "GAMBLE GADE 4B-3C APT-4",
+        "GAMBLE GADE 4B-3C APT-5",
+        "GUTTETS GADE 2",
+        "GUTTETS GADE 2 (UP)",
+        "NORDSIDEVEJ 2",
+        "NORDSIDEVEJ 3",
+        "NORRE GADE",
+        "NORRE GADE #1",
+        "NORRE GADE 11 APT-20",
+        "NORRE GADE 11A",
+        "NORRE GADE 11B",
+        "NORRE GADE 12A",
+        "NORRE GADE 13",
+        "NORRE GADE 14",
+        "NORRE GADE 2 QUEENS QTRS",
+        "NORRE GADE 3",
+        "NORRE GADE 3-B UP",
+        "NORRE GADE 4B-5-6A MAIN L",
+        "SNEGEL GADE 2B",
+        "SNEGLE GADE",
+        "SNEGLE GADE #6A A-A",
+        "SNEGLE GADE 3",
+        "SNEGLE GADE 3A",
+        "SNEGLE GADE 6 APT-6C",
+        "SNEGLE GADE 6 APT-6D",
+        "SNEGLE GADE 6 APT-6E",
+        "SNEGLE GADE 6 APT-B",
+        "STORE STRADE 7B",
+        "STORE TVAER GADE 4",
+        "STORE TVER GADE 2",
+        "VESTER GADE",
+        "VESTER GADE 3A APT-2",
+        "VESTER GADE 3B",
+        "VESTER GADE 50 DOWN",
+        "VESTER GADE 51",
+        "VESTER GADE 54",
+        "VESTER GADE 6",
+        "VESTER GADE 6AB",
+        "VESTER GADE 7",
+        "WIMMELSKAFTS GADE 10"
+      ],
+      "modifiedAt": "2026-11-14T10:49:42Z",
+      "name": "T-T-09565",
+      "neighborhoodIDs": [],
+      "point": {
+        "latitude": 18.342521945142792,
+        "longitude": -64.9339241819215
+      },
+      "reportedCustomersInitially": 54,
+      "reportedCustomersOut": 54,
+      "reportedCustomersRestored": 0,
+      "sourceStatus": "Predicted",
+      "startedAt": "2026-11-14T10:49:14Z",
       "verified": false,
       "workStatus": null
     },
@@ -2013,7 +2114,7 @@
       "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-14T10:45:52Z",
+  "generatedAt": "2026-11-14T10:50:54Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -2127,7 +2228,24 @@
       "coverage": "partial",
       "customersOut": null,
       "id": "waterIsland",
-      "neighborhoods": []
+      "neighborhoods": [
+        {
+          "affectedCustomers": null,
+          "estimatedRestoration": null,
+          "id": "waterIsland-water-island",
+          "island": "waterIsland",
+          "locations": [
+            "8-1",
+            "Lot 10"
+          ],
+          "name": "Water Island",
+          "sourceEventIDs": [
+            "4452ce6dd4c096fa8d9f44a531eb54c74b1a11b5c6c4465faa118dfe1affa460"
+          ],
+          "sourceStatus": "Predicted",
+          "startedAt": "2026-11-14T10:46:14Z"
+        }
+      ]
     }
   ],
   "lastCollectionError": null,
@@ -2137,21 +2255,21 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "f0a58440c0e32f514ebf02fc9127bf9a1aef1d1f9631eeb8c04bd28a0afb3579",
+  "snapshotID": "54ea4181554f3276d47dabc692ab8bf7b457cd8f8cc4a993d6b8db739bca9c69",
   "source": {
-    "checkedAt": "2026-11-14T10:45:52Z",
+    "checkedAt": "2026-11-14T10:50:54Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-14T10:45:27Z",
+    "updatedAt": "2026-11-14T10:50:27Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "sourceSummary": {
     "customerCountDifference": 2,
-    "customersAffected": 2098,
-    "customersOut": 2068,
+    "customersAffected": 2155,
+    "customersOut": 2125,
     "customersRestored": 30,
     "customersServed": 54726,
-    "eventCustomersOut": 2066,
+    "eventCustomersOut": 2123,
     "hourlyCustomersOut": [
       {
         "at": "2026-11-12T10:00:00Z",
@@ -2347,7 +2465,7 @@
       },
       {
         "at": "2026-11-14T10:00:00Z",
-        "customersOut": 2066
+        "customersOut": 2123
       }
     ],
     "locations": [
@@ -3164,6 +3282,16 @@
       "FRENCHMAN'S BAY PCL 15-49",
       "FRENCHMAN'S BAY PCL 15-58",
       "FRENCHMAN'S COVE 15-12",
+      "GAMBLE GADE 1",
+      "GAMBLE GADE 1 (EL)",
+      "GAMBLE GADE 1A",
+      "GAMBLE GADE 1A APT-4",
+      "GAMBLE GADE 4 B-3C",
+      "GAMBLE GADE 4B-3C APT-1",
+      "GAMBLE GADE 4B-3C APT-2",
+      "GAMBLE GADE 4B-3C APT-3",
+      "GAMBLE GADE 4B-3C APT-4",
+      "GAMBLE GADE 4B-3C APT-5",
       "GLYNN",
       "GLYNN 1",
       "GLYNN 1-A",
@@ -3183,6 +3311,8 @@
       "GROUND A13 & A14 B 4 APT-",
       "GROUND A13 & A14 B2 APT-",
       "GROUND A13 & A14 B-4 APT-",
+      "GUTTETS GADE 2",
+      "GUTTETS GADE 2 (UP)",
       "HASSEL ISLAND",
       "HASSEL ISLAND #2",
       "HASSEL ISLAND ALLAMANDA H",
@@ -3676,6 +3806,20 @@
       "MORNING STAR 88",
       "MORNING STAR 93",
       "MORNING STAR 94",
+      "NORDSIDEVEJ 2",
+      "NORDSIDEVEJ 3",
+      "NORRE GADE",
+      "NORRE GADE #1",
+      "NORRE GADE 11 APT-20",
+      "NORRE GADE 11A",
+      "NORRE GADE 11B",
+      "NORRE GADE 12A",
+      "NORRE GADE 13",
+      "NORRE GADE 14",
+      "NORRE GADE 2 QUEENS QTRS",
+      "NORRE GADE 3",
+      "NORRE GADE 3-B UP",
+      "NORRE GADE 4B-5-6A MAIN L",
       "ORKANSHULLET 2-1 HASSLE",
       "ORKANSHULLET 2-1 HASSLE I",
       "ORKANSHULLET 2-2",
@@ -3692,6 +3836,15 @@
       "PETERBORG 8-6",
       "PRINCESS PLAZA 9A",
       "REGATTA POINT VILLAS 1& 2",
+      "SNEGEL GADE 2B",
+      "SNEGLE GADE",
+      "SNEGLE GADE #6A A-A",
+      "SNEGLE GADE 3",
+      "SNEGLE GADE 3A",
+      "SNEGLE GADE 6 APT-6C",
+      "SNEGLE GADE 6 APT-6D",
+      "SNEGLE GADE 6 APT-6E",
+      "SNEGLE GADE 6 APT-B",
       "ST JOHN",
       "ST JOHN 10-A",
       "ST JOHN 10-J",
@@ -3778,6 +3931,9 @@
       "ST. JOHN 21",
       "ST. JOSEPH & ROSENDAHL",
       "ST.JOHN 23 BA & 23M",
+      "STORE STRADE 7B",
+      "STORE TVAER GADE 4",
+      "STORE TVER GADE 2",
       "SUBBASE 100",
       "SUBBASE 101 (EL)",
       "SUBBASE 69",
@@ -3851,13 +4007,26 @@
       "THOMASVILLE BLDG 9 BOVONI",
       "THOMASVILLE BLDG-3",
       "THOMASVILLE BOVONI 12H",
+      "TRACT A WATER ISLAND",
+      "VESTER GADE",
+      "VESTER GADE 3A APT-2",
+      "VESTER GADE 3B",
+      "VESTER GADE 50 DOWN",
+      "VESTER GADE 51",
+      "VESTER GADE 54",
+      "VESTER GADE 6",
+      "VESTER GADE 6AB",
+      "VESTER GADE 7",
       "VISTA MAR",
       "VISTA MAR LAUNDRY",
+      "WATER ISLAND 8-1",
+      "WATER ISLAND LOT 10",
       "WATERFRONT/VETERAN'S PARK",
       "WATERGATE VILLA B16",
       "WATERGATE VILLA SECTION 6",
       "WEST INDIAN CO DOCK B-1",
       "WIC DOCK BAY BLDG-2",
+      "WIMMELSKAFTS GADE 10",
       "WORK & REST 247",
       "WORK & REST 266 MAIN HSE",
       "WORK & REST 267",
@@ -3868,8 +4037,8 @@
       "WORK AND REST 245",
       "WORK AND REST 266"
     ],
-    "totalOutages": 20
+    "totalOutages": 22
   },
   "staleAfterSeconds": 900,
-  "unassignedEventCount": 16
+  "unassignedEventCount": 18
 }
