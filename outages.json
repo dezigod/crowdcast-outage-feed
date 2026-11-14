@@ -33,6 +33,32 @@
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
+      "id": "1655eef4df40e161638d60b5f9a1a273e59f1031969c63fb81cd109b0bb3f328",
+      "island": null,
+      "locations": [
+        "GOLDEN ROCK",
+        "GOLDEN ROCK 159"
+      ],
+      "modifiedAt": "2026-11-14T13:49:58Z",
+      "name": "T-C-03617",
+      "neighborhoodIDs": [],
+      "point": {
+        "latitude": 17.75061343080843,
+        "longitude": -64.72154349499205
+      },
+      "reportedCustomersInitially": 10,
+      "reportedCustomersOut": 10,
+      "reportedCustomersRestored": 0,
+      "sourceStatus": "Predicted",
+      "startedAt": "2026-11-14T13:49:47Z",
+      "verified": false,
+      "workStatus": null
+    },
+    {
+      "cause": null,
+      "crewAssigned": false,
+      "endedAt": null,
+      "estimatedRestoration": null,
       "id": "18ca49282fdfbc66859e1ffcd47e445e2254220c736ba659cc5ac67781f60b60",
       "island": null,
       "locations": [
@@ -1479,6 +1505,36 @@
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
+      "id": "944304be638c94da5e5825b8993dd0c6ede7303ac46a7d3c34464797cec7d773",
+      "island": null,
+      "locations": [
+        "MT PLEASANT (WEST) 126",
+        "MT PLEASANT 121",
+        "MT PLEASANT 122",
+        "MT PLEASANT 123 (EL)",
+        "MT PLEASANT 124",
+        "MT PLEASANT 125"
+      ],
+      "modifiedAt": "2026-11-14T13:46:53Z",
+      "name": "T-C-19459",
+      "neighborhoodIDs": [],
+      "point": {
+        "latitude": 17.706577285022256,
+        "longitude": -64.81806382658218
+      },
+      "reportedCustomersInitially": 6,
+      "reportedCustomersOut": 6,
+      "reportedCustomersRestored": 0,
+      "sourceStatus": "Predicted",
+      "startedAt": "2026-11-14T13:46:31Z",
+      "verified": false,
+      "workStatus": null
+    },
+    {
+      "cause": null,
+      "crewAssigned": false,
+      "endedAt": null,
+      "estimatedRestoration": null,
       "id": "95a770292960a4ccda9f81ffc23eeea59b1d965e59834e439fad4f028214c442",
       "island": null,
       "locations": [
@@ -2562,7 +2618,7 @@
       "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-14T13:45:51Z",
+  "generatedAt": "2026-11-14T13:50:53Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -2702,21 +2758,21 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "e7aa8c1449d63608e2edcbfc39a17e39ac62f4c1aeb816dc87a984f0dcd2453e",
+  "snapshotID": "706a927191941de035d74d9e5b88bfa276e94a10acfec8c38d8122bd1c5a7a81",
   "source": {
-    "checkedAt": "2026-11-14T13:45:51Z",
+    "checkedAt": "2026-11-14T13:50:53Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-14T13:45:28Z",
+    "updatedAt": "2026-11-14T13:50:28Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "sourceSummary": {
     "customerCountDifference": 2,
-    "customersAffected": 2344,
-    "customersOut": 2314,
+    "customersAffected": 2360,
+    "customersOut": 2330,
     "customersRestored": 30,
     "customersServed": 54726,
-    "eventCustomersOut": 2312,
+    "eventCustomersOut": 2328,
     "hourlyCustomersOut": [
       {
         "at": "2026-11-12T13:00:00Z",
@@ -2912,7 +2968,7 @@
       },
       {
         "at": "2026-11-14T13:00:00Z",
-        "customersOut": 2312
+        "customersOut": 2328
       }
     ],
     "locations": [
@@ -3680,6 +3736,8 @@
       "FRENCHMAN'S BAY PCL 15-49",
       "FRENCHMAN'S BAY PCL 15-58",
       "FRENCHMAN'S COVE 15-12",
+      "GOLDEN ROCK",
+      "GOLDEN ROCK 159",
       "GROUND A13 & A14 B 4 APT-",
       "GROUND A13 & A14 B2 APT-",
       "GROUND A13 & A14 B-4 APT-",
@@ -4317,6 +4375,12 @@
       "MT PELLIER 38",
       "MT PELLIER 38 (DWNSTR)",
       "MT PLEASANT",
+      "MT PLEASANT (WEST) 126",
+      "MT PLEASANT 121",
+      "MT PLEASANT 122",
+      "MT PLEASANT 123 (EL)",
+      "MT PLEASANT 124",
+      "MT PLEASANT 125",
       "MT PLEASANT 139",
       "MT PLEASANT 383 U-II",
       "MT PLEASANT 384",
@@ -4574,8 +4638,8 @@
       "WILLIAMS DELIGHT 97",
       "WILLIAMS DELIGHT 98"
     ],
-    "totalOutages": 37
+    "totalOutages": 39
   },
   "staleAfterSeconds": 900,
-  "unassignedEventCount": 33
+  "unassignedEventCount": 35
 }
