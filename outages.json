@@ -3394,6 +3394,32 @@
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
+      "id": "b38c1906c531e0a92a806474311072be9e7fd27a1d9c39fd860f2dd0385186b2",
+      "island": null,
+      "locations": [
+        "CAROLINA 10-30C-1A",
+        "CAROLINA 10-30C-5"
+      ],
+      "modifiedAt": "2026-11-14T01:50:53Z",
+      "name": "T-J-03914",
+      "neighborhoodIDs": [],
+      "point": {
+        "latitude": 18.33884437569973,
+        "longitude": -64.71838654311689
+      },
+      "reportedCustomersInitially": 2,
+      "reportedCustomersOut": 2,
+      "reportedCustomersRestored": 0,
+      "sourceStatus": "Predicted",
+      "startedAt": "2026-11-14T01:50:36Z",
+      "verified": false,
+      "workStatus": null
+    },
+    {
+      "cause": null,
+      "crewAssigned": false,
+      "endedAt": null,
+      "estimatedRestoration": null,
       "id": "b8d01e2317fa08b53cb82f835dbbd25dc94dc3dc1cb86f4c36d24248ba167c06",
       "island": null,
       "locations": [
@@ -3718,7 +3744,7 @@
       "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-14T01:51:13Z",
+  "generatedAt": "2026-11-14T01:56:14Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -4077,21 +4103,21 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "7f16410275ae8bb7fdfbfe9f2e6cc64a047a50f0d2b66ab335c60693778c23cc",
+  "snapshotID": "85f9f580d37260f89a18d75c09c5bb2fa75848123539ce78af4ee669210875b5",
   "source": {
-    "checkedAt": "2026-11-14T01:51:13Z",
+    "checkedAt": "2026-11-14T01:56:14Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-14T01:50:28Z",
+    "updatedAt": "2026-11-14T01:55:28Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "sourceSummary": {
     "customerCountDifference": 2,
-    "customersAffected": 4137,
-    "customersOut": 4137,
+    "customersAffected": 4139,
+    "customersOut": 4139,
     "customersRestored": 0,
     "customersServed": 54726,
-    "eventCustomersOut": 4135,
+    "eventCustomersOut": 4137,
     "hourlyCustomersOut": [
       {
         "at": "2026-11-12T01:00:00Z",
@@ -4287,7 +4313,7 @@
       },
       {
         "at": "2026-11-14T01:00:00Z",
-        "customersOut": 4135
+        "customersOut": 4137
       }
     ],
     "locations": [
@@ -4746,6 +4772,8 @@
       "BRED GADE 7B (EL)",
       "CARANAGE",
       "CAREENING HOLE (HONDURAS)",
+      "CAROLINA 10-30C-1A",
+      "CAROLINA 10-30C-5",
       "CAROLINA 10-6",
       "CAROLINA 15 (REM)",
       "CAROLINA 15-1-B",
@@ -7343,8 +7371,8 @@
       "ZUERIENDENHEIT",
       "ZUFRIDENHEIT 1"
     ],
-    "totalOutages": 27
+    "totalOutages": 28
   },
   "staleAfterSeconds": 900,
-  "unassignedEventCount": 23
+  "unassignedEventCount": 24
 }
