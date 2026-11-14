@@ -4809,6 +4809,45 @@
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
+      "id": "38d46668d342feada22cbd355dafc5478c5b893700b9b2ab9601b003cdb1dca2",
+      "island": null,
+      "locations": [
+        "LOVELUND 3-4 BLD 12",
+        "LOVENLUND 3-4 B-12 A-1232",
+        "LOVENLUND 3-4 BLD 12",
+        "LOVENLUND 3-4 BLDG-12",
+        "LOVENLUND B-12",
+        "LOVENLUND B-12 APT 1211",
+        "LOVENLUND B-12 APT 1212",
+        "LOVENLUND B-12 APT 1213",
+        "LOVENLUND B-12 APT 1221",
+        "LOVENLUND B-12 APT 1222",
+        "LOVENLUND B-12 APT 1224",
+        "LOVENLUND B-12 APT 1234",
+        "LOVENLUND BLDG 12"
+      ],
+      "modifiedAt": "2026-11-14T22:24:06Z",
+      "name": "T-T-17094",
+      "neighborhoodIDs": [
+        "stThomas-lovenlund"
+      ],
+      "point": {
+        "latitude": 18.36069582323325,
+        "longitude": -64.91562176612281
+      },
+      "reportedCustomersInitially": 13,
+      "reportedCustomersOut": 13,
+      "reportedCustomersRestored": 0,
+      "sourceStatus": "Predicted",
+      "startedAt": "2026-11-14T22:23:58Z",
+      "verified": false,
+      "workStatus": null
+    },
+    {
+      "cause": null,
+      "crewAssigned": false,
+      "endedAt": null,
+      "estimatedRestoration": null,
       "id": "466bc9614c76460646f6e693474c200e210063775b3dac783172ab48908c90e8",
       "island": null,
       "locations": [
@@ -6537,6 +6576,50 @@
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
+      "id": "b7cfc32270a91c75535924744c17f1460242a748b561f717fb0fb0c1e06b8b40",
+      "island": null,
+      "locations": [
+        "3R AGNES FANCY",
+        "AGNES FANCY",
+        "AGNES FANCY 3B-1",
+        "AGNES FANCY 3C",
+        "AGNES FANCY 3D-1",
+        "AGNES FANCY 3F MTR-1",
+        "AGNES FANCY 3K",
+        "AGNES FANCY 3K-1",
+        "AGNES FANCY 3L",
+        "AGNES FANCY 3-N",
+        "AGNES FANCY 3Q",
+        "AGNES FANCY 3S",
+        "AGNES FANCY 5D",
+        "AGNES FANCY 5D DWELLING",
+        "AGNES FANCY 5D DWN",
+        "AGNES FANCY 5E",
+        "AGNES FANCY 5-E",
+        "EST AGNES FANCY 5H"
+      ],
+      "modifiedAt": "2026-11-14T22:25:09Z",
+      "name": "T-T-04226",
+      "neighborhoodIDs": [
+        "stThomas-agnes-fancy"
+      ],
+      "point": {
+        "latitude": 18.349069598570136,
+        "longitude": -64.9351704926616
+      },
+      "reportedCustomersInitially": 19,
+      "reportedCustomersOut": 19,
+      "reportedCustomersRestored": 0,
+      "sourceStatus": "Predicted",
+      "startedAt": "2026-11-14T22:24:40Z",
+      "verified": false,
+      "workStatus": null
+    },
+    {
+      "cause": null,
+      "crewAssigned": false,
+      "endedAt": null,
+      "estimatedRestoration": null,
       "id": "cbbd2ef62dee6d0405b3a5d5c18b1c3c5a5b4dbca8f2f81c8fc8d71e6fec7176",
       "island": "stThomas",
       "locations": [
@@ -6595,7 +6678,7 @@
       "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-14T22:20:45Z",
+  "generatedAt": "2026-11-14T22:25:47Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -6609,16 +6692,31 @@
           "id": "stThomas-agnes-fancy",
           "island": "stThomas",
           "locations": [
+            "3-N",
+            "3B-1",
+            "3C",
+            "3D-1",
+            "3F MTR-1",
+            "3K",
+            "3K-1",
+            "3L",
+            "3Q",
+            "3S",
             "5-A",
+            "5-E",
             "5B",
+            "5D",
+            "5D DWELLING",
+            "5E",
             "5F"
           ],
           "name": "Agnes Fancy",
           "sourceEventIDs": [
-            "688d24f7b6e72cb60f9dd7cfcfc315b9ee0efe7095b9fbf192b7ed84c8031d54"
+            "688d24f7b6e72cb60f9dd7cfcfc315b9ee0efe7095b9fbf192b7ed84c8031d54",
+            "b7cfc32270a91c75535924744c17f1460242a748b561f717fb0fb0c1e06b8b40"
           ],
           "sourceStatus": "Predicted",
-          "startedAt": "2026-05-24T00:16:58Z"
+          "startedAt": null
         },
         {
           "affectedCustomers": null,
@@ -6858,14 +6956,27 @@
           "id": "stThomas-lovenlund",
           "island": "stThomas",
           "locations": [
+            "3-4 B-12 A-1232",
+            "3-4 BLD 12",
+            "3-4 BLDG-12",
+            "B-12",
+            "B-12 APT 1211",
+            "B-12 APT 1212",
+            "B-12 APT 1213",
+            "B-12 APT 1221",
+            "B-12 APT 1222",
+            "B-12 APT 1224",
+            "B-12 APT 1234",
+            "Building 12",
             "EST FARMHOUSE"
           ],
           "name": "Lovenlund",
           "sourceEventIDs": [
+            "38d46668d342feada22cbd355dafc5478c5b893700b9b2ab9601b003cdb1dca2",
             "a7622fe5ec3f7460243d64545ddffb42dc3c534b3876e2c938737688abde9c58"
           ],
-          "sourceStatus": "Verified",
-          "startedAt": "2026-11-05T17:32:26Z"
+          "sourceStatus": "Unconfirmed",
+          "startedAt": null
         },
         {
           "affectedCustomers": null,
@@ -6943,21 +7054,21 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "9935d19bc46fb545abde7117069c841c7bf6def1bacfbcb153977d2f8d010eb9",
+  "snapshotID": "1042de83fd3b9d1095f3a2c4814e1a08630eb5505c77ee64bd9771416acdaea8",
   "source": {
-    "checkedAt": "2026-11-14T22:20:45Z",
+    "checkedAt": "2026-11-14T22:25:47Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-14T22:20:30Z",
+    "updatedAt": "2026-11-14T22:25:30Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "sourceSummary": {
     "customerCountDifference": 2,
-    "customersAffected": 9192,
-    "customersOut": 7770,
+    "customersAffected": 9224,
+    "customersOut": 7802,
     "customersRestored": 1422,
     "customersServed": 54726,
-    "eventCustomersOut": 7768,
+    "eventCustomersOut": 7800,
     "hourlyCustomersOut": [
       {
         "at": "2026-11-12T22:00:00Z",
@@ -7153,7 +7264,7 @@
       },
       {
         "at": "2026-11-14T22:00:00Z",
-        "customersOut": 7768
+        "customersOut": 7800
       }
     ],
     "locations": [
@@ -7191,6 +7302,7 @@
       "3M BAKKERO",
       "3M-1A ESTATE ST PETER",
       "3M-1A ST PETER MTR 1",
+      "3R AGNES FANCY",
       "3T ZOOTENVAAL",
       "4A LINDBERG BAY",
       "4A ST QUACCO & ZIMMERMAN",
@@ -7225,8 +7337,23 @@
       "ABRAHAMS FANCY 3A-9",
       "ABRAHAMS FANCY 3-B",
       "AGNES FANCY",
+      "AGNES FANCY 3B-1",
+      "AGNES FANCY 3C",
+      "AGNES FANCY 3D-1",
+      "AGNES FANCY 3F MTR-1",
+      "AGNES FANCY 3K",
+      "AGNES FANCY 3K-1",
+      "AGNES FANCY 3L",
+      "AGNES FANCY 3-N",
+      "AGNES FANCY 3Q",
+      "AGNES FANCY 3S",
       "AGNES FANCY 5-A",
       "AGNES FANCY 5B",
+      "AGNES FANCY 5D",
+      "AGNES FANCY 5D DWELLING",
+      "AGNES FANCY 5D DWN",
+      "AGNES FANCY 5E",
+      "AGNES FANCY 5-E",
       "AGNES FANCY 5F",
       "ALTONA",
       "ALTONA #200-8R",
@@ -9679,6 +9806,7 @@
       "ENIGHED-CONTANT 193",
       "ENIGHED-CONTANT 193 1ST",
       "EST ABRAHAMS FANCY 3A-6",
+      "EST AGNES FANCY 5H",
       "EST BAKKERO",
       "EST BAKKERO 1-11",
       "EST BAKKERO 1-55",
@@ -12317,6 +12445,19 @@
       "LOUISENHOJ 8C & 9A",
       "LOUISENHOJ 8C & 9A DWN",
       "LOUISENHOJ 9B",
+      "LOVELUND 3-4 BLD 12",
+      "LOVENLUND 3-4 B-12 A-1232",
+      "LOVENLUND 3-4 BLD 12",
+      "LOVENLUND 3-4 BLDG-12",
+      "LOVENLUND B-12",
+      "LOVENLUND B-12 APT 1211",
+      "LOVENLUND B-12 APT 1212",
+      "LOVENLUND B-12 APT 1213",
+      "LOVENLUND B-12 APT 1221",
+      "LOVENLUND B-12 APT 1222",
+      "LOVENLUND B-12 APT 1224",
+      "LOVENLUND B-12 APT 1234",
+      "LOVENLUND BLDG 12",
       "LOVENLUND EST FARMHOUSE",
       "LOWER LOVE EAST PRK SD II",
       "MAFOLIE",
@@ -13342,8 +13483,8 @@
       "ZUERIENDENHEIT",
       "ZUFRIDENHEIT 1"
     ],
-    "totalOutages": 16
+    "totalOutages": 18
   },
   "staleAfterSeconds": 900,
-  "unassignedEventCount": 13
+  "unassignedEventCount": 15
 }
