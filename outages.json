@@ -1107,6 +1107,48 @@
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
+      "id": "ba46c1e1a2dd0444e1406a3fdeef3ee11a7e23bee2019b2743ccd2072ef99107",
+      "island": null,
+      "locations": [
+        "EST THOMAS #10 10TH",
+        "EST THOMAS 10 ST 16",
+        "EST THOMAS 10TH ST LOT 14",
+        "EST THOMAS 12 10TH ST",
+        "EST THOMAS 16 10TH",
+        "EST THOMAS 16 10TH ST",
+        "EST THOMAS 18 10TH ST",
+        "EST THOMAS 18 10TH STREET",
+        "EST THOMAS 2 10TH STREET",
+        "EST THOMAS 6 10TH ST",
+        "EST THOMAS 6-A 10ST",
+        "EST THOMAS 6A 10TH",
+        "EST THOMAS 6A 10TH ST",
+        "EST THOMAS 6A 10TH ST BAS",
+        "EST THOMAS 6A-10TH",
+        "EST THOMAS 6A-10TH STREET",
+        "ESTATE THOMAS 6 10TH ST",
+        "ESTATE THOMAS 6A 10TH ST"
+      ],
+      "modifiedAt": "2026-11-14T12:41:59Z",
+      "name": "T-T-16523",
+      "neighborhoodIDs": [],
+      "point": {
+        "latitude": 18.3387590604904,
+        "longitude": -64.91611120081137
+      },
+      "reportedCustomersInitially": 22,
+      "reportedCustomersOut": 22,
+      "reportedCustomersRestored": 0,
+      "sourceStatus": "Predicted",
+      "startedAt": "2026-11-14T12:41:54Z",
+      "verified": false,
+      "workStatus": null
+    },
+    {
+      "cause": null,
+      "crewAssigned": false,
+      "endedAt": null,
+      "estimatedRestoration": null,
       "id": "c381002327670be868af3f50aafdefc9fac4ebb90784193865d0729666657998",
       "island": "stThomas",
       "locations": [
@@ -1367,7 +1409,7 @@
       "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-14T12:40:30Z",
+  "generatedAt": "2026-11-14T12:45:32Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -1491,21 +1533,21 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "9cc1d1f3c6610c992ffad83aecccf6c40439f578615455eac7ada2528e90161e",
+  "snapshotID": "787532949da863958f2ce7f8da84d34f7358ba3d2f421de75c1aa994a00e6195",
   "source": {
-    "checkedAt": "2026-11-14T12:40:30Z",
+    "checkedAt": "2026-11-14T12:45:32Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-14T12:40:27Z",
+    "updatedAt": "2026-11-14T12:45:27Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "sourceSummary": {
     "customerCountDifference": 2,
-    "customersAffected": 1411,
-    "customersOut": 1381,
+    "customersAffected": 1433,
+    "customersOut": 1403,
     "customersRestored": 30,
     "customersServed": 54726,
-    "eventCustomersOut": 1379,
+    "eventCustomersOut": 1401,
     "hourlyCustomersOut": [
       {
         "at": "2026-11-12T12:00:00Z",
@@ -1701,7 +1743,7 @@
       },
       {
         "at": "2026-11-14T12:00:00Z",
-        "customersOut": 1379
+        "customersOut": 1401
       }
     ],
     "locations": [
@@ -2156,17 +2198,25 @@
       "EST HAVENSIGHT",
       "EST ORKANSHULLET(HASS)8-1",
       "EST THOMAS",
+      "EST THOMAS #10 10TH",
       "EST THOMAS #1-C",
       "EST THOMAS (MANDELA CIR)",
+      "EST THOMAS 10 ST 16",
+      "EST THOMAS 10TH ST LOT 14",
+      "EST THOMAS 12 10TH ST",
       "EST THOMAS 14",
       "EST THOMAS 14 BASE P-5",
       "EST THOMAS 14-6C BASE 2ND",
       "EST THOMAS 14-6-F",
       "EST THOMAS 14AB",
+      "EST THOMAS 16 10TH",
+      "EST THOMAS 16 10TH ST",
       "EST THOMAS 16-2",
       "EST THOMAS 17-1 & 6",
       "EST THOMAS 17-1 NQ 6H",
       "EST THOMAS 18",
+      "EST THOMAS 18 10TH ST",
+      "EST THOMAS 18 10TH STREET",
       "EST THOMAS 18 DECK BAY",
       "EST THOMAS 18 STE-107B",
       "EST THOMAS 18 STE-108",
@@ -2182,10 +2232,18 @@
       "EST THOMAS 19 BLDG-II",
       "EST THOMAS 1C",
       "EST THOMAS 1-RESTAURANT",
+      "EST THOMAS 2 10TH STREET",
       "EST THOMAS 2-6F",
+      "EST THOMAS 6 10TH ST",
       "EST THOMAS 6 SPACE 1",
       "EST THOMAS 6 SPACE 5",
       "EST THOMAS 6-3 SUITE 308",
+      "EST THOMAS 6-A 10ST",
+      "EST THOMAS 6A 10TH",
+      "EST THOMAS 6A 10TH ST",
+      "EST THOMAS 6A 10TH ST BAS",
+      "EST THOMAS 6A-10TH",
+      "EST THOMAS 6A-10TH STREET",
       "EST THOMAS 6B",
       "EST THOMAS 6B&F #J 104",
       "EST THOMAS 6B-1 #4",
@@ -2257,6 +2315,8 @@
       "ESTATE THOMAS 18 REMAINER",
       "ESTATE THOMAS 19",
       "ESTATE THOMAS 1F-LONG BAY",
+      "ESTATE THOMAS 6 10TH ST",
+      "ESTATE THOMAS 6A 10TH ST",
       "ESTATE THOMAS 6A-1",
       "ESTATE THOMAS 6B&F",
       "ESTATE THOMAS 6F",
@@ -2747,8 +2807,8 @@
       "WEST INDIAN CO DOCK B-1",
       "WIC DOCK BAY BLDG-2"
     ],
-    "totalOutages": 13
+    "totalOutages": 14
   },
   "staleAfterSeconds": 900,
-  "unassignedEventCount": 9
+  "unassignedEventCount": 10
 }
