@@ -6,6 +6,43 @@
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
+      "id": "07d9104d0f32e7eba75f5f494260a400a6149fc1a34bcc6b0f51e3e4e839fa91",
+      "island": null,
+      "locations": [
+        "110-K FRYDENHOJ",
+        "110-R FRYDENHOJ",
+        "EST FRYDENHOJ 110-P",
+        "FRYDENHOJ 110 C",
+        "FRYDENHOJ 110 D-B",
+        "FRYDENHOJ 110C",
+        "FRYDENHOJ 110-H",
+        "FRYDENHOJ 110-J",
+        "FRYDENHOJ 110L UP",
+        "FRYDENHOJ 110-M",
+        "FRYDENHOJ 110-P",
+        "FRYDENHOJ 110-P MTR-1",
+        "FRYDENHOJ 110-Q"
+      ],
+      "modifiedAt": "2026-11-14T02:41:39Z",
+      "name": "T-T-13065",
+      "neighborhoodIDs": [],
+      "point": {
+        "latitude": 18.332693045139358,
+        "longitude": -64.86197133990808
+      },
+      "reportedCustomersInitially": 13,
+      "reportedCustomersOut": 13,
+      "reportedCustomersRestored": 0,
+      "sourceStatus": "Predicted",
+      "startedAt": "2026-11-14T02:41:14Z",
+      "verified": false,
+      "workStatus": null
+    },
+    {
+      "cause": null,
+      "crewAssigned": false,
+      "endedAt": null,
+      "estimatedRestoration": null,
       "id": "0e28ca95eaafeb3b7c9e24aee25ee7a3c013d9e9a068f7db942700848695a7d0",
       "island": null,
       "locations": [
@@ -1982,7 +2019,7 @@
       "locations": [
         "BOVONI 1-2"
       ],
-      "modifiedAt": "2026-11-14T01:58:55Z",
+      "modifiedAt": "2026-11-14T02:41:39Z",
       "name": "T-T-14186",
       "neighborhoodIDs": [],
       "point": {
@@ -3974,7 +4011,7 @@
       "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-14T02:41:29Z",
+  "generatedAt": "2026-11-14T02:46:31Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -4333,21 +4370,21 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "60beaf462ddee698d4c5549295c5f8484dc8683d7f363b4a9e8eeb39f257c48c",
+  "snapshotID": "f2d2a94ec7f3850a673afb11f385643432dfde3cda29186e20d654270a145d8c",
   "source": {
-    "checkedAt": "2026-11-14T02:41:29Z",
+    "checkedAt": "2026-11-14T02:46:31Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-14T02:40:29Z",
+    "updatedAt": "2026-11-14T02:45:29Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "sourceSummary": {
     "customerCountDifference": 2,
-    "customersAffected": 4243,
-    "customersOut": 4243,
+    "customersAffected": 4256,
+    "customersOut": 4256,
     "customersRestored": 0,
     "customersServed": 54726,
-    "eventCustomersOut": 4241,
+    "eventCustomersOut": 4254,
     "hourlyCustomersOut": [
       {
         "at": "2026-11-12T02:00:00Z",
@@ -4543,7 +4580,7 @@
       },
       {
         "at": "2026-11-14T02:00:00Z",
-        "customersOut": 4241
+        "customersOut": 4254
       }
     ],
     "locations": [
@@ -4552,6 +4589,8 @@
       "103A BARBADOS",
       "103A STMAARTEN HS",
       "10G LERKENLUND",
+      "110-K FRYDENHOJ",
+      "110-R FRYDENHOJ",
       "11A&B KRONP GADE 2ND FL",
       "11A&B KRONPRINDSENS GADE",
       "11JB HULL",
@@ -5573,6 +5612,7 @@
       "EST ELIZABETH REM #6",
       "EST FORTUNA 4-4-14",
       "EST FORTUNA 4-4-21",
+      "EST FRYDENHOJ 110-P",
       "EST FRYDENHOJ 1-2 MTR-C",
       "EST FRYDENHOJ 12G",
       "EST FRYDENHOJ 12P",
@@ -5906,6 +5946,16 @@
       "FRYDENHOJ #1-19",
       "FRYDENHOJ 1-1",
       "FRYDENHOJ 1-1 DWN",
+      "FRYDENHOJ 110 C",
+      "FRYDENHOJ 110 D-B",
+      "FRYDENHOJ 110C",
+      "FRYDENHOJ 110-H",
+      "FRYDENHOJ 110-J",
+      "FRYDENHOJ 110L UP",
+      "FRYDENHOJ 110-M",
+      "FRYDENHOJ 110-P",
+      "FRYDENHOJ 110-P MTR-1",
+      "FRYDENHOJ 110-Q",
       "FRYDENHOJ 1-19 UP",
       "FRYDENHOJ 1-2",
       "FRYDENHOJ 1-20",
@@ -7687,8 +7737,8 @@
       "ZUERIENDENHEIT",
       "ZUFRIDENHEIT 1"
     ],
-    "totalOutages": 34
+    "totalOutages": 35
   },
   "staleAfterSeconds": 900,
-  "unassignedEventCount": 30
+  "unassignedEventCount": 31
 }
