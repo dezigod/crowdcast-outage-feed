@@ -289,6 +289,40 @@
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
+      "id": "5cd6efb1a5acd994e64aed1f044cd708c842d93514c468997031ab1b26c2689e",
+      "island": null,
+      "locations": [
+        "HUMBUG",
+        "WORK & REST 247",
+        "WORK & REST 266 MAIN HSE",
+        "WORK & REST 267",
+        "WORK & REST 268",
+        "WORK & REST 269",
+        "WORK AND REST 244",
+        "WORK AND REST 244 EL",
+        "WORK AND REST 245",
+        "WORK AND REST 266"
+      ],
+      "modifiedAt": "2026-11-14T07:46:52Z",
+      "name": "T-C-07471",
+      "neighborhoodIDs": [],
+      "point": {
+        "latitude": 17.71600184883997,
+        "longitude": -64.73087235206947
+      },
+      "reportedCustomersInitially": 13,
+      "reportedCustomersOut": 13,
+      "reportedCustomersRestored": 0,
+      "sourceStatus": "Predicted",
+      "startedAt": "2026-11-14T07:46:16Z",
+      "verified": false,
+      "workStatus": null
+    },
+    {
+      "cause": null,
+      "crewAssigned": false,
+      "endedAt": null,
+      "estimatedRestoration": null,
       "id": "688d24f7b6e72cb60f9dd7cfcfc315b9ee0efe7095b9fbf192b7ed84c8031d54",
       "island": "stThomas",
       "locations": [
@@ -311,6 +345,41 @@
       "reportedCustomersRestored": 0,
       "sourceStatus": "Predicted",
       "startedAt": "2026-05-24T00:16:58Z",
+      "verified": false,
+      "workStatus": null
+    },
+    {
+      "cause": null,
+      "crewAssigned": false,
+      "endedAt": null,
+      "estimatedRestoration": null,
+      "id": "716d0e62d64aa13930349ba6ede32f4513b3d17511ca4413c58b14b3b903e523",
+      "island": null,
+      "locations": [
+        "FRENCH VIEW COND 14-34",
+        "FRENCHMAN BAY 14-34",
+        "FRENCHMAN BAY 14-34 A-24",
+        "FRENCHMAN BAY 14-34 A-26",
+        "FRENCHMAN BAY 14-34 B-2",
+        "FRENCHMAN BAY 14-34 U-21",
+        "FRENCHMAN BAY 14-34 U-23",
+        "FRENCHMAN BAY 14-37 DWN",
+        "FRENCHMAN BAY 14-37 UP",
+        "FRENCHMAN'S BAY 14-37 C",
+        "FRENCHMAN'S BAY 14-37C"
+      ],
+      "modifiedAt": "2026-11-14T07:46:06Z",
+      "name": "T-T-15145",
+      "neighborhoodIDs": [],
+      "point": {
+        "latitude": 18.326372568998273,
+        "longitude": -64.90177501112535
+      },
+      "reportedCustomersInitially": 11,
+      "reportedCustomersOut": 11,
+      "reportedCustomersRestored": 0,
+      "sourceStatus": "Predicted",
+      "startedAt": "2026-11-14T07:45:58Z",
       "verified": false,
       "workStatus": null
     },
@@ -706,7 +775,7 @@
       "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-14T07:45:54Z",
+  "generatedAt": "2026-11-14T07:50:56Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -830,21 +899,21 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "78660cfcc4ed7bccd38fb2313cb80aff1213b820f8a016a7e2d8924733d013eb",
+  "snapshotID": "de13830695ece3bddce75a25c7559e36f441548d36b22cca9840c0abe5a20cb0",
   "source": {
-    "checkedAt": "2026-11-14T07:45:54Z",
+    "checkedAt": "2026-11-14T07:50:56Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-14T07:45:27Z",
+    "updatedAt": "2026-11-14T07:50:27Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "sourceSummary": {
     "customerCountDifference": 2,
-    "customersAffected": 546,
-    "customersOut": 546,
+    "customersAffected": 570,
+    "customersOut": 570,
     "customersRestored": 0,
     "customersServed": 54726,
-    "eventCustomersOut": 544,
+    "eventCustomersOut": 568,
     "hourlyCustomersOut": [
       {
         "at": "2026-11-12T07:00:00Z",
@@ -1040,7 +1109,7 @@
       },
       {
         "at": "2026-11-14T07:00:00Z",
-        "customersOut": 544
+        "customersOut": 568
       }
     ],
     "locations": [
@@ -1152,6 +1221,17 @@
       "EST AGNES FANCY 5H",
       "EST ORKANSHULLET(HASS)8-1",
       "ESTATE THOMAS 16-1",
+      "FRENCH VIEW COND 14-34",
+      "FRENCHMAN BAY 14-34",
+      "FRENCHMAN BAY 14-34 A-24",
+      "FRENCHMAN BAY 14-34 A-26",
+      "FRENCHMAN BAY 14-34 B-2",
+      "FRENCHMAN BAY 14-34 U-21",
+      "FRENCHMAN BAY 14-34 U-23",
+      "FRENCHMAN BAY 14-37 DWN",
+      "FRENCHMAN BAY 14-37 UP",
+      "FRENCHMAN'S BAY 14-37 C",
+      "FRENCHMAN'S BAY 14-37C",
       "GROUND A13 & A14 B 4 APT-",
       "GROUND A13 & A14 B2 APT-",
       "GROUND A13 & A14 B-4 APT-",
@@ -1398,6 +1478,7 @@
       "HOSPITAL GROUND REM B-414",
       "HOSPTIAL GROUND 210 BLD-B",
       "HOSPTIAL GROUND A13 & A14",
+      "HUMBUG",
       "JOSEPH & ROSENDAHL 2-27",
       "JOSEPH & ROSENDAHL 2-32",
       "JOSEPH & ROSENDAHL 3-26",
@@ -1423,10 +1504,19 @@
       "ST. JOSEPH & ROSENDAHL",
       "SUBBASE 100",
       "SUBBASE 101 (EL)",
-      "SUBBASE 69"
+      "SUBBASE 69",
+      "WORK & REST 247",
+      "WORK & REST 266 MAIN HSE",
+      "WORK & REST 267",
+      "WORK & REST 268",
+      "WORK & REST 269",
+      "WORK AND REST 244",
+      "WORK AND REST 244 EL",
+      "WORK AND REST 245",
+      "WORK AND REST 266"
     ],
-    "totalOutages": 13
+    "totalOutages": 15
   },
   "staleAfterSeconds": 900,
-  "unassignedEventCount": 9
+  "unassignedEventCount": 11
 }
