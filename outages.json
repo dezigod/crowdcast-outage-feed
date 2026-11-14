@@ -1950,6 +1950,42 @@
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
+      "id": "55d3e1aa84a1789b3f62574736a9d19b2da7579e3554c00e5798a65311bba1d9",
+      "island": null,
+      "locations": [
+        "CONTANT 3 AD",
+        "CONTANT 3 AD APT-A",
+        "CONTANT 3A",
+        "CONTANT 3A-11",
+        "CONTANT 3AE",
+        "CONTANT 3A-E (EL)",
+        "CONTANT 7B",
+        "CONTANT 7B-3-2",
+        "CONTANT 97-98A",
+        "EST. CONTANT 3AD-1 APT. 2",
+        "ESTATE CONTANT 3AD APT-B",
+        "ESTATE CONTANT 3AD APT-C"
+      ],
+      "modifiedAt": "2026-11-14T01:10:43Z",
+      "name": "T-T-16105",
+      "neighborhoodIDs": [],
+      "point": {
+        "latitude": 18.338640774549646,
+        "longitude": -64.95300950446588
+      },
+      "reportedCustomersInitially": 15,
+      "reportedCustomersOut": 15,
+      "reportedCustomersRestored": 0,
+      "sourceStatus": "Predicted",
+      "startedAt": "2026-11-14T01:10:27Z",
+      "verified": false,
+      "workStatus": null
+    },
+    {
+      "cause": null,
+      "crewAssigned": false,
+      "endedAt": null,
+      "estimatedRestoration": null,
       "id": "581b7ad8723bc7d29c908e46d48e9d17f82335c9ee8e1d562947a88174226d78",
       "island": null,
       "locations": [
@@ -3250,6 +3286,37 @@
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
+      "id": "93af6d8e684fe9942f1b682d30e6ebebf3e4818659108c30002d6637099d54b4",
+      "island": null,
+      "locations": [
+        "JOSEPH & ROSENDAHL 2-27",
+        "JOSEPH & ROSENDAHL 2-32",
+        "JOSEPH & ROSENDAHL 3-26",
+        "ST JOSEPH & ROSEN 2-31",
+        "ST JOSEPH & ROSEN 317-318",
+        "ST JOSEPH & ROSENDAHL",
+        "ST. JOSEPH & ROSENDAHL"
+      ],
+      "modifiedAt": "2026-11-14T01:14:20Z",
+      "name": "T-T-14598",
+      "neighborhoodIDs": [],
+      "point": {
+        "latitude": 18.352281773679138,
+        "longitude": -64.91551152462738
+      },
+      "reportedCustomersInitially": 10,
+      "reportedCustomersOut": 10,
+      "reportedCustomersRestored": 0,
+      "sourceStatus": "Predicted",
+      "startedAt": "2026-11-14T01:14:02Z",
+      "verified": false,
+      "workStatus": null
+    },
+    {
+      "cause": null,
+      "crewAssigned": false,
+      "endedAt": null,
+      "estimatedRestoration": null,
       "id": "9bcdf85596d0f6f62b7c7c64316dc48dae09421193fdafff2a92f34e045ba01f",
       "island": null,
       "locations": [
@@ -3613,9 +3680,45 @@
       "startedAt": "2026-11-13T21:34:30Z",
       "verified": false,
       "workStatus": null
+    },
+    {
+      "cause": null,
+      "crewAssigned": false,
+      "endedAt": null,
+      "estimatedRestoration": null,
+      "id": "fe0b2b760ae851d32b78b564ac8a0b2ee833820a034dd9a8c985130d220bae20",
+      "island": null,
+      "locations": [
+        "CONTANT 2D",
+        "CONTANT TOWER BLDG C",
+        "CONTANT TOWERS 2 B-A",
+        "CONTANT TOWERS B-A A-13",
+        "CONTANT TOWERS BLDG B",
+        "CONTANT TOWERS BLDG-A",
+        "CONTANT TOWERS BLDG-B",
+        "CONTANT TOWERS BLDG-C",
+        "CONTANT TOWERS BLDG-D",
+        "EST CONTANT 2 BLDG-C",
+        "FRYDENHOJ 12Q",
+        "TOWERS CONDOMINIUM UNIT"
+      ],
+      "modifiedAt": "2026-11-14T01:12:44Z",
+      "name": "T-T-16838",
+      "neighborhoodIDs": [],
+      "point": {
+        "latitude": 18.338290843714567,
+        "longitude": -64.95413325902052
+      },
+      "reportedCustomersInitially": 82,
+      "reportedCustomersOut": 82,
+      "reportedCustomersRestored": 0,
+      "sourceStatus": "Predicted",
+      "startedAt": "2026-11-14T01:12:22Z",
+      "verified": false,
+      "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-14T01:10:59Z",
+  "generatedAt": "2026-11-14T01:16:01Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -3974,21 +4077,21 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "12475cfa594f3900ff1c4c0c496876a6d7757dd84c339a447af681cbd5d5b19c",
+  "snapshotID": "71b6880fc18a41109f48a0d8fc370c87776b28318cd659b696bd5aa54c0ff60f",
   "source": {
-    "checkedAt": "2026-11-14T01:10:59Z",
+    "checkedAt": "2026-11-14T01:16:01Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-14T01:10:30Z",
+    "updatedAt": "2026-11-14T01:15:28Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "sourceSummary": {
     "customerCountDifference": 2,
-    "customersAffected": 4030,
-    "customersOut": 4030,
+    "customersAffected": 4137,
+    "customersOut": 4137,
     "customersRestored": 0,
     "customersServed": 54726,
-    "eventCustomersOut": 4028,
+    "eventCustomersOut": 4135,
     "hourlyCustomersOut": [
       {
         "at": "2026-11-12T01:00:00Z",
@@ -4184,7 +4287,7 @@
       },
       {
         "at": "2026-11-14T01:00:00Z",
-        "customersOut": 4028
+        "customersOut": 4135
       }
     ],
     "locations": [
@@ -4737,6 +4840,24 @@
       "CONTANT 15A-10 UPPER",
       "CONTANT 15A-11",
       "CONTANT 15A-12",
+      "CONTANT 2D",
+      "CONTANT 3 AD",
+      "CONTANT 3 AD APT-A",
+      "CONTANT 3A",
+      "CONTANT 3A-11",
+      "CONTANT 3AE",
+      "CONTANT 3A-E (EL)",
+      "CONTANT 7B",
+      "CONTANT 7B-3-2",
+      "CONTANT 97-98A",
+      "CONTANT TOWER BLDG C",
+      "CONTANT TOWERS 2 B-A",
+      "CONTANT TOWERS B-A A-13",
+      "CONTANT TOWERS BLDG B",
+      "CONTANT TOWERS BLDG-A",
+      "CONTANT TOWERS BLDG-B",
+      "CONTANT TOWERS BLDG-C",
+      "CONTANT TOWERS BLDG-D",
       "COREENING HOLE (HONDURAS)",
       "CROWN BAY",
       "CROWN BAY 1 (CANCRYN)",
@@ -5121,6 +5242,7 @@
       "EST BROWN",
       "EST CAROLINA 13D",
       "EST CAROLINA 15-4",
+      "EST CONTANT 2 BLDG-C",
       "EST DOROTHEA",
       "EST DOROTHEA #8",
       "EST DOROTHEA 10A",
@@ -5386,6 +5508,7 @@
       "EST UPPER JOHN DUNKOE",
       "EST ZUFRIEDENHEIT 7",
       "EST. BONNE RESOLUTION",
+      "EST. CONTANT 3AD-1 APT. 2",
       "EST. DOROTHEA 1A-9-2",
       "EST. DOROTHEA 3C",
       "EST. ELIZABETH 27A-1",
@@ -5402,6 +5525,8 @@
       "EST. ST. PETER 4 DWN",
       "EST. UPPER JOHN DUNKOE 9",
       "ESTATE CAROLINA 10-10-22",
+      "ESTATE CONTANT 3AD APT-B",
+      "ESTATE CONTANT 3AD APT-C",
       "ESTATE DOROTHEA 13B-2",
       "ESTATE DOROTHEA 13-BA",
       "ESTATE DOROTHEA 13-D",
@@ -5485,6 +5610,7 @@
       "FRENCHMAN'S BAY 14-37C",
       "FRENCHTOWN B-2",
       "FRYDENDAHL 56-16 MTR-C",
+      "FRYDENHOJ 12Q",
       "FRYDENHOJ 156",
       "GADE 24 2ND FL B-24&B-25",
       "GAMBLE GADE",
@@ -5851,6 +5977,9 @@
       "JOHN DUNKOE 5",
       "JOHN DUNKOE 6-3B-3C",
       "JOHN DUNKOE 8",
+      "JOSEPH & ROSENDAHL 2-27",
+      "JOSEPH & ROSENDAHL 2-32",
+      "JOSEPH & ROSENDAHL 3-26",
       "JOSEPH AUBAIN BALL PARK",
       "KANAL GADE",
       "KANAL GADE 2",
@@ -6856,6 +6985,9 @@
       "SPANIOL STRADE 1 1ST FL",
       "SPANIOL STRADE 2",
       "SPANIOL STRAEDE 1ST FL",
+      "ST JOSEPH & ROSEN 2-31",
+      "ST JOSEPH & ROSEN 317-318",
+      "ST JOSEPH & ROSENDAHL",
       "ST MAARTEN 102E SAPP VILL",
       "ST MAARTEN 203E SAPP",
       "ST MAARTEN SAPPHIR 204A",
@@ -7089,6 +7221,7 @@
       "ST PETER UP",
       "ST PETER-EST BARRET 25A",
       "ST PETERS 22 MAIN HOUSE",
+      "ST. JOSEPH & ROSENDAHL",
       "ST. PETER 3A-21 (COTTAGE)",
       "ST. PETER 3A-8",
       "ST. PETER 3H-26",
@@ -7128,6 +7261,7 @@
       "TAARNEBERG 5 & 6",
       "TALBAD STRADE/TRAFFIC LIG",
       "TORVET STRADE 6",
+      "TOWERS CONDOMINIUM UNIT",
       "TROMPETER GADE 1",
       "TROMPETER GADE 1 MTR-1",
       "TROMPETER GADE 2",
@@ -7209,8 +7343,8 @@
       "ZUERIENDENHEIT",
       "ZUFRIDENHEIT 1"
     ],
-    "totalOutages": 24
+    "totalOutages": 27
   },
   "staleAfterSeconds": 900,
-  "unassignedEventCount": 20
+  "unassignedEventCount": 23
 }
