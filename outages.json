@@ -34,6 +34,44 @@
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
+      "id": "3433580be5aa11d4b8d78084af31394f9abb5b3a089494ed926d2be73649a7c7",
+      "island": null,
+      "locations": [
+        "EST THOMAS 14E 6",
+        "EST THOMAS 14NJ A-1",
+        "EST THOMAS 14NP",
+        "EST THOMAS 14NP 3FL APT-5",
+        "EST THOMAS 14NP APT 2",
+        "EST THOMAS 14NP-18 6E A-3",
+        "EST THOMAS 14NQ 6E",
+        "EST THOMAS 14NQ-6E",
+        "EST THOMAS 14PI",
+        "EST THOMAS 14PI (EL)",
+        "EST THOMAS 14PI APT-1",
+        "EST THOMAS 14PL (EL)",
+        "EST THOMAS 14PL APT-7",
+        "ESTATE THOMAS 14NQ-6E"
+      ],
+      "modifiedAt": "2026-11-14T12:06:38Z",
+      "name": "T-T-15855",
+      "neighborhoodIDs": [],
+      "point": {
+        "latitude": 18.33546038779535,
+        "longitude": -64.91060845401466
+      },
+      "reportedCustomersInitially": 22,
+      "reportedCustomersOut": 22,
+      "reportedCustomersRestored": 0,
+      "sourceStatus": "Predicted",
+      "startedAt": "2026-11-14T12:06:03Z",
+      "verified": false,
+      "workStatus": null
+    },
+    {
+      "cause": null,
+      "crewAssigned": false,
+      "endedAt": null,
+      "estimatedRestoration": null,
       "id": "4452ce6dd4c096fa8d9f44a531eb54c74b1a11b5c6c4465faa118dfe1affa460",
       "island": null,
       "locations": [
@@ -1808,7 +1846,7 @@
       "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-14T12:06:20Z",
+  "generatedAt": "2026-11-14T12:11:22Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -1949,21 +1987,21 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "3425c593594eb91ba6f6de41d2457df244857116bd9f53fa2082f107a1051cea",
+  "snapshotID": "6b243dd55cee9aa09a4c1cc80b29fc02ca51693c898fca184f08aa6678be0344",
   "source": {
-    "checkedAt": "2026-11-14T12:06:20Z",
+    "checkedAt": "2026-11-14T12:11:22Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-14T12:05:30Z",
+    "updatedAt": "2026-11-14T12:10:28Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "sourceSummary": {
     "customerCountDifference": 2,
-    "customersAffected": 1672,
-    "customersOut": 1642,
+    "customersAffected": 1694,
+    "customersOut": 1664,
     "customersRestored": 30,
     "customersServed": 54726,
-    "eventCustomersOut": 1640,
+    "eventCustomersOut": 1662,
     "hourlyCustomersOut": [
       {
         "at": "2026-11-12T12:00:00Z",
@@ -2159,7 +2197,7 @@
       },
       {
         "at": "2026-11-14T12:00:00Z",
-        "customersOut": 1640
+        "customersOut": 1662
       }
     ],
     "locations": [
@@ -2679,6 +2717,19 @@
       "EST THOMAS 14-6C BASE 2ND",
       "EST THOMAS 14-6-F",
       "EST THOMAS 14AB",
+      "EST THOMAS 14E 6",
+      "EST THOMAS 14NJ A-1",
+      "EST THOMAS 14NP",
+      "EST THOMAS 14NP 3FL APT-5",
+      "EST THOMAS 14NP APT 2",
+      "EST THOMAS 14NP-18 6E A-3",
+      "EST THOMAS 14NQ 6E",
+      "EST THOMAS 14NQ-6E",
+      "EST THOMAS 14PI",
+      "EST THOMAS 14PI (EL)",
+      "EST THOMAS 14PI APT-1",
+      "EST THOMAS 14PL (EL)",
+      "EST THOMAS 14PL APT-7",
       "EST THOMAS 16-2",
       "EST THOMAS 17-1 & 6",
       "EST THOMAS 17-1 NQ 6H",
@@ -2772,6 +2823,7 @@
       "ESTATE BOVONI BAY 4",
       "ESTATE FRENCHMANS BAY",
       "ESTATE THOMAS #6H",
+      "ESTATE THOMAS 14NQ-6E",
       "ESTATE THOMAS 16-1",
       "ESTATE THOMAS 18 REMAINER",
       "ESTATE THOMAS 19",
@@ -3425,8 +3477,8 @@
       "WORK AND REST 245",
       "WORK AND REST 266"
     ],
-    "totalOutages": 22
+    "totalOutages": 23
   },
   "staleAfterSeconds": 900,
-  "unassignedEventCount": 18
+  "unassignedEventCount": 19
 }
