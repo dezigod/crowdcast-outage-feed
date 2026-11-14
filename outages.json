@@ -1767,7 +1767,7 @@
         "HOSPTIAL GROUND 210 BLD-B",
         "HOSPTIAL GROUND A13 & A14"
       ],
-      "modifiedAt": "2026-11-14T06:08:09Z",
+      "modifiedAt": "2026-11-14T12:02:44Z",
       "name": "OCD1046972",
       "neighborhoodIDs": [],
       "point": {
@@ -1808,7 +1808,7 @@
       "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-14T12:01:18Z",
+  "generatedAt": "2026-11-14T12:06:20Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -1949,11 +1949,11 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "9115e13009802d3e82063765c96b2f1773fc2897430b08c858e0aac9bac8918c",
+  "snapshotID": "3425c593594eb91ba6f6de41d2457df244857116bd9f53fa2082f107a1051cea",
   "source": {
-    "checkedAt": "2026-11-14T12:01:18Z",
+    "checkedAt": "2026-11-14T12:06:20Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-14T12:00:27Z",
+    "updatedAt": "2026-11-14T12:05:30Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
