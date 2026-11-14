@@ -6,6 +6,37 @@
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
+      "id": "375fffaf43b2560dd5552e045c5c0bfa614cf5bbf0bdca78fe763997d34ec58a",
+      "island": null,
+      "locations": [
+        "EST SOLBERG MTR 3",
+        "SOLBERG 1 B-16",
+        "SOLBERG 1B-14",
+        "SOLBERG 1B-15",
+        "SOLBERG 1B-17",
+        "SOLBERG 1B-9",
+        "SOLBERG 90-D"
+      ],
+      "modifiedAt": "2026-11-14T16:43:36Z",
+      "name": "T-T-02299",
+      "neighborhoodIDs": [],
+      "point": {
+        "latitude": 18.346993018649982,
+        "longitude": -64.94707802733635
+      },
+      "reportedCustomersInitially": 15,
+      "reportedCustomersOut": 15,
+      "reportedCustomersRestored": 0,
+      "sourceStatus": "Predicted",
+      "startedAt": "2026-11-14T16:43:24Z",
+      "verified": false,
+      "workStatus": null
+    },
+    {
+      "cause": null,
+      "crewAssigned": false,
+      "endedAt": null,
+      "estimatedRestoration": null,
       "id": "466bc9614c76460646f6e693474c200e210063775b3dac783172ab48908c90e8",
       "island": null,
       "locations": [
@@ -5074,7 +5105,7 @@
         "WILLIAMS DELIGHT PLOT 577",
         "WILLIAMS DELIGHT/LED HWY"
       ],
-      "modifiedAt": "2026-11-14T16:38:51Z",
+      "modifiedAt": "2026-11-14T16:40:59Z",
       "name": "STX Feeder 08B",
       "neighborhoodIDs": [
         "stCroix-la-grange"
@@ -6583,7 +6614,7 @@
       "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-14T16:40:47Z",
+  "generatedAt": "2026-11-14T16:45:49Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -6955,21 +6986,21 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "6a706ddbdb805d0a0710734f99a1de1a4eb8ca5f1f881773d3508ce093a7ecf9",
+  "snapshotID": "ac2c805c9e08a8df85f1600f56ffb1d7ba1f126c426daf6496ce275a6c6cde3d",
   "source": {
-    "checkedAt": "2026-11-14T16:40:47Z",
+    "checkedAt": "2026-11-14T16:45:49Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-14T16:40:31Z",
+    "updatedAt": "2026-11-14T16:45:32Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "sourceSummary": {
     "customerCountDifference": 2,
-    "customersAffected": 8042,
-    "customersOut": 7843,
+    "customersAffected": 8057,
+    "customersOut": 7858,
     "customersRestored": 199,
     "customersServed": 54726,
-    "eventCustomersOut": 7841,
+    "eventCustomersOut": 7856,
     "hourlyCustomersOut": [
       {
         "at": "2026-11-12T16:00:00Z",
@@ -7165,7 +7196,7 @@
       },
       {
         "at": "2026-11-14T16:00:00Z",
-        "customersOut": 7841
+        "customersOut": 7856
       }
     ],
     "locations": [
@@ -8589,6 +8620,7 @@
       "EST SMITH BAY 19-2-30",
       "EST SMITH BAY 19-2-43",
       "EST SMITH BAY 19-2-94",
+      "EST SOLBERG MTR 3",
       "EST WHIM",
       "EST WHIM 139R-13 (EL)",
       "EST WHIM 1G",
@@ -11208,6 +11240,12 @@
       "SMITHFIELD 99-D",
       "SMITHFIELD LIFT STATION",
       "SMITHFIELD/TWO BROTHERS",
+      "SOLBERG 1 B-16",
+      "SOLBERG 1B-14",
+      "SOLBERG 1B-15",
+      "SOLBERG 1B-17",
+      "SOLBERG 1B-9",
+      "SOLBERG 90-D",
       "SPACE E LAGOON",
       "SPRAT HALL",
       "SPRAT HALL (WELL)",
@@ -13501,8 +13539,8 @@
       "WILLIAMS DELIGHT PLOT 577",
       "WILLIAMS DELIGHT/LED HWY"
     ],
-    "totalOutages": 10
+    "totalOutages": 11
   },
   "staleAfterSeconds": 900,
-  "unassignedEventCount": 6
+  "unassignedEventCount": 7
 }
