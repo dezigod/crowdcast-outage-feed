@@ -6,34 +6,6 @@
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
-      "id": "095847b3090781008caf5858365cdb94e1c65d62181c44e5df5b6fab96f60165",
-      "island": "stThomas",
-      "locations": [
-        "ST PETER 14-6",
-        "ST PETER 18A"
-      ],
-      "modifiedAt": "2026-11-14T06:26:22Z",
-      "name": "T-T-06053",
-      "neighborhoodIDs": [
-        "stThomas-st-peter"
-      ],
-      "point": {
-        "latitude": 18.368025283136575,
-        "longitude": -64.94399401394799
-      },
-      "reportedCustomersInitially": 3,
-      "reportedCustomersOut": 3,
-      "reportedCustomersRestored": 0,
-      "sourceStatus": "Predicted",
-      "startedAt": "2026-11-14T06:25:50Z",
-      "verified": false,
-      "workStatus": null
-    },
-    {
-      "cause": null,
-      "crewAssigned": false,
-      "endedAt": null,
-      "estimatedRestoration": null,
       "id": "275f4d344817f20a91cc67e0eb00c5fe71cde7238b49d33564f9e82f3580306d",
       "island": null,
       "locations": [
@@ -55,73 +27,6 @@
       "sourceStatus": "Verified",
       "startedAt": "2026-11-13T22:19:09Z",
       "verified": true,
-      "workStatus": null
-    },
-    {
-      "cause": null,
-      "crewAssigned": false,
-      "endedAt": null,
-      "estimatedRestoration": null,
-      "id": "28781f5cddad77d71a21f479d4ab0613db63ed73e27ab03c9ab6467f2d685437",
-      "island": null,
-      "locations": [
-        "ESTATE SOLBEG 79-43",
-        "ESTATE SOLBERG 79-38",
-        "ESTATE SOLBERG 79-43",
-        "ESTATE SOLBERG 94-8 MTR 2",
-        "SOLBERG",
-        "SOLBERG 79-38 EAST",
-        "SOLBERG 79-39",
-        "SOLBERG 79-40",
-        "SOLBERG 79-41",
-        "SOLBERG 79-42 UP",
-        "SOLBERG 79-43",
-        "SOLBERG 91",
-        "SOLBERG 91 UP",
-        "SOLBERG 94-8 MTR 1"
-      ],
-      "modifiedAt": "2026-11-14T06:11:57Z",
-      "name": "T-T-02150",
-      "neighborhoodIDs": [],
-      "point": {
-        "latitude": 18.346144580514284,
-        "longitude": -64.94534613417767
-      },
-      "reportedCustomersInitially": 16,
-      "reportedCustomersOut": 16,
-      "reportedCustomersRestored": 0,
-      "sourceStatus": "Predicted",
-      "startedAt": "2026-11-14T06:11:49Z",
-      "verified": false,
-      "workStatus": null
-    },
-    {
-      "cause": null,
-      "crewAssigned": false,
-      "endedAt": null,
-      "estimatedRestoration": null,
-      "id": "3601f752c11db592fc11cd32f76063cfb08d3b15b4273ffab1149795acc81611",
-      "island": null,
-      "locations": [
-        "BONNE RESOLUTION 4-1",
-        "BONNE RESOLUTION 4-4",
-        "BONNE RESOLUTION 4-5",
-        "BONNE RESOLUTION 4-5 DWN",
-        "EST. BONNE RESOLUTION"
-      ],
-      "modifiedAt": "2026-11-14T06:14:44Z",
-      "name": "T-T-09060",
-      "neighborhoodIDs": [],
-      "point": {
-        "latitude": 18.35489059902936,
-        "longitude": -64.9595321118216
-      },
-      "reportedCustomersInitially": 5,
-      "reportedCustomersOut": 5,
-      "reportedCustomersRestored": 0,
-      "sourceStatus": "Predicted",
-      "startedAt": "2026-11-14T06:14:20Z",
-      "verified": false,
       "workStatus": null
     },
     {
@@ -155,38 +60,6 @@
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
-      "id": "482b58999cf83c625a89ff0f7ba0203c94a7121d2c5a5ed095bcef27583ca9ca",
-      "island": null,
-      "locations": [
-        "BONNE RESOLUTION",
-        "BONNE RESOLUTION 14-1",
-        "BONNE RESOLUTION 14-2",
-        "BONNE RESOLUTION 14-2 A-1",
-        "BONNE RESOLUTION 14-50",
-        "BONNE RESOLUTION 14-51",
-        "BONNE RESOLUTION 15-3",
-        "BONNE RESOLUTION 15-4"
-      ],
-      "modifiedAt": "2026-11-14T06:23:49Z",
-      "name": "T-T-09238",
-      "neighborhoodIDs": [],
-      "point": {
-        "latitude": 18.364145456156777,
-        "longitude": -64.95703658952502
-      },
-      "reportedCustomersInitially": 8,
-      "reportedCustomersOut": 8,
-      "reportedCustomersRestored": 0,
-      "sourceStatus": "Predicted",
-      "startedAt": "2026-11-14T06:23:40Z",
-      "verified": false,
-      "workStatus": null
-    },
-    {
-      "cause": null,
-      "crewAssigned": false,
-      "endedAt": null,
-      "estimatedRestoration": null,
       "id": "4a3f0a315506757465227b7b8af29e7bb7b6c8ed1cccd49b9833ba4ca8788ac7",
       "island": null,
       "locations": [
@@ -204,37 +77,6 @@
       "reportedCustomersRestored": 0,
       "sourceStatus": "Predicted",
       "startedAt": "2026-11-12T13:17:30Z",
-      "verified": false,
-      "workStatus": null
-    },
-    {
-      "cause": null,
-      "crewAssigned": false,
-      "endedAt": null,
-      "estimatedRestoration": null,
-      "id": "5a1c85b64979ce42c94d85eda8a341c7b6cf4e07b125e63287842d2b7d63bad4",
-      "island": null,
-      "locations": [
-        "EST LERKENLUND 2-C",
-        "EST LERKENLUND 2C-3 UP",
-        "EST LERKENLUND 2D",
-        "EST LERKENLUND#2D-1",
-        "EST LERKERLUND 2C-6",
-        "LERKENLUND 2C",
-        "LERKENLUND 2C-3"
-      ],
-      "modifiedAt": "2026-11-14T06:48:42Z",
-      "name": "T-T-06106",
-      "neighborhoodIDs": [],
-      "point": {
-        "latitude": 18.360555392546466,
-        "longitude": -64.94039180058695
-      },
-      "reportedCustomersInitially": 8,
-      "reportedCustomersOut": 8,
-      "reportedCustomersRestored": 0,
-      "sourceStatus": "Predicted",
-      "startedAt": "2026-11-14T06:48:19Z",
       "verified": false,
       "workStatus": null
     },
@@ -477,42 +319,6 @@
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
-      "id": "70e520716a7a3e2f2903ed81269595c1f1d6dd1ef0c5249a2b96458f4e176a04",
-      "island": null,
-      "locations": [
-        "DOROTHEA",
-        "DOROTHEA 12-A",
-        "DOROTHEA 12A UP",
-        "DOROTHEA 12B",
-        "DOROTHEA 12C",
-        "DOROTHEA 3B",
-        "DOROTHEA 3K",
-        "DOROTHEA 3K-2",
-        "DOROTHEA 3K-3",
-        "EST DOROTHEA 12D",
-        "EST DOROTHEA 2D COTTAGE",
-        "EST DOROTHEA 3-B (UP)-B"
-      ],
-      "modifiedAt": "2026-11-14T06:12:12Z",
-      "name": "T-T-16229",
-      "neighborhoodIDs": [],
-      "point": {
-        "latitude": 18.35856453349769,
-        "longitude": -64.96348088183024
-      },
-      "reportedCustomersInitially": 13,
-      "reportedCustomersOut": 13,
-      "reportedCustomersRestored": 0,
-      "sourceStatus": "Predicted",
-      "startedAt": "2026-11-14T06:11:52Z",
-      "verified": false,
-      "workStatus": null
-    },
-    {
-      "cause": null,
-      "crewAssigned": false,
-      "endedAt": null,
-      "estimatedRestoration": null,
       "id": "848de358d1bfb503e077d24a928bf5008f6590c6314f9a8283b1ba206ce079a4",
       "island": null,
       "locations": [
@@ -640,69 +446,6 @@
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
-      "id": "ae2fa3e7379e53b2c562b63a2bc3909c93fbcd2f4ecb9cc5857631c1979b46af",
-      "island": null,
-      "locations": [
-        "EST LERKENLUND 9D-6",
-        "LERKENLUND 8-63 TOP",
-        "LERKENLUND 9D-10",
-        "LITTLE N. STAR VILL 3-I24",
-        "ST PETER 31-18 HSE METER",
-        "ST PETER 31-19 & 31-18",
-        "ST PETER 31-22 NORTH STAR",
-        "ST PETER 31-22 NORTHSTAR",
-        "ST PETER 3I-20 HIBIS LANE"
-      ],
-      "modifiedAt": "2026-11-14T06:25:35Z",
-      "name": "T-T-16676",
-      "neighborhoodIDs": [
-        "stThomas-st-peter"
-      ],
-      "point": {
-        "latitude": 18.35671960987612,
-        "longitude": -64.94569466203092
-      },
-      "reportedCustomersInitially": 12,
-      "reportedCustomersOut": 12,
-      "reportedCustomersRestored": 0,
-      "sourceStatus": "Predicted",
-      "startedAt": "2026-11-14T06:25:09Z",
-      "verified": false,
-      "workStatus": null
-    },
-    {
-      "cause": null,
-      "crewAssigned": false,
-      "endedAt": null,
-      "estimatedRestoration": null,
-      "id": "b428e82e145c90d44d6c74b4472e0eff95780a8104c37295a5bfa3a746ca9142",
-      "island": "stThomas",
-      "locations": [
-        "ST PETER 8-2",
-        "ST PETER 8-3"
-      ],
-      "modifiedAt": "2026-11-14T06:29:24Z",
-      "name": "T-T-09652",
-      "neighborhoodIDs": [
-        "stThomas-st-peter"
-      ],
-      "point": {
-        "latitude": 18.360875364384064,
-        "longitude": -64.94893791209145
-      },
-      "reportedCustomersInitially": 2,
-      "reportedCustomersOut": 2,
-      "reportedCustomersRestored": 0,
-      "sourceStatus": "Predicted",
-      "startedAt": "2026-11-14T06:28:57Z",
-      "verified": false,
-      "workStatus": null
-    },
-    {
-      "cause": null,
-      "crewAssigned": false,
-      "endedAt": null,
-      "estimatedRestoration": null,
       "id": "c381002327670be868af3f50aafdefc9fac4ebb90784193865d0729666657998",
       "island": "stThomas",
       "locations": [
@@ -732,33 +475,6 @@
       "sourceStatus": "Verified",
       "startedAt": "2026-11-13T23:38:21Z",
       "verified": true,
-      "workStatus": null
-    },
-    {
-      "cause": null,
-      "crewAssigned": false,
-      "endedAt": null,
-      "estimatedRestoration": null,
-      "id": "c98c024c960a78275f1d219b40b765b553d6400f36643d80edf5008a57189f8f",
-      "island": null,
-      "locations": [
-        "LILLIENDAH & MARIEN 6A-28",
-        "LILLIENDAHL & MARIENHOJ",
-        "UPPER JOHN DUNKOE"
-      ],
-      "modifiedAt": "2026-11-14T06:11:39Z",
-      "name": "T-T-38025_1112",
-      "neighborhoodIDs": [],
-      "point": {
-        "latitude": 18.3483577404074,
-        "longitude": -64.9527484394536
-      },
-      "reportedCustomersInitially": 4,
-      "reportedCustomersOut": 4,
-      "reportedCustomersRestored": 0,
-      "sourceStatus": "Predicted",
-      "startedAt": "2026-11-14T06:11:16Z",
-      "verified": false,
       "workStatus": null
     },
     {
@@ -965,7 +681,7 @@
       "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-14T07:10:44Z",
+  "generatedAt": "2026-11-14T07:15:45Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -1003,31 +719,6 @@
             "848de358d1bfb503e077d24a928bf5008f6590c6314f9a8283b1ba206ce079a4"
           ],
           "sourceStatus": "Unconfirmed",
-          "startedAt": null
-        },
-        {
-          "affectedCustomers": null,
-          "estimatedRestoration": null,
-          "id": "stThomas-st-peter",
-          "island": "stThomas",
-          "locations": [
-            "14-6",
-            "18A",
-            "31-18 HSE METER",
-            "31-19 & 31-18",
-            "31-22 NORTH STAR",
-            "31-22 NORTHSTAR",
-            "3I-20 HIBIS LANE",
-            "8-2",
-            "8-3"
-          ],
-          "name": "Estate St. Peter",
-          "sourceEventIDs": [
-            "095847b3090781008caf5858365cdb94e1c65d62181c44e5df5b6fab96f60165",
-            "ae2fa3e7379e53b2c562b63a2bc3909c93fbcd2f4ecb9cc5857631c1979b46af",
-            "b428e82e145c90d44d6c74b4472e0eff95780a8104c37295a5bfa3a746ca9142"
-          ],
-          "sourceStatus": "Predicted",
           "startedAt": null
         },
         {
@@ -1114,21 +805,21 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "f0867c21b45d254b39a99ed539ec2fb9fa1262c0f84a085ebaa5478970958414",
+  "snapshotID": "81a83e26eae9e14b06c80490f9c52e97072eb189a0fdb4bb48dc1492639ef364",
   "source": {
-    "checkedAt": "2026-11-14T07:10:44Z",
+    "checkedAt": "2026-11-14T07:15:45Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-14T07:10:27Z",
+    "updatedAt": "2026-11-14T07:15:27Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "sourceSummary": {
     "customerCountDifference": 2,
-    "customersAffected": 615,
-    "customersOut": 615,
+    "customersAffected": 544,
+    "customersOut": 544,
     "customersRestored": 0,
     "customersServed": 54726,
-    "eventCustomersOut": 613,
+    "eventCustomersOut": 542,
     "hourlyCustomersOut": [
       {
         "at": "2026-11-12T07:00:00Z",
@@ -1324,7 +1015,7 @@
       },
       {
         "at": "2026-11-14T07:00:00Z",
-        "customersOut": 613
+        "customersOut": 542
       }
     ],
     "locations": [
@@ -1420,18 +1111,6 @@
       "ALTONA 87B",
       "ALTONA A-2",
       "ALTONA APT-3 UP",
-      "BONNE RESOLUTION",
-      "BONNE RESOLUTION 14-1",
-      "BONNE RESOLUTION 14-2",
-      "BONNE RESOLUTION 14-2 A-1",
-      "BONNE RESOLUTION 14-50",
-      "BONNE RESOLUTION 14-51",
-      "BONNE RESOLUTION 15-3",
-      "BONNE RESOLUTION 15-4",
-      "BONNE RESOLUTION 4-1",
-      "BONNE RESOLUTION 4-4",
-      "BONNE RESOLUTION 4-5",
-      "BONNE RESOLUTION 4-5 DWN",
       "BOVONI 1-2",
       "CASTLE COAKLEY",
       "CASTLE COAKLEY 54",
@@ -1444,31 +1123,8 @@
       "CROWNBAY TRANSMITTING",
       "DEMARARA 2",
       "DEMERARA #1A & 1B",
-      "DOROTHEA",
-      "DOROTHEA 12-A",
-      "DOROTHEA 12A UP",
-      "DOROTHEA 12B",
-      "DOROTHEA 12C",
-      "DOROTHEA 3B",
-      "DOROTHEA 3K",
-      "DOROTHEA 3K-2",
-      "DOROTHEA 3K-3",
       "EST AGNES FANCY 5H",
-      "EST DOROTHEA 12D",
-      "EST DOROTHEA 2D COTTAGE",
-      "EST DOROTHEA 3-B (UP)-B",
-      "EST LERKENLUND 2-C",
-      "EST LERKENLUND 2C-3 UP",
-      "EST LERKENLUND 2D",
-      "EST LERKENLUND 9D-6",
-      "EST LERKENLUND#2D-1",
-      "EST LERKERLUND 2C-6",
       "EST ORKANSHULLET(HASS)8-1",
-      "EST. BONNE RESOLUTION",
-      "ESTATE SOLBEG 79-43",
-      "ESTATE SOLBERG 79-38",
-      "ESTATE SOLBERG 79-43",
-      "ESTATE SOLBERG 94-8 MTR 2",
       "ESTATE THOMAS 16-1",
       "GROUND A13 & A14 B 4 APT-",
       "GROUND A13 & A14 B2 APT-",
@@ -1719,14 +1375,7 @@
       "JOSEPH & ROSENDAHL 2-27",
       "JOSEPH & ROSENDAHL 2-32",
       "JOSEPH & ROSENDAHL 3-26",
-      "LERKENLUND 2C",
-      "LERKENLUND 2C-3",
-      "LERKENLUND 8-63 TOP",
-      "LERKENLUND 9D-10",
       "LERKENLUND 9D-1-2",
-      "LILLIENDAH & MARIEN 6A-28",
-      "LILLIENDAHL & MARIENHOJ",
-      "LITTLE N. STAR VILL 3-I24",
       "LOVENLUND EST FARMHOUSE",
       "ORKANSHULLET 2-1 HASSLE",
       "ORKANSHULLET 2-1 HASSLE I",
@@ -1742,36 +1391,16 @@
       "PETERBORG 8-5 APT B",
       "PETERBORG 8-5 COT APT A",
       "PETERBORG 8-6",
-      "SOLBERG",
-      "SOLBERG 79-38 EAST",
-      "SOLBERG 79-39",
-      "SOLBERG 79-40",
-      "SOLBERG 79-41",
-      "SOLBERG 79-42 UP",
-      "SOLBERG 79-43",
-      "SOLBERG 91",
-      "SOLBERG 91 UP",
-      "SOLBERG 94-8 MTR 1",
       "ST JOSEPH & ROSEN 2-31",
       "ST JOSEPH & ROSEN 317-318",
       "ST JOSEPH & ROSENDAHL",
-      "ST PETER 14-6",
-      "ST PETER 18A",
-      "ST PETER 31-18 HSE METER",
-      "ST PETER 31-19 & 31-18",
-      "ST PETER 31-22 NORTH STAR",
-      "ST PETER 31-22 NORTHSTAR",
-      "ST PETER 3I-20 HIBIS LANE",
-      "ST PETER 8-2",
-      "ST PETER 8-3",
       "ST. JOSEPH & ROSENDAHL",
       "SUBBASE 100",
       "SUBBASE 101 (EL)",
-      "SUBBASE 69",
-      "UPPER JOHN DUNKOE"
+      "SUBBASE 69"
     ],
-    "totalOutages": 21
+    "totalOutages": 12
   },
   "staleAfterSeconds": 900,
-  "unassignedEventCount": 15
+  "unassignedEventCount": 8
 }
