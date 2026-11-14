@@ -32,6 +32,34 @@
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
+      "id": "46807ce362768fff8433a1a48bfbd1612c37d7998e5405478f12ec6ad6f8e8a0",
+      "island": null,
+      "locations": [
+        "PROSPERITY 10",
+        "PROSPERITY 2-AB",
+        "PROSPERITY 2-BA",
+        "PROSPERITY 9(WEST)"
+      ],
+      "modifiedAt": "2026-11-14T20:00:21Z",
+      "name": "T-C-05055",
+      "neighborhoodIDs": [],
+      "point": {
+        "latitude": 17.72693718168206,
+        "longitude": -64.88679644553471
+      },
+      "reportedCustomersInitially": 5,
+      "reportedCustomersOut": 5,
+      "reportedCustomersRestored": 0,
+      "sourceStatus": "Predicted",
+      "startedAt": "2026-11-14T20:00:18Z",
+      "verified": false,
+      "workStatus": null
+    },
+    {
+      "cause": null,
+      "crewAssigned": false,
+      "endedAt": null,
+      "estimatedRestoration": null,
       "id": "4a3f0a315506757465227b7b8af29e7bb7b6c8ed1cccd49b9833ba4ca8788ac7",
       "island": null,
       "locations": [
@@ -3573,7 +3601,7 @@
       "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-14T19:55:54Z",
+  "generatedAt": "2026-11-14T20:00:56Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -3712,29 +3740,25 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "38d2afccda223f910f1629d27ff7b85ef0b22103d0c0fafad93d13549cc4655c",
+  "snapshotID": "69f909220209b5da41acfa5c309995ebcc2628c29cb1267c70d713d30ccf0f52",
   "source": {
-    "checkedAt": "2026-11-14T19:55:54Z",
+    "checkedAt": "2026-11-14T20:00:56Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-14T19:55:29Z",
+    "updatedAt": "2026-11-14T20:00:30Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "sourceSummary": {
     "customerCountDifference": 2,
-    "customersAffected": 4965,
-    "customersOut": 4766,
+    "customersAffected": 4970,
+    "customersOut": 4771,
     "customersRestored": 199,
     "customersServed": 54726,
-    "eventCustomersOut": 4764,
+    "eventCustomersOut": 4769,
     "hourlyCustomersOut": [
       {
-        "at": "2026-11-12T19:00:00Z",
-        "customersOut": 3724
-      },
-      {
         "at": "2026-11-12T20:00:00Z",
-        "customersOut": 8785
+        "customersOut": 8784
       },
       {
         "at": "2026-11-12T21:00:00Z",
@@ -3923,6 +3947,10 @@
       {
         "at": "2026-11-14T19:00:00Z",
         "customersOut": 4764
+      },
+      {
+        "at": "2026-11-14T20:00:00Z",
+        "customersOut": 4769
       }
     ],
     "locations": [
@@ -6167,6 +6195,10 @@
       "POINT PLEASANT",
       "POINT PLEASANT RESORT",
       "POOL PUMP SERVICE",
+      "PROSPERITY 10",
+      "PROSPERITY 2-AB",
+      "PROSPERITY 2-BA",
+      "PROSPERITY 9(WEST)",
       "PZ EST THOMAS",
       "RAPHUNE 11-5B A",
       "RAPHUNE 13",
@@ -7247,8 +7279,8 @@
       "WHEATLEY SHOPPING CTR",
       "WHEATLEYS SHOPPING CTR"
     ],
-    "totalOutages": 10
+    "totalOutages": 11
   },
   "staleAfterSeconds": 900,
-  "unassignedEventCount": 7
+  "unassignedEventCount": 8
 }
