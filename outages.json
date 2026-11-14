@@ -400,9 +400,42 @@
       "startedAt": "2026-10-14T15:23:16Z",
       "verified": true,
       "workStatus": null
+    },
+    {
+      "cause": null,
+      "crewAssigned": false,
+      "endedAt": null,
+      "estimatedRestoration": null,
+      "id": "f2eb75164e0bdc0207a5a1485a5e8ada8f021421ec9cbccf32814592c1bb499f",
+      "island": null,
+      "locations": [
+        "SMITH BAY",
+        "SMITH BAY 18-21 A-1",
+        "SMITH BAY 18-23",
+        "SMITH BAY 18-23 1-B",
+        "SMITH BAY 18-23 HSE/PUMP",
+        "SMITH BAY 18-23 U-1A",
+        "SMITH BAY 18-23 U-2-A",
+        "SMITH BAY 18-3",
+        "SMITH BAY 18-4"
+      ],
+      "modifiedAt": "2026-11-14T20:28:06Z",
+      "name": "T-T-08232",
+      "neighborhoodIDs": [],
+      "point": {
+        "latitude": 18.327998047483206,
+        "longitude": -64.85162531011511
+      },
+      "reportedCustomersInitially": 9,
+      "reportedCustomersOut": 9,
+      "reportedCustomersRestored": 0,
+      "sourceStatus": "Predicted",
+      "startedAt": "2026-11-14T20:27:17Z",
+      "verified": false,
+      "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-14T20:26:04Z",
+  "generatedAt": "2026-11-14T20:31:05Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -502,21 +535,21 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "95c3952b3d0e73b517117313daa4bcbae50c380d1ac104085cf74d8c5c38a00a",
+  "snapshotID": "d043cc7eec0e232fd2f9a5b2855c6293cdcffad9ccaa37e3ae9693b63d4324cc",
   "source": {
-    "checkedAt": "2026-11-14T20:26:04Z",
+    "checkedAt": "2026-11-14T20:31:05Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-14T20:25:29Z",
+    "updatedAt": "2026-11-14T20:30:28Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "sourceSummary": {
     "customerCountDifference": 2,
-    "customersAffected": 904,
-    "customersOut": 260,
+    "customersAffected": 913,
+    "customersOut": 269,
     "customersRestored": 644,
     "customersServed": 54726,
-    "eventCustomersOut": 258,
+    "eventCustomersOut": 267,
     "hourlyCustomersOut": [
       {
         "at": "2026-11-12T20:00:00Z",
@@ -712,7 +745,7 @@
       },
       {
         "at": "2026-11-14T20:00:00Z",
-        "customersOut": 2248
+        "customersOut": 2257
       }
     ],
     "locations": [
@@ -886,6 +919,15 @@
       "PROSPERITY 2-AB",
       "PROSPERITY 2-BA",
       "PROSPERITY 9(WEST)",
+      "SMITH BAY",
+      "SMITH BAY 18-21 A-1",
+      "SMITH BAY 18-23",
+      "SMITH BAY 18-23 1-B",
+      "SMITH BAY 18-23 HSE/PUMP",
+      "SMITH BAY 18-23 U-1A",
+      "SMITH BAY 18-23 U-2-A",
+      "SMITH BAY 18-3",
+      "SMITH BAY 18-4",
       "SOLBERG 11-H",
       "SOLBERG 11-J",
       "ST PETER 3A-11",
@@ -893,8 +935,8 @@
       "SUBBASE 101 (EL)",
       "SUBBASE 69"
     ],
-    "totalOutages": 9
+    "totalOutages": 10
   },
   "staleAfterSeconds": 900,
-  "unassignedEventCount": 6
+  "unassignedEventCount": 7
 }
