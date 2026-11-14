@@ -3345,6 +3345,46 @@
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
+      "id": "935752d0321079d31937d201b8245f50b355841659271d693cf096c1875fc39b",
+      "island": null,
+      "locations": [
+        "THOMASVILLE",
+        "THOMASVILLE 5B",
+        "THOMASVILLE 5-C",
+        "THOMASVILLE 5-E B-5",
+        "THOMASVILLE 5-F",
+        "THOMASVILLE 6C",
+        "THOMASVILLE 6-D B-6",
+        "THOMASVILLE 7-C",
+        "THOMASVILLE 7-D",
+        "THOMASVILLE B-5 A-5A",
+        "THOMASVILLE B-6",
+        "THOMASVILLE B-6 A-6",
+        "THOMASVILLE B-6 A-B",
+        "THOMASVILLE B-7 A-E",
+        "THOMASVILLE B-7 A-F",
+        "THOMASVILLE BLDG 6"
+      ],
+      "modifiedAt": "2026-11-14T00:27:24Z",
+      "name": "T-T-14704",
+      "neighborhoodIDs": [],
+      "point": {
+        "latitude": 18.31917311543544,
+        "longitude": -64.89039900634413
+      },
+      "reportedCustomersInitially": 20,
+      "reportedCustomersOut": 20,
+      "reportedCustomersRestored": 0,
+      "sourceStatus": "Predicted",
+      "startedAt": "2026-11-14T00:26:50Z",
+      "verified": false,
+      "workStatus": null
+    },
+    {
+      "cause": null,
+      "crewAssigned": false,
+      "endedAt": null,
+      "estimatedRestoration": null,
       "id": "9bcdf85596d0f6f62b7c7c64316dc48dae09421193fdafff2a92f34e045ba01f",
       "island": null,
       "locations": [
@@ -3710,7 +3750,7 @@
       "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-14T00:25:44Z",
+  "generatedAt": "2026-11-14T00:30:46Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -4069,21 +4109,21 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "bda16dcc2a878540843fff5e92893bb3855095445e4d5f3c4993417639c2e381",
+  "snapshotID": "a0e766493b2ce7a33fa5b7fbb1c59c0f45fcfc29452991779a2b610311ef1416",
   "source": {
-    "checkedAt": "2026-11-14T00:25:44Z",
+    "checkedAt": "2026-11-14T00:30:46Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-14T00:25:27Z",
+    "updatedAt": "2026-11-14T00:30:27Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "sourceSummary": {
     "customerCountDifference": 2,
-    "customersAffected": 4090,
-    "customersOut": 4090,
+    "customersAffected": 4110,
+    "customersOut": 4110,
     "customersRestored": 0,
     "customersServed": 54726,
-    "eventCustomersOut": 4088,
+    "eventCustomersOut": 4108,
     "hourlyCustomersOut": [
       {
         "at": "2026-11-12T00:00:00Z",
@@ -4279,7 +4319,7 @@
       },
       {
         "at": "2026-11-14T00:00:00Z",
-        "customersOut": 4088
+        "customersOut": 4108
       }
     ],
     "locations": [
@@ -7257,6 +7297,22 @@
       "TAARNEBERG 40-B",
       "TAARNEBERG 5 & 6",
       "TALBAD STRADE/TRAFFIC LIG",
+      "THOMASVILLE",
+      "THOMASVILLE 5B",
+      "THOMASVILLE 5-C",
+      "THOMASVILLE 5-E B-5",
+      "THOMASVILLE 5-F",
+      "THOMASVILLE 6C",
+      "THOMASVILLE 6-D B-6",
+      "THOMASVILLE 7-C",
+      "THOMASVILLE 7-D",
+      "THOMASVILLE B-5 A-5A",
+      "THOMASVILLE B-6",
+      "THOMASVILLE B-6 A-6",
+      "THOMASVILLE B-6 A-B",
+      "THOMASVILLE B-7 A-E",
+      "THOMASVILLE B-7 A-F",
+      "THOMASVILLE BLDG 6",
       "TORVET STRADE 6",
       "TROMPETER GADE 1",
       "TROMPETER GADE 1 MTR-1",
@@ -7351,8 +7407,8 @@
       "ZUERIENDENHEIT",
       "ZUFRIDENHEIT 1"
     ],
-    "totalOutages": 26
+    "totalOutages": 27
   },
   "staleAfterSeconds": 900,
-  "unassignedEventCount": 22
+  "unassignedEventCount": 23
 }
