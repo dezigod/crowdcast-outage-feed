@@ -590,7 +590,7 @@
         "MISGUNST 4A-1A",
         "MISGUNST 4A-1B"
       ],
-      "modifiedAt": "2026-11-14T16:29:02Z",
+      "modifiedAt": "2026-11-14T17:18:55Z",
       "name": "T-T-09368",
       "neighborhoodIDs": [],
       "point": {
@@ -648,7 +648,7 @@
         "CONTANT 11-4",
         "CONTANT 11-4 MAIN HOUSE"
       ],
-      "modifiedAt": "2026-11-14T17:12:27Z",
+      "modifiedAt": "2026-11-14T17:18:55Z",
       "name": "T-T-05582",
       "neighborhoodIDs": [],
       "point": {
@@ -686,7 +686,7 @@
         "HOSPITAL GROUND 303A-C",
         "HOSPITAL GROUND 303A-F"
       ],
-      "modifiedAt": "2026-11-14T17:01:33Z",
+      "modifiedAt": "2026-11-14T17:18:55Z",
       "name": "T-T-09051",
       "neighborhoodIDs": [],
       "point": {
@@ -6588,42 +6588,6 @@
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
-      "id": "c381002327670be868af3f50aafdefc9fac4ebb90784193865d0729666657998",
-      "island": "stThomas",
-      "locations": [
-        "PETERBORG 10-1-1",
-        "PETERBORG 10-1-1 A-1",
-        "PETERBORG 10-1-1 A-2",
-        "PETERBORG 10-1-13 MTR-1",
-        "PETERBORG 10-1-13 MTR-2",
-        "PETERBORG 10-1-2",
-        "PETERBORG 8-3",
-        "PETERBORG 8-5 APT B",
-        "PETERBORG 8-5 COT APT A",
-        "PETERBORG 8-6"
-      ],
-      "modifiedAt": "2026-11-14T16:05:35Z",
-      "name": "T-T-04475",
-      "neighborhoodIDs": [
-        "stThomas-peterborg"
-      ],
-      "point": {
-        "latitude": 18.370324460031057,
-        "longitude": -64.92508192974626
-      },
-      "reportedCustomersInitially": 11,
-      "reportedCustomersOut": 11,
-      "reportedCustomersRestored": 0,
-      "sourceStatus": "Verified",
-      "startedAt": "2026-11-13T23:38:21Z",
-      "verified": true,
-      "workStatus": null
-    },
-    {
-      "cause": null,
-      "crewAssigned": false,
-      "endedAt": null,
-      "estimatedRestoration": null,
       "id": "cbbd2ef62dee6d0405b3a5d5c18b1c3c5a5b4dbca8f2f81c8fc8d71e6fec7176",
       "island": "stThomas",
       "locations": [
@@ -6649,7 +6613,7 @@
       "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-14T17:16:00Z",
+  "generatedAt": "2026-11-14T17:21:02Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -6688,30 +6652,6 @@
           ],
           "sourceStatus": "Verified",
           "startedAt": "2026-11-05T17:32:26Z"
-        },
-        {
-          "affectedCustomers": null,
-          "estimatedRestoration": null,
-          "id": "stThomas-peterborg",
-          "island": "stThomas",
-          "locations": [
-            "10-1-1",
-            "10-1-1 A-1",
-            "10-1-1 A-2",
-            "10-1-13 MTR-1",
-            "10-1-13 MTR-2",
-            "10-1-2",
-            "8-3",
-            "8-5 APT B",
-            "8-5 COT APT A",
-            "8-6"
-          ],
-          "name": "Peterborg",
-          "sourceEventIDs": [
-            "c381002327670be868af3f50aafdefc9fac4ebb90784193865d0729666657998"
-          ],
-          "sourceStatus": "Verified",
-          "startedAt": "2026-11-13T23:38:21Z"
         },
         {
           "affectedCustomers": null,
@@ -7021,21 +6961,21 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "a51e83073b12402c0310a9603f4282eb9d88ccb04598d69d33e43b42e51aa81d",
+  "snapshotID": "b5aadae9c096a23d03cb6bc35858d92c91d954cbc4d6487517e8f425375d52c6",
   "source": {
-    "checkedAt": "2026-11-14T17:16:00Z",
+    "checkedAt": "2026-11-14T17:21:02Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-14T17:15:31Z",
+    "updatedAt": "2026-11-14T17:20:32Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "sourceSummary": {
     "customerCountDifference": 2,
-    "customersAffected": 8068,
-    "customersOut": 7869,
+    "customersAffected": 8057,
+    "customersOut": 7858,
     "customersRestored": 199,
     "customersServed": 54726,
-    "eventCustomersOut": 7867,
+    "eventCustomersOut": 7856,
     "hourlyCustomersOut": [
       {
         "at": "2026-11-12T17:00:00Z",
@@ -7159,79 +7099,79 @@
       },
       {
         "at": "2026-11-13T23:00:00Z",
-        "customersOut": 2923
+        "customersOut": 2912
       },
       {
         "at": "2026-11-14T00:00:00Z",
-        "customersOut": 2923
+        "customersOut": 2912
       },
       {
         "at": "2026-11-14T01:00:00Z",
-        "customersOut": 5780
+        "customersOut": 5769
       },
       {
         "at": "2026-11-14T02:00:00Z",
-        "customersOut": 5780
+        "customersOut": 5769
       },
       {
         "at": "2026-11-14T03:00:00Z",
-        "customersOut": 5780
+        "customersOut": 5769
       },
       {
         "at": "2026-11-14T04:00:00Z",
-        "customersOut": 11146
+        "customersOut": 11135
       },
       {
         "at": "2026-11-14T05:00:00Z",
-        "customersOut": 8289
+        "customersOut": 8278
       },
       {
         "at": "2026-11-14T06:00:00Z",
-        "customersOut": 5937
+        "customersOut": 5926
       },
       {
         "at": "2026-11-14T07:00:00Z",
-        "customersOut": 696
+        "customersOut": 685
       },
       {
         "at": "2026-11-14T08:00:00Z",
-        "customersOut": 696
+        "customersOut": 685
       },
       {
         "at": "2026-11-14T09:00:00Z",
-        "customersOut": 696
+        "customersOut": 685
       },
       {
         "at": "2026-11-14T10:00:00Z",
-        "customersOut": 1193
+        "customersOut": 1182
       },
       {
         "at": "2026-11-14T11:00:00Z",
-        "customersOut": 1193
+        "customersOut": 1182
       },
       {
         "at": "2026-11-14T12:00:00Z",
-        "customersOut": 852
+        "customersOut": 841
       },
       {
         "at": "2026-11-14T13:00:00Z",
-        "customersOut": 11627
+        "customersOut": 11616
       },
       {
         "at": "2026-11-14T14:00:00Z",
-        "customersOut": 696
+        "customersOut": 685
       },
       {
         "at": "2026-11-14T15:00:00Z",
-        "customersOut": 4038
+        "customersOut": 4027
       },
       {
         "at": "2026-11-14T16:00:00Z",
-        "customersOut": 7841
+        "customersOut": 7830
       },
       {
         "at": "2026-11-14T17:00:00Z",
-        "customersOut": 7867
+        "customersOut": 7856
       }
     ],
     "locations": [
@@ -10934,16 +10874,6 @@
       "PARCEL D BENNER HILL",
       "PAUL E JOSEPH STADIUM",
       "PCL 6L-22 CABRITA",
-      "PETERBORG 10-1-1",
-      "PETERBORG 10-1-1 A-1",
-      "PETERBORG 10-1-1 A-2",
-      "PETERBORG 10-1-13 MTR-1",
-      "PETERBORG 10-1-13 MTR-2",
-      "PETERBORG 10-1-2",
-      "PETERBORG 8-3",
-      "PETERBORG 8-5 APT B",
-      "PETERBORG 8-5 COT APT A",
-      "PETERBORG 8-6",
       "PLOT 319 ENFIELD GREEN",
       "PLOT 326 ENFIELD GREEN",
       "PLT 6-CA CARLTON GARDENS",
@@ -13585,7 +13515,7 @@
       "WILLIAMS DELIGHT PLOT 577",
       "WILLIAMS DELIGHT/LED HWY"
     ],
-    "totalOutages": 12
+    "totalOutages": 11
   },
   "staleAfterSeconds": 900,
   "unassignedEventCount": 8
