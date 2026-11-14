@@ -6,37 +6,6 @@
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
-      "id": "375fffaf43b2560dd5552e045c5c0bfa614cf5bbf0bdca78fe763997d34ec58a",
-      "island": null,
-      "locations": [
-        "EST SOLBERG MTR 3",
-        "SOLBERG 1 B-16",
-        "SOLBERG 1B-14",
-        "SOLBERG 1B-15",
-        "SOLBERG 1B-17",
-        "SOLBERG 1B-9",
-        "SOLBERG 90-D"
-      ],
-      "modifiedAt": "2026-11-14T16:43:36Z",
-      "name": "T-T-02299",
-      "neighborhoodIDs": [],
-      "point": {
-        "latitude": 18.346993018649982,
-        "longitude": -64.94707802733635
-      },
-      "reportedCustomersInitially": 15,
-      "reportedCustomersOut": 15,
-      "reportedCustomersRestored": 0,
-      "sourceStatus": "Predicted",
-      "startedAt": "2026-11-14T16:43:24Z",
-      "verified": false,
-      "workStatus": null
-    },
-    {
-      "cause": null,
-      "crewAssigned": false,
-      "endedAt": null,
-      "estimatedRestoration": null,
       "id": "466bc9614c76460646f6e693474c200e210063775b3dac783172ab48908c90e8",
       "island": null,
       "locations": [
@@ -6614,7 +6583,7 @@
       "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-14T16:50:51Z",
+  "generatedAt": "2026-11-14T16:55:53Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -6986,21 +6955,21 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "5923ef70041d189337824dd67e012f10dc093601699efdab072d5e42a0c85d90",
+  "snapshotID": "cd437d22d2c6b0c5cc00e6781ce91831abb0327bebbe1964039b030d98f4d3b8",
   "source": {
-    "checkedAt": "2026-11-14T16:50:51Z",
+    "checkedAt": "2026-11-14T16:55:53Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-14T16:50:31Z",
+    "updatedAt": "2026-11-14T16:55:32Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "sourceSummary": {
     "customerCountDifference": 2,
-    "customersAffected": 8057,
-    "customersOut": 7858,
+    "customersAffected": 8042,
+    "customersOut": 7843,
     "customersRestored": 199,
     "customersServed": 54726,
-    "eventCustomersOut": 7856,
+    "eventCustomersOut": 7841,
     "hourlyCustomersOut": [
       {
         "at": "2026-11-12T16:00:00Z",
@@ -7196,7 +7165,7 @@
       },
       {
         "at": "2026-11-14T16:00:00Z",
-        "customersOut": 7856
+        "customersOut": 7841
       }
     ],
     "locations": [
@@ -8620,7 +8589,6 @@
       "EST SMITH BAY 19-2-30",
       "EST SMITH BAY 19-2-43",
       "EST SMITH BAY 19-2-94",
-      "EST SOLBERG MTR 3",
       "EST WHIM",
       "EST WHIM 139R-13 (EL)",
       "EST WHIM 1G",
@@ -11240,12 +11208,6 @@
       "SMITHFIELD 99-D",
       "SMITHFIELD LIFT STATION",
       "SMITHFIELD/TWO BROTHERS",
-      "SOLBERG 1 B-16",
-      "SOLBERG 1B-14",
-      "SOLBERG 1B-15",
-      "SOLBERG 1B-17",
-      "SOLBERG 1B-9",
-      "SOLBERG 90-D",
       "SPACE E LAGOON",
       "SPRAT HALL",
       "SPRAT HALL (WELL)",
@@ -13539,8 +13501,8 @@
       "WILLIAMS DELIGHT PLOT 577",
       "WILLIAMS DELIGHT/LED HWY"
     ],
-    "totalOutages": 11
+    "totalOutages": 10
   },
   "staleAfterSeconds": 900,
-  "unassignedEventCount": 7
+  "unassignedEventCount": 6
 }
