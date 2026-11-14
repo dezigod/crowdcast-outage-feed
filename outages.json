@@ -5367,6 +5367,55 @@
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
+      "id": "998c768c0fd353981205caecfd1ce8d641e0835a9b1bbcca13b0b82674ae212c",
+      "island": null,
+      "locations": [
+        "ALTONA",
+        "ALTONA & WELGUNST 104 A-1",
+        "ALTONA & WELGUNST 104 A-2",
+        "ALTONA & WELGUNST 104 A-3",
+        "ALTONA & WELGUNST 104 A-4",
+        "ALTONA & WELGUNST 104 A-5",
+        "ALTONA & WELGUNST 104 STT",
+        "ALTONA & WELGUNST 35",
+        "ALTONA & WELGUNST 36",
+        "ALTONA & WELGUNST 43",
+        "ALTONA & WELGUNST 85 DOWN",
+        "ALTONA & WELGUNST 85 UP",
+        "ALTONA 102",
+        "ALTONA 102 3FL",
+        "ALTONA 102 MIDDLE",
+        "ALTONA 103 APT-1",
+        "ALTONA 103 APT-2",
+        "ALTONA 103 APT-3",
+        "ALTONA 103 APT-4",
+        "ALTONA 103 APT-5",
+        "ALTONA 103A",
+        "ALTONA 38",
+        "ALTONA 45",
+        "ALTONA 45 APT-5",
+        "ALTONA 45 APT-6"
+      ],
+      "modifiedAt": "2026-11-14T22:06:43Z",
+      "name": "T-T-00748",
+      "neighborhoodIDs": [],
+      "point": {
+        "latitude": 18.338366906094063,
+        "longitude": -64.94381684173308
+      },
+      "reportedCustomersInitially": 30,
+      "reportedCustomersOut": 30,
+      "reportedCustomersRestored": 0,
+      "sourceStatus": "Predicted",
+      "startedAt": "2026-11-14T22:06:39Z",
+      "verified": false,
+      "workStatus": null
+    },
+    {
+      "cause": null,
+      "crewAssigned": false,
+      "endedAt": null,
+      "estimatedRestoration": null,
       "id": "a7622fe5ec3f7460243d64545ddffb42dc3c534b3876e2c938737688abde9c58",
       "island": "stThomas",
       "locations": [
@@ -6508,7 +6557,7 @@
       "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-14T22:05:39Z",
+  "generatedAt": "2026-11-14T22:10:41Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -6856,21 +6905,21 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "9ee3ed28efe1da3eff6c20654b8da119acd2b799b914a77e8b4a6e75117be6f0",
+  "snapshotID": "72cb2576841ed8416a84bcd1abb22aa2ed06f9074538b8fbd8035e000398aa72",
   "source": {
-    "checkedAt": "2026-11-14T22:05:39Z",
+    "checkedAt": "2026-11-14T22:10:41Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-14T22:05:30Z",
+    "updatedAt": "2026-11-14T22:10:30Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "sourceSummary": {
     "customerCountDifference": 2,
-    "customersAffected": 9142,
-    "customersOut": 7720,
+    "customersAffected": 9172,
+    "customersOut": 7750,
     "customersRestored": 1422,
     "customersServed": 54726,
-    "eventCustomersOut": 7718,
+    "eventCustomersOut": 7748,
     "hourlyCustomersOut": [
       {
         "at": "2026-11-12T22:00:00Z",
@@ -7066,7 +7115,7 @@
       },
       {
         "at": "2026-11-14T22:00:00Z",
-        "customersOut": 7718
+        "customersOut": 7748
       }
     ],
     "locations": [
@@ -7158,6 +7207,12 @@
       "ALTONA & WELGUNS 200-7-25",
       "ALTONA & WELGUNS 200-7-26",
       "ALTONA & WELGUNST",
+      "ALTONA & WELGUNST 104 A-1",
+      "ALTONA & WELGUNST 104 A-2",
+      "ALTONA & WELGUNST 104 A-3",
+      "ALTONA & WELGUNST 104 A-4",
+      "ALTONA & WELGUNST 104 A-5",
+      "ALTONA & WELGUNST 104 STT",
       "ALTONA & WELGUNST 200-6D",
       "ALTONA & WELGUNST 200-6E",
       "ALTONA & WELGUNST 200-6G",
@@ -7178,10 +7233,24 @@
       "ALTONA & WELGUNST 200-8U",
       "ALTONA & WELGUNST 200-8Y",
       "ALTONA & WELGUNST 200-8Z",
+      "ALTONA & WELGUNST 35",
+      "ALTONA & WELGUNST 36",
+      "ALTONA & WELGUNST 43",
+      "ALTONA & WELGUNST 85 DOWN",
+      "ALTONA & WELGUNST 85 UP",
       "ALTONA & WILGUNST 200-8G",
       "ALTONA &WELGUN 200-7-25",
       "ALTONA &WELGUNST 200-7-20",
       "ALTONA &WELGUNST 200-7-22",
+      "ALTONA 102",
+      "ALTONA 102 3FL",
+      "ALTONA 102 MIDDLE",
+      "ALTONA 103 APT-1",
+      "ALTONA 103 APT-2",
+      "ALTONA 103 APT-3",
+      "ALTONA 103 APT-4",
+      "ALTONA 103 APT-5",
+      "ALTONA 103A",
       "ALTONA 200-6-62",
       "ALTONA 200-7-16",
       "ALTONA 200-7-18 A-4",
@@ -7190,6 +7259,10 @@
       "ALTONA 200-8F- UPSTAIRS",
       "ALTONA 200-8J",
       "ALTONA 200-8J MTR-3",
+      "ALTONA 38",
+      "ALTONA 45",
+      "ALTONA 45 APT-5",
+      "ALTONA 45 APT-6",
       "ALTONA WELGUNST 200-7-1",
       "ALTONA WELGUNST 200-7-15",
       "ALTONA WELGUNST 200-8C",
@@ -13217,8 +13290,8 @@
       "ZUERIENDENHEIT",
       "ZUFRIDENHEIT 1"
     ],
-    "totalOutages": 14
+    "totalOutages": 15
   },
   "staleAfterSeconds": 900,
-  "unassignedEventCount": 11
+  "unassignedEventCount": 12
 }
