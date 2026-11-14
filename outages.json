@@ -2872,6 +2872,34 @@
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
+      "id": "8ea49968c4a6acf2e187c55177e0c745b5825a113a321479c3cf2bcde080be0b",
+      "island": null,
+      "locations": [
+        "HONDURAS 24A",
+        "HONDURAS 24A ALEX",
+        "HONDURAS 62",
+        "HONDURAS PCL 24A"
+      ],
+      "modifiedAt": "2026-11-14T21:50:25Z",
+      "name": "T-T-02574",
+      "neighborhoodIDs": [],
+      "point": {
+        "latitude": 18.337134539653867,
+        "longitude": -64.94056941181879
+      },
+      "reportedCustomersInitially": 6,
+      "reportedCustomersOut": 6,
+      "reportedCustomersRestored": 0,
+      "sourceStatus": "Predicted",
+      "startedAt": "2026-11-14T21:50:19Z",
+      "verified": false,
+      "workStatus": null
+    },
+    {
+      "cause": null,
+      "crewAssigned": false,
+      "endedAt": null,
+      "estimatedRestoration": null,
       "id": "a7622fe5ec3f7460243d64545ddffb42dc3c534b3876e2c938737688abde9c58",
       "island": "stThomas",
       "locations": [
@@ -4062,7 +4090,7 @@
       "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-14T21:41:30Z",
+  "generatedAt": "2026-11-14T21:50:35Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -4410,21 +4438,21 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "16e233a0ca6ff39cd2ca8b8660e9a6bc83b476b32c24994eb5f4d99ef329ef86",
+  "snapshotID": "96c4d52f18bd50470ee0f1a0ab72ab032e47b18ddab6c1a853b14bb0b459cf56",
   "source": {
-    "checkedAt": "2026-11-14T21:41:30Z",
+    "checkedAt": "2026-11-14T21:50:35Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-14T21:40:30Z",
+    "updatedAt": "2026-11-14T21:50:29Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "sourceSummary": {
     "customerCountDifference": 2,
-    "customersAffected": 5913,
-    "customersOut": 4491,
+    "customersAffected": 5919,
+    "customersOut": 4497,
     "customersRestored": 1422,
     "customersServed": 54726,
-    "eventCustomersOut": 4489,
+    "eventCustomersOut": 4495,
     "hourlyCustomersOut": [
       {
         "at": "2026-11-12T21:00:00Z",
@@ -4620,7 +4648,7 @@
       },
       {
         "at": "2026-11-14T21:00:00Z",
-        "customersOut": 4489
+        "customersOut": 4495
       }
     ],
     "locations": [
@@ -7305,6 +7333,10 @@
       "HAVENSIGHT WAY 18 A-C",
       "HAWK HILL CONDO APT. 9",
       "HAWKSNEST 1-U DENIS BAY",
+      "HONDURAS 24A",
+      "HONDURAS 24A ALEX",
+      "HONDURAS 62",
+      "HONDURAS PCL 24A",
       "HOSPITAL GROUND 400B",
       "HULL",
       "HULL 11-1 11D-D",
@@ -8327,8 +8359,8 @@
       "ZUERIENDENHEIT",
       "ZUFRIDENHEIT 1"
     ],
-    "totalOutages": 14
+    "totalOutages": 15
   },
   "staleAfterSeconds": 900,
-  "unassignedEventCount": 11
+  "unassignedEventCount": 12
 }
