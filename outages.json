@@ -581,35 +581,6 @@
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
-      "id": "4fc94ed5bafedb86f94b60a20d05c25f0e0dba684ce0b69b87971966ae52820e",
-      "island": null,
-      "locations": [
-        "EST ELIZABETH 9",
-        "ESTATE ELIZABETH 7A MTR-A",
-        "ESTATE ELIZABETH 7A MTR-B",
-        "MISGUNST 4A-1A",
-        "MISGUNST 4A-1B"
-      ],
-      "modifiedAt": "2026-11-14T17:18:55Z",
-      "name": "T-T-09368",
-      "neighborhoodIDs": [],
-      "point": {
-        "latitude": 18.35361946811677,
-        "longitude": -64.93684242917385
-      },
-      "reportedCustomersInitially": 5,
-      "reportedCustomersOut": 5,
-      "reportedCustomersRestored": 0,
-      "sourceStatus": "Predicted",
-      "startedAt": "2026-11-14T16:28:58Z",
-      "verified": false,
-      "workStatus": null
-    },
-    {
-      "cause": null,
-      "crewAssigned": false,
-      "endedAt": null,
-      "estimatedRestoration": null,
       "id": "688d24f7b6e72cb60f9dd7cfcfc315b9ee0efe7095b9fbf192b7ed84c8031d54",
       "island": "stThomas",
       "locations": [
@@ -3570,7 +3541,7 @@
       "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-14T19:35:47Z",
+  "generatedAt": "2026-11-14T19:40:49Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -3694,21 +3665,21 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "3a646a34d545c533cabb1d9aef6c354519372f982aa82051a3d69eefe40d82fa",
+  "snapshotID": "7e1ab4fcc8aa50642ab509ae062560f52c38a42b6bd3b08ae358934eaedf07d5",
   "source": {
-    "checkedAt": "2026-11-14T19:35:47Z",
+    "checkedAt": "2026-11-14T19:40:49Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-14T19:35:29Z",
+    "updatedAt": "2026-11-14T19:40:29Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "sourceSummary": {
     "customerCountDifference": 2,
-    "customersAffected": 4963,
-    "customersOut": 4764,
+    "customersAffected": 4958,
+    "customersOut": 4759,
     "customersRestored": 199,
     "customersServed": 54726,
-    "eventCustomersOut": 4762,
+    "eventCustomersOut": 4757,
     "hourlyCustomersOut": [
       {
         "at": "2026-11-12T19:00:00Z",
@@ -3892,19 +3863,19 @@
       },
       {
         "at": "2026-11-14T16:00:00Z",
-        "customersOut": 7830
+        "customersOut": 7825
       },
       {
         "at": "2026-11-14T17:00:00Z",
-        "customersOut": 11902
+        "customersOut": 11897
       },
       {
         "at": "2026-11-14T18:00:00Z",
-        "customersOut": 6386
+        "customersOut": 6381
       },
       {
         "at": "2026-11-14T19:00:00Z",
-        "customersOut": 4762
+        "customersOut": 4757
       }
     ],
     "locations": [
@@ -4491,7 +4462,6 @@
       "EST BOVONI 5A-18",
       "EST BOVONI 5A-89",
       "EST BOVONI 6A-73",
-      "EST ELIZABETH 9",
       "EST FRYDENDAHL",
       "EST FRYDENDAHL 1",
       "EST FRYDENDAHL 11-5-4",
@@ -5378,8 +5348,6 @@
       "ESTATE BOVONI APT 1",
       "ESTATE BOVONI BAY",
       "ESTATE BOVONI BAY 4",
-      "ESTATE ELIZABETH 7A MTR-A",
-      "ESTATE ELIZABETH 7A MTR-B",
       "ESTATE FRENCHMANS BAY",
       "ESTATE FRYDENDAHL",
       "ESTATE FRYDENDAHL #4",
@@ -5931,8 +5899,6 @@
       "MAGENHAABET DEGUNST 8",
       "MARIENDAHL 10-2",
       "MARIENDAHL 10-42",
-      "MISGUNST 4A-1A",
-      "MISGUNST 4A-1B",
       "MODULAR CLASSROOM - CAHS",
       "MODULAR CLASSROOM - IEKHS",
       "MODULAR CLASSROOM - LES",
@@ -7228,8 +7194,8 @@
       "WHEATLEY SHOPPING CTR",
       "WHEATLEYS SHOPPING CTR"
     ],
-    "totalOutages": 10
+    "totalOutages": 9
   },
   "staleAfterSeconds": 900,
-  "unassignedEventCount": 7
+  "unassignedEventCount": 6
 }
