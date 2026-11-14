@@ -2,7 +2,7 @@
 import argparse
 import base64
 import calendar
-from datetime import datetime, timezone
+from datetime import datetime, timedelta, timezone
 import json
 import os
 import re
@@ -58,6 +58,31 @@ def source_times(kind, feed):
     return {key: source.get(key) for key in ("checkedAt", "updatedAt")}
 
 
+def pending_empty_midnight_rollover(feed, schedule, now):
+    """Allow one collection interval for an empty unavailable day's date label.
+
+    Never grants schedule coverage, tolerates yesterday's windows, or hides
+    collector/freshness failures. The missing-current-day warning still applies.
+    """
+    local = now.astimezone(ZoneInfo("America/St_Thomas"))
+    midnight = local.replace(hour=0, minute=0, second=0, microsecond=0)
+    if not (0 <= (local - midnight).total_seconds() < 300):
+        return False
+    if (feed.get("status") != "ok"
+            or schedule.get("day") != (local.date() - timedelta(days=1)).isoformat()
+            or schedule.get("dayStatus") != "not_current"
+            or schedule.get("extractionStatus") != "unavailable"
+            or schedule.get("windows") != []
+            or schedule.get("coverageStart") is not None
+            or schedule.get("coverageEnd") is not None):
+        return False
+    try:
+        checked = timestamp(schedule.get("checkedAt"))
+        return midnight - timedelta(minutes=5) <= checked < midnight
+    except (TypeError, ValueError, AttributeError):
+        return False
+
+
 def problems(kind, feed, now):
     limit = CONFIG[kind][1]
     failures = []
@@ -97,7 +122,8 @@ def problems(kind, feed, now):
             failures.append("WAPA rotation PDF check failed or requires access review.")
         day_status = schedule.get("dayStatus")
         today = now.astimezone(ZoneInfo("America/St_Thomas")).date().isoformat()
-        if "day" in schedule and schedule.get("day") != today:
+        if ("day" in schedule and schedule.get("day") != today
+                and not pending_empty_midnight_rollover(feed, schedule, now)):
             failures.append("WAPA rotation feed is not scoped to today in St. Thomas. Past-day schedules must not be displayed.")
         if day_status == "not_current":
             failures.append("WAPA's linked schedule does not cover today. Check WAPA's official Facebook photos as well as its website; do not reuse past dates.")

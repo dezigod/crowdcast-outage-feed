@@ -51,3 +51,40 @@ class RotationHealthTests(unittest.TestCase):
         errors=' '.join(problems('rotation', f, NOW))
         self.assertIn('not scoped to today', errors)
         self.assertIn('dates have passed', errors)
+
+class MidnightRolloverTests(unittest.TestCase):
+    now = datetime(2026, 11, 14, 4, 0, 28, tzinfo=timezone.utc)
+
+    def feed(self):
+        return {"schemaVersion": 1, "status": "ok", "schedule": {
+            "checkedAt": "2026-11-14T03:55:52Z", "day": "2026-11-13",
+            "dayStatus": "not_current", "extractionStatus": "unavailable",
+            "windows": [], "coverageStart": None, "coverageEnd": None}}
+
+    def test_empty_rollover_keeps_genuine_missing_schedule_warning(self):
+        errors = problems("rotation", self.feed(), self.now)
+        self.assertEqual(len(errors), 1)
+        self.assertIn("does not cover today", errors[0])
+
+    def test_grace_expires_at_five_minutes(self):
+        errors = " ".join(problems("rotation", self.feed(), self.now.replace(minute=5, second=0)))
+        self.assertIn("not scoped to today", errors)
+
+    def test_safety_failures_are_not_graced(self):
+        for changes in ({"windows": [{}]}, {"windows": None},
+                        {"dayStatus": "current"}, {"extractionStatus": "reviewed"},
+                        {"day": "2026-11-12"}, {"checkedAt": "bad"},
+                        {"checkedAt": "2026-11-14T03:54:59Z"},
+                        {"checkedAt": "2026-11-14T04:00:01Z"},
+                        {"coverageEnd": "2026-11-13T23:59:00-04:00"}):
+            with self.subTest(changes=changes):
+                feed = self.feed(); feed["schedule"].update(changes)
+                self.assertIn("not scoped to today", " ".join(problems("rotation", feed, self.now)))
+        feed = self.feed(); feed["status"] = "blocked"
+        errors = " ".join(problems("rotation", feed, self.now))
+        self.assertIn("not scoped to today", errors)
+        self.assertIn("access review", errors)
+
+    def test_current_day_empty_feed_still_unhealthy(self):
+        feed = self.feed(); feed["schedule"]["day"] = "2026-11-14"
+        self.assertIn("does not cover today", " ".join(problems("rotation", feed, self.now)))
