@@ -2126,6 +2126,37 @@
       "workStatus": null
     },
     {
+      "cause": null,
+      "crewAssigned": false,
+      "endedAt": null,
+      "estimatedRestoration": null,
+      "id": "69f58d12346d42a643abd329decd9a22236a2adc37562fab76d7efde3e503a7b",
+      "island": null,
+      "locations": [
+        "EST. FRYDENHOJ 1-44",
+        "FRYDENHOJ 1-45",
+        "FRYDENHOJ 1-47 DWN",
+        "FRYDENHOJ 1-47 UP",
+        "FRYDENHOJ 1-49",
+        "FRYDENHOJ 1-49 BOTTOM",
+        "FRYDENHOJ 1-49 MIDDLE"
+      ],
+      "modifiedAt": "2026-11-14T02:05:27Z",
+      "name": "T-T-08751",
+      "neighborhoodIDs": [],
+      "point": {
+        "latitude": 18.323772981835567,
+        "longitude": -64.87079678707914
+      },
+      "reportedCustomersInitially": 7,
+      "reportedCustomersOut": 7,
+      "reportedCustomersRestored": 0,
+      "sourceStatus": "Predicted",
+      "startedAt": "2026-11-14T02:05:03Z",
+      "verified": false,
+      "workStatus": null
+    },
+    {
       "cause": "000 Power supply",
       "crewAssigned": false,
       "endedAt": null,
@@ -3280,6 +3311,39 @@
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
+      "id": "8f56827f239d2d8821e47ed7641cdb3628a6c0e0e9866d5a98ffdb9800db23cb",
+      "island": null,
+      "locations": [
+        "EST NAZARETH",
+        "EST NAZARETH 9 17 1-UP",
+        "EST NAZARETH 9 17 2DWN",
+        "EST NAZARETH 9A-3",
+        "LOT A9 VESSUP BAY EST",
+        "NAZARETH 9A-18",
+        "NAZARETH 9A-18 UP",
+        "NAZARETH 9A-4",
+        "VESSUP LANE 9A-19"
+      ],
+      "modifiedAt": "2026-11-14T02:02:29Z",
+      "name": "T-T-12963",
+      "neighborhoodIDs": [],
+      "point": {
+        "latitude": 18.32246058058419,
+        "longitude": -64.85281803810298
+      },
+      "reportedCustomersInitially": 9,
+      "reportedCustomersOut": 9,
+      "reportedCustomersRestored": 0,
+      "sourceStatus": "Predicted",
+      "startedAt": "2026-11-14T02:02:01Z",
+      "verified": false,
+      "workStatus": null
+    },
+    {
+      "cause": null,
+      "crewAssigned": false,
+      "endedAt": null,
+      "estimatedRestoration": null,
       "id": "909dc3c14d6629a5fa7086bdedde667064749e8c7697e4b05864bfce3731ccf2",
       "island": null,
       "locations": [
@@ -3824,7 +3888,7 @@
       "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-14T02:01:16Z",
+  "generatedAt": "2026-11-14T02:06:17Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -4183,21 +4247,21 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "1d36cb64069cef1652e0efd5d58b35f29aa9129a065feacdcfcb93a390b06d91",
+  "snapshotID": "5032f7972fa7c2d372e6e2ad992211655bf5499899c8cce62d8c2d7442317f88",
   "source": {
-    "checkedAt": "2026-11-14T02:01:16Z",
+    "checkedAt": "2026-11-14T02:06:17Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-14T02:00:28Z",
+    "updatedAt": "2026-11-14T02:05:28Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "sourceSummary": {
     "customerCountDifference": 2,
-    "customersAffected": 4182,
-    "customersOut": 4182,
+    "customersAffected": 4198,
+    "customersOut": 4198,
     "customersRestored": 0,
     "customersServed": 54726,
-    "eventCustomersOut": 4180,
+    "eventCustomersOut": 4196,
     "hourlyCustomersOut": [
       {
         "at": "2026-11-12T02:00:00Z",
@@ -4393,7 +4457,7 @@
       },
       {
         "at": "2026-11-14T02:00:00Z",
-        "customersOut": 4180
+        "customersOut": 4196
       }
     ],
     "locations": [
@@ -5565,6 +5629,10 @@
       "EST MISGUNST 8C DOWN",
       "EST MISGUNST 8C UP",
       "EST MISGUNST PCL-5N",
+      "EST NAZARETH",
+      "EST NAZARETH 9 17 1-UP",
+      "EST NAZARETH 9 17 2DWN",
+      "EST NAZARETH 9A-3",
       "EST NELTJBERG 3",
       "EST NELTJBERG 42",
       "EST NELTJEBERG 25-1 DWN",
@@ -5645,6 +5713,7 @@
       "EST. ELIZABETH 29 MTR.1",
       "EST. ELIZABETH 35B DOWN",
       "EST. ELIZABETH 35B UP",
+      "EST. FRYDENHOJ 1-44",
       "EST. HULL 4ABC-3 DWN",
       "EST. HULL BAY 5G-2 TOP FL",
       "EST. LERKENLAND 3I-1",
@@ -5751,6 +5820,12 @@
       "FRYDENHOJ 12Q",
       "FRYDENHOJ 1-38",
       "FRYDENHOJ 1-39",
+      "FRYDENHOJ 1-45",
+      "FRYDENHOJ 1-47 DWN",
+      "FRYDENHOJ 1-47 UP",
+      "FRYDENHOJ 1-49",
+      "FRYDENHOJ 1-49 BOTTOM",
+      "FRYDENHOJ 1-49 MIDDLE",
       "FRYDENHOJ 156",
       "GADE 24 2ND FL B-24&B-25",
       "GAMBLE GADE",
@@ -6547,6 +6622,7 @@
       "LILLIENDAL&MARIEN 6A-2-2",
       "LITTLE N. STAR VILL 3-I24",
       "LONG BAY STATION",
+      "LOT A9 VESSUP BAY EST",
       "LOT ALTONA/TRAFFIC LIGHT",
       "LOUISENHOJ 8A A UP",
       "LOUISENHOJ 8A B",
@@ -6652,6 +6728,9 @@
       "MURPHY GADE 20B",
       "MURPHY GADE 2A",
       "MURPHY GADE 4",
+      "NAZARETH 9A-18",
+      "NAZARETH 9A-18 UP",
+      "NAZARETH 9A-4",
       "NELLIKE GADE #1",
       "NELLIKE GADE #9 APT 3",
       "NELLIKE GADE 6 7A & 7B",
@@ -7452,6 +7531,7 @@
       "UPPER JOHN DUNKOE DWN",
       "UPPER JOHN DUNKOE MTR 3",
       "UPPER JOHN DUNKOE MTR 4",
+      "VESSUP LANE 9A-19",
       "VESTER GADE",
       "VESTER GADE 37 DOWN",
       "VESTER GADE 39",
@@ -7483,8 +7563,8 @@
       "ZUERIENDENHEIT",
       "ZUFRIDENHEIT 1"
     ],
-    "totalOutages": 30
+    "totalOutages": 32
   },
   "staleAfterSeconds": 900,
-  "unassignedEventCount": 26
+  "unassignedEventCount": 28
 }
