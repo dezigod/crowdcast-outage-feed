@@ -6573,9 +6573,47 @@
       "startedAt": "2026-10-14T15:23:16Z",
       "verified": true,
       "workStatus": null
+    },
+    {
+      "cause": null,
+      "crewAssigned": false,
+      "endedAt": null,
+      "estimatedRestoration": null,
+      "id": "e5d98ff713da8daae0a21b735a2e4c40ad402e2f7e1b76aa9ef62101dc461602",
+      "island": null,
+      "locations": [
+        "HOSPITAL GROUND 303",
+        "HOSPITAL GROUND 303A",
+        "HOSPITAL GROUND 303-A A-E",
+        "HOSPITAL GROUND 303A B-1",
+        "HOSPITAL GROUND 303A B-2",
+        "HOSPITAL GROUND 303A-10",
+        "HOSPITAL GROUND 303A-11",
+        "HOSPITAL GROUND 303A-12",
+        "HOSPITAL GROUND 303A-7",
+        "HOSPITAL GROUND 303A-8",
+        "HOSPITAL GROUND 303A-9",
+        "HOSPITAL GROUND 303A-B",
+        "HOSPITAL GROUND 303A-C",
+        "HOSPITAL GROUND 303A-F"
+      ],
+      "modifiedAt": "2026-11-14T17:49:47Z",
+      "name": "T-T-09051",
+      "neighborhoodIDs": [],
+      "point": {
+        "latitude": 18.34761464998929,
+        "longitude": -64.92816981786927
+      },
+      "reportedCustomersInitially": 20,
+      "reportedCustomersOut": 20,
+      "reportedCustomersRestored": 0,
+      "sourceStatus": "Predicted",
+      "startedAt": "2026-11-14T17:49:32Z",
+      "verified": false,
+      "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-14T17:46:10Z",
+  "generatedAt": "2026-11-14T17:51:12Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -6923,21 +6961,21 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "fe97ce3c5e3a64cf5800b2d55cc9aea1bfc2eb327d77b57c9c6f2f4430b02ff7",
+  "snapshotID": "f2e33501294fa98a707013b1a32f2c9b2189dcd4d478f278222350c06c57e9cf",
   "source": {
-    "checkedAt": "2026-11-14T17:46:10Z",
+    "checkedAt": "2026-11-14T17:51:12Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-14T17:45:31Z",
+    "updatedAt": "2026-11-14T17:50:31Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "sourceSummary": {
     "customerCountDifference": 2,
-    "customersAffected": 8037,
-    "customersOut": 7838,
+    "customersAffected": 8057,
+    "customersOut": 7858,
     "customersRestored": 199,
     "customersServed": 54726,
-    "eventCustomersOut": 7836,
+    "eventCustomersOut": 7856,
     "hourlyCustomersOut": [
       {
         "at": "2026-11-12T17:00:00Z",
@@ -7133,7 +7171,7 @@
       },
       {
         "at": "2026-11-14T17:00:00Z",
-        "customersOut": 7836
+        "customersOut": 7856
       }
     ],
     "locations": [
@@ -9648,6 +9686,20 @@
       "HOPE 90",
       "HOPE 91",
       "HOPE CONTAINER PORT",
+      "HOSPITAL GROUND 303",
+      "HOSPITAL GROUND 303A",
+      "HOSPITAL GROUND 303-A A-E",
+      "HOSPITAL GROUND 303A B-1",
+      "HOSPITAL GROUND 303A B-2",
+      "HOSPITAL GROUND 303A-10",
+      "HOSPITAL GROUND 303A-11",
+      "HOSPITAL GROUND 303A-12",
+      "HOSPITAL GROUND 303A-7",
+      "HOSPITAL GROUND 303A-8",
+      "HOSPITAL GROUND 303A-9",
+      "HOSPITAL GROUND 303A-B",
+      "HOSPITAL GROUND 303A-C",
+      "HOSPITAL GROUND 303A-F",
       "HOSPITAL ST 30AA A-1 UP",
       "HOSPITAL STREET",
       "HOSPITAL STREET (DWNSTRS)",
@@ -13463,8 +13515,8 @@
       "WILLIAMS DELIGHT PLOT 577",
       "WILLIAMS DELIGHT/LED HWY"
     ],
-    "totalOutages": 10
+    "totalOutages": 11
   },
   "staleAfterSeconds": 900,
-  "unassignedEventCount": 7
+  "unassignedEventCount": 8
 }
