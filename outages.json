@@ -1925,6 +1925,38 @@
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
+      "id": "7e8fa2391b457fd2fadc04bdb5d887b6be15608aa7fcfd07640a4ff5ef9a52bb",
+      "island": null,
+      "locations": [
+        "EST ST PETER 3A-11",
+        "EST ST PETER 3A-11 APT 2",
+        "EST ST PETER 3A-11 MTR 1",
+        "SOLBERG 11-H",
+        "SOLBERG 11-J",
+        "ST PETER 3A-11"
+      ],
+      "modifiedAt": "2026-11-14T19:46:17Z",
+      "name": "T-T-09427",
+      "neighborhoodIDs": [
+        "stThomas-st-peter"
+      ],
+      "point": {
+        "latitude": 18.35504805120133,
+        "longitude": -64.94742945511327
+      },
+      "reportedCustomersInitially": 7,
+      "reportedCustomersOut": 7,
+      "reportedCustomersRestored": 0,
+      "sourceStatus": "Predicted",
+      "startedAt": "2026-11-14T19:45:58Z",
+      "verified": false,
+      "workStatus": null
+    },
+    {
+      "cause": null,
+      "crewAssigned": false,
+      "endedAt": null,
+      "estimatedRestoration": null,
       "id": "8f04f887148484eebb152b3715d39250a3d49f495db1d6f456d3ddaa21a530e6",
       "island": null,
       "locations": [
@@ -3541,7 +3573,7 @@
       "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-14T19:45:51Z",
+  "generatedAt": "2026-11-14T19:50:53Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -3565,6 +3597,21 @@
           ],
           "sourceStatus": "Predicted",
           "startedAt": "2026-05-24T00:16:58Z"
+        },
+        {
+          "affectedCustomers": null,
+          "estimatedRestoration": null,
+          "id": "stThomas-st-peter",
+          "island": "stThomas",
+          "locations": [
+            "3A-11"
+          ],
+          "name": "Estate St. Peter",
+          "sourceEventIDs": [
+            "7e8fa2391b457fd2fadc04bdb5d887b6be15608aa7fcfd07640a4ff5ef9a52bb"
+          ],
+          "sourceStatus": "Predicted",
+          "startedAt": "2026-11-14T19:45:58Z"
         },
         {
           "affectedCustomers": null,
@@ -3665,21 +3712,21 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "7e04d8cef4308a00389fe535bb89c8c1d58866ca8428184ae969b479408f0ef4",
+  "snapshotID": "7d34e2a66b51e814aee5d90ec1e28c7f5970733eb8699b121ca3bf811c1569cd",
   "source": {
-    "checkedAt": "2026-11-14T19:45:51Z",
+    "checkedAt": "2026-11-14T19:50:53Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-14T19:45:29Z",
+    "updatedAt": "2026-11-14T19:50:29Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "sourceSummary": {
     "customerCountDifference": 2,
-    "customersAffected": 4958,
-    "customersOut": 4759,
+    "customersAffected": 4965,
+    "customersOut": 4766,
     "customersRestored": 199,
     "customersServed": 54726,
-    "eventCustomersOut": 4757,
+    "eventCustomersOut": 4764,
     "hourlyCustomersOut": [
       {
         "at": "2026-11-12T19:00:00Z",
@@ -3875,7 +3922,7 @@
       },
       {
         "at": "2026-11-14T19:00:00Z",
-        "customersOut": 4757
+        "customersOut": 4764
       }
     ],
     "locations": [
@@ -4528,6 +4575,9 @@
       "EST SMITH BAY 83-2",
       "EST SMITH BAY 84",
       "EST SMITH BAY 93",
+      "EST ST PETER 3A-11",
+      "EST ST PETER 3A-11 APT 2",
+      "EST ST PETER 3A-11 MTR 1",
       "EST THOMAS",
       "EST THOMAS # 14-7",
       "EST THOMAS # 9 6TH ST.A-2",
@@ -7141,6 +7191,8 @@
       "SMITHBAY POINT PLEASANT",
       "SMITHBAY SAPP VIL 104-A",
       "SMITHBAY/ST VINCENT BLD",
+      "SOLBERG 11-H",
+      "SOLBERG 11-J",
       "ST KITTS 201-A SAPP VILL",
       "ST KITTS SAPP",
       "ST KITTS,SAP VIL",
@@ -7148,6 +7200,7 @@
       "ST MAARTEN 203E SAPP",
       "ST MAARTEN SAPPHIR 204A",
       "ST MAARTEN SAPPHIRE 304-E",
+      "ST PETER 3A-11",
       "ST VINCENT 300E SAPP VILL",
       "ST VINCENT 302A SAPP",
       "ST VINCENT 303E SAPP",
@@ -7194,8 +7247,8 @@
       "WHEATLEY SHOPPING CTR",
       "WHEATLEYS SHOPPING CTR"
     ],
-    "totalOutages": 9
+    "totalOutages": 10
   },
   "staleAfterSeconds": 900,
-  "unassignedEventCount": 6
+  "unassignedEventCount": 7
 }
