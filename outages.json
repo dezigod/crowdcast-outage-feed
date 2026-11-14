@@ -3158,6 +3158,35 @@
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
+      "id": "789f01d87c8e1c41094cea165c432ad0d27fc51262c03b959aaee35db3dead8c",
+      "island": null,
+      "locations": [
+        "EST FORTUNA 4-4-14",
+        "EST FORTUNA 4-4-21",
+        "ESTATE FORTUNA 4-4-16",
+        "FORTUNA 4-4 27A",
+        "FORTUNA 4-4-16 UP"
+      ],
+      "modifiedAt": "2026-11-14T00:07:49Z",
+      "name": "T-T-00609",
+      "neighborhoodIDs": [],
+      "point": {
+        "latitude": 18.344186872111614,
+        "longitude": -65.02322484649744
+      },
+      "reportedCustomersInitially": 5,
+      "reportedCustomersOut": 5,
+      "reportedCustomersRestored": 0,
+      "sourceStatus": "Predicted",
+      "startedAt": "2026-11-14T00:07:31Z",
+      "verified": false,
+      "workStatus": null
+    },
+    {
+      "cause": null,
+      "crewAssigned": false,
+      "endedAt": null,
+      "estimatedRestoration": null,
       "id": "848de358d1bfb503e077d24a928bf5008f6590c6314f9a8283b1ba206ce079a4",
       "island": null,
       "locations": [
@@ -3643,7 +3672,7 @@
       "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-14T00:05:36Z",
+  "generatedAt": "2026-11-14T00:10:38Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -4002,21 +4031,21 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "8c6897a2e5600d16e96358a2f9791603f7a7f091cf2d597e28143b14d092d599",
+  "snapshotID": "ff7db80359abb85508061c0b2cc6ea97590995e21702bb241b04803a786c26fb",
   "source": {
-    "checkedAt": "2026-11-14T00:05:36Z",
+    "checkedAt": "2026-11-14T00:10:38Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-14T00:05:27Z",
+    "updatedAt": "2026-11-14T00:10:29Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "sourceSummary": {
     "customerCountDifference": 2,
-    "customersAffected": 4065,
-    "customersOut": 4065,
+    "customersAffected": 4070,
+    "customersOut": 4070,
     "customersRestored": 0,
     "customersServed": 54726,
-    "eventCustomersOut": 4063,
+    "eventCustomersOut": 4068,
     "hourlyCustomersOut": [
       {
         "at": "2026-11-12T00:00:00Z",
@@ -4212,7 +4241,7 @@
       },
       {
         "at": "2026-11-14T00:00:00Z",
-        "customersOut": 4063
+        "customersOut": 4068
       }
     ],
     "locations": [
@@ -5198,6 +5227,8 @@
       "EST ELIZABETH 8",
       "EST ELIZABETH 9",
       "EST ELIZABETH REM #6",
+      "EST FORTUNA 4-4-14",
+      "EST FORTUNA 4-4-21",
       "EST FRYDENHOJ 1-2 MTR-C",
       "EST HONDURAS 30-4",
       "EST HULL",
@@ -5447,6 +5478,7 @@
       "ESTATE ELIZABETH 5-1",
       "ESTATE ELIZABETH 7A MTR-A",
       "ESTATE ELIZABETH 7A MTR-B",
+      "ESTATE FORTUNA 4-4-16",
       "ESTATE HULL",
       "ESTATE HULL 11DA-4",
       "ESTATE HULL 11-F",
@@ -5498,6 +5530,8 @@
       "ESTATE THOMAS 4 REM",
       "ESTATE THOMAS 6 10TH ST",
       "ESTATE THOMAS 6A 10TH ST",
+      "FORTUNA 4-4 27A",
+      "FORTUNA 4-4-16 UP",
       "FRENCH VIEW COND 14-34",
       "FRENCHMAN BAY 14-34",
       "FRENCHMAN BAY 14-34 A-24",
@@ -7265,8 +7299,8 @@
       "ZUERIENDENHEIT",
       "ZUFRIDENHEIT 1"
     ],
-    "totalOutages": 24
+    "totalOutages": 25
   },
   "staleAfterSeconds": 900,
-  "unassignedEventCount": 20
+  "unassignedEventCount": 21
 }
