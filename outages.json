@@ -6,6 +6,38 @@
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
+      "id": "00712c67794c4e42951f4846533a42db6a5b0c811c78c389f493968406b1cadc",
+      "island": null,
+      "locations": [
+        "HERMAN HILL",
+        "HERMAN HILL 176",
+        "HERMAN HILL 181 1A",
+        "HERMAN HILL 181 1B",
+        "HERMAN HILL 183",
+        "HERMAN HILL 184",
+        "HERMAN HILL 184 (UP)",
+        "HERMAN HILL 185"
+      ],
+      "modifiedAt": "2026-11-14T18:49:58Z",
+      "name": "T-C-03163",
+      "neighborhoodIDs": [],
+      "point": {
+        "latitude": 17.730760432837062,
+        "longitude": -64.7136846269823
+      },
+      "reportedCustomersInitially": 10,
+      "reportedCustomersOut": 10,
+      "reportedCustomersRestored": 0,
+      "sourceStatus": "Predicted",
+      "startedAt": "2026-11-14T18:49:24Z",
+      "verified": false,
+      "workStatus": null
+    },
+    {
+      "cause": null,
+      "crewAssigned": false,
+      "endedAt": null,
+      "estimatedRestoration": null,
       "id": "466bc9614c76460646f6e693474c200e210063775b3dac783172ab48908c90e8",
       "island": null,
       "locations": [
@@ -3570,7 +3602,7 @@
       "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-14T18:41:29Z",
+  "generatedAt": "2026-11-14T18:50:30Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -3694,21 +3726,21 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "e2ac0f8e849b513c0b40182637e0e8390b268c343d47323d60de9d48873851ad",
+  "snapshotID": "c573831a2eada55603cc960bbd9fd8b5918a81d0830c759b81a92c4d56961f0a",
   "source": {
-    "checkedAt": "2026-11-14T18:41:29Z",
+    "checkedAt": "2026-11-14T18:50:30Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-14T18:40:29Z",
+    "updatedAt": "2026-11-14T18:50:29Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "sourceSummary": {
     "customerCountDifference": 2,
-    "customersAffected": 4963,
-    "customersOut": 4764,
+    "customersAffected": 4973,
+    "customersOut": 4774,
     "customersRestored": 199,
     "customersServed": 54726,
-    "eventCustomersOut": 4762,
+    "eventCustomersOut": 4772,
     "hourlyCustomersOut": [
       {
         "at": "2026-11-12T18:00:00Z",
@@ -3904,7 +3936,7 @@
       },
       {
         "at": "2026-11-14T18:00:00Z",
-        "customersOut": 6386
+        "customersOut": 6396
       }
     ],
     "locations": [
@@ -5923,6 +5955,14 @@
       "HAVENSIGHT B-1 A-4",
       "HAVENSIGHT BUILDING 1",
       "HAVENSIGHT HILL 1-11",
+      "HERMAN HILL",
+      "HERMAN HILL 176",
+      "HERMAN HILL 181 1A",
+      "HERMAN HILL 181 1B",
+      "HERMAN HILL 183",
+      "HERMAN HILL 184",
+      "HERMAN HILL 184 (UP)",
+      "HERMAN HILL 185",
       "LERKENLUND 9D-1-2",
       "LOCKHART GARDENS 4 & 5",
       "LOCKHART SHOP CTR. HSEMTR",
@@ -7228,8 +7268,8 @@
       "WHEATLEY SHOPPING CTR",
       "WHEATLEYS SHOPPING CTR"
     ],
-    "totalOutages": 10
+    "totalOutages": 11
   },
   "staleAfterSeconds": 900,
-  "unassignedEventCount": 7
+  "unassignedEventCount": 8
 }
