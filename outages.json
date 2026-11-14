@@ -655,6 +655,35 @@
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
+      "id": "8cfc5a99c7be1c2b785be47a54104fb3600f10d0f61a30671e6da1127e6eed68",
+      "island": null,
+      "locations": [
+        "ALTONA & WELGUNST",
+        "JOHN DUNKO 26",
+        "JOHN DUNKO 26 A-2",
+        "JOHN DUNKO A4",
+        "LOWER JOHN DUNKO 26"
+      ],
+      "modifiedAt": "2026-11-14T15:55:22Z",
+      "name": "T-T-05443",
+      "neighborhoodIDs": [],
+      "point": {
+        "latitude": 18.340867665186114,
+        "longitude": -64.94796878073493
+      },
+      "reportedCustomersInitially": 30,
+      "reportedCustomersOut": 30,
+      "reportedCustomersRestored": 0,
+      "sourceStatus": "Predicted",
+      "startedAt": "2026-11-14T15:55:19Z",
+      "verified": false,
+      "workStatus": null
+    },
+    {
+      "cause": null,
+      "crewAssigned": false,
+      "endedAt": null,
+      "estimatedRestoration": null,
       "id": "a7622fe5ec3f7460243d64545ddffb42dc3c534b3876e2c938737688abde9c58",
       "island": "stThomas",
       "locations": [
@@ -806,7 +835,7 @@
       "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-14T15:51:32Z",
+  "generatedAt": "2026-11-14T15:56:34Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -930,21 +959,21 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "c972528eeb6e9ebae69b612a3e66831b8494154fd4827243c6e7ef4fb91066fb",
+  "snapshotID": "0be0ab8063eebbac7ec2f899e62bdf1d3b71e87d8a6d4747f495aaad573d3669",
   "source": {
-    "checkedAt": "2026-11-14T15:51:32Z",
+    "checkedAt": "2026-11-14T15:56:34Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-14T15:50:27Z",
+    "updatedAt": "2026-11-14T15:55:27Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "sourceSummary": {
     "customerCountDifference": 2,
-    "customersAffected": 932,
-    "customersOut": 733,
+    "customersAffected": 962,
+    "customersOut": 763,
     "customersRestored": 199,
     "customersServed": 54726,
-    "eventCustomersOut": 731,
+    "eventCustomersOut": 761,
     "hourlyCustomersOut": [
       {
         "at": "2026-11-12T15:00:00Z",
@@ -1140,7 +1169,7 @@
       },
       {
         "at": "2026-11-14T15:00:00Z",
-        "customersOut": 4073
+        "customersOut": 4103
       }
     ],
     "locations": [
@@ -1172,6 +1201,7 @@
       "AGNES FANCY 5E",
       "AGNES FANCY 5-E",
       "AGNES FANCY 5F",
+      "ALTONA & WELGUNST",
       "BAKERRO 1-43",
       "BAKKERO",
       "BAKKERO 1-10",
@@ -1693,8 +1723,12 @@
       "HAVENSIGHT B-1 A-4",
       "HAVENSIGHT BUILDING 1",
       "HAVENSIGHT HILL 1-11",
+      "JOHN DUNKO 26",
+      "JOHN DUNKO 26 A-2",
+      "JOHN DUNKO A4",
       "LERKENLUND 9D-1-2",
       "LOVENLUND EST FARMHOUSE",
+      "LOWER JOHN DUNKO 26",
       "PETERBORG 10-1-1",
       "PETERBORG 10-1-1 A-1",
       "PETERBORG 10-1-1 A-2",
@@ -1722,8 +1756,8 @@
       "WATERGATE VILLA B16",
       "WATERGATE VILLA SECTION 6"
     ],
-    "totalOutages": 9
+    "totalOutages": 10
   },
   "staleAfterSeconds": 900,
-  "unassignedEventCount": 5
+  "unassignedEventCount": 6
 }
