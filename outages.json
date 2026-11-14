@@ -6,6 +6,35 @@
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
+      "id": "26d8105221656623cd40ceab704999c7e658005373477549b51642c808c8a542",
+      "island": null,
+      "locations": [
+        "SCOTT FREE 49",
+        "SCOTT FREE 53",
+        "UPPER JOHN DUNKO 52 REM",
+        "UPPER JOHN DUNKOE 48",
+        "UPPER JOHN DUNKOE 51"
+      ],
+      "modifiedAt": "2026-11-14T16:55:58Z",
+      "name": "T-T-09091",
+      "neighborhoodIDs": [],
+      "point": {
+        "latitude": 18.346326383295196,
+        "longitude": -64.95193260613348
+      },
+      "reportedCustomersInitially": 7,
+      "reportedCustomersOut": 7,
+      "reportedCustomersRestored": 0,
+      "sourceStatus": "Predicted",
+      "startedAt": "2026-11-14T16:55:33Z",
+      "verified": false,
+      "workStatus": null
+    },
+    {
+      "cause": null,
+      "crewAssigned": false,
+      "endedAt": null,
+      "estimatedRestoration": null,
       "id": "466bc9614c76460646f6e693474c200e210063775b3dac783172ab48908c90e8",
       "island": null,
       "locations": [
@@ -6583,7 +6612,7 @@
       "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-14T16:55:53Z",
+  "generatedAt": "2026-11-14T17:00:54Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -6955,26 +6984,22 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "cd437d22d2c6b0c5cc00e6781ce91831abb0327bebbe1964039b030d98f4d3b8",
+  "snapshotID": "d2adafd136f777834ae4685551a71aa6356e795b25f56bf445458a2b63471fb1",
   "source": {
-    "checkedAt": "2026-11-14T16:55:53Z",
+    "checkedAt": "2026-11-14T17:00:54Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-14T16:55:32Z",
+    "updatedAt": "2026-11-14T17:00:32Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "sourceSummary": {
     "customerCountDifference": 2,
-    "customersAffected": 8042,
-    "customersOut": 7843,
+    "customersAffected": 8049,
+    "customersOut": 7850,
     "customersRestored": 199,
     "customersServed": 54726,
-    "eventCustomersOut": 7841,
+    "eventCustomersOut": 7848,
     "hourlyCustomersOut": [
-      {
-        "at": "2026-11-12T16:00:00Z",
-        "customersOut": 4040
-      },
       {
         "at": "2026-11-12T17:00:00Z",
         "customersOut": 4041
@@ -7165,7 +7190,11 @@
       },
       {
         "at": "2026-11-14T16:00:00Z",
-        "customersOut": 7841
+        "customersOut": 7848
+      },
+      {
+        "at": "2026-11-14T17:00:00Z",
+        "customersOut": 7848
       }
     ],
     "locations": [
@@ -11011,6 +11040,8 @@
       "RESOLUTE",
       "ROHLSEN FIELD/ENVY 2",
       "ROPES HILL 1",
+      "SCOTT FREE 49",
+      "SCOTT FREE 53",
       "SECRET HABOR BEACH",
       "SECRET HARBOR",
       "SMITH BAY",
@@ -11536,6 +11567,9 @@
       "TWO WILLIAMS 9-F",
       "TWO WILLIAMS 9-M",
       "TWO WILLIAMS 9-Q",
+      "UPPER JOHN DUNKO 52 REM",
+      "UPPER JOHN DUNKOE 48",
+      "UPPER JOHN DUNKOE 51",
       "VESSUP 9",
       "VESSUP BAY",
       "VESSUP BAY 9-12",
@@ -13501,8 +13535,8 @@
       "WILLIAMS DELIGHT PLOT 577",
       "WILLIAMS DELIGHT/LED HWY"
     ],
-    "totalOutages": 10
+    "totalOutages": 11
   },
   "staleAfterSeconds": 900,
-  "unassignedEventCount": 6
+  "unassignedEventCount": 7
 }
