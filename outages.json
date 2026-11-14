@@ -6,6 +6,58 @@
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
+      "id": "01ec44d64dcffd12c348e746510081485545f703b7457fbf827fc50795a5c70c",
+      "island": null,
+      "locations": [
+        "CONTANT",
+        "CONTANT 17",
+        "CONTANT 22-28",
+        "CONTANT 22-30",
+        "CONTANT 22-30 APT. 5",
+        "CONTANT 22-30 MTR H",
+        "CONTANT 26 BC",
+        "CONTANT 28 2ND FL",
+        "CONTANT 28A",
+        "CONTANT 31A A-1",
+        "CONTANT 31C",
+        "CONTANT 32",
+        "CONTANT 32-7B",
+        "CONTANT 33",
+        "CONTANT 33 APT 12",
+        "CONTANT 33 APT 2",
+        "CONTANT 33 APT 4",
+        "CONTANT 33 APT-13",
+        "CONTANT 33 APT-5",
+        "CONTANT 33 BLDG-2 APT-6",
+        "CONTANT 33-1",
+        "CONTANT 33B B-1",
+        "CONTANT 34",
+        "CONTANT 34 APT 2",
+        "CONTANT 34 BACK APT -1",
+        "CONTANT 34 BLDG-1",
+        "CONTANT 35-7B",
+        "CONTANT PUMP (SOTO TOWN)"
+      ],
+      "modifiedAt": "2026-11-14T14:01:02Z",
+      "name": "T-T-02205",
+      "neighborhoodIDs": [],
+      "point": {
+        "latitude": 18.34154171574058,
+        "longitude": -64.95304243251901
+      },
+      "reportedCustomersInitially": 44,
+      "reportedCustomersOut": 44,
+      "reportedCustomersRestored": 0,
+      "sourceStatus": "Predicted",
+      "startedAt": "2026-11-14T14:00:51Z",
+      "verified": false,
+      "workStatus": null
+    },
+    {
+      "cause": null,
+      "crewAssigned": false,
+      "endedAt": null,
+      "estimatedRestoration": null,
       "id": "0d34defe74ba3ab3eb632e9b4f7627cf35233c00b2bafeadfbcf756290fd9a9d",
       "island": null,
       "locations": [
@@ -295,6 +347,35 @@
       "reportedCustomersRestored": 0,
       "sourceStatus": "Predicted",
       "startedAt": "2026-11-14T13:35:42Z",
+      "verified": false,
+      "workStatus": null
+    },
+    {
+      "cause": null,
+      "crewAssigned": false,
+      "endedAt": null,
+      "estimatedRestoration": null,
+      "id": "45c2d06857596d1e54766e68cc8c97f285f2b75374c56e2a266d61456bc2f5e1",
+      "island": null,
+      "locations": [
+        "BONNE RESOLUTION 4-1",
+        "BONNE RESOLUTION 4-4",
+        "BONNE RESOLUTION 4-5",
+        "BONNE RESOLUTION 4-5 DWN",
+        "EST. BONNE RESOLUTION"
+      ],
+      "modifiedAt": "2026-11-14T14:02:33Z",
+      "name": "T-T-09060",
+      "neighborhoodIDs": [],
+      "point": {
+        "latitude": 18.35489059902936,
+        "longitude": -64.9595321118216
+      },
+      "reportedCustomersInitially": 5,
+      "reportedCustomersOut": 5,
+      "reportedCustomersRestored": 0,
+      "sourceStatus": "Predicted",
+      "startedAt": "2026-11-14T14:02:18Z",
       "verified": false,
       "workStatus": null
     },
@@ -2087,6 +2168,42 @@
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
+      "id": "d6104d4594417d6b149b226817bd5adf6f966ea9aeccf577624e8bf59761b341",
+      "island": null,
+      "locations": [
+        "SMITH BAY",
+        "SMITH BAY 105 D",
+        "SMITH BAY 105-B",
+        "SMITH BAY 105-C",
+        "SMITH BAY 83",
+        "SMITH BAY 83 APT-2",
+        "SMITH BAY 83 APT-3",
+        "SMITH BAY 83-1",
+        "SMITH BAY 83-10",
+        "SMITH BAY 83-10B",
+        "SMITH BAY 83-11 & 83-9A",
+        "SMITH BAY 83-9"
+      ],
+      "modifiedAt": "2026-11-14T14:00:43Z",
+      "name": "T-T-07637",
+      "neighborhoodIDs": [],
+      "point": {
+        "latitude": 18.34285760756356,
+        "longitude": -64.86953358878155
+      },
+      "reportedCustomersInitially": 13,
+      "reportedCustomersOut": 13,
+      "reportedCustomersRestored": 0,
+      "sourceStatus": "Predicted",
+      "startedAt": "2026-11-14T14:00:14Z",
+      "verified": false,
+      "workStatus": null
+    },
+    {
+      "cause": null,
+      "crewAssigned": false,
+      "endedAt": null,
+      "estimatedRestoration": null,
       "id": "d6ce49d990f64f58201ea568331ed17e4cb796def0910cf1990ca76b205699d9",
       "island": null,
       "locations": [
@@ -2655,7 +2772,7 @@
       "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-14T14:00:55Z",
+  "generatedAt": "2026-11-14T14:05:56Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -2819,25 +2936,25 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "0baaec1db51dcf72867dfc5a59ed54583f4b9c3b7cdcd0e8cfb6ff8cb9f98a7c",
+  "snapshotID": "4a2cd63cb38d9bbd887d19bc334a58f1b99e61f7bcb37048c19ec1e9c21ae866",
   "source": {
-    "checkedAt": "2026-11-14T14:00:55Z",
+    "checkedAt": "2026-11-14T14:05:56Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-14T14:00:28Z",
+    "updatedAt": "2026-11-14T14:05:28Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "sourceSummary": {
     "customerCountDifference": 2,
-    "customersAffected": 2371,
-    "customersOut": 2341,
+    "customersAffected": 2433,
+    "customersOut": 2403,
     "customersRestored": 30,
     "customersServed": 54726,
-    "eventCustomersOut": 2339,
+    "eventCustomersOut": 2401,
     "hourlyCustomersOut": [
       {
         "at": "2026-11-12T14:00:00Z",
-        "customersOut": 7141
+        "customersOut": 6068
       },
       {
         "at": "2026-11-12T15:00:00Z",
@@ -3029,7 +3146,7 @@
       },
       {
         "at": "2026-11-14T14:00:00Z",
-        "customersOut": 2339
+        "customersOut": 2401
       }
     ],
     "locations": [
@@ -3313,6 +3430,10 @@
       "BOLONGO PARCEL 105-1",
       "BOLONGO UP 61-31D",
       "BOLONGO, N3 FRENCHMAN'S",
+      "BONNE RESOLUTION 4-1",
+      "BONNE RESOLUTION 4-4",
+      "BONNE RESOLUTION 4-5",
+      "BONNE RESOLUTION 4-5 DWN",
       "BOVONI",
       "BOVONI #17D-7",
       "BOVONI #249",
@@ -3477,6 +3598,34 @@
       "CONCORDIA 95",
       "CONCORDIA 96",
       "CONCORDIA 97",
+      "CONTANT",
+      "CONTANT 17",
+      "CONTANT 22-28",
+      "CONTANT 22-30",
+      "CONTANT 22-30 APT. 5",
+      "CONTANT 22-30 MTR H",
+      "CONTANT 26 BC",
+      "CONTANT 28 2ND FL",
+      "CONTANT 28A",
+      "CONTANT 31A A-1",
+      "CONTANT 31C",
+      "CONTANT 32",
+      "CONTANT 32-7B",
+      "CONTANT 33",
+      "CONTANT 33 APT 12",
+      "CONTANT 33 APT 2",
+      "CONTANT 33 APT 4",
+      "CONTANT 33 APT-13",
+      "CONTANT 33 APT-5",
+      "CONTANT 33 BLDG-2 APT-6",
+      "CONTANT 33-1",
+      "CONTANT 33B B-1",
+      "CONTANT 34",
+      "CONTANT 34 APT 2",
+      "CONTANT 34 BACK APT -1",
+      "CONTANT 34 BLDG-1",
+      "CONTANT 35-7B",
+      "CONTANT PUMP (SOTO TOWN)",
       "CROWN BAY",
       "CROWN BAY 1 (CANCRYN)",
       "CROWN BAY 101 BOOTH",
@@ -3619,6 +3768,7 @@
       "EST THOMAS PCL 6",
       "EST THOMAS PLOT 6F",
       "EST THOMAS STE 17",
+      "EST. BONNE RESOLUTION",
       "EST. BOVONI 22B",
       "EST. BOVONI B/D A/240",
       "EST. THOMAS 6B-F",
@@ -4599,6 +4749,18 @@
       "SION HILL 13-36",
       "SION HILL 13-38",
       "SION HILL 13-40",
+      "SMITH BAY",
+      "SMITH BAY 105 D",
+      "SMITH BAY 105-B",
+      "SMITH BAY 105-C",
+      "SMITH BAY 83",
+      "SMITH BAY 83 APT-2",
+      "SMITH BAY 83 APT-3",
+      "SMITH BAY 83-1",
+      "SMITH BAY 83-10",
+      "SMITH BAY 83-10B",
+      "SMITH BAY 83-11 & 83-9A",
+      "SMITH BAY 83-9",
       "SMITHFIELD 199",
       "SMITHFIELD 205",
       "SMITHFIELD 207",
@@ -4710,8 +4872,8 @@
       "WILLIAMS DELIGHT 97",
       "WILLIAMS DELIGHT 98"
     ],
-    "totalOutages": 40
+    "totalOutages": 43
   },
   "staleAfterSeconds": 900,
-  "unassignedEventCount": 36
+  "unassignedEventCount": 39
 }
