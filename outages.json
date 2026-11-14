@@ -6,35 +6,6 @@
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
-      "id": "26d8105221656623cd40ceab704999c7e658005373477549b51642c808c8a542",
-      "island": null,
-      "locations": [
-        "SCOTT FREE 49",
-        "SCOTT FREE 53",
-        "UPPER JOHN DUNKO 52 REM",
-        "UPPER JOHN DUNKOE 48",
-        "UPPER JOHN DUNKOE 51"
-      ],
-      "modifiedAt": "2026-11-14T16:55:58Z",
-      "name": "T-T-09091",
-      "neighborhoodIDs": [],
-      "point": {
-        "latitude": 18.346326383295196,
-        "longitude": -64.95193260613348
-      },
-      "reportedCustomersInitially": 7,
-      "reportedCustomersOut": 7,
-      "reportedCustomersRestored": 0,
-      "sourceStatus": "Predicted",
-      "startedAt": "2026-11-14T16:55:33Z",
-      "verified": false,
-      "workStatus": null
-    },
-    {
-      "cause": null,
-      "crewAssigned": false,
-      "endedAt": null,
-      "estimatedRestoration": null,
       "id": "466bc9614c76460646f6e693474c200e210063775b3dac783172ab48908c90e8",
       "island": null,
       "locations": [
@@ -661,6 +632,44 @@
       "reportedCustomersRestored": 0,
       "sourceStatus": "Predicted",
       "startedAt": "2026-05-24T00:16:58Z",
+      "verified": false,
+      "workStatus": null
+    },
+    {
+      "cause": null,
+      "crewAssigned": false,
+      "endedAt": null,
+      "estimatedRestoration": null,
+      "id": "7bd61efa0455ef3fa9aee05c40aa0b479400e216931ee6e75936e8a51d78c04f",
+      "island": null,
+      "locations": [
+        "HOSPITAL GROUND 303",
+        "HOSPITAL GROUND 303A",
+        "HOSPITAL GROUND 303-A A-E",
+        "HOSPITAL GROUND 303A B-1",
+        "HOSPITAL GROUND 303A B-2",
+        "HOSPITAL GROUND 303A-10",
+        "HOSPITAL GROUND 303A-11",
+        "HOSPITAL GROUND 303A-12",
+        "HOSPITAL GROUND 303A-7",
+        "HOSPITAL GROUND 303A-8",
+        "HOSPITAL GROUND 303A-9",
+        "HOSPITAL GROUND 303A-B",
+        "HOSPITAL GROUND 303A-C",
+        "HOSPITAL GROUND 303A-F"
+      ],
+      "modifiedAt": "2026-11-14T17:01:33Z",
+      "name": "T-T-09051",
+      "neighborhoodIDs": [],
+      "point": {
+        "latitude": 18.34761464998929,
+        "longitude": -64.92816981786927
+      },
+      "reportedCustomersInitially": 20,
+      "reportedCustomersOut": 20,
+      "reportedCustomersRestored": 0,
+      "sourceStatus": "Predicted",
+      "startedAt": "2026-11-14T17:01:11Z",
       "verified": false,
       "workStatus": null
     },
@@ -6612,7 +6621,7 @@
       "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-14T17:00:54Z",
+  "generatedAt": "2026-11-14T17:05:56Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -6984,21 +6993,21 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "d2adafd136f777834ae4685551a71aa6356e795b25f56bf445458a2b63471fb1",
+  "snapshotID": "c261d69dea9206bd24a94f7233483ae68351a53d022f32e917662a8096672841",
   "source": {
-    "checkedAt": "2026-11-14T17:00:54Z",
+    "checkedAt": "2026-11-14T17:05:56Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-14T17:00:32Z",
+    "updatedAt": "2026-11-14T17:05:31Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "sourceSummary": {
     "customerCountDifference": 2,
-    "customersAffected": 8049,
-    "customersOut": 7850,
+    "customersAffected": 8062,
+    "customersOut": 7863,
     "customersRestored": 199,
     "customersServed": 54726,
-    "eventCustomersOut": 7848,
+    "eventCustomersOut": 7861,
     "hourlyCustomersOut": [
       {
         "at": "2026-11-12T17:00:00Z",
@@ -7190,11 +7199,11 @@
       },
       {
         "at": "2026-11-14T16:00:00Z",
-        "customersOut": 7848
+        "customersOut": 7841
       },
       {
         "at": "2026-11-14T17:00:00Z",
-        "customersOut": 7848
+        "customersOut": 7861
       }
     ],
     "locations": [
@@ -9705,6 +9714,20 @@
       "HOPE 90",
       "HOPE 91",
       "HOPE CONTAINER PORT",
+      "HOSPITAL GROUND 303",
+      "HOSPITAL GROUND 303A",
+      "HOSPITAL GROUND 303-A A-E",
+      "HOSPITAL GROUND 303A B-1",
+      "HOSPITAL GROUND 303A B-2",
+      "HOSPITAL GROUND 303A-10",
+      "HOSPITAL GROUND 303A-11",
+      "HOSPITAL GROUND 303A-12",
+      "HOSPITAL GROUND 303A-7",
+      "HOSPITAL GROUND 303A-8",
+      "HOSPITAL GROUND 303A-9",
+      "HOSPITAL GROUND 303A-B",
+      "HOSPITAL GROUND 303A-C",
+      "HOSPITAL GROUND 303A-F",
       "HOSPITAL ST 30AA A-1 UP",
       "HOSPITAL STREET",
       "HOSPITAL STREET (DWNSTRS)",
@@ -11040,8 +11063,6 @@
       "RESOLUTE",
       "ROHLSEN FIELD/ENVY 2",
       "ROPES HILL 1",
-      "SCOTT FREE 49",
-      "SCOTT FREE 53",
       "SECRET HABOR BEACH",
       "SECRET HARBOR",
       "SMITH BAY",
@@ -11567,9 +11588,6 @@
       "TWO WILLIAMS 9-F",
       "TWO WILLIAMS 9-M",
       "TWO WILLIAMS 9-Q",
-      "UPPER JOHN DUNKO 52 REM",
-      "UPPER JOHN DUNKOE 48",
-      "UPPER JOHN DUNKOE 51",
       "VESSUP 9",
       "VESSUP BAY",
       "VESSUP BAY 9-12",
