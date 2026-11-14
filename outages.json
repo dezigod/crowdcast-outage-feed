@@ -212,6 +212,37 @@
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
+      "id": "5a1c85b64979ce42c94d85eda8a341c7b6cf4e07b125e63287842d2b7d63bad4",
+      "island": null,
+      "locations": [
+        "EST LERKENLUND 2-C",
+        "EST LERKENLUND 2C-3 UP",
+        "EST LERKENLUND 2D",
+        "EST LERKENLUND#2D-1",
+        "EST LERKERLUND 2C-6",
+        "LERKENLUND 2C",
+        "LERKENLUND 2C-3"
+      ],
+      "modifiedAt": "2026-11-14T06:48:42Z",
+      "name": "T-T-06106",
+      "neighborhoodIDs": [],
+      "point": {
+        "latitude": 18.360555392546466,
+        "longitude": -64.94039180058695
+      },
+      "reportedCustomersInitially": 8,
+      "reportedCustomersOut": 8,
+      "reportedCustomersRestored": 0,
+      "sourceStatus": "Predicted",
+      "startedAt": "2026-11-14T06:48:19Z",
+      "verified": false,
+      "workStatus": null
+    },
+    {
+      "cause": null,
+      "crewAssigned": false,
+      "endedAt": null,
+      "estimatedRestoration": null,
       "id": "5c766731c546f70cfbf237d8f64f967cfaba2bf332d2d5c50a39760f0085222b",
       "island": null,
       "locations": [
@@ -934,7 +965,7 @@
       "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-14T06:45:39Z",
+  "generatedAt": "2026-11-14T06:50:40Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -1083,21 +1114,21 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "3ee11f0ab5ef0a1c2c8f16f45ec6a13c70829f3bce7268ea6facae94893361ed",
+  "snapshotID": "bbd4085f1b0593ed57fa3cbf63b8351118780b5819508ffaf4c017fbcc8098e3",
   "source": {
-    "checkedAt": "2026-11-14T06:45:39Z",
+    "checkedAt": "2026-11-14T06:50:40Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-14T06:45:27Z",
+    "updatedAt": "2026-11-14T06:50:27Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "sourceSummary": {
     "customerCountDifference": 2,
-    "customersAffected": 607,
-    "customersOut": 607,
+    "customersAffected": 615,
+    "customersOut": 615,
     "customersRestored": 0,
     "customersServed": 54726,
-    "eventCustomersOut": 605,
+    "eventCustomersOut": 613,
     "hourlyCustomersOut": [
       {
         "at": "2026-11-12T06:00:00Z",
@@ -1426,7 +1457,12 @@
       "EST DOROTHEA 12D",
       "EST DOROTHEA 2D COTTAGE",
       "EST DOROTHEA 3-B (UP)-B",
+      "EST LERKENLUND 2-C",
+      "EST LERKENLUND 2C-3 UP",
+      "EST LERKENLUND 2D",
       "EST LERKENLUND 9D-6",
+      "EST LERKENLUND#2D-1",
+      "EST LERKERLUND 2C-6",
       "EST ORKANSHULLET(HASS)8-1",
       "EST. BONNE RESOLUTION",
       "ESTATE SOLBEG 79-43",
@@ -1683,6 +1719,8 @@
       "JOSEPH & ROSENDAHL 2-27",
       "JOSEPH & ROSENDAHL 2-32",
       "JOSEPH & ROSENDAHL 3-26",
+      "LERKENLUND 2C",
+      "LERKENLUND 2C-3",
       "LERKENLUND 8-63 TOP",
       "LERKENLUND 9D-10",
       "LERKENLUND 9D-1-2",
@@ -1732,8 +1770,8 @@
       "SUBBASE 69",
       "UPPER JOHN DUNKOE"
     ],
-    "totalOutages": 20
+    "totalOutages": 21
   },
   "staleAfterSeconds": 900,
-  "unassignedEventCount": 14
+  "unassignedEventCount": 15
 }
