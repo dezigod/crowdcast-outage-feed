@@ -213,6 +213,32 @@
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
+      "id": "4253da2ce712885c55d36be5ad2c791808b152bf0dd10cc20643bbe612428497",
+      "island": null,
+      "locations": [
+        "CAROLINA 10-30C-1A",
+        "CAROLINA 10-30C-5"
+      ],
+      "modifiedAt": "2026-11-15T05:48:42Z",
+      "name": "T-J-03914",
+      "neighborhoodIDs": [],
+      "point": {
+        "latitude": 18.33884437569973,
+        "longitude": -64.71838654311689
+      },
+      "reportedCustomersInitially": 2,
+      "reportedCustomersOut": 2,
+      "reportedCustomersRestored": 0,
+      "sourceStatus": "Predicted",
+      "startedAt": "2026-11-15T05:48:24Z",
+      "verified": false,
+      "workStatus": null
+    },
+    {
+      "cause": null,
+      "crewAssigned": false,
+      "endedAt": null,
+      "estimatedRestoration": null,
       "id": "466bc9614c76460646f6e693474c200e210063775b3dac783172ab48908c90e8",
       "island": null,
       "locations": [
@@ -1744,7 +1770,7 @@
       "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-15T05:45:55Z",
+  "generatedAt": "2026-11-15T05:50:57Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -1972,21 +1998,21 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "d8ed1c4456f40c164323b8d87b4e2ea3ab656e9f68800c086d23704546f66317",
+  "snapshotID": "684fd0cec18c222fc644d891aaeaf001576d89560898267ea6aec0aeff864969",
   "source": {
-    "checkedAt": "2026-11-15T05:45:55Z",
+    "checkedAt": "2026-11-15T05:50:57Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-15T05:45:30Z",
+    "updatedAt": "2026-11-15T05:50:30Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "sourceSummary": {
     "customerCountDifference": 2,
-    "customersAffected": 2235,
-    "customersOut": 1457,
+    "customersAffected": 2237,
+    "customersOut": 1459,
     "customersRestored": 778,
     "customersServed": 54726,
-    "eventCustomersOut": 1455,
+    "eventCustomersOut": 1457,
     "hourlyCustomersOut": [
       {
         "at": "2026-11-13T05:00:00Z",
@@ -2182,7 +2208,7 @@
       },
       {
         "at": "2026-11-15T05:00:00Z",
-        "customersOut": 1455
+        "customersOut": 1457
       }
     ],
     "locations": [
@@ -2358,6 +2384,8 @@
       "BONNE RESOLUTION 8D-3 A",
       "BONNE RESOLUTION BRASS VI",
       "BONNE ROSOLUTION 7A-1",
+      "CAROLINA 10-30C-1A",
+      "CAROLINA 10-30C-5",
       "CASTLE COAKLEY",
       "CASTLE COAKLEY 54",
       "C-IF EST COKIE POINT",
@@ -3331,8 +3359,8 @@
       "ZUERIENDENHEIT",
       "ZUFRIDENHEIT 1"
     ],
-    "totalOutages": 24
+    "totalOutages": 25
   },
   "staleAfterSeconds": 900,
-  "unassignedEventCount": 21
+  "unassignedEventCount": 22
 }
