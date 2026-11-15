@@ -2563,9 +2563,40 @@
       "startedAt": "2026-11-15T03:37:00Z",
       "verified": false,
       "workStatus": null
+    },
+    {
+      "cause": null,
+      "crewAssigned": false,
+      "endedAt": null,
+      "estimatedRestoration": null,
+      "id": "ee7922acdc406697cbb647ade874a1279667678c183bb3a8d436aebd51515fff",
+      "island": null,
+      "locations": [
+        "JUDITHS FANCY 1-A GUEST",
+        "JUDITHS FANCY 305",
+        "JUDITHS FANCY 324",
+        "ST JOHN 58-A",
+        "ST JOHN 58-AA"
+      ],
+      "modifiedAt": "2026-11-15T11:51:09Z",
+      "name": "T-C-15467",
+      "neighborhoodIDs": [
+        "stCroix-judiths-fancy"
+      ],
+      "point": {
+        "latitude": 17.76726145289718,
+        "longitude": -64.74571195027238
+      },
+      "reportedCustomersInitially": 5,
+      "reportedCustomersOut": 5,
+      "reportedCustomersRestored": 0,
+      "sourceStatus": "Predicted",
+      "startedAt": "2026-11-15T11:50:44Z",
+      "verified": false,
+      "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-15T11:50:48Z",
+  "generatedAt": "2026-11-15T11:55:49Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -2903,6 +2934,23 @@
           ],
           "sourceStatus": "Verified",
           "startedAt": "2026-11-13T17:31:46Z"
+        },
+        {
+          "affectedCustomers": null,
+          "estimatedRestoration": null,
+          "id": "stCroix-judiths-fancy",
+          "island": "stCroix",
+          "locations": [
+            "1-A GUEST",
+            "305",
+            "324"
+          ],
+          "name": "Judith\u2019s Fancy",
+          "sourceEventIDs": [
+            "ee7922acdc406697cbb647ade874a1279667678c183bb3a8d436aebd51515fff"
+          ],
+          "sourceStatus": "Predicted",
+          "startedAt": "2026-11-15T11:50:44Z"
         }
       ]
     },
@@ -2926,21 +2974,21 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "e1d6e18b2d787691f5b58c0d7037d3ea28c7601c99a1aa63dab890f7e1a3ac5d",
+  "snapshotID": "60fe9c1115b95e4f84c15c4e0f83dee5f95dad87f80d4c41b1726e0d288b3b80",
   "source": {
-    "checkedAt": "2026-11-15T11:50:48Z",
+    "checkedAt": "2026-11-15T11:55:49Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-15T11:50:30Z",
+    "updatedAt": "2026-11-15T11:55:31Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "sourceSummary": {
     "customerCountDifference": 2,
-    "customersAffected": 2929,
-    "customersOut": 2151,
+    "customersAffected": 2934,
+    "customersOut": 2156,
     "customersRestored": 778,
     "customersServed": 54726,
-    "eventCustomersOut": 2149,
+    "eventCustomersOut": 2154,
     "hourlyCustomersOut": [
       {
         "at": "2026-11-13T11:00:00Z",
@@ -3136,7 +3184,7 @@
       },
       {
         "at": "2026-11-15T11:00:00Z",
-        "customersOut": 2149
+        "customersOut": 2154
       }
     ],
     "locations": [
@@ -4146,6 +4194,9 @@
       "JOHN DUNKOE",
       "JOHN DUNKOE 41",
       "JOSEPH & ROSENDAHL 12A-16",
+      "JUDITHS FANCY 1-A GUEST",
+      "JUDITHS FANCY 305",
+      "JUDITHS FANCY 324",
       "KOKOS STRADE 2 DWN",
       "LA GRANDE PRINCESS",
       "LA GRANDE PRINCESS 4129",
@@ -4588,6 +4639,8 @@
       "ST C CONDO H-135",
       "ST C CONDOS 321",
       "ST JOHN 2&6",
+      "ST JOHN 58-A",
+      "ST JOHN 58-AA",
       "ST JOSEPH & ROSEN 12-A-15",
       "ST JOSEPH & ROSENDAHL 12A",
       "ST JOSEPH ROSENDAHL 12A A",
@@ -4756,8 +4809,8 @@
       "ZUERIENDENHEIT",
       "ZUFRIDENHEIT 1"
     ],
-    "totalOutages": 38
+    "totalOutages": 39
   },
   "staleAfterSeconds": 900,
-  "unassignedEventCount": 33
+  "unassignedEventCount": 34
 }
