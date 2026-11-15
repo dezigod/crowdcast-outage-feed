@@ -133,6 +133,33 @@
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
+      "id": "384054532cff8f0f535242b2f66961f3275c6f5b20f296d1e0259b03f6334a91",
+      "island": null,
+      "locations": [
+        "TABOR & HARMONY 5-1",
+        "TABOR & HARMONY 5-2",
+        "TABOR & HARMONY 5-5"
+      ],
+      "modifiedAt": "2026-11-15T02:56:56Z",
+      "name": "T-T-15315",
+      "neighborhoodIDs": [],
+      "point": {
+        "latitude": 18.347226977671372,
+        "longitude": -64.8793400358438
+      },
+      "reportedCustomersInitially": 3,
+      "reportedCustomersOut": 3,
+      "reportedCustomersRestored": 0,
+      "sourceStatus": "Predicted",
+      "startedAt": "2026-11-15T02:56:22Z",
+      "verified": false,
+      "workStatus": null
+    },
+    {
+      "cause": null,
+      "crewAssigned": false,
+      "endedAt": null,
+      "estimatedRestoration": null,
       "id": "4051f031d0e51b9aec41cc2063e322d2757ee1e5dc7480ed8353ef673d8ad4b9",
       "island": null,
       "locations": [
@@ -1125,7 +1152,7 @@
       "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-15T02:56:09Z",
+  "generatedAt": "2026-11-15T03:01:11Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -1242,26 +1269,22 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "df5dc4d81b116afacb89e8f28b077edd59e02ae52b919307f5d87f249e54ddcc",
+  "snapshotID": "addb4ffc9d488b1ff6da055131d0c33839bf7a44fc25217c445a776f29bb3db5",
   "source": {
-    "checkedAt": "2026-11-15T02:56:09Z",
+    "checkedAt": "2026-11-15T03:01:11Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-15T02:55:29Z",
+    "updatedAt": "2026-11-15T03:00:29Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "sourceSummary": {
     "customerCountDifference": 2,
-    "customersAffected": 2421,
-    "customersOut": 999,
+    "customersAffected": 2424,
+    "customersOut": 1002,
     "customersRestored": 1422,
     "customersServed": 54726,
-    "eventCustomersOut": 997,
+    "eventCustomersOut": 1000,
     "hourlyCustomersOut": [
-      {
-        "at": "2026-11-13T02:00:00Z",
-        "customersOut": 2310
-      },
       {
         "at": "2026-11-13T03:00:00Z",
         "customersOut": 2310
@@ -1452,7 +1475,11 @@
       },
       {
         "at": "2026-11-15T02:00:00Z",
-        "customersOut": 997
+        "customersOut": 1000
+      },
+      {
+        "at": "2026-11-15T03:00:00Z",
+        "customersOut": 1000
       }
     ],
     "locations": [
@@ -2196,6 +2223,9 @@
       "TABOR & HARMONY 4-21",
       "TABOR & HARMONY 4-21 UP",
       "TABOR & HARMONY 4-32",
+      "TABOR & HARMONY 5-1",
+      "TABOR & HARMONY 5-2",
+      "TABOR & HARMONY 5-5",
       "UPPER JOHN DONKO 2-5 MTR",
       "UPPER JOHN DUNKO",
       "UPPER JOHN DUNKO 2-10",
@@ -2212,8 +2242,8 @@
       "WINTBERG 339 COTTAGE \"\"A\"\"",
       "WINTBERG 340"
     ],
-    "totalOutages": 15
+    "totalOutages": 16
   },
   "staleAfterSeconds": 900,
-  "unassignedEventCount": 12
+  "unassignedEventCount": 13
 }
