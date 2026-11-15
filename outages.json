@@ -44,6 +44,37 @@
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
+      "id": "2d4b7fe324d3277ae7d2f40b797720dd77873f143937dccce41afa7d4205f581",
+      "island": null,
+      "locations": [
+        "JOSEPH & ROSENDAHL 12A-16",
+        "ST JOSEPH & ROSEN 12-A-15",
+        "ST JOSEPH & ROSENDAHL 12A",
+        "ST JOSEPH ROSENDAHL 12A A",
+        "ST JOSEPH ROSENDHL 12A",
+        "ST JOSEPH/ROSENDAH 12A-18",
+        "ST.JOS/RODENDAHL 12A DOWN"
+      ],
+      "modifiedAt": "2026-11-15T03:23:42Z",
+      "name": "T-T-10625",
+      "neighborhoodIDs": [],
+      "point": {
+        "latitude": 18.354023408970015,
+        "longitude": -64.90970210080847
+      },
+      "reportedCustomersInitially": 8,
+      "reportedCustomersOut": 8,
+      "reportedCustomersRestored": 0,
+      "sourceStatus": "Predicted",
+      "startedAt": "2026-11-15T03:23:16Z",
+      "verified": false,
+      "workStatus": null
+    },
+    {
+      "cause": null,
+      "crewAssigned": false,
+      "endedAt": null,
+      "estimatedRestoration": null,
       "id": "466bc9614c76460646f6e693474c200e210063775b3dac783172ab48908c90e8",
       "island": null,
       "locations": [
@@ -267,33 +298,6 @@
       "reportedCustomersRestored": 0,
       "sourceStatus": "Predicted",
       "startedAt": "2026-05-24T00:16:58Z",
-      "verified": false,
-      "workStatus": null
-    },
-    {
-      "cause": null,
-      "crewAssigned": false,
-      "endedAt": null,
-      "estimatedRestoration": null,
-      "id": "7980541bcf1d814592d7b757bb2a1d58c7aaeaa45b442f158b2994a41bdb8d2e",
-      "island": null,
-      "locations": [
-        "WINTBERG 900B BLDG-E",
-        "WINTBERG 900-B HSE MTR B-",
-        "WINTBERG 900B UNIT E-3"
-      ],
-      "modifiedAt": "2026-11-15T03:12:33Z",
-      "name": "T-T-17206",
-      "neighborhoodIDs": [],
-      "point": {
-        "latitude": 18.354908094104417,
-        "longitude": -64.90597523371711
-      },
-      "reportedCustomersInitially": 9,
-      "reportedCustomersOut": 9,
-      "reportedCustomersRestored": 0,
-      "sourceStatus": "Predicted",
-      "startedAt": "2026-11-15T03:12:03Z",
       "verified": false,
       "workStatus": null
     },
@@ -667,48 +671,6 @@
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
-      "id": "a72ce2110a28c1aff8382015eee44905d046cb34c7107fdd9cbf725320f34987",
-      "island": null,
-      "locations": [
-        "ANNAS RETREAT 143",
-        "ANNAS RETREAT 143-10 UP",
-        "ANNAS RETREAT 143-12",
-        "ANNAS RETREAT 143-12A",
-        "ANNAS RETREAT 143A-10",
-        "ANNAS RETREAT 143A-11",
-        "ANNAS RETREAT 143A-13 UP",
-        "ANNAS RETREAT 143A-13D",
-        "ANNAS RETREAT 143-A-15",
-        "ANNAS RETREAT 143A-16",
-        "ANNAS RETREAT 143A-16A",
-        "ANNAS RETREAT 143A-17",
-        "ANNAS RETREAT 143A-18D",
-        "ANNAS RETREAT 143A-6",
-        "ANNAS RETREAT 143A-8",
-        "ANNAS RETREAT 143A-9",
-        "ANNAS RETREAT 404-26",
-        "ANNAS RETREAT 404-27"
-      ],
-      "modifiedAt": "2026-11-15T03:15:51Z",
-      "name": "T-T-06893",
-      "neighborhoodIDs": [],
-      "point": {
-        "latitude": 18.344567532954137,
-        "longitude": -64.89048243309708
-      },
-      "reportedCustomersInitially": 22,
-      "reportedCustomersOut": 22,
-      "reportedCustomersRestored": 0,
-      "sourceStatus": "Predicted",
-      "startedAt": "2026-11-15T03:15:44Z",
-      "verified": false,
-      "workStatus": null
-    },
-    {
-      "cause": null,
-      "crewAssigned": false,
-      "endedAt": null,
-      "estimatedRestoration": null,
       "id": "a7622fe5ec3f7460243d64545ddffb42dc3c534b3876e2c938737688abde9c58",
       "island": "stThomas",
       "locations": [
@@ -864,36 +826,7 @@
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
-      "id": "cbbd2ef62dee6d0405b3a5d5c18b1c3c5a5b4dbca8f2f81c8fc8d71e6fec7176",
-      "island": "stThomas",
-      "locations": [
-        "SUBBASE 100",
-        "SUBBASE 101 (EL)",
-        "SUBBASE 69"
-      ],
-      "modifiedAt": "2026-11-15T02:09:42Z",
-      "name": "T-T-02801",
-      "neighborhoodIDs": [
-        "stThomas-subbase"
-      ],
-      "point": {
-        "latitude": 18.335348113006376,
-        "longitude": -64.95734751757645
-      },
-      "reportedCustomersInitially": 3,
-      "reportedCustomersOut": 3,
-      "reportedCustomersRestored": 0,
-      "sourceStatus": "Verified",
-      "startedAt": "2026-10-14T15:23:16Z",
-      "verified": true,
-      "workStatus": null
-    },
-    {
-      "cause": null,
-      "crewAssigned": false,
-      "endedAt": null,
-      "estimatedRestoration": null,
-      "id": "da6890e05a5cf8813a5f367582d3683aa256dddd94cb3e4cfd719d62004613c5",
+      "id": "bc2146c269ecd0d3272523e9c2550f1e7b654aadd5895ac3423acc02dfe2cd03",
       "island": null,
       "locations": [
         "DONOE 3 BLDG 1",
@@ -922,7 +855,7 @@
         "DONOE 3 BLDG-2 (HSE)",
         "DUNOE 3 BLDG 2 APT G202"
       ],
-      "modifiedAt": "2026-11-15T03:10:19Z",
+      "modifiedAt": "2026-11-15T03:25:15Z",
       "name": "T-T-11775",
       "neighborhoodIDs": [],
       "point": {
@@ -933,12 +866,41 @@
       "reportedCustomersOut": 32,
       "reportedCustomersRestored": 0,
       "sourceStatus": "Predicted",
-      "startedAt": "2026-11-15T03:09:54Z",
+      "startedAt": "2026-11-15T03:24:44Z",
       "verified": false,
+      "workStatus": null
+    },
+    {
+      "cause": null,
+      "crewAssigned": false,
+      "endedAt": null,
+      "estimatedRestoration": null,
+      "id": "cbbd2ef62dee6d0405b3a5d5c18b1c3c5a5b4dbca8f2f81c8fc8d71e6fec7176",
+      "island": "stThomas",
+      "locations": [
+        "SUBBASE 100",
+        "SUBBASE 101 (EL)",
+        "SUBBASE 69"
+      ],
+      "modifiedAt": "2026-11-15T02:09:42Z",
+      "name": "T-T-02801",
+      "neighborhoodIDs": [
+        "stThomas-subbase"
+      ],
+      "point": {
+        "latitude": 18.335348113006376,
+        "longitude": -64.95734751757645
+      },
+      "reportedCustomersInitially": 3,
+      "reportedCustomersOut": 3,
+      "reportedCustomersRestored": 0,
+      "sourceStatus": "Verified",
+      "startedAt": "2026-10-14T15:23:16Z",
+      "verified": true,
       "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-15T03:21:16Z",
+  "generatedAt": "2026-11-15T03:26:17Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -1055,21 +1017,21 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "5af14a817c17f22fe896fa5b43bde982aa133646546e36a3f2cacb132bef258e",
+  "snapshotID": "7463b0db73255434b19be2298f9df48d6d4388bd861f5cf9e0c8b8cd56120b71",
   "source": {
-    "checkedAt": "2026-11-15T03:21:16Z",
+    "checkedAt": "2026-11-15T03:26:17Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-15T03:20:29Z",
+    "updatedAt": "2026-11-15T03:25:29Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "sourceSummary": {
     "customerCountDifference": 2,
-    "customersAffected": 2227,
-    "customersOut": 805,
+    "customersAffected": 2204,
+    "customersOut": 782,
     "customersRestored": 1422,
     "customersServed": 54726,
-    "eventCustomersOut": 803,
+    "eventCustomersOut": 780,
     "hourlyCustomersOut": [
       {
         "at": "2026-11-13T03:00:00Z",
@@ -1265,7 +1227,7 @@
       },
       {
         "at": "2026-11-15T03:00:00Z",
-        "customersOut": 803
+        "customersOut": 780
       }
     ],
     "locations": [
@@ -1341,24 +1303,6 @@
       "ANNAS FANCY 130B",
       "ANNAS FANCY 130D & E",
       "ANNAS FANCY 130H",
-      "ANNAS RETREAT 143",
-      "ANNAS RETREAT 143-10 UP",
-      "ANNAS RETREAT 143-12",
-      "ANNAS RETREAT 143-12A",
-      "ANNAS RETREAT 143A-10",
-      "ANNAS RETREAT 143A-11",
-      "ANNAS RETREAT 143A-13 UP",
-      "ANNAS RETREAT 143A-13D",
-      "ANNAS RETREAT 143-A-15",
-      "ANNAS RETREAT 143A-16",
-      "ANNAS RETREAT 143A-16A",
-      "ANNAS RETREAT 143A-17",
-      "ANNAS RETREAT 143A-18D",
-      "ANNAS RETREAT 143A-6",
-      "ANNAS RETREAT 143A-8",
-      "ANNAS RETREAT 143A-9",
-      "ANNAS RETREAT 404-26",
-      "ANNAS RETREAT 404-27",
       "BONNE RESOLUTION",
       "BONNE RESOLUTION #5-D",
       "BONNE RESOLUTION 10-1",
@@ -1698,6 +1642,7 @@
       "ESTATE DOROTHEA 13-E",
       "JOHN DUNKOE",
       "JOHN DUNKOE 41",
+      "JOSEPH & ROSENDAHL 12A-16",
       "LERKENLUND 7D 2A",
       "LERKENLUND 9A-1",
       "LERKENLUND 9D-1-2",
@@ -1824,6 +1769,11 @@
       "SOLBERG 96",
       "SOLBERG 96 UP",
       "SOLBERG K-1 19",
+      "ST JOSEPH & ROSEN 12-A-15",
+      "ST JOSEPH & ROSENDAHL 12A",
+      "ST JOSEPH ROSENDAHL 12A A",
+      "ST JOSEPH ROSENDHL 12A",
+      "ST JOSEPH/ROSENDAH 12A-18",
       "ST PETER 3 A-21",
       "ST PETER 3A-10",
       "ST PETER 3A-10 (COTTAGE)",
@@ -1842,6 +1792,7 @@
       "ST PETER MT PCL 23A",
       "ST. PETER 3A-21 (COTTAGE)",
       "ST. PETER 3A-8",
+      "ST.JOS/RODENDAHL 12A DOWN",
       "SUBBASE 100",
       "SUBBASE 101 (EL)",
       "SUBBASE 69",
@@ -1856,13 +1807,10 @@
       "UPPER JOHN DUNKOE 2-7",
       "UPPER JOHN DUNKOE 2-8",
       "UPPER JOHN DUNKOE 38",
-      "UPPER JOHN DUNKOE 39-1",
-      "WINTBERG 900B BLDG-E",
-      "WINTBERG 900-B HSE MTR B-",
-      "WINTBERG 900B UNIT E-3"
+      "UPPER JOHN DUNKOE 39-1"
     ],
-    "totalOutages": 14
+    "totalOutages": 13
   },
   "staleAfterSeconds": 900,
-  "unassignedEventCount": 11
+  "unassignedEventCount": 10
 }
