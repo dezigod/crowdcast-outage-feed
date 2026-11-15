@@ -186,7 +186,7 @@
       "endedAt": null,
       "estimatedRestoration": null,
       "id": "32da8978f790431bfa93dad77e8f2a45cb9baf100f23aba23ff55e2bc61ccb30",
-      "island": null,
+      "island": "stThomas",
       "locations": [
         "EST WINTBERG",
         "WINTBERG 339",
@@ -195,7 +195,9 @@
       ],
       "modifiedAt": "2026-11-15T03:37:30Z",
       "name": "T-T-11284",
-      "neighborhoodIDs": [],
+      "neighborhoodIDs": [
+        "stThomas-wintberg"
+      ],
       "point": {
         "latitude": 18.35060459405134,
         "longitude": -64.90370491068215
@@ -240,14 +242,16 @@
       "endedAt": null,
       "estimatedRestoration": null,
       "id": "466bc9614c76460646f6e693474c200e210063775b3dac783172ab48908c90e8",
-      "island": null,
+      "island": "stCroix",
       "locations": [
         "CASTLE COAKLEY",
         "CASTLE COAKLEY 54"
       ],
       "modifiedAt": "2026-11-13T22:18:39Z",
       "name": "T-C-06088",
-      "neighborhoodIDs": [],
+      "neighborhoodIDs": [
+        "stCroix-castle-coakley"
+      ],
       "point": {
         "latitude": 17.72783857305157,
         "longitude": -64.74354200938487
@@ -1624,7 +1628,9 @@
       ],
       "modifiedAt": "2026-11-15T03:18:08Z",
       "name": "STT_59440",
-      "neighborhoodIDs": [],
+      "neighborhoodIDs": [
+        "stThomas-smith-bay"
+      ],
       "point": {
         "latitude": 18.327243220741224,
         "longitude": -64.85243870875368
@@ -1738,7 +1744,9 @@
       ],
       "modifiedAt": "2026-11-15T03:17:21Z",
       "name": "T-T-07899",
-      "neighborhoodIDs": [],
+      "neighborhoodIDs": [
+        "stThomas-smith-bay"
+      ],
       "point": {
         "latitude": 18.337608587923107,
         "longitude": -64.86791280327866
@@ -1787,7 +1795,9 @@
       ],
       "modifiedAt": "2026-11-15T03:25:15Z",
       "name": "T-T-11775",
-      "neighborhoodIDs": [],
+      "neighborhoodIDs": [
+        "stThomas-donoe"
+      ],
       "point": {
         "latitude": 18.344356746526692,
         "longitude": -64.89995296974458
@@ -2039,7 +2049,7 @@
       "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-15T11:10:38Z",
+  "generatedAt": "2026-11-15T11:15:40Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -2075,6 +2085,44 @@
           ],
           "sourceStatus": "Predicted",
           "startedAt": null
+        },
+        {
+          "affectedCustomers": null,
+          "estimatedRestoration": null,
+          "id": "stThomas-donoe",
+          "island": "stThomas",
+          "locations": [
+            "3 BLDG 1",
+            "3 BLDG 1 APT G101",
+            "3 BLDG 1 APT G102",
+            "3 BLDG 1 APT G105",
+            "3 BLDG 1 APT G106",
+            "3 BLDG 1 APT G110",
+            "3 BLDG 1 APT G111",
+            "3 BLDG 2 APT G201",
+            "3 BLDG 2 APT G203",
+            "3 BLDG 2 APT G204",
+            "3 BLDG 2 APT G205",
+            "3 BLDG 2 APT G206",
+            "3 BLDG 3",
+            "3 BLDG 3 APT G301",
+            "3 BLDG 3 APT G302",
+            "3 BLDG 3 APT G303",
+            "3 BLDG 3 APT G304",
+            "3 BLDG 3 APT G305",
+            "3 BLDG 3 APT G306",
+            "3 BLDG 3 APT G308",
+            "3 BLDG 3 APT G311",
+            "3 BLDG 3 APT G312",
+            "3 BLDG-1",
+            "3 BLDG-2"
+          ],
+          "name": "Donoe",
+          "sourceEventIDs": [
+            "bc2146c269ecd0d3272523e9c2550f1e7b654aadd5895ac3423acc02dfe2cd03"
+          ],
+          "sourceStatus": "Predicted",
+          "startedAt": "2026-11-15T03:24:44Z"
         },
         {
           "affectedCustomers": null,
@@ -2237,6 +2285,56 @@
         {
           "affectedCustomers": null,
           "estimatedRestoration": null,
+          "id": "stThomas-smith-bay",
+          "island": "stThomas",
+          "locations": [
+            "10-7",
+            "10-9",
+            "11 12 SUITE 236",
+            "115-1",
+            "115-10",
+            "115-2",
+            "115-5",
+            "115-7",
+            "115-8 MTR 2",
+            "115-9",
+            "18-14",
+            "18-17",
+            "18-18 RED HOOK",
+            "18-19",
+            "18-21 A-1",
+            "18-22",
+            "18-23",
+            "18-23 1-B",
+            "18-23 A-1C",
+            "18-23 HSE/PUMP",
+            "18-23 U-1A",
+            "18-23 U-2-A",
+            "18-25",
+            "18-26-1",
+            "18-3",
+            "18-4",
+            "18-5",
+            "18-9 18-10-11",
+            "18-9 SUITE 235",
+            "18-9, 11,12, 13",
+            "18-9-10-11-12",
+            "18-9-18-10 U-",
+            "18-9-18-13 BASE",
+            "9,10,11,12,18",
+            "DOWN"
+          ],
+          "name": "Smith Bay",
+          "sourceEventIDs": [
+            "a997595e9dbbee9c396fbcca47ed9bf95d9add05048fe2b07a1d2db35c6ff113",
+            "ba5c4e03877eddfa7c4b4e05b9eb37f7893a4343dcfa33d127cc67967b1f238e"
+          ],
+          "sourceStatus": "Predicted",
+          "startedAt": null
+        },
+        {
+          "affectedCustomers": null,
+          "estimatedRestoration": null,
           "id": "stThomas-subbase",
           "island": "stThomas",
           "locations": [
@@ -2250,6 +2348,23 @@
           ],
           "sourceStatus": "Verified",
           "startedAt": "2026-10-14T15:23:16Z"
+        },
+        {
+          "affectedCustomers": null,
+          "estimatedRestoration": null,
+          "id": "stThomas-wintberg",
+          "island": "stThomas",
+          "locations": [
+            "339",
+            "339 COTTAGE \"\"A\"\"",
+            "340"
+          ],
+          "name": "Wintberg",
+          "sourceEventIDs": [
+            "32da8978f790431bfa93dad77e8f2a45cb9baf100f23aba23ff55e2bc61ccb30"
+          ],
+          "sourceStatus": "Predicted",
+          "startedAt": "2026-11-15T03:37:08Z"
         }
       ]
     },
@@ -2257,7 +2372,23 @@
       "coverage": "partial",
       "customersOut": null,
       "id": "stCroix",
-      "neighborhoods": []
+      "neighborhoods": [
+        {
+          "affectedCustomers": null,
+          "estimatedRestoration": null,
+          "id": "stCroix-castle-coakley",
+          "island": "stCroix",
+          "locations": [
+            "54"
+          ],
+          "name": "Castle Coakley",
+          "sourceEventIDs": [
+            "466bc9614c76460646f6e693474c200e210063775b3dac783172ab48908c90e8"
+          ],
+          "sourceStatus": "Verified",
+          "startedAt": "2026-11-13T17:31:46Z"
+        }
+      ]
     },
     {
       "coverage": "partial",
@@ -2279,11 +2410,11 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "425d38522df5423dad21f4c2a2f410318baa525cb05d18748624278ccb8db1bc",
+  "snapshotID": "53d70138a76aab42d3769e1400d61d663bd3a9b5c018f8b01b3045e23da4deaf",
   "source": {
-    "checkedAt": "2026-11-15T11:10:38Z",
+    "checkedAt": "2026-11-15T11:15:40Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-15T11:10:30Z",
+    "updatedAt": "2026-11-15T11:15:30Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
@@ -3910,5 +4041,5 @@
     "totalOutages": 25
   },
   "staleAfterSeconds": 900,
-  "unassignedEventCount": 22
+  "unassignedEventCount": 20
 }
