@@ -6,6 +6,35 @@
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
+      "id": "24efb62d25620ea46eefc979b72f7874ea312cf2e4d5e1ed94ebb124ade044a8",
+      "island": null,
+      "locations": [
+        "BONNE RESOLUTION 4-1",
+        "BONNE RESOLUTION 4-4",
+        "BONNE RESOLUTION 4-5",
+        "BONNE RESOLUTION 4-5 DWN",
+        "EST. BONNE RESOLUTION"
+      ],
+      "modifiedAt": "2026-11-15T14:12:50Z",
+      "name": "T-T-09060",
+      "neighborhoodIDs": [],
+      "point": {
+        "latitude": 18.35489059902936,
+        "longitude": -64.9595321118216
+      },
+      "reportedCustomersInitially": 5,
+      "reportedCustomersOut": 5,
+      "reportedCustomersRestored": 0,
+      "sourceStatus": "Predicted",
+      "startedAt": "2026-11-15T14:12:32Z",
+      "verified": false,
+      "workStatus": null
+    },
+    {
+      "cause": null,
+      "crewAssigned": false,
+      "endedAt": null,
+      "estimatedRestoration": null,
       "id": "466bc9614c76460646f6e693474c200e210063775b3dac783172ab48908c90e8",
       "island": "stCroix",
       "locations": [
@@ -1401,9 +1430,47 @@
       "startedAt": "2026-10-14T15:23:16Z",
       "verified": true,
       "workStatus": null
+    },
+    {
+      "cause": null,
+      "crewAssigned": false,
+      "endedAt": null,
+      "estimatedRestoration": null,
+      "id": "e52d73b71ec61246d490f13ec8d3fdc6454246b3437001b21b65a6cc17acf098",
+      "island": null,
+      "locations": [
+        "ESTATE SOLBEG 79-43",
+        "ESTATE SOLBERG 79-38",
+        "ESTATE SOLBERG 79-43",
+        "ESTATE SOLBERG 94-8 MTR 2",
+        "SOLBERG",
+        "SOLBERG 79-38 EAST",
+        "SOLBERG 79-39",
+        "SOLBERG 79-40",
+        "SOLBERG 79-41",
+        "SOLBERG 79-42 UP",
+        "SOLBERG 79-43",
+        "SOLBERG 91",
+        "SOLBERG 91 UP",
+        "SOLBERG 94-8 MTR 1"
+      ],
+      "modifiedAt": "2026-11-15T14:12:50Z",
+      "name": "T-T-02150",
+      "neighborhoodIDs": [],
+      "point": {
+        "latitude": 18.346144580514284,
+        "longitude": -64.94534613417767
+      },
+      "reportedCustomersInitially": 16,
+      "reportedCustomersOut": 16,
+      "reportedCustomersRestored": 0,
+      "sourceStatus": "Predicted",
+      "startedAt": "2026-11-15T14:12:26Z",
+      "verified": false,
+      "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-15T14:10:34Z",
+  "generatedAt": "2026-11-15T14:15:35Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -1534,21 +1601,21 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "10c28994071bfb0314793bc5a86c1e54524c1fd73e44ac3f756f544dee21f04b",
+  "snapshotID": "f48142ad8a33b933c53eac5573b1a2273ce3cb527c71ebfa69c0ee5b974c081a",
   "source": {
-    "checkedAt": "2026-11-15T14:10:34Z",
+    "checkedAt": "2026-11-15T14:15:35Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-15T14:10:31Z",
+    "updatedAt": "2026-11-15T14:15:30Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "sourceSummary": {
     "customerCountDifference": 2,
-    "customersAffected": 1583,
-    "customersOut": 1583,
+    "customersAffected": 1604,
+    "customersOut": 1604,
     "customersRestored": 0,
     "customersServed": 54726,
-    "eventCustomersOut": 1581,
+    "eventCustomersOut": 1602,
     "hourlyCustomersOut": [
       {
         "at": "2026-11-13T14:00:00Z",
@@ -1744,7 +1811,7 @@
       },
       {
         "at": "2026-11-15T14:00:00Z",
-        "customersOut": 3657
+        "customersOut": 3678
       }
     ],
     "locations": [
@@ -2073,6 +2140,10 @@
       "BOLONGO UP 61-31D",
       "BOLONGO#13",
       "BOLONGO, N3 FRENCHMAN'S",
+      "BONNE RESOLUTION 4-1",
+      "BONNE RESOLUTION 4-4",
+      "BONNE RESOLUTION 4-5",
+      "BONNE RESOLUTION 4-5 DWN",
       "BOVONI",
       "BOVONI #12B-1",
       "BOVONI 102-5",
@@ -2318,6 +2389,7 @@
       "EST THOMAS PLOT 6F",
       "EST THOMAS STE 17",
       "EST. BOLONGO",
+      "EST. BONNE RESOLUTION",
       "EST. BOVONI",
       "EST. THOMAS 6B-F",
       "EST. THOMAS W'HOUSE J",
@@ -2341,6 +2413,10 @@
       "ESTATE BOVONI 5-46 APT-2",
       "ESTATE FRENCHMANS BAY",
       "ESTATE HULL BAY 5H-1D",
+      "ESTATE SOLBEG 79-43",
+      "ESTATE SOLBERG 79-38",
+      "ESTATE SOLBERG 79-43",
+      "ESTATE SOLBERG 94-8 MTR 2",
       "ESTATE THOMAS #6H",
       "ESTATE THOMAS 18 REMAINER",
       "ESTATE THOMAS 19",
@@ -2905,6 +2981,16 @@
       "PMP GARDENS B-21 A-168",
       "PMP MANAGER OFFICE",
       "REGATTA POINT VILLAS 1& 2",
+      "SOLBERG",
+      "SOLBERG 79-38 EAST",
+      "SOLBERG 79-39",
+      "SOLBERG 79-40",
+      "SOLBERG 79-41",
+      "SOLBERG 79-42 UP",
+      "SOLBERG 79-43",
+      "SOLBERG 91",
+      "SOLBERG 91 UP",
+      "SOLBERG 94-8 MTR 1",
       "SUBBASE 100",
       "SUBBASE 101 (EL)",
       "SUBBASE 69",
@@ -2996,8 +3082,8 @@
       "WEST INDIAN CO DOCK B-1",
       "WIC DOCK BAY BLDG-2"
     ],
-    "totalOutages": 6
+    "totalOutages": 8
   },
   "staleAfterSeconds": 900,
-  "unassignedEventCount": 2
+  "unassignedEventCount": 4
 }
