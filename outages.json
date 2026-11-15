@@ -2495,7 +2495,7 @@
         "WATER ISLE 62",
         "WATER ISLE 63"
       ],
-      "modifiedAt": "2026-11-15T22:14:23Z",
+      "modifiedAt": "2026-11-15T22:16:40Z",
       "name": "Feeder 06A",
       "neighborhoodIDs": [],
       "point": {
@@ -2699,7 +2699,7 @@
       "locations": [
         "LOVENLUND EST FARMHOUSE"
       ],
-      "modifiedAt": "2026-11-05T19:11:39Z",
+      "modifiedAt": "2026-11-15T22:16:20Z",
       "name": "T-T-17122",
       "neighborhoodIDs": [
         "stThomas-lovenlund"
@@ -2771,7 +2771,7 @@
       "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-15T22:16:07Z",
+  "generatedAt": "2026-11-15T22:21:08Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -2887,11 +2887,11 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "b792134665e4eaa3d34dfee18e6d92cc339ab78af08efead6b38b2bb306e71da",
+  "snapshotID": "c9bbb78d2433d4823f28c8daa4380f54b884e682aebaa3e3df46537c340dba50",
   "source": {
-    "checkedAt": "2026-11-15T22:16:07Z",
+    "checkedAt": "2026-11-15T22:21:08Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-15T22:15:32Z",
+    "updatedAt": "2026-11-15T22:20:33Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
