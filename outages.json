@@ -6,35 +6,6 @@
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
-      "id": "24efb62d25620ea46eefc979b72f7874ea312cf2e4d5e1ed94ebb124ade044a8",
-      "island": null,
-      "locations": [
-        "BONNE RESOLUTION 4-1",
-        "BONNE RESOLUTION 4-4",
-        "BONNE RESOLUTION 4-5",
-        "BONNE RESOLUTION 4-5 DWN",
-        "EST. BONNE RESOLUTION"
-      ],
-      "modifiedAt": "2026-11-15T14:12:50Z",
-      "name": "T-T-09060",
-      "neighborhoodIDs": [],
-      "point": {
-        "latitude": 18.35489059902936,
-        "longitude": -64.9595321118216
-      },
-      "reportedCustomersInitially": 5,
-      "reportedCustomersOut": 5,
-      "reportedCustomersRestored": 0,
-      "sourceStatus": "Predicted",
-      "startedAt": "2026-11-15T14:12:32Z",
-      "verified": false,
-      "workStatus": null
-    },
-    {
-      "cause": null,
-      "crewAssigned": false,
-      "endedAt": null,
-      "estimatedRestoration": null,
       "id": "466bc9614c76460646f6e693474c200e210063775b3dac783172ab48908c90e8",
       "island": "stCroix",
       "locations": [
@@ -89,7 +60,7 @@
       "workStatus": null
     },
     {
-      "cause": null,
+      "cause": "190 Other planned",
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
@@ -1333,7 +1304,7 @@
         "WEST INDIAN CO DOCK B-1",
         "WIC DOCK BAY BLDG-2"
       ],
-      "modifiedAt": "2026-11-15T14:08:01Z",
+      "modifiedAt": "2026-11-15T14:25:19Z",
       "name": "Feeder 10B",
       "neighborhoodIDs": [
         "stCroix-pump-garden"
@@ -1432,7 +1403,7 @@
       "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-15T14:20:37Z",
+  "generatedAt": "2026-11-15T14:25:39Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -1563,21 +1534,21 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "dc1e93b1c4c9239eaa4aa8d1537a46026a9c90b17cddfff58b7907ca81fb84b6",
+  "snapshotID": "adbc66552e445b69cd4d9af44a2166679c03b6a8cb1dda76c2234a7d4e3a97a4",
   "source": {
-    "checkedAt": "2026-11-15T14:20:37Z",
+    "checkedAt": "2026-11-15T14:25:39Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-15T14:20:30Z",
+    "updatedAt": "2026-11-15T14:25:31Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "sourceSummary": {
     "customerCountDifference": 2,
-    "customersAffected": 1588,
-    "customersOut": 1588,
+    "customersAffected": 1583,
+    "customersOut": 1583,
     "customersRestored": 0,
     "customersServed": 54726,
-    "eventCustomersOut": 1586,
+    "eventCustomersOut": 1581,
     "hourlyCustomersOut": [
       {
         "at": "2026-11-13T14:00:00Z",
@@ -1773,7 +1744,7 @@
       },
       {
         "at": "2026-11-15T14:00:00Z",
-        "customersOut": 3662
+        "customersOut": 3657
       }
     ],
     "locations": [
@@ -2102,10 +2073,6 @@
       "BOLONGO UP 61-31D",
       "BOLONGO#13",
       "BOLONGO, N3 FRENCHMAN'S",
-      "BONNE RESOLUTION 4-1",
-      "BONNE RESOLUTION 4-4",
-      "BONNE RESOLUTION 4-5",
-      "BONNE RESOLUTION 4-5 DWN",
       "BOVONI",
       "BOVONI #12B-1",
       "BOVONI 102-5",
@@ -2351,7 +2318,6 @@
       "EST THOMAS PLOT 6F",
       "EST THOMAS STE 17",
       "EST. BOLONGO",
-      "EST. BONNE RESOLUTION",
       "EST. BOVONI",
       "EST. THOMAS 6B-F",
       "EST. THOMAS W'HOUSE J",
@@ -3030,8 +2996,8 @@
       "WEST INDIAN CO DOCK B-1",
       "WIC DOCK BAY BLDG-2"
     ],
-    "totalOutages": 7
+    "totalOutages": 6
   },
   "staleAfterSeconds": 900,
-  "unassignedEventCount": 3
+  "unassignedEventCount": 2
 }
