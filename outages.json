@@ -1340,29 +1340,6 @@
       "workStatus": null
     },
     {
-      "cause": "190 Other planned",
-      "crewAssigned": false,
-      "endedAt": null,
-      "estimatedRestoration": null,
-      "id": "2ce1fab34817ea5a0f1f4c6daf4cbbf052b07d5c47e3e442b4d3fa92cb321ad5",
-      "island": null,
-      "locations": [],
-      "modifiedAt": "2026-11-14T21:05:41Z",
-      "name": "REC-7A-1B-NSTR",
-      "neighborhoodIDs": [],
-      "point": {
-        "latitude": 18.362639218891243,
-        "longitude": -64.94328326269346
-      },
-      "reportedCustomersInitially": 1127,
-      "reportedCustomersOut": 1127,
-      "reportedCustomersRestored": 0,
-      "sourceStatus": "Verified",
-      "startedAt": "2026-11-14T20:31:48Z",
-      "verified": true,
-      "workStatus": null
-    },
-    {
       "cause": null,
       "crewAssigned": false,
       "endedAt": null,
@@ -3104,7 +3081,7 @@
       "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-15T00:21:24Z",
+  "generatedAt": "2026-11-15T00:26:25Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -3252,21 +3229,21 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "ee23439979c642c0acd23522f59ac2c4831dec1d0a45088060a9f2cb4f0792e7",
+  "snapshotID": "986e9d85d310ef19fa5f4dbe3dfdff6dec218b6a0e60ed403adda7cd3aedd685",
   "source": {
-    "checkedAt": "2026-11-15T00:21:24Z",
+    "checkedAt": "2026-11-15T00:26:25Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-15T00:20:30Z",
+    "updatedAt": "2026-11-15T00:25:29Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "sourceSummary": {
-    "customerCountDifference": -1125,
+    "customerCountDifference": 2,
     "customersAffected": 4776,
     "customersOut": 3354,
     "customersRestored": 1422,
     "customersServed": 54726,
-    "eventCustomersOut": 4479,
+    "eventCustomersOut": 3352,
     "hourlyCustomersOut": [
       {
         "at": "2026-11-13T00:00:00Z",
@@ -6220,8 +6197,8 @@
       "ZOOTENVAAL 3Q (MTR 1)",
       "ZOOTENVAAL 3T"
     ],
-    "totalOutages": 14
+    "totalOutages": 13
   },
   "staleAfterSeconds": 900,
-  "unassignedEventCount": 11
+  "unassignedEventCount": 10
 }
