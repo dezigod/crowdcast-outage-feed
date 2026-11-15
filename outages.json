@@ -1985,33 +1985,24 @@
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
-      "id": "88b3cdb6898bb4d5ec972e3e474c3164f1206c8c7692886142fef2e9423dc31e",
+      "id": "8dd513ccb7336bcfff1b9d0d147ca28a0aff6958052494cdc32bec8a10898bf7",
       "island": null,
       "locations": [
-        "GOLDEN ROCK",
-        "GOLDEN ROCK 163",
-        "GOLDEN ROCK 168",
-        "GOLDEN ROCK 169",
-        "GOLDEN ROCK 187A",
-        "GOLDEN ROCK 188",
-        "GOLDEN ROCK 191",
-        "GOLDEN ROCK 192",
-        "GOLDEN ROCK 194",
-        "GOLDEN ROCK 210"
+        "GOLDEN ROCK"
       ],
-      "modifiedAt": "2026-11-15T19:55:14Z",
-      "name": "T-C-15612",
+      "modifiedAt": "2026-11-15T20:09:44Z",
+      "name": "38400",
       "neighborhoodIDs": [],
       "point": {
-        "latitude": 17.75137782516305,
-        "longitude": -64.72105159017619
+        "latitude": 17.751128945527785,
+        "longitude": -64.72091892180312
       },
-      "reportedCustomersInitially": 19,
-      "reportedCustomersOut": 19,
+      "reportedCustomersInitially": 1,
+      "reportedCustomersOut": 1,
       "reportedCustomersRestored": 0,
-      "sourceStatus": "Predicted",
+      "sourceStatus": "Verified",
       "startedAt": "2026-11-15T19:40:38Z",
-      "verified": false,
+      "verified": true,
       "workStatus": null
     },
     {
@@ -4899,7 +4890,7 @@
       "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-15T20:06:26Z",
+  "generatedAt": "2026-11-15T20:11:28Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -6250,21 +6241,21 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "f7613e3bd6e403b99215e57641844a48a748a33b16fbdce99ca5508f98720fd3",
+  "snapshotID": "d0b8e035947da2663267b56fbf99d86f9b871595d3270741ff05fb4b3cba3d07",
   "source": {
-    "checkedAt": "2026-11-15T20:06:26Z",
+    "checkedAt": "2026-11-15T20:11:28Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-15T20:05:32Z",
+    "updatedAt": "2026-11-15T20:10:33Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "sourceSummary": {
     "customerCountDifference": 2,
-    "customersAffected": 5995,
-    "customersOut": 5995,
+    "customersAffected": 5977,
+    "customersOut": 5977,
     "customersRestored": 0,
     "customersServed": 54726,
-    "eventCustomersOut": 5993,
+    "eventCustomersOut": 5975,
     "hourlyCustomersOut": [
       {
         "at": "2026-11-13T20:00:00Z",
@@ -6456,11 +6447,11 @@
       },
       {
         "at": "2026-11-15T19:00:00Z",
-        "customersOut": 5993
+        "customersOut": 5975
       },
       {
         "at": "2026-11-15T20:00:00Z",
-        "customersOut": 5993
+        "customersOut": 5975
       }
     ],
     "locations": [
@@ -8881,15 +8872,6 @@
       "FT MYINER SHOPPING CENTER",
       "GAMBLE NORDSIDEVEJ 9Q",
       "GOLDEN ROCK",
-      "GOLDEN ROCK 163",
-      "GOLDEN ROCK 168",
-      "GOLDEN ROCK 169",
-      "GOLDEN ROCK 187A",
-      "GOLDEN ROCK 188",
-      "GOLDEN ROCK 191",
-      "GOLDEN ROCK 192",
-      "GOLDEN ROCK 194",
-      "GOLDEN ROCK 210",
       "GREEN CAY 9-21-A",
       "GREEN CAY 93",
       "GREEN CAY 96",
