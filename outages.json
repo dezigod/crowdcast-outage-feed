@@ -245,6 +245,42 @@
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
+      "id": "6492fc1fc8b04114907e32b97eba1b5bf19e788a3f613692cb3d6874ebbfdb4f",
+      "island": null,
+      "locations": [
+        "SMITH BAY",
+        "SMITH BAY 10-7",
+        "SMITH BAY 10-9",
+        "SMITH BAY 115-1",
+        "SMITH BAY 115-10",
+        "SMITH BAY 115-2",
+        "SMITH BAY 115-5",
+        "SMITH BAY 115-7",
+        "SMITH BAY 115-8 MTR 2",
+        "SMITH BAY 115-9 DWN",
+        "SMITH BAY DOWN",
+        "SMITHBAY 115-8"
+      ],
+      "modifiedAt": "2026-11-15T02:15:36Z",
+      "name": "T-T-07899",
+      "neighborhoodIDs": [],
+      "point": {
+        "latitude": 18.337608587923107,
+        "longitude": -64.86791280327866
+      },
+      "reportedCustomersInitially": 13,
+      "reportedCustomersOut": 13,
+      "reportedCustomersRestored": 0,
+      "sourceStatus": "Predicted",
+      "startedAt": "2026-11-15T02:15:08Z",
+      "verified": false,
+      "workStatus": null
+    },
+    {
+      "cause": null,
+      "crewAssigned": false,
+      "endedAt": null,
+      "estimatedRestoration": null,
       "id": "688d24f7b6e72cb60f9dd7cfcfc315b9ee0efe7095b9fbf192b7ed84c8031d54",
       "island": "stThomas",
       "locations": [
@@ -689,7 +725,7 @@
       "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-15T02:15:58Z",
+  "generatedAt": "2026-11-15T02:21:00Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -806,21 +842,21 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "81103bd9c586ba5a57a292614ad2f72dfca5f3e8369b99e26169bcb2fc66818d",
+  "snapshotID": "b6dae22511248fde66fc4a4a6bcd96a01c90a542c19c68b4ee6cea54ce4114c7",
   "source": {
-    "checkedAt": "2026-11-15T02:15:58Z",
+    "checkedAt": "2026-11-15T02:21:00Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-15T02:15:30Z",
+    "updatedAt": "2026-11-15T02:20:29Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "sourceSummary": {
     "customerCountDifference": 2,
-    "customersAffected": 2093,
-    "customersOut": 671,
+    "customersAffected": 2106,
+    "customersOut": 684,
     "customersRestored": 1422,
     "customersServed": 54726,
-    "eventCustomersOut": 669,
+    "eventCustomersOut": 682,
     "hourlyCustomersOut": [
       {
         "at": "2026-11-13T02:00:00Z",
@@ -1016,7 +1052,7 @@
       },
       {
         "at": "2026-11-15T02:00:00Z",
-        "customersOut": 669
+        "customersOut": 682
       }
     ],
     "locations": [
@@ -1421,6 +1457,18 @@
       "SCOTT FREE 40",
       "SCOTT FREE 42",
       "SCOTT FREE 42A",
+      "SMITH BAY",
+      "SMITH BAY 10-7",
+      "SMITH BAY 10-9",
+      "SMITH BAY 115-1",
+      "SMITH BAY 115-10",
+      "SMITH BAY 115-2",
+      "SMITH BAY 115-5",
+      "SMITH BAY 115-7",
+      "SMITH BAY 115-8 MTR 2",
+      "SMITH BAY 115-9 DWN",
+      "SMITH BAY DOWN",
+      "SMITHBAY 115-8",
       "SOLBERG",
       "SOLBERG 1 B-28",
       "SOLBERG 1 B-29",
@@ -1508,8 +1556,8 @@
       "UPPER JOHN DUNKOE 38",
       "UPPER JOHN DUNKOE 39-1"
     ],
-    "totalOutages": 8
+    "totalOutages": 9
   },
   "staleAfterSeconds": 900,
-  "unassignedEventCount": 5
+  "unassignedEventCount": 6
 }
