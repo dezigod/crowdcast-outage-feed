@@ -250,3 +250,19 @@ class APITests(unittest.TestCase):
 
 
 if __name__ == "__main__": unittest.main()
+
+class ReviewedGeographyExpansionTests(unittest.TestCase):
+    def test_officially_reviewed_estates(self):
+        for estate,island in [('CASTLE COAKLEY 54','stCroix'),('EST WINTBERG','stThomas'),('DONOE 3 BLDG 1','stThomas'),('SMITH BAY 10-7','stThomas')]:
+            with self.subTest(estate=estate):
+                feed=build([event(streets=[estate])])
+                self.assertEqual(feed['events'][0]['island'], island)
+                self.assertEqual(feed['unassignedEventCount'],0)
+
+    def test_typos_and_mixed_island_events_remain_unassigned(self):
+        for streets in [['DUNOE 3'],['SMITHBAY 115-8'],['CASTLE COAKLEY 54','SMITH BAY 10-7']]:
+            with self.subTest(streets=streets):
+                feed=build([event(streets=streets)])
+                self.assertIsNone(feed['events'][0]['island'])
+                self.assertEqual(feed['unassignedEventCount'],1)
+                self.assertTrue(all(i['coverage']=='partial' for i in feed['islands']))
