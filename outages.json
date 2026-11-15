@@ -275,6 +275,33 @@
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
+      "id": "7980541bcf1d814592d7b757bb2a1d58c7aaeaa45b442f158b2994a41bdb8d2e",
+      "island": null,
+      "locations": [
+        "WINTBERG 900B BLDG-E",
+        "WINTBERG 900-B HSE MTR B-",
+        "WINTBERG 900B UNIT E-3"
+      ],
+      "modifiedAt": "2026-11-15T03:12:33Z",
+      "name": "T-T-17206",
+      "neighborhoodIDs": [],
+      "point": {
+        "latitude": 18.354908094104417,
+        "longitude": -64.90597523371711
+      },
+      "reportedCustomersInitially": 9,
+      "reportedCustomersOut": 9,
+      "reportedCustomersRestored": 0,
+      "sourceStatus": "Predicted",
+      "startedAt": "2026-11-15T03:12:03Z",
+      "verified": false,
+      "workStatus": null
+    },
+    {
+      "cause": null,
+      "crewAssigned": false,
+      "endedAt": null,
+      "estimatedRestoration": null,
       "id": "7e8fa2391b457fd2fadc04bdb5d887b6be15608aa7fcfd07640a4ff5ef9a52bb",
       "island": null,
       "locations": [
@@ -794,7 +821,7 @@
       "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-15T03:11:13Z",
+  "generatedAt": "2026-11-15T03:16:15Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -911,21 +938,21 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "3b18bd6e0650b42f0bc4e89bcd9eb10ed22eb6cbfa6a1075a27f9d7c47190c36",
+  "snapshotID": "8ff7afb130b8e6eaa5dfa6b3d1d0650911925780a4b7d946a77fdbd1be0f62da",
   "source": {
-    "checkedAt": "2026-11-15T03:11:13Z",
+    "checkedAt": "2026-11-15T03:16:15Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-15T03:10:29Z",
+    "updatedAt": "2026-11-15T03:15:29Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "sourceSummary": {
     "customerCountDifference": 2,
-    "customersAffected": 2133,
-    "customersOut": 711,
+    "customersAffected": 2142,
+    "customersOut": 720,
     "customersRestored": 1422,
     "customersServed": 54726,
-    "eventCustomersOut": 709,
+    "eventCustomersOut": 718,
     "hourlyCustomersOut": [
       {
         "at": "2026-11-13T03:00:00Z",
@@ -1121,7 +1148,7 @@
       },
       {
         "at": "2026-11-15T03:00:00Z",
-        "customersOut": 709
+        "customersOut": 718
       }
     ],
     "locations": [
@@ -1644,10 +1671,13 @@
       "UPPER JOHN DUNKOE 2-7",
       "UPPER JOHN DUNKOE 2-8",
       "UPPER JOHN DUNKOE 38",
-      "UPPER JOHN DUNKOE 39-1"
+      "UPPER JOHN DUNKOE 39-1",
+      "WINTBERG 900B BLDG-E",
+      "WINTBERG 900-B HSE MTR B-",
+      "WINTBERG 900B UNIT E-3"
     ],
-    "totalOutages": 11
+    "totalOutages": 12
   },
   "staleAfterSeconds": 900,
-  "unassignedEventCount": 8
+  "unassignedEventCount": 9
 }
