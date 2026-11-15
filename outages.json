@@ -4600,6 +4600,50 @@
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
+      "id": "aa9454e3f09937a6c39297c07e947bc9c9342fa6082bd5f1a61757edc36198ef",
+      "island": null,
+      "locations": [
+        "CLIFTON HILL 103",
+        "CLIFTON HILL 104",
+        "CLIFTON HILL 110",
+        "CLIFTON HILL 111 APT-B EL",
+        "CLIFTON HILL 112",
+        "CLIFTON HILL 113",
+        "CLIFTON HILL 114",
+        "CLIFTON HILL 115",
+        "CLIFTON HILL 116",
+        "CLIFTON HILL 118",
+        "CLIFTON HILL 11O",
+        "CLIFTON HILL 121",
+        "CLIFTON HILL 122",
+        "CLIFTON HILL 123",
+        "CLIFTON HILL 124",
+        "CLIFTON HILL 125",
+        "CLIFTON HILL 126",
+        "CLIFTON HILL 127",
+        "CLIFTON HILL 128",
+        "EST CLIFTON HILL"
+      ],
+      "modifiedAt": "2026-11-15T17:29:56Z",
+      "name": "T-C-06101",
+      "neighborhoodIDs": [],
+      "point": {
+        "latitude": 17.722833244766097,
+        "longitude": -64.77358012286993
+      },
+      "reportedCustomersInitially": 23,
+      "reportedCustomersOut": 23,
+      "reportedCustomersRestored": 0,
+      "sourceStatus": "Predicted",
+      "startedAt": "2026-11-15T17:29:22Z",
+      "verified": false,
+      "workStatus": null
+    },
+    {
+      "cause": null,
+      "crewAssigned": false,
+      "endedAt": null,
+      "estimatedRestoration": null,
       "id": "b80a76d3488b38e4930ad370680d6ef09278f94b75bf56d518870555dc255821",
       "island": null,
       "locations": [
@@ -8219,7 +8263,7 @@
       "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-15T17:25:39Z",
+  "generatedAt": "2026-11-15T17:30:40Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -8983,21 +9027,21 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "81596b54e8bf796b1084249ee328f40cf2b5c17338e0eb7a6ae05372aef55d14",
+  "snapshotID": "e5f481fe25a0ae8adce9e2879ea8fbbe756403a5ed09bb3393045782ba9960f9",
   "source": {
-    "checkedAt": "2026-11-15T17:25:39Z",
+    "checkedAt": "2026-11-15T17:30:40Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-15T17:25:34Z",
+    "updatedAt": "2026-11-15T17:30:34Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "sourceSummary": {
     "customerCountDifference": 2,
-    "customersAffected": 10619,
-    "customersOut": 10619,
+    "customersAffected": 10642,
+    "customersOut": 10642,
     "customersRestored": 0,
     "customersServed": 54726,
-    "eventCustomersOut": 10617,
+    "eventCustomersOut": 10640,
     "hourlyCustomersOut": [
       {
         "at": "2026-11-13T17:00:00Z",
@@ -9193,7 +9237,7 @@
       },
       {
         "at": "2026-11-15T17:00:00Z",
-        "customersOut": 10617
+        "customersOut": 10640
       }
     ],
     "locations": [
@@ -10112,7 +10156,26 @@
       "CLAIRMONT 91",
       "CLAIRMONT 93",
       "CLAIRMONT 98 (EL)",
+      "CLIFTON HILL 103",
+      "CLIFTON HILL 104",
+      "CLIFTON HILL 110",
+      "CLIFTON HILL 111 APT-B EL",
+      "CLIFTON HILL 112",
+      "CLIFTON HILL 113",
+      "CLIFTON HILL 114",
+      "CLIFTON HILL 115",
+      "CLIFTON HILL 116",
+      "CLIFTON HILL 118",
+      "CLIFTON HILL 11O",
+      "CLIFTON HILL 121",
+      "CLIFTON HILL 122",
+      "CLIFTON HILL 123",
+      "CLIFTON HILL 124",
+      "CLIFTON HILL 125",
+      "CLIFTON HILL 126",
+      "CLIFTON HILL 127",
       "CLIFTON HILL 127-128",
+      "CLIFTON HILL 128",
       "CLIFTON HILL 129",
       "CLIFTON HILL 130",
       "CLIFTON HILL 131",
@@ -10546,6 +10609,7 @@
       "EST ADVENTURE",
       "EST ANGUILA MAIN GATE",
       "EST CLAIRMONT 96",
+      "EST CLIFTON HILL",
       "EST DIAMOND 163 (EL)",
       "EST FRYDEHOJ 37-38",
       "EST FRYDENHOJ",
@@ -16942,8 +17006,8 @@
       "WEST PALM DRIVE 64",
       "YELLOW CEDAR 40-D"
     ],
-    "totalOutages": 18
+    "totalOutages": 19
   },
   "staleAfterSeconds": 900,
-  "unassignedEventCount": 14
+  "unassignedEventCount": 15
 }
