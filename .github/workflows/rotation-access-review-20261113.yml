@@ -1,4 +1,4 @@
-name: One-time rotation access review November 13
+name: One-time rotation access review November 15
 on:
   push:
     branches: [main]
@@ -7,7 +7,7 @@ permissions:
   contents: read
 jobs:
   review:
-    if: github.event.head_commit.message == 'Run one-time read-only WAPA access review 2026-11-13'
+    if: github.event.head_commit.message == 'Run one-time read-only WAPA access review 2026-11-15'
     runs-on: ubuntu-latest
     timeout-minutes: 2
     steps:
@@ -25,7 +25,7 @@ jobs:
           from urllib.request import Request, build_opener
           from outage_backend.collect import NoRedirect, PermissionRequired
           from outage_backend.rotation import ALERTS, schedule_url, PDF
-          if datetime.now(timezone.utc).date().isoformat() != '2026-11-13':
+          if datetime.now(timezone.utc).date().isoformat() != '2026-11-15':
               raise SystemExit('Expired one-time diagnostic; no source request made')
           class ReviewRedirect(NoRedirect):
               def redirect_request(self, request, file, code, message, headers, url):
