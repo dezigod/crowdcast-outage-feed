@@ -37,7 +37,7 @@
         "PETERS REST 235",
         "PETERS REST 237"
       ],
-      "modifiedAt": "2026-11-15T22:31:19Z",
+      "modifiedAt": "2026-11-15T23:02:46Z",
       "name": "T-C-08754",
       "neighborhoodIDs": [
         "stCroix-castle-coakley"
@@ -2824,7 +2824,7 @@
       "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-15T23:01:19Z",
+  "generatedAt": "2026-11-15T23:06:21Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -2941,11 +2941,11 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "8ab60f616d231a147a5cea638777a23832649fad6195216d8c9c994a8843897e",
+  "snapshotID": "a085e7a45cbe30e7513507fdf105760822133ccfc96413b481249e0e67ca293f",
   "source": {
-    "checkedAt": "2026-11-15T23:01:19Z",
+    "checkedAt": "2026-11-15T23:06:21Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-15T23:00:32Z",
+    "updatedAt": "2026-11-15T23:05:32Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
