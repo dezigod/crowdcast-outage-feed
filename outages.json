@@ -2715,50 +2715,6 @@
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
-      "id": "8baf546294e3a402b34d6a44f594bd96d50e5fa7c2d97129d541721dc4b8fcab",
-      "island": null,
-      "locations": [
-        "3R AGNES FANCY",
-        "AGNES FANCY",
-        "AGNES FANCY 3B-1",
-        "AGNES FANCY 3C",
-        "AGNES FANCY 3D-1",
-        "AGNES FANCY 3F MTR-1",
-        "AGNES FANCY 3K",
-        "AGNES FANCY 3K-1",
-        "AGNES FANCY 3L",
-        "AGNES FANCY 3-N",
-        "AGNES FANCY 3Q",
-        "AGNES FANCY 3S",
-        "AGNES FANCY 5D",
-        "AGNES FANCY 5D DWELLING",
-        "AGNES FANCY 5D DWN",
-        "AGNES FANCY 5E",
-        "AGNES FANCY 5-E",
-        "EST AGNES FANCY 5H"
-      ],
-      "modifiedAt": "2026-11-15T22:08:31Z",
-      "name": "T-T-04226",
-      "neighborhoodIDs": [
-        "stThomas-agnes-fancy"
-      ],
-      "point": {
-        "latitude": 18.349069598570136,
-        "longitude": -64.9351704926616
-      },
-      "reportedCustomersInitially": 19,
-      "reportedCustomersOut": 19,
-      "reportedCustomersRestored": 0,
-      "sourceStatus": "Predicted",
-      "startedAt": "2026-11-15T22:07:59Z",
-      "verified": false,
-      "workStatus": null
-    },
-    {
-      "cause": null,
-      "crewAssigned": false,
-      "endedAt": null,
-      "estimatedRestoration": null,
       "id": "8dd513ccb7336bcfff1b9d0d147ca28a0aff6958052494cdc32bec8a10898bf7",
       "island": null,
       "locations": [
@@ -2861,7 +2817,7 @@
       "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-15T23:50:39Z",
+  "generatedAt": "2026-11-15T23:55:40Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -2875,31 +2831,16 @@
           "id": "stThomas-agnes-fancy",
           "island": "stThomas",
           "locations": [
-            "3-N",
-            "3B-1",
-            "3C",
-            "3D-1",
-            "3F MTR-1",
-            "3K",
-            "3K-1",
-            "3L",
-            "3Q",
-            "3S",
             "5-A",
-            "5-E",
             "5B",
-            "5D",
-            "5D DWELLING",
-            "5E",
             "5F"
           ],
           "name": "Agnes Fancy",
           "sourceEventIDs": [
-            "688d24f7b6e72cb60f9dd7cfcfc315b9ee0efe7095b9fbf192b7ed84c8031d54",
-            "8baf546294e3a402b34d6a44f594bd96d50e5fa7c2d97129d541721dc4b8fcab"
+            "688d24f7b6e72cb60f9dd7cfcfc315b9ee0efe7095b9fbf192b7ed84c8031d54"
           ],
           "sourceStatus": "Predicted",
-          "startedAt": null
+          "startedAt": "2026-05-24T00:16:58Z"
         },
         {
           "affectedCustomers": null,
@@ -2978,21 +2919,21 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "2760a06161b547b5fc982e049d541f9816a9b648270c7a41b88acf0a6ee0f3b2",
+  "snapshotID": "ef863381fa61fdd26ae1e6fc5dfdb60ca0fdb7e6d45a22ee89918e1df1430314",
   "source": {
-    "checkedAt": "2026-11-15T23:50:39Z",
+    "checkedAt": "2026-11-15T23:55:40Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-15T23:50:33Z",
+    "updatedAt": "2026-11-15T23:55:33Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "sourceSummary": {
     "customerCountDifference": 2,
-    "customersAffected": 3404,
-    "customersOut": 3404,
+    "customersAffected": 3385,
+    "customersOut": 3385,
     "customersRestored": 0,
     "customersServed": 54726,
-    "eventCustomersOut": 3402,
+    "eventCustomersOut": 3383,
     "hourlyCustomersOut": [
       {
         "at": "2026-11-13T23:00:00Z",
@@ -3184,11 +3125,11 @@
       },
       {
         "at": "2026-11-15T22:00:00Z",
-        "customersOut": 6575
+        "customersOut": 6556
       },
       {
         "at": "2026-11-15T23:00:00Z",
-        "customersOut": 3402
+        "customersOut": 3383
       }
     ],
     "locations": [
@@ -3205,7 +3146,6 @@
       "39D LINDBERG BAY TOP",
       "3ABB LINDBERG BAY",
       "3C-C ESTATE FORTUNA",
-      "3R AGNES FANCY",
       "4A LINDBERG BAY",
       "4-H BOTANY BAY (CONSTRUC)",
       "4X-D ESTATE FORTUNA MTR-1",
@@ -3218,23 +3158,8 @@
       "95A EST CONTANT",
       "9K CROWN & HAWK",
       "AGNES FANCY",
-      "AGNES FANCY 3B-1",
-      "AGNES FANCY 3C",
-      "AGNES FANCY 3D-1",
-      "AGNES FANCY 3F MTR-1",
-      "AGNES FANCY 3K",
-      "AGNES FANCY 3K-1",
-      "AGNES FANCY 3L",
-      "AGNES FANCY 3-N",
-      "AGNES FANCY 3Q",
-      "AGNES FANCY 3S",
       "AGNES FANCY 5-A",
       "AGNES FANCY 5B",
-      "AGNES FANCY 5D",
-      "AGNES FANCY 5D DWELLING",
-      "AGNES FANCY 5D DWN",
-      "AGNES FANCY 5E",
-      "AGNES FANCY 5-E",
       "AGNES FANCY 5F",
       "ANNAS RETREAT 394-115",
       "BAKKERO 3-DB MTR-A",
@@ -4246,7 +4171,6 @@
       "DOROTHEA 4-9-1 & A-11",
       "DOROTHEA 6BA REM",
       "DOROTHEA UP",
-      "EST AGNES FANCY 5H",
       "EST BATANY BAY 4-43",
       "EST BETHESDA",
       "EST BETHESDA 2-2 BLDG-A",
@@ -5774,8 +5698,8 @@
       "WATER ISLE 62",
       "WATER ISLE 63"
     ],
-    "totalOutages": 11
+    "totalOutages": 10
   },
   "staleAfterSeconds": 900,
-  "unassignedEventCount": 7
+  "unassignedEventCount": 6
 }
