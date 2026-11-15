@@ -78,6 +78,46 @@
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
+      "id": "13088af74d8d8f54c254d161e38c4ae42b7992ad3093a3fb96fc0bb838a2498d",
+      "island": null,
+      "locations": [
+        "CRUZAN PRINCESS",
+        "CRUZAN PRINCESS U-1",
+        "CRUZAN PRINCESS U-2",
+        "CRUZAN PRINCESS V-1",
+        "CRUZAN PRINCESS V-2",
+        "CRUZAN PRINCESS V-3",
+        "CRUZAN PRINCESS V-4",
+        "CRUZAN PRINCESS W-2",
+        "CRUZAN PRINCESS X-1",
+        "CRUZAN PRINCESS X-2",
+        "CRUZAN PRINCESS Y-1",
+        "CRUZAN PRINCESS Y-2",
+        "CRUZAN PRINCESS Z-1",
+        "CRUZAN PRINCESS Z-2",
+        "LA GRANDE PRINCESS",
+        "LA GRANDE PRINCESS 4129"
+      ],
+      "modifiedAt": "2026-11-15T11:26:35Z",
+      "name": "T-C-05168",
+      "neighborhoodIDs": [],
+      "point": {
+        "latitude": 17.763778628333924,
+        "longitude": -64.73312189743885
+      },
+      "reportedCustomersInitially": 18,
+      "reportedCustomersOut": 18,
+      "reportedCustomersRestored": 0,
+      "sourceStatus": "Predicted",
+      "startedAt": "2026-11-15T11:26:22Z",
+      "verified": false,
+      "workStatus": null
+    },
+    {
+      "cause": null,
+      "crewAssigned": false,
+      "endedAt": null,
+      "estimatedRestoration": null,
       "id": "16ccb890bc58ca948870bb04063f60838143de8afd970b5f15713326a57ef543",
       "island": null,
       "locations": [
@@ -207,6 +247,32 @@
       "reportedCustomersRestored": 0,
       "sourceStatus": "Predicted",
       "startedAt": "2026-11-15T03:37:08Z",
+      "verified": false,
+      "workStatus": null
+    },
+    {
+      "cause": null,
+      "crewAssigned": false,
+      "endedAt": null,
+      "estimatedRestoration": null,
+      "id": "34b8586b5b8bd20c85f3dbab0a2ed755efac7cae7de6a543d538be60f43314ce",
+      "island": null,
+      "locations": [
+        "CANE BAY",
+        "LA VALLEE 112-D NB"
+      ],
+      "modifiedAt": "2026-11-15T11:26:50Z",
+      "name": "T-C-11075",
+      "neighborhoodIDs": [],
+      "point": {
+        "latitude": 17.77666532848373,
+        "longitude": -64.80867026502872
+      },
+      "reportedCustomersInitially": 2,
+      "reportedCustomersOut": 2,
+      "reportedCustomersRestored": 0,
+      "sourceStatus": "Predicted",
+      "startedAt": "2026-11-15T11:26:22Z",
       "verified": false,
       "workStatus": null
     },
@@ -650,6 +716,47 @@
       "reportedCustomersRestored": 0,
       "sourceStatus": "Predicted",
       "startedAt": "2026-05-24T00:16:58Z",
+      "verified": false,
+      "workStatus": null
+    },
+    {
+      "cause": null,
+      "crewAssigned": false,
+      "endedAt": null,
+      "estimatedRestoration": null,
+      "id": "740744b37ed1b8eab226ee6e42ae49136f33545505dcd981bceedcbed43f9be1",
+      "island": null,
+      "locations": [
+        "MON BIJOU 327",
+        "MON BIJOU 340",
+        "MON BIJOU 341",
+        "MON BIJOU 349",
+        "MON BIJOU 359",
+        "MON BIJOU 366",
+        "MON BIJOU 368",
+        "MON BIJOU 374",
+        "MON BIJOU 375",
+        "MON BIJOU 376",
+        "MON BIJOU 377",
+        "MON BIJOU 378",
+        "MON BIJOU 383",
+        "MON BIJOU 384",
+        "MON BIJOU 385",
+        "MON BIJOU 386 EL",
+        "MON BIJOU 387"
+      ],
+      "modifiedAt": "2026-11-15T11:27:05Z",
+      "name": "T-C-13736",
+      "neighborhoodIDs": [],
+      "point": {
+        "latitude": 17.750173162250682,
+        "longitude": -64.7851480832717
+      },
+      "reportedCustomersInitially": 19,
+      "reportedCustomersOut": 19,
+      "reportedCustomersRestored": 0,
+      "sourceStatus": "Predicted",
+      "startedAt": "2026-11-15T11:26:40Z",
       "verified": false,
       "workStatus": null
     },
@@ -2129,7 +2236,7 @@
       "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-15T11:25:43Z",
+  "generatedAt": "2026-11-15T11:30:44Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -2490,21 +2597,21 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "a844ba8751235a67681f69b88b167b1edee7b0304b8b66a926b01523fbf85ebc",
+  "snapshotID": "a23068c939f54024fac6064e24978348d60f48290f4fd8f04bbfd4264678510e",
   "source": {
-    "checkedAt": "2026-11-15T11:25:43Z",
+    "checkedAt": "2026-11-15T11:30:44Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-15T11:25:30Z",
+    "updatedAt": "2026-11-15T11:30:30Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "sourceSummary": {
     "customerCountDifference": 2,
-    "customersAffected": 2690,
-    "customersOut": 1912,
+    "customersAffected": 2729,
+    "customersOut": 1951,
     "customersRestored": 778,
     "customersServed": 54726,
-    "eventCustomersOut": 1910,
+    "eventCustomersOut": 1949,
     "hourlyCustomersOut": [
       {
         "at": "2026-11-13T11:00:00Z",
@@ -2700,7 +2807,7 @@
       },
       {
         "at": "2026-11-15T11:00:00Z",
-        "customersOut": 1910
+        "customersOut": 1949
       }
     ],
     "locations": [
@@ -2963,6 +3070,7 @@
       "BONNE RESOLUTION 8D-3 A",
       "BONNE RESOLUTION BRASS VI",
       "BONNE ROSOLUTION 7A-1",
+      "CANE BAY",
       "CARIB VILLAS IV",
       "CAROLINA 10-30C-1A",
       "CAROLINA 10-30C-5",
@@ -3030,6 +3138,20 @@
       "CONTANT 5-4 2",
       "CONTANT 5-4 BLDG 2",
       "CONTANT PUMP (SOTO TOWN)",
+      "CRUZAN PRINCESS",
+      "CRUZAN PRINCESS U-1",
+      "CRUZAN PRINCESS U-2",
+      "CRUZAN PRINCESS V-1",
+      "CRUZAN PRINCESS V-2",
+      "CRUZAN PRINCESS V-3",
+      "CRUZAN PRINCESS V-4",
+      "CRUZAN PRINCESS W-2",
+      "CRUZAN PRINCESS X-1",
+      "CRUZAN PRINCESS X-2",
+      "CRUZAN PRINCESS Y-1",
+      "CRUZAN PRINCESS Y-2",
+      "CRUZAN PRINCESS Z-1",
+      "CRUZAN PRINCESS Z-2",
       "DOMINI GADE",
       "DOMINI TVER GADE 1",
       "DONOE 3 BLDG 1",
@@ -3641,6 +3763,8 @@
       "JOSEPH & ROSENDAHL 12A-16",
       "KOKOS STRADE 2 DWN",
       "LA GRANDE PRINCESS",
+      "LA GRANDE PRINCESS 4129",
+      "LA VALLEE 112-D NB",
       "LEARKENLUND EST 6C",
       "LERKENLUND",
       "LERKENLUND #4 MIDDLE FL",
@@ -3835,6 +3959,23 @@
       "MISGUNST NO. 5F",
       "MISGUNST TERRACE 2 CONDO",
       "MODULAR CLASSROOM - IEKHS",
+      "MON BIJOU 327",
+      "MON BIJOU 340",
+      "MON BIJOU 341",
+      "MON BIJOU 349",
+      "MON BIJOU 359",
+      "MON BIJOU 366",
+      "MON BIJOU 368",
+      "MON BIJOU 374",
+      "MON BIJOU 375",
+      "MON BIJOU 376",
+      "MON BIJOU 377",
+      "MON BIJOU 378",
+      "MON BIJOU 383",
+      "MON BIJOU 384",
+      "MON BIJOU 385",
+      "MON BIJOU 386 EL",
+      "MON BIJOU 387",
       "MURPHY GADE #6",
       "MURPHY GADE 1 & 2",
       "MURPHY GADE 1&2 APT 5",
@@ -4126,8 +4267,8 @@
       "ZUERIENDENHEIT",
       "ZUFRIDENHEIT 1"
     ],
-    "totalOutages": 28
+    "totalOutages": 31
   },
   "staleAfterSeconds": 900,
-  "unassignedEventCount": 23
+  "unassignedEventCount": 26
 }
