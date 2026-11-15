@@ -2409,6 +2409,7 @@
         "BARBADOS SAPP VIL 105A",
         "BARBADOS SAPP VILL 101A",
         "BARBADOS SAPP VILL 204E",
+        "CHARLOTTE AMALIE 26A-33-",
         "C-IF EST COKIE POINT",
         "COKI BEACH (FOOD VAN)",
         "COKI POINT",
@@ -3748,18 +3749,18 @@
         "WEST COND SAPP B-A",
         "WEST SAPPHIRE BAY CONDO"
       ],
-      "modifiedAt": "2026-11-15T13:10:14Z",
+      "modifiedAt": "2026-11-15T13:17:34Z",
       "name": "TSW-7C-7D-CASI-A",
       "neighborhoodIDs": [
         "stThomas-smith-bay"
       ],
       "point": {
         "latitude": 18.33854504600047,
-        "longitude": -64.86485504262069
+        "longitude": -64.86870595561189
       },
       "reportedCustomersInitially": 2076,
-      "reportedCustomersOut": 2076,
-      "reportedCustomersRestored": 0,
+      "reportedCustomersOut": 2077,
+      "reportedCustomersRestored": 1849,
       "sourceStatus": "Verified",
       "startedAt": "2026-11-15T13:09:58Z",
       "verified": true,
@@ -3797,7 +3798,7 @@
       "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-15T13:16:19Z",
+  "generatedAt": "2026-11-15T13:21:20Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -4604,21 +4605,21 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "feca99e6734249f42776642e7930cb8613e4c5615066afbb5564923d47460ca1",
+  "snapshotID": "9e24821e4d9901daff11339fef5b75a22688c922fdeab7df17414462974fd155",
   "source": {
-    "checkedAt": "2026-11-15T13:16:19Z",
+    "checkedAt": "2026-11-15T13:21:20Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-15T13:15:31Z",
+    "updatedAt": "2026-11-15T13:20:31Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "sourceSummary": {
     "customerCountDifference": 2,
-    "customersAffected": 4235,
-    "customersOut": 4235,
-    "customersRestored": 0,
+    "customersAffected": 6085,
+    "customersOut": 4236,
+    "customersRestored": 1849,
     "customersServed": 54726,
-    "eventCustomersOut": 4233,
+    "eventCustomersOut": 4234,
     "hourlyCustomersOut": [
       {
         "at": "2026-11-13T13:00:00Z",
@@ -4814,7 +4815,7 @@
       },
       {
         "at": "2026-11-15T13:00:00Z",
-        "customersOut": 4233
+        "customersOut": 6083
       }
     ],
     "locations": [
@@ -5441,6 +5442,7 @@
       "CARIB VILLAS IV",
       "CASTLE COAKLEY",
       "CASTLE COAKLEY 54",
+      "CHARLOTTE AMALIE 26A-33-",
       "C-IF EST COKIE POINT",
       "CLAIRMONT",
       "CLAIRMONT (APT)",
