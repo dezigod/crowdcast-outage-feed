@@ -305,6 +305,33 @@
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
+      "id": "32615e36b2f0beab5f5ea73d69da36fb8c2a7b86dbae55f8db5457e1bb2ff70c",
+      "island": null,
+      "locations": [
+        "MT PELLIER 3-B",
+        "MT PELLIER 3-B COTTAGE",
+        "MT PELLIER 3-C"
+      ],
+      "modifiedAt": "2026-11-15T11:45:01Z",
+      "name": "T-C-11455",
+      "neighborhoodIDs": [],
+      "point": {
+        "latitude": 17.761948531218852,
+        "longitude": -64.75601371438728
+      },
+      "reportedCustomersInitially": 3,
+      "reportedCustomersOut": 3,
+      "reportedCustomersRestored": 0,
+      "sourceStatus": "Predicted",
+      "startedAt": "2026-11-15T11:44:32Z",
+      "verified": false,
+      "workStatus": null
+    },
+    {
+      "cause": null,
+      "crewAssigned": false,
+      "endedAt": null,
+      "estimatedRestoration": null,
       "id": "32da8978f790431bfa93dad77e8f2a45cb9baf100f23aba23ff55e2bc61ccb30",
       "island": "stThomas",
       "locations": [
@@ -2425,7 +2452,7 @@
       "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-15T11:40:46Z",
+  "generatedAt": "2026-11-15T11:45:47Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -2786,21 +2813,21 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "d0feb7c051ed88d0bcce8c2dc672e2aa27858c937362d4ebc33cebcffc95f6bc",
+  "snapshotID": "9ffc48151e2b3cd6d77bc7352a015e3cf30f6ed3552df40444502e2e25d8c8ad",
   "source": {
-    "checkedAt": "2026-11-15T11:40:46Z",
+    "checkedAt": "2026-11-15T11:45:47Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-15T11:40:30Z",
+    "updatedAt": "2026-11-15T11:45:30Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "sourceSummary": {
     "customerCountDifference": 2,
-    "customersAffected": 2814,
-    "customersOut": 2036,
+    "customersAffected": 2817,
+    "customersOut": 2039,
     "customersRestored": 778,
     "customersServed": 54726,
-    "eventCustomersOut": 2034,
+    "eventCustomersOut": 2037,
     "hourlyCustomersOut": [
       {
         "at": "2026-11-13T11:00:00Z",
@@ -2996,7 +3023,7 @@
       },
       {
         "at": "2026-11-15T11:00:00Z",
-        "customersOut": 2034
+        "customersOut": 2037
       }
     ],
     "locations": [
@@ -4177,6 +4204,9 @@
       "MON BIJOU 385",
       "MON BIJOU 386 EL",
       "MON BIJOU 387",
+      "MT PELLIER 3-B",
+      "MT PELLIER 3-B COTTAGE",
+      "MT PELLIER 3-C",
       "MURPHY GADE #6",
       "MURPHY GADE 1 & 2",
       "MURPHY GADE 1&2 APT 5",
@@ -4524,8 +4554,8 @@
       "ZUERIENDENHEIT",
       "ZUFRIDENHEIT 1"
     ],
-    "totalOutages": 36
+    "totalOutages": 37
   },
   "staleAfterSeconds": 900,
-  "unassignedEventCount": 31
+  "unassignedEventCount": 32
 }
