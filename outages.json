@@ -245,6 +245,32 @@
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
+      "id": "2c09cce6034fd12abf4e75ce920314d0260b24ae5ffe52ae9bc876191e68da20",
+      "island": null,
+      "locations": [
+        "CORMORANT COVE (ENGLISH)",
+        "CORMORANT COVE CONDO HSE"
+      ],
+      "modifiedAt": "2026-11-15T12:00:40Z",
+      "name": "T-C-00467",
+      "neighborhoodIDs": [],
+      "point": {
+        "latitude": 17.76027695616939,
+        "longitude": -64.72835331949884
+      },
+      "reportedCustomersInitially": 15,
+      "reportedCustomersOut": 15,
+      "reportedCustomersRestored": 0,
+      "sourceStatus": "Predicted",
+      "startedAt": "2026-11-15T12:00:25Z",
+      "verified": false,
+      "workStatus": null
+    },
+    {
+      "cause": null,
+      "crewAssigned": false,
+      "endedAt": null,
+      "estimatedRestoration": null,
       "id": "2d4b7fe324d3277ae7d2f40b797720dd77873f143937dccce41afa7d4205f581",
       "island": null,
       "locations": [
@@ -2596,7 +2622,7 @@
       "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-15T12:00:51Z",
+  "generatedAt": "2026-11-15T12:05:53Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -2974,21 +3000,21 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "3e73e33a7d7eb81916a7d293ee5137687d9fcc97c362638e0a978dffab7ad50a",
+  "snapshotID": "c59bd50dc82724d091dd68f616263c9a8ed398d4531a3e22b9057c49caedbe33",
   "source": {
-    "checkedAt": "2026-11-15T12:00:51Z",
+    "checkedAt": "2026-11-15T12:05:53Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-15T12:00:30Z",
+    "updatedAt": "2026-11-15T12:05:30Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "sourceSummary": {
     "customerCountDifference": 2,
-    "customersAffected": 2934,
-    "customersOut": 2156,
+    "customersAffected": 2949,
+    "customersOut": 2171,
     "customersRestored": 778,
     "customersServed": 54726,
-    "eventCustomersOut": 2154,
+    "eventCustomersOut": 2169,
     "hourlyCustomersOut": [
       {
         "at": "2026-11-13T12:00:00Z",
@@ -3184,7 +3210,7 @@
       },
       {
         "at": "2026-11-15T12:00:00Z",
-        "customersOut": 2154
+        "customersOut": 2169
       }
     ],
     "locations": [
@@ -3566,6 +3592,8 @@
       "CONTANT 5-4 2",
       "CONTANT 5-4 BLDG 2",
       "CONTANT PUMP (SOTO TOWN)",
+      "CORMORANT COVE (ENGLISH)",
+      "CORMORANT COVE CONDO HSE",
       "CRUZAN PRINCESS",
       "CRUZAN PRINCESS U-1",
       "CRUZAN PRINCESS U-2",
@@ -4809,8 +4837,8 @@
       "ZUERIENDENHEIT",
       "ZUFRIDENHEIT 1"
     ],
-    "totalOutages": 39
+    "totalOutages": 40
   },
   "staleAfterSeconds": 900,
-  "unassignedEventCount": 34
+  "unassignedEventCount": 35
 }
