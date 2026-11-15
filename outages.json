@@ -1527,6 +1527,32 @@
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
+      "id": "a01a4a74859d212f0197e3de5cca3df3921fb19cec4e4c50aaffcd114177d5b8",
+      "island": null,
+      "locations": [
+        "CARIB VILLAS IV",
+        "LA GRANDE PRINCESS"
+      ],
+      "modifiedAt": "2026-11-15T11:24:02Z",
+      "name": "T-C-04070",
+      "neighborhoodIDs": [],
+      "point": {
+        "latitude": 17.765228817924424,
+        "longitude": -64.7408331220272
+      },
+      "reportedCustomersInitially": 22,
+      "reportedCustomersOut": 22,
+      "reportedCustomersRestored": 0,
+      "sourceStatus": "Predicted",
+      "startedAt": "2026-11-15T11:23:51Z",
+      "verified": false,
+      "workStatus": null
+    },
+    {
+      "cause": null,
+      "crewAssigned": false,
+      "endedAt": null,
+      "estimatedRestoration": null,
       "id": "a7622fe5ec3f7460243d64545ddffb42dc3c534b3876e2c938737688abde9c58",
       "island": "stThomas",
       "locations": [
@@ -1815,6 +1841,33 @@
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
+      "id": "cae0af0cb5a5ce4bd0846d8ce93043f0ca9f044ca46fd30d20901fec4ec42099",
+      "island": null,
+      "locations": [
+        "CONCORDIA 71 (EAST)",
+        "CONCORDIA 77",
+        "VISTA CONCORDIA 70"
+      ],
+      "modifiedAt": "2026-11-15T11:25:17Z",
+      "name": "T-C-08796",
+      "neighborhoodIDs": [],
+      "point": {
+        "latitude": 17.773750560886306,
+        "longitude": -64.7705577043577
+      },
+      "reportedCustomersInitially": 3,
+      "reportedCustomersOut": 3,
+      "reportedCustomersRestored": 0,
+      "sourceStatus": "Predicted",
+      "startedAt": "2026-11-15T11:24:53Z",
+      "verified": false,
+      "workStatus": null
+    },
+    {
+      "cause": null,
+      "crewAssigned": false,
+      "endedAt": null,
+      "estimatedRestoration": null,
       "id": "cbbd2ef62dee6d0405b3a5d5c18b1c3c5a5b4dbca8f2f81c8fc8d71e6fec7176",
       "island": "stThomas",
       "locations": [
@@ -1837,6 +1890,33 @@
       "sourceStatus": "Verified",
       "startedAt": "2026-10-14T15:23:16Z",
       "verified": true,
+      "workStatus": null
+    },
+    {
+      "cause": null,
+      "crewAssigned": false,
+      "endedAt": null,
+      "estimatedRestoration": null,
+      "id": "cf927b11f74a0f27cc696c62eeaa667dc3f857f2d71151e2b3db3e6e10401be7",
+      "island": null,
+      "locations": [
+        "BETSYS JEWEL",
+        "BETSYS JEWEL 10",
+        "BETSYS JEWEL 4"
+      ],
+      "modifiedAt": "2026-11-15T11:25:02Z",
+      "name": "T-C-22739",
+      "neighborhoodIDs": [],
+      "point": {
+        "latitude": 17.764903958062035,
+        "longitude": -64.7963201239863
+      },
+      "reportedCustomersInitially": 3,
+      "reportedCustomersOut": 3,
+      "reportedCustomersRestored": 0,
+      "sourceStatus": "Predicted",
+      "startedAt": "2026-11-15T11:24:36Z",
+      "verified": false,
       "workStatus": null
     },
     {
@@ -2049,7 +2129,7 @@
       "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-15T11:20:42Z",
+  "generatedAt": "2026-11-15T11:25:43Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -2410,21 +2490,21 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "edd972d0ffbfd8ac7e58ee55190d362461ef2803fac2d382c9742f3557713c09",
+  "snapshotID": "a844ba8751235a67681f69b88b167b1edee7b0304b8b66a926b01523fbf85ebc",
   "source": {
-    "checkedAt": "2026-11-15T11:20:42Z",
+    "checkedAt": "2026-11-15T11:25:43Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-15T11:20:30Z",
+    "updatedAt": "2026-11-15T11:25:30Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "sourceSummary": {
     "customerCountDifference": 2,
-    "customersAffected": 2662,
-    "customersOut": 1884,
+    "customersAffected": 2690,
+    "customersOut": 1912,
     "customersRestored": 778,
     "customersServed": 54726,
-    "eventCustomersOut": 1882,
+    "eventCustomersOut": 1910,
     "hourlyCustomersOut": [
       {
         "at": "2026-11-13T11:00:00Z",
@@ -2620,7 +2700,7 @@
       },
       {
         "at": "2026-11-15T11:00:00Z",
-        "customersOut": 1882
+        "customersOut": 1910
       }
     ],
     "locations": [
@@ -2801,6 +2881,9 @@
       "BERGS HOME BLDG-6",
       "BERGS HOME COMM CNTR",
       "BERGS HOME PUMP STATION",
+      "BETSYS JEWEL",
+      "BETSYS JEWEL 10",
+      "BETSYS JEWEL 4",
       "BONNE RESLOUTION 14-3",
       "BONNE RESOLUTION",
       "BONNE RESOLUTION #5-D",
@@ -2880,6 +2963,7 @@
       "BONNE RESOLUTION 8D-3 A",
       "BONNE RESOLUTION BRASS VI",
       "BONNE ROSOLUTION 7A-1",
+      "CARIB VILLAS IV",
       "CAROLINA 10-30C-1A",
       "CAROLINA 10-30C-5",
       "CASTLE COAKLEY",
@@ -2902,6 +2986,8 @@
       "COMMANDANT GADE 9 (DOWN)",
       "COMMANDANT GADE 9A",
       "COMMANDANT TVAER GADE 1B",
+      "CONCORDIA 71 (EAST)",
+      "CONCORDIA 77",
       "CONTAN 320",
       "CONTANT",
       "CONTANT 17",
@@ -3554,6 +3640,7 @@
       "JOHN DUNKOE 41",
       "JOSEPH & ROSENDAHL 12A-16",
       "KOKOS STRADE 2 DWN",
+      "LA GRANDE PRINCESS",
       "LEARKENLUND EST 6C",
       "LERKENLUND",
       "LERKENLUND #4 MIDDLE FL",
@@ -4022,6 +4109,7 @@
       "UPPER JOHN DUNKOE 2-8",
       "UPPER JOHN DUNKOE 38",
       "UPPER JOHN DUNKOE 39-1",
+      "VISTA CONCORDIA 70",
       "VOC SKILL CEN EST THO",
       "WINTBERG 339",
       "WINTBERG 339 COTTAGE \"\"A\"\"",
@@ -4038,8 +4126,8 @@
       "ZUERIENDENHEIT",
       "ZUFRIDENHEIT 1"
     ],
-    "totalOutages": 25
+    "totalOutages": 28
   },
   "staleAfterSeconds": 900,
-  "unassignedEventCount": 20
+  "unassignedEventCount": 23
 }
