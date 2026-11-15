@@ -73,6 +73,36 @@
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
+      "id": "266fc0baaef707fbafc26706e549ddd2a061435b989c0e76d9bfa716f78a8c44",
+      "island": null,
+      "locations": [
+        "HARMONY 4-36",
+        "TABOR & HARMONY 4-18",
+        "TABOR & HARMONY 4-19",
+        "TABOR & HARMONY 4-21",
+        "TABOR & HARMONY 4-21 UP",
+        "TABOR & HARMONY 4-32"
+      ],
+      "modifiedAt": "2026-11-15T02:27:24Z",
+      "name": "T-T-15213",
+      "neighborhoodIDs": [],
+      "point": {
+        "latitude": 18.354157539831824,
+        "longitude": -64.88482467855287
+      },
+      "reportedCustomersInitially": 6,
+      "reportedCustomersOut": 6,
+      "reportedCustomersRestored": 0,
+      "sourceStatus": "Predicted",
+      "startedAt": "2026-11-15T02:26:52Z",
+      "verified": false,
+      "workStatus": null
+    },
+    {
+      "cause": null,
+      "crewAssigned": false,
+      "endedAt": null,
+      "estimatedRestoration": null,
       "id": "466bc9614c76460646f6e693474c200e210063775b3dac783172ab48908c90e8",
       "island": null,
       "locations": [
@@ -729,6 +759,48 @@
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
+      "id": "b5e94f0a64ccd09652e05bdffddc4f6a97953c6e9900bc31d373931c101c1050",
+      "island": null,
+      "locations": [
+        "ANNAS RETREAT 143",
+        "ANNAS RETREAT 143-10 UP",
+        "ANNAS RETREAT 143-12",
+        "ANNAS RETREAT 143-12A",
+        "ANNAS RETREAT 143A-10",
+        "ANNAS RETREAT 143A-11",
+        "ANNAS RETREAT 143A-13 UP",
+        "ANNAS RETREAT 143A-13D",
+        "ANNAS RETREAT 143-A-15",
+        "ANNAS RETREAT 143A-16",
+        "ANNAS RETREAT 143A-16A",
+        "ANNAS RETREAT 143A-17",
+        "ANNAS RETREAT 143A-18D",
+        "ANNAS RETREAT 143A-6",
+        "ANNAS RETREAT 143A-8",
+        "ANNAS RETREAT 143A-9",
+        "ANNAS RETREAT 404-26",
+        "ANNAS RETREAT 404-27"
+      ],
+      "modifiedAt": "2026-11-15T02:28:58Z",
+      "name": "T-T-06893",
+      "neighborhoodIDs": [],
+      "point": {
+        "latitude": 18.344567532954137,
+        "longitude": -64.89048243309708
+      },
+      "reportedCustomersInitially": 22,
+      "reportedCustomersOut": 22,
+      "reportedCustomersRestored": 0,
+      "sourceStatus": "Predicted",
+      "startedAt": "2026-11-15T02:28:35Z",
+      "verified": false,
+      "workStatus": null
+    },
+    {
+      "cause": null,
+      "crewAssigned": false,
+      "endedAt": null,
+      "estimatedRestoration": null,
       "id": "cbbd2ef62dee6d0405b3a5d5c18b1c3c5a5b4dbca8f2f81c8fc8d71e6fec7176",
       "island": "stThomas",
       "locations": [
@@ -754,7 +826,7 @@
       "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-15T02:26:01Z",
+  "generatedAt": "2026-11-15T02:31:02Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -871,21 +943,21 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "678d3ee5ac828e4f16af3c5827e17a832c4a1adde4566d4b3034239e3d5d5d93",
+  "snapshotID": "317ed1d5ef75b4c54beef0bb100f94bfe7c1209d84c16123e210c3e128e96996",
   "source": {
-    "checkedAt": "2026-11-15T02:26:01Z",
+    "checkedAt": "2026-11-15T02:31:02Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-15T02:25:30Z",
+    "updatedAt": "2026-11-15T02:30:30Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "sourceSummary": {
     "customerCountDifference": 2,
-    "customersAffected": 2116,
-    "customersOut": 694,
+    "customersAffected": 2144,
+    "customersOut": 722,
     "customersRestored": 1422,
     "customersServed": 54726,
-    "eventCustomersOut": 692,
+    "eventCustomersOut": 720,
     "hourlyCustomersOut": [
       {
         "at": "2026-11-13T02:00:00Z",
@@ -1081,7 +1153,7 @@
       },
       {
         "at": "2026-11-15T02:00:00Z",
-        "customersOut": 692
+        "customersOut": 720
       }
     ],
     "locations": [
@@ -1157,6 +1229,24 @@
       "ANNAS FANCY 130B",
       "ANNAS FANCY 130D & E",
       "ANNAS FANCY 130H",
+      "ANNAS RETREAT 143",
+      "ANNAS RETREAT 143-10 UP",
+      "ANNAS RETREAT 143-12",
+      "ANNAS RETREAT 143-12A",
+      "ANNAS RETREAT 143A-10",
+      "ANNAS RETREAT 143A-11",
+      "ANNAS RETREAT 143A-13 UP",
+      "ANNAS RETREAT 143A-13D",
+      "ANNAS RETREAT 143-A-15",
+      "ANNAS RETREAT 143A-16",
+      "ANNAS RETREAT 143A-16A",
+      "ANNAS RETREAT 143A-17",
+      "ANNAS RETREAT 143A-18D",
+      "ANNAS RETREAT 143A-6",
+      "ANNAS RETREAT 143A-8",
+      "ANNAS RETREAT 143A-9",
+      "ANNAS RETREAT 404-26",
+      "ANNAS RETREAT 404-27",
       "BONNE RESOLUTION",
       "BONNE RESOLUTION #5-D",
       "BONNE RESOLUTION 10-1",
@@ -1463,6 +1553,7 @@
       "ESTATE BOVONI BAY",
       "ESTATE BOVONI BAY 4",
       "ESTATE DOROTHEA 13-E",
+      "HARMONY 4-36",
       "JOHN DUNKOE",
       "JOHN DUNKOE 41",
       "LERKENLUND 7D 2A",
@@ -1577,6 +1668,11 @@
       "SUBBASE 100",
       "SUBBASE 101 (EL)",
       "SUBBASE 69",
+      "TABOR & HARMONY 4-18",
+      "TABOR & HARMONY 4-19",
+      "TABOR & HARMONY 4-21",
+      "TABOR & HARMONY 4-21 UP",
+      "TABOR & HARMONY 4-32",
       "UPPER JOHN DONKO 2-5 MTR",
       "UPPER JOHN DUNKO",
       "UPPER JOHN DUNKO 2-10",
@@ -1590,8 +1686,8 @@
       "UPPER JOHN DUNKOE 38",
       "UPPER JOHN DUNKOE 39-1"
     ],
-    "totalOutages": 10
+    "totalOutages": 12
   },
   "staleAfterSeconds": 900,
-  "unassignedEventCount": 7
+  "unassignedEventCount": 9
 }
