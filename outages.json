@@ -116,6 +116,50 @@
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
+      "id": "8baf546294e3a402b34d6a44f594bd96d50e5fa7c2d97129d541721dc4b8fcab",
+      "island": null,
+      "locations": [
+        "3R AGNES FANCY",
+        "AGNES FANCY",
+        "AGNES FANCY 3B-1",
+        "AGNES FANCY 3C",
+        "AGNES FANCY 3D-1",
+        "AGNES FANCY 3F MTR-1",
+        "AGNES FANCY 3K",
+        "AGNES FANCY 3K-1",
+        "AGNES FANCY 3L",
+        "AGNES FANCY 3-N",
+        "AGNES FANCY 3Q",
+        "AGNES FANCY 3S",
+        "AGNES FANCY 5D",
+        "AGNES FANCY 5D DWELLING",
+        "AGNES FANCY 5D DWN",
+        "AGNES FANCY 5E",
+        "AGNES FANCY 5-E",
+        "EST AGNES FANCY 5H"
+      ],
+      "modifiedAt": "2026-11-15T22:08:31Z",
+      "name": "T-T-04226",
+      "neighborhoodIDs": [
+        "stThomas-agnes-fancy"
+      ],
+      "point": {
+        "latitude": 18.349069598570136,
+        "longitude": -64.9351704926616
+      },
+      "reportedCustomersInitially": 19,
+      "reportedCustomersOut": 19,
+      "reportedCustomersRestored": 0,
+      "sourceStatus": "Predicted",
+      "startedAt": "2026-11-15T22:07:59Z",
+      "verified": false,
+      "workStatus": null
+    },
+    {
+      "cause": null,
+      "crewAssigned": false,
+      "endedAt": null,
+      "estimatedRestoration": null,
       "id": "8dd513ccb7336bcfff1b9d0d147ca28a0aff6958052494cdc32bec8a10898bf7",
       "island": null,
       "locations": [
@@ -2856,7 +2900,7 @@
       "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-15T22:06:04Z",
+  "generatedAt": "2026-11-15T22:11:05Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -2870,16 +2914,31 @@
           "id": "stThomas-agnes-fancy",
           "island": "stThomas",
           "locations": [
+            "3-N",
+            "3B-1",
+            "3C",
+            "3D-1",
+            "3F MTR-1",
+            "3K",
+            "3K-1",
+            "3L",
+            "3Q",
+            "3S",
             "5-A",
+            "5-E",
             "5B",
+            "5D",
+            "5D DWELLING",
+            "5E",
             "5F"
           ],
           "name": "Agnes Fancy",
           "sourceEventIDs": [
-            "688d24f7b6e72cb60f9dd7cfcfc315b9ee0efe7095b9fbf192b7ed84c8031d54"
+            "688d24f7b6e72cb60f9dd7cfcfc315b9ee0efe7095b9fbf192b7ed84c8031d54",
+            "8baf546294e3a402b34d6a44f594bd96d50e5fa7c2d97129d541721dc4b8fcab"
           ],
           "sourceStatus": "Predicted",
-          "startedAt": "2026-05-24T00:16:58Z"
+          "startedAt": null
         },
         {
           "affectedCustomers": null,
@@ -3059,21 +3118,21 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "461e6340c75d7b87d8ae1e903c125a281706afc5fd514e972a755e86e6e8a9b5",
+  "snapshotID": "e89f322abad49cd3ed6dfc838e04ae1ccd8605af5dd23562dae074bf7744d63a",
   "source": {
-    "checkedAt": "2026-11-15T22:06:04Z",
+    "checkedAt": "2026-11-15T22:11:05Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-15T22:05:32Z",
+    "updatedAt": "2026-11-15T22:10:32Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "sourceSummary": {
     "customerCountDifference": 2,
-    "customersAffected": 3251,
-    "customersOut": 3251,
+    "customersAffected": 3270,
+    "customersOut": 3270,
     "customersRestored": 0,
     "customersServed": 54726,
-    "eventCustomersOut": 3249,
+    "eventCustomersOut": 3268,
     "hourlyCustomersOut": [
       {
         "at": "2026-11-13T22:00:00Z",
@@ -3269,7 +3328,7 @@
       },
       {
         "at": "2026-11-15T22:00:00Z",
-        "customersOut": 3249
+        "customersOut": 3268
       }
     ],
     "locations": [
@@ -3287,6 +3346,7 @@
       "3-1B NADIR",
       "3M BAKKERO",
       "3R -1-2 ESTATE MARIENDAHL",
+      "3R AGNES FANCY",
       "4F EST NADIR",
       "60B BOLONGO (DOWN)",
       "6B-F EST THOMAS WAREHSE J",
@@ -3301,8 +3361,23 @@
       "9H-REMAINDER EST NAZARETH",
       "ACHORAGE CONDO RESOLUTED",
       "AGNES FANCY",
+      "AGNES FANCY 3B-1",
+      "AGNES FANCY 3C",
+      "AGNES FANCY 3D-1",
+      "AGNES FANCY 3F MTR-1",
+      "AGNES FANCY 3K",
+      "AGNES FANCY 3K-1",
+      "AGNES FANCY 3L",
+      "AGNES FANCY 3-N",
+      "AGNES FANCY 3Q",
+      "AGNES FANCY 3S",
       "AGNES FANCY 5-A",
       "AGNES FANCY 5B",
+      "AGNES FANCY 5D",
+      "AGNES FANCY 5D DWELLING",
+      "AGNES FANCY 5D DWN",
+      "AGNES FANCY 5E",
+      "AGNES FANCY 5-E",
       "AGNES FANCY 5F",
       "AMERICA ANCHOR CONDO 224",
       "ANCH CONDO RES #216",
@@ -3807,6 +3882,7 @@
       "DRONNINGENS GADE",
       "E WIND B-3 VESSUP BAY",
       "EAST END SUBSTATION B2A",
+      "EST AGNES FANCY 5H",
       "EST BAKKERO",
       "EST BAKKERO 1-11",
       "EST BAKKERO 1-55",
@@ -5900,8 +5976,8 @@
       "WEST INDIAN CO DOCK B-1",
       "WIC DOCK BAY BLDG-2"
     ],
-    "totalOutages": 9
+    "totalOutages": 10
   },
   "staleAfterSeconds": 900,
-  "unassignedEventCount": 5
+  "unassignedEventCount": 6
 }
