@@ -621,7 +621,7 @@
         "UPPER JOHN DUNKOE 38",
         "UPPER JOHN DUNKOE 39-1"
       ],
-      "modifiedAt": "2026-11-14T21:03:01Z",
+      "modifiedAt": "2026-11-15T03:29:03Z",
       "name": "STT_17502",
       "neighborhoodIDs": [
         "stThomas-st-peter"
@@ -898,9 +898,45 @@
       "startedAt": "2026-10-14T15:23:16Z",
       "verified": true,
       "workStatus": null
+    },
+    {
+      "cause": null,
+      "crewAssigned": false,
+      "endedAt": null,
+      "estimatedRestoration": null,
+      "id": "e9f224a8eb11baca2171c7193dbd2fcdad1033c9b065241d767bcd6605b27fa5",
+      "island": null,
+      "locations": [
+        "ANNAS RETREAT",
+        "ANNAS RETREAT 215-33",
+        "ANNAS RETREAT 215-34",
+        "ANNAS RETREAT 215-35",
+        "ANNAS RETREAT 215-36 (EL)",
+        "ANNAS RETREAT 215-36 DWN",
+        "ANNAS RETREAT 404-28",
+        "ANNAS RETREAT 404-30",
+        "ANNAS RETREAT 404-305",
+        "ANNAS RETREAT 404-31",
+        "ANNAS RETREAT 404-32",
+        "ANNAS RETREAT MTR 3"
+      ],
+      "modifiedAt": "2026-11-15T03:29:28Z",
+      "name": "T-T-06872",
+      "neighborhoodIDs": [],
+      "point": {
+        "latitude": 18.345238299469635,
+        "longitude": -64.8916240943743
+      },
+      "reportedCustomersInitially": 14,
+      "reportedCustomersOut": 14,
+      "reportedCustomersRestored": 0,
+      "sourceStatus": "Predicted",
+      "startedAt": "2026-11-15T03:28:43Z",
+      "verified": false,
+      "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-15T03:26:17Z",
+  "generatedAt": "2026-11-15T03:31:19Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -1017,25 +1053,25 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "7463b0db73255434b19be2298f9df48d6d4388bd861f5cf9e0c8b8cd56120b71",
+  "snapshotID": "66370673bb51625198fb54f81ecd66f17f5f8331f1089be6fc5de2ef54eed124",
   "source": {
-    "checkedAt": "2026-11-15T03:26:17Z",
+    "checkedAt": "2026-11-15T03:31:19Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-15T03:25:29Z",
+    "updatedAt": "2026-11-15T03:30:29Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "sourceSummary": {
     "customerCountDifference": 2,
-    "customersAffected": 2204,
-    "customersOut": 782,
+    "customersAffected": 2218,
+    "customersOut": 796,
     "customersRestored": 1422,
     "customersServed": 54726,
-    "eventCustomersOut": 780,
+    "eventCustomersOut": 794,
     "hourlyCustomersOut": [
       {
         "at": "2026-11-13T03:00:00Z",
-        "customersOut": 2310
+        "customersOut": 234
       },
       {
         "at": "2026-11-13T04:00:00Z",
@@ -1227,7 +1263,7 @@
       },
       {
         "at": "2026-11-15T03:00:00Z",
-        "customersOut": 780
+        "customersOut": 794
       }
     ],
     "locations": [
@@ -1303,6 +1339,18 @@
       "ANNAS FANCY 130B",
       "ANNAS FANCY 130D & E",
       "ANNAS FANCY 130H",
+      "ANNAS RETREAT",
+      "ANNAS RETREAT 215-33",
+      "ANNAS RETREAT 215-34",
+      "ANNAS RETREAT 215-35",
+      "ANNAS RETREAT 215-36 (EL)",
+      "ANNAS RETREAT 215-36 DWN",
+      "ANNAS RETREAT 404-28",
+      "ANNAS RETREAT 404-30",
+      "ANNAS RETREAT 404-305",
+      "ANNAS RETREAT 404-31",
+      "ANNAS RETREAT 404-32",
+      "ANNAS RETREAT MTR 3",
       "BONNE RESOLUTION",
       "BONNE RESOLUTION #5-D",
       "BONNE RESOLUTION 10-1",
@@ -1809,8 +1857,8 @@
       "UPPER JOHN DUNKOE 38",
       "UPPER JOHN DUNKOE 39-1"
     ],
-    "totalOutages": 13
+    "totalOutages": 14
   },
   "staleAfterSeconds": 900,
-  "unassignedEventCount": 10
+  "unassignedEventCount": 11
 }
