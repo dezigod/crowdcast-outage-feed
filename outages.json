@@ -6,6 +6,35 @@
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
+      "id": "10fd40fe16ecde1f0d4aad463a8326c09efb51f868ea5835cee698974360ef58",
+      "island": null,
+      "locations": [
+        "MANDAHL 2 A-2",
+        "MANDAHL 2A-1",
+        "MANDAHL 2A-1 APT 1",
+        "MANDAHL 2A-1 HSE",
+        "MANDAHL 2-A-2"
+      ],
+      "modifiedAt": "2026-11-15T02:24:08Z",
+      "name": "T-T-07309",
+      "neighborhoodIDs": [],
+      "point": {
+        "latitude": 18.35395103922831,
+        "longitude": -64.90184928361165
+      },
+      "reportedCustomersInitially": 10,
+      "reportedCustomersOut": 10,
+      "reportedCustomersRestored": 0,
+      "sourceStatus": "Predicted",
+      "startedAt": "2026-11-15T02:24:01Z",
+      "verified": false,
+      "workStatus": null
+    },
+    {
+      "cause": null,
+      "crewAssigned": false,
+      "endedAt": null,
+      "estimatedRestoration": null,
       "id": "18dee7218c38beab4adcb748c20179d33adb794058aa995934b28c482c32a956",
       "island": null,
       "locations": [
@@ -725,7 +754,7 @@
       "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-15T02:21:00Z",
+  "generatedAt": "2026-11-15T02:26:01Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -842,21 +871,21 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "b6dae22511248fde66fc4a4a6bcd96a01c90a542c19c68b4ee6cea54ce4114c7",
+  "snapshotID": "678d3ee5ac828e4f16af3c5827e17a832c4a1adde4566d4b3034239e3d5d5d93",
   "source": {
-    "checkedAt": "2026-11-15T02:21:00Z",
+    "checkedAt": "2026-11-15T02:26:01Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-15T02:20:29Z",
+    "updatedAt": "2026-11-15T02:25:30Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "sourceSummary": {
     "customerCountDifference": 2,
-    "customersAffected": 2106,
-    "customersOut": 684,
+    "customersAffected": 2116,
+    "customersOut": 694,
     "customersRestored": 1422,
     "customersServed": 54726,
-    "eventCustomersOut": 682,
+    "eventCustomersOut": 692,
     "hourlyCustomersOut": [
       {
         "at": "2026-11-13T02:00:00Z",
@@ -1052,7 +1081,7 @@
       },
       {
         "at": "2026-11-15T02:00:00Z",
-        "customersOut": 682
+        "customersOut": 692
       }
     ],
     "locations": [
@@ -1450,6 +1479,11 @@
       "LILLIENDAHL 5-2A A-1",
       "LILLIENDAHL/MARIENHOJ 5-1",
       "LOVENLUND EST FARMHOUSE",
+      "MANDAHL 2 A-2",
+      "MANDAHL 2A-1",
+      "MANDAHL 2A-1 APT 1",
+      "MANDAHL 2A-1 HSE",
+      "MANDAHL 2-A-2",
       "NELTIBERG 43",
       "NELTJBERG 12F",
       "NELTJEBERG 12D",
@@ -1556,8 +1590,8 @@
       "UPPER JOHN DUNKOE 38",
       "UPPER JOHN DUNKOE 39-1"
     ],
-    "totalOutages": 9
+    "totalOutages": 10
   },
   "staleAfterSeconds": 900,
-  "unassignedEventCount": 6
+  "unassignedEventCount": 7
 }
