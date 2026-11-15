@@ -1435,6 +1435,43 @@
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
+      "id": "3e6ed4a5270cd30044958d7c96896d64acd8e6fe3a074c4e1248ca1707dbf69b",
+      "island": null,
+      "locations": [
+        "MAHOGANY RUN 17M MTR 4",
+        "MAHOGANY RUN 17U A-386",
+        "MAHOGANY RUN 19U",
+        "MAHOGANY RUN B-17 A-389",
+        "MAHOGANY RUN B18",
+        "MAHOGANY RUN COND 20",
+        "MAHOGANY RUN COND0 B-19",
+        "MAHOGANY RUN CONDO 20W",
+        "MAHOGANY RUN CONDO B-10",
+        "MAHOGANY RUN CONDO B-18",
+        "MAHOGANY RUN CONDO B-19",
+        "MAHOGANY RUN CONDO B-20",
+        "MAHOGONY RUN CONDO 20L"
+      ],
+      "modifiedAt": "2026-11-15T02:45:49Z",
+      "name": "T-T-17270",
+      "neighborhoodIDs": [],
+      "point": {
+        "latitude": 18.363170241078116,
+        "longitude": -64.90518530625968
+      },
+      "reportedCustomersInitially": 15,
+      "reportedCustomersOut": 15,
+      "reportedCustomersRestored": 0,
+      "sourceStatus": "Predicted",
+      "startedAt": "2026-11-15T02:45:33Z",
+      "verified": false,
+      "workStatus": null
+    },
+    {
+      "cause": null,
+      "crewAssigned": false,
+      "endedAt": null,
+      "estimatedRestoration": null,
       "id": "466bc9614c76460646f6e693474c200e210063775b3dac783172ab48908c90e8",
       "island": null,
       "locations": [
@@ -2064,6 +2101,34 @@
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
+      "id": "9695d68dab2c1205ce84d61068c6cf49cb168f892a5e63acbda669f9b110ce66",
+      "island": null,
+      "locations": [
+        "C-IF EST COKIE POINT",
+        "COKI POINT C-1A",
+        "COKI POINT C1-C",
+        "COKI POINT C-1F DOWN"
+      ],
+      "modifiedAt": "2026-11-15T02:48:36Z",
+      "name": "T-T-07927",
+      "neighborhoodIDs": [],
+      "point": {
+        "latitude": 18.349281734945112,
+        "longitude": -64.86340460963713
+      },
+      "reportedCustomersInitially": 4,
+      "reportedCustomersOut": 4,
+      "reportedCustomersRestored": 0,
+      "sourceStatus": "Predicted",
+      "startedAt": "2026-11-15T02:48:16Z",
+      "verified": false,
+      "workStatus": null
+    },
+    {
+      "cause": null,
+      "crewAssigned": false,
+      "endedAt": null,
+      "estimatedRestoration": null,
       "id": "a7622fe5ec3f7460243d64545ddffb42dc3c534b3876e2c938737688abde9c58",
       "island": "stThomas",
       "locations": [
@@ -2215,7 +2280,7 @@
       "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-15T02:46:05Z",
+  "generatedAt": "2026-11-15T02:51:07Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -2367,21 +2432,21 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "3a58f1d0855d33512628e621b3a3eef06103cec28bca5cab9678451823a39641",
+  "snapshotID": "ec341a8a706adc278f1312f54516d87f29cb258790143955cd45e83883f60319",
   "source": {
-    "checkedAt": "2026-11-15T02:46:05Z",
+    "checkedAt": "2026-11-15T02:51:07Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-15T02:45:30Z",
+    "updatedAt": "2026-11-15T02:50:30Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "sourceSummary": {
     "customerCountDifference": 2,
-    "customersAffected": 3809,
-    "customersOut": 2387,
+    "customersAffected": 3828,
+    "customersOut": 2406,
     "customersRestored": 1422,
     "customersServed": 54726,
-    "eventCustomersOut": 2385,
+    "eventCustomersOut": 2404,
     "hourlyCustomersOut": [
       {
         "at": "2026-11-13T02:00:00Z",
@@ -2577,7 +2642,7 @@
       },
       {
         "at": "2026-11-15T02:00:00Z",
-        "customersOut": 2385
+        "customersOut": 2404
       }
     ],
     "locations": [
@@ -3228,7 +3293,11 @@
       "CHARLOTTE AMALIE 5C",
       "CHARLOTTE AMALIE 7",
       "CHARLOTTE AMALIE 7 U-D",
+      "C-IF EST COKIE POINT",
       "COKI POINT",
+      "COKI POINT C-1A",
+      "COKI POINT C1-C",
+      "COKI POINT C-1F DOWN",
       "CONTAN 320",
       "CONTANT 319",
       "CONTANT 320",
@@ -3755,7 +3824,20 @@
       "LOVENLUND PCL B-14",
       "LOVENLUND SEWAGE",
       "MAGENHAABET DEGUNST 8",
+      "MAHOGANY RUN 17M MTR 4",
+      "MAHOGANY RUN 17U A-386",
+      "MAHOGANY RUN 19U",
+      "MAHOGANY RUN B-17 A-389",
+      "MAHOGANY RUN B18",
+      "MAHOGANY RUN COND 20",
+      "MAHOGANY RUN COND0 B-19",
+      "MAHOGANY RUN CONDO 20W",
+      "MAHOGANY RUN CONDO B-10",
+      "MAHOGANY RUN CONDO B-18",
+      "MAHOGANY RUN CONDO B-19",
+      "MAHOGANY RUN CONDO B-20",
       "MAHOGANY RUN SECURITY",
+      "MAHOGONY RUN CONDO 20L",
       "MANDAHL #1",
       "MANDAHL 11A",
       "MANDAHL 11AD",
@@ -4447,8 +4529,8 @@
       "WINTBERG HEIGHTS 217 B-3",
       "WINTBERG REM 1B2-2 REM"
     ],
-    "totalOutages": 14
+    "totalOutages": 16
   },
   "staleAfterSeconds": 900,
-  "unassignedEventCount": 11
+  "unassignedEventCount": 13
 }
