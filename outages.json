@@ -2678,6 +2678,43 @@
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
+      "id": "700cd24c5bb7a85f72408325893ba9e14846e1d0dd68e171dd3cffdbac22aacc",
+      "island": null,
+      "locations": [
+        "MAHOGANY RUN 17M MTR 4",
+        "MAHOGANY RUN 17U A-386",
+        "MAHOGANY RUN 19U",
+        "MAHOGANY RUN B-17 A-389",
+        "MAHOGANY RUN B18",
+        "MAHOGANY RUN COND 20",
+        "MAHOGANY RUN COND0 B-19",
+        "MAHOGANY RUN CONDO 20W",
+        "MAHOGANY RUN CONDO B-10",
+        "MAHOGANY RUN CONDO B-18",
+        "MAHOGANY RUN CONDO B-19",
+        "MAHOGANY RUN CONDO B-20",
+        "MAHOGONY RUN CONDO 20L"
+      ],
+      "modifiedAt": "2026-11-15T23:49:01Z",
+      "name": "T-T-17270",
+      "neighborhoodIDs": [],
+      "point": {
+        "latitude": 18.363170241078116,
+        "longitude": -64.90518530625968
+      },
+      "reportedCustomersInitially": 15,
+      "reportedCustomersOut": 15,
+      "reportedCustomersRestored": 0,
+      "sourceStatus": "Predicted",
+      "startedAt": "2026-11-15T23:48:37Z",
+      "verified": false,
+      "workStatus": null
+    },
+    {
+      "cause": null,
+      "crewAssigned": false,
+      "endedAt": null,
+      "estimatedRestoration": null,
       "id": "8baf546294e3a402b34d6a44f594bd96d50e5fa7c2d97129d541721dc4b8fcab",
       "island": null,
       "locations": [
@@ -2824,7 +2861,7 @@
       "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-15T23:45:37Z",
+  "generatedAt": "2026-11-15T23:50:39Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -2941,21 +2978,21 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "db4141f4db310423f6d52d88e4d3bf3a36729916cec0980fcbb45909f6c52cbd",
+  "snapshotID": "2760a06161b547b5fc982e049d541f9816a9b648270c7a41b88acf0a6ee0f3b2",
   "source": {
-    "checkedAt": "2026-11-15T23:45:37Z",
+    "checkedAt": "2026-11-15T23:50:39Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-15T23:45:33Z",
+    "updatedAt": "2026-11-15T23:50:33Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "sourceSummary": {
     "customerCountDifference": 2,
-    "customersAffected": 3389,
-    "customersOut": 3389,
+    "customersAffected": 3404,
+    "customersOut": 3404,
     "customersRestored": 0,
     "customersServed": 54726,
-    "eventCustomersOut": 3387,
+    "eventCustomersOut": 3402,
     "hourlyCustomersOut": [
       {
         "at": "2026-11-13T23:00:00Z",
@@ -3151,7 +3188,7 @@
       },
       {
         "at": "2026-11-15T23:00:00Z",
-        "customersOut": 3387
+        "customersOut": 3402
       }
     ],
     "locations": [
@@ -5295,6 +5332,19 @@
       "LINDBERGH BAY 46-11",
       "LOT # 5 KRUM BAY",
       "LOVENLUND EST FARMHOUSE",
+      "MAHOGANY RUN 17M MTR 4",
+      "MAHOGANY RUN 17U A-386",
+      "MAHOGANY RUN 19U",
+      "MAHOGANY RUN B-17 A-389",
+      "MAHOGANY RUN B18",
+      "MAHOGANY RUN COND 20",
+      "MAHOGANY RUN COND0 B-19",
+      "MAHOGANY RUN CONDO 20W",
+      "MAHOGANY RUN CONDO B-10",
+      "MAHOGANY RUN CONDO B-18",
+      "MAHOGANY RUN CONDO B-19",
+      "MAHOGANY RUN CONDO B-20",
+      "MAHOGONY RUN CONDO 20L",
       "MJK TERR BLDG 18",
       "MJK TERR BLDG 18 APT 91",
       "MJK TERR BLDG 18 APT 93",
@@ -5724,8 +5774,8 @@
       "WATER ISLE 62",
       "WATER ISLE 63"
     ],
-    "totalOutages": 10
+    "totalOutages": 11
   },
   "staleAfterSeconds": 900,
-  "unassignedEventCount": 6
+  "unassignedEventCount": 7
 }
