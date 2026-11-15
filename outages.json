@@ -721,31 +721,6 @@
       "workStatus": null
     },
     {
-      "cause": "190 Other planned",
-      "crewAssigned": false,
-      "endedAt": null,
-      "estimatedRestoration": null,
-      "id": "93b8b98fba3454b44f5ed08eda42cc049f0298fabcee0f662e5741464c19a0cd",
-      "island": null,
-      "locations": [
-        "CHARLOTTE AMALIE 26A-33-"
-      ],
-      "modifiedAt": "2026-11-15T13:25:23Z",
-      "name": "Feeder 07C",
-      "neighborhoodIDs": [],
-      "point": {
-        "latitude": 18.34059508788897,
-        "longitude": -64.88882169172471
-      },
-      "reportedCustomersInitially": 1850,
-      "reportedCustomersOut": 1,
-      "reportedCustomersRestored": 1849,
-      "sourceStatus": "Verified",
-      "startedAt": "2026-11-15T13:22:10Z",
-      "verified": true,
-      "workStatus": null
-    },
-    {
       "cause": null,
       "crewAssigned": false,
       "endedAt": null,
@@ -2560,7 +2535,7 @@
       "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-15T13:26:22Z",
+  "generatedAt": "2026-11-15T13:31:24Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -3337,21 +3312,21 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "35d5658cae221cae795327c602f457c709a52f03a28a1c9f9d2ed1bc2a400606",
+  "snapshotID": "bf31c427a1fc33b2a945f2305fc50e084d16ae8709aa46e39064c36539aa772c",
   "source": {
-    "checkedAt": "2026-11-15T13:26:22Z",
+    "checkedAt": "2026-11-15T13:31:24Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-15T13:25:31Z",
+    "updatedAt": "2026-11-15T13:30:31Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "sourceSummary": {
     "customerCountDifference": 2,
-    "customersAffected": 6370,
-    "customersOut": 2672,
-    "customersRestored": 3698,
+    "customersAffected": 4520,
+    "customersOut": 2671,
+    "customersRestored": 1849,
     "customersServed": 54726,
-    "eventCustomersOut": 2670,
+    "eventCustomersOut": 2669,
     "hourlyCustomersOut": [
       {
         "at": "2026-11-13T13:00:00Z",
@@ -3547,7 +3522,7 @@
       },
       {
         "at": "2026-11-15T13:00:00Z",
-        "customersOut": 6083
+        "customersOut": 6082
       }
     ],
     "locations": [
@@ -3744,7 +3719,6 @@
       "CARIB VILLAS IV",
       "CASTLE COAKLEY",
       "CASTLE COAKLEY 54",
-      "CHARLOTTE AMALIE 26A-33-",
       "C-IF EST COKIE POINT",
       "CLAIRMONT",
       "CLAIRMONT (APT)",
@@ -5568,8 +5542,8 @@
       "WEST COND SAPP B-A",
       "WEST SAPPHIRE BAY CONDO"
     ],
-    "totalOutages": 22
+    "totalOutages": 21
   },
   "staleAfterSeconds": 900,
-  "unassignedEventCount": 18
+  "unassignedEventCount": 17
 }
