@@ -552,6 +552,53 @@
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
+      "id": "5e37effad2b4364ccd2834f2f48e2bfa49ebe6287ae446684bb223a81615d84e",
+      "island": null,
+      "locations": [
+        "EST THOMAS",
+        "EST THOMAS 8 I APT-6",
+        "EST THOMAS 8A",
+        "EST THOMAS 8-A",
+        "EST THOMAS 8A A-1D",
+        "EST THOMAS 8A A-1E",
+        "EST THOMAS 8A A-2D",
+        "EST THOMAS 8A A-2H",
+        "EST THOMAS 8A APT-3H",
+        "EST THOMAS 8A-8B",
+        "EST THOMAS 8F NQ 1ST FL",
+        "EST THOMAS 8F UP",
+        "EST THOMAS 8FA",
+        "EST THOMAS 8G A-1",
+        "EST THOMAS 8H",
+        "EST THOMAS 8H APT-6",
+        "EST THOMAS 8I",
+        "EST THOMAS 8J",
+        "EST THOMAS 9F",
+        "EST THOMAS 9F UP",
+        "ESTATE THOMAS 8A",
+        "ESTATE THOMAS 8H",
+        "ESTATE THOMAS 8J NO. 6E"
+      ],
+      "modifiedAt": "2026-11-15T01:20:27Z",
+      "name": "T-T-05739",
+      "neighborhoodIDs": [],
+      "point": {
+        "latitude": 18.33526063377046,
+        "longitude": -64.91442304450428
+      },
+      "reportedCustomersInitially": 36,
+      "reportedCustomersOut": 36,
+      "reportedCustomersRestored": 0,
+      "sourceStatus": "Predicted",
+      "startedAt": "2026-11-15T01:20:06Z",
+      "verified": false,
+      "workStatus": null
+    },
+    {
+      "cause": null,
+      "crewAssigned": false,
+      "endedAt": null,
+      "estimatedRestoration": null,
       "id": "688d24f7b6e72cb60f9dd7cfcfc315b9ee0efe7095b9fbf192b7ed84c8031d54",
       "island": "stThomas",
       "locations": [
@@ -1063,7 +1110,7 @@
       "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-15T01:15:38Z",
+  "generatedAt": "2026-11-15T01:20:39Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -1192,21 +1239,21 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "a02cb317ab841f89d6ebf8de98649242db18cdb99b9ecb5074daab18f228101c",
+  "snapshotID": "987ef10b92b7abe182a0699f52002d69347cc01fea276cba5f6b0ef7f9b64e9e",
   "source": {
-    "checkedAt": "2026-11-15T01:15:38Z",
+    "checkedAt": "2026-11-15T01:20:39Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-15T01:15:29Z",
+    "updatedAt": "2026-11-15T01:20:29Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "sourceSummary": {
     "customerCountDifference": 2,
-    "customersAffected": 2592,
-    "customersOut": 1170,
+    "customersAffected": 2628,
+    "customersOut": 1206,
     "customersRestored": 1422,
     "customersServed": 54726,
-    "eventCustomersOut": 1168,
+    "eventCustomersOut": 1204,
     "hourlyCustomersOut": [
       {
         "at": "2026-11-13T01:00:00Z",
@@ -1402,7 +1449,7 @@
       },
       {
         "at": "2026-11-15T01:00:00Z",
-        "customersOut": 1168
+        "customersOut": 1204
       }
     ],
     "locations": [
@@ -1870,6 +1917,26 @@
       "EST ST PETER 3A-11 MTR 1",
       "EST ST PETER 3A-20 COTTAG",
       "EST ST PETER 3A-20 MN HSE",
+      "EST THOMAS",
+      "EST THOMAS 8 I APT-6",
+      "EST THOMAS 8A",
+      "EST THOMAS 8-A",
+      "EST THOMAS 8A A-1D",
+      "EST THOMAS 8A A-1E",
+      "EST THOMAS 8A A-2D",
+      "EST THOMAS 8A A-2H",
+      "EST THOMAS 8A APT-3H",
+      "EST THOMAS 8A-8B",
+      "EST THOMAS 8F NQ 1ST FL",
+      "EST THOMAS 8F UP",
+      "EST THOMAS 8FA",
+      "EST THOMAS 8G A-1",
+      "EST THOMAS 8H",
+      "EST THOMAS 8H APT-6",
+      "EST THOMAS 8I",
+      "EST THOMAS 8J",
+      "EST THOMAS 9F",
+      "EST THOMAS 9F UP",
       "EST. BOVONI 22B",
       "EST. BOVONI B/D A/240",
       "EST. ELIZABETH 29 MTR. 2",
@@ -1886,6 +1953,9 @@
       "ESTATE BOVONI BAY 4",
       "ESTATE DOROTHEA 13-E",
       "ESTATE THOMAS 16-1",
+      "ESTATE THOMAS 8A",
+      "ESTATE THOMAS 8H",
+      "ESTATE THOMAS 8J NO. 6E",
       "GROUND A13 & A14 B 4 APT-",
       "GROUND A13 & A14 B2 APT-",
       "GROUND A13 & A14 B-4 APT-",
@@ -2218,8 +2288,8 @@
       "UPPER JOHN DUNKOE 39-1",
       "VOC SKILL CEN EST THO"
     ],
-    "totalOutages": 10
+    "totalOutages": 11
   },
   "staleAfterSeconds": 900,
-  "unassignedEventCount": 7
+  "unassignedEventCount": 8
 }
