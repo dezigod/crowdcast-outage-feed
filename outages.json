@@ -692,6 +692,34 @@
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
+      "id": "a997595e9dbbee9c396fbcca47ed9bf95d9add05048fe2b07a1d2db35c6ff113",
+      "island": null,
+      "locations": [
+        "MODULAR CLASSROOM - IEKHS",
+        "NAZARETH - EUDORA KEAN",
+        "SMITH BAY",
+        "SMITH BAY 18-14"
+      ],
+      "modifiedAt": "2026-11-15T03:09:16Z",
+      "name": "T-T-08224",
+      "neighborhoodIDs": [],
+      "point": {
+        "latitude": 18.32602409964683,
+        "longitude": -64.85279854510034
+      },
+      "reportedCustomersInitially": 4,
+      "reportedCustomersOut": 4,
+      "reportedCustomersRestored": 0,
+      "sourceStatus": "Predicted",
+      "startedAt": "2026-11-15T03:08:58Z",
+      "verified": false,
+      "workStatus": null
+    },
+    {
+      "cause": null,
+      "crewAssigned": false,
+      "endedAt": null,
+      "estimatedRestoration": null,
       "id": "cbbd2ef62dee6d0405b3a5d5c18b1c3c5a5b4dbca8f2f81c8fc8d71e6fec7176",
       "island": "stThomas",
       "locations": [
@@ -715,9 +743,58 @@
       "startedAt": "2026-10-14T15:23:16Z",
       "verified": true,
       "workStatus": null
+    },
+    {
+      "cause": null,
+      "crewAssigned": false,
+      "endedAt": null,
+      "estimatedRestoration": null,
+      "id": "da6890e05a5cf8813a5f367582d3683aa256dddd94cb3e4cfd719d62004613c5",
+      "island": null,
+      "locations": [
+        "DONOE 3 BLDG 1",
+        "DONOE 3 BLDG 1 APT G101",
+        "DONOE 3 BLDG 1 APT G102",
+        "DONOE 3 BLDG 1 APT G105",
+        "DONOE 3 BLDG 1 APT G106",
+        "DONOE 3 BLDG 1 APT G110",
+        "DONOE 3 BLDG 1 APT G111",
+        "DONOE 3 BLDG 2 APT G201",
+        "DONOE 3 BLDG 2 APT G203",
+        "DONOE 3 BLDG 2 APT G204",
+        "DONOE 3 BLDG 2 APT G205",
+        "DONOE 3 BLDG 2 APT G206",
+        "DONOE 3 BLDG 3",
+        "DONOE 3 BLDG 3 APT G301",
+        "DONOE 3 BLDG 3 APT G302",
+        "DONOE 3 BLDG 3 APT G303",
+        "DONOE 3 BLDG 3 APT G304",
+        "DONOE 3 BLDG 3 APT G305",
+        "DONOE 3 BLDG 3 APT G306",
+        "DONOE 3 BLDG 3 APT G308",
+        "DONOE 3 BLDG 3 APT G311",
+        "DONOE 3 BLDG 3 APT G312",
+        "DONOE 3 BLDG-1 (HSE)",
+        "DONOE 3 BLDG-2 (HSE)",
+        "DUNOE 3 BLDG 2 APT G202"
+      ],
+      "modifiedAt": "2026-11-15T03:10:19Z",
+      "name": "T-T-11775",
+      "neighborhoodIDs": [],
+      "point": {
+        "latitude": 18.344356746526692,
+        "longitude": -64.89995296974458
+      },
+      "reportedCustomersInitially": 32,
+      "reportedCustomersOut": 32,
+      "reportedCustomersRestored": 0,
+      "sourceStatus": "Predicted",
+      "startedAt": "2026-11-15T03:09:54Z",
+      "verified": false,
+      "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-15T03:06:12Z",
+  "generatedAt": "2026-11-15T03:11:13Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -834,21 +911,21 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "0a219d5029813e1b4f12abecfd30ed5010af21ce920dba51decdf586e15e8947",
+  "snapshotID": "3b18bd6e0650b42f0bc4e89bcd9eb10ed22eb6cbfa6a1075a27f9d7c47190c36",
   "source": {
-    "checkedAt": "2026-11-15T03:06:12Z",
+    "checkedAt": "2026-11-15T03:11:13Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-15T03:05:29Z",
+    "updatedAt": "2026-11-15T03:10:29Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "sourceSummary": {
     "customerCountDifference": 2,
-    "customersAffected": 2097,
-    "customersOut": 675,
+    "customersAffected": 2133,
+    "customersOut": 711,
     "customersRestored": 1422,
     "customersServed": 54726,
-    "eventCustomersOut": 673,
+    "eventCustomersOut": 709,
     "hourlyCustomersOut": [
       {
         "at": "2026-11-13T03:00:00Z",
@@ -1044,7 +1121,7 @@
       },
       {
         "at": "2026-11-15T03:00:00Z",
-        "customersOut": 673
+        "customersOut": 709
       }
     ],
     "locations": [
@@ -1297,6 +1374,30 @@
       "CONTANT 5-4",
       "CONTANT 5-4 2",
       "CONTANT 5-4 BLDG 2",
+      "DONOE 3 BLDG 1",
+      "DONOE 3 BLDG 1 APT G101",
+      "DONOE 3 BLDG 1 APT G102",
+      "DONOE 3 BLDG 1 APT G105",
+      "DONOE 3 BLDG 1 APT G106",
+      "DONOE 3 BLDG 1 APT G110",
+      "DONOE 3 BLDG 1 APT G111",
+      "DONOE 3 BLDG 2 APT G201",
+      "DONOE 3 BLDG 2 APT G203",
+      "DONOE 3 BLDG 2 APT G204",
+      "DONOE 3 BLDG 2 APT G205",
+      "DONOE 3 BLDG 2 APT G206",
+      "DONOE 3 BLDG 3",
+      "DONOE 3 BLDG 3 APT G301",
+      "DONOE 3 BLDG 3 APT G302",
+      "DONOE 3 BLDG 3 APT G303",
+      "DONOE 3 BLDG 3 APT G304",
+      "DONOE 3 BLDG 3 APT G305",
+      "DONOE 3 BLDG 3 APT G306",
+      "DONOE 3 BLDG 3 APT G308",
+      "DONOE 3 BLDG 3 APT G311",
+      "DONOE 3 BLDG 3 APT G312",
+      "DONOE 3 BLDG-1 (HSE)",
+      "DONOE 3 BLDG-2 (HSE)",
       "DOROTHEA",
       "DOROTHEA #14 B-3 UP",
       "DOROTHEA 10A",
@@ -1361,6 +1462,7 @@
       "DOROTHEA LOWER",
       "DOROTHEA PARCEL 11",
       "DOROTHEA-16-D",
+      "DUNOE 3 BLDG 2 APT G202",
       "ELIZABETH",
       "ELIZABETH 31C UP",
       "EST BONNE RESOLUTION 5E",
@@ -1446,6 +1548,8 @@
       "LILLIENDAHL 5-2A A-1",
       "LILLIENDAHL/MARIENHOJ 5-1",
       "LOVENLUND EST FARMHOUSE",
+      "MODULAR CLASSROOM - IEKHS",
+      "NAZARETH - EUDORA KEAN",
       "NELTIBERG 43",
       "NELTJBERG 12F",
       "NELTJEBERG 12D",
@@ -1453,6 +1557,8 @@
       "SCOTT FREE 40",
       "SCOTT FREE 42",
       "SCOTT FREE 42A",
+      "SMITH BAY",
+      "SMITH BAY 18-14",
       "SOLBERG",
       "SOLBERG 1 B-28",
       "SOLBERG 1 B-29",
@@ -1540,8 +1646,8 @@
       "UPPER JOHN DUNKOE 38",
       "UPPER JOHN DUNKOE 39-1"
     ],
-    "totalOutages": 9
+    "totalOutages": 11
   },
   "staleAfterSeconds": 900,
-  "unassignedEventCount": 6
+  "unassignedEventCount": 8
 }
