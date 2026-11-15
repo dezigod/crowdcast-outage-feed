@@ -1143,7 +1143,7 @@
         "BETSYS JEWEL 10",
         "BETSYS JEWEL 4"
       ],
-      "modifiedAt": "2026-11-15T17:19:40Z",
+      "modifiedAt": "2026-11-15T17:23:41Z",
       "name": "T-C-22739",
       "neighborhoodIDs": [],
       "point": {
@@ -1309,7 +1309,7 @@
         "RUST-UP-TWIST 134 (WELL)",
         "RUST-UP-TWIST 2"
       ],
-      "modifiedAt": "2026-11-15T17:19:40Z",
+      "modifiedAt": "2026-11-15T17:23:41Z",
       "name": "OCD1046934",
       "neighborhoodIDs": [],
       "point": {
@@ -2667,7 +2667,7 @@
         "MON BIJOU 389",
         "MON BIJOU 390"
       ],
-      "modifiedAt": "2026-11-15T17:19:40Z",
+      "modifiedAt": "2026-11-15T17:23:41Z",
       "name": "T-C-20247",
       "neighborhoodIDs": [],
       "point": {
@@ -4526,7 +4526,7 @@
         "WEST PALM DRIVE 64",
         "YELLOW CEDAR 40-D"
       ],
-      "modifiedAt": "2026-11-15T17:15:36Z",
+      "modifiedAt": "2026-11-15T17:23:41Z",
       "name": "STX Feeder 09B",
       "neighborhoodIDs": [
         "stCroix-vicorp-land"
@@ -5982,7 +5982,7 @@
         "MORNING STAR 1-C",
         "MORNING STAR 1-CA"
       ],
-      "modifiedAt": "2026-11-15T17:19:40Z",
+      "modifiedAt": "2026-11-15T17:23:41Z",
       "name": "T-C-08257",
       "neighborhoodIDs": [],
       "point": {
@@ -6229,7 +6229,9 @@
         "CONCORDIA 61 A-110",
         "CONCORDIA 61 A-400",
         "CONCORDIA 7",
+        "CONCORDIA 71 (EAST)",
         "CONCORDIA 74 EAST",
+        "CONCORDIA 77",
         "CONCORDIA 7-B",
         "CONCORDIA 7-C",
         "CONCORDIA 82",
@@ -8163,11 +8165,12 @@
         "VISTA CONCORDIA #95",
         "VISTA CONCORDIA 104",
         "VISTA CONCORDIA 115",
+        "VISTA CONCORDIA 70",
         "VISTA CONCORDIA 75",
         "VISTA CONCORDIA 99",
         "VISTA CONCORDIA LOWER APT"
       ],
-      "modifiedAt": "2026-11-15T17:19:40Z",
+      "modifiedAt": "2026-11-15T17:23:41Z",
       "name": "STX Feeder 06A",
       "neighborhoodIDs": [
         "stCroix-judiths-fancy"
@@ -8176,11 +8179,11 @@
         "latitude": 17.762016523701956,
         "longitude": -64.76891996073064
       },
-      "reportedCustomersInitially": 3325,
-      "reportedCustomersOut": 3325,
+      "reportedCustomersInitially": 3328,
+      "reportedCustomersOut": 3328,
       "reportedCustomersRestored": 0,
       "sourceStatus": "Verified",
-      "startedAt": "2026-11-15T17:13:56Z",
+      "startedAt": "2026-11-15T17:12:26Z",
       "verified": true,
       "workStatus": null
     },
@@ -8198,7 +8201,7 @@
         "ST JOHN 58-A",
         "ST JOHN 58-AA"
       ],
-      "modifiedAt": "2026-11-15T17:19:40Z",
+      "modifiedAt": "2026-11-15T17:23:41Z",
       "name": "T-C-15467",
       "neighborhoodIDs": [
         "stCroix-judiths-fancy"
@@ -8214,36 +8217,9 @@
       "startedAt": "2026-11-15T17:11:41Z",
       "verified": true,
       "workStatus": null
-    },
-    {
-      "cause": null,
-      "crewAssigned": false,
-      "endedAt": null,
-      "estimatedRestoration": null,
-      "id": "fc916f022f2c2028300730a58181f7c08e56575d8218972199beca00aef0e524",
-      "island": null,
-      "locations": [
-        "CONCORDIA 71 (EAST)",
-        "CONCORDIA 77",
-        "VISTA CONCORDIA 70"
-      ],
-      "modifiedAt": "2026-11-15T17:19:40Z",
-      "name": "T-C-08796",
-      "neighborhoodIDs": [],
-      "point": {
-        "latitude": 17.773750560886306,
-        "longitude": -64.7705577043577
-      },
-      "reportedCustomersInitially": 3,
-      "reportedCustomersOut": 3,
-      "reportedCustomersRestored": 0,
-      "sourceStatus": "Verified",
-      "startedAt": "2026-11-15T17:12:26Z",
-      "verified": true,
-      "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-15T17:20:37Z",
+  "generatedAt": "2026-11-15T17:25:39Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -9007,11 +8983,11 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "bdf778d05c4374bbe5fcd52b43f85beb80b0f89acea09f6ada7aeafd3aa4ec3a",
+  "snapshotID": "81596b54e8bf796b1084249ee328f40cf2b5c17338e0eb7a6ae05372aef55d14",
   "source": {
-    "checkedAt": "2026-11-15T17:20:37Z",
+    "checkedAt": "2026-11-15T17:25:39Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-15T17:20:34Z",
+    "updatedAt": "2026-11-15T17:25:34Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
@@ -16966,8 +16942,8 @@
       "WEST PALM DRIVE 64",
       "YELLOW CEDAR 40-D"
     ],
-    "totalOutages": 19
+    "totalOutages": 18
   },
   "staleAfterSeconds": 900,
-  "unassignedEventCount": 15
+  "unassignedEventCount": 14
 }
