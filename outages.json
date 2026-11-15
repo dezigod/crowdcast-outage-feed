@@ -6,6 +6,39 @@
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
+      "id": "0704f2d8b5b90c41992934aacfd37c3b30431381fdb4ca44f36936e8460cada7",
+      "island": null,
+      "locations": [
+        "ZOOTENAL #-1",
+        "ZOOTENVAAL 1",
+        "ZOOTENVAAL 3B-2",
+        "ZOOTENVAAL 3C",
+        "ZOOTENVAAL 3-C (WEST)",
+        "ZOOTENVAAL 3D",
+        "ZOOTENVAAL 3E-2",
+        "ZOOTENVAAL 3L",
+        "ZOOTENVAAL 3N*"
+      ],
+      "modifiedAt": "2026-11-15T05:38:42Z",
+      "name": "T-J-00292",
+      "neighborhoodIDs": [],
+      "point": {
+        "latitude": 18.348878074696984,
+        "longitude": -64.70679908793792
+      },
+      "reportedCustomersInitially": 9,
+      "reportedCustomersOut": 9,
+      "reportedCustomersRestored": 0,
+      "sourceStatus": "Predicted",
+      "startedAt": "2026-11-15T05:38:10Z",
+      "verified": false,
+      "workStatus": null
+    },
+    {
+      "cause": null,
+      "crewAssigned": false,
+      "endedAt": null,
+      "estimatedRestoration": null,
       "id": "0d6a66b7da71a757ad49f931f94eedc49474a8f92ab3b0c4513a23900a508001",
       "island": null,
       "locations": [
@@ -1673,7 +1706,7 @@
       "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-15T05:35:52Z",
+  "generatedAt": "2026-11-15T05:40:54Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -1901,21 +1934,21 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "9267081c5f9eb5ed2c0be45c932788e4c9fcf7a80ed2392f2ec684ad9fb6ac05",
+  "snapshotID": "460d9a1acfc2c3d0d9f5c2e9628a1d78964b07986e0d5e2ace84d7d8c1c78d90",
   "source": {
-    "checkedAt": "2026-11-15T05:35:52Z",
+    "checkedAt": "2026-11-15T05:40:54Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-15T05:35:30Z",
+    "updatedAt": "2026-11-15T05:40:30Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "sourceSummary": {
     "customerCountDifference": 2,
-    "customersAffected": 2206,
-    "customersOut": 1428,
+    "customersAffected": 2215,
+    "customersOut": 1437,
     "customersRestored": 778,
     "customersServed": 54726,
-    "eventCustomersOut": 1426,
+    "eventCustomersOut": 1435,
     "hourlyCustomersOut": [
       {
         "at": "2026-11-13T05:00:00Z",
@@ -2111,7 +2144,7 @@
       },
       {
         "at": "2026-11-15T05:00:00Z",
-        "customersOut": 1426
+        "customersOut": 1435
       }
     ],
     "locations": [
@@ -3234,11 +3267,20 @@
       "WINTBERG 339",
       "WINTBERG 339 COTTAGE \"\"A\"\"",
       "WINTBERG 340",
+      "ZOOTENAL #-1",
+      "ZOOTENVAAL 1",
+      "ZOOTENVAAL 3B-2",
+      "ZOOTENVAAL 3C",
+      "ZOOTENVAAL 3-C (WEST)",
+      "ZOOTENVAAL 3D",
+      "ZOOTENVAAL 3E-2",
+      "ZOOTENVAAL 3L",
+      "ZOOTENVAAL 3N*",
       "ZUERIENDENHEIT",
       "ZUFRIDENHEIT 1"
     ],
-    "totalOutages": 22
+    "totalOutages": 23
   },
   "staleAfterSeconds": 900,
-  "unassignedEventCount": 19
+  "unassignedEventCount": 20
 }
