@@ -1003,25 +1003,59 @@
       "id": "f2eb75164e0bdc0207a5a1485a5e8ada8f021421ec9cbccf32814592c1bb499f",
       "island": null,
       "locations": [
+        "EST SMITH BAY 18-1",
+        "EST.SMITH BAY",
+        "LOT 18-16 SMITH BAY",
+        "MODULAR CLASSROOM - IEKHS",
+        "NAZARETH - EUDORA KEAN",
+        "NAZARETH 1-2 MID BLDG",
+        "RED HOOK 18-7 SUITE 207",
+        "RED HOOK 205",
+        "RED HOOK CENTER",
+        "RED HOOK CENTER SUITE 103",
+        "RED HOOK PLAZA",
+        "RED HOOK SHOP CENTER",
+        "RED HOOK SHOP SHOP C 205",
+        "RED HOOK UNIT 208",
         "SMITH BAY",
+        "SMITH BAY 11 12 SUITE 236",
+        "SMITH BAY 18-14",
+        "SMITH BAY 18-17",
+        "SMITH BAY 18-18 RED HOOK",
+        "SMITH BAY 18-19",
         "SMITH BAY 18-21 A-1",
+        "SMITH BAY 18-22",
+        "SMITH BAY 18-22 UP",
         "SMITH BAY 18-23",
         "SMITH BAY 18-23 1-B",
+        "SMITH BAY 18-23 A-1C",
         "SMITH BAY 18-23 HSE/PUMP",
         "SMITH BAY 18-23 U-1A",
         "SMITH BAY 18-23 U-2-A",
+        "SMITH BAY 18-25",
+        "SMITH BAY 18-26-1",
         "SMITH BAY 18-3",
-        "SMITH BAY 18-4"
+        "SMITH BAY 18-4",
+        "SMITH BAY 18-5",
+        "SMITH BAY 18-5 UP",
+        "SMITH BAY 18-9 18-10-11",
+        "SMITH BAY 18-9 SUITE 235",
+        "SMITH BAY 18-9, 11,12, 13",
+        "SMITH BAY 18-9-10-11-12",
+        "SMITH BAY 18-9-18-10 U-",
+        "SMITH BAY 18-9-18-13 BASE",
+        "SMITH BAY 9,10,11,12,18",
+        "SMITHBAY 18-9-18-108-11-1"
       ],
-      "modifiedAt": "2026-11-14T20:28:06Z",
-      "name": "T-T-08232",
+      "modifiedAt": "2026-11-15T01:06:08Z",
+      "name": "STT_59440",
       "neighborhoodIDs": [],
       "point": {
-        "latitude": 18.327998047483206,
-        "longitude": -64.85162531011511
+        "latitude": 18.327243220741224,
+        "longitude": -64.85243870875368
       },
-      "reportedCustomersInitially": 9,
-      "reportedCustomersOut": 9,
+      "reportedCustomersInitially": 54,
+      "reportedCustomersOut": 54,
       "reportedCustomersRestored": 0,
       "sourceStatus": "Predicted",
       "startedAt": "2026-11-14T20:27:17Z",
@@ -1029,7 +1063,7 @@
       "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-15T01:05:35Z",
+  "generatedAt": "2026-11-15T01:10:36Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -1158,21 +1192,21 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "28c7f3d9701b207eca9b87467c910f7678c6afc7e338b4000740adbba372152c",
+  "snapshotID": "1c427868f59797f617aa7b054d37445a5c6e5c2f9ffea52bee104b69737ecf36",
   "source": {
-    "checkedAt": "2026-11-15T01:05:35Z",
+    "checkedAt": "2026-11-15T01:10:36Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-15T01:05:29Z",
+    "updatedAt": "2026-11-15T01:10:29Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "sourceSummary": {
     "customerCountDifference": 2,
-    "customersAffected": 2547,
-    "customersOut": 1125,
+    "customersAffected": 2592,
+    "customersOut": 1170,
     "customersRestored": 1422,
     "customersServed": 54726,
-    "eventCustomersOut": 1123,
+    "eventCustomersOut": 1168,
     "hourlyCustomersOut": [
       {
         "at": "2026-11-13T01:00:00Z",
@@ -1348,27 +1382,27 @@
       },
       {
         "at": "2026-11-14T20:00:00Z",
-        "customersOut": 6444
+        "customersOut": 6489
       },
       {
         "at": "2026-11-14T21:00:00Z",
-        "customersOut": 6586
+        "customersOut": 6631
       },
       {
         "at": "2026-11-14T22:00:00Z",
-        "customersOut": 6586
+        "customersOut": 6631
       },
       {
         "at": "2026-11-14T23:00:00Z",
-        "customersOut": 3937
+        "customersOut": 3982
       },
       {
         "at": "2026-11-15T00:00:00Z",
-        "customersOut": 4382
+        "customersOut": 4427
       },
       {
         "at": "2026-11-15T01:00:00Z",
-        "customersOut": 1123
+        "customersOut": 1168
       }
     ],
     "locations": [
@@ -1825,6 +1859,7 @@
       "EST NELTJBERG 3",
       "EST NELTJBERG 42",
       "EST SALOMON -BONNE RESOLU",
+      "EST SMITH BAY 18-1",
       "EST SOLBERG",
       "EST SOLBERG 100-5",
       "EST SOLBERG 1B-28 APT-1",
@@ -1839,6 +1874,7 @@
       "EST. BOVONI B/D A/240",
       "EST. ELIZABETH 29 MTR. 2",
       "EST. ELIZABETH 29 MTR.1",
+      "EST.SMITH BAY",
       "ESTATE BOVONI",
       "ESTATE BOVONI 2",
       "ESTATE BOVONI 2-2A",
@@ -2034,7 +2070,9 @@
       "LILLIENDAHL 1-C UP",
       "LILLIENDAHL 5-2A A-1",
       "LILLIENDAHL/MARIENHOJ 5-1",
+      "LOT 18-16 SMITH BAY",
       "LOVENLUND EST FARMHOUSE",
+      "MODULAR CLASSROOM - IEKHS",
       "MURPHY GADE #6",
       "MURPHY GADE 1 & 2",
       "MURPHY GADE 1&2 APT 5",
@@ -2042,6 +2080,8 @@
       "MURPHY GADE COTTAGE",
       "MURPHY GADE MAIN",
       "MURPHY GADE NO, 1&2 APT-3",
+      "NAZARETH - EUDORA KEAN",
+      "NAZARETH 1-2 MID BLDG",
       "NELTIBERG 43",
       "NELTJBERG 12F",
       "NELTJEBERG 12D",
@@ -2049,19 +2089,47 @@
       "OLD HOSPITAL",
       "PALM STRADE 16GB",
       "PALM STRADE 16H",
+      "RED HOOK 18-7 SUITE 207",
+      "RED HOOK 205",
+      "RED HOOK CENTER",
+      "RED HOOK CENTER SUITE 103",
+      "RED HOOK PLAZA",
+      "RED HOOK SHOP CENTER",
+      "RED HOOK SHOP SHOP C 205",
+      "RED HOOK UNIT 208",
       "ROSS ESTATE 61A",
       "SCOTT FREE 40",
       "SCOTT FREE 42",
       "SCOTT FREE 42A",
       "SMITH BAY",
+      "SMITH BAY 11 12 SUITE 236",
+      "SMITH BAY 18-14",
+      "SMITH BAY 18-17",
+      "SMITH BAY 18-18 RED HOOK",
+      "SMITH BAY 18-19",
       "SMITH BAY 18-21 A-1",
+      "SMITH BAY 18-22",
+      "SMITH BAY 18-22 UP",
       "SMITH BAY 18-23",
       "SMITH BAY 18-23 1-B",
+      "SMITH BAY 18-23 A-1C",
       "SMITH BAY 18-23 HSE/PUMP",
       "SMITH BAY 18-23 U-1A",
       "SMITH BAY 18-23 U-2-A",
+      "SMITH BAY 18-25",
+      "SMITH BAY 18-26-1",
       "SMITH BAY 18-3",
       "SMITH BAY 18-4",
+      "SMITH BAY 18-5",
+      "SMITH BAY 18-5 UP",
+      "SMITH BAY 18-9 18-10-11",
+      "SMITH BAY 18-9 SUITE 235",
+      "SMITH BAY 18-9, 11,12, 13",
+      "SMITH BAY 18-9-10-11-12",
+      "SMITH BAY 18-9-18-10 U-",
+      "SMITH BAY 18-9-18-13 BASE",
+      "SMITH BAY 9,10,11,12,18",
+      "SMITHBAY 18-9-18-108-11-1",
       "SOLBERG",
       "SOLBERG 1 B-28",
       "SOLBERG 1 B-29",
