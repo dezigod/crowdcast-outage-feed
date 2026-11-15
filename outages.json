@@ -4771,45 +4771,6 @@
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
-      "id": "38d46668d342feada22cbd355dafc5478c5b893700b9b2ab9601b003cdb1dca2",
-      "island": null,
-      "locations": [
-        "LOVELUND 3-4 BLD 12",
-        "LOVENLUND 3-4 B-12 A-1232",
-        "LOVENLUND 3-4 BLD 12",
-        "LOVENLUND 3-4 BLDG-12",
-        "LOVENLUND B-12",
-        "LOVENLUND B-12 APT 1211",
-        "LOVENLUND B-12 APT 1212",
-        "LOVENLUND B-12 APT 1213",
-        "LOVENLUND B-12 APT 1221",
-        "LOVENLUND B-12 APT 1222",
-        "LOVENLUND B-12 APT 1224",
-        "LOVENLUND B-12 APT 1234",
-        "LOVENLUND BLDG 12"
-      ],
-      "modifiedAt": "2026-11-14T22:24:06Z",
-      "name": "T-T-17094",
-      "neighborhoodIDs": [
-        "stThomas-lovenlund"
-      ],
-      "point": {
-        "latitude": 18.36069582323325,
-        "longitude": -64.91562176612281
-      },
-      "reportedCustomersInitially": 13,
-      "reportedCustomersOut": 13,
-      "reportedCustomersRestored": 0,
-      "sourceStatus": "Predicted",
-      "startedAt": "2026-11-14T22:23:58Z",
-      "verified": false,
-      "workStatus": null
-    },
-    {
-      "cause": null,
-      "crewAssigned": false,
-      "endedAt": null,
-      "estimatedRestoration": null,
       "id": "466bc9614c76460646f6e693474c200e210063775b3dac783172ab48908c90e8",
       "island": null,
       "locations": [
@@ -5061,37 +5022,6 @@
       "reportedCustomersRestored": 0,
       "sourceStatus": "Predicted",
       "startedAt": "2026-05-24T00:16:58Z",
-      "verified": false,
-      "workStatus": null
-    },
-    {
-      "cause": null,
-      "crewAssigned": false,
-      "endedAt": null,
-      "estimatedRestoration": null,
-      "id": "76baf61cc112cbac94316b698e00a2223434a485a128df9d835975dba23f5081",
-      "island": null,
-      "locations": [
-        "JOSEPH & ROSENDAHL 2-27",
-        "JOSEPH & ROSENDAHL 2-32",
-        "JOSEPH & ROSENDAHL 3-26",
-        "ST JOSEPH & ROSEN 2-31",
-        "ST JOSEPH & ROSEN 317-318",
-        "ST JOSEPH & ROSENDAHL",
-        "ST. JOSEPH & ROSENDAHL"
-      ],
-      "modifiedAt": "2026-11-15T00:00:27Z",
-      "name": "T-T-14598",
-      "neighborhoodIDs": [],
-      "point": {
-        "latitude": 18.352281773679138,
-        "longitude": -64.91551152462738
-      },
-      "reportedCustomersInitially": 10,
-      "reportedCustomersOut": 10,
-      "reportedCustomersRestored": 0,
-      "sourceStatus": "Predicted",
-      "startedAt": "2026-11-15T00:00:19Z",
       "verified": false,
       "workStatus": null
     },
@@ -6578,7 +6508,7 @@
       "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-15T00:01:18Z",
+  "generatedAt": "2026-11-15T00:06:20Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -6841,27 +6771,14 @@
           "id": "stThomas-lovenlund",
           "island": "stThomas",
           "locations": [
-            "3-4 B-12 A-1232",
-            "3-4 BLD 12",
-            "3-4 BLDG-12",
-            "B-12",
-            "B-12 APT 1211",
-            "B-12 APT 1212",
-            "B-12 APT 1213",
-            "B-12 APT 1221",
-            "B-12 APT 1222",
-            "B-12 APT 1224",
-            "B-12 APT 1234",
-            "Building 12",
             "EST FARMHOUSE"
           ],
           "name": "Lovenlund",
           "sourceEventIDs": [
-            "38d46668d342feada22cbd355dafc5478c5b893700b9b2ab9601b003cdb1dca2",
             "a7622fe5ec3f7460243d64545ddffb42dc3c534b3876e2c938737688abde9c58"
           ],
-          "sourceStatus": "Unconfirmed",
-          "startedAt": null
+          "sourceStatus": "Verified",
+          "startedAt": "2026-11-05T17:32:26Z"
         },
         {
           "affectedCustomers": null,
@@ -6939,21 +6856,21 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "f037375bb35cdf40364c555f093ffcd7a8046b71588f0482f218e5a2b9c4d955",
+  "snapshotID": "bcb82e36e505ea12f9b9077b053228ef9d159a8b00aff9e42314d2f93784dbf3",
   "source": {
-    "checkedAt": "2026-11-15T00:01:18Z",
+    "checkedAt": "2026-11-15T00:06:20Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-15T00:00:31Z",
+    "updatedAt": "2026-11-15T00:05:30Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "sourceSummary": {
     "customerCountDifference": 2,
-    "customersAffected": 9165,
-    "customersOut": 7743,
+    "customersAffected": 9142,
+    "customersOut": 7720,
     "customersRestored": 1422,
     "customersServed": 54726,
-    "eventCustomersOut": 7741,
+    "eventCustomersOut": 7718,
     "hourlyCustomersOut": [
       {
         "at": "2026-11-13T00:00:00Z",
@@ -7141,15 +7058,15 @@
       },
       {
         "at": "2026-11-14T22:00:00Z",
-        "customersOut": 7731
+        "customersOut": 7718
       },
       {
         "at": "2026-11-14T23:00:00Z",
-        "customersOut": 7731
+        "customersOut": 7718
       },
       {
         "at": "2026-11-15T00:00:00Z",
-        "customersOut": 7741
+        "customersOut": 7718
       }
     ],
     "locations": [
@@ -11596,9 +11513,6 @@
       "JOHNS FOLLY 2-8",
       "JOHNS FOLLY 90-J",
       "JOHNS FOLLY C",
-      "JOSEPH & ROSENDAHL 2-27",
-      "JOSEPH & ROSENDAHL 2-32",
-      "JOSEPH & ROSENDAHL 3-26",
       "KRUM BAY 6 - LPG TRAILERS",
       "KRUM BAY GREEN FUEL TANKS",
       "KRUM BAY GREEN TANKS",
@@ -12278,19 +12192,6 @@
       "LOUISENHOJ 8C & 9A",
       "LOUISENHOJ 8C & 9A DWN",
       "LOUISENHOJ 9B",
-      "LOVELUND 3-4 BLD 12",
-      "LOVENLUND 3-4 B-12 A-1232",
-      "LOVENLUND 3-4 BLD 12",
-      "LOVENLUND 3-4 BLDG-12",
-      "LOVENLUND B-12",
-      "LOVENLUND B-12 APT 1211",
-      "LOVENLUND B-12 APT 1212",
-      "LOVENLUND B-12 APT 1213",
-      "LOVENLUND B-12 APT 1221",
-      "LOVENLUND B-12 APT 1222",
-      "LOVENLUND B-12 APT 1224",
-      "LOVENLUND B-12 APT 1234",
-      "LOVENLUND BLDG 12",
       "LOVENLUND EST FARMHOUSE",
       "LOWER LOVE EAST PRK SD II",
       "MAFOLIE",
@@ -12827,10 +12728,7 @@
       "SPRAT BAY WATER ISLAND",
       "SPRAT BAY WATER ISLAND 70",
       "SPRAT BAY-WATER ISLAND 91",
-      "ST JOSEPH & ROSEN 2-31",
-      "ST JOSEPH & ROSEN 317-318",
       "ST JOSEPH & ROSEN DWN",
-      "ST JOSEPH & ROSENDAHL",
       "ST PETER",
       "ST PETER #15 & 16A DWN",
       "ST PETER #15A & 16A UP",
@@ -13071,7 +12969,6 @@
       "ST QUACO 6-B-33",
       "ST QUACO ZIMMERMAN 3B-17",
       "ST QUACO& ZIMMERMAN 3B-16",
-      "ST. JOSEPH & ROSENDAHL",
       "ST. PETER 3A-21 (COTTAGE)",
       "ST. PETER 3A-8",
       "ST. PETER 3H-26",
@@ -13320,8 +13217,8 @@
       "ZUERIENDENHEIT",
       "ZUFRIDENHEIT 1"
     ],
-    "totalOutages": 16
+    "totalOutages": 14
   },
   "staleAfterSeconds": 900,
-  "unassignedEventCount": 13
+  "unassignedEventCount": 11
 }
