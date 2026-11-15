@@ -6,6 +6,59 @@
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
+      "id": "00ed15578be4617034f0b5986b99e844f3b6eee1d48eb48dc0623ecb9ba05707",
+      "island": null,
+      "locations": [
+        "CASTLE COAKLEY",
+        "PETERS REST 172",
+        "PETERS REST 176",
+        "PETERS REST 177",
+        "PETERS REST 178",
+        "PETERS REST 179",
+        "PETERS REST 179-B",
+        "PETERS REST 191",
+        "PETERS REST 192",
+        "PETERS REST 193",
+        "PETERS REST 194",
+        "PETERS REST 195",
+        "PETERS REST 195-A",
+        "PETERS REST 197",
+        "PETERS REST 197 A-1",
+        "PETERS REST 198",
+        "PETERS REST 199",
+        "PETERS REST 200",
+        "PETERS REST 201-P",
+        "PETERS REST 203",
+        "PETERS REST 204",
+        "PETERS REST 204-B",
+        "PETERS REST 206",
+        "PETERS REST 207",
+        "PETERS REST 208",
+        "PETERS REST 235",
+        "PETERS REST 237"
+      ],
+      "modifiedAt": "2026-11-15T22:31:19Z",
+      "name": "T-C-08754",
+      "neighborhoodIDs": [
+        "stCroix-castle-coakley"
+      ],
+      "point": {
+        "latitude": 17.722746989295526,
+        "longitude": -64.73959871421812
+      },
+      "reportedCustomersInitially": 33,
+      "reportedCustomersOut": 33,
+      "reportedCustomersRestored": 0,
+      "sourceStatus": "Predicted",
+      "startedAt": "2026-11-15T22:30:59Z",
+      "verified": false,
+      "workStatus": null
+    },
+    {
+      "cause": null,
+      "crewAssigned": false,
+      "endedAt": null,
+      "estimatedRestoration": null,
       "id": "0dd2fee51f4ab328f2a6a982b68a36db6af7139af9402abb94ea209b03fa70a8",
       "island": null,
       "locations": [
@@ -2771,7 +2824,7 @@
       "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-15T22:31:11Z",
+  "generatedAt": "2026-11-15T22:36:12Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -2860,10 +2913,11 @@
           ],
           "name": "Castle Coakley",
           "sourceEventIDs": [
+            "00ed15578be4617034f0b5986b99e844f3b6eee1d48eb48dc0623ecb9ba05707",
             "466bc9614c76460646f6e693474c200e210063775b3dac783172ab48908c90e8"
           ],
-          "sourceStatus": "Verified",
-          "startedAt": "2026-11-13T17:31:46Z"
+          "sourceStatus": "Unconfirmed",
+          "startedAt": null
         }
       ]
     },
@@ -2887,25 +2941,25 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "319787ed755e8c4376bbaa6d2b9b59b30de960e107c061004026e14a432a531e",
+  "snapshotID": "db78a558f911a61516f61bd45a35c3514a516f5dd8685d85a945109763e7f23a",
   "source": {
-    "checkedAt": "2026-11-15T22:31:11Z",
+    "checkedAt": "2026-11-15T22:36:12Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-15T22:30:34Z",
+    "updatedAt": "2026-11-15T22:35:33Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "sourceSummary": {
     "customerCountDifference": 2,
-    "customersAffected": 3356,
-    "customersOut": 3356,
+    "customersAffected": 3389,
+    "customersOut": 3389,
     "customersRestored": 0,
     "customersServed": 54726,
-    "eventCustomersOut": 3354,
+    "eventCustomersOut": 3387,
     "hourlyCustomersOut": [
       {
         "at": "2026-11-13T22:00:00Z",
-        "customersOut": 5216
+        "customersOut": 2244
       },
       {
         "at": "2026-11-13T23:00:00Z",
@@ -3097,7 +3151,7 @@
       },
       {
         "at": "2026-11-15T22:00:00Z",
-        "customersOut": 6542
+        "customersOut": 6575
       }
     ],
     "locations": [
@@ -5379,6 +5433,32 @@
       "PEARL 38D-2 APT-1",
       "PEARL 38D-2 MAINHOUSE",
       "PEARL EST.30",
+      "PETERS REST 172",
+      "PETERS REST 176",
+      "PETERS REST 177",
+      "PETERS REST 178",
+      "PETERS REST 179",
+      "PETERS REST 179-B",
+      "PETERS REST 191",
+      "PETERS REST 192",
+      "PETERS REST 193",
+      "PETERS REST 194",
+      "PETERS REST 195",
+      "PETERS REST 195-A",
+      "PETERS REST 197",
+      "PETERS REST 197 A-1",
+      "PETERS REST 198",
+      "PETERS REST 199",
+      "PETERS REST 200",
+      "PETERS REST 201-P",
+      "PETERS REST 203",
+      "PETERS REST 204",
+      "PETERS REST 204-B",
+      "PETERS REST 206",
+      "PETERS REST 207",
+      "PETERS REST 208",
+      "PETERS REST 235",
+      "PETERS REST 237",
       "PLANT MANOR",
       "PLANT MANOR 26 BANANA",
       "PLANT MANOR A-23 HIBISCUS",
@@ -5644,8 +5724,8 @@
       "WATER ISLE 62",
       "WATER ISLE 63"
     ],
-    "totalOutages": 9
+    "totalOutages": 10
   },
   "staleAfterSeconds": 900,
-  "unassignedEventCount": 5
+  "unassignedEventCount": 6
 }
