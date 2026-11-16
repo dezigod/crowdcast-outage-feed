@@ -31,58 +31,6 @@
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
-      "id": "2fd423bc7ecda05cd802d544f719b9391956bb93432fad2122046db2f6181007",
-      "island": null,
-      "locations": [
-        "CANDLE REEF",
-        "CANDLE REEF 26",
-        "CANDLE REEF 33",
-        "CANDLE REEF 36",
-        "CANDLE REEF B-10",
-        "CANDLE REEF B-2",
-        "CANDLE REEF U-10",
-        "CANDLE REEF U-11",
-        "CANDLE REEF U-12",
-        "CANDLE REEF U-13",
-        "CANDLE REEF U-14",
-        "CANDLE REEF U-15",
-        "CANDLE REEF U-16",
-        "CANDLE REEF U-17",
-        "CANDLE REEF U-18",
-        "CANDLE REEF U-19",
-        "CANDLE REEF U-2",
-        "CANDLE REEF U-20",
-        "CANDLE REEF U-21",
-        "CANDLE REEF U-3",
-        "CANDLE REEF U-4",
-        "CANDLE REEF U-5",
-        "CANDLE REEF U-6",
-        "CANDLE REEF U-7",
-        "CANDLE REEF U-9",
-        "GREEN CAY 9-21-A",
-        "GREEN CAY 93",
-        "GREEN CAY 96"
-      ],
-      "modifiedAt": "2026-11-16T13:43:40Z",
-      "name": "T-C-00336",
-      "neighborhoodIDs": [],
-      "point": {
-        "latitude": 17.76099046260596,
-        "longitude": -64.65198068120337
-      },
-      "reportedCustomersInitially": 43,
-      "reportedCustomersOut": 43,
-      "reportedCustomersRestored": 0,
-      "sourceStatus": "Predicted",
-      "startedAt": "2026-11-15T17:13:07Z",
-      "verified": false,
-      "workStatus": null
-    },
-    {
-      "cause": null,
-      "crewAssigned": false,
-      "endedAt": null,
-      "estimatedRestoration": null,
       "id": "45ec405de622c117edd6be76843e018366254e326cc2b7d462b3ddcfac0a269d",
       "island": null,
       "locations": [
@@ -1114,38 +1062,6 @@
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
-      "id": "673a8907538a5c2fa5f0715e3733dba0e13804ac8a1a12d3ef062018f4b1b325",
-      "island": null,
-      "locations": [
-        "WATER GUT HOMES B-116",
-        "WATER GUT HOMES B-5",
-        "WATERGUT HMS B-116",
-        "WATERGUT HMS B-116 A-5A",
-        "WATERGUT HMS B-116 A-5B",
-        "WATERGUT HMS B-116 A-5D",
-        "WATERGUT HMS B-116 A-5E",
-        "WATERGUT HMS B-116 A-5G"
-      ],
-      "modifiedAt": "2026-11-16T18:46:47Z",
-      "name": "T-C-00030",
-      "neighborhoodIDs": [],
-      "point": {
-        "latitude": 17.74503828754237,
-        "longitude": -64.70878552143354
-      },
-      "reportedCustomersInitially": 8,
-      "reportedCustomersOut": 8,
-      "reportedCustomersRestored": 0,
-      "sourceStatus": "Predicted",
-      "startedAt": "2026-11-16T18:46:12Z",
-      "verified": false,
-      "workStatus": null
-    },
-    {
-      "cause": null,
-      "crewAssigned": false,
-      "endedAt": null,
-      "estimatedRestoration": null,
       "id": "688d24f7b6e72cb60f9dd7cfcfc315b9ee0efe7095b9fbf192b7ed84c8031d54",
       "island": "stThomas",
       "locations": [
@@ -1263,7 +1179,7 @@
         "CATHERINES REST 7-F",
         "CATHERINES REST 7-H"
       ],
-      "modifiedAt": "2026-11-16T19:07:58Z",
+      "modifiedAt": "2026-11-16T19:49:16Z",
       "name": "T-C-18314",
       "neighborhoodIDs": [],
       "point": {
@@ -1279,7 +1195,7 @@
       "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-16T19:46:23Z",
+  "generatedAt": "2026-11-16T19:51:25Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -1364,21 +1280,21 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "ef8a9e932c91804cd76080c7f6bf1fb02b07108a73f76b33c036050a2a9fa025",
+  "snapshotID": "6a88a54e2f49886088aee7a35c33f30b156349b4c70bf16f95c4e5bddffecca3",
   "source": {
-    "checkedAt": "2026-11-16T19:46:23Z",
+    "checkedAt": "2026-11-16T19:51:25Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-16T19:45:33Z",
+    "updatedAt": "2026-11-16T19:50:33Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "sourceSummary": {
     "customerCountDifference": 2,
-    "customersAffected": 1152,
-    "customersOut": 1152,
+    "customersAffected": 1101,
+    "customersOut": 1101,
     "customersRestored": 0,
     "customersServed": 54726,
-    "eventCustomersOut": 1150,
+    "eventCustomersOut": 1099,
     "hourlyCustomersOut": [
       {
         "at": "2026-11-14T19:00:00Z",
@@ -1470,111 +1386,111 @@
       },
       {
         "at": "2026-11-15T17:00:00Z",
-        "customersOut": 14728
+        "customersOut": 14686
       },
       {
         "at": "2026-11-15T18:00:00Z",
-        "customersOut": 7876
+        "customersOut": 7834
       },
       {
         "at": "2026-11-15T19:00:00Z",
-        "customersOut": 5967
+        "customersOut": 5925
       },
       {
         "at": "2026-11-15T20:00:00Z",
-        "customersOut": 7591
+        "customersOut": 7548
       },
       {
         "at": "2026-11-15T21:00:00Z",
-        "customersOut": 3241
+        "customersOut": 3198
       },
       {
         "at": "2026-11-15T22:00:00Z",
-        "customersOut": 6566
+        "customersOut": 6523
       },
       {
         "at": "2026-11-15T23:00:00Z",
-        "customersOut": 7728
+        "customersOut": 7685
       },
       {
         "at": "2026-11-16T00:00:00Z",
-        "customersOut": 7729
+        "customersOut": 7686
       },
       {
         "at": "2026-11-16T01:00:00Z",
-        "customersOut": 4454
+        "customersOut": 4411
       },
       {
         "at": "2026-11-16T02:00:00Z",
-        "customersOut": 2320
+        "customersOut": 2277
       },
       {
         "at": "2026-11-16T03:00:00Z",
-        "customersOut": 244
+        "customersOut": 201
       },
       {
         "at": "2026-11-16T04:00:00Z",
-        "customersOut": 53
+        "customersOut": 10
       },
       {
         "at": "2026-11-16T05:00:00Z",
-        "customersOut": 53
+        "customersOut": 10
       },
       {
         "at": "2026-11-16T06:00:00Z",
-        "customersOut": 53
+        "customersOut": 10
       },
       {
         "at": "2026-11-16T07:00:00Z",
-        "customersOut": 53
+        "customersOut": 10
       },
       {
         "at": "2026-11-16T08:00:00Z",
-        "customersOut": 53
+        "customersOut": 10
       },
       {
         "at": "2026-11-16T09:00:00Z",
-        "customersOut": 53
+        "customersOut": 10
       },
       {
         "at": "2026-11-16T10:00:00Z",
-        "customersOut": 53
+        "customersOut": 10
       },
       {
         "at": "2026-11-16T11:00:00Z",
-        "customersOut": 53
+        "customersOut": 10
       },
       {
         "at": "2026-11-16T12:00:00Z",
-        "customersOut": 1145
+        "customersOut": 1102
       },
       {
         "at": "2026-11-16T13:00:00Z",
-        "customersOut": 4725
+        "customersOut": 4682
       },
       {
         "at": "2026-11-16T14:00:00Z",
-        "customersOut": 5994
+        "customersOut": 5951
       },
       {
         "at": "2026-11-16T15:00:00Z",
-        "customersOut": 4910
+        "customersOut": 4867
       },
       {
         "at": "2026-11-16T16:00:00Z",
-        "customersOut": 9551
+        "customersOut": 9508
       },
       {
         "at": "2026-11-16T17:00:00Z",
-        "customersOut": 4703
+        "customersOut": 4660
       },
       {
         "at": "2026-11-16T18:00:00Z",
-        "customersOut": 5795
+        "customersOut": 5744
       },
       {
         "at": "2026-11-16T19:00:00Z",
-        "customersOut": 1150
+        "customersOut": 1099
       }
     ],
     "locations": [
@@ -1723,31 +1639,6 @@
       "CALABASHBOOM 08-805",
       "CALABSH BOOM 1-X",
       "CALASBASH BOOM 1 & 2",
-      "CANDLE REEF",
-      "CANDLE REEF 26",
-      "CANDLE REEF 33",
-      "CANDLE REEF 36",
-      "CANDLE REEF B-10",
-      "CANDLE REEF B-2",
-      "CANDLE REEF U-10",
-      "CANDLE REEF U-11",
-      "CANDLE REEF U-12",
-      "CANDLE REEF U-13",
-      "CANDLE REEF U-14",
-      "CANDLE REEF U-15",
-      "CANDLE REEF U-16",
-      "CANDLE REEF U-17",
-      "CANDLE REEF U-18",
-      "CANDLE REEF U-19",
-      "CANDLE REEF U-2",
-      "CANDLE REEF U-20",
-      "CANDLE REEF U-21",
-      "CANDLE REEF U-3",
-      "CANDLE REEF U-4",
-      "CANDLE REEF U-5",
-      "CANDLE REEF U-6",
-      "CANDLE REEF U-7",
-      "CANDLE REEF U-9",
       "CANEEL BAY",
       "CANEEL BAY 12-C",
       "CANEEL BAY 12C-A1",
@@ -2385,9 +2276,6 @@
       "FRIIS 5C-2",
       "FRIIS ST JOHN",
       "GREAT S E QRTS",
-      "GREEN CAY 9-21-A",
-      "GREEN CAY 93",
-      "GREEN CAY 96",
       "HANSEN BAY \"\"B\"\"",
       "HANSEN BAY 1-A-2",
       "HANSEN BAY 1A-3",
@@ -2610,14 +2498,6 @@
       "TRUNK BAY ST JOHN",
       "TRUNK BAY WATER PLANT",
       "VESTER GADE 100",
-      "WATER GUT HOMES B-116",
-      "WATER GUT HOMES B-5",
-      "WATERGUT HMS B-116",
-      "WATERGUT HMS B-116 A-5A",
-      "WATERGUT HMS B-116 A-5B",
-      "WATERGUT HMS B-116 A-5D",
-      "WATERGUT HMS B-116 A-5E",
-      "WATERGUT HMS B-116 A-5G",
       "WHARFSIDE VILLAGE 7A",
       "ZOOTENAL #-1",
       "ZOOTENVAAL",
@@ -2634,8 +2514,8 @@
       "ZOOTENVAAL 3Q (MTR 1)",
       "ZOOTENVAAL 3T"
     ],
-    "totalOutages": 9
+    "totalOutages": 7
   },
   "staleAfterSeconds": 900,
-  "unassignedEventCount": 6
+  "unassignedEventCount": 4
 }
