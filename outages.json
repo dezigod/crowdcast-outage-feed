@@ -56,6 +56,38 @@
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
+      "id": "36ebf46c27415e6aa9dc92807e06430a1aec9c2a399676e89339216b1cdffa59",
+      "island": null,
+      "locations": [
+        "CONCORDIA 25B A-2C",
+        "CONCORDIA 2-S",
+        "CONCORDIA 2SA",
+        "CONCORDIA 2-SB",
+        "CONCORDIA 2T",
+        "CONCORDIA 2-TB",
+        "CONCORDIA 2-U",
+        "CONCORDIA 2-V"
+      ],
+      "modifiedAt": "2026-11-16T22:30:31Z",
+      "name": "T-C-14127",
+      "neighborhoodIDs": [],
+      "point": {
+        "latitude": 17.753353314806237,
+        "longitude": -64.76778751460215
+      },
+      "reportedCustomersInitially": 10,
+      "reportedCustomersOut": 10,
+      "reportedCustomersRestored": 0,
+      "sourceStatus": "Predicted",
+      "startedAt": "2026-11-16T22:30:25Z",
+      "verified": false,
+      "workStatus": null
+    },
+    {
+      "cause": null,
+      "crewAssigned": false,
+      "endedAt": null,
+      "estimatedRestoration": null,
       "id": "5746f456d76554601c2cdcc7f25e8e8d706312b12aba6e36e3666ec2229110eb",
       "island": null,
       "locations": [
@@ -6039,7 +6071,7 @@
       "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-16T22:25:54Z",
+  "generatedAt": "2026-11-16T22:30:56Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -7144,21 +7176,21 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "f93361f569b2328c9a1aaff46cc6f0ff61b47325a636fc7ca9c5e74b05db47da",
+  "snapshotID": "28418c35a9d431ec82e58161394d13be82c7531706f98337d41a76853755c48f",
   "source": {
-    "checkedAt": "2026-11-16T22:25:54Z",
+    "checkedAt": "2026-11-16T22:30:56Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-16T22:25:36Z",
+    "updatedAt": "2026-11-16T22:30:36Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "sourceSummary": {
     "customerCountDifference": 2,
-    "customersAffected": 7536,
-    "customersOut": 7536,
+    "customersAffected": 7546,
+    "customersOut": 7546,
     "customersRestored": 0,
     "customersServed": 54726,
-    "eventCustomersOut": 7534,
+    "eventCustomersOut": 7544,
     "hourlyCustomersOut": [
       {
         "at": "2026-11-14T22:00:00Z",
@@ -7354,7 +7386,7 @@
       },
       {
         "at": "2026-11-16T22:00:00Z",
-        "customersOut": 10545
+        "customersOut": 10555
       }
     ],
     "locations": [
@@ -9093,6 +9125,14 @@
       "COKI POINT C-1F DOWN",
       "COKI POINT NO. 7",
       "COMMANDANT GADE 12",
+      "CONCORDIA 25B A-2C",
+      "CONCORDIA 2-S",
+      "CONCORDIA 2SA",
+      "CONCORDIA 2-SB",
+      "CONCORDIA 2T",
+      "CONCORDIA 2-TB",
+      "CONCORDIA 2-U",
+      "CONCORDIA 2-V",
       "CONTANT",
       "CONTANT #23-3D APT. 1",
       "CONTANT #27BA",
@@ -13080,8 +13120,8 @@
       "ZUERIENDENHEIT",
       "ZUFRIDENHEIT 1"
     ],
-    "totalOutages": 12
+    "totalOutages": 13
   },
   "staleAfterSeconds": 900,
-  "unassignedEventCount": 9
+  "unassignedEventCount": 10
 }
