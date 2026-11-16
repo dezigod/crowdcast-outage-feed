@@ -1147,6 +1147,38 @@
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
+      "id": "9e6edeb3508f28f9d7b55766e83ab0bf1401dd0abfe28db37464c1652518f2df",
+      "island": null,
+      "locations": [
+        "BONNE RESOLUTION",
+        "BONNE RESOLUTION 14-1",
+        "BONNE RESOLUTION 14-2",
+        "BONNE RESOLUTION 14-2 A-1",
+        "BONNE RESOLUTION 14-50",
+        "BONNE RESOLUTION 14-51",
+        "BONNE RESOLUTION 15-3",
+        "BONNE RESOLUTION 15-4"
+      ],
+      "modifiedAt": "2026-11-16T13:22:28Z",
+      "name": "T-T-09238",
+      "neighborhoodIDs": [],
+      "point": {
+        "latitude": 18.364145456156777,
+        "longitude": -64.95703658952502
+      },
+      "reportedCustomersInitially": 8,
+      "reportedCustomersOut": 8,
+      "reportedCustomersRestored": 0,
+      "sourceStatus": "Predicted",
+      "startedAt": "2026-11-16T13:22:05Z",
+      "verified": false,
+      "workStatus": null
+    },
+    {
+      "cause": null,
+      "crewAssigned": false,
+      "endedAt": null,
+      "estimatedRestoration": null,
       "id": "a7622fe5ec3f7460243d64545ddffb42dc3c534b3876e2c938737688abde9c58",
       "island": "stThomas",
       "locations": [
@@ -1224,7 +1256,7 @@
       "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-16T13:20:35Z",
+  "generatedAt": "2026-11-16T13:25:37Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -1325,21 +1357,21 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "9c24dcbfe56161c8775f90260c27fa0e9ec3941f311a7766aab310c4daa57951",
+  "snapshotID": "2abb48c9dd1623d5b88c2e9b85d070d511cb44046c63569e0a0eed44180c2c64",
   "source": {
-    "checkedAt": "2026-11-16T13:20:35Z",
+    "checkedAt": "2026-11-16T13:25:37Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-16T13:20:33Z",
+    "updatedAt": "2026-11-16T13:25:33Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "sourceSummary": {
     "customerCountDifference": 2,
-    "customersAffected": 1147,
-    "customersOut": 1147,
+    "customersAffected": 1155,
+    "customersOut": 1155,
     "customersRestored": 0,
     "customersServed": 54726,
-    "eventCustomersOut": 1145,
+    "eventCustomersOut": 1153,
     "hourlyCustomersOut": [
       {
         "at": "2026-11-14T13:00:00Z",
@@ -1535,7 +1567,7 @@
       },
       {
         "at": "2026-11-16T13:00:00Z",
-        "customersOut": 1145
+        "customersOut": 1153
       }
     ],
     "locations": [
@@ -1581,6 +1613,14 @@
       "BEN RUNNELS GUT 6-S-1",
       "BEN RUNNELS GUTN 6-GD-2",
       "BLDG. 2 MEADA'S PLAZA",
+      "BONNE RESOLUTION",
+      "BONNE RESOLUTION 14-1",
+      "BONNE RESOLUTION 14-2",
+      "BONNE RESOLUTION 14-2 A-1",
+      "BONNE RESOLUTION 14-50",
+      "BONNE RESOLUTION 14-51",
+      "BONNE RESOLUTION 15-3",
+      "BONNE RESOLUTION 15-4",
       "CALABASH BM MAIN PUMP 1-2",
       "CALABASH BOOM",
       "CALABASH BOOM #28-11",
@@ -2586,8 +2626,8 @@
       "ZOOTENVAAL 3Q (MTR 1)",
       "ZOOTENVAAL 3T"
     ],
-    "totalOutages": 7
+    "totalOutages": 8
   },
   "staleAfterSeconds": 900,
-  "unassignedEventCount": 3
+  "unassignedEventCount": 4
 }
