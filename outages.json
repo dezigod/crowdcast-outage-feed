@@ -111,33 +111,6 @@
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
-      "id": "40919fd86e39d720065f26325c50b7cfc402d345832b15faef5d531cb0e15afd",
-      "island": null,
-      "locations": [
-        "CANE CARLTON 128",
-        "CARLTON",
-        "CARLTON 45A"
-      ],
-      "modifiedAt": "2026-11-16T00:35:15Z",
-      "name": "T-C-12088",
-      "neighborhoodIDs": [],
-      "point": {
-        "latitude": 17.68977193042023,
-        "longitude": -64.84131317567439
-      },
-      "reportedCustomersInitially": 3,
-      "reportedCustomersOut": 3,
-      "reportedCustomersRestored": 0,
-      "sourceStatus": "Predicted",
-      "startedAt": "2026-11-16T00:34:44Z",
-      "verified": false,
-      "workStatus": null
-    },
-    {
-      "cause": null,
-      "crewAssigned": false,
-      "endedAt": null,
-      "estimatedRestoration": null,
       "id": "466bc9614c76460646f6e693474c200e210063775b3dac783172ab48908c90e8",
       "island": "stCroix",
       "locations": [
@@ -5287,7 +5260,7 @@
       "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-16T00:35:56Z",
+  "generatedAt": "2026-11-16T00:40:58Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -6649,21 +6622,21 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "4fdb96c2b7029cc49f4c7109d756b4a044eb850c15a0f8fee546c69c53c0befd",
+  "snapshotID": "6b102cba38ade8617ce35ea195b7b005b3164341ac8614b928016a85c586c3fd",
   "source": {
-    "checkedAt": "2026-11-16T00:35:56Z",
+    "checkedAt": "2026-11-16T00:40:58Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-16T00:35:34Z",
+    "updatedAt": "2026-11-16T00:40:34Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "sourceSummary": {
     "customerCountDifference": 2,
-    "customersAffected": 6350,
-    "customersOut": 6350,
+    "customersAffected": 6347,
+    "customersOut": 6347,
     "customersRestored": 0,
     "customersServed": 54726,
-    "eventCustomersOut": 6348,
+    "eventCustomersOut": 6345,
     "hourlyCustomersOut": [
       {
         "at": "2026-11-14T00:00:00Z",
@@ -6859,7 +6832,7 @@
       },
       {
         "at": "2026-11-16T00:00:00Z",
-        "customersOut": 9622
+        "customersOut": 9619
       }
     ],
     "locations": [
@@ -8628,9 +8601,6 @@
       "CANDLE REEF U-6",
       "CANDLE REEF U-7",
       "CANDLE REEF U-9",
-      "CANE CARLTON 128",
-      "CARLTON",
-      "CARLTON 45A",
       "CASTLE COAKLEY",
       "CASTLE COAKLEY 54",
       "CHAR. AMALIE 26 STE. 235",
@@ -11802,8 +11772,8 @@
       "WINTBERG-TRAILER",
       "WINTHBERG 1-B4 APT 303"
     ],
-    "totalOutages": 13
+    "totalOutages": 12
   },
   "staleAfterSeconds": 900,
-  "unassignedEventCount": 9
+  "unassignedEventCount": 8
 }
