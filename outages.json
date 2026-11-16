@@ -3274,38 +3274,6 @@
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
-      "id": "ed04940c2eb3bbf9c61bd2ae47003dedfdc7b987630383ba484419ccddc1faf0",
-      "island": null,
-      "locations": [
-        "MT PLEASANT",
-        "MT PLEASANT (WEST)",
-        "MT PLEASANT 472",
-        "MT PLEASANT 473",
-        "MT PLEASANT 475",
-        "MT PLEASANT 477",
-        "MT PLEASANT 478",
-        "MT PLEASANT 479"
-      ],
-      "modifiedAt": "2026-11-16T20:42:27Z",
-      "name": "T-C-20601",
-      "neighborhoodIDs": [],
-      "point": {
-        "latitude": 17.714712486750738,
-        "longitude": -64.81475496255277
-      },
-      "reportedCustomersInitially": 14,
-      "reportedCustomersOut": 14,
-      "reportedCustomersRestored": 0,
-      "sourceStatus": "Verified",
-      "startedAt": "2026-11-16T20:10:48Z",
-      "verified": true,
-      "workStatus": null
-    },
-    {
-      "cause": null,
-      "crewAssigned": false,
-      "endedAt": null,
-      "estimatedRestoration": null,
       "id": "f1dd754a27ae73c87157bf8290452e8aa8c96c33c5a15cfb4e6599854a632a7d",
       "island": null,
       "locations": [
@@ -5472,7 +5440,7 @@
       "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-16T23:31:16Z",
+  "generatedAt": "2026-11-16T23:36:18Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -6274,21 +6242,21 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "b43dd5a0311bcb969bd8cfa3fe7ad25ef4eac0efe13656bdd460644672508081",
+  "snapshotID": "3fc62bdab83ff908672cb61087b2e5ec7c1e65dc5ec70307a4c547c337a18b20",
   "source": {
-    "checkedAt": "2026-11-16T23:31:16Z",
+    "checkedAt": "2026-11-16T23:36:18Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-16T23:30:37Z",
+    "updatedAt": "2026-11-16T23:35:35Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "sourceSummary": {
     "customerCountDifference": 2,
-    "customersAffected": 6217,
-    "customersOut": 6217,
+    "customersAffected": 6203,
+    "customersOut": 6203,
     "customersRestored": 0,
     "customersServed": 54726,
-    "eventCustomersOut": 6215,
+    "eventCustomersOut": 6201,
     "hourlyCustomersOut": [
       {
         "at": "2026-11-14T23:00:00Z",
@@ -6484,7 +6452,7 @@
       },
       {
         "at": "2026-11-16T23:00:00Z",
-        "customersOut": 6215
+        "customersOut": 6201
       }
     ],
     "locations": [
@@ -10264,14 +10232,6 @@
       "MAMEY PEAK",
       "MANDAHL 13B-5",
       "MODULAR CLASSROOM - IEKHS",
-      "MT PLEASANT",
-      "MT PLEASANT (WEST)",
-      "MT PLEASANT 472",
-      "MT PLEASANT 473",
-      "MT PLEASANT 475",
-      "MT PLEASANT 477",
-      "MT PLEASANT 478",
-      "MT PLEASANT 479",
       "N ESTATE ENIGHED",
       "NAZARETH - EUDORA KEAN",
       "NAZARETH 1-2 MID BLDG",
@@ -11654,8 +11614,8 @@
       "WEST COND SAPP B-A",
       "WEST SAPPHIRE BAY CONDO"
     ],
-    "totalOutages": 12
+    "totalOutages": 11
   },
   "staleAfterSeconds": 900,
-  "unassignedEventCount": 8
+  "unassignedEventCount": 7
 }
