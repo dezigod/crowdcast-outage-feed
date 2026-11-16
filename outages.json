@@ -2391,6 +2391,31 @@
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
+      "id": "9545bb981b0a16ab5433c1a563ae502d559909cde03b7eeee0b546c7157a85b8",
+      "island": null,
+      "locations": [
+        "LEB VILLAS PHASE III"
+      ],
+      "modifiedAt": "2026-11-16T20:38:38Z",
+      "name": "207524",
+      "neighborhoodIDs": [],
+      "point": {
+        "latitude": 17.705275075070173,
+        "longitude": -64.81900432385386
+      },
+      "reportedCustomersInitially": 1,
+      "reportedCustomersOut": 1,
+      "reportedCustomersRestored": 0,
+      "sourceStatus": "Predicted",
+      "startedAt": "2026-11-16T20:38:29Z",
+      "verified": false,
+      "workStatus": null
+    },
+    {
+      "cause": null,
+      "crewAssigned": false,
+      "endedAt": null,
+      "estimatedRestoration": null,
       "id": "986bf75ffce89546178395560935d874d8ee6149ddbf4b27e97cb5425a4b6dc6",
       "island": null,
       "locations": [
@@ -5231,7 +5256,7 @@
       "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-16T20:35:37Z",
+  "generatedAt": "2026-11-16T20:40:38Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -5708,21 +5733,21 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "5482b1107f19442319a5ebe0df3e043ff3ccbe5defc010f6c12f155ffae89e9b",
+  "snapshotID": "e07752158107831b9c489dc207e3eb4250f3d2ff5fa38ed21031ea5e922ee559",
   "source": {
-    "checkedAt": "2026-11-16T20:35:37Z",
+    "checkedAt": "2026-11-16T20:40:38Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-16T20:35:35Z",
+    "updatedAt": "2026-11-16T20:40:35Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "sourceSummary": {
     "customerCountDifference": 2,
-    "customersAffected": 6621,
-    "customersOut": 6621,
+    "customersAffected": 6622,
+    "customersOut": 6622,
     "customersRestored": 0,
     "customersServed": 54726,
-    "eventCustomersOut": 6619,
+    "eventCustomersOut": 6620,
     "hourlyCustomersOut": [
       {
         "at": "2026-11-14T20:00:00Z",
@@ -5918,7 +5943,7 @@
       },
       {
         "at": "2026-11-16T20:00:00Z",
-        "customersOut": 7704
+        "customersOut": 7705
       }
     ],
     "locations": [
@@ -8849,6 +8874,7 @@
       "LANGMATH 11-G-8",
       "LEARKENLUND",
       "LEARKENLUND EST 6C",
+      "LEB VILLAS PHASE III",
       "LERKENDLUND 10AA 10BA UP",
       "LERKENLUND",
       "LERKENLUND #4 MIDDLE FL",
@@ -10873,8 +10899,8 @@
       "ZUERIENDENHEIT",
       "ZUFRIDENHEIT 1"
     ],
-    "totalOutages": 11
+    "totalOutages": 12
   },
   "staleAfterSeconds": 900,
-  "unassignedEventCount": 8
+  "unassignedEventCount": 9
 }
