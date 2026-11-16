@@ -27,7 +27,7 @@
       "workStatus": null
     },
     {
-      "cause": null,
+      "cause": "000 Power supply",
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
@@ -1550,7 +1550,7 @@
         "WEST COND SAPP B-A",
         "WEST SAPPHIRE BAY CONDO"
       ],
-      "modifiedAt": "2026-11-16T16:26:26Z",
+      "modifiedAt": "2026-11-16T17:01:29Z",
       "name": "TSW-7C-7D-CASI-A",
       "neighborhoodIDs": [
         "stThomas-smith-bay"
@@ -1678,7 +1678,7 @@
       "workStatus": null
     },
     {
-      "cause": null,
+      "cause": "000 Power supply",
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
@@ -2976,7 +2976,7 @@
         "WINTBERG PEAK 1CD-6",
         "WINTBERG PEAK 1K"
       ],
-      "modifiedAt": "2026-11-16T17:00:30Z",
+      "modifiedAt": "2026-11-16T17:01:25Z",
       "name": "Feeder 08B",
       "neighborhoodIDs": [
         "stThomas-agnes-fancy",
@@ -2997,7 +2997,7 @@
       "workStatus": null
     },
     {
-      "cause": null,
+      "cause": "000 Power supply",
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
@@ -3499,7 +3499,7 @@
         "NORTH ESTATE BOVONI",
         "TABOR & HARMONY 4-14A UP"
       ],
-      "modifiedAt": "2026-11-16T16:27:12Z",
+      "modifiedAt": "2026-11-16T17:01:18Z",
       "name": "BOVONI OUT WAY 3",
       "neighborhoodIDs": [],
       "point": {
@@ -3621,7 +3621,7 @@
       "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-16T17:00:35Z",
+  "generatedAt": "2026-11-16T17:05:45Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -4818,11 +4818,11 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "365720f9e5ed0c903d51442b843555bbc5eb6c6ae2edfbf03943945e1e4b50c0",
+  "snapshotID": "a77b9b2d93c88408c20706f7b0a3691b97a0ada3bdc7ddb603522f37c9584adb",
   "source": {
-    "checkedAt": "2026-11-16T17:00:35Z",
+    "checkedAt": "2026-11-16T17:05:45Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-16T17:00:34Z",
+    "updatedAt": "2026-11-16T17:05:34Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
