@@ -1682,7 +1682,7 @@
         "ST PETER 14-6",
         "ST PETER 18A"
       ],
-      "modifiedAt": "2026-11-16T23:08:08Z",
+      "modifiedAt": "2026-11-16T23:30:29Z",
       "name": "T-T-06053",
       "neighborhoodIDs": [
         "stThomas-st-peter"
@@ -5472,7 +5472,7 @@
       "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-16T23:26:14Z",
+  "generatedAt": "2026-11-16T23:31:16Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -6274,11 +6274,11 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "754bc5335e597c81ba437f88dbf746e8ce674c39a06cd4da68f74e5f1b6d8414",
+  "snapshotID": "b43dd5a0311bcb969bd8cfa3fe7ad25ef4eac0efe13656bdd460644672508081",
   "source": {
-    "checkedAt": "2026-11-16T23:26:14Z",
+    "checkedAt": "2026-11-16T23:31:16Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-16T23:25:36Z",
+    "updatedAt": "2026-11-16T23:30:37Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
