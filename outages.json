@@ -2038,6 +2038,31 @@
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
+      "id": "74b33649854ae180944645eca5048a281c8bbf170a21b7c87a3ce212fe86bcaa",
+      "island": null,
+      "locations": [
+        "LINDBERG BAY 38HJ"
+      ],
+      "modifiedAt": "2026-11-16T00:15:08Z",
+      "name": "T-T-03287",
+      "neighborhoodIDs": [],
+      "point": {
+        "latitude": 18.349013046529258,
+        "longitude": -64.96523157205277
+      },
+      "reportedCustomersInitially": 1,
+      "reportedCustomersOut": 1,
+      "reportedCustomersRestored": 0,
+      "sourceStatus": "Predicted",
+      "startedAt": "2026-11-16T00:14:34Z",
+      "verified": false,
+      "workStatus": null
+    },
+    {
+      "cause": null,
+      "crewAssigned": false,
+      "endedAt": null,
+      "estimatedRestoration": null,
       "id": "7f6f961d270f6a7299c4dfaf89229f1a11df860390276c66c74172dc31a5fb57",
       "island": null,
       "locations": [
@@ -3681,7 +3706,7 @@
       "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-16T00:10:46Z",
+  "generatedAt": "2026-11-16T00:15:48Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -5003,21 +5028,21 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "6f0b0d6a2179a35c8a3fa1319790c3febcc412dfeed9c065714692763e94a5f4",
+  "snapshotID": "9b9558176d259198f9f40d5409429e1ca69a3ce2de381da65faacfc95ff8b00e",
   "source": {
-    "checkedAt": "2026-11-16T00:10:46Z",
+    "checkedAt": "2026-11-16T00:15:48Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-16T00:10:33Z",
+    "updatedAt": "2026-11-16T00:15:33Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "sourceSummary": {
     "customerCountDifference": 2,
-    "customersAffected": 4446,
-    "customersOut": 4446,
+    "customersAffected": 4447,
+    "customersOut": 4447,
     "customersRestored": 0,
     "customersServed": 54726,
-    "eventCustomersOut": 4444,
+    "eventCustomersOut": 4445,
     "hourlyCustomersOut": [
       {
         "at": "2026-11-14T00:00:00Z",
@@ -6646,6 +6671,7 @@
       "JOSEPH & ROSENDAHL 8D-4",
       "LERKENLUND 501L",
       "LERKENLUND 9D-1-2",
+      "LINDBERG BAY 38HJ",
       "L'LUND MAHOGANY RN UPPER",
       "LOT 18-16 SMITH BAY",
       "LOT EST WINTBERG UP",
@@ -8636,8 +8662,8 @@
       "WINTBERG-TRAILER",
       "WINTHBERG 1-B4 APT 303"
     ],
-    "totalOutages": 10
+    "totalOutages": 11
   },
   "staleAfterSeconds": 900,
-  "unassignedEventCount": 6
+  "unassignedEventCount": 7
 }
