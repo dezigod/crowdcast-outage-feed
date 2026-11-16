@@ -1089,6 +1089,34 @@
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
+      "id": "415a4440ab893b32c7f918b18e1b145ec0da74f99ba758f9e47e84ff65e4a23c",
+      "island": "stCroix",
+      "locations": [
+        "CASTLE COAKLEY",
+        "CASTLE COAKLEY 54"
+      ],
+      "modifiedAt": "2026-11-16T12:59:52Z",
+      "name": "T-C-06088",
+      "neighborhoodIDs": [
+        "stCroix-castle-coakley"
+      ],
+      "point": {
+        "latitude": 17.72783857305157,
+        "longitude": -64.74354200938487
+      },
+      "reportedCustomersInitially": 7,
+      "reportedCustomersOut": 7,
+      "reportedCustomersRestored": 0,
+      "sourceStatus": "Predicted",
+      "startedAt": "2026-11-16T12:59:45Z",
+      "verified": false,
+      "workStatus": null
+    },
+    {
+      "cause": null,
+      "crewAssigned": false,
+      "endedAt": null,
+      "estimatedRestoration": null,
       "id": "688d24f7b6e72cb60f9dd7cfcfc315b9ee0efe7095b9fbf192b7ed84c8031d54",
       "island": "stThomas",
       "locations": [
@@ -1196,7 +1224,7 @@
       "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-16T12:55:39Z",
+  "generatedAt": "2026-11-16T13:00:41Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -1259,7 +1287,23 @@
       "coverage": "partial",
       "customersOut": null,
       "id": "stCroix",
-      "neighborhoods": []
+      "neighborhoods": [
+        {
+          "affectedCustomers": null,
+          "estimatedRestoration": null,
+          "id": "stCroix-castle-coakley",
+          "island": "stCroix",
+          "locations": [
+            "54"
+          ],
+          "name": "Castle Coakley",
+          "sourceEventIDs": [
+            "415a4440ab893b32c7f918b18e1b145ec0da74f99ba758f9e47e84ff65e4a23c"
+          ],
+          "sourceStatus": "Predicted",
+          "startedAt": "2026-11-16T12:59:45Z"
+        }
+      ]
     },
     {
       "coverage": "partial",
@@ -1281,26 +1325,22 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "8c769649242f03fbef98d1ce398a1d0b3bf3b39442fe99260d182cffafad05e6",
+  "snapshotID": "5f7945deff956e30b9589f9823260fd157a9e3ac2dc95e6069970de1269681fd",
   "source": {
-    "checkedAt": "2026-11-16T12:55:39Z",
+    "checkedAt": "2026-11-16T13:00:41Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-16T12:55:33Z",
+    "updatedAt": "2026-11-16T13:00:33Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "sourceSummary": {
     "customerCountDifference": 2,
-    "customersAffected": 1140,
-    "customersOut": 1140,
+    "customersAffected": 1147,
+    "customersOut": 1147,
     "customersRestored": 0,
     "customersServed": 54726,
-    "eventCustomersOut": 1138,
+    "eventCustomersOut": 1145,
     "hourlyCustomersOut": [
-      {
-        "at": "2026-11-14T12:00:00Z",
-        "customersOut": 166
-      },
       {
         "at": "2026-11-14T13:00:00Z",
         "customersOut": 10941
@@ -1491,7 +1531,11 @@
       },
       {
         "at": "2026-11-16T12:00:00Z",
-        "customersOut": 1138
+        "customersOut": 1145
+      },
+      {
+        "at": "2026-11-16T13:00:00Z",
+        "customersOut": 1145
       }
     ],
     "locations": [
@@ -1878,6 +1922,8 @@
       "CAROLINA 8-4-5",
       "CAROLINA 8-5",
       "CAROLINA REM 6-2-1",
+      "CASTLE COAKLEY",
+      "CASTLE COAKLEY 54",
       "CELEBRATION VILLAGE CRUZ",
       "CINNAMON BAY",
       "CINNAMON BAY 69",
@@ -2540,7 +2586,7 @@
       "ZOOTENVAAL 3Q (MTR 1)",
       "ZOOTENVAAL 3T"
     ],
-    "totalOutages": 6
+    "totalOutages": 7
   },
   "staleAfterSeconds": 900,
   "unassignedEventCount": 3
