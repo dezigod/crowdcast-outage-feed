@@ -86,43 +86,6 @@
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
-      "id": "98a5b383b752018a9120d58bdfd228a8780ab1ef49948cf92aa840e52babbcdd",
-      "island": null,
-      "locations": [
-        "CONTANT",
-        "CONTANT #49",
-        "CONTANT 33B",
-        "CONTANT 33B6",
-        "CONTANT 35",
-        "CONTANT 36",
-        "CONTANT 37",
-        "CONTANT 46",
-        "CONTANT 46 APT 1",
-        "CONTANT 48A DWN",
-        "CONTANT 48A UP",
-        "CONTANT 49 TRAILER",
-        "CONTANT 6-33 TRAILER"
-      ],
-      "modifiedAt": "2026-11-16T22:44:56Z",
-      "name": "T-T-15937",
-      "neighborhoodIDs": [],
-      "point": {
-        "latitude": 18.339055420957006,
-        "longitude": -64.9584462681649
-      },
-      "reportedCustomersInitially": 18,
-      "reportedCustomersOut": 18,
-      "reportedCustomersRestored": 0,
-      "sourceStatus": "Predicted",
-      "startedAt": "2026-11-16T22:44:30Z",
-      "verified": false,
-      "workStatus": null
-    },
-    {
-      "cause": null,
-      "crewAssigned": false,
-      "endedAt": null,
-      "estimatedRestoration": null,
       "id": "9bf9dfa3b95a37f615460fbfe6d6f6cafae6ec7799e15dde9bcaee66d81a4fc4",
       "island": null,
       "locations": [
@@ -5479,39 +5442,9 @@
       "startedAt": "2026-11-16T22:31:56Z",
       "verified": true,
       "workStatus": null
-    },
-    {
-      "cause": null,
-      "crewAssigned": false,
-      "endedAt": null,
-      "estimatedRestoration": null,
-      "id": "fd309cd5a426b3f05f696e46ce651d746617730e94633ed3998593c4529181c0",
-      "island": null,
-      "locations": [
-        "LILLIE & MARIENHOJ 10-2-1",
-        "LILLIEN & MARIEN 10-2-26",
-        "LILLIEN & MARIENH 10-2-6",
-        "LILLIEND & MARIEN 10-2-6",
-        "LILLIENDAHL & MARIE 10-2-",
-        "LILLIENDAHL & MARIENHOJ"
-      ],
-      "modifiedAt": "2026-11-16T22:59:08Z",
-      "name": "T-T-02179",
-      "neighborhoodIDs": [],
-      "point": {
-        "latitude": 18.354313584464848,
-        "longitude": -64.95028274975547
-      },
-      "reportedCustomersInitially": 9,
-      "reportedCustomersOut": 9,
-      "reportedCustomersRestored": 0,
-      "sourceStatus": "Predicted",
-      "startedAt": "2026-11-16T22:48:05Z",
-      "verified": false,
-      "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-16T23:01:06Z",
+  "generatedAt": "2026-11-16T23:06:08Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -6297,21 +6230,21 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "38da261bd09c107102ce683e7049838e4a739da05949ba5cb7c70fee597acffd",
+  "snapshotID": "7cb97d46ca57cc5ecdeb5d0d72621eb2e86a43c717bb4d356c35a59ddd744501",
   "source": {
-    "checkedAt": "2026-11-16T23:01:06Z",
+    "checkedAt": "2026-11-16T23:06:08Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-16T23:00:36Z",
+    "updatedAt": "2026-11-16T23:05:36Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "sourceSummary": {
     "customerCountDifference": 2,
-    "customersAffected": 6241,
-    "customersOut": 6241,
+    "customersAffected": 6214,
+    "customersOut": 6214,
     "customersRestored": 0,
     "customersServed": 54726,
-    "eventCustomersOut": 6239,
+    "eventCustomersOut": 6212,
     "hourlyCustomersOut": [
       {
         "at": "2026-11-14T23:00:00Z",
@@ -6503,11 +6436,11 @@
       },
       {
         "at": "2026-11-16T22:00:00Z",
-        "customersOut": 12820
+        "customersOut": 12802
       },
       {
         "at": "2026-11-16T23:00:00Z",
-        "customersOut": 6239
+        "customersOut": 6212
       }
     ],
     "locations": [
@@ -8497,7 +8430,6 @@
       "CONTANT #1-I",
       "CONTANT #1-I (HSE)",
       "CONTANT #3A",
-      "CONTANT #49",
       "CONTANT & ENIGHED",
       "CONTANT & ENIGHED #201",
       "CONTANT & ENIGHED (A)",
@@ -8600,22 +8532,12 @@
       "CONTANT 3-13",
       "CONTANT 3-16 UP",
       "CONTANT 3-2",
-      "CONTANT 33B",
-      "CONTANT 33B6",
       "CONTANT 3-4 APT 1",
       "CONTANT 3-4 APT 2",
-      "CONTANT 35",
       "CONTANT 3-5",
-      "CONTANT 36",
-      "CONTANT 37",
       "CONTANT 3-7",
       "CONTANT 3-9",
       "CONTANT 3D",
-      "CONTANT 46",
-      "CONTANT 46 APT 1",
-      "CONTANT 48A DWN",
-      "CONTANT 48A UP",
-      "CONTANT 49 TRAILER",
       "CONTANT 4-A HSE #1",
       "CONTANT 4E",
       "CONTANT 5B",
@@ -8625,7 +8547,6 @@
       "CONTANT 5-L",
       "CONTANT 5L DOWN",
       "CONTANT 5-Q",
-      "CONTANT 6-33 TRAILER",
       "CONTANT 6-4",
       "CONTANT 6-5",
       "CONTANT 6-6",
@@ -10292,12 +10213,6 @@
       "LANGMATH 11-1A",
       "LANGMATH 11-1B",
       "LERKENLUND 9D-1-2",
-      "LILLIE & MARIENHOJ 10-2-1",
-      "LILLIEN & MARIEN 10-2-26",
-      "LILLIEN & MARIENH 10-2-6",
-      "LILLIEND & MARIEN 10-2-6",
-      "LILLIENDAHL & MARIE 10-2-",
-      "LILLIENDAHL & MARIENHOJ",
       "LOT 18-16 SMITH BAY",
       "LOVENLUND EST FARMHOUSE",
       "LOVENLUND PCL D-12 L/41",
@@ -11693,8 +11608,8 @@
       "WEST COND SAPP B-A",
       "WEST SAPPHIRE BAY CONDO"
     ],
-    "totalOutages": 13
+    "totalOutages": 11
   },
   "staleAfterSeconds": 900,
-  "unassignedEventCount": 10
+  "unassignedEventCount": 8
 }
