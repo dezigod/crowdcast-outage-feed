@@ -5177,6 +5177,38 @@
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
+      "id": "ed04940c2eb3bbf9c61bd2ae47003dedfdc7b987630383ba484419ccddc1faf0",
+      "island": null,
+      "locations": [
+        "MT PLEASANT",
+        "MT PLEASANT (WEST)",
+        "MT PLEASANT 472",
+        "MT PLEASANT 473",
+        "MT PLEASANT 475",
+        "MT PLEASANT 477",
+        "MT PLEASANT 478",
+        "MT PLEASANT 479"
+      ],
+      "modifiedAt": "2026-11-16T20:33:15Z",
+      "name": "T-C-20601",
+      "neighborhoodIDs": [],
+      "point": {
+        "latitude": 17.714712486750738,
+        "longitude": -64.81475496255277
+      },
+      "reportedCustomersInitially": 14,
+      "reportedCustomersOut": 14,
+      "reportedCustomersRestored": 0,
+      "sourceStatus": "Predicted",
+      "startedAt": "2026-11-16T20:10:48Z",
+      "verified": false,
+      "workStatus": null
+    },
+    {
+      "cause": null,
+      "crewAssigned": false,
+      "endedAt": null,
+      "estimatedRestoration": null,
       "id": "f1dd754a27ae73c87157bf8290452e8aa8c96c33c5a15cfb4e6599854a632a7d",
       "island": null,
       "locations": [
@@ -5199,7 +5231,7 @@
       "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-16T20:30:33Z",
+  "generatedAt": "2026-11-16T20:35:37Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -5676,21 +5708,21 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "4ed9b72831f2bec3c10c99252faf3978988bf96afe7556f309f8581bd4f4d123",
+  "snapshotID": "5482b1107f19442319a5ebe0df3e043ff3ccbe5defc010f6c12f155ffae89e9b",
   "source": {
-    "checkedAt": "2026-11-16T20:30:33Z",
+    "checkedAt": "2026-11-16T20:35:37Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-16T20:25:35Z",
+    "updatedAt": "2026-11-16T20:35:35Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "sourceSummary": {
     "customerCountDifference": 2,
-    "customersAffected": 6607,
-    "customersOut": 6607,
+    "customersAffected": 6621,
+    "customersOut": 6621,
     "customersRestored": 0,
     "customersServed": 54726,
-    "eventCustomersOut": 6605,
+    "eventCustomersOut": 6619,
     "hourlyCustomersOut": [
       {
         "at": "2026-11-14T20:00:00Z",
@@ -5886,7 +5918,7 @@
       },
       {
         "at": "2026-11-16T20:00:00Z",
-        "customersOut": 7690
+        "customersOut": 7704
       }
     ],
     "locations": [
@@ -9480,6 +9512,14 @@
       "MISGUNST TERRACE 2 CONDO",
       "MOUNTAIN TOP B-2",
       "MOUNTAIN TOP COND B-2 A-5",
+      "MT PLEASANT",
+      "MT PLEASANT (WEST)",
+      "MT PLEASANT 472",
+      "MT PLEASANT 473",
+      "MT PLEASANT 475",
+      "MT PLEASANT 477",
+      "MT PLEASANT 478",
+      "MT PLEASANT 479",
       "MT ZION 10-12-12",
       "NADIR",
       "NADIR # 27",
@@ -10833,8 +10873,8 @@
       "ZUERIENDENHEIT",
       "ZUFRIDENHEIT 1"
     ],
-    "totalOutages": 10
+    "totalOutages": 11
   },
   "staleAfterSeconds": 900,
-  "unassignedEventCount": 7
+  "unassignedEventCount": 8
 }
