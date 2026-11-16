@@ -55,7 +55,7 @@
       "workStatus": null
     },
     {
-      "cause": null,
+      "cause": "190 Other planned",
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
@@ -1070,7 +1070,7 @@
         "ZOOTENVAAL 3Q (MTR 1)",
         "ZOOTENVAAL 3T"
       ],
-      "modifiedAt": "2026-11-16T12:20:18Z",
+      "modifiedAt": "2026-11-16T12:22:24Z",
       "name": "Feeder 07E",
       "neighborhoodIDs": [],
       "point": {
@@ -1083,32 +1083,6 @@
       "sourceStatus": "Verified",
       "startedAt": "2026-11-16T12:10:28Z",
       "verified": true,
-      "workStatus": null
-    },
-    {
-      "cause": null,
-      "crewAssigned": false,
-      "endedAt": null,
-      "estimatedRestoration": null,
-      "id": "2d07087f19efde9c3efc5c632860d7ab8bbbd47bd29d608763a18eb27cab14b5",
-      "island": null,
-      "locations": [
-        "CAROLINA 9-9-8",
-        "CONSOLIDATED EST CAROLINA"
-      ],
-      "modifiedAt": "2026-11-16T12:11:27Z",
-      "name": "T-J-02686",
-      "neighborhoodIDs": [],
-      "point": {
-        "latitude": 18.340413856275013,
-        "longitude": -64.72268003433874
-      },
-      "reportedCustomersInitially": 2,
-      "reportedCustomersOut": 2,
-      "reportedCustomersRestored": 0,
-      "sourceStatus": "Predicted",
-      "startedAt": "2026-11-16T12:11:10Z",
-      "verified": false,
       "workStatus": null
     },
     {
@@ -1160,32 +1134,6 @@
       "reportedCustomersRestored": 0,
       "sourceStatus": "Predicted",
       "startedAt": "2026-11-15T17:13:07Z",
-      "verified": false,
-      "workStatus": null
-    },
-    {
-      "cause": null,
-      "crewAssigned": false,
-      "endedAt": null,
-      "estimatedRestoration": null,
-      "id": "375b250ef6c61881a1cbdbccc47c5757217dd2fe1c9b2d79849489b1908e6796",
-      "island": null,
-      "locations": [
-        "CAROLINA 10-30C-1A",
-        "CAROLINA 10-30C-5"
-      ],
-      "modifiedAt": "2026-11-16T12:11:58Z",
-      "name": "T-J-03914",
-      "neighborhoodIDs": [],
-      "point": {
-        "latitude": 18.33884437569973,
-        "longitude": -64.71838654311689
-      },
-      "reportedCustomersInitially": 2,
-      "reportedCustomersOut": 2,
-      "reportedCustomersRestored": 0,
-      "sourceStatus": "Predicted",
-      "startedAt": "2026-11-16T12:11:37Z",
       "verified": false,
       "workStatus": null
     },
@@ -1329,7 +1277,7 @@
       "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-16T12:20:49Z",
+  "generatedAt": "2026-11-16T12:30:30Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -1431,21 +1379,21 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "d8c9253f780c6863218995d2d4d95d8d5049ffaa66a2e1ba4e11d4851d37cc3a",
+  "snapshotID": "38ed43a754ca627cd07b1bee4b7db64ee11957e19c1f4724eb30bc55d6aba940",
   "source": {
-    "checkedAt": "2026-11-16T12:20:49Z",
+    "checkedAt": "2026-11-16T12:30:30Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-16T12:20:33Z",
+    "updatedAt": "2026-11-16T12:25:33Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "sourceSummary": {
     "customerCountDifference": 2,
-    "customersAffected": 1184,
-    "customersOut": 1184,
+    "customersAffected": 1180,
+    "customersOut": 1180,
     "customersRestored": 0,
     "customersServed": 54726,
-    "eventCustomersOut": 1182,
+    "eventCustomersOut": 1178,
     "hourlyCustomersOut": [
       {
         "at": "2026-11-14T12:00:00Z",
@@ -1641,7 +1589,7 @@
       },
       {
         "at": "2026-11-16T12:00:00Z",
-        "customersOut": 1182
+        "customersOut": 1178
       }
     ],
     "locations": [
@@ -1852,8 +1800,6 @@
       "CAROLINA 10-28-9",
       "CAROLINA 10-29-3",
       "CAROLINA 10-3",
-      "CAROLINA 10-30C-1A",
-      "CAROLINA 10-30C-5",
       "CAROLINA 10-39*",
       "CAROLINA 10-40 (1)",
       "CAROLINA 10-40 (2)",
@@ -2029,7 +1975,6 @@
       "CAROLINA 8-4-4A",
       "CAROLINA 8-4-5",
       "CAROLINA 8-5",
-      "CAROLINA 9-9-8",
       "CAROLINA REM 6-2-1",
       "CASTLE COAKLEY",
       "CASTLE COAKLEY 54",
@@ -2054,7 +1999,6 @@
       "CONCORDIA 2-7",
       "CONCORDIA 2-8",
       "CONCORDIA 2-9",
-      "CONSOLIDATED EST CAROLINA",
       "CONTANT",
       "CONTANT & ENIGHED",
       "CONTANT & ENIGHED 109",
@@ -2722,8 +2666,8 @@
       "ZOOTENVAAL 3Q (MTR 1)",
       "ZOOTENVAAL 3T"
     ],
-    "totalOutages": 10
+    "totalOutages": 8
   },
   "staleAfterSeconds": 900,
-  "unassignedEventCount": 6
+  "unassignedEventCount": 4
 }
