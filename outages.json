@@ -89,7 +89,7 @@
         "CASTLE COAKLEY",
         "CASTLE COAKLEY 54"
       ],
-      "modifiedAt": "2026-11-16T13:53:02Z",
+      "modifiedAt": "2026-11-16T18:35:21Z",
       "name": "T-C-06088",
       "neighborhoodIDs": [
         "stCroix-castle-coakley"
@@ -101,9 +101,9 @@
       "reportedCustomersInitially": 7,
       "reportedCustomersOut": 7,
       "reportedCustomersRestored": 0,
-      "sourceStatus": "Predicted",
+      "sourceStatus": "Verified",
       "startedAt": "2026-11-16T12:59:45Z",
-      "verified": false,
+      "verified": true,
       "workStatus": null
     },
     {
@@ -1168,31 +1168,6 @@
       "workStatus": null
     },
     {
-      "cause": "770 Partial Power",
-      "crewAssigned": false,
-      "endedAt": null,
-      "estimatedRestoration": null,
-      "id": "980b0310255738bc388fe232aab5c337f141eefd36a8bd46963e563a9e3a16b4",
-      "island": null,
-      "locations": [
-        "QUEEN STREET"
-      ],
-      "modifiedAt": "2026-11-16T15:12:54Z",
-      "name": "95702",
-      "neighborhoodIDs": [],
-      "point": {
-        "latitude": 17.711110612872385,
-        "longitude": -64.88157408164815
-      },
-      "reportedCustomersInitially": 1,
-      "reportedCustomersOut": 1,
-      "reportedCustomersRestored": 0,
-      "sourceStatus": "Verified",
-      "startedAt": "2026-11-16T15:08:40Z",
-      "verified": true,
-      "workStatus": null
-    },
-    {
       "cause": null,
       "crewAssigned": false,
       "endedAt": null,
@@ -1274,7 +1249,7 @@
       "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-16T18:30:57Z",
+  "generatedAt": "2026-11-16T18:35:59Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -1350,7 +1325,7 @@
           "sourceEventIDs": [
             "415a4440ab893b32c7f918b18e1b145ec0da74f99ba758f9e47e84ff65e4a23c"
           ],
-          "sourceStatus": "Predicted",
+          "sourceStatus": "Verified",
           "startedAt": "2026-11-16T12:59:45Z"
         }
       ]
@@ -1375,21 +1350,21 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "850c7c88c408eadc33250f6aad00820b450503cba0f38111873ec8f0ab2a7c9c",
+  "snapshotID": "1cffee65f49575793ab585526749e6973abdbdb072caac989670ab22c88417d2",
   "source": {
-    "checkedAt": "2026-11-16T18:30:57Z",
+    "checkedAt": "2026-11-16T18:35:59Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-16T18:30:34Z",
+    "updatedAt": "2026-11-16T18:35:34Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "sourceSummary": {
     "customerCountDifference": 2,
-    "customersAffected": 1149,
-    "customersOut": 1149,
+    "customersAffected": 1148,
+    "customersOut": 1148,
     "customersRestored": 0,
     "customersServed": 54726,
-    "eventCustomersOut": 1147,
+    "eventCustomersOut": 1146,
     "hourlyCustomersOut": [
       {
         "at": "2026-11-14T18:00:00Z",
@@ -1585,7 +1560,7 @@
       },
       {
         "at": "2026-11-16T18:00:00Z",
-        "customersOut": 5795
+        "customersOut": 5794
       }
     ],
     "locations": [
@@ -2584,7 +2559,6 @@
       "QUACO & ZIMMERMAN 6B-39",
       "QUACO & ZIMMERMAN 6B-9",
       "QUACO 6-B-42",
-      "QUEEN STREET",
       "REM EST. EDEN 2-6-1",
       "REM PETER BAY 12",
       "SAUNDERS GUT 12",
@@ -2638,8 +2612,8 @@
       "ZOOTENVAAL 3Q (MTR 1)",
       "ZOOTENVAAL 3T"
     ],
-    "totalOutages": 9
+    "totalOutages": 8
   },
   "staleAfterSeconds": 900,
-  "unassignedEventCount": 5
+  "unassignedEventCount": 4
 }
