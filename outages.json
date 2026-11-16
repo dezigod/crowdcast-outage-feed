@@ -2817,7 +2817,7 @@
       "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-15T23:55:40Z",
+  "generatedAt": "2026-11-16T00:00:42Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -2919,26 +2919,22 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "ef863381fa61fdd26ae1e6fc5dfdb60ca0fdb7e6d45a22ee89918e1df1430314",
+  "snapshotID": "1ad3ea67914adbd88c1b2d1ae8410f44a4fedbc5ae068c1674530300634daf8a",
   "source": {
-    "checkedAt": "2026-11-15T23:55:40Z",
+    "checkedAt": "2026-11-16T00:00:42Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-15T23:55:33Z",
+    "updatedAt": "2026-11-16T00:00:33Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "sourceSummary": {
-    "customerCountDifference": 2,
-    "customersAffected": 3385,
-    "customersOut": 3385,
+    "customerCountDifference": 11,
+    "customersAffected": 3394,
+    "customersOut": 3394,
     "customersRestored": 0,
     "customersServed": 54726,
     "eventCustomersOut": 3383,
     "hourlyCustomersOut": [
-      {
-        "at": "2026-11-13T23:00:00Z",
-        "customersOut": 2244
-      },
       {
         "at": "2026-11-14T00:00:00Z",
         "customersOut": 2244
@@ -3130,6 +3126,10 @@
       {
         "at": "2026-11-15T23:00:00Z",
         "customersOut": 3383
+      },
+      {
+        "at": "2026-11-16T00:00:00Z",
+        "customersOut": 3392
       }
     ],
     "locations": [
@@ -5572,6 +5572,15 @@
       "SHIBUI CONDO MT",
       "SHUBUI COND 21B",
       "SHUBUI ESTATE CONTANT",
+      "SMITH BAY",
+      "SMITH BAY 18-21 A-1",
+      "SMITH BAY 18-23",
+      "SMITH BAY 18-23 1-B",
+      "SMITH BAY 18-23 HSE/PUMP",
+      "SMITH BAY 18-23 U-1A",
+      "SMITH BAY 18-23 U-2-A",
+      "SMITH BAY 18-3",
+      "SMITH BAY 18-4",
       "SPRAT BAY",
       "SPRAT BAY 2- WATER ISLAND",
       "SPRAT BAY 23-WATER ISLAND",
