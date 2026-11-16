@@ -1089,34 +1089,6 @@
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
-      "id": "466bc9614c76460646f6e693474c200e210063775b3dac783172ab48908c90e8",
-      "island": "stCroix",
-      "locations": [
-        "CASTLE COAKLEY",
-        "CASTLE COAKLEY 54"
-      ],
-      "modifiedAt": "2026-11-15T17:55:11Z",
-      "name": "T-C-06088",
-      "neighborhoodIDs": [
-        "stCroix-castle-coakley"
-      ],
-      "point": {
-        "latitude": 17.72783857305157,
-        "longitude": -64.74354200938487
-      },
-      "reportedCustomersInitially": 7,
-      "reportedCustomersOut": 7,
-      "reportedCustomersRestored": 0,
-      "sourceStatus": "Verified",
-      "startedAt": "2026-11-13T17:31:46Z",
-      "verified": true,
-      "workStatus": null
-    },
-    {
-      "cause": null,
-      "crewAssigned": false,
-      "endedAt": null,
-      "estimatedRestoration": null,
       "id": "688d24f7b6e72cb60f9dd7cfcfc315b9ee0efe7095b9fbf192b7ed84c8031d54",
       "island": "stThomas",
       "locations": [
@@ -1224,7 +1196,7 @@
       "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-16T12:50:37Z",
+  "generatedAt": "2026-11-16T12:55:39Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -1287,23 +1259,7 @@
       "coverage": "partial",
       "customersOut": null,
       "id": "stCroix",
-      "neighborhoods": [
-        {
-          "affectedCustomers": null,
-          "estimatedRestoration": null,
-          "id": "stCroix-castle-coakley",
-          "island": "stCroix",
-          "locations": [
-            "54"
-          ],
-          "name": "Castle Coakley",
-          "sourceEventIDs": [
-            "466bc9614c76460646f6e693474c200e210063775b3dac783172ab48908c90e8"
-          ],
-          "sourceStatus": "Verified",
-          "startedAt": "2026-11-13T17:31:46Z"
-        }
-      ]
+      "neighborhoods": []
     },
     {
       "coverage": "partial",
@@ -1325,217 +1281,217 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "da4a0d2d087efd9cf0a5a00702f077d8369191df3bd23c55d619f439d811ade4",
+  "snapshotID": "8c769649242f03fbef98d1ce398a1d0b3bf3b39442fe99260d182cffafad05e6",
   "source": {
-    "checkedAt": "2026-11-16T12:50:37Z",
+    "checkedAt": "2026-11-16T12:55:39Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-16T12:50:33Z",
+    "updatedAt": "2026-11-16T12:55:33Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "sourceSummary": {
     "customerCountDifference": 2,
-    "customersAffected": 1147,
-    "customersOut": 1147,
+    "customersAffected": 1140,
+    "customersOut": 1140,
     "customersRestored": 0,
     "customersServed": 54726,
-    "eventCustomersOut": 1145,
+    "eventCustomersOut": 1138,
     "hourlyCustomersOut": [
       {
         "at": "2026-11-14T12:00:00Z",
-        "customersOut": 173
+        "customersOut": 166
       },
       {
         "at": "2026-11-14T13:00:00Z",
-        "customersOut": 10948
+        "customersOut": 10941
       },
       {
         "at": "2026-11-14T14:00:00Z",
-        "customersOut": 17
+        "customersOut": 10
       },
       {
         "at": "2026-11-14T15:00:00Z",
-        "customersOut": 3359
+        "customersOut": 3352
       },
       {
         "at": "2026-11-14T16:00:00Z",
-        "customersOut": 7157
+        "customersOut": 7150
       },
       {
         "at": "2026-11-14T17:00:00Z",
-        "customersOut": 9147
+        "customersOut": 9140
       },
       {
         "at": "2026-11-14T18:00:00Z",
-        "customersOut": 3631
+        "customersOut": 3624
       },
       {
         "at": "2026-11-14T19:00:00Z",
-        "customersOut": 2007
+        "customersOut": 2000
       },
       {
         "at": "2026-11-14T20:00:00Z",
-        "customersOut": 5783
+        "customersOut": 5776
       },
       {
         "at": "2026-11-14T21:00:00Z",
-        "customersOut": 5925
+        "customersOut": 5918
       },
       {
         "at": "2026-11-14T22:00:00Z",
-        "customersOut": 6600
+        "customersOut": 6593
       },
       {
         "at": "2026-11-14T23:00:00Z",
-        "customersOut": 3951
+        "customersOut": 3944
       },
       {
         "at": "2026-11-15T00:00:00Z",
-        "customersOut": 3951
+        "customersOut": 3944
       },
       {
         "at": "2026-11-15T01:00:00Z",
-        "customersOut": 17
+        "customersOut": 10
       },
       {
         "at": "2026-11-15T02:00:00Z",
-        "customersOut": 17
+        "customersOut": 10
       },
       {
         "at": "2026-11-15T03:00:00Z",
-        "customersOut": 17
+        "customersOut": 10
       },
       {
         "at": "2026-11-15T04:00:00Z",
-        "customersOut": 17
+        "customersOut": 10
       },
       {
         "at": "2026-11-15T05:00:00Z",
-        "customersOut": 17
+        "customersOut": 10
       },
       {
         "at": "2026-11-15T06:00:00Z",
-        "customersOut": 17
+        "customersOut": 10
       },
       {
         "at": "2026-11-15T07:00:00Z",
-        "customersOut": 17
+        "customersOut": 10
       },
       {
         "at": "2026-11-15T08:00:00Z",
-        "customersOut": 17
+        "customersOut": 10
       },
       {
         "at": "2026-11-15T09:00:00Z",
-        "customersOut": 17
+        "customersOut": 10
       },
       {
         "at": "2026-11-15T10:00:00Z",
-        "customersOut": 17
+        "customersOut": 10
       },
       {
         "at": "2026-11-15T11:00:00Z",
-        "customersOut": 3312
+        "customersOut": 3305
       },
       {
         "at": "2026-11-15T12:00:00Z",
-        "customersOut": 4876
+        "customersOut": 4869
       },
       {
         "at": "2026-11-15T13:00:00Z",
-        "customersOut": 5506
+        "customersOut": 5499
       },
       {
         "at": "2026-11-15T14:00:00Z",
-        "customersOut": 28800
+        "customersOut": 28793
       },
       {
         "at": "2026-11-15T15:00:00Z",
-        "customersOut": 25160
+        "customersOut": 25153
       },
       {
         "at": "2026-11-15T16:00:00Z",
-        "customersOut": 8903
+        "customersOut": 8896
       },
       {
         "at": "2026-11-15T17:00:00Z",
-        "customersOut": 14735
+        "customersOut": 14728
       },
       {
         "at": "2026-11-15T18:00:00Z",
-        "customersOut": 7883
+        "customersOut": 7876
       },
       {
         "at": "2026-11-15T19:00:00Z",
-        "customersOut": 5974
+        "customersOut": 5967
       },
       {
         "at": "2026-11-15T20:00:00Z",
-        "customersOut": 7598
+        "customersOut": 7591
       },
       {
         "at": "2026-11-15T21:00:00Z",
-        "customersOut": 3248
+        "customersOut": 3241
       },
       {
         "at": "2026-11-15T22:00:00Z",
-        "customersOut": 6573
+        "customersOut": 6566
       },
       {
         "at": "2026-11-15T23:00:00Z",
-        "customersOut": 7735
+        "customersOut": 7728
       },
       {
         "at": "2026-11-16T00:00:00Z",
-        "customersOut": 7736
+        "customersOut": 7729
       },
       {
         "at": "2026-11-16T01:00:00Z",
-        "customersOut": 4461
+        "customersOut": 4454
       },
       {
         "at": "2026-11-16T02:00:00Z",
-        "customersOut": 2327
+        "customersOut": 2320
       },
       {
         "at": "2026-11-16T03:00:00Z",
-        "customersOut": 251
+        "customersOut": 244
       },
       {
         "at": "2026-11-16T04:00:00Z",
-        "customersOut": 60
+        "customersOut": 53
       },
       {
         "at": "2026-11-16T05:00:00Z",
-        "customersOut": 60
+        "customersOut": 53
       },
       {
         "at": "2026-11-16T06:00:00Z",
-        "customersOut": 60
+        "customersOut": 53
       },
       {
         "at": "2026-11-16T07:00:00Z",
-        "customersOut": 60
+        "customersOut": 53
       },
       {
         "at": "2026-11-16T08:00:00Z",
-        "customersOut": 60
+        "customersOut": 53
       },
       {
         "at": "2026-11-16T09:00:00Z",
-        "customersOut": 60
+        "customersOut": 53
       },
       {
         "at": "2026-11-16T10:00:00Z",
-        "customersOut": 60
+        "customersOut": 53
       },
       {
         "at": "2026-11-16T11:00:00Z",
-        "customersOut": 60
+        "customersOut": 53
       },
       {
         "at": "2026-11-16T12:00:00Z",
-        "customersOut": 1145
+        "customersOut": 1138
       }
     ],
     "locations": [
@@ -1922,8 +1878,6 @@
       "CAROLINA 8-4-5",
       "CAROLINA 8-5",
       "CAROLINA REM 6-2-1",
-      "CASTLE COAKLEY",
-      "CASTLE COAKLEY 54",
       "CELEBRATION VILLAGE CRUZ",
       "CINNAMON BAY",
       "CINNAMON BAY 69",
@@ -2586,7 +2540,7 @@
       "ZOOTENVAAL 3Q (MTR 1)",
       "ZOOTENVAAL 3T"
     ],
-    "totalOutages": 7
+    "totalOutages": 6
   },
   "staleAfterSeconds": 900,
   "unassignedEventCount": 3
