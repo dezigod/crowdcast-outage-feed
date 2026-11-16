@@ -1062,6 +1062,31 @@
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
+      "id": "269166949b8c036142b3bbf274bacfcbd738120ae021616ead230d230707204d",
+      "island": null,
+      "locations": [
+        "GLYNN 45"
+      ],
+      "modifiedAt": "2026-11-16T14:22:44Z",
+      "name": "T-C-08329",
+      "neighborhoodIDs": [],
+      "point": {
+        "latitude": 17.74571171703747,
+        "longitude": -64.77736211325389
+      },
+      "reportedCustomersInitially": 1,
+      "reportedCustomersOut": 1,
+      "reportedCustomersRestored": 0,
+      "sourceStatus": "Predicted",
+      "startedAt": "2026-11-16T14:22:34Z",
+      "verified": false,
+      "workStatus": null
+    },
+    {
+      "cause": null,
+      "crewAssigned": false,
+      "endedAt": null,
+      "estimatedRestoration": null,
       "id": "2fd423bc7ecda05cd802d544f719b9391956bb93432fad2122046db2f6181007",
       "island": null,
       "locations": [
@@ -5030,7 +5055,7 @@
       "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-16T14:20:59Z",
+  "generatedAt": "2026-11-16T14:26:01Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -5451,21 +5476,21 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "a13c182adaab1e6b4fc7903dd6700e5d5b7322bf1d0cf998b5a22dac2a2f554c",
+  "snapshotID": "e8c7c2572fdad6e33970748fda085097db028b7d85719ae0b44fcdc8cf83d419",
   "source": {
-    "checkedAt": "2026-11-16T14:20:59Z",
+    "checkedAt": "2026-11-16T14:26:01Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-16T14:20:34Z",
+    "updatedAt": "2026-11-16T14:25:35Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "sourceSummary": {
     "customerCountDifference": 2,
-    "customersAffected": 5996,
-    "customersOut": 5996,
+    "customersAffected": 5997,
+    "customersOut": 5997,
     "customersRestored": 0,
     "customersServed": 54726,
-    "eventCustomersOut": 5994,
+    "eventCustomersOut": 5995,
     "hourlyCustomersOut": [
       {
         "at": "2026-11-14T14:00:00Z",
@@ -5661,7 +5686,7 @@
       },
       {
         "at": "2026-11-16T14:00:00Z",
-        "customersOut": 5994
+        "customersOut": 5995
       }
     ],
     "locations": [
@@ -8742,6 +8767,7 @@
       "FRIIS 5C-2",
       "FRIIS ST JOHN",
       "FRYDENDAHL 56-16 MTR-C",
+      "GLYNN 45",
       "GREAT S E QRTS",
       "GREEN CAY 9-21-A",
       "GREEN CAY 93",
@@ -10439,8 +10465,8 @@
       "ZUERIENDENHEIT",
       "ZUFRIDENHEIT 1"
     ],
-    "totalOutages": 10
+    "totalOutages": 11
   },
   "staleAfterSeconds": 900,
-  "unassignedEventCount": 6
+  "unassignedEventCount": 7
 }
