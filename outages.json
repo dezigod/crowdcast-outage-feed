@@ -1294,36 +1294,6 @@
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
-      "id": "b42ae7e7916860f327cc0d69a4562e02447a1e1ab9b0331142c8f8756354e877",
-      "island": null,
-      "locations": [
-        "COMPANY STREET 21A & 22",
-        "COMPANY STREET 24",
-        "COMPANY STREET 42-AB U-1",
-        "COMPANY STREET 42-AB U-2",
-        "COMPANY STREET 42-AB U-3",
-        "PRINCE ST A-1"
-      ],
-      "modifiedAt": "2026-11-16T15:10:17Z",
-      "name": "T-C-04246",
-      "neighborhoodIDs": [],
-      "point": {
-        "latitude": 17.743685253707593,
-        "longitude": -64.70582619913816
-      },
-      "reportedCustomersInitially": 6,
-      "reportedCustomersOut": 6,
-      "reportedCustomersRestored": 0,
-      "sourceStatus": "Predicted",
-      "startedAt": "2026-11-16T15:10:09Z",
-      "verified": false,
-      "workStatus": null
-    },
-    {
-      "cause": null,
-      "crewAssigned": false,
-      "endedAt": null,
-      "estimatedRestoration": null,
       "id": "cbbd2ef62dee6d0405b3a5d5c18b1c3c5a5b4dbca8f2f81c8fc8d71e6fec7176",
       "island": "stThomas",
       "locations": [
@@ -4054,7 +4024,7 @@
       "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-16T15:45:29Z",
+  "generatedAt": "2026-11-16T15:50:30Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -4475,21 +4445,21 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "1e861ee4efa2872cc6e07860b2913b818ea13aa9ada1692a6c0ac357eea9a0c1",
+  "snapshotID": "f46d072ca19d81f427275cf7f2bc67737285d3038161ab3fff97aa931944d237",
   "source": {
-    "checkedAt": "2026-11-16T15:45:29Z",
+    "checkedAt": "2026-11-16T15:50:30Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-16T15:40:35Z",
+    "updatedAt": "2026-11-16T15:45:35Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "sourceSummary": {
     "customerCountDifference": 2,
-    "customersAffected": 4918,
-    "customersOut": 4918,
+    "customersAffected": 4912,
+    "customersOut": 4912,
     "customersRestored": 0,
     "customersServed": 54726,
-    "eventCustomersOut": 4916,
+    "eventCustomersOut": 4910,
     "hourlyCustomersOut": [
       {
         "at": "2026-11-14T15:00:00Z",
@@ -4685,7 +4655,7 @@
       },
       {
         "at": "2026-11-16T15:00:00Z",
-        "customersOut": 4916
+        "customersOut": 4910
       }
     ],
     "locations": [
@@ -5645,11 +5615,6 @@
       "CASTLE COAKLEY",
       "CASTLE COAKLEY 54",
       "COMMANDANT GADE 12",
-      "COMPANY STREET 21A & 22",
-      "COMPANY STREET 24",
-      "COMPANY STREET 42-AB U-1",
-      "COMPANY STREET 42-AB U-2",
-      "COMPANY STREET 42-AB U-3",
       "CONTANT",
       "CONTANT #23-3D APT. 1",
       "CONTANT #27BA",
@@ -7728,7 +7693,6 @@
       "O H COURT BLDG-17",
       "PARCEL 1CJ EST DOROTHEA",
       "PARKS & REC SUBBASE # 1",
-      "PRINCE ST A-1",
       "QUEEN STREET",
       "REGATTA POINT VILLAS 1& 2",
       "REM ESTATE ST PETER",
@@ -8464,8 +8428,8 @@
       "ZUERIENDENHEIT",
       "ZUFRIDENHEIT 1"
     ],
-    "totalOutages": 11
+    "totalOutages": 10
   },
   "staleAfterSeconds": 900,
-  "unassignedEventCount": 7
+  "unassignedEventCount": 6
 }
