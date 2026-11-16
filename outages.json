@@ -2,6 +2,31 @@
   "collectionStatus": "ok",
   "events": [
     {
+      "cause": null,
+      "crewAssigned": false,
+      "endedAt": null,
+      "estimatedRestoration": null,
+      "id": "02ad80ca369fa3c06f49be69764d5174e852de152c2257606b0becd2586b3c67",
+      "island": null,
+      "locations": [
+        "NORTH GRAPETREE 25"
+      ],
+      "modifiedAt": "2026-11-16T13:43:44Z",
+      "name": "182898",
+      "neighborhoodIDs": [],
+      "point": {
+        "latitude": 17.75169229940298,
+        "longitude": -64.59257918787193
+      },
+      "reportedCustomersInitially": 1,
+      "reportedCustomersOut": 1,
+      "reportedCustomersRestored": 0,
+      "sourceStatus": "Verified",
+      "startedAt": "2026-11-16T13:43:26Z",
+      "verified": true,
+      "workStatus": null
+    },
+    {
       "cause": "190 Other planned",
       "crewAssigned": false,
       "endedAt": null,
@@ -1069,7 +1094,7 @@
         "GREEN CAY 93",
         "GREEN CAY 96"
       ],
-      "modifiedAt": "2026-11-15T17:46:20Z",
+      "modifiedAt": "2026-11-16T13:43:40Z",
       "name": "T-C-00336",
       "neighborhoodIDs": [],
       "point": {
@@ -3929,7 +3954,7 @@
       "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-16T13:40:42Z",
+  "generatedAt": "2026-11-16T13:45:44Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -4350,21 +4375,21 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "68151647f4422f54338193329a6ebf85a9afa4e5d61da925a27cf1cb2915fbb6",
+  "snapshotID": "573650c47951d5a6dd8c3387393541ed01e7b8234cff9169a286ac6e87bdbbe9",
   "source": {
-    "checkedAt": "2026-11-16T13:40:42Z",
+    "checkedAt": "2026-11-16T13:45:44Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-16T13:40:34Z",
+    "updatedAt": "2026-11-16T13:45:34Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "sourceSummary": {
     "customerCountDifference": 2,
-    "customersAffected": 4726,
-    "customersOut": 4726,
+    "customersAffected": 4727,
+    "customersOut": 4727,
     "customersRestored": 0,
     "customersServed": 54726,
-    "eventCustomersOut": 4724,
+    "eventCustomersOut": 4725,
     "hourlyCustomersOut": [
       {
         "at": "2026-11-14T13:00:00Z",
@@ -4560,7 +4585,7 @@
       },
       {
         "at": "2026-11-16T13:00:00Z",
-        "customersOut": 4724
+        "customersOut": 4725
       }
     ],
     "locations": [
@@ -7531,6 +7556,7 @@
       "NISKY 17-3",
       "NISKY 6",
       "NO. 5 FREENMANS GROUND",
+      "NORTH GRAPETREE 25",
       "NORTH SHORE ROAD CANEEL",
       "NORTH STAR VILLAGE 41",
       "NYE NORDSEVEJ 21D",
@@ -8286,8 +8312,8 @@
       "ZUERIENDENHEIT",
       "ZUFRIDENHEIT 1"
     ],
-    "totalOutages": 8
+    "totalOutages": 9
   },
   "staleAfterSeconds": 900,
-  "unassignedEventCount": 4
+  "unassignedEventCount": 5
 }
