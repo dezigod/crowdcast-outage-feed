@@ -83,37 +83,6 @@
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
-      "id": "376e7022b9ea8574bb5dfdae97438c52ad173677d6e7933a955712bd0ff151f7",
-      "island": null,
-      "locations": [
-        "QUEEN CROSS ST 51 (DWNST)",
-        "QUEEN STREET",
-        "QUEEN STREET 22B A-3",
-        "QUEEN STREET 23",
-        "QUEEN STREET 23 APT-C",
-        "QUEEN STREET 23 APT-D",
-        "QUEEN STREET 413"
-      ],
-      "modifiedAt": "2026-11-16T15:08:41Z",
-      "name": "T-C-16378",
-      "neighborhoodIDs": [],
-      "point": {
-        "latitude": 17.71149003438232,
-        "longitude": -64.88158589327624
-      },
-      "reportedCustomersInitially": 10,
-      "reportedCustomersOut": 10,
-      "reportedCustomersRestored": 0,
-      "sourceStatus": "Predicted",
-      "startedAt": "2026-11-16T15:08:40Z",
-      "verified": false,
-      "workStatus": null
-    },
-    {
-      "cause": null,
-      "crewAssigned": false,
-      "endedAt": null,
-      "estimatedRestoration": null,
       "id": "415a4440ab893b32c7f918b18e1b145ec0da74f99ba758f9e47e84ff65e4a23c",
       "island": "stCroix",
       "locations": [
@@ -1241,6 +1210,31 @@
       "sourceStatus": "Predicted",
       "startedAt": "2026-05-24T00:16:58Z",
       "verified": false,
+      "workStatus": null
+    },
+    {
+      "cause": "770 Partial Power",
+      "crewAssigned": false,
+      "endedAt": null,
+      "estimatedRestoration": null,
+      "id": "980b0310255738bc388fe232aab5c337f141eefd36a8bd46963e563a9e3a16b4",
+      "island": null,
+      "locations": [
+        "QUEEN STREET"
+      ],
+      "modifiedAt": "2026-11-16T15:12:54Z",
+      "name": "95702",
+      "neighborhoodIDs": [],
+      "point": {
+        "latitude": 17.711110612872385,
+        "longitude": -64.88157408164815
+      },
+      "reportedCustomersInitially": 1,
+      "reportedCustomersOut": 1,
+      "reportedCustomersRestored": 0,
+      "sourceStatus": "Verified",
+      "startedAt": "2026-11-16T15:08:40Z",
+      "verified": true,
       "workStatus": null
     },
     {
@@ -4060,7 +4054,7 @@
       "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-16T15:11:20Z",
+  "generatedAt": "2026-11-16T15:16:22Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -4481,21 +4475,21 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "ef0eb551946d7082231c5011067450053705948ee5557ef25e5cdb16f3f3243f",
+  "snapshotID": "5b7403221d1d2a86ac4a0676cd4b3e13ddd18dcd4a60694aa88059f7a73fa7e0",
   "source": {
-    "checkedAt": "2026-11-16T15:11:20Z",
+    "checkedAt": "2026-11-16T15:16:22Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-16T15:10:35Z",
+    "updatedAt": "2026-11-16T15:15:34Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "sourceSummary": {
     "customerCountDifference": 2,
-    "customersAffected": 4927,
-    "customersOut": 4927,
+    "customersAffected": 4918,
+    "customersOut": 4918,
     "customersRestored": 0,
     "customersServed": 54726,
-    "eventCustomersOut": 4925,
+    "eventCustomersOut": 4916,
     "hourlyCustomersOut": [
       {
         "at": "2026-11-14T15:00:00Z",
@@ -4691,7 +4685,7 @@
       },
       {
         "at": "2026-11-16T15:00:00Z",
-        "customersOut": 4925
+        "customersOut": 4916
       }
     ],
     "locations": [
@@ -7735,13 +7729,7 @@
       "PARCEL 1CJ EST DOROTHEA",
       "PARKS & REC SUBBASE # 1",
       "PRINCE ST A-1",
-      "QUEEN CROSS ST 51 (DWNST)",
       "QUEEN STREET",
-      "QUEEN STREET 22B A-3",
-      "QUEEN STREET 23",
-      "QUEEN STREET 23 APT-C",
-      "QUEEN STREET 23 APT-D",
-      "QUEEN STREET 413",
       "REGATTA POINT VILLAS 1& 2",
       "REM ESTATE ST PETER",
       "RESOLUTION",
