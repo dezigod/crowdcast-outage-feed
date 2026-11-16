@@ -6,6 +6,31 @@
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
+      "id": "0121643999b27c02376295b08c9a115817c3e844fb81ced08982cdaec2187812",
+      "island": null,
+      "locations": [
+        "REGATTA POINT VILLAS 1& 2"
+      ],
+      "modifiedAt": "2026-11-16T19:53:01Z",
+      "name": "201874",
+      "neighborhoodIDs": [],
+      "point": {
+        "latitude": 18.312278535817583,
+        "longitude": -64.89868252223631
+      },
+      "reportedCustomersInitially": 1,
+      "reportedCustomersOut": 1,
+      "reportedCustomersRestored": 0,
+      "sourceStatus": "Predicted",
+      "startedAt": "2026-11-16T19:52:58Z",
+      "verified": false,
+      "workStatus": null
+    },
+    {
+      "cause": null,
+      "crewAssigned": false,
+      "endedAt": null,
+      "estimatedRestoration": null,
       "id": "02ad80ca369fa3c06f49be69764d5174e852de152c2257606b0becd2586b3c67",
       "island": null,
       "locations": [
@@ -1195,7 +1220,7 @@
       "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-16T19:51:25Z",
+  "generatedAt": "2026-11-16T19:56:27Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -1280,21 +1305,21 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "6a88a54e2f49886088aee7a35c33f30b156349b4c70bf16f95c4e5bddffecca3",
+  "snapshotID": "a0f4fc860d8b010144c8262896bdf59d5b8040179f7ccd994b94c894fb18bc68",
   "source": {
-    "checkedAt": "2026-11-16T19:51:25Z",
+    "checkedAt": "2026-11-16T19:56:27Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-16T19:50:33Z",
+    "updatedAt": "2026-11-16T19:55:34Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "sourceSummary": {
     "customerCountDifference": 2,
-    "customersAffected": 1101,
-    "customersOut": 1101,
+    "customersAffected": 1102,
+    "customersOut": 1102,
     "customersRestored": 0,
     "customersServed": 54726,
-    "eventCustomersOut": 1099,
+    "eventCustomersOut": 1100,
     "hourlyCustomersOut": [
       {
         "at": "2026-11-14T19:00:00Z",
@@ -1490,7 +1515,7 @@
       },
       {
         "at": "2026-11-16T19:00:00Z",
-        "customersOut": 1099
+        "customersOut": 1100
       }
     ],
     "locations": [
@@ -2461,6 +2486,7 @@
       "QUACO & ZIMMERMAN 6B-39",
       "QUACO & ZIMMERMAN 6B-9",
       "QUACO 6-B-42",
+      "REGATTA POINT VILLAS 1& 2",
       "REM EST. EDEN 2-6-1",
       "REM PETER BAY 12",
       "SAUNDERS GUT 12",
@@ -2514,8 +2540,8 @@
       "ZOOTENVAAL 3Q (MTR 1)",
       "ZOOTENVAAL 3T"
     ],
-    "totalOutages": 7
+    "totalOutages": 8
   },
   "staleAfterSeconds": 900,
-  "unassignedEventCount": 4
+  "unassignedEventCount": 5
 }
