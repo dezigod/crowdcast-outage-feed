@@ -3704,9 +3704,40 @@
       "startedAt": "2026-10-14T15:23:16Z",
       "verified": true,
       "workStatus": null
+    },
+    {
+      "cause": null,
+      "crewAssigned": false,
+      "endedAt": null,
+      "estimatedRestoration": null,
+      "id": "fd0c1bc37056ccd53f644a59dbe378c392488c5a6061db051cde9d6158f1dafd",
+      "island": null,
+      "locations": [
+        "CONTANT (EL)",
+        "CONTANT 41-2",
+        "CONTANT 41-3",
+        "CONTANT 69-3",
+        "CONTANT 69-6 7A SSIDE QTR",
+        "CONTANT 69-7",
+        "CONTANT 69-8 7A SS QTR"
+      ],
+      "modifiedAt": "2026-11-16T00:19:12Z",
+      "name": "T-T-01332",
+      "neighborhoodIDs": [],
+      "point": {
+        "latitude": 18.342081612064856,
+        "longitude": -64.9554487761514
+      },
+      "reportedCustomersInitially": 7,
+      "reportedCustomersOut": 7,
+      "reportedCustomersRestored": 0,
+      "sourceStatus": "Predicted",
+      "startedAt": "2026-11-16T00:19:04Z",
+      "verified": false,
+      "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-16T00:15:48Z",
+  "generatedAt": "2026-11-16T00:20:50Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -5028,21 +5059,21 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "9b9558176d259198f9f40d5409429e1ca69a3ce2de381da65faacfc95ff8b00e",
+  "snapshotID": "bdcc04f44967b4368c0616be2af99e25e2b85eb56c327674b1cceafb26038b72",
   "source": {
-    "checkedAt": "2026-11-16T00:15:48Z",
+    "checkedAt": "2026-11-16T00:20:50Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-16T00:15:33Z",
+    "updatedAt": "2026-11-16T00:20:33Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "sourceSummary": {
     "customerCountDifference": 2,
-    "customersAffected": 4447,
-    "customersOut": 4447,
+    "customersAffected": 4454,
+    "customersOut": 4454,
     "customersRestored": 0,
     "customersServed": 54726,
-    "eventCustomersOut": 4445,
+    "eventCustomersOut": 4452,
     "hourlyCustomersOut": [
       {
         "at": "2026-11-14T00:00:00Z",
@@ -6021,6 +6052,13 @@
       "COKI POINT C1-C",
       "COKI POINT C-1F DOWN",
       "COKI POINT NO. 7",
+      "CONTANT (EL)",
+      "CONTANT 41-2",
+      "CONTANT 41-3",
+      "CONTANT 69-3",
+      "CONTANT 69-6 7A SSIDE QTR",
+      "CONTANT 69-7",
+      "CONTANT 69-8 7A SS QTR",
       "CRYSTAL COVE 13",
       "DF-13 SMITH BAY",
       "DOM 200E SAPP VILLAGE",
@@ -8662,8 +8700,8 @@
       "WINTBERG-TRAILER",
       "WINTHBERG 1-B4 APT 303"
     ],
-    "totalOutages": 11
+    "totalOutages": 12
   },
   "staleAfterSeconds": 900,
-  "unassignedEventCount": 7
+  "unassignedEventCount": 8
 }
