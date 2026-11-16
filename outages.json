@@ -547,6 +547,34 @@
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
+      "id": "ac74799dd9e43877eed1e7b54b77744911ff7e508767a5107b0dba0ffc154cbf",
+      "island": "stThomas",
+      "locations": [
+        "ST PETER 14-6",
+        "ST PETER 18A"
+      ],
+      "modifiedAt": "2026-11-16T03:00:29Z",
+      "name": "T-T-06053",
+      "neighborhoodIDs": [
+        "stThomas-st-peter"
+      ],
+      "point": {
+        "latitude": 18.368025283136575,
+        "longitude": -64.94399401394799
+      },
+      "reportedCustomersInitially": 3,
+      "reportedCustomersOut": 3,
+      "reportedCustomersRestored": 0,
+      "sourceStatus": "Predicted",
+      "startedAt": "2026-11-16T03:00:17Z",
+      "verified": false,
+      "workStatus": null
+    },
+    {
+      "cause": null,
+      "crewAssigned": false,
+      "endedAt": null,
+      "estimatedRestoration": null,
       "id": "c35d997133c32b9eed7d672d52f6943a7cd435527e0157fb8e7ac7e1226d52fc",
       "island": null,
       "locations": [
@@ -649,6 +677,36 @@
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
+      "id": "e0a7580927dcabc6753b7856a1605cf6ef08148e2ef5286a2fd1af1df68e4aaf",
+      "island": null,
+      "locations": [
+        "EST ST PETER 24-6J",
+        "ST PETER 20-1",
+        "ST PETER 22A",
+        "ST PETER 6D-1"
+      ],
+      "modifiedAt": "2026-11-16T03:00:09Z",
+      "name": "T-T-06207",
+      "neighborhoodIDs": [
+        "stThomas-st-peter"
+      ],
+      "point": {
+        "latitude": 18.36320194936752,
+        "longitude": -64.945504975774
+      },
+      "reportedCustomersInitially": 5,
+      "reportedCustomersOut": 5,
+      "reportedCustomersRestored": 0,
+      "sourceStatus": "Predicted",
+      "startedAt": "2026-11-16T02:59:57Z",
+      "verified": false,
+      "workStatus": null
+    },
+    {
+      "cause": null,
+      "crewAssigned": false,
+      "endedAt": null,
+      "estimatedRestoration": null,
       "id": "ece41376d79f785acd65267dacd0f4af27fb3f594053f8901a8c3ab4bd0980f5",
       "island": null,
       "locations": [
@@ -686,7 +744,7 @@
       "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-16T02:55:42Z",
+  "generatedAt": "2026-11-16T03:00:44Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -717,18 +775,25 @@
           "id": "stThomas-st-peter",
           "island": "stThomas",
           "locations": [
+            "14-6",
+            "18A",
+            "20-1",
+            "22A",
             "31-18 HSE METER",
             "31-19 & 31-18",
             "31-22 NORTH STAR",
             "31-22 NORTHSTAR",
-            "3I-20 HIBIS LANE"
+            "3I-20 HIBIS LANE",
+            "6D-1"
           ],
           "name": "Estate St. Peter",
           "sourceEventIDs": [
-            "c35d997133c32b9eed7d672d52f6943a7cd435527e0157fb8e7ac7e1226d52fc"
+            "ac74799dd9e43877eed1e7b54b77744911ff7e508767a5107b0dba0ffc154cbf",
+            "c35d997133c32b9eed7d672d52f6943a7cd435527e0157fb8e7ac7e1226d52fc",
+            "e0a7580927dcabc6753b7856a1605cf6ef08148e2ef5286a2fd1af1df68e4aaf"
           ],
           "sourceStatus": "Predicted",
-          "startedAt": "2026-11-16T02:00:04Z"
+          "startedAt": null
         },
         {
           "affectedCustomers": null,
@@ -807,26 +872,22 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "7c61829cd912749d0360af3debd8c566ee8537457302c9b9c9fe8b005b31c50d",
+  "snapshotID": "3ae5cdade6f02a67e5c57953b3b484131168e502a47382be4fa3eb3c28b608eb",
   "source": {
-    "checkedAt": "2026-11-16T02:55:42Z",
+    "checkedAt": "2026-11-16T03:00:44Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-16T02:55:32Z",
+    "updatedAt": "2026-11-16T03:00:32Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "sourceSummary": {
     "customerCountDifference": 2,
-    "customersAffected": 396,
-    "customersOut": 396,
+    "customersAffected": 404,
+    "customersOut": 404,
     "customersRestored": 0,
     "customersServed": 54726,
-    "eventCustomersOut": 394,
+    "eventCustomersOut": 402,
     "hourlyCustomersOut": [
-      {
-        "at": "2026-11-14T02:00:00Z",
-        "customersOut": 5101
-      },
       {
         "at": "2026-11-14T03:00:00Z",
         "customersOut": 5101
@@ -1017,7 +1078,11 @@
       },
       {
         "at": "2026-11-16T02:00:00Z",
-        "customersOut": 2470
+        "customersOut": 2475
+      },
+      {
+        "at": "2026-11-16T03:00:00Z",
+        "customersOut": 402
       }
     ],
     "locations": [
@@ -1201,6 +1266,7 @@
       "EST NELTJBERG 3",
       "EST NELTJBERG 42",
       "EST NELTJEBERG 25-1 DWN",
+      "EST ST PETER 24-6J",
       "EST TUTU 146-12",
       "EST TUTU 146-13",
       "EST TUTU 146-14",
@@ -1299,18 +1365,23 @@
       "SOLBERG 91",
       "SOLBERG 91 UP",
       "SOLBERG 94-8 MTR 1",
+      "ST PETER 14-6",
+      "ST PETER 18A",
+      "ST PETER 20-1",
+      "ST PETER 22A",
       "ST PETER 31-18 HSE METER",
       "ST PETER 31-19 & 31-18",
       "ST PETER 31-22 NORTH STAR",
       "ST PETER 31-22 NORTHSTAR",
       "ST PETER 3I-20 HIBIS LANE",
+      "ST PETER 6D-1",
       "SUBBASE 100",
       "SUBBASE 101 (EL)",
       "SUBBASE 69",
       "TUTU PARK MALL SUITE 111"
     ],
-    "totalOutages": 16
+    "totalOutages": 18
   },
   "staleAfterSeconds": 900,
-  "unassignedEventCount": 12
+  "unassignedEventCount": 13
 }
