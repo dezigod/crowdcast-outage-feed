@@ -83,6 +83,37 @@
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
+      "id": "376e7022b9ea8574bb5dfdae97438c52ad173677d6e7933a955712bd0ff151f7",
+      "island": null,
+      "locations": [
+        "QUEEN CROSS ST 51 (DWNST)",
+        "QUEEN STREET",
+        "QUEEN STREET 22B A-3",
+        "QUEEN STREET 23",
+        "QUEEN STREET 23 APT-C",
+        "QUEEN STREET 23 APT-D",
+        "QUEEN STREET 413"
+      ],
+      "modifiedAt": "2026-11-16T15:08:41Z",
+      "name": "T-C-16378",
+      "neighborhoodIDs": [],
+      "point": {
+        "latitude": 17.71149003438232,
+        "longitude": -64.88158589327624
+      },
+      "reportedCustomersInitially": 10,
+      "reportedCustomersOut": 10,
+      "reportedCustomersRestored": 0,
+      "sourceStatus": "Predicted",
+      "startedAt": "2026-11-16T15:08:40Z",
+      "verified": false,
+      "workStatus": null
+    },
+    {
+      "cause": null,
+      "crewAssigned": false,
+      "endedAt": null,
+      "estimatedRestoration": null,
       "id": "415a4440ab893b32c7f918b18e1b145ec0da74f99ba758f9e47e84ff65e4a23c",
       "island": "stCroix",
       "locations": [
@@ -107,7 +138,7 @@
       "workStatus": null
     },
     {
-      "cause": null,
+      "cause": "190 Other planned",
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
@@ -1167,7 +1198,7 @@
         "WATERGATE VILLA B16",
         "WATERGATE VILLA SECTION 6"
       ],
-      "modifiedAt": "2026-11-16T15:04:17Z",
+      "modifiedAt": "2026-11-16T15:07:58Z",
       "name": "WICO 10B out Way 2",
       "neighborhoodIDs": [],
       "point": {
@@ -1262,6 +1293,36 @@
       "sourceStatus": "Verified",
       "startedAt": "2026-11-04T17:15:35Z",
       "verified": true,
+      "workStatus": null
+    },
+    {
+      "cause": null,
+      "crewAssigned": false,
+      "endedAt": null,
+      "estimatedRestoration": null,
+      "id": "b42ae7e7916860f327cc0d69a4562e02447a1e1ab9b0331142c8f8756354e877",
+      "island": null,
+      "locations": [
+        "COMPANY STREET 21A & 22",
+        "COMPANY STREET 24",
+        "COMPANY STREET 42-AB U-1",
+        "COMPANY STREET 42-AB U-2",
+        "COMPANY STREET 42-AB U-3",
+        "PRINCE ST A-1"
+      ],
+      "modifiedAt": "2026-11-16T15:10:17Z",
+      "name": "T-C-04246",
+      "neighborhoodIDs": [],
+      "point": {
+        "latitude": 17.743685253707593,
+        "longitude": -64.70582619913816
+      },
+      "reportedCustomersInitially": 6,
+      "reportedCustomersOut": 6,
+      "reportedCustomersRestored": 0,
+      "sourceStatus": "Predicted",
+      "startedAt": "2026-11-16T15:10:09Z",
+      "verified": false,
       "workStatus": null
     },
     {
@@ -3999,7 +4060,7 @@
       "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-16T15:06:17Z",
+  "generatedAt": "2026-11-16T15:11:20Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -4420,21 +4481,21 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "1f8d04186677b7ff370ad3bcc258f955cb175e64db4091e1344f7107b37e2133",
+  "snapshotID": "ef0eb551946d7082231c5011067450053705948ee5557ef25e5cdb16f3f3243f",
   "source": {
-    "checkedAt": "2026-11-16T15:06:17Z",
+    "checkedAt": "2026-11-16T15:11:20Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-16T15:05:34Z",
+    "updatedAt": "2026-11-16T15:10:35Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "sourceSummary": {
     "customerCountDifference": 2,
-    "customersAffected": 4911,
-    "customersOut": 4911,
+    "customersAffected": 4927,
+    "customersOut": 4927,
     "customersRestored": 0,
     "customersServed": 54726,
-    "eventCustomersOut": 4909,
+    "eventCustomersOut": 4925,
     "hourlyCustomersOut": [
       {
         "at": "2026-11-14T15:00:00Z",
@@ -4630,7 +4691,7 @@
       },
       {
         "at": "2026-11-16T15:00:00Z",
-        "customersOut": 4909
+        "customersOut": 4925
       }
     ],
     "locations": [
@@ -5590,6 +5651,11 @@
       "CASTLE COAKLEY",
       "CASTLE COAKLEY 54",
       "COMMANDANT GADE 12",
+      "COMPANY STREET 21A & 22",
+      "COMPANY STREET 24",
+      "COMPANY STREET 42-AB U-1",
+      "COMPANY STREET 42-AB U-2",
+      "COMPANY STREET 42-AB U-3",
       "CONTANT",
       "CONTANT #23-3D APT. 1",
       "CONTANT #27BA",
@@ -7668,6 +7734,14 @@
       "O H COURT BLDG-17",
       "PARCEL 1CJ EST DOROTHEA",
       "PARKS & REC SUBBASE # 1",
+      "PRINCE ST A-1",
+      "QUEEN CROSS ST 51 (DWNST)",
+      "QUEEN STREET",
+      "QUEEN STREET 22B A-3",
+      "QUEEN STREET 23",
+      "QUEEN STREET 23 APT-C",
+      "QUEEN STREET 23 APT-D",
+      "QUEEN STREET 413",
       "REGATTA POINT VILLAS 1& 2",
       "REM ESTATE ST PETER",
       "RESOLUTION",
@@ -8402,8 +8476,8 @@
       "ZUERIENDENHEIT",
       "ZUFRIDENHEIT 1"
     ],
-    "totalOutages": 9
+    "totalOutages": 11
   },
   "staleAfterSeconds": 900,
-  "unassignedEventCount": 5
+  "unassignedEventCount": 7
 }
