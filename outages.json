@@ -11,7 +11,7 @@
       "locations": [
         "NORTH GRAPETREE 25"
       ],
-      "modifiedAt": "2026-11-16T13:43:44Z",
+      "modifiedAt": "2026-11-16T13:52:20Z",
       "name": "182898",
       "neighborhoodIDs": [],
       "point": {
@@ -1120,7 +1120,7 @@
         "CASTLE COAKLEY",
         "CASTLE COAKLEY 54"
       ],
-      "modifiedAt": "2026-11-16T12:59:52Z",
+      "modifiedAt": "2026-11-16T13:53:02Z",
       "name": "T-C-06088",
       "neighborhoodIDs": [
         "stCroix-castle-coakley"
@@ -3934,7 +3934,7 @@
         "ZUERIENDENHEIT",
         "ZUFRIDENHEIT 1"
       ],
-      "modifiedAt": "2026-11-16T13:33:30Z",
+      "modifiedAt": "2026-11-16T13:52:44Z",
       "name": "Feeder 07A",
       "neighborhoodIDs": [
         "stThomas-agnes-fancy",
@@ -3954,7 +3954,7 @@
       "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-16T13:50:46Z",
+  "generatedAt": "2026-11-16T13:55:48Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -4375,11 +4375,11 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "a5df97fd0bcc34a91045f8ecc87fa05084af8d30d4e752d25a542da9593779ec",
+  "snapshotID": "89cb09381e27f17936003f4f8bf005efe4a22b2321a53fefe3055279eef2fbd6",
   "source": {
-    "checkedAt": "2026-11-16T13:50:46Z",
+    "checkedAt": "2026-11-16T13:55:48Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-16T13:50:34Z",
+    "updatedAt": "2026-11-16T13:55:34Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
@@ -4393,7 +4393,7 @@
     "hourlyCustomersOut": [
       {
         "at": "2026-11-14T13:00:00Z",
-        "customersOut": 10941
+        "customersOut": 8593
       },
       {
         "at": "2026-11-14T14:00:00Z",
