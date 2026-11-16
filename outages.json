@@ -3954,7 +3954,7 @@
       "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-16T13:55:48Z",
+  "generatedAt": "2026-11-16T14:00:50Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -4375,11 +4375,11 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "89cb09381e27f17936003f4f8bf005efe4a22b2321a53fefe3055279eef2fbd6",
+  "snapshotID": "849e32cd559275f678e4141e185ca07b6dcccd4bf7f3f9069e0c0993ad741ad9",
   "source": {
-    "checkedAt": "2026-11-16T13:55:48Z",
+    "checkedAt": "2026-11-16T14:00:50Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-16T13:55:34Z",
+    "updatedAt": "2026-11-16T14:00:35Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
@@ -4391,10 +4391,6 @@
     "customersServed": 54726,
     "eventCustomersOut": 4725,
     "hourlyCustomersOut": [
-      {
-        "at": "2026-11-14T13:00:00Z",
-        "customersOut": 8593
-      },
       {
         "at": "2026-11-14T14:00:00Z",
         "customersOut": 10
@@ -4585,6 +4581,10 @@
       },
       {
         "at": "2026-11-16T13:00:00Z",
+        "customersOut": 4725
+      },
+      {
+        "at": "2026-11-16T14:00:00Z",
         "customersOut": 4725
       }
     ],
