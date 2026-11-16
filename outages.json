@@ -3361,40 +3361,6 @@
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
-      "id": "80d875770d95cea64e08670d0ab48e1f6b4fce711c891661b2dbf9c6c10caeb3",
-      "island": null,
-      "locations": [
-        "CASTLE BURKE #601",
-        "CASTLE BURKE 391 H-55",
-        "CASTLE BURKE 392",
-        "CASTLE BURKE 394 H-76",
-        "CASTLE BURKE 602",
-        "CASTLE BURKE P-390 HS-72",
-        "CASTLE BURKE REM PARCEL5",
-        "VICORP LAND 393 PARCEL 5"
-      ],
-      "modifiedAt": "2026-11-16T21:16:52Z",
-      "name": "T-C-20571",
-      "neighborhoodIDs": [
-        "stCroix-vicorp-land"
-      ],
-      "point": {
-        "latitude": 17.724223481791164,
-        "longitude": -64.7960022988116
-      },
-      "reportedCustomersInitially": 8,
-      "reportedCustomersOut": 8,
-      "reportedCustomersRestored": 0,
-      "sourceStatus": "Predicted",
-      "startedAt": "2026-11-16T21:16:38Z",
-      "verified": false,
-      "workStatus": null
-    },
-    {
-      "cause": null,
-      "crewAssigned": false,
-      "endedAt": null,
-      "estimatedRestoration": null,
       "id": "986bf75ffce89546178395560935d874d8ee6149ddbf4b27e97cb5425a4b6dc6",
       "island": null,
       "locations": [
@@ -5299,7 +5265,7 @@
       "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-16T21:20:53Z",
+  "generatedAt": "2026-11-16T21:25:55Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -5755,23 +5721,7 @@
       "coverage": "partial",
       "customersOut": null,
       "id": "stCroix",
-      "neighborhoods": [
-        {
-          "affectedCustomers": null,
-          "estimatedRestoration": null,
-          "id": "stCroix-vicorp-land",
-          "island": "stCroix",
-          "locations": [
-            "393 PARCEL 5"
-          ],
-          "name": "Vicorp Land",
-          "sourceEventIDs": [
-            "80d875770d95cea64e08670d0ab48e1f6b4fce711c891661b2dbf9c6c10caeb3"
-          ],
-          "sourceStatus": "Predicted",
-          "startedAt": "2026-11-16T21:16:38Z"
-        }
-      ]
+      "neighborhoods": []
     },
     {
       "coverage": "partial",
@@ -5793,21 +5743,21 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "fa4dc588ffab3ac37bb6e03cd6c16650b5ceae65f610f906b2c34c6487419092",
+  "snapshotID": "14b369a623c3aa013a35a912a7d341d501d68ddef7bf26c2cb100e8a08c866b2",
   "source": {
-    "checkedAt": "2026-11-16T21:20:53Z",
+    "checkedAt": "2026-11-16T21:25:55Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-16T21:20:35Z",
+    "updatedAt": "2026-11-16T21:25:35Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "sourceSummary": {
     "customerCountDifference": 2,
-    "customersAffected": 6629,
-    "customersOut": 6629,
+    "customersAffected": 6621,
+    "customersOut": 6621,
     "customersRestored": 0,
     "customersServed": 54726,
-    "eventCustomersOut": 6627,
+    "eventCustomersOut": 6619,
     "hourlyCustomersOut": [
       {
         "at": "2026-11-14T21:00:00Z",
@@ -6003,7 +5953,7 @@
       },
       {
         "at": "2026-11-16T21:00:00Z",
-        "customersOut": 6627
+        "customersOut": 6619
       }
     ],
     "locations": [
@@ -6907,13 +6857,6 @@
       "CABRITE POINT 39-B",
       "CABRITE POINT 47A",
       "CABRITE POINT NAZARETH 37",
-      "CASTLE BURKE #601",
-      "CASTLE BURKE 391 H-55",
-      "CASTLE BURKE 392",
-      "CASTLE BURKE 394 H-76",
-      "CASTLE BURKE 602",
-      "CASTLE BURKE P-390 HS-72",
-      "CASTLE BURKE REM PARCEL5",
       "CATHERINES REST 7-F",
       "CATHERINES REST 7-H",
       "CHARLOT AMALIE 10-1-12 A3",
@@ -10962,12 +10905,11 @@
       "VESSUP BAY EST 5-15",
       "VESSUP BAY EST 9-39",
       "VESSUP LANE 9A-19",
-      "VICORP LAND 393 PARCEL 5",
       "ZUERIENDENHEIT",
       "ZUFRIDENHEIT 1"
     ],
-    "totalOutages": 13
+    "totalOutages": 12
   },
   "staleAfterSeconds": 900,
-  "unassignedEventCount": 10
+  "unassignedEventCount": 9
 }
