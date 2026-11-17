@@ -86,6 +86,47 @@
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
+      "id": "8a6733781b6bd7e7c7e2854f8f6bda709bbabb59aad010790dfed019c2d8c38e",
+      "island": null,
+      "locations": [
+        "CONTANT",
+        "CONTANT 15 DWN",
+        "CONTANT 15-3",
+        "CONTANT 15-7B",
+        "CONTANT 15A",
+        "CONTANT 15C",
+        "CONTANT 15E",
+        "CONTANT 33A (EL)",
+        "CONTANT 7B",
+        "CONTANT 7B-16",
+        "CONTANT 7B-21",
+        "CONTANT 7B-3D APT 1",
+        "CONTANT 7B-3D APT 3",
+        "CONTANT 7B-3D APT 5",
+        "CONTANT 7B-3D APT 8",
+        "CONTANT 7B-3D APT-2",
+        "CONTANT 7B-3D APT-6"
+      ],
+      "modifiedAt": "2026-11-17T00:06:43Z",
+      "name": "T-T-02414",
+      "neighborhoodIDs": [],
+      "point": {
+        "latitude": 18.340889856460564,
+        "longitude": -64.95358325108515
+      },
+      "reportedCustomersInitially": 22,
+      "reportedCustomersOut": 22,
+      "reportedCustomersRestored": 0,
+      "sourceStatus": "Predicted",
+      "startedAt": "2026-11-17T00:06:16Z",
+      "verified": false,
+      "workStatus": null
+    },
+    {
+      "cause": null,
+      "crewAssigned": false,
+      "endedAt": null,
+      "estimatedRestoration": null,
       "id": "a7622fe5ec3f7460243d64545ddffb42dc3c534b3876e2c938737688abde9c58",
       "island": "stThomas",
       "locations": [
@@ -3902,7 +3943,7 @@
       "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-17T00:06:28Z",
+  "generatedAt": "2026-11-17T00:11:30Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -4664,21 +4705,21 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "917dc9d8004a949ca2eefe5fe6f9d6df6724a14ca24f493445256f756d67b664",
+  "snapshotID": "e4131061d64c372b2c148102e953eb987c0e003bf0e48f681017bf0a42fa43cd",
   "source": {
-    "checkedAt": "2026-11-17T00:06:28Z",
+    "checkedAt": "2026-11-17T00:11:30Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-17T00:05:35Z",
+    "updatedAt": "2026-11-17T00:10:35Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "sourceSummary": {
     "customerCountDifference": 2,
-    "customersAffected": 4353,
-    "customersOut": 4353,
+    "customersAffected": 4375,
+    "customersOut": 4375,
     "customersRestored": 0,
     "customersServed": 54726,
-    "eventCustomersOut": 4351,
+    "eventCustomersOut": 4373,
     "hourlyCustomersOut": [
       {
         "at": "2026-11-15T00:00:00Z",
@@ -4874,7 +4915,7 @@
       },
       {
         "at": "2026-11-17T00:00:00Z",
-        "customersOut": 4351
+        "customersOut": 4373
       }
     ],
     "locations": [
@@ -5897,16 +5938,22 @@
       "CONTANT 14D",
       "CONTANT 14E",
       "CONTANT 14H",
+      "CONTANT 15 DWN",
       "CONTANT 15-2",
+      "CONTANT 15-3",
       "CONTANT 15-3 HSE #4",
       "CONTANT 15-3 HSE #5",
       "CONTANT 15-4 B",
+      "CONTANT 15-7B",
+      "CONTANT 15A",
       "CONTANT 15A-10",
       "CONTANT 15A-10 UPPER",
       "CONTANT 15A-11",
       "CONTANT 15A-12",
       "CONTANT 15-A-7",
       "CONTANT 15-A-9",
+      "CONTANT 15C",
+      "CONTANT 15E",
       "CONTANT 178",
       "CONTANT 1D",
       "CONTANT 1E",
@@ -5933,6 +5980,7 @@
       "CONTANT 3-13",
       "CONTANT 3-16 UP",
       "CONTANT 3-2",
+      "CONTANT 33A (EL)",
       "CONTANT 3-4 APT 1",
       "CONTANT 3-4 APT 2",
       "CONTANT 3-5",
@@ -5956,6 +6004,15 @@
       "CONTANT 7-2 MTR 2",
       "CONTANT 7-4",
       "CONTANT 7-6",
+      "CONTANT 7B",
+      "CONTANT 7B-16",
+      "CONTANT 7B-21",
+      "CONTANT 7B-3D APT 1",
+      "CONTANT 7B-3D APT 3",
+      "CONTANT 7B-3D APT 5",
+      "CONTANT 7B-3D APT 8",
+      "CONTANT 7B-3D APT-2",
+      "CONTANT 7B-3D APT-6",
       "CONTANT 7D",
       "CONTANT 8AA",
       "CONTANT 9-1",
@@ -8527,8 +8584,8 @@
       "WEST COND SAPP B-A",
       "WEST SAPPHIRE BAY CONDO"
     ],
-    "totalOutages": 10
+    "totalOutages": 11
   },
   "staleAfterSeconds": 900,
-  "unassignedEventCount": 6
+  "unassignedEventCount": 7
 }
