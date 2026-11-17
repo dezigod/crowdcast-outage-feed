@@ -56,6 +56,31 @@
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
+      "id": "37e1a294b01394f861c761987c9526002cdd43fe39b5e224c5d256c305fe349c",
+      "island": null,
+      "locations": [
+        "ESTATE THOMAS 4 REM"
+      ],
+      "modifiedAt": "2026-11-17T02:26:36Z",
+      "name": "T-T-03657",
+      "neighborhoodIDs": [],
+      "point": {
+        "latitude": 18.336776789314367,
+        "longitude": -64.90901522962939
+      },
+      "reportedCustomersInitially": 1,
+      "reportedCustomersOut": 1,
+      "reportedCustomersRestored": 0,
+      "sourceStatus": "Predicted",
+      "startedAt": "2026-11-17T02:11:16Z",
+      "verified": false,
+      "workStatus": null
+    },
+    {
+      "cause": null,
+      "crewAssigned": false,
+      "endedAt": null,
+      "estimatedRestoration": null,
       "id": "688d24f7b6e72cb60f9dd7cfcfc315b9ee0efe7095b9fbf192b7ed84c8031d54",
       "island": "stThomas",
       "locations": [
@@ -2539,7 +2564,7 @@
       "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-17T02:26:18Z",
+  "generatedAt": "2026-11-17T02:31:20Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -3061,21 +3086,21 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "76646bcab581862417868958d9355713102d6cc22f56ca31ffc46da0e768ca56",
+  "snapshotID": "9ca7d608c39a53a1f3452637835c03f49fd793cb9d8dfe64de177997474ca8bd",
   "source": {
-    "checkedAt": "2026-11-17T02:26:18Z",
+    "checkedAt": "2026-11-17T02:31:20Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-17T02:25:35Z",
+    "updatedAt": "2026-11-17T02:30:34Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "sourceSummary": {
     "customerCountDifference": 2,
-    "customersAffected": 2804,
-    "customersOut": 2804,
+    "customersAffected": 2805,
+    "customersOut": 2805,
     "customersRestored": 0,
     "customersServed": 54726,
-    "eventCustomersOut": 2802,
+    "eventCustomersOut": 2803,
     "hourlyCustomersOut": [
       {
         "at": "2026-11-15T02:00:00Z",
@@ -3271,7 +3296,7 @@
       },
       {
         "at": "2026-11-17T02:00:00Z",
-        "customersOut": 2802
+        "customersOut": 2803
       }
     ],
     "locations": [
@@ -4321,6 +4346,7 @@
       "ESTATE ROSS D-15",
       "ESTATE ROSS D-2",
       "ESTATE TAARNEBERG 39C",
+      "ESTATE THOMAS 4 REM",
       "ESTATE WINTBERG 1-J",
       "ESTATE ZOOTENVAAL 3A-5",
       "ESTATE ZOOTENVAAL 3A-5**",
@@ -5585,8 +5611,8 @@
       "ZOOTENVAAL 3Q (MTR 1)",
       "ZOOTENVAAL 3T"
     ],
-    "totalOutages": 9
+    "totalOutages": 10
   },
   "staleAfterSeconds": 900,
-  "unassignedEventCount": 6
+  "unassignedEventCount": 7
 }
