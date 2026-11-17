@@ -2234,7 +2234,7 @@
         "SUZANNABERG 2-3 HOUSE",
         "VIRGIN GRAND EST #71"
       ],
-      "modifiedAt": "2026-11-17T20:00:01Z",
+      "modifiedAt": "2026-11-17T20:52:32Z",
       "name": "Feeder 09E",
       "neighborhoodIDs": [
         "stThomas-lovenlund"
@@ -2293,6 +2293,62 @@
       "reportedCustomersRestored": 0,
       "sourceStatus": "Predicted",
       "startedAt": "2026-11-17T20:48:38Z",
+      "verified": false,
+      "workStatus": null
+    },
+    {
+      "cause": null,
+      "crewAssigned": false,
+      "endedAt": null,
+      "estimatedRestoration": null,
+      "id": "a4d83875b497066acd773bb44a64a5f1ed713f7a6410f3fe74cecbdcfaecc70b",
+      "island": null,
+      "locations": [
+        "99A-ANNAS FANCY MTR-2UP",
+        "ANNAS FANCY",
+        "ANNAS FANCY #24",
+        "ANNAS FANCY 111 B-1 A-11",
+        "ANNAS FANCY 111-1",
+        "ANNAS FANCY 111-1B",
+        "ANNAS FANCY 111-2",
+        "ANNAS FANCY 111B",
+        "ANNAS FANCY 111-B APT-1",
+        "ANNAS FANCY 111B-1",
+        "ANNAS FANCY 115",
+        "ANNAS FANCY 115 MTR-2",
+        "ANNAS FANCY 116",
+        "ANNAS FANCY 119 APT-2",
+        "ANNAS FANCY 121",
+        "ANNAS FANCY 121 APT-4",
+        "ANNAS FANCY 122",
+        "ANNAS FANCY 123 MTR# 2",
+        "ANNAS FANCY 123 TOP-FL",
+        "HODGE STREET 24-25",
+        "HODGE STREET 24-25 APT 2",
+        "HODGE STREET 24-25 APT 4",
+        "HODGE STREET 26",
+        "HODGE STREET 26A",
+        "HODGES STREET #24-25",
+        "HODGES STREET 20",
+        "HODGES STREET 21",
+        "HODGES STREET 24-25",
+        "HODGES STREET 24-25 APT 8",
+        "HODGES STREET 24-25 APT-9",
+        "HODGES STREET 26",
+        "SOLBERG 18"
+      ],
+      "modifiedAt": "2026-11-17T20:54:34Z",
+      "name": "T-T-02695",
+      "neighborhoodIDs": [],
+      "point": {
+        "latitude": 18.343790309349664,
+        "longitude": -64.94046033991208
+      },
+      "reportedCustomersInitially": 46,
+      "reportedCustomersOut": 46,
+      "reportedCustomersRestored": 0,
+      "sourceStatus": "Predicted",
+      "startedAt": "2026-11-17T20:54:07Z",
       "verified": false,
       "workStatus": null
     },
@@ -2389,7 +2445,7 @@
         "HARD LABOR 9",
         "HARD LABOUR 11"
       ],
-      "modifiedAt": "2026-11-17T20:50:10Z",
+      "modifiedAt": "2026-11-17T20:51:21Z",
       "name": "T-C-21236",
       "neighborhoodIDs": [],
       "point": {
@@ -2430,7 +2486,7 @@
       "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-17T20:51:23Z",
+  "generatedAt": "2026-11-17T20:56:25Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -2517,21 +2573,21 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "2eb1627afd75e6a23825af942d9ff14fe54800dae0f9380bfc161ba8242ebbe2",
+  "snapshotID": "0822d3df94c35a7bd3b344df9c9adc7885b1dabd99afc0398697c2912a1418ee",
   "source": {
-    "checkedAt": "2026-11-17T20:51:23Z",
+    "checkedAt": "2026-11-17T20:56:25Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-17T20:50:37Z",
+    "updatedAt": "2026-11-17T20:55:37Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "sourceSummary": {
     "customerCountDifference": 2,
-    "customersAffected": 2304,
-    "customersOut": 2304,
+    "customersAffected": 2350,
+    "customersOut": 2350,
     "customersRestored": 0,
     "customersServed": 54726,
-    "eventCustomersOut": 2302,
+    "eventCustomersOut": 2348,
     "hourlyCustomersOut": [
       {
         "at": "2026-11-15T20:00:00Z",
@@ -2727,7 +2783,7 @@
       },
       {
         "at": "2026-11-17T20:00:00Z",
-        "customersOut": 3387
+        "customersOut": 3433
       }
     ],
     "locations": [
@@ -2766,6 +2822,7 @@
       "9-32L EST BELLEVUE",
       "9-32U EST BELLEVUE",
       "9-36L EST BELLEVUE",
+      "99A-ANNAS FANCY MTR-2UP",
       "A CHOCOLATE HOLE",
       "ABRAHAMS FANCY 3A",
       "ADRIAN",
@@ -2847,6 +2904,24 @@
       "AGNES FANCY 5-A",
       "AGNES FANCY 5B",
       "AGNES FANCY 5F",
+      "ANNAS FANCY",
+      "ANNAS FANCY #24",
+      "ANNAS FANCY 111 B-1 A-11",
+      "ANNAS FANCY 111-1",
+      "ANNAS FANCY 111-1B",
+      "ANNAS FANCY 111-2",
+      "ANNAS FANCY 111B",
+      "ANNAS FANCY 111-B APT-1",
+      "ANNAS FANCY 111B-1",
+      "ANNAS FANCY 115",
+      "ANNAS FANCY 115 MTR-2",
+      "ANNAS FANCY 116",
+      "ANNAS FANCY 119 APT-2",
+      "ANNAS FANCY 121",
+      "ANNAS FANCY 121 APT-4",
+      "ANNAS FANCY 122",
+      "ANNAS FANCY 123 MTR# 2",
+      "ANNAS FANCY 123 TOP-FL",
       "B 1 CAROLINA",
       "B 1 REM GIFT & REGENBACK",
       "BEAVERHOUDTSBERG 3-5",
@@ -4550,6 +4625,18 @@
       "HARD LABOR 9",
       "HARD LABOUR 11",
       "HERMAN HILL",
+      "HODGE STREET 24-25",
+      "HODGE STREET 24-25 APT 2",
+      "HODGE STREET 24-25 APT 4",
+      "HODGE STREET 26",
+      "HODGE STREET 26A",
+      "HODGES STREET #24-25",
+      "HODGES STREET 20",
+      "HODGES STREET 21",
+      "HODGES STREET 24-25",
+      "HODGES STREET 24-25 APT 8",
+      "HODGES STREET 24-25 APT-9",
+      "HODGES STREET 26",
       "HP & R PARKING LOT",
       "KC BETHANY 5",
       "LERKENLUND 9D-1-2",
@@ -4849,6 +4936,7 @@
       "SANS SOUCI 2-1",
       "SANS SOUCI 2-2",
       "SANS SOUCI& GUINEA GUT3B-",
+      "SOLBERG 18",
       "ST JOHN 7",
       "SUBBASE 100",
       "SUBBASE 101 (EL)",
@@ -4886,8 +4974,8 @@
       "SUZANNABERG 2-3 HOUSE",
       "VIRGIN GRAND EST #71"
     ],
-    "totalOutages": 11
+    "totalOutages": 12
   },
   "staleAfterSeconds": 900,
-  "unassignedEventCount": 8
+  "unassignedEventCount": 9
 }
