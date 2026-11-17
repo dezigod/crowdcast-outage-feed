@@ -3607,42 +3607,6 @@
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
-      "id": "edcdb5604fa6d327b50550b5252b9f0e904cf2e7aaef84d97cc7d5d421ef7b60",
-      "island": null,
-      "locations": [
-        "CONTANT 2D",
-        "CONTANT TOWER BLDG C",
-        "CONTANT TOWERS 2 B-A",
-        "CONTANT TOWERS B-A A-13",
-        "CONTANT TOWERS BLDG B",
-        "CONTANT TOWERS BLDG-A",
-        "CONTANT TOWERS BLDG-B",
-        "CONTANT TOWERS BLDG-C",
-        "CONTANT TOWERS BLDG-D",
-        "EST CONTANT 2 BLDG-C",
-        "FRYDENHOJ 12Q",
-        "TOWERS CONDOMINIUM UNIT"
-      ],
-      "modifiedAt": "2026-11-17T18:17:22Z",
-      "name": "T-T-16838",
-      "neighborhoodIDs": [],
-      "point": {
-        "latitude": 18.338290843714567,
-        "longitude": -64.95413325902052
-      },
-      "reportedCustomersInitially": 82,
-      "reportedCustomersOut": 82,
-      "reportedCustomersRestored": 0,
-      "sourceStatus": "Predicted",
-      "startedAt": "2026-11-17T18:16:55Z",
-      "verified": false,
-      "workStatus": null
-    },
-    {
-      "cause": null,
-      "crewAssigned": false,
-      "endedAt": null,
-      "estimatedRestoration": null,
       "id": "fdb906cf8a129bf9fb76d0647d1a213cc5484666344ddc1ff15b5ce36a8dbf0d",
       "island": null,
       "locations": [
@@ -3664,7 +3628,7 @@
       "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-17T18:30:35Z",
+  "generatedAt": "2026-11-17T18:35:37Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -4399,21 +4363,21 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "3dd182a3f26c1ded06844f4c8d6d33f1218d84a5aa4dc2dc3d846be7c2f58a93",
+  "snapshotID": "ae9ca0e9c4db14c2fea8882d77d58dc6d4a25ec3447756822ee1d3eea3634d68",
   "source": {
-    "checkedAt": "2026-11-17T18:30:35Z",
+    "checkedAt": "2026-11-17T18:35:37Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-17T18:25:37Z",
+    "updatedAt": "2026-11-17T18:35:37Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "sourceSummary": {
     "customerCountDifference": 2,
-    "customersAffected": 4056,
-    "customersOut": 4056,
+    "customersAffected": 3974,
+    "customersOut": 3974,
     "customersRestored": 0,
     "customersServed": 54726,
-    "eventCustomersOut": 4054,
+    "eventCustomersOut": 3972,
     "hourlyCustomersOut": [
       {
         "at": "2026-11-15T18:00:00Z",
@@ -4609,7 +4573,7 @@
       },
       {
         "at": "2026-11-17T18:00:00Z",
-        "customersOut": 6130
+        "customersOut": 6048
       }
     ],
     "locations": [
@@ -5196,18 +5160,9 @@
       "CONTANT 197 MTR 7",
       "CONTANT 225",
       "CONTANT 251",
-      "CONTANT 2D",
       "CONTANT ENIGHED",
       "CONTANT ENIGHED 191 & 192",
       "CONTANT ENIGHED 235",
-      "CONTANT TOWER BLDG C",
-      "CONTANT TOWERS 2 B-A",
-      "CONTANT TOWERS B-A A-13",
-      "CONTANT TOWERS BLDG B",
-      "CONTANT TOWERS BLDG-A",
-      "CONTANT TOWERS BLDG-B",
-      "CONTANT TOWERS BLDG-C",
-      "CONTANT TOWERS BLDG-D",
       "CONTANT&ENIGHED 109 MTR 2",
       "CONTANT/ENIGHED 232",
       "CONTANT/ENIGHED 232 (1-1)",
@@ -5613,7 +5568,6 @@
       "EST CAROLINA 7CF",
       "EST CONCORDIA 20-27",
       "EST CONTANT & ENIGHED",
-      "EST CONTANT 2 BLDG-C",
       "EST DENNIS BAY",
       "EST ELIZ 30 ABDEFGHJK B-6",
       "EST ELIZ.30 A,B,D-H,J,K U",
@@ -6061,7 +6015,6 @@
       "FRIIS 5C-2",
       "FRIIS ST JOHN",
       "FRYDENDAHL 56-16 MTR-C",
-      "FRYDENHOJ 12Q",
       "FT CHRISTIAN PARKING LOT",
       "GADE #5 (NATIVE SON)",
       "GGA LYTTONS FANCY",
@@ -7820,7 +7773,6 @@
       "TAARNEBERG 41A METER-C",
       "TAARNEBJERG 40AAB",
       "TOLBOD GADE EMANCIPATION",
-      "TOWERS CONDOMINIUM UNIT",
       "TROPACO PT HULL BAY",
       "TRUNK BAY",
       "TRUNK BAY PUMP HOUSE",
@@ -7900,8 +7852,8 @@
       "ZUERIENDENHEIT",
       "ZUFRIDENHEIT 1"
     ],
-    "totalOutages": 15
+    "totalOutages": 14
   },
   "staleAfterSeconds": 900,
-  "unassignedEventCount": 12
+  "unassignedEventCount": 11
 }
