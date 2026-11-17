@@ -134,7 +134,7 @@
       "workStatus": null
     },
     {
-      "cause": null,
+      "cause": "000 Power supply",
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
@@ -1193,7 +1193,7 @@
         "WATERGATE VILLA B16",
         "WATERGATE VILLA SECTION 6"
       ],
-      "modifiedAt": "2026-11-17T14:07:53Z",
+      "modifiedAt": "2026-11-17T14:12:18Z",
       "name": "WICO 10B out Way 2",
       "neighborhoodIDs": [],
       "point": {
@@ -1209,7 +1209,7 @@
       "workStatus": null
     },
     {
-      "cause": null,
+      "cause": "000 Power supply",
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
@@ -3894,7 +3894,7 @@
         "ZUERIENDENHEIT",
         "ZUFRIDENHEIT 1"
       ],
-      "modifiedAt": "2026-11-17T14:03:49Z",
+      "modifiedAt": "2026-11-17T14:12:12Z",
       "name": "Feeder 07A",
       "neighborhoodIDs": [
         "stThomas-agnes-fancy",
@@ -3970,7 +3970,7 @@
       "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-17T14:11:00Z",
+  "generatedAt": "2026-11-17T14:16:02Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -4375,11 +4375,11 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "528ab6072d56b9de6930ad1fad8e91453892db97fe2c332769c3f2756bc97988",
+  "snapshotID": "fb1e8cae36ad3ed9a2ac64e7072b8eb0b0f66278305bd009e287ed662e0fc99b",
   "source": {
-    "checkedAt": "2026-11-17T14:11:00Z",
+    "checkedAt": "2026-11-17T14:16:02Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-17T14:10:38Z",
+    "updatedAt": "2026-11-17T14:15:36Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
