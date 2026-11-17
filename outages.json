@@ -86,58 +86,6 @@
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
-      "id": "91571592391cbfb0cadd923dba750fd30757d5d96cbc4c960ede156d0e49125b",
-      "island": null,
-      "locations": [
-        "CONTANT",
-        "CONTANT 17",
-        "CONTANT 22-28",
-        "CONTANT 22-30",
-        "CONTANT 22-30 APT. 5",
-        "CONTANT 22-30 MTR H",
-        "CONTANT 26 BC",
-        "CONTANT 28 2ND FL",
-        "CONTANT 28A",
-        "CONTANT 31A A-1",
-        "CONTANT 31C",
-        "CONTANT 32",
-        "CONTANT 32-7B",
-        "CONTANT 33",
-        "CONTANT 33 APT 12",
-        "CONTANT 33 APT 2",
-        "CONTANT 33 APT 4",
-        "CONTANT 33 APT-13",
-        "CONTANT 33 APT-5",
-        "CONTANT 33 BLDG-2 APT-6",
-        "CONTANT 33-1",
-        "CONTANT 33B B-1",
-        "CONTANT 34",
-        "CONTANT 34 APT 2",
-        "CONTANT 34 BACK APT -1",
-        "CONTANT 34 BLDG-1",
-        "CONTANT 35-7B",
-        "CONTANT PUMP (SOTO TOWN)"
-      ],
-      "modifiedAt": "2026-11-16T23:53:10Z",
-      "name": "T-T-02205",
-      "neighborhoodIDs": [],
-      "point": {
-        "latitude": 18.34154171574058,
-        "longitude": -64.95304243251901
-      },
-      "reportedCustomersInitially": 44,
-      "reportedCustomersOut": 44,
-      "reportedCustomersRestored": 0,
-      "sourceStatus": "Predicted",
-      "startedAt": "2026-11-16T23:52:46Z",
-      "verified": false,
-      "workStatus": null
-    },
-    {
-      "cause": null,
-      "crewAssigned": false,
-      "endedAt": null,
-      "estimatedRestoration": null,
       "id": "9bf9dfa3b95a37f615460fbfe6d6f6cafae6ec7799e15dde9bcaee66d81a4fc4",
       "island": null,
       "locations": [
@@ -5492,7 +5440,7 @@
       "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-16T23:56:25Z",
+  "generatedAt": "2026-11-17T00:01:27Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -6294,26 +6242,22 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "404980f7736c2c07ec151af6c1270af89f984335d3c8509c2aa3275f72af068d",
+  "snapshotID": "9a81b153df2d6796ff9ebc2abd4194cd9c8daab681ca11c961fd83eeb50b0e82",
   "source": {
-    "checkedAt": "2026-11-16T23:56:25Z",
+    "checkedAt": "2026-11-17T00:01:27Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-16T23:55:36Z",
+    "updatedAt": "2026-11-17T00:00:35Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "sourceSummary": {
     "customerCountDifference": 2,
-    "customersAffected": 6247,
-    "customersOut": 6247,
+    "customersAffected": 6203,
+    "customersOut": 6203,
     "customersRestored": 0,
     "customersServed": 54726,
-    "eventCustomersOut": 6245,
+    "eventCustomersOut": 6201,
     "hourlyCustomersOut": [
-      {
-        "at": "2026-11-14T23:00:00Z",
-        "customersOut": 3944
-      },
       {
         "at": "2026-11-15T00:00:00Z",
         "customersOut": 3944
@@ -6504,7 +6448,11 @@
       },
       {
         "at": "2026-11-16T23:00:00Z",
-        "customersOut": 6245
+        "customersOut": 6201
+      },
+      {
+        "at": "2026-11-17T00:00:00Z",
+        "customersOut": 6201
       }
     ],
     "locations": [
@@ -8570,7 +8518,6 @@
       "CONTANT 15A-12",
       "CONTANT 15-A-7",
       "CONTANT 15-A-9",
-      "CONTANT 17",
       "CONTANT 178",
       "CONTANT 1D",
       "CONTANT 1E",
@@ -8585,13 +8532,6 @@
       "CONTANT 1U",
       "CONTANT 1X-1W",
       "CONTANT 1Z (BUSINESS)",
-      "CONTANT 22-28",
-      "CONTANT 22-30",
-      "CONTANT 22-30 APT. 5",
-      "CONTANT 22-30 MTR H",
-      "CONTANT 26 BC",
-      "CONTANT 28 2ND FL",
-      "CONTANT 28A",
       "CONTANT 295 & 295A",
       "CONTANT 2A",
       "CONTANT 2AA CRUZ BAY QTR",
@@ -8603,28 +8543,10 @@
       "CONTANT 3-12",
       "CONTANT 3-13",
       "CONTANT 3-16 UP",
-      "CONTANT 31A A-1",
-      "CONTANT 31C",
-      "CONTANT 32",
       "CONTANT 3-2",
-      "CONTANT 32-7B",
-      "CONTANT 33",
-      "CONTANT 33 APT 12",
-      "CONTANT 33 APT 2",
-      "CONTANT 33 APT 4",
-      "CONTANT 33 APT-13",
-      "CONTANT 33 APT-5",
-      "CONTANT 33 BLDG-2 APT-6",
-      "CONTANT 33-1",
-      "CONTANT 33B B-1",
-      "CONTANT 34",
       "CONTANT 3-4 APT 1",
-      "CONTANT 34 APT 2",
       "CONTANT 3-4 APT 2",
-      "CONTANT 34 BACK APT -1",
-      "CONTANT 34 BLDG-1",
       "CONTANT 3-5",
-      "CONTANT 35-7B",
       "CONTANT 3-7",
       "CONTANT 3-9",
       "CONTANT 3D",
@@ -8676,7 +8598,6 @@
       "CONTANT MTR-1",
       "CONTANT PCL 13-F",
       "CONTANT PCL 6-2",
-      "CONTANT PUMP (SOTO TOWN)",
       "CONTANT/ENIGHED 131 (EL)",
       "CONTANT/ENIGHED 174 APT B",
       "CONTANT-ENIGHED 280",
@@ -11693,8 +11614,8 @@
       "WEST COND SAPP B-A",
       "WEST SAPPHIRE BAY CONDO"
     ],
-    "totalOutages": 12
+    "totalOutages": 11
   },
   "staleAfterSeconds": 900,
-  "unassignedEventCount": 8
+  "unassignedEventCount": 7
 }
