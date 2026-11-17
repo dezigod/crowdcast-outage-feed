@@ -56,49 +56,6 @@
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
-      "id": "1dac4a9a32104048ebd44a6b912e79cecca179eb7f446f4acc9878ec1d0c1a05",
-      "island": null,
-      "locations": [
-        "ANNAS RETREAT 147",
-        "ANNAS RETREAT 149",
-        "ANNAS RETREAT 392",
-        "ANNAS RETREAT 392 FOUR",
-        "ANNAS RETREAT 392 FOURWIN",
-        "ANNAS RETREAT 392 HOUSE",
-        "ANNAS RETREAT 392 NEW QTR",
-        "ANNAS RETREAT 392 SPC.26B",
-        "ANNAS RETREAT 392 STE 12",
-        "ANNAS RETREAT 392-18",
-        "ANNAS RETREAT 396",
-        "ANNAS RETREAT-FOURWINDS",
-        "CHARLOTTE AMALIE 14",
-        "CHARLOTTE AMALIE 26A",
-        "CHARLOTTE AMALIE 26-A",
-        "CHARLOTTE AMALIE 26A-33-",
-        "EST TUTU #131",
-        "FOURWINDS PLAZA 15A & 15B",
-        "FOURWINDS PLAZA PUMP ROOM"
-      ],
-      "modifiedAt": "2026-11-17T16:31:57Z",
-      "name": "STT136692_0108",
-      "neighborhoodIDs": [],
-      "point": {
-        "latitude": 18.33851717043155,
-        "longitude": -64.88943534779406
-      },
-      "reportedCustomersInitially": 33,
-      "reportedCustomersOut": 33,
-      "reportedCustomersRestored": 0,
-      "sourceStatus": "Verified",
-      "startedAt": "2026-11-17T16:31:51Z",
-      "verified": true,
-      "workStatus": null
-    },
-    {
-      "cause": null,
-      "crewAssigned": false,
-      "endedAt": null,
-      "estimatedRestoration": null,
       "id": "2547288aa8622aa141fc7705171fdd21ceb70a8df47d63b362ba2b6ef247271b",
       "island": null,
       "locations": [
@@ -1505,7 +1462,7 @@
       "locations": [
         "CHARLOTTE AMALIE 26"
       ],
-      "modifiedAt": "2026-11-17T16:31:57Z",
+      "modifiedAt": "2026-11-17T17:40:17Z",
       "name": "T-T-15231",
       "neighborhoodIDs": [],
       "point": {
@@ -5873,7 +5830,7 @@
       "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-17T17:36:23Z",
+  "generatedAt": "2026-11-17T17:41:25Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -7374,25 +7331,25 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "f61cb3edc183fdf33eafe80ff33962c335542a01d92c4c9050ec23cb12b9a9c8",
+  "snapshotID": "1bf810da76c27106b934af28d9ce9733ee3c0381f71ed7afc422128639a010c1",
   "source": {
-    "checkedAt": "2026-11-17T17:36:23Z",
+    "checkedAt": "2026-11-17T17:41:25Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-17T17:35:38Z",
+    "updatedAt": "2026-11-17T17:40:38Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "sourceSummary": {
     "customerCountDifference": 2,
-    "customersAffected": 7417,
-    "customersOut": 7417,
+    "customersAffected": 7384,
+    "customersOut": 7384,
     "customersRestored": 0,
     "customersServed": 54726,
-    "eventCustomersOut": 7415,
+    "eventCustomersOut": 7382,
     "hourlyCustomersOut": [
       {
         "at": "2026-11-15T17:00:00Z",
-        "customersOut": 14214
+        "customersOut": 6580
       },
       {
         "at": "2026-11-15T18:00:00Z",
@@ -7580,11 +7537,11 @@
       },
       {
         "at": "2026-11-17T16:00:00Z",
-        "customersOut": 8247
+        "customersOut": 8214
       },
       {
         "at": "2026-11-17T17:00:00Z",
-        "customersOut": 9672
+        "customersOut": 9639
       }
     ],
     "locations": [
@@ -8045,9 +8002,7 @@
       "ANNAS RETREAT 12-130",
       "ANNAS RETREAT 130-12A",
       "ANNAS RETREAT 146-E3",
-      "ANNAS RETREAT 147",
       "ANNAS RETREAT 148-51-B",
-      "ANNAS RETREAT 149",
       "ANNAS RETREAT 1-5",
       "ANNAS RETREAT 1-6 1-3C",
       "ANNAS RETREAT 173",
@@ -8179,17 +8134,7 @@
       "ANNAS RETREAT 1-8 UP",
       "ANNAS RETREAT 215-216",
       "ANNAS RETREAT 24B DOWN",
-      "ANNAS RETREAT 392",
-      "ANNAS RETREAT 392 FOUR",
-      "ANNAS RETREAT 392 FOURWIN",
-      "ANNAS RETREAT 392 HOUSE",
-      "ANNAS RETREAT 392 NEW QTR",
-      "ANNAS RETREAT 392 SPC.26B",
-      "ANNAS RETREAT 392 STE 12",
-      "ANNAS RETREAT 392-18",
-      "ANNAS RETREAT 396",
       "ANNAS RETREAT TOP FLOOR",
-      "ANNAS RETREAT-FOURWINDS",
       "ARAWAK VILLAGE B-2 A-3",
       "B A SAPPHIRE BAY",
       "BAND STAND EMANCIPATION",
@@ -8378,11 +8323,7 @@
       "BONNE RESOLUTION BRASS VI",
       "BONNE ROSOLUTION 7A-1",
       "C ELIZABETH",
-      "CHARLOTTE AMALIE 14",
       "CHARLOTTE AMALIE 26",
-      "CHARLOTTE AMALIE 26A",
-      "CHARLOTTE AMALIE 26-A",
-      "CHARLOTTE AMALIE 26A-33-",
       "CHARLOTTE APTS",
       "CHARLOTTE APTS A2 B",
       "CHARLOTTE APTS BLD 1",
@@ -9388,7 +9329,6 @@
       "EST THOMAS 2B",
       "EST THOMAS 5A-5B",
       "EST THOMAS 8 -",
-      "EST TUTU #131",
       "EST TUTU #173A-52 UP",
       "EST TUTU 163",
       "EST UPPER JOHN DONKOE 9",
@@ -9570,8 +9510,6 @@
       "FORTET STRADE #1 BLDG-14",
       "FORTETS STRAEDE",
       "FORTH CHRISTIAN PARKING L",
-      "FOURWINDS PLAZA 15A & 15B",
-      "FOURWINDS PLAZA PUMP ROOM",
       "FREDERICKBERG GADE #1A",
       "FREDRIKBERG 1-A",
       "FRYDEHDAHL 56-48",
@@ -13103,8 +13041,8 @@
       "ZUERIENDENHEIT",
       "ZUFRIDENHEIT 1"
     ],
-    "totalOutages": 14
+    "totalOutages": 13
   },
   "staleAfterSeconds": 900,
-  "unassignedEventCount": 11
+  "unassignedEventCount": 10
 }
