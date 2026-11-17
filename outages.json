@@ -4119,6 +4119,8 @@
         "ALTONA/WELGUNST 200-8R UP",
         "ANNAS FANCY",
         "ANNAS FANCY #24",
+        "ANNAS FANCY 100",
+        "ANNAS FANCY 101",
         "ANNAS FANCY 106",
         "ANNAS FANCY 111 B-1 A-11",
         "ANNAS FANCY 111-1",
@@ -4142,9 +4144,36 @@
         "ANNAS FANCY 130D & E",
         "ANNAS FANCY 130G",
         "ANNAS FANCY 130H",
+        "ANNAS FANCY 67",
+        "ANNAS FANCY 68",
+        "ANNAS FANCY 68A",
+        "ANNAS FANCY 69 (EL)",
+        "ANNAS FANCY 69 APT 1",
+        "ANNAS FANCY 69 APT 2",
+        "ANNAS FANCY 71A",
+        "ANNAS FANCY 71B",
+        "ANNAS FANCY 72",
+        "ANNAS FANCY 72A DOWN",
+        "ANNAS FANCY 73",
+        "ANNAS FANCY 76B",
         "ANNAS FANCY 80-B",
         "ANNAS FANCY 84",
+        "ANNAS FANCY 91",
+        "ANNAS FANCY 91 B-1",
+        "ANNAS FANCY 93",
+        "ANNAS FANCY 93 APT-1",
+        "ANNAS FANCY 93 APT-3",
+        "ANNAS FANCY 94",
+        "ANNAS FANCY 94 APT-2",
+        "ANNAS FANCY 95",
+        "ANNAS FANCY 95 MID",
+        "ANNAS FANCY 96",
+        "ANNAS FANCY 99",
+        "ANNAS FANCY 99 MTR-2",
+        "ANNAS FANCY 9M 97",
+        "ANNAS FANCY APT. 1 UP",
         "ANNAS FANCY MTR 1",
+        "ANNAS FANCY TOP FLOOR",
         "ANNAS FANCY UP",
         "ANNAS RETREAT 24B DOWN",
         "ARAWAK VILLAGE B-2 A-3",
@@ -5160,6 +5189,7 @@
         "HODGE STREET 26A",
         "HODGES ST",
         "HODGES STREET #24-25",
+        "HODGES STREET 11",
         "HODGES STREET 20",
         "HODGES STREET 21",
         "HODGES STREET 22A",
@@ -6466,7 +6496,7 @@
         "ZUERIENDENHEIT",
         "ZUFRIDENHEIT 1"
       ],
-      "modifiedAt": "2026-11-17T22:18:22Z",
+      "modifiedAt": "2026-11-17T22:55:46Z",
       "name": "Feeder 07A",
       "neighborhoodIDs": [
         "stThomas-agnes-fancy",
@@ -6477,8 +6507,8 @@
         "latitude": 18.35228440783854,
         "longitude": -64.94922041540872
       },
-      "reportedCustomersInitially": 3539,
-      "reportedCustomersOut": 3539,
+      "reportedCustomersInitially": 3579,
+      "reportedCustomersOut": 3579,
       "reportedCustomersRestored": 0,
       "sourceStatus": "Verified",
       "startedAt": "2026-11-17T22:18:02Z",
@@ -6511,61 +6541,6 @@
       "reportedCustomersRestored": 0,
       "sourceStatus": "Verified",
       "startedAt": "2026-10-14T15:23:16Z",
-      "verified": true,
-      "workStatus": null
-    },
-    {
-      "cause": null,
-      "crewAssigned": false,
-      "endedAt": null,
-      "estimatedRestoration": null,
-      "id": "ce331d9ea44b46d27dc09ec9d2b44757c3b2a99c84abb217247f881fb86db6ca",
-      "island": null,
-      "locations": [
-        "ANNAS FANCY",
-        "ANNAS FANCY 100",
-        "ANNAS FANCY 101",
-        "ANNAS FANCY 67",
-        "ANNAS FANCY 68",
-        "ANNAS FANCY 68A",
-        "ANNAS FANCY 69 (EL)",
-        "ANNAS FANCY 69 APT 1",
-        "ANNAS FANCY 69 APT 2",
-        "ANNAS FANCY 71A",
-        "ANNAS FANCY 71B",
-        "ANNAS FANCY 72",
-        "ANNAS FANCY 72A DOWN",
-        "ANNAS FANCY 73",
-        "ANNAS FANCY 76B",
-        "ANNAS FANCY 91",
-        "ANNAS FANCY 91 B-1",
-        "ANNAS FANCY 93",
-        "ANNAS FANCY 93 APT-1",
-        "ANNAS FANCY 93 APT-3",
-        "ANNAS FANCY 94",
-        "ANNAS FANCY 94 APT-2",
-        "ANNAS FANCY 95",
-        "ANNAS FANCY 95 MID",
-        "ANNAS FANCY 96",
-        "ANNAS FANCY 99",
-        "ANNAS FANCY 99 MTR-2",
-        "ANNAS FANCY 9M 97",
-        "ANNAS FANCY APT. 1 UP",
-        "ANNAS FANCY TOP FLOOR",
-        "HODGES STREET 11"
-      ],
-      "modifiedAt": "2026-11-17T22:18:07Z",
-      "name": "T-T-02698",
-      "neighborhoodIDs": [],
-      "point": {
-        "latitude": 18.342821345599177,
-        "longitude": -64.9405283853634
-      },
-      "reportedCustomersInitially": 40,
-      "reportedCustomersOut": 40,
-      "reportedCustomersRestored": 0,
-      "sourceStatus": "Verified",
-      "startedAt": "2026-11-17T22:16:50Z",
       "verified": true,
       "workStatus": null
     },
@@ -6622,7 +6597,7 @@
       "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-17T22:56:13Z",
+  "generatedAt": "2026-11-17T23:01:15Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -7159,11 +7134,11 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "c89d2d83e508ef25892f6fe9a612f4268dbf4fc600584fb3d43b0205bd6ebc43",
+  "snapshotID": "6ad432a6ab23d1d9e8c06c5745e911bb99162e1629b67758f88cf4f4c5abeec0",
   "source": {
-    "checkedAt": "2026-11-17T22:56:13Z",
+    "checkedAt": "2026-11-17T23:01:15Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-17T22:55:38Z",
+    "updatedAt": "2026-11-17T23:00:39Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
@@ -7175,10 +7150,6 @@
     "customersServed": 54726,
     "eventCustomersOut": 8561,
     "hourlyCustomersOut": [
-      {
-        "at": "2026-11-15T22:00:00Z",
-        "customersOut": 3335
-      },
       {
         "at": "2026-11-15T23:00:00Z",
         "customersOut": 7685
@@ -7370,6 +7341,10 @@
       {
         "at": "2026-11-17T22:00:00Z",
         "customersOut": 10818
+      },
+      {
+        "at": "2026-11-17T23:00:00Z",
+        "customersOut": 8561
       }
     ],
     "locations": [
@@ -13668,8 +13643,8 @@
       "ZUERIENDENHEIT",
       "ZUFRIDENHEIT 1"
     ],
-    "totalOutages": 12
+    "totalOutages": 11
   },
   "staleAfterSeconds": 900,
-  "unassignedEventCount": 9
+  "unassignedEventCount": 8
 }
