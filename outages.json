@@ -56,31 +56,6 @@
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
-      "id": "37e1a294b01394f861c761987c9526002cdd43fe39b5e224c5d256c305fe349c",
-      "island": null,
-      "locations": [
-        "ESTATE THOMAS 4 REM"
-      ],
-      "modifiedAt": "2026-11-17T02:26:36Z",
-      "name": "T-T-03657",
-      "neighborhoodIDs": [],
-      "point": {
-        "latitude": 18.336776789314367,
-        "longitude": -64.90901522962939
-      },
-      "reportedCustomersInitially": 1,
-      "reportedCustomersOut": 1,
-      "reportedCustomersRestored": 0,
-      "sourceStatus": "Predicted",
-      "startedAt": "2026-11-17T02:11:16Z",
-      "verified": false,
-      "workStatus": null
-    },
-    {
-      "cause": null,
-      "crewAssigned": false,
-      "endedAt": null,
-      "estimatedRestoration": null,
       "id": "688d24f7b6e72cb60f9dd7cfcfc315b9ee0efe7095b9fbf192b7ed84c8031d54",
       "island": "stThomas",
       "locations": [
@@ -2438,7 +2413,7 @@
       "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-17T02:56:27Z",
+  "generatedAt": "2026-11-17T03:01:28Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -2523,26 +2498,22 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "04e38c654df1c60a2b0546de7839455f9c27aaefcb09947d963c1b51fdadcf01",
+  "snapshotID": "957d863f0e282ed9c5a4967c28237e67b9b460d1fcef8eee818b725237639558",
   "source": {
-    "checkedAt": "2026-11-17T02:56:27Z",
+    "checkedAt": "2026-11-17T03:01:28Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-17T02:55:34Z",
+    "updatedAt": "2026-11-17T03:00:35Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "sourceSummary": {
     "customerCountDifference": 2,
-    "customersAffected": 2515,
-    "customersOut": 2515,
+    "customersAffected": 2514,
+    "customersOut": 2514,
     "customersRestored": 0,
     "customersServed": 54726,
-    "eventCustomersOut": 2513,
+    "eventCustomersOut": 2512,
     "hourlyCustomersOut": [
-      {
-        "at": "2026-11-15T02:00:00Z",
-        "customersOut": 10
-      },
       {
         "at": "2026-11-15T03:00:00Z",
         "customersOut": 10
@@ -2733,7 +2704,11 @@
       },
       {
         "at": "2026-11-17T02:00:00Z",
-        "customersOut": 4215
+        "customersOut": 4214
+      },
+      {
+        "at": "2026-11-17T03:00:00Z",
+        "customersOut": 2512
       }
     ],
     "locations": [
@@ -4053,7 +4028,6 @@
       "ESTATE THOMAS 18 REMAINER",
       "ESTATE THOMAS 19",
       "ESTATE THOMAS 1F-LONG BAY",
-      "ESTATE THOMAS 4 REM",
       "ESTATE THOMAS 6A-1",
       "ESTATE THOMAS 6B&F",
       "ESTATE THOMAS 6F",
@@ -4928,8 +4902,8 @@
       "ZOOTENVAAL 3Q (MTR 1)",
       "ZOOTENVAAL 3T"
     ],
-    "totalOutages": 10
+    "totalOutages": 9
   },
   "staleAfterSeconds": 900,
-  "unassignedEventCount": 7
+  "unassignedEventCount": 6
 }
