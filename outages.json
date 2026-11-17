@@ -2256,6 +2256,34 @@
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
+      "id": "8ab7e6b43369e9d99d7b7d562c556f2273f92163555b77e65522e13f0b190b63",
+      "island": null,
+      "locations": [
+        "LA GRANDE PRINCESS",
+        "LA GRANDE PRINCESS 53-C",
+        "LA GRANDE PRINCESS 53-G",
+        "LA GRANDE PRINCESS 62B"
+      ],
+      "modifiedAt": "2026-11-17T21:56:34Z",
+      "name": "T-C-08150",
+      "neighborhoodIDs": [],
+      "point": {
+        "latitude": 17.762343343098102,
+        "longitude": -64.73690205262656
+      },
+      "reportedCustomersInitially": 14,
+      "reportedCustomersOut": 14,
+      "reportedCustomersRestored": 0,
+      "sourceStatus": "Predicted",
+      "startedAt": "2026-11-17T21:55:59Z",
+      "verified": false,
+      "workStatus": null
+    },
+    {
+      "cause": null,
+      "crewAssigned": false,
+      "endedAt": null,
+      "estimatedRestoration": null,
       "id": "a7622fe5ec3f7460243d64545ddffb42dc3c534b3876e2c938737688abde9c58",
       "island": "stThomas",
       "locations": [
@@ -2385,7 +2413,7 @@
       "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-17T21:55:56Z",
+  "generatedAt": "2026-11-17T22:00:57Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -2472,29 +2500,25 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "1bd54464a53731fc871013cca8f7cb976f10b719b6c287595abd3ef378f0b4de",
+  "snapshotID": "a49a3582129bf1aad3d6e0eb855d9590666f92edbf9e8ac224bb3772453538d3",
   "source": {
-    "checkedAt": "2026-11-17T21:55:56Z",
+    "checkedAt": "2026-11-17T22:00:57Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-17T21:55:38Z",
+    "updatedAt": "2026-11-17T22:00:37Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "sourceSummary": {
     "customerCountDifference": 2,
-    "customersAffected": 2277,
-    "customersOut": 2277,
+    "customersAffected": 2291,
+    "customersOut": 2291,
     "customersRestored": 0,
     "customersServed": 54726,
-    "eventCustomersOut": 2275,
+    "eventCustomersOut": 2289,
     "hourlyCustomersOut": [
       {
-        "at": "2026-11-15T21:00:00Z",
-        "customersOut": 3198
-      },
-      {
         "at": "2026-11-15T22:00:00Z",
-        "customersOut": 6523
+        "customersOut": 4959
       },
       {
         "at": "2026-11-15T23:00:00Z",
@@ -2682,7 +2706,11 @@
       },
       {
         "at": "2026-11-17T21:00:00Z",
-        "customersOut": 2275
+        "customersOut": 2289
+      },
+      {
+        "at": "2026-11-17T22:00:00Z",
+        "customersOut": 2289
       }
     ],
     "locations": [
@@ -4488,6 +4516,10 @@
       "HERMAN HILL",
       "HP & R PARKING LOT",
       "KC BETHANY 5",
+      "LA GRANDE PRINCESS",
+      "LA GRANDE PRINCESS 53-C",
+      "LA GRANDE PRINCESS 53-G",
+      "LA GRANDE PRINCESS 62B",
       "LERKENLUND 9D-1-2",
       "LOVENLUND EST FARMHOUSE",
       "LOVENLUND PCL D-12 L/41",
@@ -4822,8 +4854,8 @@
       "SUZANNABERG 2-3 HOUSE",
       "VIRGIN GRAND EST #71"
     ],
-    "totalOutages": 10
+    "totalOutages": 11
   },
   "staleAfterSeconds": 900,
-  "unassignedEventCount": 7
+  "unassignedEventCount": 8
 }
