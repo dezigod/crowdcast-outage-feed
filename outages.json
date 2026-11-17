@@ -1463,71 +1463,6 @@
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
-      "id": "7095ab962b9c0ef648192fd2b4a979b70817b3016c33884ae28d240f8aabf80f",
-      "island": null,
-      "locations": [
-        "NADIR 20-1",
-        "WINTBERG 1-124",
-        "WINTBERG 1-127",
-        "WINTBERG 1-128",
-        "WINTBERG 1-129",
-        "WINTBERG 1-130",
-        "WINTBERG 1-130 MTR 2",
-        "WINTBERG 1-132",
-        "WINTBERG 1-132 DWN",
-        "WINTBERG 1-133",
-        "WINTBERG 1-133 MRT-2"
-      ],
-      "modifiedAt": "2026-11-17T22:23:10Z",
-      "name": "T-T-08879",
-      "neighborhoodIDs": [
-        "stThomas-wintberg"
-      ],
-      "point": {
-        "latitude": 18.354043391575253,
-        "longitude": -64.90679886836153
-      },
-      "reportedCustomersInitially": 14,
-      "reportedCustomersOut": 14,
-      "reportedCustomersRestored": 0,
-      "sourceStatus": "Predicted",
-      "startedAt": "2026-11-17T22:22:44Z",
-      "verified": false,
-      "workStatus": null
-    },
-    {
-      "cause": null,
-      "crewAssigned": false,
-      "endedAt": null,
-      "estimatedRestoration": null,
-      "id": "8ab7e6b43369e9d99d7b7d562c556f2273f92163555b77e65522e13f0b190b63",
-      "island": null,
-      "locations": [
-        "LA GRANDE PRINCESS",
-        "LA GRANDE PRINCESS 53-C",
-        "LA GRANDE PRINCESS 53-G",
-        "LA GRANDE PRINCESS 62B"
-      ],
-      "modifiedAt": "2026-11-17T21:56:34Z",
-      "name": "T-C-08150",
-      "neighborhoodIDs": [],
-      "point": {
-        "latitude": 17.762343343098102,
-        "longitude": -64.73690205262656
-      },
-      "reportedCustomersInitially": 14,
-      "reportedCustomersOut": 14,
-      "reportedCustomersRestored": 0,
-      "sourceStatus": "Predicted",
-      "startedAt": "2026-11-17T21:55:59Z",
-      "verified": false,
-      "workStatus": null
-    },
-    {
-      "cause": null,
-      "crewAssigned": false,
-      "endedAt": null,
-      "estimatedRestoration": null,
       "id": "945d7f205f283a97062859e1b8548685c6b09a6234bf28d22e17a545d29b9af5",
       "island": null,
       "locations": [
@@ -6687,7 +6622,7 @@
       "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-17T22:51:12Z",
+  "generatedAt": "2026-11-17T22:56:13Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -7195,29 +7130,6 @@
           ],
           "sourceStatus": "Verified",
           "startedAt": null
-        },
-        {
-          "affectedCustomers": null,
-          "estimatedRestoration": null,
-          "id": "stThomas-wintberg",
-          "island": "stThomas",
-          "locations": [
-            "1-124",
-            "1-127",
-            "1-128",
-            "1-129",
-            "1-130",
-            "1-130 MTR 2",
-            "1-132",
-            "1-133",
-            "1-133 MRT-2"
-          ],
-          "name": "Wintberg",
-          "sourceEventIDs": [
-            "7095ab962b9c0ef648192fd2b4a979b70817b3016c33884ae28d240f8aabf80f"
-          ],
-          "sourceStatus": "Predicted",
-          "startedAt": "2026-11-17T22:22:44Z"
         }
       ]
     },
@@ -7247,21 +7159,21 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "c4c6cdbd57c873fbb94c6b9dc0fd6d34f063afac13da06a0c8675cbb192d0221",
+  "snapshotID": "c89d2d83e508ef25892f6fe9a612f4268dbf4fc600584fb3d43b0205bd6ebc43",
   "source": {
-    "checkedAt": "2026-11-17T22:51:12Z",
+    "checkedAt": "2026-11-17T22:56:13Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-17T22:50:38Z",
+    "updatedAt": "2026-11-17T22:55:38Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "sourceSummary": {
     "customerCountDifference": 2,
-    "customersAffected": 8591,
-    "customersOut": 8591,
+    "customersAffected": 8563,
+    "customersOut": 8563,
     "customersRestored": 0,
     "customersServed": 54726,
-    "eventCustomersOut": 8589,
+    "eventCustomersOut": 8561,
     "hourlyCustomersOut": [
       {
         "at": "2026-11-15T22:00:00Z",
@@ -7453,11 +7365,11 @@
       },
       {
         "at": "2026-11-17T21:00:00Z",
-        "customersOut": 2288
+        "customersOut": 2274
       },
       {
         "at": "2026-11-17T22:00:00Z",
-        "customersOut": 10846
+        "customersOut": 10818
       }
     ],
     "locations": [
@@ -11405,10 +11317,6 @@
       "KRUM BAY 44 2ND FL DOWN",
       "KRUM BAY-SYSTEM PLANNING",
       "KRUMP BAY",
-      "LA GRANDE PRINCESS",
-      "LA GRANDE PRINCESS 53-C",
-      "LA GRANDE PRINCESS 53-G",
-      "LA GRANDE PRINCESS 62B",
       "LAERKE GADE",
       "LAERKE GADE 6",
       "LAERKE GADE 6 UP",
@@ -12047,7 +11955,6 @@
       "NADIR 19A-3 A-2B",
       "NADIR 19A-3-PUMP",
       "NADIR 20",
-      "NADIR 20-1",
       "NADIR 20-1 3RD FLOOR",
       "NADIR 20-7",
       "NADIR 20-8",
@@ -13758,21 +13665,11 @@
       "WIMMELSKAFTS GADE 6A SHOP",
       "WIMMELSKAFTS GADE 6A(RES)",
       "WINDWARD PASSAGE/TRAFFIC",
-      "WINTBERG 1-124",
-      "WINTBERG 1-127",
-      "WINTBERG 1-128",
-      "WINTBERG 1-129",
-      "WINTBERG 1-130",
-      "WINTBERG 1-130 MTR 2",
-      "WINTBERG 1-132",
-      "WINTBERG 1-132 DWN",
-      "WINTBERG 1-133",
-      "WINTBERG 1-133 MRT-2",
       "ZUERIENDENHEIT",
       "ZUFRIDENHEIT 1"
     ],
-    "totalOutages": 14
+    "totalOutages": 12
   },
   "staleAfterSeconds": 900,
-  "unassignedEventCount": 11
+  "unassignedEventCount": 9
 }
