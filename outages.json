@@ -86,47 +86,6 @@
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
-      "id": "8b8895f8bafc0b2c7d10cad60775f6e2bd604eceddd754a3e368f35a9538a906",
-      "island": null,
-      "locations": [
-        "CONTANT",
-        "CONTANT 15 DWN",
-        "CONTANT 15-3",
-        "CONTANT 15-7B",
-        "CONTANT 15A",
-        "CONTANT 15C",
-        "CONTANT 15E",
-        "CONTANT 33A (EL)",
-        "CONTANT 7B",
-        "CONTANT 7B-16",
-        "CONTANT 7B-21",
-        "CONTANT 7B-3D APT 1",
-        "CONTANT 7B-3D APT 3",
-        "CONTANT 7B-3D APT 5",
-        "CONTANT 7B-3D APT 8",
-        "CONTANT 7B-3D APT-2",
-        "CONTANT 7B-3D APT-6"
-      ],
-      "modifiedAt": "2026-11-17T01:35:08Z",
-      "name": "T-T-02414",
-      "neighborhoodIDs": [],
-      "point": {
-        "latitude": 18.340889856460564,
-        "longitude": -64.95358325108515
-      },
-      "reportedCustomersInitially": 22,
-      "reportedCustomersOut": 22,
-      "reportedCustomersRestored": 0,
-      "sourceStatus": "Predicted",
-      "startedAt": "2026-11-17T01:34:46Z",
-      "verified": false,
-      "workStatus": null
-    },
-    {
-      "cause": null,
-      "crewAssigned": false,
-      "endedAt": null,
-      "estimatedRestoration": null,
       "id": "a7622fe5ec3f7460243d64545ddffb42dc3c534b3876e2c938737688abde9c58",
       "island": "stThomas",
       "locations": [
@@ -1577,7 +1536,7 @@
       "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-17T01:36:04Z",
+  "generatedAt": "2026-11-17T01:41:06Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -2115,21 +2074,21 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "5f7d59f8aecc1c9aaf24d99844c3dac445c29efc6edbdc95b329010a33af32a9",
+  "snapshotID": "af33e434a2cf5287648d61e65830f95dfa9ced62b162a4a322c2de0302a23b06",
   "source": {
-    "checkedAt": "2026-11-17T01:36:04Z",
+    "checkedAt": "2026-11-17T01:41:06Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-17T01:35:34Z",
+    "updatedAt": "2026-11-17T01:40:34Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "sourceSummary": {
     "customerCountDifference": 2,
-    "customersAffected": 1744,
-    "customersOut": 1744,
+    "customersAffected": 1722,
+    "customersOut": 1722,
     "customersRestored": 0,
     "customersServed": 54726,
-    "eventCustomersOut": 1742,
+    "eventCustomersOut": 1720,
     "hourlyCustomersOut": [
       {
         "at": "2026-11-15T01:00:00Z",
@@ -2325,7 +2284,7 @@
       },
       {
         "at": "2026-11-17T01:00:00Z",
-        "customersOut": 2828
+        "customersOut": 2806
       }
     ],
     "locations": [
@@ -2442,23 +2401,6 @@
       "CHARLOTTE APTS BLDG-4",
       "CHARLOTTE APTS BLDG-6",
       "COMMANDANT GADE 7A",
-      "CONTANT",
-      "CONTANT 15 DWN",
-      "CONTANT 15-3",
-      "CONTANT 15-7B",
-      "CONTANT 15A",
-      "CONTANT 15C",
-      "CONTANT 15E",
-      "CONTANT 33A (EL)",
-      "CONTANT 7B",
-      "CONTANT 7B-16",
-      "CONTANT 7B-21",
-      "CONTANT 7B-3D APT 1",
-      "CONTANT 7B-3D APT 3",
-      "CONTANT 7B-3D APT 5",
-      "CONTANT 7B-3D APT 8",
-      "CONTANT 7B-3D APT-2",
-      "CONTANT 7B-3D APT-6",
       "DRONINGENS GADE 60 61 62",
       "DRONN GADE",
       "DRONN GADE STOP LIGHT",
@@ -3651,8 +3593,8 @@
       "WINTBERG PEAK 1CD-6",
       "WINTBERG PEAK 1K"
     ],
-    "totalOutages": 10
+    "totalOutages": 9
   },
   "staleAfterSeconds": 900,
-  "unassignedEventCount": 6
+  "unassignedEventCount": 5
 }
