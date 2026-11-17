@@ -56,6 +56,39 @@
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
+      "id": "557e11bd1f6f1126d1492c7e2d0d0793ae8e353708a63bef7616aedd5fb501b8",
+      "island": null,
+      "locations": [
+        "LEB VILLAS PHASE I B-10",
+        "LEB VILLAS PHASE I B11",
+        "LEB VILLAS PHASE I B-11",
+        "LEB VILLAS PHASE I B-8",
+        "LEB VILLAS PHASE I B-9",
+        "LEB VILLAS PHASE I/HS MTR",
+        "LOUIS E BROWN VILLAS B-10",
+        "LOUIS E BROWN VILLAS B-11",
+        "LOUIS E BROWN VILLAS B-9"
+      ],
+      "modifiedAt": "2026-11-17T03:12:39Z",
+      "name": "T-C-00275",
+      "neighborhoodIDs": [],
+      "point": {
+        "latitude": 17.70459447600161,
+        "longitude": -64.82079467944448
+      },
+      "reportedCustomersInitially": 30,
+      "reportedCustomersOut": 30,
+      "reportedCustomersRestored": 0,
+      "sourceStatus": "Predicted",
+      "startedAt": "2026-11-17T03:12:29Z",
+      "verified": false,
+      "workStatus": null
+    },
+    {
+      "cause": null,
+      "crewAssigned": false,
+      "endedAt": null,
+      "estimatedRestoration": null,
       "id": "688d24f7b6e72cb60f9dd7cfcfc315b9ee0efe7095b9fbf192b7ed84c8031d54",
       "island": "stThomas",
       "locations": [
@@ -2413,7 +2446,7 @@
       "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-17T03:11:31Z",
+  "generatedAt": "2026-11-17T03:20:30Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -2498,21 +2531,21 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "0c457657c08c3fc887cd76e773b2223cacf018e0c2726204e4835efce08290cc",
+  "snapshotID": "e14c1efe05a7132b4131b13af8ef32716895ac38c72d2436010e5e1ce2f6da44",
   "source": {
-    "checkedAt": "2026-11-17T03:11:31Z",
+    "checkedAt": "2026-11-17T03:20:30Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-17T03:10:35Z",
+    "updatedAt": "2026-11-17T03:15:35Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "sourceSummary": {
     "customerCountDifference": 2,
-    "customersAffected": 2514,
-    "customersOut": 2514,
+    "customersAffected": 2544,
+    "customersOut": 2544,
     "customersRestored": 0,
     "customersServed": 54726,
-    "eventCustomersOut": 2512,
+    "eventCustomersOut": 2542,
     "hourlyCustomersOut": [
       {
         "at": "2026-11-15T03:00:00Z",
@@ -2708,7 +2741,7 @@
       },
       {
         "at": "2026-11-17T03:00:00Z",
-        "customersOut": 2512
+        "customersOut": 2542
       }
     ],
     "locations": [
@@ -4669,6 +4702,12 @@
       "JOHNS FOLLY 2-8",
       "JOHNS FOLLY 90-J",
       "JOHNS FOLLY C",
+      "LEB VILLAS PHASE I B-10",
+      "LEB VILLAS PHASE I B11",
+      "LEB VILLAS PHASE I B-11",
+      "LEB VILLAS PHASE I B-8",
+      "LEB VILLAS PHASE I B-9",
+      "LEB VILLAS PHASE I/HS MTR",
       "LERKENLUND 9D-1-2",
       "LIND POINT",
       "LIND POINT RD",
@@ -4686,6 +4725,9 @@
       "LITTLE PLANTATION 4E*",
       "LITTLE PLANTATION 4E**",
       "LOT 15 EST. THOMAS",
+      "LOUIS E BROWN VILLAS B-10",
+      "LOUIS E BROWN VILLAS B-11",
+      "LOUIS E BROWN VILLAS B-9",
       "LOVENLUND EST FARMHOUSE",
       "MAHO BAY 178 ISLAND FANCY",
       "MAHO BAY 3A",
@@ -4902,8 +4944,8 @@
       "ZOOTENVAAL 3Q (MTR 1)",
       "ZOOTENVAAL 3T"
     ],
-    "totalOutages": 9
+    "totalOutages": 10
   },
   "staleAfterSeconds": 900,
-  "unassignedEventCount": 6
+  "unassignedEventCount": 7
 }
