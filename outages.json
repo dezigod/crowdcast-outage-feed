@@ -1097,7 +1097,7 @@
         "ZOOTENVAAL 3Q (MTR 1)",
         "ZOOTENVAAL 3T"
       ],
-      "modifiedAt": "2026-11-17T02:10:34Z",
+      "modifiedAt": "2026-11-17T02:11:25Z",
       "name": "Feeder 07E",
       "neighborhoodIDs": [],
       "point": {
@@ -2539,7 +2539,7 @@
       "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-17T02:11:14Z",
+  "generatedAt": "2026-11-17T02:16:15Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -3061,11 +3061,11 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "71b3f42c192c7f8fa24b30ebe972ed9499dfaa0a8d53779ad11c8db1106d889d",
+  "snapshotID": "383f6e4ce342b2170d3e217bbbbaacb1d6733362473a07275761ceac2027fa4b",
   "source": {
-    "checkedAt": "2026-11-17T02:11:14Z",
+    "checkedAt": "2026-11-17T02:16:15Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-17T02:10:35Z",
+    "updatedAt": "2026-11-17T02:15:35Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
