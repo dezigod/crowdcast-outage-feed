@@ -1431,31 +1431,6 @@
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
-      "id": "6bce7cc7b7e0711375e16a517ca8a244897a0f5e490932c127975150db0d8059",
-      "island": null,
-      "locations": [
-        "GLYNN 45"
-      ],
-      "modifiedAt": "2026-11-17T19:28:48Z",
-      "name": "T-C-08329",
-      "neighborhoodIDs": [],
-      "point": {
-        "latitude": 17.74571171703747,
-        "longitude": -64.77736211325389
-      },
-      "reportedCustomersInitially": 1,
-      "reportedCustomersOut": 1,
-      "reportedCustomersRestored": 0,
-      "sourceStatus": "Predicted",
-      "startedAt": "2026-11-17T19:28:13Z",
-      "verified": false,
-      "workStatus": null
-    },
-    {
-      "cause": null,
-      "crewAssigned": false,
-      "endedAt": null,
-      "estimatedRestoration": null,
       "id": "9d07600445ef6deb5c5d1b5c1410034023468aaac47ae6a98b274a057937f2ff",
       "island": null,
       "locations": [
@@ -2614,7 +2589,7 @@
       "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-17T19:30:57Z",
+  "generatedAt": "2026-11-17T19:35:59Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -3136,21 +3111,21 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "81c914a081c2752af9d99a4d1c54cfc40a0b42b951167e7c019d271768605531",
+  "snapshotID": "cc132387099f251f3f586de61008874510989e76f07699f1c5b7b35aa8829362",
   "source": {
-    "checkedAt": "2026-11-17T19:30:57Z",
+    "checkedAt": "2026-11-17T19:35:59Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-17T19:30:36Z",
+    "updatedAt": "2026-11-17T19:35:36Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "sourceSummary": {
     "customerCountDifference": 2,
-    "customersAffected": 2806,
-    "customersOut": 2806,
+    "customersAffected": 2805,
+    "customersOut": 2805,
     "customersRestored": 0,
     "customersServed": 54726,
-    "eventCustomersOut": 2804,
+    "eventCustomersOut": 2803,
     "hourlyCustomersOut": [
       {
         "at": "2026-11-15T19:00:00Z",
@@ -3346,7 +3321,7 @@
       },
       {
         "at": "2026-11-17T19:00:00Z",
-        "customersOut": 3931
+        "customersOut": 3930
       }
     ],
     "locations": [
@@ -4442,7 +4417,6 @@
       "FT CHRISTIAN PARKING LOT",
       "GADE #5 (NATIVE SON)",
       "GGA LYTTONS FANCY",
-      "GLYNN 45",
       "GREAT S E QRTS",
       "HANSEN BAY \"\"B\"\"",
       "HANSEN BAY 1-A-2",
@@ -5663,8 +5637,8 @@
       "ZOOTENVAAL 3Q (MTR 1)",
       "ZOOTENVAAL 3T"
     ],
-    "totalOutages": 12
+    "totalOutages": 11
   },
   "staleAfterSeconds": 900,
-  "unassignedEventCount": 9
+  "unassignedEventCount": 8
 }
