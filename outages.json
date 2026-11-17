@@ -56,6 +56,54 @@
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
+      "id": "4140729859336eb1f704223b79e59223ea1b2824bdfd92ca2bd3a327b92d865a",
+      "island": null,
+      "locations": [
+        "BARREN SPOT",
+        "BARREN SPOT 100",
+        "BARREN SPOT 101",
+        "BARREN SPOT 103",
+        "BARREN SPOT 104",
+        "BARREN SPOT 106",
+        "BARREN SPOT 106B",
+        "BARREN SPOT 107",
+        "BARREN SPOT 109",
+        "BARREN SPOT 116",
+        "BARREN SPOT 117",
+        "BARREN SPOT 119",
+        "BARREN SPOT 120",
+        "BARREN SPOT 120 (DWNST)",
+        "BARREN SPOT 121",
+        "BARREN SPOT 121-B",
+        "BARREN SPOT 122 A-B",
+        "BARREN SPOT 122-A",
+        "BARREN SPOT 94",
+        "BARREN SPOT 95",
+        "BARREN SPOT 96",
+        "BARREN SPOT 99",
+        "BARREN SPOT VILL",
+        "BARREN SPOT VILLAGE"
+      ],
+      "modifiedAt": "2026-11-17T00:25:33Z",
+      "name": "T-C-07392",
+      "neighborhoodIDs": [],
+      "point": {
+        "latitude": 17.728645786593724,
+        "longitude": -64.76257827141015
+      },
+      "reportedCustomersInitially": 25,
+      "reportedCustomersOut": 25,
+      "reportedCustomersRestored": 0,
+      "sourceStatus": "Predicted",
+      "startedAt": "2026-11-17T00:25:10Z",
+      "verified": false,
+      "workStatus": null
+    },
+    {
+      "cause": null,
+      "crewAssigned": false,
+      "endedAt": null,
+      "estimatedRestoration": null,
       "id": "688d24f7b6e72cb60f9dd7cfcfc315b9ee0efe7095b9fbf192b7ed84c8031d54",
       "island": "stThomas",
       "locations": [
@@ -3943,7 +3991,7 @@
       "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-17T00:20:40Z",
+  "generatedAt": "2026-11-17T00:25:42Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -4705,21 +4753,21 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "60b4f0e2fd1b31acd4ca43eb27c761a04885873fe5e2f35ef25982bf3f43cc3f",
+  "snapshotID": "2102d78f8f04497010b5ac2639cb7927c3b90105c0a9bfa2916357e617f4bc60",
   "source": {
-    "checkedAt": "2026-11-17T00:20:40Z",
+    "checkedAt": "2026-11-17T00:25:42Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-17T00:20:35Z",
+    "updatedAt": "2026-11-17T00:25:35Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "sourceSummary": {
     "customerCountDifference": 2,
-    "customersAffected": 4375,
-    "customersOut": 4375,
+    "customersAffected": 4400,
+    "customersOut": 4400,
     "customersRestored": 0,
     "customersServed": 54726,
-    "eventCustomersOut": 4373,
+    "eventCustomersOut": 4398,
     "hourlyCustomersOut": [
       {
         "at": "2026-11-15T00:00:00Z",
@@ -4915,7 +4963,7 @@
       },
       {
         "at": "2026-11-17T00:00:00Z",
-        "customersOut": 4373
+        "customersOut": 4398
       }
     ],
     "locations": [
@@ -5214,6 +5262,30 @@
       "BARBADOS SAPP VIL 105A",
       "BARBADOS SAPP VILL 101A",
       "BARBADOS SAPP VILL 204E",
+      "BARREN SPOT",
+      "BARREN SPOT 100",
+      "BARREN SPOT 101",
+      "BARREN SPOT 103",
+      "BARREN SPOT 104",
+      "BARREN SPOT 106",
+      "BARREN SPOT 106B",
+      "BARREN SPOT 107",
+      "BARREN SPOT 109",
+      "BARREN SPOT 116",
+      "BARREN SPOT 117",
+      "BARREN SPOT 119",
+      "BARREN SPOT 120",
+      "BARREN SPOT 120 (DWNST)",
+      "BARREN SPOT 121",
+      "BARREN SPOT 121-B",
+      "BARREN SPOT 122 A-B",
+      "BARREN SPOT 122-A",
+      "BARREN SPOT 94",
+      "BARREN SPOT 95",
+      "BARREN SPOT 96",
+      "BARREN SPOT 99",
+      "BARREN SPOT VILL",
+      "BARREN SPOT VILLAGE",
       "BEAVERHOUDTSBERG 3-5",
       "BELLEVUE #08-L",
       "BELLEVUE 9-1",
@@ -8584,8 +8656,8 @@
       "WEST COND SAPP B-A",
       "WEST SAPPHIRE BAY CONDO"
     ],
-    "totalOutages": 11
+    "totalOutages": 12
   },
   "staleAfterSeconds": 900,
-  "unassignedEventCount": 7
+  "unassignedEventCount": 8
 }
