@@ -6,31 +6,6 @@
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
-      "id": "0121643999b27c02376295b08c9a115817c3e844fb81ced08982cdaec2187812",
-      "island": null,
-      "locations": [
-        "REGATTA POINT VILLAS 1& 2"
-      ],
-      "modifiedAt": "2026-11-17T02:45:33Z",
-      "name": "201874",
-      "neighborhoodIDs": [],
-      "point": {
-        "latitude": 18.312278535817583,
-        "longitude": -64.89868252223631
-      },
-      "reportedCustomersInitially": 1,
-      "reportedCustomersOut": 1,
-      "reportedCustomersRestored": 0,
-      "sourceStatus": "Verified",
-      "startedAt": "2026-11-16T19:52:58Z",
-      "verified": true,
-      "workStatus": null
-    },
-    {
-      "cause": null,
-      "crewAssigned": false,
-      "endedAt": null,
-      "estimatedRestoration": null,
       "id": "02ad80ca369fa3c06f49be69764d5174e852de152c2257606b0becd2586b3c67",
       "island": null,
       "locations": [
@@ -6712,7 +6687,7 @@
       "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-17T22:46:10Z",
+  "generatedAt": "2026-11-17T22:51:12Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -7272,21 +7247,21 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "a0557835ee8e30220058773f6619b5386bedcfa5b75075cabc5b7a9ce8976da9",
+  "snapshotID": "c4c6cdbd57c873fbb94c6b9dc0fd6d34f063afac13da06a0c8675cbb192d0221",
   "source": {
-    "checkedAt": "2026-11-17T22:46:10Z",
+    "checkedAt": "2026-11-17T22:51:12Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-17T22:45:39Z",
+    "updatedAt": "2026-11-17T22:50:38Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "sourceSummary": {
     "customerCountDifference": 2,
-    "customersAffected": 8592,
-    "customersOut": 8592,
+    "customersAffected": 8591,
+    "customersOut": 8591,
     "customersRestored": 0,
     "customersServed": 54726,
-    "eventCustomersOut": 8590,
+    "eventCustomersOut": 8589,
     "hourlyCustomersOut": [
       {
         "at": "2026-11-15T22:00:00Z",
@@ -7394,95 +7369,95 @@
       },
       {
         "at": "2026-11-17T00:00:00Z",
-        "customersOut": 7209
+        "customersOut": 7208
       },
       {
         "at": "2026-11-17T01:00:00Z",
-        "customersOut": 2800
+        "customersOut": 2799
       },
       {
         "at": "2026-11-17T02:00:00Z",
-        "customersOut": 4211
+        "customersOut": 4210
       },
       {
         "at": "2026-11-17T03:00:00Z",
-        "customersOut": 2509
+        "customersOut": 2508
       },
       {
         "at": "2026-11-17T04:00:00Z",
-        "customersOut": 12
+        "customersOut": 11
       },
       {
         "at": "2026-11-17T05:00:00Z",
-        "customersOut": 12
+        "customersOut": 11
       },
       {
         "at": "2026-11-17T06:00:00Z",
-        "customersOut": 12
+        "customersOut": 11
       },
       {
         "at": "2026-11-17T07:00:00Z",
-        "customersOut": 12
+        "customersOut": 11
       },
       {
         "at": "2026-11-17T08:00:00Z",
-        "customersOut": 12
+        "customersOut": 11
       },
       {
         "at": "2026-11-17T09:00:00Z",
-        "customersOut": 12
+        "customersOut": 11
       },
       {
         "at": "2026-11-17T10:00:00Z",
-        "customersOut": 12
+        "customersOut": 11
       },
       {
         "at": "2026-11-17T11:00:00Z",
-        "customersOut": 12
+        "customersOut": 11
       },
       {
         "at": "2026-11-17T12:00:00Z",
-        "customersOut": 2320
+        "customersOut": 2319
       },
       {
         "at": "2026-11-17T13:00:00Z",
-        "customersOut": 2269
+        "customersOut": 2268
       },
       {
         "at": "2026-11-17T14:00:00Z",
-        "customersOut": 7116
+        "customersOut": 7115
       },
       {
         "at": "2026-11-17T15:00:00Z",
-        "customersOut": 8233
+        "customersOut": 8232
       },
       {
         "at": "2026-11-17T16:00:00Z",
-        "customersOut": 8236
+        "customersOut": 8235
       },
       {
         "at": "2026-11-17T17:00:00Z",
-        "customersOut": 9661
+        "customersOut": 9660
       },
       {
         "at": "2026-11-17T18:00:00Z",
-        "customersOut": 6037
+        "customersOut": 6036
       },
       {
         "at": "2026-11-17T19:00:00Z",
-        "customersOut": 6186
+        "customersOut": 6185
       },
       {
         "at": "2026-11-17T20:00:00Z",
-        "customersOut": 3360
+        "customersOut": 3359
       },
       {
         "at": "2026-11-17T21:00:00Z",
-        "customersOut": 2289
+        "customersOut": 2288
       },
       {
         "at": "2026-11-17T22:00:00Z",
-        "customersOut": 10847
+        "customersOut": 10846
       }
     ],
     "locations": [
@@ -12803,7 +12778,6 @@
       "RAADETS GADE 33",
       "RAINBOW ANCHORAGE",
       "RED HOOK DOCK",
-      "REGATTA POINT VILLAS 1& 2",
       "REGJERING GADE 2A",
       "REGJERING GADE 9A",
       "REGJERINGS GADE 10",
@@ -13797,8 +13771,8 @@
       "ZUERIENDENHEIT",
       "ZUFRIDENHEIT 1"
     ],
-    "totalOutages": 15
+    "totalOutages": 14
   },
   "staleAfterSeconds": 900,
-  "unassignedEventCount": 12
+  "unassignedEventCount": 11
 }
