@@ -117,7 +117,7 @@
       "locations": [
         "CHARLOTTE AMALIE 26"
       ],
-      "modifiedAt": "2026-11-17T17:40:17Z",
+      "modifiedAt": "2026-11-17T19:09:26Z",
       "name": "T-T-15231",
       "neighborhoodIDs": [],
       "point": {
@@ -181,49 +181,6 @@
       "reportedCustomersRestored": 0,
       "sourceStatus": "Verified",
       "startedAt": "2026-11-04T17:15:35Z",
-      "verified": true,
-      "workStatus": null
-    },
-    {
-      "cause": null,
-      "crewAssigned": false,
-      "endedAt": null,
-      "estimatedRestoration": null,
-      "id": "bfcd1b410b79bd54cd720604c9f19cf804a6518dcbb4e403d10c48937a004bc2",
-      "island": null,
-      "locations": [
-        "ANNAS RETREAT 147",
-        "ANNAS RETREAT 149",
-        "ANNAS RETREAT 392",
-        "ANNAS RETREAT 392 FOUR",
-        "ANNAS RETREAT 392 FOURWIN",
-        "ANNAS RETREAT 392 HOUSE",
-        "ANNAS RETREAT 392 NEW QTR",
-        "ANNAS RETREAT 392 SPC.26B",
-        "ANNAS RETREAT 392 STE 12",
-        "ANNAS RETREAT 392-18",
-        "ANNAS RETREAT 396",
-        "ANNAS RETREAT-FOURWINDS",
-        "CHARLOTTE AMALIE 14",
-        "CHARLOTTE AMALIE 26A",
-        "CHARLOTTE AMALIE 26-A",
-        "CHARLOTTE AMALIE 26A-33-",
-        "EST TUTU #131",
-        "FOURWINDS PLAZA 15A & 15B",
-        "FOURWINDS PLAZA PUMP ROOM"
-      ],
-      "modifiedAt": "2026-11-17T18:10:36Z",
-      "name": "STT136692_0108",
-      "neighborhoodIDs": [],
-      "point": {
-        "latitude": 18.33851717043155,
-        "longitude": -64.88943534779406
-      },
-      "reportedCustomersInitially": 33,
-      "reportedCustomersOut": 33,
-      "reportedCustomersRestored": 0,
-      "sourceStatus": "Verified",
-      "startedAt": "2026-11-17T15:30:00Z",
       "verified": true,
       "workStatus": null
     },
@@ -1311,57 +1268,9 @@
       "startedAt": "2026-11-17T16:40:52Z",
       "verified": true,
       "workStatus": null
-    },
-    {
-      "cause": null,
-      "crewAssigned": false,
-      "endedAt": null,
-      "estimatedRestoration": null,
-      "id": "fed1428f889aca3d35934316f5f81792314a3e6036d81da25d57dcce11617b93",
-      "island": null,
-      "locations": [
-        "ANNAS FANCY",
-        "ANNAS FANCY 14B",
-        "ANNAS FANCY 36",
-        "ANNAS FANCY 37",
-        "ANNAS FANCY 40",
-        "ANNAS FANCY 48",
-        "ANNAS FANCY 4A",
-        "ANNAS FANCY 53",
-        "ANNAS FANCY 54",
-        "ANNAS FANCY 55",
-        "ANNAS FANCY 56",
-        "ANNAS FANCY 56A",
-        "ANNAS FANCY 57",
-        "ANNAS FANCY 57 (EL)",
-        "ANNAS FANCY 57 UP",
-        "ANNAS FANCY 59",
-        "ANNAS FANCY 59 AB",
-        "ANNAS FANCY 60",
-        "ANNAS FANCY 64",
-        "ANNAS FANCY 81C COTTAGE",
-        "ANNAS FANCY 83 B-3 LOWER",
-        "ANNAS FANCY 83 B-3 UPPER",
-        "ANNAS FANCY 89",
-        "ANNAS FANCY UP"
-      ],
-      "modifiedAt": "2026-11-17T18:40:28Z",
-      "name": "T-T-16367",
-      "neighborhoodIDs": [],
-      "point": {
-        "latitude": 18.342310294679024,
-        "longitude": -64.94136712415995
-      },
-      "reportedCustomersInitially": 34,
-      "reportedCustomersOut": 34,
-      "reportedCustomersRestored": 0,
-      "sourceStatus": "Predicted",
-      "startedAt": "2026-11-17T18:40:02Z",
-      "verified": false,
-      "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-17T19:05:48Z",
+  "generatedAt": "2026-11-17T19:10:50Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -1446,21 +1355,21 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "2eacc5b30deffec5ce7948158b8abceefdf76096a171b96edde394555536f9a4",
+  "snapshotID": "202150951fc0066999cec7d1112cf36e6de65a33bc100c95ce0c30b1e907b808",
   "source": {
-    "checkedAt": "2026-11-17T19:05:48Z",
+    "checkedAt": "2026-11-17T19:10:50Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-17T19:05:36Z",
+    "updatedAt": "2026-11-17T19:10:36Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "sourceSummary": {
     "customerCountDifference": 2,
-    "customersAffected": 1170,
-    "customersOut": 1170,
+    "customersAffected": 1103,
+    "customersOut": 1103,
     "customersRestored": 0,
     "customersServed": 54726,
-    "eventCustomersOut": 1168,
+    "eventCustomersOut": 1101,
     "hourlyCustomersOut": [
       {
         "at": "2026-11-15T19:00:00Z",
@@ -1640,23 +1549,23 @@
       },
       {
         "at": "2026-11-17T15:00:00Z",
-        "customersOut": 8235
+        "customersOut": 8234
       },
       {
         "at": "2026-11-17T16:00:00Z",
-        "customersOut": 8238
+        "customersOut": 8237
       },
       {
         "at": "2026-11-17T17:00:00Z",
-        "customersOut": 9663
+        "customersOut": 9662
       },
       {
         "at": "2026-11-17T18:00:00Z",
-        "customersOut": 6073
+        "customersOut": 6038
       },
       {
         "at": "2026-11-17T19:00:00Z",
-        "customersOut": 2295
+        "customersOut": 2228
       }
     ],
     "locations": [
@@ -1690,42 +1599,6 @@
       "ANNABERG 4-U-1",
       "ANNABERG 4-U-2",
       "ANNABERG MAHO BAY 4-L",
-      "ANNAS FANCY",
-      "ANNAS FANCY 14B",
-      "ANNAS FANCY 36",
-      "ANNAS FANCY 37",
-      "ANNAS FANCY 40",
-      "ANNAS FANCY 48",
-      "ANNAS FANCY 4A",
-      "ANNAS FANCY 53",
-      "ANNAS FANCY 54",
-      "ANNAS FANCY 55",
-      "ANNAS FANCY 56",
-      "ANNAS FANCY 56A",
-      "ANNAS FANCY 57",
-      "ANNAS FANCY 57 (EL)",
-      "ANNAS FANCY 57 UP",
-      "ANNAS FANCY 59",
-      "ANNAS FANCY 59 AB",
-      "ANNAS FANCY 60",
-      "ANNAS FANCY 64",
-      "ANNAS FANCY 81C COTTAGE",
-      "ANNAS FANCY 83 B-3 LOWER",
-      "ANNAS FANCY 83 B-3 UPPER",
-      "ANNAS FANCY 89",
-      "ANNAS FANCY UP",
-      "ANNAS RETREAT 147",
-      "ANNAS RETREAT 149",
-      "ANNAS RETREAT 392",
-      "ANNAS RETREAT 392 FOUR",
-      "ANNAS RETREAT 392 FOURWIN",
-      "ANNAS RETREAT 392 HOUSE",
-      "ANNAS RETREAT 392 NEW QTR",
-      "ANNAS RETREAT 392 SPC.26B",
-      "ANNAS RETREAT 392 STE 12",
-      "ANNAS RETREAT 392-18",
-      "ANNAS RETREAT 396",
-      "ANNAS RETREAT-FOURWINDS",
       "BATTERY HILL 3AD",
       "BEN RUNELL GUT 6GD",
       "BEN RUNNEL GUT 6-GD MTR-1",
@@ -2055,11 +1928,7 @@
       "CAROLINA 8-5",
       "CAROLINA REM 6-2-1",
       "CELEBRATION VILLAGE CRUZ",
-      "CHARLOTTE AMALIE 14",
       "CHARLOTTE AMALIE 26",
-      "CHARLOTTE AMALIE 26A",
-      "CHARLOTTE AMALIE 26-A",
-      "CHARLOTTE AMALIE 26A-33-",
       "CINNAMON BAY",
       "CINNAMON BAY 69",
       "CINNAMON BAY WATER PLANT",
@@ -2406,7 +2275,6 @@
       "EST HAWKNEST 1A",
       "EST MANDAHL 16D-1A-1",
       "EST QUACO & ZIMMERMAN",
-      "EST TUTU #131",
       "EST. CAROLINA # 6FG",
       "EST. CAROLINA # 6-G-5",
       "EST. CAROLINA #6T-14",
@@ -2467,8 +2335,6 @@
       "FORTSBERG 4",
       "FORTSBERG 6",
       "FORTSBERG ESTATE 16K",
-      "FOURWINDS PLAZA 15A & 15B",
-      "FOURWINDS PLAZA PUMP ROOM",
       "FREEMAN GROUND 3-03",
       "FREEMANS GROUND",
       "FREEMAN'S GROUND",
@@ -2726,8 +2592,8 @@
       "ZOOTENVAAL 3Q (MTR 1)",
       "ZOOTENVAAL 3T"
     ],
-    "totalOutages": 12
+    "totalOutages": 10
   },
   "staleAfterSeconds": 900,
-  "unassignedEventCount": 9
+  "unassignedEventCount": 7
 }
