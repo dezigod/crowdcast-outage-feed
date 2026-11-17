@@ -1463,6 +1463,35 @@
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
+      "id": "912cdc99742214f710962c2eff07f380a959a62fcefd97c9550081cc512ffaa9",
+      "island": null,
+      "locations": [
+        "BOLONGO HILL 60Q",
+        "BOLONGO HILL 60-Q UP",
+        "FRENCHMAN'S BAY 14-65 UP",
+        "FRENCHMAN'S BAY 14-66A",
+        "FRENCHMAN'S BAY 14-66B"
+      ],
+      "modifiedAt": "2026-11-17T23:28:50Z",
+      "name": "T-T-03917",
+      "neighborhoodIDs": [],
+      "point": {
+        "latitude": 18.324066351271426,
+        "longitude": -64.90130561784255
+      },
+      "reportedCustomersInitially": 8,
+      "reportedCustomersOut": 8,
+      "reportedCustomersRestored": 0,
+      "sourceStatus": "Predicted",
+      "startedAt": "2026-11-17T23:28:29Z",
+      "verified": false,
+      "workStatus": null
+    },
+    {
+      "cause": null,
+      "crewAssigned": false,
+      "endedAt": null,
+      "estimatedRestoration": null,
       "id": "945d7f205f283a97062859e1b8548685c6b09a6234bf28d22e17a545d29b9af5",
       "island": null,
       "locations": [
@@ -6597,7 +6626,7 @@
       "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-17T23:26:26Z",
+  "generatedAt": "2026-11-17T23:31:28Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -7134,21 +7163,21 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "28f76a075f116115575763ea79e2d914d5425d2711a55f1182384dc961337da9",
+  "snapshotID": "329934cd7bcd17562e64972837a346155171ee46ad3da889127112aa18fab9dd",
   "source": {
-    "checkedAt": "2026-11-17T23:26:26Z",
+    "checkedAt": "2026-11-17T23:31:28Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-17T23:25:39Z",
+    "updatedAt": "2026-11-17T23:30:39Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "sourceSummary": {
     "customerCountDifference": 2,
-    "customersAffected": 8563,
-    "customersOut": 8563,
+    "customersAffected": 8571,
+    "customersOut": 8571,
     "customersRestored": 0,
     "customersServed": 54726,
-    "eventCustomersOut": 8561,
+    "eventCustomersOut": 8569,
     "hourlyCustomersOut": [
       {
         "at": "2026-11-15T23:00:00Z",
@@ -7344,7 +7373,7 @@
       },
       {
         "at": "2026-11-17T23:00:00Z",
-        "customersOut": 8561
+        "customersOut": 8569
       }
     ],
     "locations": [
@@ -8236,6 +8265,8 @@
       "BJERGE GADE 3",
       "BJERGE GD 1-A- UP",
       "BJERGE GD 2Q",
+      "BOLONGO HILL 60Q",
+      "BOLONGO HILL 60-Q UP",
       "BONN RESOLUTION 14-47",
       "BONNE ESPERANCE 2-3 MTR 1",
       "BONNE RESLOUTION 14-3",
@@ -9897,6 +9928,9 @@
       "ESTATE STAABI 13 9A GNQ",
       "ESTATE THOMAS 1,3, - 5",
       "ESTATE THOMAS 16-1",
+      "FRENCHMAN'S BAY 14-65 UP",
+      "FRENCHMAN'S BAY 14-66A",
+      "FRENCHMAN'S BAY 14-66B",
       "FRENCHTOWN B-2",
       "FRYDENDAHL 12B-1",
       "FRYDENDAHL 56-16 MTR-C",
@@ -13643,8 +13677,8 @@
       "ZUERIENDENHEIT",
       "ZUFRIDENHEIT 1"
     ],
-    "totalOutages": 11
+    "totalOutages": 12
   },
   "staleAfterSeconds": 900,
-  "unassignedEventCount": 8
+  "unassignedEventCount": 9
 }
