@@ -82,6 +82,51 @@
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
+      "id": "53af7c310e11fe817fe83c80d18bb99da145c86837219c68f909417a0b7b5f91",
+      "island": null,
+      "locations": [
+        "CONTANT (FRONT HOUSE)",
+        "CONTANT 12A",
+        "CONTANT 12B",
+        "CONTANT 12B-2",
+        "CONTANT 38 APT 3",
+        "CONTANT 3CA",
+        "CONTANT 3CC",
+        "CONTANT 3CG",
+        "CONTANT 3CH",
+        "CONTANT 3CH MIDDLE",
+        "CONTANT 3D",
+        "CONTANT 3D APT 2",
+        "CONTANT 3D PUMP",
+        "CONTANT 3D-1",
+        "CONTANT 7-9 7B SS QTRS UP",
+        "CONTANT 7B",
+        "CONTANT 7-B MTR-1",
+        "CONTANT 9-1",
+        "CONTANT 9-3 UP",
+        "CONTANT 9A APT-2",
+        "EST CONTANT 3CH BOTTOM"
+      ],
+      "modifiedAt": "2026-11-17T20:30:15Z",
+      "name": "T-T-00032",
+      "neighborhoodIDs": [],
+      "point": {
+        "latitude": 18.339898552377647,
+        "longitude": -64.95320303514684
+      },
+      "reportedCustomersInitially": 27,
+      "reportedCustomersOut": 27,
+      "reportedCustomersRestored": 0,
+      "sourceStatus": "Predicted",
+      "startedAt": "2026-11-17T20:30:00Z",
+      "verified": false,
+      "workStatus": null
+    },
+    {
+      "cause": null,
+      "crewAssigned": false,
+      "endedAt": null,
+      "estimatedRestoration": null,
       "id": "688d24f7b6e72cb60f9dd7cfcfc315b9ee0efe7095b9fbf192b7ed84c8031d54",
       "island": "stThomas",
       "locations": [
@@ -2256,31 +2301,6 @@
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
-      "id": "9d07600445ef6deb5c5d1b5c1410034023468aaac47ae6a98b274a057937f2ff",
-      "island": null,
-      "locations": [
-        "CHARLOTTE AMALIE 26"
-      ],
-      "modifiedAt": "2026-11-17T20:13:50Z",
-      "name": "T-T-15231",
-      "neighborhoodIDs": [],
-      "point": {
-        "latitude": 18.3384063583498,
-        "longitude": -64.88914771830133
-      },
-      "reportedCustomersInitially": 1,
-      "reportedCustomersOut": 1,
-      "reportedCustomersRestored": 0,
-      "sourceStatus": "Verified",
-      "startedAt": "2026-11-17T15:50:51Z",
-      "verified": true,
-      "workStatus": null
-    },
-    {
-      "cause": null,
-      "crewAssigned": false,
-      "endedAt": null,
-      "estimatedRestoration": null,
       "id": "a7622fe5ec3f7460243d64545ddffb42dc3c534b3876e2c938737688abde9c58",
       "island": "stThomas",
       "locations": [
@@ -2410,7 +2430,7 @@
       "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-17T20:26:16Z",
+  "generatedAt": "2026-11-17T20:31:17Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -2497,21 +2517,21 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "a9039d06451cbb7b86377d98a7433a2da4b984c0ced8fae9eef53560bb0e6a39",
+  "snapshotID": "ca7325dc67570305050835c5864fd86bbefde30b1311dbd1deb921ae251deb38",
   "source": {
-    "checkedAt": "2026-11-17T20:26:16Z",
+    "checkedAt": "2026-11-17T20:31:17Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-17T20:25:36Z",
+    "updatedAt": "2026-11-17T20:30:37Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "sourceSummary": {
     "customerCountDifference": 2,
-    "customersAffected": 2278,
-    "customersOut": 2278,
+    "customersAffected": 2304,
+    "customersOut": 2304,
     "customersRestored": 0,
     "customersServed": 54726,
-    "eventCustomersOut": 2276,
+    "eventCustomersOut": 2302,
     "hourlyCustomersOut": [
       {
         "at": "2026-11-15T20:00:00Z",
@@ -2687,27 +2707,27 @@
       },
       {
         "at": "2026-11-17T15:00:00Z",
-        "customersOut": 8234
+        "customersOut": 8233
       },
       {
         "at": "2026-11-17T16:00:00Z",
-        "customersOut": 8237
+        "customersOut": 8236
       },
       {
         "at": "2026-11-17T17:00:00Z",
-        "customersOut": 9662
+        "customersOut": 9661
       },
       {
         "at": "2026-11-17T18:00:00Z",
-        "customersOut": 6038
+        "customersOut": 6037
       },
       {
         "at": "2026-11-17T19:00:00Z",
-        "customersOut": 6187
+        "customersOut": 6186
       },
       {
         "at": "2026-11-17T20:00:00Z",
-        "customersOut": 3361
+        "customersOut": 3387
       }
     ],
     "locations": [
@@ -3160,7 +3180,6 @@
       "CATHERINGBERG, #3-20",
       "CATHRINEBERG",
       "CENTERLINE",
-      "CHARLOTTE AMALIE 26",
       "CHOCOLATE 300-31",
       "CHOCOLATE HOLE",
       "CHOCOLATE HOLE #300-67",
@@ -3497,6 +3516,7 @@
       "CONTANT & ENIGHED 287",
       "CONTANT & ENIGHED PCL",
       "CONTANT & ENIGHED REM",
+      "CONTANT (FRONT HOUSE)",
       "CONTANT 1 R (MTR 1)",
       "CONTANT 1-0 (DWN)",
       "CONTANT 1-0* (UP)",
@@ -3508,6 +3528,9 @@
       "CONTANT 11",
       "CONTANT 11-E",
       "CONTANT 11P",
+      "CONTANT 12A",
+      "CONTANT 12B",
+      "CONTANT 12B-2",
       "CONTANT 13-AA",
       "CONTANT 13AB CRUZ BAY",
       "CONTANT 13B",
@@ -3573,8 +3596,17 @@
       "CONTANT 3-4 APT 2",
       "CONTANT 3-5",
       "CONTANT 3-7",
+      "CONTANT 38 APT 3",
       "CONTANT 3-9",
+      "CONTANT 3CA",
+      "CONTANT 3CC",
+      "CONTANT 3CG",
+      "CONTANT 3CH",
+      "CONTANT 3CH MIDDLE",
       "CONTANT 3D",
+      "CONTANT 3D APT 2",
+      "CONTANT 3D PUMP",
+      "CONTANT 3D-1",
       "CONTANT 4-A HSE #1",
       "CONTANT 4E",
       "CONTANT 5B",
@@ -3592,12 +3624,17 @@
       "CONTANT 7-2 MTR 2",
       "CONTANT 7-4",
       "CONTANT 7-6",
+      "CONTANT 7-9 7B SS QTRS UP",
+      "CONTANT 7B",
+      "CONTANT 7-B MTR-1",
       "CONTANT 7D",
       "CONTANT 8AA",
       "CONTANT 9-1",
       "CONTANT 9-2",
       "CONTANT 9-3",
+      "CONTANT 9-3 UP",
       "CONTANT 9-4",
+      "CONTANT 9A APT-2",
       "CONTANT AND ENIGHED",
       "CONTANT CRUZ BAY 13-C",
       "CONTANT CRUZ BAY 5L",
@@ -4032,6 +4069,7 @@
       "EST CATHERINEBERG 3-5A #1",
       "EST CHOCOLATE HOLE",
       "EST CONTANT 13",
+      "EST CONTANT 3CH BOTTOM",
       "EST CORALINA 9-1",
       "EST ENIGHED",
       "EST ENIGHED 11 U 1B 201",
