@@ -56,6 +56,32 @@
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
+      "id": "4e6b0859a033e29bf8f71b61337d7ce723a9640c2f17f5d5eef22472dada3a00",
+      "island": null,
+      "locations": [
+        "SOUTHGATE CRTYARD VILLAS",
+        "SOUTHGATE VILLAS"
+      ],
+      "modifiedAt": "2026-11-17T15:55:39Z",
+      "name": "T-C-00047",
+      "neighborhoodIDs": [],
+      "point": {
+        "latitude": 17.75469782071135,
+        "longitude": -64.66245966952934
+      },
+      "reportedCustomersInitially": 9,
+      "reportedCustomersOut": 9,
+      "reportedCustomersRestored": 0,
+      "sourceStatus": "Predicted",
+      "startedAt": "2026-11-17T15:55:07Z",
+      "verified": false,
+      "workStatus": null
+    },
+    {
+      "cause": null,
+      "crewAssigned": false,
+      "endedAt": null,
+      "estimatedRestoration": null,
       "id": "688d24f7b6e72cb60f9dd7cfcfc315b9ee0efe7095b9fbf192b7ed84c8031d54",
       "island": "stThomas",
       "locations": [
@@ -86,6 +112,32 @@
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
+      "id": "8fb1562effa39d731812cf63b093ac5ecaf28c29759cd95ad80786be6c5847a2",
+      "island": null,
+      "locations": [
+        "CAROLINA 10-30C-1A",
+        "CAROLINA 10-30C-5"
+      ],
+      "modifiedAt": "2026-11-17T15:58:13Z",
+      "name": "T-J-03914",
+      "neighborhoodIDs": [],
+      "point": {
+        "latitude": 18.33884437569973,
+        "longitude": -64.71838654311689
+      },
+      "reportedCustomersInitially": 2,
+      "reportedCustomersOut": 2,
+      "reportedCustomersRestored": 0,
+      "sourceStatus": "Predicted",
+      "startedAt": "2026-11-17T15:57:56Z",
+      "verified": false,
+      "workStatus": null
+    },
+    {
+      "cause": null,
+      "crewAssigned": false,
+      "endedAt": null,
+      "estimatedRestoration": null,
       "id": "9d07600445ef6deb5c5d1b5c1410034023468aaac47ae6a98b274a057937f2ff",
       "island": null,
       "locations": [
@@ -103,6 +155,32 @@
       "reportedCustomersRestored": 0,
       "sourceStatus": "Predicted",
       "startedAt": "2026-11-17T15:50:51Z",
+      "verified": false,
+      "workStatus": null
+    },
+    {
+      "cause": null,
+      "crewAssigned": false,
+      "endedAt": null,
+      "estimatedRestoration": null,
+      "id": "a07eddef60ae4c741bab1c9db1d96b9e68136e09cc9c618c40f702fb61a7e0d7",
+      "island": null,
+      "locations": [
+        "HANSEN BAY 6-0-B",
+        "HANSEN BAY 6-0-C"
+      ],
+      "modifiedAt": "2026-11-17T15:57:27Z",
+      "name": "T-J-04353",
+      "neighborhoodIDs": [],
+      "point": {
+        "latitude": 18.337952902591645,
+        "longitude": -64.67352089647832
+      },
+      "reportedCustomersInitially": 2,
+      "reportedCustomersOut": 2,
+      "reportedCustomersRestored": 0,
+      "sourceStatus": "Predicted",
+      "startedAt": "2026-11-17T15:57:12Z",
       "verified": false,
       "workStatus": null
     },
@@ -3966,36 +4044,9 @@
       "startedAt": "2026-10-14T15:23:16Z",
       "verified": true,
       "workStatus": null
-    },
-    {
-      "cause": null,
-      "crewAssigned": false,
-      "endedAt": null,
-      "estimatedRestoration": null,
-      "id": "e6d8b98c808310d622da80a144144b6bb191cf0b4903480e3fa2c452cda8f1cf",
-      "island": null,
-      "locations": [
-        "HARD LABOR 12",
-        "HARD LABOR 9",
-        "HARD LABOUR 11"
-      ],
-      "modifiedAt": "2026-11-17T14:01:10Z",
-      "name": "T-C-21236",
-      "neighborhoodIDs": [],
-      "point": {
-        "latitude": 17.746116743142785,
-        "longitude": -64.83330265620741
-      },
-      "reportedCustomersInitially": 3,
-      "reportedCustomersOut": 3,
-      "reportedCustomersRestored": 0,
-      "sourceStatus": "Predicted",
-      "startedAt": "2026-11-17T14:00:49Z",
-      "verified": false,
-      "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-17T15:55:39Z",
+  "generatedAt": "2026-11-17T16:00:41Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -4400,29 +4451,25 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "119ab7fa71bab5ccf55cdaeccca65f7bcd2850be835e6c01c7fc97177d7e8c3d",
+  "snapshotID": "046407f5b41e8f33af26736b4d70e6bfbc7fd174b9e5d1c77fdae0d3ee1c3948",
   "source": {
-    "checkedAt": "2026-11-17T15:55:39Z",
+    "checkedAt": "2026-11-17T16:00:41Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-17T15:55:37Z",
+    "updatedAt": "2026-11-17T16:00:37Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "sourceSummary": {
     "customerCountDifference": 2,
-    "customersAffected": 4865,
-    "customersOut": 4865,
+    "customersAffected": 4875,
+    "customersOut": 4875,
     "customersRestored": 0,
     "customersServed": 54726,
-    "eventCustomersOut": 4863,
+    "eventCustomersOut": 4873,
     "hourlyCustomersOut": [
       {
-        "at": "2026-11-15T15:00:00Z",
-        "customersOut": 6382
-      },
-      {
         "at": "2026-11-15T16:00:00Z",
-        "customersOut": 8896
+        "customersOut": 4041
       },
       {
         "at": "2026-11-15T17:00:00Z",
@@ -4606,11 +4653,15 @@
       },
       {
         "at": "2026-11-17T14:00:00Z",
-        "customersOut": 7119
+        "customersOut": 7116
       },
       {
         "at": "2026-11-17T15:00:00Z",
-        "customersOut": 4863
+        "customersOut": 4873
+      },
+      {
+        "at": "2026-11-17T16:00:00Z",
+        "customersOut": 4873
       }
     ],
     "locations": [
@@ -5542,6 +5593,8 @@
       "BOVONI LOT 5-95",
       "BOVONI LOT 5-98",
       "BOVONI UP",
+      "CAROLINA 10-30C-1A",
+      "CAROLINA 10-30C-5",
       "CHARLOTTE AMALIE 26",
       "COMMANDANT GADE 12",
       "CONTANT",
@@ -6891,9 +6944,8 @@
       "FRENHCMANS BAY 14-40 B-2",
       "FRENMANS BAY HOUSE",
       "FRYDENDAHL 56-16 MTR-C",
-      "HARD LABOR 12",
-      "HARD LABOR 9",
-      "HARD LABOUR 11",
+      "HANSEN BAY 6-0-B",
+      "HANSEN BAY 6-0-C",
       "HAVENSIGHT",
       "HAVENSIGHT #12",
       "HAVENSIGHT #30 DWN",
@@ -7926,6 +7978,8 @@
       "SOLBERG MTR 2",
       "SOLBERG UP",
       "SOLBERG UP 19-1A",
+      "SOUTHGATE CRTYARD VILLAS",
+      "SOUTHGATE VILLAS",
       "ST PETER",
       "ST PETER #15 & 16A DWN",
       "ST PETER #15A & 16A UP",
@@ -8356,8 +8410,8 @@
       "ZUERIENDENHEIT",
       "ZUFRIDENHEIT 1"
     ],
-    "totalOutages": 10
+    "totalOutages": 12
   },
   "staleAfterSeconds": 900,
-  "unassignedEventCount": 7
+  "unassignedEventCount": 9
 }
