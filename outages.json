@@ -7236,9 +7236,34 @@
       "startedAt": "2026-10-14T15:23:16Z",
       "verified": true,
       "workStatus": null
+    },
+    {
+      "cause": null,
+      "crewAssigned": false,
+      "endedAt": null,
+      "estimatedRestoration": null,
+      "id": "fdb906cf8a129bf9fb76d0647d1a213cc5484666344ddc1ff15b5ce36a8dbf0d",
+      "island": null,
+      "locations": [
+        "HERMAN HILL"
+      ],
+      "modifiedAt": "2026-11-17T16:42:14Z",
+      "name": "13678",
+      "neighborhoodIDs": [],
+      "point": {
+        "latitude": 17.732089770414714,
+        "longitude": -64.71732490936951
+      },
+      "reportedCustomersInitially": 1,
+      "reportedCustomersOut": 1,
+      "reportedCustomersRestored": 0,
+      "sourceStatus": "Verified",
+      "startedAt": "2026-11-17T16:40:52Z",
+      "verified": true,
+      "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-17T16:40:56Z",
+  "generatedAt": "2026-11-17T16:45:59Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -7645,21 +7670,21 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "c36b944baaa2ba99979c874e06ef08dbe7acf7df430c216142be5b187a54f644",
+  "snapshotID": "0cb1f06267649157a8646e3de7661dd43312cfe53fd60023cf1f91446d35f525",
   "source": {
-    "checkedAt": "2026-11-17T16:40:56Z",
+    "checkedAt": "2026-11-17T16:45:59Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-17T16:40:38Z",
+    "updatedAt": "2026-11-17T16:45:38Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "sourceSummary": {
     "customerCountDifference": 2,
-    "customersAffected": 8248,
-    "customersOut": 8248,
+    "customersAffected": 8249,
+    "customersOut": 8249,
     "customersRestored": 0,
     "customersServed": 54726,
-    "eventCustomersOut": 8246,
+    "eventCustomersOut": 8247,
     "hourlyCustomersOut": [
       {
         "at": "2026-11-15T16:00:00Z",
@@ -7855,7 +7880,7 @@
       },
       {
         "at": "2026-11-17T16:00:00Z",
-        "customersOut": 8246
+        "customersOut": 8247
       }
     ],
     "locations": [
@@ -12834,6 +12859,7 @@
       "HAWKSNEST 1-U DENIS BAY",
       "HAYPIECE HILL 158B",
       "HERITAGE HILLS B-7 APT708",
+      "HERMAN HILL",
       "HODGE STREET 24-25",
       "HODGE STREET 24-25 APT 2",
       "HODGE STREET 24-25 APT 4",
@@ -14733,8 +14759,8 @@
       "ZUERIENDENHEIT",
       "ZUFRIDENHEIT 1"
     ],
-    "totalOutages": 14
+    "totalOutages": 15
   },
   "staleAfterSeconds": 900,
-  "unassignedEventCount": 11
+  "unassignedEventCount": 12
 }
