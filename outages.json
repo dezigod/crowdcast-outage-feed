@@ -134,43 +134,6 @@
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
-      "id": "7b5f080196d6252c12b85b692714ccb5470d511082de825256604fb0f8cb0737",
-      "island": null,
-      "locations": [
-        "LEB VILLAS PHASE I B-12",
-        "LEB VILLAS PHASE I B-13",
-        "LEB VILLAS PHASE I B-6",
-        "LEB VILLAS PHASE I B-7",
-        "LEB VILLAS PHASE I/HS MTR",
-        "LEB VILLAS PHASE I/LANDRY",
-        "LOUIS BROWN VILLAS B-13",
-        "LOUIS BROWN VILLAS B-6",
-        "LOUIS BROWN VILLAS B-6 A",
-        "LOUIS E BROWN VILLAS B-12",
-        "LOUIS E BROWN VILLAS B-13",
-        "LOUIS E BROWN VILLAS B-6",
-        "LOUIS E BROWN VILLAS B-7"
-      ],
-      "modifiedAt": "2026-11-17T00:36:08Z",
-      "name": "T-C-00265",
-      "neighborhoodIDs": [],
-      "point": {
-        "latitude": 17.704865559787713,
-        "longitude": -64.8199570904489
-      },
-      "reportedCustomersInitially": 35,
-      "reportedCustomersOut": 35,
-      "reportedCustomersRestored": 0,
-      "sourceStatus": "Predicted",
-      "startedAt": "2026-11-17T00:35:57Z",
-      "verified": false,
-      "workStatus": null
-    },
-    {
-      "cause": null,
-      "crewAssigned": false,
-      "endedAt": null,
-      "estimatedRestoration": null,
       "id": "a7622fe5ec3f7460243d64545ddffb42dc3c534b3876e2c938737688abde9c58",
       "island": "stThomas",
       "locations": [
@@ -1517,7 +1480,7 @@
         "WINTBERG PEAK 1CD-6",
         "WINTBERG PEAK 1K"
       ],
-      "modifiedAt": "2026-11-17T00:41:09Z",
+      "modifiedAt": "2026-11-17T00:54:12Z",
       "name": "Feeder 08B",
       "neighborhoodIDs": [
         "stThomas-agnes-fancy",
@@ -1595,7 +1558,7 @@
       "workStatus": null
     },
     {
-      "cause": null,
+      "cause": "000 Power supply",
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
@@ -1645,7 +1608,7 @@
         "GALLOWS POINT 3AA",
         "LAVENDER HILL CONDO 8E"
       ],
-      "modifiedAt": "2026-11-17T00:44:34Z",
+      "modifiedAt": "2026-11-17T00:55:26Z",
       "name": "Feeder 08E",
       "neighborhoodIDs": [],
       "point": {
@@ -1661,7 +1624,7 @@
       "workStatus": null
     },
     {
-      "cause": null,
+      "cause": "000 Power supply",
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
@@ -2676,7 +2639,7 @@
         "ZOOTENVAAL 3Q (MTR 1)",
         "ZOOTENVAAL 3T"
       ],
-      "modifiedAt": "2026-11-17T00:44:18Z",
+      "modifiedAt": "2026-11-17T00:55:19Z",
       "name": "Feeder 07E",
       "neighborhoodIDs": [],
       "point": {
@@ -4862,7 +4825,7 @@
       "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-17T00:50:50Z",
+  "generatedAt": "2026-11-17T00:55:51Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -5402,21 +5365,21 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "18623a00afb4d1eb1e4c9af2a2b394089d2ea65204d2d19e635e349b857ba1be",
+  "snapshotID": "e3b0d61cf427546cf29e6de2b2a0f0f55f972f84f6e198cc89eaecd5c1e0f515",
   "source": {
-    "checkedAt": "2026-11-17T00:50:50Z",
+    "checkedAt": "2026-11-17T00:55:51Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-17T00:50:35Z",
+    "updatedAt": "2026-11-17T00:55:35Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "sourceSummary": {
     "customerCountDifference": 2,
-    "customersAffected": 5200,
-    "customersOut": 5200,
+    "customersAffected": 5165,
+    "customersOut": 5165,
     "customersRestored": 0,
     "customersServed": 54726,
-    "eventCustomersOut": 5198,
+    "eventCustomersOut": 5163,
     "hourlyCustomersOut": [
       {
         "at": "2026-11-15T00:00:00Z",
@@ -5612,7 +5575,7 @@
       },
       {
         "at": "2026-11-17T00:00:00Z",
-        "customersOut": 7274
+        "customersOut": 7239
       }
     ],
     "locations": [
@@ -8890,12 +8853,6 @@
       "KONGENS GD",
       "KONGENS TVER GADE",
       "LAVENDER HILL CONDO 8E",
-      "LEB VILLAS PHASE I B-12",
-      "LEB VILLAS PHASE I B-13",
-      "LEB VILLAS PHASE I B-6",
-      "LEB VILLAS PHASE I B-7",
-      "LEB VILLAS PHASE I/HS MTR",
-      "LEB VILLAS PHASE I/LANDRY",
       "LERKENLUND 9D-1-2",
       "LIND POINT",
       "LIND POINT RD",
@@ -8913,13 +8870,6 @@
       "LITTLE PLANTATION 4E",
       "LITTLE PLANTATION 4E*",
       "LITTLE PLANTATION 4E**",
-      "LOUIS BROWN VILLAS B-13",
-      "LOUIS BROWN VILLAS B-6",
-      "LOUIS BROWN VILLAS B-6 A",
-      "LOUIS E BROWN VILLAS B-12",
-      "LOUIS E BROWN VILLAS B-13",
-      "LOUIS E BROWN VILLAS B-6",
-      "LOUIS E BROWN VILLAS B-7",
       "LOUISENHOJ",
       "LOUISENHOJ 10",
       "LOUISENHOJ 3",
@@ -10118,8 +10068,8 @@
       "ZOOTENVAAL 3Q (MTR 1)",
       "ZOOTENVAAL 3T"
     ],
-    "totalOutages": 14
+    "totalOutages": 13
   },
   "staleAfterSeconds": 900,
-  "unassignedEventCount": 10
+  "unassignedEventCount": 9
 }
