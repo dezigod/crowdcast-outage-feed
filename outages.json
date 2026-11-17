@@ -2256,6 +2256,51 @@
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
+      "id": "935a29f49ec8379486e33ef387673d6ef9799f5fad9c489401f124bc79445ba6",
+      "island": null,
+      "locations": [
+        "CONTANT (FRONT HOUSE)",
+        "CONTANT 12A",
+        "CONTANT 12B",
+        "CONTANT 12B-2",
+        "CONTANT 38 APT 3",
+        "CONTANT 3CA",
+        "CONTANT 3CC",
+        "CONTANT 3CG",
+        "CONTANT 3CH",
+        "CONTANT 3CH MIDDLE",
+        "CONTANT 3D",
+        "CONTANT 3D APT 2",
+        "CONTANT 3D PUMP",
+        "CONTANT 3D-1",
+        "CONTANT 7-9 7B SS QTRS UP",
+        "CONTANT 7B",
+        "CONTANT 7-B MTR-1",
+        "CONTANT 9-1",
+        "CONTANT 9-3 UP",
+        "CONTANT 9A APT-2",
+        "EST CONTANT 3CH BOTTOM"
+      ],
+      "modifiedAt": "2026-11-17T20:49:02Z",
+      "name": "T-T-00032",
+      "neighborhoodIDs": [],
+      "point": {
+        "latitude": 18.339898552377647,
+        "longitude": -64.95320303514684
+      },
+      "reportedCustomersInitially": 27,
+      "reportedCustomersOut": 27,
+      "reportedCustomersRestored": 0,
+      "sourceStatus": "Predicted",
+      "startedAt": "2026-11-17T20:48:38Z",
+      "verified": false,
+      "workStatus": null
+    },
+    {
+      "cause": null,
+      "crewAssigned": false,
+      "endedAt": null,
+      "estimatedRestoration": null,
       "id": "a7622fe5ec3f7460243d64545ddffb42dc3c534b3876e2c938737688abde9c58",
       "island": "stThomas",
       "locations": [
@@ -2344,7 +2389,7 @@
         "HARD LABOR 9",
         "HARD LABOUR 11"
       ],
-      "modifiedAt": "2026-11-17T20:00:53Z",
+      "modifiedAt": "2026-11-17T20:50:10Z",
       "name": "T-C-21236",
       "neighborhoodIDs": [],
       "point": {
@@ -2385,7 +2430,7 @@
       "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-17T20:46:22Z",
+  "generatedAt": "2026-11-17T20:51:23Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -2472,21 +2517,21 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "dd8e75cc6a666c154b36de32153f9b37fcd51de4dabb81ee2192f2d7910406f4",
+  "snapshotID": "2eb1627afd75e6a23825af942d9ff14fe54800dae0f9380bfc161ba8242ebbe2",
   "source": {
-    "checkedAt": "2026-11-17T20:46:22Z",
+    "checkedAt": "2026-11-17T20:51:23Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-17T20:45:37Z",
+    "updatedAt": "2026-11-17T20:50:37Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "sourceSummary": {
     "customerCountDifference": 2,
-    "customersAffected": 2277,
-    "customersOut": 2277,
+    "customersAffected": 2304,
+    "customersOut": 2304,
     "customersRestored": 0,
     "customersServed": 54726,
-    "eventCustomersOut": 2275,
+    "eventCustomersOut": 2302,
     "hourlyCustomersOut": [
       {
         "at": "2026-11-15T20:00:00Z",
@@ -2682,7 +2727,7 @@
       },
       {
         "at": "2026-11-17T20:00:00Z",
-        "customersOut": 3360
+        "customersOut": 3387
       }
     ],
     "locations": [
@@ -3471,6 +3516,7 @@
       "CONTANT & ENIGHED 287",
       "CONTANT & ENIGHED PCL",
       "CONTANT & ENIGHED REM",
+      "CONTANT (FRONT HOUSE)",
       "CONTANT 1 R (MTR 1)",
       "CONTANT 1-0 (DWN)",
       "CONTANT 1-0* (UP)",
@@ -3482,6 +3528,9 @@
       "CONTANT 11",
       "CONTANT 11-E",
       "CONTANT 11P",
+      "CONTANT 12A",
+      "CONTANT 12B",
+      "CONTANT 12B-2",
       "CONTANT 13-AA",
       "CONTANT 13AB CRUZ BAY",
       "CONTANT 13B",
@@ -3547,8 +3596,17 @@
       "CONTANT 3-4 APT 2",
       "CONTANT 3-5",
       "CONTANT 3-7",
+      "CONTANT 38 APT 3",
       "CONTANT 3-9",
+      "CONTANT 3CA",
+      "CONTANT 3CC",
+      "CONTANT 3CG",
+      "CONTANT 3CH",
+      "CONTANT 3CH MIDDLE",
       "CONTANT 3D",
+      "CONTANT 3D APT 2",
+      "CONTANT 3D PUMP",
+      "CONTANT 3D-1",
       "CONTANT 4-A HSE #1",
       "CONTANT 4E",
       "CONTANT 5B",
@@ -3566,12 +3624,17 @@
       "CONTANT 7-2 MTR 2",
       "CONTANT 7-4",
       "CONTANT 7-6",
+      "CONTANT 7-9 7B SS QTRS UP",
+      "CONTANT 7B",
+      "CONTANT 7-B MTR-1",
       "CONTANT 7D",
       "CONTANT 8AA",
       "CONTANT 9-1",
       "CONTANT 9-2",
       "CONTANT 9-3",
+      "CONTANT 9-3 UP",
       "CONTANT 9-4",
+      "CONTANT 9A APT-2",
       "CONTANT AND ENIGHED",
       "CONTANT CRUZ BAY 13-C",
       "CONTANT CRUZ BAY 5L",
@@ -4006,6 +4069,7 @@
       "EST CATHERINEBERG 3-5A #1",
       "EST CHOCOLATE HOLE",
       "EST CONTANT 13",
+      "EST CONTANT 3CH BOTTOM",
       "EST CORALINA 9-1",
       "EST ENIGHED",
       "EST ENIGHED 11 U 1B 201",
@@ -4822,8 +4886,8 @@
       "SUZANNABERG 2-3 HOUSE",
       "VIRGIN GRAND EST #71"
     ],
-    "totalOutages": 10
+    "totalOutages": 11
   },
   "staleAfterSeconds": 900,
-  "unassignedEventCount": 7
+  "unassignedEventCount": 8
 }
