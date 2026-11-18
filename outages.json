@@ -64,6 +64,37 @@
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
+      "id": "114334c01aa87b660788dbcd897dba52abaccf25d73a80313b285103c5d75502",
+      "island": null,
+      "locations": [
+        "EST NAZARETH 2W-40",
+        "NAZARETH 2W-39",
+        "NAZARETH 2W-40",
+        "NAZARETH 2W-41.",
+        "NAZARETH 2W-44",
+        "NAZARETH 2W-45",
+        "NAZARETH 2-W-76-3"
+      ],
+      "modifiedAt": "2026-11-18T01:41:53Z",
+      "name": "T-T-12926",
+      "neighborhoodIDs": [],
+      "point": {
+        "latitude": 18.319481499554918,
+        "longitude": -64.85987261747081
+      },
+      "reportedCustomersInitially": 9,
+      "reportedCustomersOut": 9,
+      "reportedCustomersRestored": 0,
+      "sourceStatus": "Predicted",
+      "startedAt": "2026-11-18T01:41:31Z",
+      "verified": false,
+      "workStatus": null
+    },
+    {
+      "cause": null,
+      "crewAssigned": false,
+      "endedAt": null,
+      "estimatedRestoration": null,
       "id": "281b6a8d13f6c403ee3f5b22562d3372a9cdca7fb007f3e925557c6772562c50",
       "island": null,
       "locations": [
@@ -4333,7 +4364,7 @@
       "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-18T01:41:03Z",
+  "generatedAt": "2026-11-18T01:46:04Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -5102,21 +5133,21 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "fb066b029e27a5fc4ca2346e2a63aa9b2db41a44982477f1b9ae139d400e4f97",
+  "snapshotID": "16f9bb2952bb05bbafe6ad02a70e88bb35603ac7cf174dc80c78d0f1d8040883",
   "source": {
-    "checkedAt": "2026-11-18T01:41:03Z",
+    "checkedAt": "2026-11-18T01:46:04Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-18T01:40:40Z",
+    "updatedAt": "2026-11-18T01:45:39Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "sourceSummary": {
     "customerCountDifference": 2,
-    "customersAffected": 5386,
-    "customersOut": 5386,
+    "customersAffected": 5395,
+    "customersOut": 5395,
     "customersRestored": 0,
     "customersServed": 54726,
-    "eventCustomersOut": 5384,
+    "eventCustomersOut": 5393,
     "hourlyCustomersOut": [
       {
         "at": "2026-11-16T01:00:00Z",
@@ -5312,7 +5343,7 @@
       },
       {
         "at": "2026-11-18T01:00:00Z",
-        "customersOut": 5384
+        "customersOut": 5393
       }
     ],
     "locations": [
@@ -6766,6 +6797,7 @@
       "EST LINDBERG BAY 24D-A",
       "EST LINDBERG BAY 54",
       "EST LINDBERG BAY 54 A-1",
+      "EST NAZARETH 2W-40",
       "EST PEARL",
       "EST PEARL 15",
       "EST PEARL 16",
@@ -8042,6 +8074,12 @@
       "MOSQUITO POINT 35 SUBBASE",
       "NAZARETH - EUDORA KEAN",
       "NAZARETH 1-2 MID BLDG",
+      "NAZARETH 2W-39",
+      "NAZARETH 2W-40",
+      "NAZARETH 2W-41.",
+      "NAZARETH 2W-44",
+      "NAZARETH 2W-45",
+      "NAZARETH 2-W-76-3",
       "NEW CONTANT 132 B",
       "NEXT TO FUEL TANK 14",
       "NISKY #15B",
@@ -9348,8 +9386,8 @@
       "WEST COND SAPP B-A",
       "WEST SAPPHIRE BAY CONDO"
     ],
-    "totalOutages": 12
+    "totalOutages": 13
   },
   "staleAfterSeconds": 900,
-  "unassignedEventCount": 8
+  "unassignedEventCount": 9
 }
