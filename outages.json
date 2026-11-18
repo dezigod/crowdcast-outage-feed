@@ -31,39 +31,6 @@
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
-      "id": "0e470b2ff0ac67093c422c9205bdb9eca922d725e97f17241424863bebde3bab",
-      "island": null,
-      "locations": [
-        "FREDERICKHAAB",
-        "FREDERICKHAAB 18",
-        "FREDERICKHAAB 22",
-        "FREDERICKSHAAB 23",
-        "FREDERIKSHAAB 140",
-        "FREDERIKSHAAB 22 (UPSTRS)",
-        "LA GRANGE 289"
-      ],
-      "modifiedAt": "2026-11-18T03:20:01Z",
-      "name": "STX_63811",
-      "neighborhoodIDs": [
-        "stCroix-la-grange"
-      ],
-      "point": {
-        "latitude": 17.71553540737215,
-        "longitude": -64.8625221722256
-      },
-      "reportedCustomersInitially": 7,
-      "reportedCustomersOut": 7,
-      "reportedCustomersRestored": 0,
-      "sourceStatus": "Predicted",
-      "startedAt": "2026-11-18T01:06:43Z",
-      "verified": false,
-      "workStatus": null
-    },
-    {
-      "cause": null,
-      "crewAssigned": false,
-      "endedAt": null,
-      "estimatedRestoration": null,
       "id": "114334c01aa87b660788dbcd897dba52abaccf25d73a80313b285103c5d75502",
       "island": null,
       "locations": [
@@ -232,33 +199,6 @@
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
-      "id": "ed24dd082e2de09fab4a6fd458eb7a7cd451f2f9362646ca774a0288b9ffc8f4",
-      "island": null,
-      "locations": [
-        "HARD LABOR 12",
-        "HARD LABOR 9",
-        "HARD LABOUR 11"
-      ],
-      "modifiedAt": "2026-11-17T20:51:21Z",
-      "name": "T-C-21236",
-      "neighborhoodIDs": [],
-      "point": {
-        "latitude": 17.746116743142785,
-        "longitude": -64.83330265620741
-      },
-      "reportedCustomersInitially": 3,
-      "reportedCustomersOut": 3,
-      "reportedCustomersRestored": 0,
-      "sourceStatus": "Predicted",
-      "startedAt": "2026-11-17T20:00:23Z",
-      "verified": false,
-      "workStatus": null
-    },
-    {
-      "cause": null,
-      "crewAssigned": false,
-      "endedAt": null,
-      "estimatedRestoration": null,
       "id": "fdb906cf8a129bf9fb76d0647d1a213cc5484666344ddc1ff15b5ce36a8dbf0d",
       "island": null,
       "locations": [
@@ -280,7 +220,7 @@
       "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-18T03:40:36Z",
+  "generatedAt": "2026-11-18T03:45:37Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -343,23 +283,7 @@
       "coverage": "partial",
       "customersOut": null,
       "id": "stCroix",
-      "neighborhoods": [
-        {
-          "affectedCustomers": null,
-          "estimatedRestoration": null,
-          "id": "stCroix-la-grange",
-          "island": "stCroix",
-          "locations": [
-            "289"
-          ],
-          "name": "La Grange",
-          "sourceEventIDs": [
-            "0e470b2ff0ac67093c422c9205bdb9eca922d725e97f17241424863bebde3bab"
-          ],
-          "sourceStatus": "Predicted",
-          "startedAt": "2026-11-18T01:06:43Z"
-        }
-      ]
+      "neighborhoods": []
     },
     {
       "coverage": "partial",
@@ -381,21 +305,21 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "781c8128600eee11bbcbc634d0ee53008bf09175b0ccd94b66eb5bebd93a5708",
+  "snapshotID": "a68192bc4dd9cb4c1c79d4358129d5953220bf98b6c64a9d3b1770b1923b5849",
   "source": {
-    "checkedAt": "2026-11-18T03:40:36Z",
+    "checkedAt": "2026-11-18T03:45:37Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-18T03:35:36Z",
+    "updatedAt": "2026-11-18T03:45:37Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "sourceSummary": {
     "customerCountDifference": 2,
-    "customersAffected": 35,
-    "customersOut": 35,
+    "customersAffected": 25,
+    "customersOut": 25,
     "customersRestored": 0,
     "customersServed": 54726,
-    "eventCustomersOut": 33,
+    "eventCustomersOut": 23,
     "hourlyCustomersOut": [
       {
         "at": "2026-11-16T03:00:00Z",
@@ -563,35 +487,35 @@
       },
       {
         "at": "2026-11-17T20:00:00Z",
-        "customersOut": 3359
+        "customersOut": 3357
       },
       {
         "at": "2026-11-17T21:00:00Z",
-        "customersOut": 2274
+        "customersOut": 2272
       },
       {
         "at": "2026-11-17T22:00:00Z",
-        "customersOut": 10818
+        "customersOut": 10816
       },
       {
         "at": "2026-11-17T23:00:00Z",
-        "customersOut": 8561
+        "customersOut": 8558
       },
       {
         "at": "2026-11-18T00:00:00Z",
-        "customersOut": 9508
+        "customersOut": 9505
       },
       {
         "at": "2026-11-18T01:00:00Z",
-        "customersOut": 6468
+        "customersOut": 6465
       },
       {
         "at": "2026-11-18T02:00:00Z",
-        "customersOut": 4256
+        "customersOut": 4253
       },
       {
         "at": "2026-11-18T03:00:00Z",
-        "customersOut": 2180
+        "customersOut": 2177
       }
     ],
     "locations": [
@@ -602,17 +526,7 @@
       "COTTON VALLEY 111-A",
       "COTTON VALLEY 335",
       "EST NAZARETH 2W-40",
-      "FREDERICKHAAB",
-      "FREDERICKHAAB 18",
-      "FREDERICKHAAB 22",
-      "FREDERICKSHAAB 23",
-      "FREDERIKSHAAB 140",
-      "FREDERIKSHAAB 22 (UPSTRS)",
-      "HARD LABOR 12",
-      "HARD LABOR 9",
-      "HARD LABOUR 11",
       "HERMAN HILL",
-      "LA GRANGE 289",
       "LERKENLUND 9D-1-2",
       "LOVENLUND EST FARMHOUSE",
       "NAZARETH 2W-39",
@@ -626,8 +540,8 @@
       "SUBBASE 101 (EL)",
       "SUBBASE 69"
     ],
-    "totalOutages": 10
+    "totalOutages": 8
   },
   "staleAfterSeconds": 900,
-  "unassignedEventCount": 7
+  "unassignedEventCount": 5
 }
