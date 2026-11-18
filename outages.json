@@ -4161,6 +4161,41 @@
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
+      "id": "992fa9fe928edc5e97a32d7a1547d80c8dc5589cb3faa5af6239474648f84e03",
+      "island": null,
+      "locations": [
+        "ALTONA & WELG 200-5A-1",
+        "ALTONA & WELGUNST",
+        "ALTONA & WELGUNST 200-1",
+        "ALTONA & WELGUNST 200-3C",
+        "ALTONA & WELGUNST 200-3D",
+        "ALTONA & WELGUNST 200-3E",
+        "ALTONA & WELGUNST 200-3F",
+        "ALTONA & WELGUNST 200-3G",
+        "ALTONA & WELGUNST 200-3H",
+        "ALTONA/WELGUNST 200-3D",
+        "ALTONA\\WELGUNST 200-3D"
+      ],
+      "modifiedAt": "2026-11-18T01:06:41Z",
+      "name": "T-T-16670",
+      "neighborhoodIDs": [],
+      "point": {
+        "latitude": 18.340110450194757,
+        "longitude": -64.94599255007833
+      },
+      "reportedCustomersInitially": 23,
+      "reportedCustomersOut": 23,
+      "reportedCustomersRestored": 0,
+      "sourceStatus": "Predicted",
+      "startedAt": "2026-11-18T01:06:14Z",
+      "verified": false,
+      "workStatus": null
+    },
+    {
+      "cause": null,
+      "crewAssigned": false,
+      "endedAt": null,
+      "estimatedRestoration": null,
       "id": "a7622fe5ec3f7460243d64545ddffb42dc3c534b3876e2c938737688abde9c58",
       "island": "stThomas",
       "locations": [
@@ -4329,6 +4364,34 @@
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
+      "id": "ce4bb91781157d257056044767feb5362665226221aac3102b4007bf1c462ac8",
+      "island": null,
+      "locations": [
+        "FREDERICKHAAB",
+        "FREDERICKHAAB 22",
+        "FREDERICKSHAAB 23",
+        "FREDERIKSHAAB 22 (UPSTRS)"
+      ],
+      "modifiedAt": "2026-11-18T01:07:12Z",
+      "name": "T-C-20967",
+      "neighborhoodIDs": [],
+      "point": {
+        "latitude": 17.714766316549188,
+        "longitude": -64.86055581609705
+      },
+      "reportedCustomersInitially": 4,
+      "reportedCustomersOut": 4,
+      "reportedCustomersRestored": 0,
+      "sourceStatus": "Predicted",
+      "startedAt": "2026-11-18T01:06:43Z",
+      "verified": false,
+      "workStatus": null
+    },
+    {
+      "cause": null,
+      "crewAssigned": false,
+      "endedAt": null,
+      "estimatedRestoration": null,
       "id": "ed24dd082e2de09fab4a6fd458eb7a7cd451f2f9362646ca774a0288b9ffc8f4",
       "island": null,
       "locations": [
@@ -4377,7 +4440,7 @@
       "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-18T01:05:51Z",
+  "generatedAt": "2026-11-18T01:10:53Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -5121,21 +5184,21 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "1c379017190d08411ad17c0d46dc58c0ad540417ce7f169b0efc93e83aa9a12f",
+  "snapshotID": "83ed79d9954c773dc669774e90b001bd0a0c0fe31a9fdb1e73060b542bb339a8",
   "source": {
-    "checkedAt": "2026-11-18T01:05:51Z",
+    "checkedAt": "2026-11-18T01:10:53Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-18T01:05:39Z",
+    "updatedAt": "2026-11-18T01:10:38Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "sourceSummary": {
     "customerCountDifference": 2,
-    "customersAffected": 5470,
-    "customersOut": 5470,
+    "customersAffected": 5497,
+    "customersOut": 5497,
     "customersRestored": 0,
     "customersServed": 54726,
-    "eventCustomersOut": 5468,
+    "eventCustomersOut": 5495,
     "hourlyCustomersOut": [
       {
         "at": "2026-11-16T01:00:00Z",
@@ -5331,7 +5394,7 @@
       },
       {
         "at": "2026-11-18T01:00:00Z",
-        "customersOut": 5468
+        "customersOut": 5495
       }
     ],
     "locations": [
@@ -5392,6 +5455,17 @@
       "AGNES FANCY 5B",
       "AGNES FANCY 5F",
       "AKA 224 BARBADOS",
+      "ALTONA & WELG 200-5A-1",
+      "ALTONA & WELGUNST",
+      "ALTONA & WELGUNST 200-1",
+      "ALTONA & WELGUNST 200-3C",
+      "ALTONA & WELGUNST 200-3D",
+      "ALTONA & WELGUNST 200-3E",
+      "ALTONA & WELGUNST 200-3F",
+      "ALTONA & WELGUNST 200-3G",
+      "ALTONA & WELGUNST 200-3H",
+      "ALTONA/WELGUNST 200-3D",
+      "ALTONA\\WELGUNST 200-3D",
       "ANNAS RETERAT 173- D3",
       "ANNAS RETREAT",
       "ANNAS RETREAT #1 NW QTR.",
@@ -7269,6 +7343,10 @@
       "FORTUNA VISTA",
       "FORTUNA VISTA 3 C-99",
       "FORUTNA 5-31",
+      "FREDERICKHAAB",
+      "FREDERICKHAAB 22",
+      "FREDERICKSHAAB 23",
+      "FREDERIKSHAAB 22 (UPSTRS)",
       "FRYDEHDAHL 56-48",
       "FRYDENDAHL",
       "FRYDENDAHL #11 SMITH BAY",
@@ -9415,8 +9493,8 @@
       "WEST COND SAPP B-A",
       "WEST SAPPHIRE BAY CONDO"
     ],
-    "totalOutages": 12
+    "totalOutages": 14
   },
   "staleAfterSeconds": 900,
-  "unassignedEventCount": 9
+  "unassignedEventCount": 11
 }
