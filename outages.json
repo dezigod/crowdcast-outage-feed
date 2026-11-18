@@ -22687,7 +22687,7 @@
       "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-18T18:50:44Z",
+  "generatedAt": "2026-11-18T18:55:47Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -24952,18 +24952,18 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "42d2d28f198b059231b3c6320d73e920d9109d22c30fb92e9c080d19665ba475",
+  "snapshotID": "522c06a3ba1292d2c1ed212b7ad35879b09fedb354a4765619538dc429aa2eb6",
   "source": {
-    "checkedAt": "2026-11-18T18:50:44Z",
+    "checkedAt": "2026-11-18T18:55:47Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-18T18:45:46Z",
+    "updatedAt": "2026-11-18T18:55:46Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "sourceSummary": {
-    "customerCountDifference": 3,
-    "customersAffected": 28411,
-    "customersOut": 28411,
+    "customerCountDifference": 2,
+    "customersAffected": 28410,
+    "customersOut": 28410,
     "customersRestored": 0,
     "customersServed": 54726,
     "eventCustomersOut": 28408,
@@ -25162,7 +25162,7 @@
       },
       {
         "at": "2026-11-18T18:00:00Z",
-        "customersOut": 28409
+        "customersOut": 28408
       }
     ],
     "locations": [
@@ -46270,7 +46270,6 @@
       "UPPER JOHN DUNKOE DWN",
       "UPPER JOHN DUNKOE MTR 3",
       "UPPER JOHN DUNKOE MTR 4",
-      "UPPER LOVE",
       "VESSUP 9",
       "VESSUP BAY",
       "VESSUP BAY 9-12",
