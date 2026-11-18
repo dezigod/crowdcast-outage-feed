@@ -2216,41 +2216,6 @@
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
-      "id": "20a03a36f2e15aa5ddf2ba8c3fe737910103cdc12bf749331aeed4f3145e322d",
-      "island": null,
-      "locations": [
-        "COMPANY",
-        "COMPANY ST 53A (1ST FL)",
-        "COMPANY ST 53A-2ND FLOOR",
-        "COMPANY STREET",
-        "COMPANY STREET 52-A (UP)",
-        "COMPANY STREET 53-B",
-        "COMPANY STREET 8A, 8B",
-        "QUEEN CROSS ST 3-A (UPST)",
-        "QUEEN CROSS STREET",
-        "QUEEN CROSS STREET 3A",
-        "QUEEN CROSS STREET 3-A"
-      ],
-      "modifiedAt": "2026-11-18T21:02:24Z",
-      "name": "T-C-30065",
-      "neighborhoodIDs": [],
-      "point": {
-        "latitude": 17.745244565176378,
-        "longitude": -64.70386050145387
-      },
-      "reportedCustomersInitially": 13,
-      "reportedCustomersOut": 13,
-      "reportedCustomersRestored": 0,
-      "sourceStatus": "Predicted",
-      "startedAt": "2026-11-18T21:02:09Z",
-      "verified": false,
-      "workStatus": null
-    },
-    {
-      "cause": null,
-      "crewAssigned": false,
-      "endedAt": null,
-      "estimatedRestoration": null,
       "id": "243482762b6fb70d619265301b1be9e45c3bfc0e652752e1405fff1070c861f5",
       "island": null,
       "locations": [
@@ -22554,7 +22519,7 @@
       "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-18T21:15:53Z",
+  "generatedAt": "2026-11-18T21:20:56Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -24807,21 +24772,21 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "9ff4ec6caf0835c42a48b01900d12e85703a035733fe1bf5db5299a93b753670",
+  "snapshotID": "be34a722148a456c9c727c787f11510bbf8dc26dead78d850d84070789978d67",
   "source": {
-    "checkedAt": "2026-11-18T21:15:53Z",
+    "checkedAt": "2026-11-18T21:20:56Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-18T21:15:46Z",
+    "updatedAt": "2026-11-18T21:20:47Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "sourceSummary": {
     "customerCountDifference": 2,
-    "customersAffected": 28250,
-    "customersOut": 28250,
+    "customersAffected": 28237,
+    "customersOut": 28237,
     "customersRestored": 0,
     "customersServed": 54726,
-    "eventCustomersOut": 28248,
+    "eventCustomersOut": 28235,
     "hourlyCustomersOut": [
       {
         "at": "2026-11-16T21:00:00Z",
@@ -25017,7 +24982,7 @@
       },
       {
         "at": "2026-11-18T21:00:00Z",
-        "customersOut": 28248
+        "customersOut": 28235
       }
     ],
     "locations": [
@@ -30352,13 +30317,6 @@
       "COMMANDANT GADE SCH",
       "COMMANDANT TVAER GADE 1B",
       "COMMANDANT TVER GADE",
-      "COMPANY",
-      "COMPANY ST 53A (1ST FL)",
-      "COMPANY ST 53A-2ND FLOOR",
-      "COMPANY STREET",
-      "COMPANY STREET 52-A (UP)",
-      "COMPANY STREET 53-B",
-      "COMPANY STREET 8A, 8B",
       "CONCORDIA",
       "CONCORDIA #2-13 UNIT-B",
       "CONCORDIA #2-15 MAIN HSE",
@@ -43196,10 +43154,6 @@
       "QUACO & ZIMMERMAN 6B-39",
       "QUACO & ZIMMERMAN 6B-9",
       "QUACO 6-B-42",
-      "QUEEN CROSS ST 3-A (UPST)",
-      "QUEEN CROSS STREET",
-      "QUEEN CROSS STREET 3A",
-      "QUEEN CROSS STREET 3-A",
       "QUEEN STREET - QTR DRAKE",
       "QUEENS QTRS DRAKE PAS 31",
       "RAADETS GADE",
@@ -46531,8 +46485,8 @@
       "ZUERIENDENHEIT",
       "ZUFRIDENHEIT 1"
     ],
-    "totalOutages": 34
+    "totalOutages": 33
   },
   "staleAfterSeconds": 900,
-  "unassignedEventCount": 30
+  "unassignedEventCount": 29
 }
