@@ -6341,6 +6341,31 @@
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
+      "id": "70260a1e35ec74531c7b85a2b93cd0a721cd184295925c8ab80a1de65466eb50",
+      "island": null,
+      "locations": [
+        "UPPER LOVE"
+      ],
+      "modifiedAt": "2026-11-18T18:28:40Z",
+      "name": "76678",
+      "neighborhoodIDs": [],
+      "point": {
+        "latitude": 17.727691645310383,
+        "longitude": -64.81181328347724
+      },
+      "reportedCustomersInitially": 1,
+      "reportedCustomersOut": 1,
+      "reportedCustomersRestored": 0,
+      "sourceStatus": "Verified",
+      "startedAt": "2026-11-18T16:06:00Z",
+      "verified": true,
+      "workStatus": null
+    },
+    {
+      "cause": null,
+      "crewAssigned": false,
+      "endedAt": null,
+      "estimatedRestoration": null,
       "id": "76aa859a2f56d6d0121aa830d947056ddb50f076fd46b7477f9f7ba85bcd77c4",
       "island": null,
       "locations": [
@@ -19367,36 +19392,6 @@
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
-      "id": "f30ff4f568212f8b0b9bf1877101fc22ff5e56721146aef21c595e0eb93b5948",
-      "island": null,
-      "locations": [
-        "UPPER LOVE",
-        "UPPER LOVE (COTTAGE)",
-        "UPPER LOVE 138",
-        "UPPER LOVE 141 (WELL)",
-        "UPPER LOVE 173 APT B",
-        "UPPER LOVE 174 (FRONT)"
-      ],
-      "modifiedAt": "2026-11-18T16:06:03Z",
-      "name": "T-C-06699",
-      "neighborhoodIDs": [],
-      "point": {
-        "latitude": 17.72745709877217,
-        "longitude": -64.811842960355
-      },
-      "reportedCustomersInitially": 10,
-      "reportedCustomersOut": 10,
-      "reportedCustomersRestored": 0,
-      "sourceStatus": "Predicted",
-      "startedAt": "2026-11-18T16:06:00Z",
-      "verified": false,
-      "workStatus": null
-    },
-    {
-      "cause": null,
-      "crewAssigned": false,
-      "endedAt": null,
-      "estimatedRestoration": null,
       "id": "f8086c8bcdfe24d18d25b0968a8c87ab47420b238c3fc6a8a8969dce99c92946",
       "island": null,
       "locations": [
@@ -22468,7 +22463,7 @@
       "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-18T18:30:35Z",
+  "generatedAt": "2026-11-18T18:35:38Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -24160,21 +24155,21 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "b090d2b719f48ca3dea37dae5e3b291e1bb11444858e912416e2229b600462bf",
+  "snapshotID": "a5b211fdd434d9f6980cfea189eaf9445426dd4ccfce16f5d77f5566b41cf008",
   "source": {
-    "checkedAt": "2026-11-18T18:30:35Z",
+    "checkedAt": "2026-11-18T18:35:38Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-18T18:25:47Z",
+    "updatedAt": "2026-11-18T18:30:47Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "sourceSummary": {
     "customerCountDifference": 2,
-    "customersAffected": 28420,
-    "customersOut": 28420,
+    "customersAffected": 28411,
+    "customersOut": 28411,
     "customersRestored": 0,
     "customersServed": 54726,
-    "eventCustomersOut": 28418,
+    "eventCustomersOut": 28409,
     "hourlyCustomersOut": [
       {
         "at": "2026-11-16T18:00:00Z",
@@ -24362,15 +24357,15 @@
       },
       {
         "at": "2026-11-18T16:00:00Z",
-        "customersOut": 5438
+        "customersOut": 5429
       },
       {
         "at": "2026-11-18T17:00:00Z",
-        "customersOut": 28418
+        "customersOut": 28409
       },
       {
         "at": "2026-11-18T18:00:00Z",
-        "customersOut": 28418
+        "customersOut": 28409
       }
     ],
     "locations": [
@@ -45479,11 +45474,6 @@
       "UPPER JOHN DUNKOE MTR 3",
       "UPPER JOHN DUNKOE MTR 4",
       "UPPER LOVE",
-      "UPPER LOVE (COTTAGE)",
-      "UPPER LOVE 138",
-      "UPPER LOVE 141 (WELL)",
-      "UPPER LOVE 173 APT B",
-      "UPPER LOVE 174 (FRONT)",
       "VESSUP 9",
       "VESSUP BAY",
       "VESSUP BAY 9-12",
