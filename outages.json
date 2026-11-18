@@ -2732,7 +2732,7 @@
         "WATER ISLE 62",
         "WATER ISLE 63"
       ],
-      "modifiedAt": "2026-11-18T17:22:37Z",
+      "modifiedAt": "2026-11-18T17:31:23Z",
       "name": "Feeder 06A",
       "neighborhoodIDs": [],
       "point": {
@@ -4082,7 +4082,7 @@
         "RAPHUNE HILL LOT",
         "REM ESTATE THOMAS"
       ],
-      "modifiedAt": "2026-11-18T17:23:33Z",
+      "modifiedAt": "2026-11-18T17:32:41Z",
       "name": "FUST-07215A",
       "neighborhoodIDs": [],
       "point": {
@@ -4095,43 +4095,6 @@
       "sourceStatus": "Verified",
       "startedAt": "2026-11-18T12:42:24Z",
       "verified": true,
-      "workStatus": null
-    },
-    {
-      "cause": null,
-      "crewAssigned": false,
-      "endedAt": null,
-      "estimatedRestoration": null,
-      "id": "2c9f4e8641d79b92b9bebed640a14cd434626d3f1ef22c70ac2457ea379c678f",
-      "island": null,
-      "locations": [
-        "GLYNN",
-        "GLYNN 116",
-        "GLYNN 118-A",
-        "GLYNN 118-B",
-        "GLYNN 120",
-        "GLYNN 121",
-        "GLYNN 36",
-        "GLYNN 40",
-        "GLYNN 40 APT-A",
-        "GLYNN 40 APT-C",
-        "GLYNN 40-A",
-        "GLYNN 42",
-        "GLYNN 44"
-      ],
-      "modifiedAt": "2026-11-18T17:17:50Z",
-      "name": "T-C-14101",
-      "neighborhoodIDs": [],
-      "point": {
-        "latitude": 17.7477987079739,
-        "longitude": -64.77572456364264
-      },
-      "reportedCustomersInitially": 15,
-      "reportedCustomersOut": 15,
-      "reportedCustomersRestored": 0,
-      "sourceStatus": "Predicted",
-      "startedAt": "2026-11-18T17:17:26Z",
-      "verified": false,
       "workStatus": null
     },
     {
@@ -6298,7 +6261,7 @@
         "WIMMELSKAFTS GADE 6A(RES)",
         "WINDWARD PASSAGE/TRAFFIC"
       ],
-      "modifiedAt": "2026-11-18T17:25:05Z",
+      "modifiedAt": "2026-11-18T17:31:51Z",
       "name": "Feeder 06B",
       "neighborhoodIDs": [
         "stThomas-smith-bay"
@@ -6312,35 +6275,6 @@
       "reportedCustomersRestored": 0,
       "sourceStatus": "Verified",
       "startedAt": "2026-11-18T17:23:08Z",
-      "verified": true,
-      "workStatus": null
-    },
-    {
-      "cause": null,
-      "crewAssigned": false,
-      "endedAt": null,
-      "estimatedRestoration": null,
-      "id": "46d69b33e2926640c9bca1e92491aafb36c628d64c055e5d0ea46cf1fdee54b4",
-      "island": null,
-      "locations": [
-        "EST. MANDAHL 15H",
-        "MANDAHL 14C",
-        "MANDAHL 15 J",
-        "MANDAHL 15D",
-        "MANDAHL 15-D"
-      ],
-      "modifiedAt": "2026-11-18T17:23:33Z",
-      "name": "T-T-10148",
-      "neighborhoodIDs": [],
-      "point": {
-        "latitude": 18.352809414648092,
-        "longitude": -64.8982389981604
-      },
-      "reportedCustomersInitially": 5,
-      "reportedCustomersOut": 5,
-      "reportedCustomersRestored": 0,
-      "sourceStatus": "Verified",
-      "startedAt": "2026-11-18T17:21:26Z",
       "verified": true,
       "workStatus": null
     },
@@ -7658,7 +7592,7 @@
         "WESTERN CEMENTARY",
         "WIMMELSKAFTS GADE 10"
       ],
-      "modifiedAt": "2026-11-18T17:22:56Z",
+      "modifiedAt": "2026-11-18T17:31:37Z",
       "name": "Feeder 08A",
       "neighborhoodIDs": [
         "stThomas-agnes-fancy",
@@ -7686,7 +7620,7 @@
       "locations": [
         "EST THOMAS WEST 4D-4E"
       ],
-      "modifiedAt": "2026-11-18T17:23:26Z",
+      "modifiedAt": "2026-11-18T17:32:01Z",
       "name": "Feeder YH2",
       "neighborhoodIDs": [],
       "point": {
@@ -7698,44 +7632,6 @@
       "reportedCustomersRestored": 0,
       "sourceStatus": "Verified",
       "startedAt": "2026-11-18T17:23:19Z",
-      "verified": true,
-      "workStatus": null
-    },
-    {
-      "cause": null,
-      "crewAssigned": false,
-      "endedAt": null,
-      "estimatedRestoration": null,
-      "id": "907890ba272f2079b8a8c2e8b326546cebcb0c6fc052c94c998d865edbb1dae6",
-      "island": null,
-      "locations": [
-        "ESTATE SOLBEG 79-43",
-        "ESTATE SOLBERG 79-38",
-        "ESTATE SOLBERG 79-43",
-        "ESTATE SOLBERG 94-8 MTR 2",
-        "SOLBERG",
-        "SOLBERG 79-38 EAST",
-        "SOLBERG 79-39",
-        "SOLBERG 79-40",
-        "SOLBERG 79-41",
-        "SOLBERG 79-42 UP",
-        "SOLBERG 79-43",
-        "SOLBERG 91",
-        "SOLBERG 91 UP",
-        "SOLBERG 94-8 MTR 1"
-      ],
-      "modifiedAt": "2026-11-18T17:23:08Z",
-      "name": "T-T-02150",
-      "neighborhoodIDs": [],
-      "point": {
-        "latitude": 18.346144580514284,
-        "longitude": -64.94534613417767
-      },
-      "reportedCustomersInitially": 16,
-      "reportedCustomersOut": 16,
-      "reportedCustomersRestored": 0,
-      "sourceStatus": "Verified",
-      "startedAt": "2026-11-18T17:19:07Z",
       "verified": true,
       "workStatus": null
     },
@@ -9994,7 +9890,7 @@
         "VESSUP BAY EST 9-39",
         "VESSUP LANE 9A-19"
       ],
-      "modifiedAt": "2026-11-18T17:26:29Z",
+      "modifiedAt": "2026-11-18T17:31:42Z",
       "name": "Feeder 09C",
       "neighborhoodIDs": [
         "stThomas-smith-bay"
@@ -11359,7 +11255,7 @@
         "WINTBERG PEAK 1CD-6",
         "WINTBERG PEAK 1K"
       ],
-      "modifiedAt": "2026-11-18T17:25:26Z",
+      "modifiedAt": "2026-11-18T17:31:00Z",
       "name": "Feeder 08B",
       "neighborhoodIDs": [
         "stThomas-agnes-fancy",
@@ -12950,6 +12846,7 @@
         "ESTATE MISGUNST 7K",
         "ESTATE NELTJEBERG",
         "ESTATE PEARL 39K",
+        "ESTATE SOLBEG 79-43",
         "ESTATE SOLBERG",
         "ESTATE SOLBERG 11D-14",
         "ESTATE SOLBERG 1B-11",
@@ -12957,6 +12854,9 @@
         "ESTATE SOLBERG 1B-6 UP",
         "ESTATE SOLBERG 5 MTR-4",
         "ESTATE SOLBERG 58A MTR-A",
+        "ESTATE SOLBERG 79-38",
+        "ESTATE SOLBERG 79-43",
+        "ESTATE SOLBERG 94-8 MTR 2",
         "ESTATE SORGENFRI 36 REM",
         "ESTATE ST PETER 13-5B",
         "ESTATE ST PETER 16-1",
@@ -13900,7 +13800,13 @@
         "SOLBERG 79-36",
         "SOLBERG 79-36 MAIN HSE",
         "SOLBERG 79-36 TOP FL",
+        "SOLBERG 79-38 EAST",
+        "SOLBERG 79-39",
         "SOLBERG 79-4",
+        "SOLBERG 79-40",
+        "SOLBERG 79-41",
+        "SOLBERG 79-42 UP",
+        "SOLBERG 79-43",
         "SOLBERG 79-44",
         "SOLBERG 79-45",
         "SOLBERG 79-46",
@@ -13918,10 +13824,13 @@
         "SOLBERG 89-5",
         "SOLBERG 9",
         "SOLBERG 90-D",
+        "SOLBERG 91",
+        "SOLBERG 91 UP",
         "SOLBERG 91-B-1",
         "SOLBERG 94-3",
         "SOLBERG 94-3 HSE METER",
         "SOLBERG 94-7",
+        "SOLBERG 94-8 MTR 1",
         "SOLBERG 95-1",
         "SOLBERG 95-2",
         "SOLBERG 95-2B",
@@ -14360,7 +14269,7 @@
         "ZUERIENDENHEIT",
         "ZUFRIDENHEIT 1"
       ],
-      "modifiedAt": "2026-11-18T17:23:08Z",
+      "modifiedAt": "2026-11-18T17:33:02Z",
       "name": "Feeder 07A",
       "neighborhoodIDs": [
         "stThomas-agnes-fancy",
@@ -14371,11 +14280,11 @@
         "latitude": 18.35228440783854,
         "longitude": -64.95675437082409
       },
-      "reportedCustomersInitially": 3880,
-      "reportedCustomersOut": 3880,
+      "reportedCustomersInitially": 3896,
+      "reportedCustomersOut": 3896,
       "reportedCustomersRestored": 0,
       "sourceStatus": "Verified",
-      "startedAt": "2026-11-18T17:23:05Z",
+      "startedAt": "2026-11-18T17:19:07Z",
       "verified": true,
       "workStatus": null
     },
@@ -14429,7 +14338,7 @@
         "LINDBERG BAY BEACH",
         "NISKY 1-A-1-B"
       ],
-      "modifiedAt": "2026-11-18T17:22:37Z",
+      "modifiedAt": "2026-11-18T17:31:29Z",
       "name": "Feeder 05A",
       "neighborhoodIDs": [],
       "point": {
@@ -15859,6 +15768,7 @@
         "EST WINTBERG UP",
         "EST. DONOE 2J-10 NO. 2A",
         "EST. MANDAHL 14A-2",
+        "EST. MANDAHL 15H",
         "EST. MANDAHL 2C-9",
         "EST. THOMAS 13-5TH",
         "EST. THOMAS 14-41 A-1",
@@ -16433,8 +16343,11 @@
         "MANDAHL 14N",
         "MANDAHL 15",
         "MANDAHL 15 DWN",
+        "MANDAHL 15 J",
         "MANDAHL 15C",
         "MANDAHL 15C UPSTAIRS",
+        "MANDAHL 15D",
+        "MANDAHL 15-D",
         "MANDAHL 15F",
         "MANDAHL 15L DWN",
         "MANDAHL 16",
@@ -17290,18 +17203,18 @@
         "WINTBERG-TRAILER",
         "WINTHBERG 1-B4 APT 303"
       ],
-      "modifiedAt": "2026-11-18T17:23:33Z",
+      "modifiedAt": "2026-11-18T17:32:40Z",
       "name": "Feeder 07B",
       "neighborhoodIDs": [],
       "point": {
         "latitude": 18.347920150971262,
         "longitude": -64.90023967364446
       },
-      "reportedCustomersInitially": 3820,
-      "reportedCustomersOut": 3820,
+      "reportedCustomersInitially": 3825,
+      "reportedCustomersOut": 3825,
       "reportedCustomersRestored": 0,
       "sourceStatus": "Verified",
-      "startedAt": "2026-11-18T17:23:29Z",
+      "startedAt": "2026-11-18T17:21:26Z",
       "verified": true,
       "workStatus": null
     },
@@ -22512,7 +22425,7 @@
         "WEST COND SAPP B-A",
         "WEST SAPPHIRE BAY CONDO"
       ],
-      "modifiedAt": "2026-11-18T17:26:42Z",
+      "modifiedAt": "2026-11-18T17:31:16Z",
       "name": "Feeder 07C",
       "neighborhoodIDs": [
         "stThomas-smith-bay"
@@ -22555,7 +22468,7 @@
       "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-18T17:31:14Z",
+  "generatedAt": "2026-11-18T17:36:17Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -22922,7 +22835,7 @@
             "bcf19e9e1cdfa38a4e5c06bd187f8daa0a99241a893d5d03dc5f39b6c01ac297"
           ],
           "sourceStatus": "Verified",
-          "startedAt": "2026-11-18T17:23:05Z"
+          "startedAt": "2026-11-18T17:19:07Z"
         },
         {
           "affectedCustomers": null,
@@ -24247,25 +24160,25 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "78bd37ef029063eeb2a2e2f7ccf0b9d86219daca83abda27a403a85a9bd20c35",
+  "snapshotID": "7c2ac020b8a970375516c61046dd774d97c6fd51ec78c7b129dbc9e1d163908f",
   "source": {
-    "checkedAt": "2026-11-18T17:31:14Z",
+    "checkedAt": "2026-11-18T17:36:17Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-18T17:30:47Z",
+    "updatedAt": "2026-11-18T17:35:47Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "sourceSummary": {
     "customerCountDifference": 2,
-    "customersAffected": 28435,
-    "customersOut": 28435,
+    "customersAffected": 28420,
+    "customersOut": 28420,
     "customersRestored": 0,
     "customersServed": 54726,
-    "eventCustomersOut": 28433,
+    "eventCustomersOut": 28418,
     "hourlyCustomersOut": [
       {
         "at": "2026-11-16T17:00:00Z",
-        "customersOut": 4659
+        "customersOut": 4658
       },
       {
         "at": "2026-11-16T18:00:00Z",
@@ -24457,7 +24370,7 @@
       },
       {
         "at": "2026-11-18T17:00:00Z",
-        "customersOut": 28433
+        "customersOut": 28418
       }
     ],
     "locations": [
@@ -37352,19 +37265,6 @@
       "GLUCKSBERG 9-9 (DOWN)",
       "GLUCKSBERG 9-9 (UP)",
       "GLUCKSBERG PCL 6",
-      "GLYNN",
-      "GLYNN 116",
-      "GLYNN 118-A",
-      "GLYNN 118-B",
-      "GLYNN 120",
-      "GLYNN 121",
-      "GLYNN 36",
-      "GLYNN 40",
-      "GLYNN 40 APT-A",
-      "GLYNN 40 APT-C",
-      "GLYNN 40-A",
-      "GLYNN 42",
-      "GLYNN 44",
       "GRAMBOKO HILL BEACON LITE",
       "GREAT BAY",
       "GREAT CRUZ BAY 260 (5)",
@@ -46114,8 +46014,8 @@
       "ZUERIENDENHEIT",
       "ZUFRIDENHEIT 1"
     ],
-    "totalOutages": 29
+    "totalOutages": 26
   },
   "staleAfterSeconds": 900,
-  "unassignedEventCount": 26
+  "unassignedEventCount": 23
 }
