@@ -2216,6 +2216,34 @@
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
+      "id": "1c82f3ae6de0e4ac2794092193147c84c4ce6100ffc9678bdd4149a2a43659fd",
+      "island": null,
+      "locations": [
+        "PLESSEN/CROIXVILLE",
+        "PLESSEN/CROIXVILLE 14B",
+        "PLESSEN/CROIXVILLE B-L",
+        "PLESSEN/CROIXVILLE B-M"
+      ],
+      "modifiedAt": "2026-11-18T21:29:36Z",
+      "name": "T-C-00392",
+      "neighborhoodIDs": [],
+      "point": {
+        "latitude": 17.719475188135277,
+        "longitude": -64.81505662502067
+      },
+      "reportedCustomersInitially": 12,
+      "reportedCustomersOut": 12,
+      "reportedCustomersRestored": 0,
+      "sourceStatus": "Predicted",
+      "startedAt": "2026-11-18T21:29:00Z",
+      "verified": false,
+      "workStatus": null
+    },
+    {
+      "cause": null,
+      "crewAssigned": false,
+      "endedAt": null,
+      "estimatedRestoration": null,
       "id": "243482762b6fb70d619265301b1be9e45c3bfc0e652752e1405fff1070c861f5",
       "island": null,
       "locations": [
@@ -6249,36 +6277,6 @@
       "sourceStatus": "Verified",
       "startedAt": "2026-11-18T17:23:19Z",
       "verified": true,
-      "workStatus": null
-    },
-    {
-      "cause": null,
-      "crewAssigned": false,
-      "endedAt": null,
-      "estimatedRestoration": null,
-      "id": "8bf2b1c60194fb7a3db9e83e02a90fdd0a6244281f5b23f6835d043a60d1409a",
-      "island": "stCroix",
-      "locations": [
-        "JUDITH'S FANCY",
-        "JUDITHS FANCY 52",
-        "JUDITHS FANCY 60-F",
-        "JUDITHS FANCY 84"
-      ],
-      "modifiedAt": "2026-11-18T21:11:13Z",
-      "name": "T-C-24670",
-      "neighborhoodIDs": [
-        "stCroix-judiths-fancy"
-      ],
-      "point": {
-        "latitude": 17.773825851197316,
-        "longitude": -64.74183304459802
-      },
-      "reportedCustomersInitially": 4,
-      "reportedCustomersOut": 4,
-      "reportedCustomersRestored": 0,
-      "sourceStatus": "Predicted",
-      "startedAt": "2026-11-18T21:10:36Z",
-      "verified": false,
       "workStatus": null
     },
     {
@@ -22519,7 +22517,7 @@
       "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-18T21:25:58Z",
+  "generatedAt": "2026-11-18T21:31:00Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -24681,23 +24679,6 @@
         {
           "affectedCustomers": null,
           "estimatedRestoration": null,
-          "id": "stCroix-judiths-fancy",
-          "island": "stCroix",
-          "locations": [
-            "52",
-            "60-F",
-            "84"
-          ],
-          "name": "Judith\u2019s Fancy",
-          "sourceEventIDs": [
-            "8bf2b1c60194fb7a3db9e83e02a90fdd0a6244281f5b23f6835d043a60d1409a"
-          ],
-          "sourceStatus": "Predicted",
-          "startedAt": "2026-11-18T21:10:36Z"
-        },
-        {
-          "affectedCustomers": null,
-          "estimatedRestoration": null,
           "id": "stCroix-pump-garden",
           "island": "stCroix",
           "locations": [
@@ -24772,21 +24753,21 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "1cfadd5b16aab1a393780515584761448764935d150fb6ad0b559e629096ca90",
+  "snapshotID": "a89a99e29d4669022b54363fc09aba43cc53c3a6aa20b319480d2b6159f9934b",
   "source": {
-    "checkedAt": "2026-11-18T21:25:58Z",
+    "checkedAt": "2026-11-18T21:31:00Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-18T21:25:46Z",
+    "updatedAt": "2026-11-18T21:30:47Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "sourceSummary": {
     "customerCountDifference": 2,
-    "customersAffected": 28237,
-    "customersOut": 28237,
+    "customersAffected": 28245,
+    "customersOut": 28245,
     "customersRestored": 0,
     "customersServed": 54726,
-    "eventCustomersOut": 28235,
+    "eventCustomersOut": 28243,
     "hourlyCustomersOut": [
       {
         "at": "2026-11-16T21:00:00Z",
@@ -24982,7 +24963,7 @@
       },
       {
         "at": "2026-11-18T21:00:00Z",
-        "customersOut": 28235
+        "customersOut": 28243
       }
     ],
     "locations": [
@@ -39131,10 +39112,6 @@
       "JOSEPH & ROSENDHAL 9G-C",
       "JOSEPH AUBAIN BALL PARK",
       "JOSPEH & ROSENDAHL 3-20",
-      "JUDITH'S FANCY",
-      "JUDITHS FANCY 52",
-      "JUDITHS FANCY 60-F",
-      "JUDITHS FANCY 84",
       "KANAL GADE",
       "KANAL GADE 2",
       "KANAL GADE 3",
@@ -42993,6 +42970,10 @@
       "PLANTATION MNR PAPAYA HS",
       "PLANTATION MNR POINSETTA",
       "PLATION MANOR 34 BANNA",
+      "PLESSEN/CROIXVILLE",
+      "PLESSEN/CROIXVILLE 14B",
+      "PLESSEN/CROIXVILLE B-L",
+      "PLESSEN/CROIXVILLE B-M",
       "PLOT NO SMITH BAY",
       "PMP",
       "PMP B-18 APT. 137",
@@ -46488,5 +46469,5 @@
     "totalOutages": 33
   },
   "staleAfterSeconds": 900,
-  "unassignedEventCount": 29
+  "unassignedEventCount": 30
 }
