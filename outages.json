@@ -6231,6 +6231,33 @@
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
+      "id": "7814cf9322a48b31d77a0e337271c6ae3a603030a53bc6906123e46530a4c3f7",
+      "island": null,
+      "locations": [
+        "LITTLE PRINCESS 52 BLDG-C",
+        "LITTLE PRINCESS 52A",
+        "LITTLE PRINCESS 52-A TRL"
+      ],
+      "modifiedAt": "2026-11-18T19:29:30Z",
+      "name": "T-C-09493",
+      "neighborhoodIDs": [],
+      "point": {
+        "latitude": 17.75731413156936,
+        "longitude": -64.72567277427936
+      },
+      "reportedCustomersInitially": 3,
+      "reportedCustomersOut": 3,
+      "reportedCustomersRestored": 0,
+      "sourceStatus": "Predicted",
+      "startedAt": "2026-11-18T19:29:02Z",
+      "verified": false,
+      "workStatus": null
+    },
+    {
+      "cause": null,
+      "crewAssigned": false,
+      "endedAt": null,
+      "estimatedRestoration": null,
       "id": "84b9337430932c19e281c02034c27b28d5a1fb47502d2602fd67b5a16571852f",
       "island": null,
       "locations": [
@@ -6249,33 +6276,6 @@
       "sourceStatus": "Verified",
       "startedAt": "2026-11-18T17:23:19Z",
       "verified": true,
-      "workStatus": null
-    },
-    {
-      "cause": null,
-      "crewAssigned": false,
-      "endedAt": null,
-      "estimatedRestoration": null,
-      "id": "87c05f049dd66be977e6adf3beee2b927186bd92232c5f5556208bd559ce4d4b",
-      "island": null,
-      "locations": [
-        "LITTLE PRINCESS 52 BLDG-C",
-        "LITTLE PRINCESS 52A",
-        "LITTLE PRINCESS 52-A TRL"
-      ],
-      "modifiedAt": "2026-11-18T19:11:59Z",
-      "name": "T-C-09493",
-      "neighborhoodIDs": [],
-      "point": {
-        "latitude": 17.75731413156936,
-        "longitude": -64.72567277427936
-      },
-      "reportedCustomersInitially": 3,
-      "reportedCustomersOut": 3,
-      "reportedCustomersRestored": 0,
-      "sourceStatus": "Predicted",
-      "startedAt": "2026-11-18T19:11:25Z",
-      "verified": false,
       "workStatus": null
     },
     {
@@ -22516,7 +22516,7 @@
       "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-18T19:26:03Z",
+  "generatedAt": "2026-11-18T19:31:05Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -24752,11 +24752,11 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "7621dc15b0a211391be3cb534def74284b980720698f4d297e0efadefdfe98ce",
+  "snapshotID": "98d2aa3f198ed18db3c21b61ea1eb3045fa7ad194186c9ac7459c35336f7a730",
   "source": {
-    "checkedAt": "2026-11-18T19:26:03Z",
+    "checkedAt": "2026-11-18T19:31:05Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-18T19:25:46Z",
+    "updatedAt": "2026-11-18T19:30:46Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
