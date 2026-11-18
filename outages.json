@@ -95,41 +95,6 @@
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
-      "id": "20efd37cf320e965df9c62c7da129a8a9d56a0b746a38f5d399d8f2dff30c2c5",
-      "island": "stThomas",
-      "locations": [
-        "SMITH BAY",
-        "SMITH BAY 18-21 A-1",
-        "SMITH BAY 18-23",
-        "SMITH BAY 18-23 1-B",
-        "SMITH BAY 18-23 HSE/PUMP",
-        "SMITH BAY 18-23 U-1A",
-        "SMITH BAY 18-23 U-2-A",
-        "SMITH BAY 18-3",
-        "SMITH BAY 18-4"
-      ],
-      "modifiedAt": "2026-11-18T02:41:04Z",
-      "name": "T-T-08232",
-      "neighborhoodIDs": [
-        "stThomas-smith-bay"
-      ],
-      "point": {
-        "latitude": 18.327998047483206,
-        "longitude": -64.85162531011511
-      },
-      "reportedCustomersInitially": 9,
-      "reportedCustomersOut": 9,
-      "reportedCustomersRestored": 0,
-      "sourceStatus": "Predicted",
-      "startedAt": "2026-11-18T02:41:00Z",
-      "verified": false,
-      "workStatus": null
-    },
-    {
-      "cause": null,
-      "crewAssigned": false,
-      "endedAt": null,
-      "estimatedRestoration": null,
       "id": "330eef19265b11cf3fd1172c88c28644fe77bfdb04f54f33e6289f8857263ca3",
       "island": null,
       "locations": [
@@ -315,7 +280,7 @@
       "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-18T03:35:35Z",
+  "generatedAt": "2026-11-18T03:40:36Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -354,28 +319,6 @@
           ],
           "sourceStatus": "Verified",
           "startedAt": "2026-11-05T17:32:26Z"
-        },
-        {
-          "affectedCustomers": null,
-          "estimatedRestoration": null,
-          "id": "stThomas-smith-bay",
-          "island": "stThomas",
-          "locations": [
-            "18-21 A-1",
-            "18-23",
-            "18-23 1-B",
-            "18-23 HSE/PUMP",
-            "18-23 U-1A",
-            "18-23 U-2-A",
-            "18-3",
-            "18-4"
-          ],
-          "name": "Smith Bay",
-          "sourceEventIDs": [
-            "20efd37cf320e965df9c62c7da129a8a9d56a0b746a38f5d399d8f2dff30c2c5"
-          ],
-          "sourceStatus": "Predicted",
-          "startedAt": "2026-11-18T02:41:00Z"
         },
         {
           "affectedCustomers": null,
@@ -438,21 +381,21 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "09b12c1229324951ce0e5d9e5f417d4548bc9ff5a12ded1090fc33d9967b1077",
+  "snapshotID": "781c8128600eee11bbcbc634d0ee53008bf09175b0ccd94b66eb5bebd93a5708",
   "source": {
-    "checkedAt": "2026-11-18T03:35:35Z",
+    "checkedAt": "2026-11-18T03:40:36Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-18T03:30:37Z",
+    "updatedAt": "2026-11-18T03:35:36Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "sourceSummary": {
     "customerCountDifference": 2,
-    "customersAffected": 44,
-    "customersOut": 44,
+    "customersAffected": 35,
+    "customersOut": 35,
     "customersRestored": 0,
     "customersServed": 54726,
-    "eventCustomersOut": 42,
+    "eventCustomersOut": 33,
     "hourlyCustomersOut": [
       {
         "at": "2026-11-16T03:00:00Z",
@@ -648,7 +591,7 @@
       },
       {
         "at": "2026-11-18T03:00:00Z",
-        "customersOut": 2189
+        "customersOut": 2180
       }
     ],
     "locations": [
@@ -679,20 +622,11 @@
       "NAZARETH 2W-45",
       "NAZARETH 2-W-76-3",
       "NORTH GRAPETREE 25",
-      "SMITH BAY",
-      "SMITH BAY 18-21 A-1",
-      "SMITH BAY 18-23",
-      "SMITH BAY 18-23 1-B",
-      "SMITH BAY 18-23 HSE/PUMP",
-      "SMITH BAY 18-23 U-1A",
-      "SMITH BAY 18-23 U-2-A",
-      "SMITH BAY 18-3",
-      "SMITH BAY 18-4",
       "SUBBASE 100",
       "SUBBASE 101 (EL)",
       "SUBBASE 69"
     ],
-    "totalOutages": 11
+    "totalOutages": 10
   },
   "staleAfterSeconds": 900,
   "unassignedEventCount": 7
