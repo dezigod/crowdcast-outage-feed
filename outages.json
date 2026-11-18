@@ -16955,39 +16955,6 @@
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
-      "id": "d4a74b33aab8dc19e4e0f919e20f14742b408820cabf662a1f9600b448a4c9af",
-      "island": null,
-      "locations": [
-        "CALQUOHOUN",
-        "CALQUOHOUN 25",
-        "CALQUOHOUN 26-27",
-        "CALQUOHOUN 28",
-        "CALQUOHOUN 29",
-        "CALQUOHOUN 36",
-        "CALQUOHOUN 38A",
-        "CALQUOHOUN 40",
-        "CALQUOHOUN 41"
-      ],
-      "modifiedAt": "2026-11-18T20:13:48Z",
-      "name": "T-C-11301",
-      "neighborhoodIDs": [],
-      "point": {
-        "latitude": 17.74389656219374,
-        "longitude": -64.80232903146424
-      },
-      "reportedCustomersInitially": 10,
-      "reportedCustomersOut": 10,
-      "reportedCustomersRestored": 0,
-      "sourceStatus": "Predicted",
-      "startedAt": "2026-11-18T20:13:23Z",
-      "verified": false,
-      "workStatus": null
-    },
-    {
-      "cause": null,
-      "crewAssigned": false,
-      "endedAt": null,
-      "estimatedRestoration": null,
       "id": "d8514026cc089d502d9faf78afa3b2f9f94169b20daaa5b36ecdfa9312d4d8b7",
       "island": null,
       "locations": [
@@ -22522,7 +22489,7 @@
       "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-18T20:40:38Z",
+  "generatedAt": "2026-11-18T20:45:40Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -24758,21 +24725,21 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "77f3d2b837f6ba45a7e71072c9d89fc66a2345b4bac13784eed5c84e3282c4d2",
+  "snapshotID": "49773965ad8868ce4995441bb2daafb5afe312f40536f5f302dfb55cc06d5c30",
   "source": {
-    "checkedAt": "2026-11-18T20:40:38Z",
+    "checkedAt": "2026-11-18T20:45:40Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-18T20:35:46Z",
+    "updatedAt": "2026-11-18T20:40:46Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "sourceSummary": {
     "customerCountDifference": 2,
-    "customersAffected": 28243,
-    "customersOut": 28243,
+    "customersAffected": 28233,
+    "customersOut": 28233,
     "customersRestored": 0,
     "customersServed": 54726,
-    "eventCustomersOut": 28241,
+    "eventCustomersOut": 28231,
     "hourlyCustomersOut": [
       {
         "at": "2026-11-16T20:00:00Z",
@@ -24968,7 +24935,7 @@
       },
       {
         "at": "2026-11-18T20:00:00Z",
-        "customersOut": 28241
+        "customersOut": 28231
       }
     ],
     "locations": [
@@ -29244,15 +29211,6 @@
       "CALABASHBOOM 08-805",
       "CALABSH BOOM 1-X",
       "CALASBASH BOOM 1 & 2",
-      "CALQUOHOUN",
-      "CALQUOHOUN 25",
-      "CALQUOHOUN 26-27",
-      "CALQUOHOUN 28",
-      "CALQUOHOUN 29",
-      "CALQUOHOUN 36",
-      "CALQUOHOUN 38A",
-      "CALQUOHOUN 40",
-      "CALQUOHOUN 41",
       "CANEEL BAY",
       "CANEEL BAY 12-C",
       "CANEEL BAY 12C-A1",
@@ -46476,8 +46434,8 @@
       "ZUERIENDENHEIT",
       "ZUFRIDENHEIT 1"
     ],
-    "totalOutages": 33
+    "totalOutages": 32
   },
   "staleAfterSeconds": 900,
-  "unassignedEventCount": 30
+  "unassignedEventCount": 29
 }
