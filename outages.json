@@ -57,49 +57,6 @@
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
-      "id": "0bcc10be0110a664ae03dd765b6458ed8af12aef1375c488037d340229b92837",
-      "island": null,
-      "locations": [
-        "HUMBUG",
-        "HUMBUG 139",
-        "HUMBUG 142",
-        "HUMBUG 144",
-        "HUMBUG 4-CE",
-        "HUMBUG 4CE APT 2",
-        "HUMBUG 4CF EL",
-        "HUMBUG 4-CG",
-        "HUMBUG 4-D",
-        "HUMBUG 4-DA",
-        "HUMBUG 4DB",
-        "HUMBUG 4DB APT-B (EL)",
-        "HUMBUG 4-DD",
-        "HUMBUG/TAMARIND 145",
-        "TAMARIND 141",
-        "TAMARIND 151",
-        "TAMARIND 4DG",
-        "TAMARIND/HUMBUG 146",
-        "TAMARIND/HUMBUG 147"
-      ],
-      "modifiedAt": "2026-11-18T11:47:52Z",
-      "name": "T-C-07276",
-      "neighborhoodIDs": [],
-      "point": {
-        "latitude": 17.712463683102087,
-        "longitude": -64.72905474401527
-      },
-      "reportedCustomersInitially": 20,
-      "reportedCustomersOut": 20,
-      "reportedCustomersRestored": 0,
-      "sourceStatus": "Predicted",
-      "startedAt": "2026-11-18T11:47:26Z",
-      "verified": false,
-      "workStatus": null
-    },
-    {
-      "cause": null,
-      "crewAssigned": false,
-      "endedAt": null,
-      "estimatedRestoration": null,
       "id": "114334c01aa87b660788dbcd897dba52abaccf25d73a80313b285103c5d75502",
       "island": null,
       "locations": [
@@ -289,7 +246,7 @@
       "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-18T11:51:12Z",
+  "generatedAt": "2026-11-18T11:56:14Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -374,21 +331,21 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "de21fe425b0a0a2a5b3b80b9c19180b9826b4bc9866873e6e1289889af5d4ffb",
+  "snapshotID": "7e5bd5ee2d032452a0dd5e869723e871e00fc76fbd567634d27a8e30985b3dc7",
   "source": {
-    "checkedAt": "2026-11-18T11:51:12Z",
+    "checkedAt": "2026-11-18T11:56:14Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-18T11:50:38Z",
+    "updatedAt": "2026-11-18T11:55:38Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "sourceSummary": {
     "customerCountDifference": 2,
-    "customersAffected": 70,
-    "customersOut": 70,
+    "customersAffected": 50,
+    "customersOut": 50,
     "customersRestored": 0,
     "customersServed": 54726,
-    "eventCustomersOut": 68,
+    "eventCustomersOut": 48,
     "hourlyCustomersOut": [
       {
         "at": "2026-11-16T11:00:00Z",
@@ -584,7 +541,7 @@
       },
       {
         "at": "2026-11-18T11:00:00Z",
-        "customersOut": 68
+        "customersOut": 48
       }
     ],
     "locations": [
@@ -598,20 +555,6 @@
       "HARBORVIEW APTS B-1",
       "HARBORVIEW APTS B-2",
       "HERMAN HILL",
-      "HUMBUG",
-      "HUMBUG 139",
-      "HUMBUG 142",
-      "HUMBUG 144",
-      "HUMBUG 4-CE",
-      "HUMBUG 4CE APT 2",
-      "HUMBUG 4CF EL",
-      "HUMBUG 4-CG",
-      "HUMBUG 4-D",
-      "HUMBUG 4-DA",
-      "HUMBUG 4DB",
-      "HUMBUG 4DB APT-B (EL)",
-      "HUMBUG 4-DD",
-      "HUMBUG/TAMARIND 145",
       "LERKENLUND 9D-1-2",
       "LOVENLUND EST FARMHOUSE",
       "NAZARETH 2W-39",
@@ -623,15 +566,10 @@
       "NORTH GRAPETREE 25",
       "SUBBASE 100",
       "SUBBASE 101 (EL)",
-      "SUBBASE 69",
-      "TAMARIND 141",
-      "TAMARIND 151",
-      "TAMARIND 4DG",
-      "TAMARIND/HUMBUG 146",
-      "TAMARIND/HUMBUG 147"
+      "SUBBASE 69"
     ],
-    "totalOutages": 10
+    "totalOutages": 9
   },
   "staleAfterSeconds": 900,
-  "unassignedEventCount": 7
+  "unassignedEventCount": 6
 }
