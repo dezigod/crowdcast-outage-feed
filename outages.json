@@ -1766,6 +1766,31 @@
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
+      "id": "8735b5afcb8c97e3c7a26958fc9e06009511954e389781ea869413753e453826",
+      "island": null,
+      "locations": [
+        "FRENCHMAN'S BAY 15-77"
+      ],
+      "modifiedAt": "2026-11-18T23:34:33Z",
+      "name": "T-T-17231",
+      "neighborhoodIDs": [],
+      "point": {
+        "latitude": 18.31717759943825,
+        "longitude": -64.91254138302284
+      },
+      "reportedCustomersInitially": 1,
+      "reportedCustomersOut": 1,
+      "reportedCustomersRestored": 0,
+      "sourceStatus": "Predicted",
+      "startedAt": "2026-11-18T23:33:58Z",
+      "verified": false,
+      "workStatus": null
+    },
+    {
+      "cause": null,
+      "crewAssigned": false,
+      "endedAt": null,
+      "estimatedRestoration": null,
       "id": "a19597311ceba375e12197bc70a6e1a0f49ff61d534176c9b2d10c96e457f724",
       "island": null,
       "locations": [
@@ -13080,7 +13105,7 @@
       "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-18T23:31:00Z",
+  "generatedAt": "2026-11-18T23:36:02Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -14728,21 +14753,21 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "710a5f9f059e39078d70afac0ccb96f10565dc969db41b96c5b7f13b8510af26",
+  "snapshotID": "8cd5e8f7f5bf13728500963eebcc8ef06424eebd1c21559465abf5e848ded749",
   "source": {
-    "checkedAt": "2026-11-18T23:31:00Z",
+    "checkedAt": "2026-11-18T23:36:02Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-18T23:30:43Z",
+    "updatedAt": "2026-11-18T23:35:43Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "sourceSummary": {
     "customerCountDifference": 2,
-    "customersAffected": 17959,
-    "customersOut": 16110,
+    "customersAffected": 17960,
+    "customersOut": 16111,
     "customersRestored": 1849,
     "customersServed": 54726,
-    "eventCustomersOut": 16108,
+    "eventCustomersOut": 16109,
     "hourlyCustomersOut": [
       {
         "at": "2026-11-16T23:00:00Z",
@@ -14938,7 +14963,7 @@
       },
       {
         "at": "2026-11-18T23:00:00Z",
-        "customersOut": 16108
+        "customersOut": 16109
       }
     ],
     "locations": [
@@ -21532,6 +21557,7 @@
       "FORTUNA VISTA 3 C-99",
       "FORUTNA 5-31",
       "FRENCHMAN BAY 106",
+      "FRENCHMAN'S BAY 15-77",
       "FRT MYLNER SHP CTR",
       "FRYDEHDAHL 56-48",
       "FRYDENDAHL",
@@ -27396,8 +27422,8 @@
       "ZUERIENDENHEIT",
       "ZUFRIDENHEIT 1"
     ],
-    "totalOutages": 24
+    "totalOutages": 25
   },
   "staleAfterSeconds": 900,
-  "unassignedEventCount": 21
+  "unassignedEventCount": 22
 }
