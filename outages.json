@@ -4978,6 +4978,36 @@
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
+      "id": "f30ff4f568212f8b0b9bf1877101fc22ff5e56721146aef21c595e0eb93b5948",
+      "island": null,
+      "locations": [
+        "UPPER LOVE",
+        "UPPER LOVE (COTTAGE)",
+        "UPPER LOVE 138",
+        "UPPER LOVE 141 (WELL)",
+        "UPPER LOVE 173 APT B",
+        "UPPER LOVE 174 (FRONT)"
+      ],
+      "modifiedAt": "2026-11-18T16:06:03Z",
+      "name": "T-C-06699",
+      "neighborhoodIDs": [],
+      "point": {
+        "latitude": 17.72745709877217,
+        "longitude": -64.811842960355
+      },
+      "reportedCustomersInitially": 10,
+      "reportedCustomersOut": 10,
+      "reportedCustomersRestored": 0,
+      "sourceStatus": "Predicted",
+      "startedAt": "2026-11-18T16:06:00Z",
+      "verified": false,
+      "workStatus": null
+    },
+    {
+      "cause": null,
+      "crewAssigned": false,
+      "endedAt": null,
+      "estimatedRestoration": null,
       "id": "fdb906cf8a129bf9fb76d0647d1a213cc5484666344ddc1ff15b5ce36a8dbf0d",
       "island": null,
       "locations": [
@@ -4999,7 +5029,7 @@
       "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-18T16:05:41Z",
+  "generatedAt": "2026-11-18T16:10:43Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -5117,25 +5147,25 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "6695981e9da3edd4a12301f452e89c9df0d0ccea3bedb37e0fa631515975e27f",
+  "snapshotID": "9a2d6ddcbe9dd1ed9b08a23a02a36397d32b09de78d000c144f35afc56676cfe",
   "source": {
-    "checkedAt": "2026-11-18T16:05:41Z",
+    "checkedAt": "2026-11-18T16:10:43Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-18T16:05:39Z",
+    "updatedAt": "2026-11-18T16:10:39Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "sourceSummary": {
     "customerCountDifference": 2,
-    "customersAffected": 5379,
-    "customersOut": 5379,
+    "customersAffected": 5389,
+    "customersOut": 5389,
     "customersRestored": 0,
     "customersServed": 54726,
-    "eventCustomersOut": 5377,
+    "eventCustomersOut": 5387,
     "hourlyCustomersOut": [
       {
         "at": "2026-11-16T16:00:00Z",
-        "customersOut": 9508
+        "customersOut": 5929
       },
       {
         "at": "2026-11-16T17:00:00Z",
@@ -5327,7 +5357,7 @@
       },
       {
         "at": "2026-11-18T16:00:00Z",
-        "customersOut": 5377
+        "customersOut": 5387
       }
     ],
     "locations": [
@@ -9945,6 +9975,12 @@
       "TRUNK BAY SNACK BAR",
       "TRUNK BAY ST JOHN",
       "TRUNK BAY WATER PLANT",
+      "UPPER LOVE",
+      "UPPER LOVE (COTTAGE)",
+      "UPPER LOVE 138",
+      "UPPER LOVE 141 (WELL)",
+      "UPPER LOVE 173 APT B",
+      "UPPER LOVE 174 (FRONT)",
       "VESTER GADE 100",
       "VIRGIN GRAND EST #71",
       "WATERFRONT/VETERAN'S PARK",
@@ -9968,8 +10004,8 @@
       "ZOOTENVAAL 3Q (MTR 1)",
       "ZOOTENVAAL 3T"
     ],
-    "totalOutages": 14
+    "totalOutages": 15
   },
   "staleAfterSeconds": 900,
-  "unassignedEventCount": 11
+  "unassignedEventCount": 12
 }
