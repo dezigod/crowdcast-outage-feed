@@ -1170,6 +1170,64 @@
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
+      "id": "27f4eb86d7a56c02484582d113536a294bcd34d68f53b0b3ae31cbb64f814503",
+      "island": null,
+      "locations": [
+        "ALTONA",
+        "ALTONA #109",
+        "ALTONA & WELGUNST 106",
+        "ALTONA & WELGUNST 107",
+        "ALTONA & WELGUNST 107 A-1",
+        "ALTONA & WELGUNST 107 A-3",
+        "ALTONA & WELGUNST 107 A-4",
+        "ALTONA & WELGUNST 107 A-5",
+        "ALTONA & WELGUNST 107 A-6",
+        "ALTONA & WELGUNST 108",
+        "ALTONA 108",
+        "ALTONA 108 TOP FLOOR",
+        "HONDURAS",
+        "HONDURAS #19-26",
+        "HONDURAS #96",
+        "HONDURAS 18-2",
+        "HONDURAS 19-26B STUDIO",
+        "HONDURAS 19-3",
+        "HONDURAS 4-1",
+        "HONDURAS 4A APT-8",
+        "HONDURAS 4A DWN",
+        "HONDURAS 4A UP",
+        "HONDURAS 4D APT 3",
+        "HONDURAS 4D APT 4",
+        "HONDURAS 4D APT-2",
+        "HONDURAS 4D MTR-1",
+        "HONDURAS 4E-96",
+        "HONDURAS 4H ACROSS PLAY P",
+        "HONDURAS 80",
+        "HONDURAS 81",
+        "HONDURAS 81 MTR-A",
+        "HONDURAS 88",
+        "HONDURAS 96",
+        "HONDURAS PCL 4K"
+      ],
+      "modifiedAt": "2026-11-18T15:25:19Z",
+      "name": "T-T-02551",
+      "neighborhoodIDs": [],
+      "point": {
+        "latitude": 18.33717499898259,
+        "longitude": -64.9435582664611
+      },
+      "reportedCustomersInitially": 47,
+      "reportedCustomersOut": 47,
+      "reportedCustomersRestored": 0,
+      "sourceStatus": "Predicted",
+      "startedAt": "2026-11-18T15:25:04Z",
+      "verified": false,
+      "workStatus": null
+    },
+    {
+      "cause": null,
+      "crewAssigned": false,
+      "endedAt": null,
+      "estimatedRestoration": null,
       "id": "330eef19265b11cf3fd1172c88c28644fe77bfdb04f54f33e6289f8857263ca3",
       "island": null,
       "locations": [
@@ -2771,7 +2829,7 @@
       "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-18T15:21:28Z",
+  "generatedAt": "2026-11-18T15:26:30Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -2856,21 +2914,21 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "ba02a469d75d7dd339347513c9511aecf150e952ad828c66eee51fb90ed8f13d",
+  "snapshotID": "b1eb3d0d58e7645d82033ac7e45e43504ad1ee35d73f7bfa4ef59ed96d4f71ff",
   "source": {
-    "checkedAt": "2026-11-18T15:21:28Z",
+    "checkedAt": "2026-11-18T15:26:30Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-18T15:20:38Z",
+    "updatedAt": "2026-11-18T15:25:39Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "sourceSummary": {
     "customerCountDifference": 2,
-    "customersAffected": 2927,
-    "customersOut": 2927,
+    "customersAffected": 2974,
+    "customersOut": 2974,
     "customersRestored": 0,
     "customersServed": 54726,
-    "eventCustomersOut": 2925,
+    "eventCustomersOut": 2972,
     "hourlyCustomersOut": [
       {
         "at": "2026-11-16T15:00:00Z",
@@ -3066,7 +3124,7 @@
       },
       {
         "at": "2026-11-18T15:00:00Z",
-        "customersOut": 2925
+        "customersOut": 2972
       }
     ],
     "locations": [
@@ -3109,6 +3167,18 @@
       "AGNES FANCY 5-A",
       "AGNES FANCY 5B",
       "AGNES FANCY 5F",
+      "ALTONA",
+      "ALTONA #109",
+      "ALTONA & WELGUNST 106",
+      "ALTONA & WELGUNST 107",
+      "ALTONA & WELGUNST 107 A-1",
+      "ALTONA & WELGUNST 107 A-3",
+      "ALTONA & WELGUNST 107 A-4",
+      "ALTONA & WELGUNST 107 A-5",
+      "ALTONA & WELGUNST 107 A-6",
+      "ALTONA & WELGUNST 108",
+      "ALTONA 108",
+      "ALTONA 108 TOP FLOOR",
       "ANNABERG 4C",
       "ANNABERG 4K",
       "ANNABERG 4-O-1",
@@ -5162,6 +5232,28 @@
       "HAWK HILL CONDO APT. 9",
       "HAWKSNEST 1-U DENIS BAY",
       "HERMAN HILL",
+      "HONDURAS",
+      "HONDURAS #19-26",
+      "HONDURAS #96",
+      "HONDURAS 18-2",
+      "HONDURAS 19-26B STUDIO",
+      "HONDURAS 19-3",
+      "HONDURAS 4-1",
+      "HONDURAS 4A APT-8",
+      "HONDURAS 4A DWN",
+      "HONDURAS 4A UP",
+      "HONDURAS 4D APT 3",
+      "HONDURAS 4D APT 4",
+      "HONDURAS 4D APT-2",
+      "HONDURAS 4D MTR-1",
+      "HONDURAS 4E-96",
+      "HONDURAS 4H ACROSS PLAY P",
+      "HONDURAS 80",
+      "HONDURAS 81",
+      "HONDURAS 81 MTR-A",
+      "HONDURAS 88",
+      "HONDURAS 96",
+      "HONDURAS PCL 4K",
       "HURRICANE HOLE",
       "JOHN FOLLY 14-D-5",
       "JOHNS FOLLY",
@@ -5471,8 +5563,8 @@
       "ZOOTENVAAL 3Q (MTR 1)",
       "ZOOTENVAAL 3T"
     ],
-    "totalOutages": 15
+    "totalOutages": 16
   },
   "staleAfterSeconds": 900,
-  "unassignedEventCount": 12
+  "unassignedEventCount": 13
 }
