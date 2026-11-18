@@ -2270,7 +2270,7 @@
         "PRINDSENS GADE 17ABC",
         "PRINDSENS GADE 56"
       ],
-      "modifiedAt": "2026-11-18T12:29:42Z",
+      "modifiedAt": "2026-11-18T12:44:17Z",
       "name": "T-T-04198",
       "neighborhoodIDs": [],
       "point": {
@@ -2392,7 +2392,7 @@
       "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-18T12:41:31Z",
+  "generatedAt": "2026-11-18T12:50:29Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -2479,11 +2479,11 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "e07ecfeaf2921d1aa1ffeab9d8c4c86884586b193605e13eba7da14da47e075b",
+  "snapshotID": "6c992df73399cb983d7ca4f1b44fabf284628b4ce4d0396bb58caf1517021244",
   "source": {
-    "checkedAt": "2026-11-18T12:41:31Z",
+    "checkedAt": "2026-11-18T12:50:29Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-18T12:40:38Z",
+    "updatedAt": "2026-11-18T12:45:38Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
