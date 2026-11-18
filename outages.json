@@ -31,32 +31,6 @@
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
-      "id": "0b4ac297834cadb124784d2a6566e13f93df5ccffb767b9ac913ff12a375d336",
-      "island": null,
-      "locations": [
-        "HARBORVIEW APTS B-1",
-        "HARBORVIEW APTS B-2"
-      ],
-      "modifiedAt": "2026-11-18T10:55:23Z",
-      "name": "T-C-05985",
-      "neighborhoodIDs": [],
-      "point": {
-        "latitude": 17.753015440613165,
-        "longitude": -64.72191837691533
-      },
-      "reportedCustomersInitially": 25,
-      "reportedCustomersOut": 25,
-      "reportedCustomersRestored": 0,
-      "sourceStatus": "Predicted",
-      "startedAt": "2026-11-18T10:54:51Z",
-      "verified": false,
-      "workStatus": null
-    },
-    {
-      "cause": null,
-      "crewAssigned": false,
-      "endedAt": null,
-      "estimatedRestoration": null,
       "id": "114334c01aa87b660788dbcd897dba52abaccf25d73a80313b285103c5d75502",
       "island": null,
       "locations": [
@@ -80,6 +54,39 @@
       "reportedCustomersRestored": 0,
       "sourceStatus": "Predicted",
       "startedAt": "2026-11-18T01:41:31Z",
+      "verified": false,
+      "workStatus": null
+    },
+    {
+      "cause": null,
+      "crewAssigned": false,
+      "endedAt": null,
+      "estimatedRestoration": null,
+      "id": "2bb942213fc6ea3711d76582e917192dd8990a5042e061436383bcc25acac3ea",
+      "island": "stCroix",
+      "locations": [
+        "LA GRANGE 101 NORTH APT",
+        "LA GRANGE 101 SOUTH APT",
+        "LA GRANGE 103 NORTH",
+        "LA GRANGE 103 SOUTH APT",
+        "LA GRANGE 72",
+        "LA GRANGE 74",
+        "LA GRANGE 74-A"
+      ],
+      "modifiedAt": "2026-11-18T11:59:25Z",
+      "name": "T-C-25079",
+      "neighborhoodIDs": [
+        "stCroix-la-grange"
+      ],
+      "point": {
+        "latitude": 17.719775007216157,
+        "longitude": -64.87688847538928
+      },
+      "reportedCustomersInitially": 9,
+      "reportedCustomersOut": 9,
+      "reportedCustomersRestored": 0,
+      "sourceStatus": "Predicted",
+      "startedAt": "2026-11-18T11:59:00Z",
       "verified": false,
       "workStatus": null
     },
@@ -246,7 +253,7 @@
       "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-18T11:56:14Z",
+  "generatedAt": "2026-11-18T12:01:16Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -309,7 +316,29 @@
       "coverage": "partial",
       "customersOut": null,
       "id": "stCroix",
-      "neighborhoods": []
+      "neighborhoods": [
+        {
+          "affectedCustomers": null,
+          "estimatedRestoration": null,
+          "id": "stCroix-la-grange",
+          "island": "stCroix",
+          "locations": [
+            "101 NORTH APT",
+            "101 SOUTH APT",
+            "103 NORTH",
+            "103 SOUTH APT",
+            "72",
+            "74",
+            "74-A"
+          ],
+          "name": "La Grange",
+          "sourceEventIDs": [
+            "2bb942213fc6ea3711d76582e917192dd8990a5042e061436383bcc25acac3ea"
+          ],
+          "sourceStatus": "Predicted",
+          "startedAt": "2026-11-18T11:59:00Z"
+        }
+      ]
     },
     {
       "coverage": "partial",
@@ -331,26 +360,22 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "7e5bd5ee2d032452a0dd5e869723e871e00fc76fbd567634d27a8e30985b3dc7",
+  "snapshotID": "071028020389e53ed3bd61344722b3929f2842cd07cbaf5642558a67898430e2",
   "source": {
-    "checkedAt": "2026-11-18T11:56:14Z",
+    "checkedAt": "2026-11-18T12:01:16Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-18T11:55:38Z",
+    "updatedAt": "2026-11-18T12:00:37Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "sourceSummary": {
     "customerCountDifference": 2,
-    "customersAffected": 50,
-    "customersOut": 50,
+    "customersAffected": 34,
+    "customersOut": 34,
     "customersRestored": 0,
     "customersServed": 54726,
-    "eventCustomersOut": 48,
+    "eventCustomersOut": 32,
     "hourlyCustomersOut": [
-      {
-        "at": "2026-11-16T11:00:00Z",
-        "customersOut": 10
-      },
       {
         "at": "2026-11-16T12:00:00Z",
         "customersOut": 1102
@@ -537,11 +562,15 @@
       },
       {
         "at": "2026-11-18T10:00:00Z",
-        "customersOut": 48
+        "customersOut": 23
       },
       {
         "at": "2026-11-18T11:00:00Z",
-        "customersOut": 48
+        "customersOut": 32
+      },
+      {
+        "at": "2026-11-18T12:00:00Z",
+        "customersOut": 32
       }
     ],
     "locations": [
@@ -552,9 +581,14 @@
       "COTTON VALLEY 111-A",
       "COTTON VALLEY 335",
       "EST NAZARETH 2W-40",
-      "HARBORVIEW APTS B-1",
-      "HARBORVIEW APTS B-2",
       "HERMAN HILL",
+      "LA GRANGE 101 NORTH APT",
+      "LA GRANGE 101 SOUTH APT",
+      "LA GRANGE 103 NORTH",
+      "LA GRANGE 103 SOUTH APT",
+      "LA GRANGE 72",
+      "LA GRANGE 74",
+      "LA GRANGE 74-A",
       "LERKENLUND 9D-1-2",
       "LOVENLUND EST FARMHOUSE",
       "NAZARETH 2W-39",
@@ -571,5 +605,5 @@
     "totalOutages": 9
   },
   "staleAfterSeconds": 900,
-  "unassignedEventCount": 6
+  "unassignedEventCount": 5
 }
