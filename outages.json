@@ -2541,42 +2541,6 @@
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
-      "id": "9e3346a9ab17aac2f6fc904e45c8015d29df8dd0047e00f08bcedf9c65444fe1",
-      "island": null,
-      "locations": [
-        "LINDBERG BAY #70",
-        "LINDBERG BAY 70",
-        "LINDBERG BAY 70 BLDG-12",
-        "LINDBERG BAY 70 C",
-        "LINDBERG BAY 70 CARGO",
-        "LINDBERG BAY 70 CARGO BLD",
-        "LINDBERG BAY 70 W BTHROOM",
-        "LINDBERG BAY 70 Y",
-        "LINDBERG BAY 70-1, 70-2,",
-        "LINDBERG BAY 70D & 70 T",
-        "LINDBERG BAY BEACH",
-        "NISKY 1-A-1-B"
-      ],
-      "modifiedAt": "2026-11-18T14:55:36Z",
-      "name": "Feeder 05A",
-      "neighborhoodIDs": [],
-      "point": {
-        "latitude": 18.333920939309884,
-        "longitude": -64.96547001983087
-      },
-      "reportedCustomersInitially": 23,
-      "reportedCustomersOut": 23,
-      "reportedCustomersRestored": 0,
-      "sourceStatus": "Verified",
-      "startedAt": "2026-11-18T14:49:00Z",
-      "verified": true,
-      "workStatus": null
-    },
-    {
-      "cause": null,
-      "crewAssigned": false,
-      "endedAt": null,
-      "estimatedRestoration": null,
       "id": "a7622fe5ec3f7460243d64545ddffb42dc3c534b3876e2c938737688abde9c58",
       "island": "stThomas",
       "locations": [
@@ -2625,7 +2589,7 @@
       "workStatus": null
     },
     {
-      "cause": null,
+      "cause": "000 Power supply",
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
@@ -2675,7 +2639,7 @@
         "GALLOWS POINT 3AA",
         "LAVENDER HILL CONDO 8E"
       ],
-      "modifiedAt": "2026-11-18T14:57:43Z",
+      "modifiedAt": "2026-11-18T15:39:49Z",
       "name": "Feeder 08E",
       "neighborhoodIDs": [],
       "point": {
@@ -2745,7 +2709,7 @@
       "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-18T15:40:31Z",
+  "generatedAt": "2026-11-18T15:45:33Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -2861,21 +2825,21 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "7bf48f44c82b6f6c9bcb68a96ffd0b381c7dc9e9686519f86b2fd10026a62210",
+  "snapshotID": "3a286359c394452c14a979c8a8e50babaa539a18f04c4cb49cc7886656a21fff",
   "source": {
-    "checkedAt": "2026-11-18T15:40:31Z",
+    "checkedAt": "2026-11-18T15:45:33Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-18T15:35:39Z",
+    "updatedAt": "2026-11-18T15:40:38Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "sourceSummary": {
     "customerCountDifference": 2,
-    "customersAffected": 2854,
-    "customersOut": 2854,
+    "customersAffected": 2831,
+    "customersOut": 2831,
     "customersRestored": 0,
     "customersServed": 54726,
-    "eventCustomersOut": 2852,
+    "eventCustomersOut": 2829,
     "hourlyCustomersOut": [
       {
         "at": "2026-11-16T15:00:00Z",
@@ -5152,17 +5116,6 @@
       "LERKENLUND 9D-1-2",
       "LIND POINT",
       "LIND POINT RD",
-      "LINDBERG BAY #70",
-      "LINDBERG BAY 70",
-      "LINDBERG BAY 70 BLDG-12",
-      "LINDBERG BAY 70 C",
-      "LINDBERG BAY 70 CARGO",
-      "LINDBERG BAY 70 CARGO BLD",
-      "LINDBERG BAY 70 W BTHROOM",
-      "LINDBERG BAY 70 Y",
-      "LINDBERG BAY 70-1, 70-2,",
-      "LINDBERG BAY 70D & 70 T",
-      "LINDBERG BAY BEACH",
       "LINDPOINT",
       "LINDPOINT #131",
       "LINDPOINT 125B",
@@ -5213,7 +5166,6 @@
       "NAZARETH 2W-44",
       "NAZARETH 2W-45",
       "NAZARETH 2-W-76-3",
-      "NISKY 1-A-1-B",
       "NO. 5 FREENMANS GROUND",
       "NORTH GRAPETREE 25",
       "NORTH SHORE ROAD CANEEL",
@@ -5448,8 +5400,8 @@
       "ZOOTENVAAL 3Q (MTR 1)",
       "ZOOTENVAAL 3T"
     ],
-    "totalOutages": 15
+    "totalOutages": 14
   },
   "staleAfterSeconds": 900,
-  "unassignedEventCount": 12
+  "unassignedEventCount": 11
 }
