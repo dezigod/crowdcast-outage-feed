@@ -6693,6 +6693,37 @@
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
+      "id": "9c7be74d8e6a81b9d37c3500f45d84a9102bcb5557eb68bac92de2f328adc78a",
+      "island": null,
+      "locations": [
+        "MARLEY HOMES B-12",
+        "MARLEY HOMES B-12 A-21",
+        "MARLEY HOMES B-16",
+        "MARLEY HOMES B-16 A-29",
+        "MARLEY HOMES B-17",
+        "MARLEY HOMES B-17 A-31",
+        "MARLEY HOMES B-19 A-34"
+      ],
+      "modifiedAt": "2026-11-18T19:57:17Z",
+      "name": "T-C-21981",
+      "neighborhoodIDs": [],
+      "point": {
+        "latitude": 17.70675092111692,
+        "longitude": -64.88341065139724
+      },
+      "reportedCustomersInitially": 7,
+      "reportedCustomersOut": 7,
+      "reportedCustomersRestored": 0,
+      "sourceStatus": "Predicted",
+      "startedAt": "2026-11-18T19:56:45Z",
+      "verified": false,
+      "workStatus": null
+    },
+    {
+      "cause": null,
+      "crewAssigned": false,
+      "endedAt": null,
+      "estimatedRestoration": null,
       "id": "a19597311ceba375e12197bc70a6e1a0f49ff61d534176c9b2d10c96e457f724",
       "island": null,
       "locations": [
@@ -22489,7 +22520,7 @@
       "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-18T19:56:15Z",
+  "generatedAt": "2026-11-18T20:01:17Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -24725,26 +24756,22 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "944955197775c5334e92f575daa7b07688edf477e0b9e83938e644c0d89d1902",
+  "snapshotID": "6f194807780c616d219f802d8bfca201507fc381412a0c1e83a669bd02e69686",
   "source": {
-    "checkedAt": "2026-11-18T19:56:15Z",
+    "checkedAt": "2026-11-18T20:01:17Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-18T19:55:47Z",
+    "updatedAt": "2026-11-18T20:00:47Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "sourceSummary": {
     "customerCountDifference": 2,
-    "customersAffected": 28233,
-    "customersOut": 28233,
+    "customersAffected": 28240,
+    "customersOut": 28240,
     "customersRestored": 0,
     "customersServed": 54726,
-    "eventCustomersOut": 28231,
+    "eventCustomersOut": 28238,
     "hourlyCustomersOut": [
-      {
-        "at": "2026-11-16T19:00:00Z",
-        "customersOut": 1097
-      },
       {
         "at": "2026-11-16T20:00:00Z",
         "customersOut": 10039
@@ -24935,7 +24962,11 @@
       },
       {
         "at": "2026-11-18T19:00:00Z",
-        "customersOut": 28408
+        "customersOut": 28415
+      },
+      {
+        "at": "2026-11-18T20:00:00Z",
+        "customersOut": 28238
       }
     ],
     "locations": [
@@ -41306,6 +41337,13 @@
       "MARINDAHL 7-93",
       "MARITNDAHL 7-57",
       "MARKET SQUARE STRING LIHG",
+      "MARLEY HOMES B-12",
+      "MARLEY HOMES B-12 A-21",
+      "MARLEY HOMES B-16",
+      "MARLEY HOMES B-16 A-29",
+      "MARLEY HOMES B-17",
+      "MARLEY HOMES B-17 A-31",
+      "MARLEY HOMES B-19 A-34",
       "MISGUNST",
       "MISGUNST #13",
       "MISGUNST #6A DOWN",
@@ -46434,8 +46472,8 @@
       "ZUERIENDENHEIT",
       "ZUFRIDENHEIT 1"
     ],
-    "totalOutages": 32
+    "totalOutages": 33
   },
   "staleAfterSeconds": 900,
-  "unassignedEventCount": 29
+  "unassignedEventCount": 30
 }
