@@ -5974,7 +5974,7 @@
         "PRINDSENS GADE 17ABC",
         "PRINDSENS GADE 56"
       ],
-      "modifiedAt": "2026-11-18T18:41:03Z",
+      "modifiedAt": "2026-11-18T22:17:48Z",
       "name": "T-T-04198",
       "neighborhoodIDs": [],
       "point": {
@@ -14965,50 +14965,6 @@
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
-      "id": "d18538afa750aaa897f6c24527b853ff6cfb2c97d20575ce9aaf31ac13e344fc",
-      "island": null,
-      "locations": [
-        "3R AGNES FANCY",
-        "AGNES FANCY",
-        "AGNES FANCY 3B-1",
-        "AGNES FANCY 3C",
-        "AGNES FANCY 3D-1",
-        "AGNES FANCY 3F MTR-1",
-        "AGNES FANCY 3K",
-        "AGNES FANCY 3K-1",
-        "AGNES FANCY 3L",
-        "AGNES FANCY 3-N",
-        "AGNES FANCY 3Q",
-        "AGNES FANCY 3S",
-        "AGNES FANCY 5D",
-        "AGNES FANCY 5D DWELLING",
-        "AGNES FANCY 5D DWN",
-        "AGNES FANCY 5E",
-        "AGNES FANCY 5-E",
-        "EST AGNES FANCY 5H"
-      ],
-      "modifiedAt": "2026-11-18T22:12:54Z",
-      "name": "T-T-04226",
-      "neighborhoodIDs": [
-        "stThomas-agnes-fancy"
-      ],
-      "point": {
-        "latitude": 18.349069598570136,
-        "longitude": -64.9351704926616
-      },
-      "reportedCustomersInitially": 19,
-      "reportedCustomersOut": 19,
-      "reportedCustomersRestored": 0,
-      "sourceStatus": "Predicted",
-      "startedAt": "2026-11-18T22:12:32Z",
-      "verified": false,
-      "workStatus": null
-    },
-    {
-      "cause": null,
-      "crewAssigned": false,
-      "endedAt": null,
-      "estimatedRestoration": null,
       "id": "d8514026cc089d502d9faf78afa3b2f9f94169b20daaa5b36ecdfa9312d4d8b7",
       "island": null,
       "locations": [
@@ -19030,7 +18986,7 @@
       "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-18T22:16:21Z",
+  "generatedAt": "2026-11-18T22:21:23Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -19075,28 +19031,14 @@
             "21",
             "24A",
             "24A APT-1",
-            "3-N",
-            "3B-1",
-            "3C",
-            "3D-1",
-            "3F MTR-1",
-            "3K",
-            "3K-1",
-            "3L",
-            "3Q",
-            "3S",
             "42",
             "43",
             "45B",
             "49A",
             "49B",
             "5-A",
-            "5-E",
             "52",
             "5B",
-            "5D",
-            "5D DWELLING",
-            "5E",
             "5F",
             "65-128",
             "65-128 MTR-1",
@@ -19129,8 +19071,7 @@
           "sourceEventIDs": [
             "688d24f7b6e72cb60f9dd7cfcfc315b9ee0efe7095b9fbf192b7ed84c8031d54",
             "bcf19e9e1cdfa38a4e5c06bd187f8daa0a99241a893d5d03dc5f39b6c01ac297",
-            "c825f2e75f5d474d32b8dfb23eb7f6140bb5f501f1d9d97b84b7134dfba16f3e",
-            "d18538afa750aaa897f6c24527b853ff6cfb2c97d20575ce9aaf31ac13e344fc"
+            "c825f2e75f5d474d32b8dfb23eb7f6140bb5f501f1d9d97b84b7134dfba16f3e"
           ],
           "sourceStatus": "Unconfirmed",
           "startedAt": null
@@ -20819,21 +20760,21 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "38dcecba34b575c4fe7fbb56fcd5a834858f9451f15006fe95bacdf2269c99b1",
+  "snapshotID": "1125d82e14be2e9a6b8c28cca42c04aa51e21cac58823270df165c5c4aee8b10",
   "source": {
-    "checkedAt": "2026-11-18T22:16:21Z",
+    "checkedAt": "2026-11-18T22:21:23Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-18T22:15:45Z",
+    "updatedAt": "2026-11-18T22:20:45Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "sourceSummary": {
     "customerCountDifference": 2,
-    "customersAffected": 25675,
-    "customersOut": 23826,
+    "customersAffected": 25656,
+    "customersOut": 23807,
     "customersRestored": 1849,
     "customersServed": 54726,
-    "eventCustomersOut": 23824,
+    "eventCustomersOut": 23805,
     "hourlyCustomersOut": [
       {
         "at": "2026-11-16T22:00:00Z",
@@ -21029,7 +20970,7 @@
       },
       {
         "at": "2026-11-18T22:00:00Z",
-        "customersOut": 23824
+        "customersOut": 23805
       }
     ],
     "locations": [
@@ -21168,7 +21109,6 @@
       "3M-1A ESTATE ST PETER",
       "3M-1A ST PETER MTR 1",
       "3R -1-2 ESTATE MARIENDAHL",
-      "3R AGNES FANCY",
       "3T ZOOTENVAAL",
       "44M MAHOGANY RUN",
       "47E KRONPRINDSENS GADE",
@@ -21373,16 +21313,6 @@
       "AGNES FANCY 21",
       "AGNES FANCY 24A",
       "AGNES FANCY 24A APT-1",
-      "AGNES FANCY 3B-1",
-      "AGNES FANCY 3C",
-      "AGNES FANCY 3D-1",
-      "AGNES FANCY 3F MTR-1",
-      "AGNES FANCY 3K",
-      "AGNES FANCY 3K-1",
-      "AGNES FANCY 3L",
-      "AGNES FANCY 3-N",
-      "AGNES FANCY 3Q",
-      "AGNES FANCY 3S",
       "AGNES FANCY 42",
       "AGNES FANCY 43",
       "AGNES FANCY 45B",
@@ -21391,11 +21321,6 @@
       "AGNES FANCY 52",
       "AGNES FANCY 5-A",
       "AGNES FANCY 5B",
-      "AGNES FANCY 5D",
-      "AGNES FANCY 5D DWELLING",
-      "AGNES FANCY 5D DWN",
-      "AGNES FANCY 5E",
-      "AGNES FANCY 5-E",
       "AGNES FANCY 5F",
       "AGNES FANCY 65-128",
       "AGNES FANCY 65-128 MTR-1",
@@ -27629,7 +27554,6 @@
       "EST ADRIAN 13",
       "EST ADRIAN 3-3",
       "EST ADRIAN 5 REMAINDER",
-      "EST AGNES FANCY 5H",
       "EST ALTONA & WELGUNST",
       "EST ALTONA & WELGUNST 150",
       "EST ALTONA & WELGUNST 154",
@@ -39179,8 +39103,8 @@
       "ZUERIENDENHEIT",
       "ZUFRIDENHEIT 1"
     ],
-    "totalOutages": 30
+    "totalOutages": 29
   },
   "staleAfterSeconds": 900,
-  "unassignedEventCount": 27
+  "unassignedEventCount": 26
 }
