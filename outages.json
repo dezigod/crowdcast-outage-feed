@@ -6291,6 +6291,36 @@
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
+      "id": "8bf2b1c60194fb7a3db9e83e02a90fdd0a6244281f5b23f6835d043a60d1409a",
+      "island": "stCroix",
+      "locations": [
+        "JUDITH'S FANCY",
+        "JUDITHS FANCY 52",
+        "JUDITHS FANCY 60-F",
+        "JUDITHS FANCY 84"
+      ],
+      "modifiedAt": "2026-11-18T21:11:13Z",
+      "name": "T-C-24670",
+      "neighborhoodIDs": [
+        "stCroix-judiths-fancy"
+      ],
+      "point": {
+        "latitude": 17.773825851197316,
+        "longitude": -64.74183304459802
+      },
+      "reportedCustomersInitially": 4,
+      "reportedCustomersOut": 4,
+      "reportedCustomersRestored": 0,
+      "sourceStatus": "Predicted",
+      "startedAt": "2026-11-18T21:10:36Z",
+      "verified": false,
+      "workStatus": null
+    },
+    {
+      "cause": null,
+      "crewAssigned": false,
+      "endedAt": null,
+      "estimatedRestoration": null,
       "id": "99b385a3fb243e16adeaf024e0bcefc701a89e7c971a6f7e66f49bc3e83dbe2f",
       "island": null,
       "locations": [
@@ -22524,7 +22554,7 @@
       "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-18T21:10:51Z",
+  "generatedAt": "2026-11-18T21:15:53Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -24686,6 +24716,23 @@
         {
           "affectedCustomers": null,
           "estimatedRestoration": null,
+          "id": "stCroix-judiths-fancy",
+          "island": "stCroix",
+          "locations": [
+            "52",
+            "60-F",
+            "84"
+          ],
+          "name": "Judith\u2019s Fancy",
+          "sourceEventIDs": [
+            "8bf2b1c60194fb7a3db9e83e02a90fdd0a6244281f5b23f6835d043a60d1409a"
+          ],
+          "sourceStatus": "Predicted",
+          "startedAt": "2026-11-18T21:10:36Z"
+        },
+        {
+          "affectedCustomers": null,
+          "estimatedRestoration": null,
           "id": "stCroix-pump-garden",
           "island": "stCroix",
           "locations": [
@@ -24760,21 +24807,21 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "6e0f7f49996210c24b9ace67fc45c541436fdb2d9df713074f0b3fa46971d148",
+  "snapshotID": "9ff4ec6caf0835c42a48b01900d12e85703a035733fe1bf5db5299a93b753670",
   "source": {
-    "checkedAt": "2026-11-18T21:10:51Z",
+    "checkedAt": "2026-11-18T21:15:53Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-18T21:10:47Z",
+    "updatedAt": "2026-11-18T21:15:46Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "sourceSummary": {
     "customerCountDifference": 2,
-    "customersAffected": 28246,
-    "customersOut": 28246,
+    "customersAffected": 28250,
+    "customersOut": 28250,
     "customersRestored": 0,
     "customersServed": 54726,
-    "eventCustomersOut": 28244,
+    "eventCustomersOut": 28248,
     "hourlyCustomersOut": [
       {
         "at": "2026-11-16T21:00:00Z",
@@ -24970,7 +25017,7 @@
       },
       {
         "at": "2026-11-18T21:00:00Z",
-        "customersOut": 28244
+        "customersOut": 28248
       }
     ],
     "locations": [
@@ -39126,6 +39173,10 @@
       "JOSEPH & ROSENDHAL 9G-C",
       "JOSEPH AUBAIN BALL PARK",
       "JOSPEH & ROSENDAHL 3-20",
+      "JUDITH'S FANCY",
+      "JUDITHS FANCY 52",
+      "JUDITHS FANCY 60-F",
+      "JUDITHS FANCY 84",
       "KANAL GADE",
       "KANAL GADE 2",
       "KANAL GADE 3",
@@ -46480,7 +46531,7 @@
       "ZUERIENDENHEIT",
       "ZUFRIDENHEIT 1"
     ],
-    "totalOutages": 33
+    "totalOutages": 34
   },
   "staleAfterSeconds": 900,
   "unassignedEventCount": 30
