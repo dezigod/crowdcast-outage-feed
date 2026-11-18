@@ -1496,35 +1496,6 @@
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
-      "id": "912cdc99742214f710962c2eff07f380a959a62fcefd97c9550081cc512ffaa9",
-      "island": null,
-      "locations": [
-        "BOLONGO HILL 60Q",
-        "BOLONGO HILL 60-Q UP",
-        "FRENCHMAN'S BAY 14-65 UP",
-        "FRENCHMAN'S BAY 14-66A",
-        "FRENCHMAN'S BAY 14-66B"
-      ],
-      "modifiedAt": "2026-11-17T23:28:50Z",
-      "name": "T-T-03917",
-      "neighborhoodIDs": [],
-      "point": {
-        "latitude": 18.324066351271426,
-        "longitude": -64.90130561784255
-      },
-      "reportedCustomersInitially": 8,
-      "reportedCustomersOut": 8,
-      "reportedCustomersRestored": 0,
-      "sourceStatus": "Predicted",
-      "startedAt": "2026-11-17T23:28:29Z",
-      "verified": false,
-      "workStatus": null
-    },
-    {
-      "cause": null,
-      "crewAssigned": false,
-      "endedAt": null,
-      "estimatedRestoration": null,
       "id": "a7622fe5ec3f7460243d64545ddffb42dc3c534b3876e2c938737688abde9c58",
       "island": "stThomas",
       "locations": [
@@ -4359,7 +4330,7 @@
       "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-17T23:55:30Z",
+  "generatedAt": "2026-11-18T00:00:31Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -4836,21 +4807,21 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "de821a10a80f5d3795d0abcb977123befb17aa3a4a8f623cf866d31ef5ad9ab6",
+  "snapshotID": "290b40e47c7eb4187cef50f4780f175f3e59b8c6d37c3b0900176f94ce50d333",
   "source": {
-    "checkedAt": "2026-11-17T23:55:30Z",
+    "checkedAt": "2026-11-18T00:00:31Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-17T23:50:38Z",
+    "updatedAt": "2026-11-17T23:55:38Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "sourceSummary": {
     "customerCountDifference": 2,
-    "customersAffected": 5239,
-    "customersOut": 5239,
+    "customersAffected": 5231,
+    "customersOut": 5231,
     "customersRestored": 0,
     "customersServed": 54726,
-    "eventCustomersOut": 5237,
+    "eventCustomersOut": 5229,
     "hourlyCustomersOut": [
       {
         "at": "2026-11-15T23:00:00Z",
@@ -5046,7 +5017,7 @@
       },
       {
         "at": "2026-11-17T23:00:00Z",
-        "customersOut": 8578
+        "customersOut": 8570
       }
     ],
     "locations": [
@@ -5471,8 +5442,6 @@
       "BAY HIGH",
       "BENNER HILL NAZ RD/TRAFFI",
       "BENNER HILL/COMMUNICATION",
-      "BOLONGO HILL 60Q",
-      "BOLONGO HILL 60-Q UP",
       "BONN RESOLUTION 14-47",
       "BONNE ESPERANCE 2-3 MTR 1",
       "BONNE RESLOUTION 14-3",
@@ -6753,9 +6722,6 @@
       "ESTATE ST PETER 7-6",
       "ESTATE ST PETER 9H & 9J",
       "ESTATE ST. PETER 3CD-B",
-      "FRENCHMAN'S BAY 14-65 UP",
-      "FRENCHMAN'S BAY 14-66A",
-      "FRENCHMAN'S BAY 14-66B",
       "FRYDENDAHL 56-16 MTR-C",
       "FRYDENHOJ",
       "FRYDENHOJ #1-19",
@@ -9107,8 +9073,8 @@
       "ZUERIENDENHEIT",
       "ZUFRIDENHEIT 1"
     ],
-    "totalOutages": 12
+    "totalOutages": 11
   },
   "staleAfterSeconds": 900,
-  "unassignedEventCount": 9
+  "unassignedEventCount": 8
 }
