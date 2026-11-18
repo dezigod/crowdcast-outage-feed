@@ -6,31 +6,6 @@
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
-      "id": "02ad80ca369fa3c06f49be69764d5174e852de152c2257606b0becd2586b3c67",
-      "island": null,
-      "locations": [
-        "NORTH GRAPETREE 25"
-      ],
-      "modifiedAt": "2026-11-16T13:52:20Z",
-      "name": "182898",
-      "neighborhoodIDs": [],
-      "point": {
-        "latitude": 17.75169229940298,
-        "longitude": -64.59257918787193
-      },
-      "reportedCustomersInitially": 1,
-      "reportedCustomersOut": 1,
-      "reportedCustomersRestored": 0,
-      "sourceStatus": "Verified",
-      "startedAt": "2026-11-16T13:43:26Z",
-      "verified": true,
-      "workStatus": null
-    },
-    {
-      "cause": null,
-      "crewAssigned": false,
-      "endedAt": null,
-      "estimatedRestoration": null,
       "id": "114334c01aa87b660788dbcd897dba52abaccf25d73a80313b285103c5d75502",
       "island": null,
       "locations": [
@@ -2589,72 +2564,6 @@
       "workStatus": null
     },
     {
-      "cause": "000 Power supply",
-      "crewAssigned": false,
-      "endedAt": null,
-      "estimatedRestoration": null,
-      "id": "bfc600ec411fdb36b7313b12e9d09c0a7608df8e27ee8dbe563eab09f374a6c1",
-      "island": null,
-      "locations": [
-        "3ABB CRUZ BAY",
-        "3FD & 3FE CRUZ BAY",
-        "3FD & FE CRUZ BAY",
-        "3FD & FE ESTATE ENIGHED",
-        "3FD &3FE",
-        "3FD CRUZ BAY APT# 2",
-        "86&86A CRUZ BAY B-B U-301",
-        "BAY STREET GRAND BAY",
-        "CRUZ BAY 18-5",
-        "CRUZ BAY 3ABB LAVNDR HILL",
-        "CRUZ BAY 3ABB-3 UNIT E-7",
-        "CRUZ BAY 3FD & 3FE MTR 3A",
-        "CRUZ BAY 3FD/3FE MTR 2A",
-        "CRUZ BAY 3FD/3FE MTR 2B",
-        "CRUZ BAY 3FD/3FE MTR 2D",
-        "CRUZ BAY 3FD/3FE MTR 3BC",
-        "CRUZ BAY 3FD/3FE MTR 3DE",
-        "CRUZ BAY 3FD/3FE MTR 4AC",
-        "CRUZ BAY 3FD/3FE MTR 4B5A",
-        "CRUZ BAY 3FD/3FE MTR L1A",
-        "CRUZ BAY 3FD/3FE MTR L1D",
-        "CRUZ BAY 86",
-        "CRUZ BAY 86 & 86A B-A",
-        "CRUZ BAY 86 & 86A B-B",
-        "CRUZ BAY 86 B-A",
-        "CRUZ BAY 86 B-A U-101",
-        "CRUZ BAY 86 B-A-PO1",
-        "CRUZ BAY 86 B-B",
-        "CRUZ BAY 86 B-B U-P02",
-        "CRUZ BAY 86 B-B-U-PO1",
-        "CRUZ BAY 86-3 86-4",
-        "CRUZ BAY 86A-3&4 BLDG-E",
-        "CRUZ BAY 86B-B",
-        "CRUZ BAY 86B-C",
-        "CRUZ BAY 86B-D",
-        "CRUZ BAY TOWN 86 B-C",
-        "CRUZ BAY TOWN B-C",
-        "ENIGHED 18-3",
-        "ENIGHED 3AAA",
-        "EST ENIGHED 3ABB E",
-        "GALLOWS POINT 3AA",
-        "LAVENDER HILL CONDO 8E"
-      ],
-      "modifiedAt": "2026-11-18T15:39:49Z",
-      "name": "Feeder 08E",
-      "neighborhoodIDs": [],
-      "point": {
-        "latitude": 18.331137790349306,
-        "longitude": -64.79510660745052
-      },
-      "reportedCustomersInitially": 76,
-      "reportedCustomersOut": 76,
-      "reportedCustomersRestored": 0,
-      "sourceStatus": "Verified",
-      "startedAt": "2026-11-18T14:49:00Z",
-      "verified": true,
-      "workStatus": null
-    },
-    {
       "cause": null,
       "crewAssigned": false,
       "endedAt": null,
@@ -2709,7 +2618,7 @@
       "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-18T15:45:33Z",
+  "generatedAt": "2026-11-18T15:50:35Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -2825,21 +2734,21 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "3a286359c394452c14a979c8a8e50babaa539a18f04c4cb49cc7886656a21fff",
+  "snapshotID": "f00e1eb628953f5b5630ac168370e5d7dcc9a78ee89eb3f5f3358fe0c853b247",
   "source": {
-    "checkedAt": "2026-11-18T15:45:33Z",
+    "checkedAt": "2026-11-18T15:50:35Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-18T15:40:38Z",
+    "updatedAt": "2026-11-18T15:45:38Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "sourceSummary": {
     "customerCountDifference": 2,
-    "customersAffected": 2831,
-    "customersOut": 2831,
+    "customersAffected": 2754,
+    "customersOut": 2754,
     "customersRestored": 0,
     "customersServed": 54726,
-    "eventCustomersOut": 2829,
+    "eventCustomersOut": 2752,
     "hourlyCustomersOut": [
       {
         "at": "2026-11-16T15:00:00Z",
@@ -2855,187 +2764,187 @@
       },
       {
         "at": "2026-11-16T18:00:00Z",
-        "customersOut": 5744
+        "customersOut": 5743
       },
       {
         "at": "2026-11-16T19:00:00Z",
-        "customersOut": 1098
+        "customersOut": 1097
       },
       {
         "at": "2026-11-16T20:00:00Z",
-        "customersOut": 10040
+        "customersOut": 10039
       },
       {
         "at": "2026-11-16T21:00:00Z",
-        "customersOut": 6617
+        "customersOut": 6616
       },
       {
         "at": "2026-11-16T22:00:00Z",
-        "customersOut": 10950
+        "customersOut": 10949
       },
       {
         "at": "2026-11-16T23:00:00Z",
-        "customersOut": 4345
+        "customersOut": 4344
       },
       {
         "at": "2026-11-17T00:00:00Z",
-        "customersOut": 7208
+        "customersOut": 7207
       },
       {
         "at": "2026-11-17T01:00:00Z",
-        "customersOut": 2799
+        "customersOut": 2798
       },
       {
         "at": "2026-11-17T02:00:00Z",
-        "customersOut": 4210
+        "customersOut": 4209
       },
       {
         "at": "2026-11-17T03:00:00Z",
-        "customersOut": 2508
+        "customersOut": 2507
       },
       {
         "at": "2026-11-17T04:00:00Z",
-        "customersOut": 11
+        "customersOut": 10
       },
       {
         "at": "2026-11-17T05:00:00Z",
-        "customersOut": 11
+        "customersOut": 10
       },
       {
         "at": "2026-11-17T06:00:00Z",
-        "customersOut": 11
+        "customersOut": 10
       },
       {
         "at": "2026-11-17T07:00:00Z",
-        "customersOut": 11
+        "customersOut": 10
       },
       {
         "at": "2026-11-17T08:00:00Z",
-        "customersOut": 11
+        "customersOut": 10
       },
       {
         "at": "2026-11-17T09:00:00Z",
-        "customersOut": 11
+        "customersOut": 10
       },
       {
         "at": "2026-11-17T10:00:00Z",
-        "customersOut": 11
+        "customersOut": 10
       },
       {
         "at": "2026-11-17T11:00:00Z",
-        "customersOut": 11
+        "customersOut": 10
       },
       {
         "at": "2026-11-17T12:00:00Z",
-        "customersOut": 2319
+        "customersOut": 2318
       },
       {
         "at": "2026-11-17T13:00:00Z",
-        "customersOut": 2268
+        "customersOut": 2267
       },
       {
         "at": "2026-11-17T14:00:00Z",
-        "customersOut": 7115
+        "customersOut": 7114
       },
       {
         "at": "2026-11-17T15:00:00Z",
-        "customersOut": 8232
+        "customersOut": 8231
       },
       {
         "at": "2026-11-17T16:00:00Z",
-        "customersOut": 8235
+        "customersOut": 8234
       },
       {
         "at": "2026-11-17T17:00:00Z",
-        "customersOut": 9660
+        "customersOut": 9659
       },
       {
         "at": "2026-11-17T18:00:00Z",
-        "customersOut": 6036
+        "customersOut": 6035
       },
       {
         "at": "2026-11-17T19:00:00Z",
-        "customersOut": 6185
+        "customersOut": 6184
       },
       {
         "at": "2026-11-17T20:00:00Z",
-        "customersOut": 3357
+        "customersOut": 3356
       },
       {
         "at": "2026-11-17T21:00:00Z",
-        "customersOut": 2272
+        "customersOut": 2271
       },
       {
         "at": "2026-11-17T22:00:00Z",
-        "customersOut": 10816
+        "customersOut": 10815
       },
       {
         "at": "2026-11-17T23:00:00Z",
-        "customersOut": 8558
+        "customersOut": 8557
       },
       {
         "at": "2026-11-18T00:00:00Z",
-        "customersOut": 9505
+        "customersOut": 9504
       },
       {
         "at": "2026-11-18T01:00:00Z",
-        "customersOut": 6465
+        "customersOut": 6464
       },
       {
         "at": "2026-11-18T02:00:00Z",
-        "customersOut": 4253
+        "customersOut": 4252
       },
       {
         "at": "2026-11-18T03:00:00Z",
-        "customersOut": 2177
+        "customersOut": 2176
       },
       {
         "at": "2026-11-18T04:00:00Z",
-        "customersOut": 23
+        "customersOut": 22
       },
       {
         "at": "2026-11-18T05:00:00Z",
-        "customersOut": 23
+        "customersOut": 22
       },
       {
         "at": "2026-11-18T06:00:00Z",
-        "customersOut": 23
+        "customersOut": 22
       },
       {
         "at": "2026-11-18T07:00:00Z",
-        "customersOut": 23
+        "customersOut": 22
       },
       {
         "at": "2026-11-18T08:00:00Z",
-        "customersOut": 23
+        "customersOut": 22
       },
       {
         "at": "2026-11-18T09:00:00Z",
-        "customersOut": 23
+        "customersOut": 22
       },
       {
         "at": "2026-11-18T10:00:00Z",
-        "customersOut": 23
+        "customersOut": 22
       },
       {
         "at": "2026-11-18T11:00:00Z",
-        "customersOut": 23
+        "customersOut": 22
       },
       {
         "at": "2026-11-18T12:00:00Z",
-        "customersOut": 2361
+        "customersOut": 2360
       },
       {
         "at": "2026-11-18T13:00:00Z",
-        "customersOut": 2361
+        "customersOut": 2360
       },
       {
         "at": "2026-11-18T14:00:00Z",
-        "customersOut": 5182
+        "customersOut": 5181
       },
       {
         "at": "2026-11-18T15:00:00Z",
-        "customersOut": 3220
+        "customersOut": 3219
       }
     ],
     "locations": [
@@ -3048,12 +2957,6 @@
       "16EB MANDAHL",
       "27-I BOLONGO",
       "2B&2C EST THOMAS",
-      "3ABB CRUZ BAY",
-      "3FD & 3FE CRUZ BAY",
-      "3FD & FE CRUZ BAY",
-      "3FD & FE ESTATE ENIGHED",
-      "3FD &3FE",
-      "3FD CRUZ BAY APT# 2",
       "3M BAKKERO",
       "3T ZOOTENVAAL",
       "4A ST QUACCO & ZIMMERMAN",
@@ -3070,7 +2973,6 @@
       "6F ESTATE THOMAS NEW QTR",
       "6H CAROLINA",
       "6-H CAROLINA",
-      "86&86A CRUZ BAY B-B U-301",
       "8A EST BOVONI",
       "ABD CRUZ BAY TOWN",
       "ABRAHAMS FANCY 3A-9",
@@ -3188,7 +3090,6 @@
       "BAKKERRO 1-61 UP",
       "BATTERY HILL 3AD",
       "BAY A SHOP BUILDING V",
-      "BAY STREET GRAND BAY",
       "BELLEVIEW 7",
       "BELLEVUE",
       "BELLEVUE #16",
@@ -3905,7 +3806,6 @@
       "CRUZ BAY 12C (APT C2)",
       "CRUZ BAY 12C-A2",
       "CRUZ BAY 18-38 1 ZONE D",
-      "CRUZ BAY 18-5",
       "CRUZ BAY 1A",
       "CRUZ BAY 1-A",
       "CRUZ BAY 1A COOL BREEZE",
@@ -3931,12 +3831,10 @@
       "CRUZ BAY 3",
       "CRUZ BAY 3 FB-B",
       "CRUZ BAY 3-ABB",
-      "CRUZ BAY 3ABB LAVNDR HILL",
       "CRUZ BAY 3ABB W-1",
       "CRUZ BAY 3-ABB W-2",
       "CRUZ BAY 3ABB-2",
       "CRUZ BAY 3ABB-3",
-      "CRUZ BAY 3ABB-3 UNIT E-7",
       "CRUZ BAY 3-ABG MTR 1",
       "CRUZ BAY 3-ABH",
       "CRUZ BAY 3-AD (2)",
@@ -3945,16 +3843,6 @@
       "CRUZ BAY 3-AD (OFFICE)",
       "CRUZ BAY 3AD-1D BATT HILL",
       "CRUZ BAY 3FA",
-      "CRUZ BAY 3FD & 3FE MTR 3A",
-      "CRUZ BAY 3FD/3FE MTR 2A",
-      "CRUZ BAY 3FD/3FE MTR 2B",
-      "CRUZ BAY 3FD/3FE MTR 2D",
-      "CRUZ BAY 3FD/3FE MTR 3BC",
-      "CRUZ BAY 3FD/3FE MTR 3DE",
-      "CRUZ BAY 3FD/3FE MTR 4AC",
-      "CRUZ BAY 3FD/3FE MTR 4B5A",
-      "CRUZ BAY 3FD/3FE MTR L1A",
-      "CRUZ BAY 3FD/3FE MTR L1D",
       "CRUZ BAY 3GA #1 UP",
       "CRUZ BAY 3GA #2 DOWN",
       "CRUZ BAY 3GA-1",
@@ -4023,21 +3911,7 @@
       "CRUZ BAY 74-A (GAME ROOM)",
       "CRUZ BAY 74-A*",
       "CRUZ BAY 82",
-      "CRUZ BAY 86",
-      "CRUZ BAY 86 & 86A B-A",
-      "CRUZ BAY 86 & 86A B-B",
-      "CRUZ BAY 86 B-A",
-      "CRUZ BAY 86 B-A U-101",
-      "CRUZ BAY 86 B-A-PO1",
-      "CRUZ BAY 86 B-B",
-      "CRUZ BAY 86 B-B U-P02",
-      "CRUZ BAY 86 B-B-U-PO1",
-      "CRUZ BAY 86-3 86-4",
-      "CRUZ BAY 86A-3&4 BLDG-E",
       "CRUZ BAY 86AA",
-      "CRUZ BAY 86B-B",
-      "CRUZ BAY 86B-C",
-      "CRUZ BAY 86B-D",
       "CRUZ BAY 91",
       "CRUZ BAY 91 MTR 2",
       "CRUZ BAY 91 MTR 3",
@@ -4065,8 +3939,6 @@
       "CRUZ BAY ST JOHN",
       "CRUZ BAY SUITE 4A",
       "CRUZ BAY TOWN 3-ABF",
-      "CRUZ BAY TOWN 86 B-C",
-      "CRUZ BAY TOWN B-C",
       "CRUZ BAY VC 130",
       "CRUZ BAY VC 130A/RESTROOM",
       "DENIS BAY #1-Q",
@@ -4147,7 +4019,6 @@
       "ENIGHED 18-2 (METER 2)",
       "ENIGHED 18-2 (METER 3)",
       "ENIGHED 18-2 (METER 4)",
-      "ENIGHED 18-3",
       "ENIGHED 18-32",
       "ENIGHED 18-33",
       "ENIGHED 18-35",
@@ -4182,7 +4053,6 @@
       "ENIGHED 229",
       "ENIGHED 237-239",
       "ENIGHED 238",
-      "ENIGHED 3AAA",
       "ENIGHED 3ABB",
       "ENIGHED 86A B",
       "ENIGHED CON 191 192 U 1",
@@ -4245,7 +4115,6 @@
       "EST EMMAUS B-1",
       "EST ENIGHED 18-10-18-37",
       "EST ENIGHED 228",
-      "EST ENIGHED 3ABB E",
       "EST FORTSBERG 15E-3",
       "EST FRENCHMANS BAY 14-38",
       "EST FRENCHMAN'S BAY 16-58",
@@ -4925,7 +4794,6 @@
       "FRENMANS BAY HOUSE",
       "FRIIS 5C-2",
       "FRIIS ST JOHN",
-      "GALLOWS POINT 3AA",
       "GREAT S E QRTS",
       "HANSEN BAY \"\"B\"\"",
       "HANSEN BAY 1-A-2",
@@ -5112,7 +4980,6 @@
       "JOHNS FOLLY 2-8",
       "JOHNS FOLLY 90-J",
       "JOHNS FOLLY C",
-      "LAVENDER HILL CONDO 8E",
       "LERKENLUND 9D-1-2",
       "LIND POINT",
       "LIND POINT RD",
@@ -5167,7 +5034,6 @@
       "NAZARETH 2W-45",
       "NAZARETH 2-W-76-3",
       "NO. 5 FREENMANS GROUND",
-      "NORTH GRAPETREE 25",
       "NORTH SHORE ROAD CANEEL",
       "P M P B-21",
       "P M P GAR B-21 A-164",
@@ -5400,8 +5266,8 @@
       "ZOOTENVAAL 3Q (MTR 1)",
       "ZOOTENVAAL 3T"
     ],
-    "totalOutages": 14
+    "totalOutages": 12
   },
   "staleAfterSeconds": 900,
-  "unassignedEventCount": 11
+  "unassignedEventCount": 9
 }
