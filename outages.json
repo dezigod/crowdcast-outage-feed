@@ -2206,43 +2206,6 @@
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
-      "id": "2018d9612e0b1e1a4cef7df889aeb3a498e3276752de2101b1d49056e5ddd1c7",
-      "island": null,
-      "locations": [
-        "GLYNN",
-        "GLYNN 116",
-        "GLYNN 118-A",
-        "GLYNN 118-B",
-        "GLYNN 120",
-        "GLYNN 121",
-        "GLYNN 36",
-        "GLYNN 40",
-        "GLYNN 40 APT-A",
-        "GLYNN 40 APT-C",
-        "GLYNN 40-A",
-        "GLYNN 42",
-        "GLYNN 44"
-      ],
-      "modifiedAt": "2026-11-18T12:34:17Z",
-      "name": "T-C-14101",
-      "neighborhoodIDs": [],
-      "point": {
-        "latitude": 17.7477987079739,
-        "longitude": -64.77572456364264
-      },
-      "reportedCustomersInitially": 15,
-      "reportedCustomersOut": 15,
-      "reportedCustomersRestored": 0,
-      "sourceStatus": "Predicted",
-      "startedAt": "2026-11-18T12:33:49Z",
-      "verified": false,
-      "workStatus": null
-    },
-    {
-      "cause": null,
-      "crewAssigned": false,
-      "endedAt": null,
-      "estimatedRestoration": null,
       "id": "330eef19265b11cf3fd1172c88c28644fe77bfdb04f54f33e6289f8857263ca3",
       "island": null,
       "locations": [
@@ -2429,7 +2392,7 @@
       "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-18T12:36:29Z",
+  "generatedAt": "2026-11-18T12:41:31Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -2516,21 +2479,21 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "320419a44eac6f0277bf417f0fcd64a95bebc9329a32874bee870cfe8e5fdc2b",
+  "snapshotID": "e07ecfeaf2921d1aa1ffeab9d8c4c86884586b193605e13eba7da14da47e075b",
   "source": {
-    "checkedAt": "2026-11-18T12:36:29Z",
+    "checkedAt": "2026-11-18T12:41:31Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-18T12:35:38Z",
+    "updatedAt": "2026-11-18T12:40:38Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "sourceSummary": {
     "customerCountDifference": 2,
-    "customersAffected": 2307,
-    "customersOut": 2307,
+    "customersAffected": 2292,
+    "customersOut": 2292,
     "customersRestored": 0,
     "customersServed": 54726,
-    "eventCustomersOut": 2305,
+    "eventCustomersOut": 2290,
     "hourlyCustomersOut": [
       {
         "at": "2026-11-16T12:00:00Z",
@@ -2726,7 +2689,7 @@
       },
       {
         "at": "2026-11-18T12:00:00Z",
-        "customersOut": 2305
+        "customersOut": 2290
       }
     ],
     "locations": [
@@ -4431,19 +4394,6 @@
       "GLUCKSBERG 9-9 (DOWN)",
       "GLUCKSBERG 9-9 (UP)",
       "GLUCKSBERG PCL 6",
-      "GLYNN",
-      "GLYNN 116",
-      "GLYNN 118-A",
-      "GLYNN 118-B",
-      "GLYNN 120",
-      "GLYNN 121",
-      "GLYNN 36",
-      "GLYNN 40",
-      "GLYNN 40 APT-A",
-      "GLYNN 40 APT-C",
-      "GLYNN 40-A",
-      "GLYNN 42",
-      "GLYNN 44",
       "GREAT CRUZ BAY 260 (5)",
       "GREAT CRUZ BAY 260 (6)",
       "GREAT CRUZ BAY 260 (9)",
@@ -4886,8 +4836,8 @@
       "SUZANNABERG 2-3 HOUSE",
       "VIRGIN GRAND EST #71"
     ],
-    "totalOutages": 11
+    "totalOutages": 10
   },
   "staleAfterSeconds": 900,
-  "unassignedEventCount": 8
+  "unassignedEventCount": 7
 }
