@@ -6231,33 +6231,6 @@
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
-      "id": "7814cf9322a48b31d77a0e337271c6ae3a603030a53bc6906123e46530a4c3f7",
-      "island": null,
-      "locations": [
-        "LITTLE PRINCESS 52 BLDG-C",
-        "LITTLE PRINCESS 52A",
-        "LITTLE PRINCESS 52-A TRL"
-      ],
-      "modifiedAt": "2026-11-18T19:29:30Z",
-      "name": "T-C-09493",
-      "neighborhoodIDs": [],
-      "point": {
-        "latitude": 17.75731413156936,
-        "longitude": -64.72567277427936
-      },
-      "reportedCustomersInitially": 3,
-      "reportedCustomersOut": 3,
-      "reportedCustomersRestored": 0,
-      "sourceStatus": "Predicted",
-      "startedAt": "2026-11-18T19:29:02Z",
-      "verified": false,
-      "workStatus": null
-    },
-    {
-      "cause": null,
-      "crewAssigned": false,
-      "endedAt": null,
-      "estimatedRestoration": null,
       "id": "84b9337430932c19e281c02034c27b28d5a1fb47502d2602fd67b5a16571852f",
       "island": null,
       "locations": [
@@ -22516,7 +22489,7 @@
       "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-18T19:36:07Z",
+  "generatedAt": "2026-11-18T19:41:09Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -24752,21 +24725,21 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "fb5694912d5ae711a95e750d30243b8e49e24a185c5b10e9c50bbddcb0296808",
+  "snapshotID": "a500b8432a93a0fdfedd47dbc23845ce39cb3c2fe8588db69f3416680bbdeed3",
   "source": {
-    "checkedAt": "2026-11-18T19:36:07Z",
+    "checkedAt": "2026-11-18T19:41:09Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-18T19:35:46Z",
+    "updatedAt": "2026-11-18T19:40:46Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "sourceSummary": {
     "customerCountDifference": 2,
-    "customersAffected": 28236,
-    "customersOut": 28236,
+    "customersAffected": 28233,
+    "customersOut": 28233,
     "customersRestored": 0,
     "customersServed": 54726,
-    "eventCustomersOut": 28234,
+    "eventCustomersOut": 28231,
     "hourlyCustomersOut": [
       {
         "at": "2026-11-16T19:00:00Z",
@@ -24962,7 +24935,7 @@
       },
       {
         "at": "2026-11-18T19:00:00Z",
-        "customersOut": 28411
+        "customersOut": 28408
       }
     ],
     "locations": [
@@ -40120,9 +40093,6 @@
       "LITTLE PLANTATION 4E",
       "LITTLE PLANTATION 4E*",
       "LITTLE PLANTATION 4E**",
-      "LITTLE PRINCESS 52 BLDG-C",
-      "LITTLE PRINCESS 52A",
-      "LITTLE PRINCESS 52-A TRL",
       "LITTLE ST. JAMES ISLAND",
       "L'LUND MAHOGANY RN UPPER",
       "LOCKHART GARDENS 4 & 5",
@@ -46464,8 +46434,8 @@
       "ZUERIENDENHEIT",
       "ZUFRIDENHEIT 1"
     ],
-    "totalOutages": 33
+    "totalOutages": 32
   },
   "staleAfterSeconds": 900,
-  "unassignedEventCount": 30
+  "unassignedEventCount": 29
 }
