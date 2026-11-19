@@ -1198,6 +1198,36 @@
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
+      "id": "8022d80ed19f0c440cb6fe7cc61c9f5ef181dd234d953aab2e6dc0b405c08bc5",
+      "island": null,
+      "locations": [
+        "LILLIE & MARIENHOJ 10-2-1",
+        "LILLIEN & MARIEN 10-2-26",
+        "LILLIEN & MARIENH 10-2-6",
+        "LILLIEND & MARIEN 10-2-6",
+        "LILLIENDAHL & MARIE 10-2-",
+        "LILLIENDAHL & MARIENHOJ"
+      ],
+      "modifiedAt": "2026-11-19T00:20:48Z",
+      "name": "T-T-02179",
+      "neighborhoodIDs": [],
+      "point": {
+        "latitude": 18.354313584464848,
+        "longitude": -64.95028274975547
+      },
+      "reportedCustomersInitially": 9,
+      "reportedCustomersOut": 9,
+      "reportedCustomersRestored": 0,
+      "sourceStatus": "Predicted",
+      "startedAt": "2026-11-19T00:20:27Z",
+      "verified": false,
+      "workStatus": null
+    },
+    {
+      "cause": null,
+      "crewAssigned": false,
+      "endedAt": null,
+      "estimatedRestoration": null,
       "id": "84b9337430932c19e281c02034c27b28d5a1fb47502d2602fd67b5a16571852f",
       "island": null,
       "locations": [
@@ -10721,7 +10751,7 @@
       "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-19T00:21:21Z",
+  "generatedAt": "2026-11-19T00:26:23Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -12348,21 +12378,21 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "7ba7f870f1ef5d00a3e717843770d5c0de7a3dca9d93baf22556713655c47774",
+  "snapshotID": "eba1bbe444ea19467af99b1b7eb2e5af3fa6a93588b0ac58be05834a8a663743",
   "source": {
-    "checkedAt": "2026-11-19T00:21:21Z",
+    "checkedAt": "2026-11-19T00:26:23Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-19T00:20:43Z",
+    "updatedAt": "2026-11-19T00:25:44Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "sourceSummary": {
     "customerCountDifference": 2,
-    "customersAffected": 14495,
-    "customersOut": 12646,
+    "customersAffected": 14504,
+    "customersOut": 12655,
     "customersRestored": 1849,
     "customersServed": 54726,
-    "eventCustomersOut": 12644,
+    "eventCustomersOut": 12653,
     "hourlyCustomersOut": [
       {
         "at": "2026-11-17T00:00:00Z",
@@ -12558,7 +12588,7 @@
       },
       {
         "at": "2026-11-19T00:00:00Z",
-        "customersOut": 15065
+        "customersOut": 15074
       }
     ],
     "locations": [
@@ -18896,11 +18926,16 @@
       "LILLENDAHL & MAR",
       "LILLENDAHL & MARIEN 12A-2",
       "LILLIANDAHL & MARI 11B-D",
+      "LILLIE & MARIENHOJ 10-2-1",
+      "LILLIEN & MARIEN 10-2-26",
       "LILLIEN & MARIEN 9-1-A",
       "LILLIEN & MARIENH 10-2-16",
+      "LILLIEN & MARIENH 10-2-6",
+      "LILLIEND & MARIEN 10-2-6",
       "LILLIEND/MARIENHO 10-2-15",
       "LILLIENDAH & MARIEN",
       "LILLIENDAH & MARIENHOJ 8A",
+      "LILLIENDAHL & MARIE 10-2-",
       "LILLIENDAHL & MARIEN 10-2",
       "LILLIENDAHL & MARIEN 11-4",
       "LILLIENDAHL & MARIEN 12A1",
@@ -22687,8 +22722,8 @@
       "ZUERIENDENHEIT",
       "ZUFRIDENHEIT 1"
     ],
-    "totalOutages": 23
+    "totalOutages": 24
   },
   "staleAfterSeconds": 900,
-  "unassignedEventCount": 19
+  "unassignedEventCount": 20
 }
