@@ -37,6 +37,34 @@
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
+      "id": "173c41c867579a1b7c3938cae157c84b98577c23cb076fdcc45b7fd5b935a789",
+      "island": null,
+      "locations": [
+        "HANSEN BAY 6-0-5",
+        "HAULOVER",
+        "HAULOVER 5D-3-2",
+        "HAULOVER END 5-D UP"
+      ],
+      "modifiedAt": "2026-11-19T12:01:36Z",
+      "name": "T-J-00559",
+      "neighborhoodIDs": [],
+      "point": {
+        "latitude": 18.346893927632113,
+        "longitude": -64.67768539619297
+      },
+      "reportedCustomersInitially": 4,
+      "reportedCustomersOut": 4,
+      "reportedCustomersRestored": 0,
+      "sourceStatus": "Predicted",
+      "startedAt": "2026-11-19T12:01:11Z",
+      "verified": false,
+      "workStatus": null
+    },
+    {
+      "cause": null,
+      "crewAssigned": false,
+      "endedAt": null,
+      "estimatedRestoration": null,
       "id": "258c1be8116d94927a01038ab54988a9cd20bd3d4a1765cde7b11c42a8752d44",
       "island": null,
       "locations": [
@@ -300,6 +328,32 @@
       "workStatus": null
     },
     {
+      "cause": null,
+      "crewAssigned": false,
+      "endedAt": null,
+      "estimatedRestoration": null,
+      "id": "f0fd98ed887c1a27c88d09569510b505773c0488387956173a5e9efa78cfd561",
+      "island": null,
+      "locations": [
+        "CAROLINA 10-30C-1A",
+        "CAROLINA 10-30C-5"
+      ],
+      "modifiedAt": "2026-11-19T12:05:03Z",
+      "name": "T-J-03914",
+      "neighborhoodIDs": [],
+      "point": {
+        "latitude": 18.33884437569973,
+        "longitude": -64.71838654311689
+      },
+      "reportedCustomersInitially": 2,
+      "reportedCustomersOut": 2,
+      "reportedCustomersRestored": 0,
+      "sourceStatus": "Predicted",
+      "startedAt": "2026-11-19T12:04:43Z",
+      "verified": false,
+      "workStatus": null
+    },
+    {
       "cause": "000 Power supply",
       "crewAssigned": false,
       "endedAt": null,
@@ -350,7 +404,7 @@
       "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-19T12:01:04Z",
+  "generatedAt": "2026-11-19T12:06:05Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -435,21 +489,21 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "ceea1a58a5b537a0b1dd33d6e090afda7a9a81a81f20932a886f16514d76a340",
+  "snapshotID": "db5a6731102a6139fa0ccb328133a10d1783b6e65cfac0f39331c9f15863fb92",
   "source": {
-    "checkedAt": "2026-11-19T12:01:04Z",
+    "checkedAt": "2026-11-19T12:06:05Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-19T12:00:40Z",
+    "updatedAt": "2026-11-19T12:05:40Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "sourceSummary": {
     "customerCountDifference": 2,
-    "customersAffected": 1832,
-    "customersOut": 107,
+    "customersAffected": 1838,
+    "customersOut": 113,
     "customersRestored": 1725,
     "customersServed": 54726,
-    "eventCustomersOut": 105,
+    "eventCustomersOut": 111,
     "hourlyCustomersOut": [
       {
         "at": "2026-11-17T12:00:00Z",
@@ -645,7 +699,7 @@
       },
       {
         "at": "2026-11-19T12:00:00Z",
-        "customersOut": 105
+        "customersOut": 111
       }
     ],
     "locations": [
@@ -654,6 +708,8 @@
       "AGNES FANCY 5-A",
       "AGNES FANCY 5B",
       "AGNES FANCY 5F",
+      "CAROLINA 10-30C-1A",
+      "CAROLINA 10-30C-5",
       "COTTON VALLEY 111-A",
       "COTTON VALLEY 335",
       "EST NAZARETH 2W-40",
@@ -700,6 +756,10 @@
       "ESTATE THOMAS 4 REM",
       "ESTATE THOMAS 5B",
       "ESTATE THOMAS 7",
+      "HANSEN BAY 6-0-5",
+      "HAULOVER",
+      "HAULOVER 5D-3-2",
+      "HAULOVER END 5-D UP",
       "HERMAN HILL",
       "LERKENLUND 9D-1-2",
       "LOVENLUND EST FARMHOUSE",
@@ -728,8 +788,8 @@
       "SUBBASE 69",
       "UPPER LOVE"
     ],
-    "totalOutages": 11
+    "totalOutages": 13
   },
   "staleAfterSeconds": 900,
-  "unassignedEventCount": 8
+  "unassignedEventCount": 10
 }
