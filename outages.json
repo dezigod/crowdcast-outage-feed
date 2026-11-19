@@ -33,7 +33,7 @@
       "workStatus": null
     },
     {
-      "cause": null,
+      "cause": "000 Power supply",
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
@@ -1881,7 +1881,7 @@
         "WINTBERG-TRAILER",
         "WINTHBERG 1-B4 APT 303"
       ],
-      "modifiedAt": "2026-11-19T22:48:36Z",
+      "modifiedAt": "2026-11-19T23:04:12Z",
       "name": "TSW-7B-9C-MASA-B",
       "neighborhoodIDs": [
         "stThomas-donoe",
@@ -1930,7 +1930,7 @@
       "workStatus": null
     },
     {
-      "cause": null,
+      "cause": "000 Power supply",
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
@@ -3185,7 +3185,7 @@
         "WESTERN CEMENTARY",
         "WIMMELSKAFTS GADE 10"
       ],
-      "modifiedAt": "2026-11-19T23:00:34Z",
+      "modifiedAt": "2026-11-19T23:04:23Z",
       "name": "Feeder 08A",
       "neighborhoodIDs": [
         "stThomas-agnes-fancy",
@@ -3204,7 +3204,7 @@
       "workStatus": null
     },
     {
-      "cause": null,
+      "cause": "000 Power supply",
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
@@ -4263,7 +4263,7 @@
         "WHEATLEY SHOPPING CTR",
         "WHEATLEYS SHOPPING CTR"
       ],
-      "modifiedAt": "2026-11-19T22:48:36Z",
+      "modifiedAt": "2026-11-19T23:04:07Z",
       "name": "Feeder 07B",
       "neighborhoodIDs": [
         "stCroix-pump-garden"
@@ -4338,7 +4338,7 @@
       "workStatus": null
     },
     {
-      "cause": null,
+      "cause": "000 Power supply",
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
@@ -5516,7 +5516,7 @@
         "WEST INDIAN CO DOCK B-1",
         "WIC DOCK BAY BLDG-2"
       ],
-      "modifiedAt": "2026-11-19T23:00:27Z",
+      "modifiedAt": "2026-11-19T23:04:29Z",
       "name": "UGS-10B-2A-HVST-B",
       "neighborhoodIDs": [],
       "point": {
@@ -5532,7 +5532,7 @@
       "workStatus": null
     },
     {
-      "cause": null,
+      "cause": "000 Power supply",
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
@@ -7055,7 +7055,7 @@
         "WEST COND SAPP B-A",
         "WEST SAPPHIRE BAY CONDO"
       ],
-      "modifiedAt": "2026-11-19T23:00:21Z",
+      "modifiedAt": "2026-11-19T23:04:34Z",
       "name": "TSW-7C-7D-CASI-A",
       "neighborhoodIDs": [
         "stThomas-smith-bay"
@@ -7181,7 +7181,7 @@
       "workStatus": null
     },
     {
-      "cause": null,
+      "cause": "000 Power supply",
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
@@ -8242,7 +8242,7 @@
         "WIMMELSKAFTS GADE 6A(RES)",
         "WINDWARD PASSAGE/TRAFFIC"
       ],
-      "modifiedAt": "2026-11-19T22:38:15Z",
+      "modifiedAt": "2026-11-19T23:04:16Z",
       "name": "Feeder 06B",
       "neighborhoodIDs": [
         "stThomas-smith-bay"
@@ -8260,7 +8260,7 @@
       "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-19T23:01:03Z",
+  "generatedAt": "2026-11-19T23:06:05Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -9665,11 +9665,11 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "0aa34e8fa8694c054900a749963681af087d11b96d31215326a93ae15f3a0b8f",
+  "snapshotID": "693da299d42cf6031927096fa254c5bb320107f5738c18e04cefb2c1a384246b",
   "source": {
-    "checkedAt": "2026-11-19T23:01:03Z",
+    "checkedAt": "2026-11-19T23:06:05Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-19T23:00:43Z",
+    "updatedAt": "2026-11-19T23:05:43Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
