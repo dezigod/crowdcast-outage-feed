@@ -1068,83 +1068,6 @@
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
-      "id": "258c1be8116d94927a01038ab54988a9cd20bd3d4a1765cde7b11c42a8752d44",
-      "island": null,
-      "locations": [
-        "14A & 14 REM EST RAPHUNE",
-        "EST RAPHUNE 11B",
-        "EST THOMAS",
-        "EST THOMAS #19 A",
-        "EST THOMAS #3",
-        "EST THOMAS 11",
-        "EST THOMAS 12-2 N QTR",
-        "EST THOMAS 13A",
-        "EST THOMAS 15A",
-        "EST THOMAS 19A",
-        "EST THOMAS 21",
-        "EST THOMAS 24 COTTAGE",
-        "EST THOMAS 25",
-        "EST THOMAS 27 NEW QTS",
-        "EST THOMAS 28 6A NEW QTR",
-        "EST THOMAS 28 6A SEC DIV",
-        "EST THOMAS 29-30",
-        "EST THOMAS 3",
-        "EST THOMAS 32",
-        "EST THOMAS 38",
-        "EST THOMAS 40",
-        "EST THOMAS 40A",
-        "EST THOMAS 40A DWN",
-        "EST THOMAS 6E",
-        "EST THOMAS 6E PAR",
-        "EST THOMAS 7 APT 4",
-        "EST THOMAS 7 APT-6",
-        "EST THOMAS 7 APT-7",
-        "EST THOMAS 7 UNIT-2",
-        "EST THOMAS CABANA #11",
-        "EST THOMAS LOT 2",
-        "EST THOMAS N QTR",
-        "EST THOMAS PCL 26",
-        "EST THOMAS PCL 3",
-        "EST THOMAS PCL 43",
-        "EST THOMAS UNIT-5",
-        "EST. RAPHUNE 11-5 B",
-        "ESTATE RAPHUNE 17-4 MTR 1",
-        "ESTATE THOMAS 13B",
-        "ESTATE THOMAS 19B",
-        "ESTATE THOMAS 4 REM",
-        "ESTATE THOMAS 5B",
-        "ESTATE THOMAS 7",
-        "RAPHUNE 11-5B A",
-        "RAPHUNE 13",
-        "RAPHUNE 13-1 MTR-1",
-        "RAPHUNE 14 REM MTR- 1",
-        "RAPHUNE 17-3",
-        "RAPHUNE HILL 17-3",
-        "RAPHUNE HILL 2",
-        "RAPHUNE HILL 3 COTTAGE",
-        "RAPHUNE HILL LOT",
-        "REM ESTATE THOMAS"
-      ],
-      "modifiedAt": "2026-11-18T18:41:03Z",
-      "name": "FUST-07215A",
-      "neighborhoodIDs": [],
-      "point": {
-        "latitude": 18.339938452896327,
-        "longitude": -64.90820051275129
-      },
-      "reportedCustomersInitially": 71,
-      "reportedCustomersOut": 71,
-      "reportedCustomersRestored": 0,
-      "sourceStatus": "Verified",
-      "startedAt": "2026-11-18T12:42:24Z",
-      "verified": true,
-      "workStatus": null
-    },
-    {
-      "cause": null,
-      "crewAssigned": false,
-      "endedAt": null,
-      "estimatedRestoration": null,
       "id": "330eef19265b11cf3fd1172c88c28644fe77bfdb04f54f33e6289f8857263ca3",
       "island": null,
       "locations": [
@@ -1248,31 +1171,6 @@
       "sourceStatus": "Predicted",
       "startedAt": "2026-11-19T12:10:51Z",
       "verified": false,
-      "workStatus": null
-    },
-    {
-      "cause": "000 Power supply",
-      "crewAssigned": false,
-      "endedAt": null,
-      "estimatedRestoration": null,
-      "id": "84b9337430932c19e281c02034c27b28d5a1fb47502d2602fd67b5a16571852f",
-      "island": null,
-      "locations": [
-        "EST THOMAS WEST 4D-4E"
-      ],
-      "modifiedAt": "2026-11-19T00:34:57Z",
-      "name": "Feeder YH2",
-      "neighborhoodIDs": [],
-      "point": {
-        "latitude": 18.33758189193682,
-        "longitude": -64.92167294812789
-      },
-      "reportedCustomersInitially": 1,
-      "reportedCustomersOut": 1,
-      "reportedCustomersRestored": 0,
-      "sourceStatus": "Verified",
-      "startedAt": "2026-11-18T17:23:19Z",
-      "verified": true,
       "workStatus": null
     },
     {
@@ -1540,7 +1438,7 @@
       "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-19T12:41:16Z",
+  "generatedAt": "2026-11-19T12:46:18Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -1675,21 +1573,21 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "c9215fdb0d2db4bcc74d4b2ac06d2d401c419c24ef245b8342ce4bc3721bc540",
+  "snapshotID": "883bbc07ab892fa01acaa0a370ccbcf053b71c31979352cc4e2d062af9847f00",
   "source": {
-    "checkedAt": "2026-11-19T12:41:16Z",
+    "checkedAt": "2026-11-19T12:46:18Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-19T12:40:41Z",
+    "updatedAt": "2026-11-19T12:45:40Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "sourceSummary": {
     "customerCountDifference": 2,
-    "customersAffected": 1266,
-    "customersOut": 1266,
+    "customersAffected": 1194,
+    "customersOut": 1194,
     "customersRestored": 0,
     "customersServed": 54726,
-    "eventCustomersOut": 1264,
+    "eventCustomersOut": 1192,
     "hourlyCustomersOut": [
       {
         "at": "2026-11-17T12:00:00Z",
@@ -1809,90 +1707,89 @@
       },
       {
         "at": "2026-11-18T17:00:00Z",
-        "customersOut": 26760
+        "customersOut": 26689
       },
       {
         "at": "2026-11-18T18:00:00Z",
-        "customersOut": 26759
+        "customersOut": 26688
       },
       {
         "at": "2026-11-18T19:00:00Z",
-        "customersOut": 27928
+        "customersOut": 27857
       },
       {
         "at": "2026-11-18T20:00:00Z",
-        "customersOut": 27751
+        "customersOut": 27680
       },
       {
         "at": "2026-11-18T21:00:00Z",
-        "customersOut": 27751
+        "customersOut": 27680
       },
       {
         "at": "2026-11-18T22:00:00Z",
-        "customersOut": 23325
+        "customersOut": 23254
       },
       {
         "at": "2026-11-18T23:00:00Z",
-        "customersOut": 15586
+        "customersOut": 15515
       },
       {
         "at": "2026-11-19T00:00:00Z",
-        "customersOut": 18375
+        "customersOut": 18304
       },
       {
         "at": "2026-11-19T01:00:00Z",
-        "customersOut": 14521
+        "customersOut": 14450
       },
       {
         "at": "2026-11-19T02:00:00Z",
-        "customersOut": 14823
+        "customersOut": 14752
       },
       {
         "at": "2026-11-19T03:00:00Z",
-        "customersOut": 12471
+        "customersOut": 12400
       },
       {
         "at": "2026-11-19T04:00:00Z",
-        "customersOut": 8080
+        "customersOut": 8008
       },
       {
         "at": "2026-11-19T05:00:00Z",
-        "customersOut": 2233
+        "customersOut": 2161
       },
       {
         "at": "2026-11-19T06:00:00Z",
-        "customersOut": 104
+        "customersOut": 32
       },
       {
         "at": "2026-11-19T07:00:00Z",
-        "customersOut": 104
+        "customersOut": 32
       },
       {
         "at": "2026-11-19T08:00:00Z",
-        "customersOut": 104
+        "customersOut": 32
       },
       {
         "at": "2026-11-19T09:00:00Z",
-        "customersOut": 104
+        "customersOut": 32
       },
       {
         "at": "2026-11-19T10:00:00Z",
-        "customersOut": 104
+        "customersOut": 32
       },
       {
         "at": "2026-11-19T11:00:00Z",
-        "customersOut": 104
+        "customersOut": 32
       },
       {
         "at": "2026-11-19T12:00:00Z",
-        "customersOut": 1264
+        "customersOut": 1192
       }
     ],
     "locations": [
       "10-27-4A ESTATE CAROLINA",
       "13B PETER BAY MAHO BAY",
       "13BA HARD LABOR",
-      "14A & 14 REM EST RAPHUNE",
       "16A-4A ESTATE MANDAHL",
       "16EB MANDAHL",
       "3T ZOOTENVAAL",
@@ -2609,53 +2506,16 @@
       "EST NAZARETH 2W-40",
       "EST PETER 3E",
       "EST QUACO & ZIMMERMAN",
-      "EST RAPHUNE 11B",
       "EST ST PETER 3E",
       "EST ST PETER 3F-1-A",
       "EST ST PETER 3G-2-A UP",
       "EST ST PETER 3H-25",
-      "EST THOMAS",
-      "EST THOMAS #19 A",
-      "EST THOMAS #3",
-      "EST THOMAS 11",
-      "EST THOMAS 12-2 N QTR",
-      "EST THOMAS 13A",
-      "EST THOMAS 15A",
-      "EST THOMAS 19A",
-      "EST THOMAS 21",
-      "EST THOMAS 24 COTTAGE",
-      "EST THOMAS 25",
-      "EST THOMAS 27 NEW QTS",
-      "EST THOMAS 28 6A NEW QTR",
-      "EST THOMAS 28 6A SEC DIV",
-      "EST THOMAS 29-30",
-      "EST THOMAS 3",
-      "EST THOMAS 32",
-      "EST THOMAS 38",
-      "EST THOMAS 40",
-      "EST THOMAS 40A",
-      "EST THOMAS 40A DWN",
-      "EST THOMAS 6E",
-      "EST THOMAS 6E PAR",
-      "EST THOMAS 7 APT 4",
-      "EST THOMAS 7 APT-6",
-      "EST THOMAS 7 APT-7",
-      "EST THOMAS 7 UNIT-2",
-      "EST THOMAS CABANA #11",
-      "EST THOMAS LOT 2",
-      "EST THOMAS N QTR",
-      "EST THOMAS PCL 26",
-      "EST THOMAS PCL 3",
-      "EST THOMAS PCL 43",
-      "EST THOMAS UNIT-5",
-      "EST THOMAS WEST 4D-4E",
       "EST. CAROLINA # 6FG",
       "EST. CAROLINA # 6-G-5",
       "EST. CAROLINA #6T-14",
       "EST. CAROLINA 6-3-52",
       "EST. FORTSBERG #15E-2",
       "EST. QUACO & ZIMMERMAN",
-      "EST. RAPHUNE 11-5 B",
       "EST. ST QUACO & ZIMMERMAN",
       "EST.CALABASH BOOM UNIT 1E",
       "EST.CALABASH BOOM UNIT 1J",
@@ -2698,12 +2558,6 @@
       "ESTATE HAULOVER 5F",
       "ESTATE HOPE 24-6",
       "ESTATE JOHN FOLLY 2",
-      "ESTATE RAPHUNE 17-4 MTR 1",
-      "ESTATE THOMAS 13B",
-      "ESTATE THOMAS 19B",
-      "ESTATE THOMAS 4 REM",
-      "ESTATE THOMAS 5B",
-      "ESTATE THOMAS 7",
       "ESTATE ZOOTENVAAL 3A-5",
       "ESTATE ZOOTENVAAL 3A-5**",
       "ESTATE ZOOTENVAL 3Q",
@@ -2933,17 +2787,7 @@
       "QUACO & ZIMMERMAN 6B-39",
       "QUACO & ZIMMERMAN 6B-9",
       "QUACO 6-B-42",
-      "RAPHUNE 11-5B A",
-      "RAPHUNE 13",
-      "RAPHUNE 13-1 MTR-1",
-      "RAPHUNE 14 REM MTR- 1",
-      "RAPHUNE 17-3",
-      "RAPHUNE HILL 17-3",
-      "RAPHUNE HILL 2",
-      "RAPHUNE HILL 3 COTTAGE",
-      "RAPHUNE HILL LOT",
       "REM EST. EDEN 2-6-1",
-      "REM ESTATE THOMAS",
       "REM PETER BAY 12",
       "SAUNDERS GUT 12",
       "SAUNDERS GUT 15 DWN",
@@ -3036,8 +2880,8 @@
       "ZOOTENVAAL 3Q (MTR 1)",
       "ZOOTENVAAL 3T"
     ],
-    "totalOutages": 16
+    "totalOutages": 14
   },
   "staleAfterSeconds": 900,
-  "unassignedEventCount": 13
+  "unassignedEventCount": 11
 }
