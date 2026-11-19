@@ -280,7 +280,7 @@
         "WEST INDIAN CO DOCK B-1",
         "WIC DOCK BAY BLDG-2"
       ],
-      "modifiedAt": "2026-11-19T14:04:17Z",
+      "modifiedAt": "2026-11-19T14:11:55Z",
       "name": "Feeder 10B",
       "neighborhoodIDs": [
         "stCroix-pump-garden"
@@ -1541,7 +1541,7 @@
         "WATERGATE VILLA B16",
         "WATERGATE VILLA SECTION 6"
       ],
-      "modifiedAt": "2026-11-19T14:03:16Z",
+      "modifiedAt": "2026-11-19T14:12:01Z",
       "name": "WICO 10B out Way 2",
       "neighborhoodIDs": [],
       "point": {
@@ -4480,7 +4480,7 @@
         "ZUERIENDENHEIT",
         "ZUFRIDENHEIT 1"
       ],
-      "modifiedAt": "2026-11-19T14:08:30Z",
+      "modifiedAt": "2026-11-19T14:11:49Z",
       "name": "Feeder 07A",
       "neighborhoodIDs": [
         "stThomas-agnes-fancy",
@@ -4636,7 +4636,7 @@
       "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-19T14:10:48Z",
+  "generatedAt": "2026-11-19T14:15:50Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -5072,11 +5072,11 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "f528c90fcf54135ca4172aa8ea50f0c925c4341b993269dbfe70a5b4e4f7e4eb",
+  "snapshotID": "61544b2617179c1b98d84ce3ca1bc95c5f4cab15de8953199e06960eef2ed112",
   "source": {
-    "checkedAt": "2026-11-19T14:10:48Z",
+    "checkedAt": "2026-11-19T14:15:50Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-19T14:10:42Z",
+    "updatedAt": "2026-11-19T14:15:42Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
