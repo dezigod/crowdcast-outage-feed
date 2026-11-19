@@ -1942,6 +1942,46 @@
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
+      "id": "61e97f83a20c52c15658ccdca11ff8514be9f60504c47447fcab5375a9515940",
+      "island": null,
+      "locations": [
+        "SION FARM 49",
+        "TAN TAN TERRACE 35",
+        "TAN TAN TERRACE 35 A-3",
+        "TAN TAN TERRACE 36",
+        "TAN TAN TERRACE 37",
+        "TAN TAN TERRACE 38",
+        "TAN TAN TERRACE 38 (UPST)",
+        "TAN TAN TERRACE 39",
+        "TAN TAN TERRACE 39 APT 1",
+        "TAN TAN TERRACE 39 APT 2",
+        "TAN TAN TERRACE 45 )DWNS)",
+        "TAN TAN TERRACE 45 DWNSTR",
+        "TAN TAN TERRACE 45 UPSTR",
+        "TAN TAN TERRACE 46",
+        "TAN TAN TERRACE 50",
+        "TAN TAN TERRACE 54"
+      ],
+      "modifiedAt": "2026-11-19T16:53:46Z",
+      "name": "T-C-18763",
+      "neighborhoodIDs": [],
+      "point": {
+        "latitude": 17.736695531366088,
+        "longitude": -64.7408706158522
+      },
+      "reportedCustomersInitially": 17,
+      "reportedCustomersOut": 17,
+      "reportedCustomersRestored": 0,
+      "sourceStatus": "Predicted",
+      "startedAt": "2026-11-19T16:53:33Z",
+      "verified": false,
+      "workStatus": null
+    },
+    {
+      "cause": null,
+      "crewAssigned": false,
+      "endedAt": null,
+      "estimatedRestoration": null,
       "id": "688d24f7b6e72cb60f9dd7cfcfc315b9ee0efe7095b9fbf192b7ed84c8031d54",
       "island": "stThomas",
       "locations": [
@@ -4826,7 +4866,7 @@
       "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-19T16:50:55Z",
+  "generatedAt": "2026-11-19T16:55:57Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -6007,25 +6047,25 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "ab693c7ae415b53d29a1dd56e19da02d63de66cb9adef98ec620c49c5fe90321",
+  "snapshotID": "cbdeb844142f312c7ee283060637ce29268ce5f553802e3d35dedb0872f32bd2",
   "source": {
-    "checkedAt": "2026-11-19T16:50:55Z",
+    "checkedAt": "2026-11-19T16:55:57Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-19T16:50:42Z",
+    "updatedAt": "2026-11-19T16:55:42Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "sourceSummary": {
     "customerCountDifference": 2,
-    "customersAffected": 6010,
-    "customersOut": 6010,
+    "customersAffected": 6027,
+    "customersOut": 6027,
     "customersRestored": 0,
     "customersServed": 54726,
-    "eventCustomersOut": 6008,
+    "eventCustomersOut": 6025,
     "hourlyCustomersOut": [
       {
         "at": "2026-11-17T16:00:00Z",
-        "customersOut": 8233
+        "customersOut": 6965
       },
       {
         "at": "2026-11-17T17:00:00Z",
@@ -6217,7 +6257,7 @@
       },
       {
         "at": "2026-11-19T16:00:00Z",
-        "customersOut": 10199
+        "customersOut": 10216
       }
     ],
     "locations": [
@@ -9630,6 +9670,7 @@
       "SAPPHIRE WEST D-33",
       "SENATE BUILDING",
       "SHIP MOORING",
+      "SION FARM 49",
       "SJOSEPH & ROSENDAHL 1-36",
       "SMITH 11 BAY B-F",
       "SMITH BAY",
@@ -10498,6 +10539,21 @@
       "TABOR & HARMONY 7-17",
       "TABOR & HARMONY 7-5",
       "TABOR & HARMONY UP 7-6",
+      "TAN TAN TERRACE 35",
+      "TAN TAN TERRACE 35 A-3",
+      "TAN TAN TERRACE 36",
+      "TAN TAN TERRACE 37",
+      "TAN TAN TERRACE 38",
+      "TAN TAN TERRACE 38 (UPST)",
+      "TAN TAN TERRACE 39",
+      "TAN TAN TERRACE 39 APT 1",
+      "TAN TAN TERRACE 39 APT 2",
+      "TAN TAN TERRACE 45 )DWNS)",
+      "TAN TAN TERRACE 45 DWNSTR",
+      "TAN TAN TERRACE 45 UPSTR",
+      "TAN TAN TERRACE 46",
+      "TAN TAN TERRACE 50",
+      "TAN TAN TERRACE 54",
       "THOMASVILLE",
       "THOMASVILLE 10A",
       "THOMASVILLE 10C",
@@ -10642,8 +10698,8 @@
       "WINTBERG PEAK 1CD-6",
       "WINTBERG PEAK 1K"
     ],
-    "totalOutages": 16
+    "totalOutages": 17
   },
   "staleAfterSeconds": 900,
-  "unassignedEventCount": 13
+  "unassignedEventCount": 14
 }
