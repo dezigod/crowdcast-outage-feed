@@ -12,7 +12,7 @@ from scripts import check_feed_health as monitor
 from outage_backend.collect import URLS, collect
 from outage_backend.github_delivery import FEED, run_once
 from outage_backend.tests.test_pipeline import allowed, event
-from outage_backend.rotation import ALERTS, ROTATION, check_rotation, schedule_url
+from outage_backend.rotation import ALERTS, ROTATION, check_rotation, schedule_url, advisory_fingerprint
 from outage_backend.collect import PermissionRequired
 
 NOW = datetime(2026, 11, 19, 20, tzinfo=timezone.utc)
@@ -220,9 +220,8 @@ class AccessReviewTests(unittest.TestCase):
         check_rotation(None, writes.append, now=NOW - timedelta(minutes=6),
                        loader=lambda url, **_: (HTML, None) if url == ALERTS else (b'%PDF-original', None))
         self.previous = dict(writes[-1][ROTATION], status='blocked')
-        from hashlib import sha256
         self.review = dict(expectedFingerprint=self.previous['schedule']['fingerprint'],
-                           advisoryFingerprint=sha256(HTML).hexdigest(), validUntil=(NOW+timedelta(minutes=10)).isoformat())
+                           advisoryFingerprint=advisory_fingerprint(HTML), validUntil=(NOW+timedelta(minutes=10)).isoformat())
 
     def test_blocked_ordinary_collection_makes_no_source_request(self):
         loader = Mock()
@@ -254,16 +253,33 @@ class AccessReviewTests(unittest.TestCase):
             self.assertEqual(writes[0][ROTATION]['status'], 'blocked')
 
     def test_reviewed_changed_format_recovers_access_without_inventing_coverage(self):
-        from hashlib import sha256
         writes = []
         loader = Mock(return_value=(PNG_HTML, None))
-        review = dict(self.review, advisoryFingerprint=sha256(PNG_HTML).hexdigest())
+        review = dict(self.review, advisoryFingerprint=advisory_fingerprint(PNG_HTML))
         self.assertEqual(check_rotation(self.previous, writes.append, now=NOW, loader=loader, access_review=review), 'failed')
         self.assertEqual(writes[-1][ROTATION]['schedule'], self.previous['schedule'])
         self.assertEqual(loader.call_count, 1, 'Do not fetch another district image as a schedule')
         # Next ordinary check resumes, preserving the five minute throttle.
         self.assertEqual(check_rotation(writes[-1][ROTATION], writes.append, now=NOW+timedelta(minutes=5), loader=loader), 'failed')
         self.assertEqual(loader.call_count, 2)
+
+    def test_page_tokens_cannot_block_matching_link_but_revision_changes_do(self):
+        self.assertEqual(advisory_fingerprint(HTML + b'<input name="__VIEWSTATE" value="one">'),
+                         advisory_fingerprint(HTML + b'<input name="__VIEWSTATE" value="two">'))
+        self.assertNotEqual(advisory_fingerprint(HTML), advisory_fingerprint(HTML.replace(b'abc_1', b'abc_2')))
+        writes = []
+        loader = Mock(return_value=(HTML.replace(b'abc_1', b'abc_2'), None))
+        self.assertEqual(check_rotation(self.previous, writes.append, now=NOW, loader=loader, access_review=self.review), 'blocked')
+        self.assertEqual(loader.call_count, 1)
+
+    def test_redirect_and_review_mismatch_have_distinct_safe_diagnostics(self):
+        for failure, category in [(PermissionRequired('Source redirect requires access review'), 'source_redirect_requires_review'),
+                                  ((HTML.replace(b'abc_1', b'abc_2'), None), 'advisory_link_changed_since_review')]:
+            output = io.StringIO()
+            loader = Mock(side_effect=failure) if isinstance(failure, Exception) else Mock(return_value=failure)
+            with redirect_stdout(output):
+                self.assertEqual(check_rotation(self.previous, Mock(), now=NOW, loader=loader, access_review=self.review), 'blocked')
+            self.assertIn(category, output.getvalue())
 
     def test_reviewed_success_uses_completed_check_time(self):
         writes = []
