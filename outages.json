@@ -5395,6 +5395,36 @@
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
+      "id": "7a648978abdd5d7efdd74fe5e1994f23744875068b890ceed3e14fab5e44376c",
+      "island": null,
+      "locations": [
+        "EST HOPE 20-D",
+        "EST HOPE 20D-1",
+        "ESTATE HOPE 20D-03",
+        "ESTATE HOPE 20D-3",
+        "FORTUNA 52-1",
+        "FORTUNA 52-1 MTR #-3"
+      ],
+      "modifiedAt": "2026-11-19T02:56:23Z",
+      "name": "T-T-00929",
+      "neighborhoodIDs": [],
+      "point": {
+        "latitude": 18.356996794342706,
+        "longitude": -65.004372006425
+      },
+      "reportedCustomersInitially": 9,
+      "reportedCustomersOut": 9,
+      "reportedCustomersRestored": 0,
+      "sourceStatus": "Predicted",
+      "startedAt": "2026-11-19T02:55:49Z",
+      "verified": false,
+      "workStatus": null
+    },
+    {
+      "cause": null,
+      "crewAssigned": false,
+      "endedAt": null,
+      "estimatedRestoration": null,
       "id": "8022d80ed19f0c440cb6fe7cc61c9f5ef181dd234d953aab2e6dc0b405c08bc5",
       "island": null,
       "locations": [
@@ -10429,7 +10459,7 @@
       "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-19T02:56:11Z",
+  "generatedAt": "2026-11-19T03:01:13Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -12008,26 +12038,22 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "53fd9728347b8cb307ec44c8092d10280b49f0253bc7837943786e800f5f2d79",
+  "snapshotID": "32d12fbd8b039c208b06e7cf12a735950d2f0e79380312b3fd2df45dc6e60854",
   "source": {
-    "checkedAt": "2026-11-19T02:56:11Z",
+    "checkedAt": "2026-11-19T03:01:13Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-19T02:55:43Z",
+    "updatedAt": "2026-11-19T03:00:43Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "sourceSummary": {
     "customerCountDifference": 2,
-    "customersAffected": 12576,
-    "customersOut": 12576,
+    "customersAffected": 12585,
+    "customersOut": 12585,
     "customersRestored": 0,
     "customersServed": 54726,
-    "eventCustomersOut": 12574,
+    "eventCustomersOut": 12583,
     "hourlyCustomersOut": [
-      {
-        "at": "2026-11-17T02:00:00Z",
-        "customersOut": 2507
-      },
       {
         "at": "2026-11-17T03:00:00Z",
         "customersOut": 2507
@@ -12218,7 +12244,11 @@
       },
       {
         "at": "2026-11-19T02:00:00Z",
-        "customersOut": 14926
+        "customersOut": 14935
+      },
+      {
+        "at": "2026-11-19T03:00:00Z",
+        "customersOut": 12583
       }
     ],
     "locations": [
@@ -15300,6 +15330,8 @@
       "EST HOFFMAN C-12-1 UP",
       "EST HOFFMAN C-5",
       "EST HOFFMAN LOT C-10",
+      "EST HOPE 20-D",
+      "EST HOPE 20D-1",
       "EST HULL",
       "EST HULL #14-A",
       "EST HULL 11-1 11-D-D",
@@ -15970,6 +16002,8 @@
       "ESTATE GRUNWALD 1-1-16",
       "ESTATE GRUNWALD 1-1-6",
       "ESTATE GRUNWALD 3-7",
+      "ESTATE HOPE 20D-03",
+      "ESTATE HOPE 20D-3",
       "ESTATE HULL",
       "ESTATE HULL 11DA-4",
       "ESTATE HULL 11-F",
@@ -16259,6 +16293,8 @@
       "FLAMBOYANT WELCOME 9",
       "FORT AUGUSTA CONDOMINIUM",
       "FORT LOUISE AUGUSTA",
+      "FORTUNA 52-1",
+      "FORTUNA 52-1 MTR #-3",
       "FREDENSTAHL 18",
       "FREDENSTAHL 1B",
       "FREDENSTHAL 21",
@@ -22092,8 +22128,8 @@
       "ZUERIENDENHEIT",
       "ZUFRIDENHEIT 1"
     ],
-    "totalOutages": 22
+    "totalOutages": 23
   },
   "staleAfterSeconds": 900,
-  "unassignedEventCount": 19
+  "unassignedEventCount": 20
 }
