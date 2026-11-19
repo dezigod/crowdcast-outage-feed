@@ -2413,6 +2413,34 @@
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
+      "id": "4c5554558053423a470bc0eb6c59d67a68e3c7fef9e4224900eac60cacfc7074",
+      "island": null,
+      "locations": [
+        "LA GRANDE PRINCESS 70-E",
+        "ST JOHN 1-D",
+        "ST JOHN 1-E",
+        "ST JOHN 7-J"
+      ],
+      "modifiedAt": "2026-11-19T14:00:06Z",
+      "name": "T-C-19205",
+      "neighborhoodIDs": [],
+      "point": {
+        "latitude": 17.765388920954493,
+        "longitude": -64.74225242516367
+      },
+      "reportedCustomersInitially": 5,
+      "reportedCustomersOut": 5,
+      "reportedCustomersRestored": 0,
+      "sourceStatus": "Predicted",
+      "startedAt": "2026-11-19T13:59:54Z",
+      "verified": false,
+      "workStatus": null
+    },
+    {
+      "cause": null,
+      "crewAssigned": false,
+      "endedAt": null,
+      "estimatedRestoration": null,
       "id": "688d24f7b6e72cb60f9dd7cfcfc315b9ee0efe7095b9fbf192b7ed84c8031d54",
       "island": "stThomas",
       "locations": [
@@ -2435,6 +2463,33 @@
       "reportedCustomersRestored": 0,
       "sourceStatus": "Predicted",
       "startedAt": "2026-05-24T00:16:58Z",
+      "verified": false,
+      "workStatus": null
+    },
+    {
+      "cause": null,
+      "crewAssigned": false,
+      "endedAt": null,
+      "estimatedRestoration": null,
+      "id": "7b075af9cf16cbdffb93baf737c21096f36863475bf37aaa2ff03b2a21cfe4c8",
+      "island": null,
+      "locations": [
+        "LITTLE PRINCESS 52 BLDG-C",
+        "LITTLE PRINCESS 52A",
+        "LITTLE PRINCESS 52-A TRL"
+      ],
+      "modifiedAt": "2026-11-19T13:57:18Z",
+      "name": "T-C-09493",
+      "neighborhoodIDs": [],
+      "point": {
+        "latitude": 17.75731413156936,
+        "longitude": -64.72567277427936
+      },
+      "reportedCustomersInitially": 3,
+      "reportedCustomersOut": 3,
+      "reportedCustomersRestored": 0,
+      "sourceStatus": "Predicted",
+      "startedAt": "2026-11-19T13:56:56Z",
       "verified": false,
       "workStatus": null
     },
@@ -2701,7 +2756,7 @@
       "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-19T13:55:42Z",
+  "generatedAt": "2026-11-19T14:00:44Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -3223,26 +3278,22 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "e63fc419c82104c3f8e10eeba56b608b53f59499853f6b5e67616635dde40ad6",
+  "snapshotID": "9082fca2fe3db99460b146501c6d8e887771014edf68ced4bdfb9a0133d61e56",
   "source": {
-    "checkedAt": "2026-11-19T13:55:42Z",
+    "checkedAt": "2026-11-19T14:00:44Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-19T13:55:41Z",
+    "updatedAt": "2026-11-19T14:00:41Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "sourceSummary": {
     "customerCountDifference": 2,
-    "customersAffected": 2886,
-    "customersOut": 2886,
+    "customersAffected": 2894,
+    "customersOut": 2894,
     "customersRestored": 0,
     "customersServed": 54726,
-    "eventCustomersOut": 2884,
+    "eventCustomersOut": 2892,
     "hourlyCustomersOut": [
-      {
-        "at": "2026-11-17T13:00:00Z",
-        "customersOut": 2267
-      },
       {
         "at": "2026-11-17T14:00:00Z",
         "customersOut": 7114
@@ -3433,7 +3484,11 @@
       },
       {
         "at": "2026-11-19T13:00:00Z",
-        "customersOut": 2884
+        "customersOut": 2892
+      },
+      {
+        "at": "2026-11-19T14:00:00Z",
+        "customersOut": 2892
       }
     ],
     "locations": [
@@ -4921,6 +4976,7 @@
       "KONGENS GADE 9A (KING ST)",
       "KONGENS GD",
       "KONGENS TVER GADE",
+      "LA GRANDE PRINCESS 70-E",
       "LERKENLUND 9D-1-2",
       "LIND POINT",
       "LIND POINT RD",
@@ -4938,6 +4994,9 @@
       "LITTLE PLANTATION 4E",
       "LITTLE PLANTATION 4E*",
       "LITTLE PLANTATION 4E**",
+      "LITTLE PRINCESS 52 BLDG-C",
+      "LITTLE PRINCESS 52A",
+      "LITTLE PRINCESS 52-A TRL",
       "LOUISENHOJ",
       "LOUISENHOJ 10",
       "LOUISENHOJ 3",
@@ -5570,6 +5629,9 @@
       "SENATE BUILDING",
       "SHIP MOORING",
       "SJOSEPH & ROSENDAHL 1-36",
+      "ST JOHN 1-D",
+      "ST JOHN 1-E",
+      "ST JOHN 7-J",
       "ST JOS & ROS 1-23A UP",
       "ST JOS & ROS 4C B1 UD",
       "ST JOS & ROSE 3-32 A-2",
@@ -5813,8 +5875,8 @@
       "ZOOTENVAAL 3Q (MTR 1)",
       "ZOOTENVAAL 3T"
     ],
-    "totalOutages": 13
+    "totalOutages": 15
   },
   "staleAfterSeconds": 900,
-  "unassignedEventCount": 10
+  "unassignedEventCount": 12
 }
