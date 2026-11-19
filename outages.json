@@ -1902,46 +1902,6 @@
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
-      "id": "5f67635276a95e5e6ae0a2e70784810cd45ea7130654999b7e86187933d390f5",
-      "island": null,
-      "locations": [
-        "GAMBLE NORDS",
-        "GAMBLE NORDSIDEVEJ",
-        "GAMBLE NORDSIDEVEJ 6",
-        "GAMBLE NORDSIDEVEJ HSE",
-        "JASMINE STRADE",
-        "JASMINE STRADE 1",
-        "JASMINE STRADE 2",
-        "JASMINE STRADE 2B",
-        "JASMINE STRADE 3",
-        "JASMINE STRAEDE",
-        "PRINCESSE GADE 11 A",
-        "PRINCESSE GADE 12 B",
-        "PRINCESSE GADE 12 B DWN",
-        "PRINDCESSE GADE 11B",
-        "PRINDSENS GADE 11B",
-        "PRINDSESSE GADE 11B"
-      ],
-      "modifiedAt": "2026-11-19T16:47:44Z",
-      "name": "T-T-02386",
-      "neighborhoodIDs": [],
-      "point": {
-        "latitude": 18.342039322376877,
-        "longitude": -64.93749926155272
-      },
-      "reportedCustomersInitially": 20,
-      "reportedCustomersOut": 20,
-      "reportedCustomersRestored": 0,
-      "sourceStatus": "Predicted",
-      "startedAt": "2026-11-19T16:47:21Z",
-      "verified": false,
-      "workStatus": null
-    },
-    {
-      "cause": null,
-      "crewAssigned": false,
-      "endedAt": null,
-      "estimatedRestoration": null,
       "id": "61e97f83a20c52c15658ccdca11ff8514be9f60504c47447fcab5375a9515940",
       "island": null,
       "locations": [
@@ -4866,7 +4826,7 @@
       "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-19T16:55:57Z",
+  "generatedAt": "2026-11-19T17:01:00Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -6047,26 +6007,22 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "cbdeb844142f312c7ee283060637ce29268ce5f553802e3d35dedb0872f32bd2",
+  "snapshotID": "79e619d92b95d2b78bc85b39f48066e095402cff93295b6791950127bc5c57e2",
   "source": {
-    "checkedAt": "2026-11-19T16:55:57Z",
+    "checkedAt": "2026-11-19T17:01:00Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-19T16:55:42Z",
+    "updatedAt": "2026-11-19T17:00:42Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "sourceSummary": {
     "customerCountDifference": 2,
-    "customersAffected": 6027,
-    "customersOut": 6027,
+    "customersAffected": 6007,
+    "customersOut": 6007,
     "customersRestored": 0,
     "customersServed": 54726,
-    "eventCustomersOut": 6025,
+    "eventCustomersOut": 6005,
     "hourlyCustomersOut": [
-      {
-        "at": "2026-11-17T16:00:00Z",
-        "customersOut": 6965
-      },
       {
         "at": "2026-11-17T17:00:00Z",
         "customersOut": 9658
@@ -6257,7 +6213,11 @@
       },
       {
         "at": "2026-11-19T16:00:00Z",
-        "customersOut": 10216
+        "customersOut": 10196
+      },
+      {
+        "at": "2026-11-19T17:00:00Z",
+        "customersOut": 6005
       }
     ],
     "locations": [
@@ -8471,10 +8431,6 @@
       "FRYDENHOJ 2 12BA A2",
       "FT CHRISTIAN PARKING LOT",
       "GADE #5 (NATIVE SON)",
-      "GAMBLE NORDS",
-      "GAMBLE NORDSIDEVEJ",
-      "GAMBLE NORDSIDEVEJ 6",
-      "GAMBLE NORDSIDEVEJ HSE",
       "GGA LYTTONS FANCY",
       "HAVENSIGHT",
       "HAVENSIGHT #12",
@@ -8700,12 +8656,6 @@
       "HOSPITALL GROUND 177",
       "HOSPTIAL GROUND 298",
       "HOSPTIAL GROUND MTR 11",
-      "JASMINE STRADE",
-      "JASMINE STRADE 1",
-      "JASMINE STRADE 2",
-      "JASMINE STRADE 2B",
-      "JASMINE STRADE 3",
-      "JASMINE STRAEDE",
       "JOSEPH & ROSENDAHL 1-13A",
       "JOSEPH & ROSENDAHL 1-1A",
       "JOSEPH & ROSENDAHL 1-25",
@@ -9323,10 +9273,6 @@
       "POOL PUMP SERVICE",
       "POST OFFICE SQ NORRE GADE",
       "POST OFFICE SQUARE NORRE",
-      "PRINCESSE GADE 11 A",
-      "PRINCESSE GADE 12 B",
-      "PRINCESSE GADE 12 B DWN",
-      "PRINDCESSE GADE 11B",
       "PRINDSEN GADE 58",
       "PRINDSENS",
       "PRINDSENS GADE",
@@ -9335,7 +9281,6 @@
       "PRINDSENS GADE 10A (UP)",
       "PRINDSENS GADE 10A MTR 1",
       "PRINDSENS GADE 11",
-      "PRINDSENS GADE 11B",
       "PRINDSENS GADE 13-A",
       "PRINDSENS GADE 13B",
       "PRINDSENS GADE 15A",
@@ -9382,7 +9327,6 @@
       "PRINDSENS GADE A-2-1",
       "PRINDSENS GADE MTR 6",
       "PRINDSENS GADE UP",
-      "PRINDSESSE GADE 11B",
       "QUEEN STREET (PUMP)",
       "QUEEN STREET 49-50",
       "QUEEN STREET 50",
@@ -10698,8 +10642,8 @@
       "WINTBERG PEAK 1CD-6",
       "WINTBERG PEAK 1K"
     ],
-    "totalOutages": 17
+    "totalOutages": 16
   },
   "staleAfterSeconds": 900,
-  "unassignedEventCount": 14
+  "unassignedEventCount": 13
 }
