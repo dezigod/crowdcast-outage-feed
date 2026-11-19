@@ -1359,7 +1359,7 @@
         "WINTBERG PEAK 1CD-6",
         "WINTBERG PEAK 1K"
       ],
-      "modifiedAt": "2026-11-19T16:06:23Z",
+      "modifiedAt": "2026-11-19T16:18:03Z",
       "name": "Feeder 08B",
       "neighborhoodIDs": [
         "stThomas-agnes-fancy",
@@ -4303,7 +4303,7 @@
       "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-19T16:15:43Z",
+  "generatedAt": "2026-11-19T16:20:45Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -5503,11 +5503,11 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "94bce8e258f3be8ea1f87eac55b9f34fd21e46040fd9f0f3d465dfcde9e92361",
+  "snapshotID": "456a366ef1d5c2a89385439132dcaf58e2fe6f995bdf69a92c6810cecee0a7af",
   "source": {
-    "checkedAt": "2026-11-19T16:15:43Z",
+    "checkedAt": "2026-11-19T16:20:45Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-19T16:15:41Z",
+    "updatedAt": "2026-11-19T16:20:41Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
