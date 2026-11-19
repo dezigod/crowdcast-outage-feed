@@ -2170,6 +2170,37 @@
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
+      "id": "38dca8d39cfdfef583a85a0a8d25801048de703c169b6671e66858af66556ffd",
+      "island": null,
+      "locations": [
+        "CASTLE COAKLEY",
+        "CASTLE COAKLEY 14A (UPST)",
+        "CASTLE COAKLEY 15 SM-HSE",
+        "NEW CASTLE COAKLEY",
+        "NEW CASTLE COAKLEY 5"
+      ],
+      "modifiedAt": "2026-11-19T04:23:17Z",
+      "name": "T-C-06105",
+      "neighborhoodIDs": [
+        "stCroix-castle-coakley"
+      ],
+      "point": {
+        "latitude": 17.725991241691034,
+        "longitude": -64.74982587420055
+      },
+      "reportedCustomersInitially": 9,
+      "reportedCustomersOut": 9,
+      "reportedCustomersRestored": 0,
+      "sourceStatus": "Predicted",
+      "startedAt": "2026-11-19T04:22:55Z",
+      "verified": false,
+      "workStatus": null
+    },
+    {
+      "cause": null,
+      "crewAssigned": false,
+      "endedAt": null,
+      "estimatedRestoration": null,
       "id": "641c3bf8ca1c48de086214b03f33d24c129059e1cb17017e7bd5b8610e236f4b",
       "island": null,
       "locations": [
@@ -4418,6 +4449,89 @@
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
+      "id": "ab72e7ef8d3bcc18f465618987a583300119cebba97eef49f5cd7b33642b438b",
+      "island": null,
+      "locations": [
+        "PROSPERITY 25 NORTHSIDE"
+      ],
+      "modifiedAt": "2026-11-19T04:24:50Z",
+      "name": "T-C-12651",
+      "neighborhoodIDs": [],
+      "point": {
+        "latitude": 17.765845898398453,
+        "longitude": -64.82267704160974
+      },
+      "reportedCustomersInitially": 1,
+      "reportedCustomersOut": 1,
+      "reportedCustomersRestored": 0,
+      "sourceStatus": "Predicted",
+      "startedAt": "2026-11-19T04:24:16Z",
+      "verified": false,
+      "workStatus": null
+    },
+    {
+      "cause": null,
+      "crewAssigned": false,
+      "endedAt": null,
+      "estimatedRestoration": null,
+      "id": "b2a764d26cdef13334925efb2560788997737364877c02d3d2580262f97c4d64",
+      "island": null,
+      "locations": [
+        "LONG REEF APTS",
+        "LONG REEF APTS 10",
+        "LONG REEF APTS 11",
+        "LONG REEF APTS 12",
+        "LONG REEF APTS 13",
+        "LONG REEF APTS 14",
+        "LONG REEF APTS 15",
+        "LONG REEF APTS 16",
+        "LONG REEF APTS 19",
+        "LONG REEF APTS 20",
+        "LONG REEF APTS 21",
+        "LONG REEF APTS 22",
+        "LONG REEF APTS 23",
+        "LONG REEF APTS 24",
+        "LONG REEF APTS 25",
+        "LONG REEF APTS 26",
+        "LONG REEF APTS 27",
+        "LONG REEF APTS 28",
+        "LONG REEF APTS 29",
+        "LONG REEF APTS 30",
+        "LONG REEF APTS 31",
+        "LONG REEF APTS 33",
+        "LONG REEF APTS 34",
+        "LONG REEF APTS 35",
+        "LONG REEF APTS 37",
+        "LONG REEF APTS 38",
+        "LONG REEF APTS 39",
+        "LONG REEF APTS 40",
+        "LONG REEF APTS 41",
+        "LONG REEF APTS 42",
+        "LONG REEF APTS 5",
+        "LONG REEF APTS 8",
+        "ORANGE GROVE 16-17",
+        "ORANGE GROVE 3"
+      ],
+      "modifiedAt": "2026-11-19T04:25:20Z",
+      "name": "T-C-22147",
+      "neighborhoodIDs": [],
+      "point": {
+        "latitude": 17.745490674429313,
+        "longitude": -64.72294277096977
+      },
+      "reportedCustomersInitially": 42,
+      "reportedCustomersOut": 42,
+      "reportedCustomersRestored": 0,
+      "sourceStatus": "Predicted",
+      "startedAt": "2026-11-19T04:24:50Z",
+      "verified": false,
+      "workStatus": null
+    },
+    {
+      "cause": null,
+      "crewAssigned": false,
+      "endedAt": null,
+      "estimatedRestoration": null,
       "id": "bbc2ecb36926a62cae24ea919d18cbbc6397cf2681a2a4d23f28534e3d2d7c97",
       "island": null,
       "locations": [
@@ -4848,6 +4962,31 @@
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
+      "id": "c4c01b29f7a829db45dafeb3e3700c39de73c83a4c10a3ac6d5fa47ecf333197",
+      "island": null,
+      "locations": [
+        "ORANGE GROVE 48 (EL)"
+      ],
+      "modifiedAt": "2026-11-19T04:24:33Z",
+      "name": "T-C-20790",
+      "neighborhoodIDs": [],
+      "point": {
+        "latitude": 17.74084671484983,
+        "longitude": -64.85149270189675
+      },
+      "reportedCustomersInitially": 1,
+      "reportedCustomersOut": 1,
+      "reportedCustomersRestored": 0,
+      "sourceStatus": "Predicted",
+      "startedAt": "2026-11-19T04:24:23Z",
+      "verified": false,
+      "workStatus": null
+    },
+    {
+      "cause": null,
+      "crewAssigned": false,
+      "endedAt": null,
+      "estimatedRestoration": null,
       "id": "cbbd2ef62dee6d0405b3a5d5c18b1c3c5a5b4dbca8f2f81c8fc8d71e6fec7176",
       "island": "stThomas",
       "locations": [
@@ -4923,7 +5062,7 @@
       "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-19T04:25:39Z",
+  "generatedAt": "2026-11-19T04:30:40Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -4992,6 +5131,22 @@
         {
           "affectedCustomers": null,
           "estimatedRestoration": null,
+          "id": "stCroix-castle-coakley",
+          "island": "stCroix",
+          "locations": [
+            "14A (UPST)",
+            "15 SM-HSE"
+          ],
+          "name": "Castle Coakley",
+          "sourceEventIDs": [
+            "38dca8d39cfdfef583a85a0a8d25801048de703c169b6671e66858af66556ffd"
+          ],
+          "sourceStatus": "Predicted",
+          "startedAt": "2026-11-19T04:22:55Z"
+        },
+        {
+          "affectedCustomers": null,
+          "estimatedRestoration": null,
           "id": "stCroix-la-grange",
           "island": "stCroix",
           "locations": [
@@ -5026,21 +5181,21 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "f5d814a029b1d3a0fb6d511125a3eba073b8de5dc718162336004841f37e127e",
+  "snapshotID": "abc97cb0c50a9f1b05896da6a88caa1fb327332ece5ec38ebab47c3fd287a684",
   "source": {
-    "checkedAt": "2026-11-19T04:25:39Z",
+    "checkedAt": "2026-11-19T04:30:40Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-19T04:20:41Z",
+    "updatedAt": "2026-11-19T04:25:41Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "sourceSummary": {
     "customerCountDifference": 2,
-    "customersAffected": 5827,
-    "customersOut": 5827,
+    "customersAffected": 5880,
+    "customersOut": 5880,
     "customersRestored": 0,
     "customersServed": 54726,
-    "eventCustomersOut": 5825,
+    "eventCustomersOut": 5878,
     "hourlyCustomersOut": [
       {
         "at": "2026-11-17T04:00:00Z",
@@ -5236,7 +5391,7 @@
       },
       {
         "at": "2026-11-19T04:00:00Z",
-        "customersOut": 5825
+        "customersOut": 5878
       }
     ],
     "locations": [
@@ -5882,6 +6037,9 @@
       "CAROLINA 9-9-8",
       "CAROLINA EST 10-20",
       "CAROLINA REM 10-32",
+      "CASTLE COAKLEY",
+      "CASTLE COAKLEY 14A (UPST)",
+      "CASTLE COAKLEY 15 SM-HSE",
       "CATERINEBERG EST 3-1",
       "CATHERINBERG 3-10",
       "CATHERINBERG 3-15",
@@ -8065,6 +8223,38 @@
       "LITTLE LA GRANGE 7 (WELL)",
       "LITTLE LA GRANGE 9",
       "LITTLE PRINCESS",
+      "LONG REEF APTS",
+      "LONG REEF APTS 10",
+      "LONG REEF APTS 11",
+      "LONG REEF APTS 12",
+      "LONG REEF APTS 13",
+      "LONG REEF APTS 14",
+      "LONG REEF APTS 15",
+      "LONG REEF APTS 16",
+      "LONG REEF APTS 19",
+      "LONG REEF APTS 20",
+      "LONG REEF APTS 21",
+      "LONG REEF APTS 22",
+      "LONG REEF APTS 23",
+      "LONG REEF APTS 24",
+      "LONG REEF APTS 25",
+      "LONG REEF APTS 26",
+      "LONG REEF APTS 27",
+      "LONG REEF APTS 28",
+      "LONG REEF APTS 29",
+      "LONG REEF APTS 30",
+      "LONG REEF APTS 31",
+      "LONG REEF APTS 33",
+      "LONG REEF APTS 34",
+      "LONG REEF APTS 35",
+      "LONG REEF APTS 37",
+      "LONG REEF APTS 38",
+      "LONG REEF APTS 39",
+      "LONG REEF APTS 40",
+      "LONG REEF APTS 41",
+      "LONG REEF APTS 42",
+      "LONG REEF APTS 5",
+      "LONG REEF APTS 8",
       "LORRAINE VILLAGE",
       "LORRAINE VILLAGE 2 HS MTR",
       "LORRAINE VILLAGE B-1",
@@ -8480,6 +8670,8 @@
       "NAZARETH 2W-44",
       "NAZARETH 2W-45",
       "NAZARETH 2-W-76-3",
+      "NEW CASTLE COAKLEY",
+      "NEW CASTLE COAKLEY 5",
       "NEW STREET",
       "NEW STREET 12",
       "NEW STREET 12 A-1",
@@ -8537,13 +8729,16 @@
       "OLD HOSPITAL ST 1A A-1 EL",
       "OLD HOSPITAL STREET 1A",
       "OLD HOSPITAL STREET 1C",
+      "ORANGE GROVE 16-17",
       "ORANGE GROVE 24 (UPSTRS)",
       "ORANGE GROVE 24 APT",
       "ORANGE GROVE 28 (DWNSTR)",
+      "ORANGE GROVE 3",
       "ORANGE GROVE 30",
       "ORANGE GROVE 34-B",
       "ORANGE GROVE 34-B (WELL)",
       "ORANGE GROVE 4",
+      "ORANGE GROVE 48 (EL)",
       "OXFORD 13",
       "OXFORD 24",
       "P ESTATE CRUZ BAY",
@@ -8795,6 +8990,7 @@
       "PRINDSENS GADE 17 ABC",
       "PRINDSENS GADE 17ABC",
       "PRINDSENS GADE 56",
+      "PROSPERITY 25 NORTHSIDE",
       "PROSPERITY 62-C",
       "PULL POINT ESDT GREEN CAY",
       "QUEEN CROSS ST. 23-23A",
@@ -9792,8 +9988,8 @@
       "YELLOW CLIFF 29",
       "YELLOW CLIFF 4&5"
     ],
-    "totalOutages": 15
+    "totalOutages": 19
   },
   "staleAfterSeconds": 900,
-  "unassignedEventCount": 12
+  "unassignedEventCount": 16
 }
