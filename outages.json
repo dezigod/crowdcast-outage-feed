@@ -313,7 +313,7 @@
         "LITTLE PRINCESS 52A",
         "LITTLE PRINCESS 52-A TRL"
       ],
-      "modifiedAt": "2026-11-19T13:57:18Z",
+      "modifiedAt": "2026-11-19T14:58:03Z",
       "name": "T-C-09493",
       "neighborhoodIDs": [],
       "point": {
@@ -325,6 +325,37 @@
       "reportedCustomersRestored": 0,
       "sourceStatus": "Predicted",
       "startedAt": "2026-11-19T13:56:56Z",
+      "verified": false,
+      "workStatus": null
+    },
+    {
+      "cause": null,
+      "crewAssigned": false,
+      "endedAt": null,
+      "estimatedRestoration": null,
+      "id": "7c2a97c65c5e8960baef0c027e50b02f52c3b9dcf4769240a2ee0b93cc804bd5",
+      "island": null,
+      "locations": [
+        "49A 49B 50 QUEEN ST. A-A",
+        "KING CROSS ST 26-A",
+        "KING CROSS STREET",
+        "KING CROSS STREET 26",
+        "QUEEN STREET (PUMP)",
+        "QUEEN STREET 49-50",
+        "QUEEN STREET 50"
+      ],
+      "modifiedAt": "2026-11-19T15:00:35Z",
+      "name": "T-C-25230",
+      "neighborhoodIDs": [],
+      "point": {
+        "latitude": 17.710946775346528,
+        "longitude": -64.88191643283419
+      },
+      "reportedCustomersInitially": 9,
+      "reportedCustomersOut": 9,
+      "reportedCustomersRestored": 0,
+      "sourceStatus": "Predicted",
+      "startedAt": "2026-11-19T14:35:56Z",
       "verified": false,
       "workStatus": null
     },
@@ -4563,6 +4594,37 @@
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
+      "id": "dda122c9215810e583823874a47a2d896c04b4713058306b60f5f4ca6553f0a9",
+      "island": null,
+      "locations": [
+        "MARIENDAHL 7-11",
+        "MARIENDAHL 7-12",
+        "MARIENDAHL 7-13",
+        "MARIENDAHL 7-5",
+        "MARIENDAHL 7-8",
+        "MARIENDAHL 7-9",
+        "MARIENDAHL 7-9 UP"
+      ],
+      "modifiedAt": "2026-11-19T15:00:27Z",
+      "name": "T-T-07799",
+      "neighborhoodIDs": [],
+      "point": {
+        "latitude": 18.32938095385034,
+        "longitude": -64.88218535589456
+      },
+      "reportedCustomersInitially": 8,
+      "reportedCustomersOut": 8,
+      "reportedCustomersRestored": 0,
+      "sourceStatus": "Predicted",
+      "startedAt": "2026-11-19T15:00:25Z",
+      "verified": false,
+      "workStatus": null
+    },
+    {
+      "cause": null,
+      "crewAssigned": false,
+      "endedAt": null,
+      "estimatedRestoration": null,
       "id": "ed27e8eab06604436604e4105a98a93475e4196216cdd39feb86682d3b2b4c96",
       "island": null,
       "locations": [
@@ -4623,7 +4685,7 @@
       "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-19T14:56:07Z",
+  "generatedAt": "2026-11-19T15:01:09Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -5059,26 +5121,22 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "7c7814f11e304371d49b10a0012e117784c3eb0a904193f345e25f8362877503",
+  "snapshotID": "53193fbe4784eafcffcc9d22230ef3ac1be3cb1ddebe52b8c247b7866ef1a994",
   "source": {
-    "checkedAt": "2026-11-19T14:56:07Z",
+    "checkedAt": "2026-11-19T15:01:09Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-19T14:55:42Z",
+    "updatedAt": "2026-11-19T15:00:42Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "sourceSummary": {
     "customerCountDifference": 2,
-    "customersAffected": 5538,
-    "customersOut": 5538,
+    "customersAffected": 5555,
+    "customersOut": 5555,
     "customersRestored": 0,
     "customersServed": 54726,
-    "eventCustomersOut": 5536,
+    "eventCustomersOut": 5553,
     "hourlyCustomersOut": [
-      {
-        "at": "2026-11-17T14:00:00Z",
-        "customersOut": 4857
-      },
       {
         "at": "2026-11-17T15:00:00Z",
         "customersOut": 8231
@@ -5269,7 +5327,11 @@
       },
       {
         "at": "2026-11-19T14:00:00Z",
-        "customersOut": 8323
+        "customersOut": 8332
+      },
+      {
+        "at": "2026-11-19T15:00:00Z",
+        "customersOut": 5553
       }
     ],
     "locations": [
@@ -5296,6 +5358,7 @@
       "3M BAKKERO",
       "3M-1A ESTATE ST PETER",
       "3M-1A ST PETER MTR 1",
+      "49A 49B 50 QUEEN ST. A-A",
       "5&9A EST LOWER JOHN DUNKO",
       "5-A APT #4 DOROTHEA",
       "5C-8A ALTONA&WELGUN",
@@ -8199,6 +8262,9 @@
       "JOHN DUNKOE MIDDLIE 1",
       "JOHN STREET 1ST FL",
       "JOHNS STREET{SOLBERG}",
+      "KING CROSS ST 26-A",
+      "KING CROSS STREET",
+      "KING CROSS STREET 26",
       "KRUM BAY (WAPA HR)",
       "KRUM BAY 19",
       "KRUM BAY 2",
@@ -8579,6 +8645,13 @@
       "MAFOLIE EST 21A DOWN",
       "MAFOLIE-ROBERT HERRICK SC",
       "MANDAHL 12B",
+      "MARIENDAHL 7-11",
+      "MARIENDAHL 7-12",
+      "MARIENDAHL 7-13",
+      "MARIENDAHL 7-5",
+      "MARIENDAHL 7-8",
+      "MARIENDAHL 7-9",
+      "MARIENDAHL 7-9 UP",
       "MARIENDAHL& LILLEN",
       "MISGUNST",
       "MISGUNST #13",
@@ -8712,6 +8785,9 @@
       "PMP GARDEN BLDG-30",
       "PMP GARDENS B-21 A-168",
       "PMP MANAGER OFFICE",
+      "QUEEN STREET (PUMP)",
+      "QUEEN STREET 49-50",
+      "QUEEN STREET 50",
       "REGATTA POINT VILLAS 1& 2",
       "REM ESTATE ST PETER",
       "RESOLUTION",
@@ -9520,8 +9596,8 @@
       "ZUERIENDENHEIT",
       "ZUFRIDENHEIT 1"
     ],
-    "totalOutages": 15
+    "totalOutages": 17
   },
   "staleAfterSeconds": 900,
-  "unassignedEventCount": 12
+  "unassignedEventCount": 14
 }
