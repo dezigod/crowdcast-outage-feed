@@ -13206,31 +13206,6 @@
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
-      "id": "f8086c8bcdfe24d18d25b0968a8c87ab47420b238c3fc6a8a8969dce99c92946",
-      "island": null,
-      "locations": [
-        "CHARLOTTE AMALIE 26A-33-"
-      ],
-      "modifiedAt": "2026-11-18T21:39:50Z",
-      "name": "Feeder 07C",
-      "neighborhoodIDs": [],
-      "point": {
-        "latitude": 18.34059508788897,
-        "longitude": -64.88882169172471
-      },
-      "reportedCustomersInitially": 1850,
-      "reportedCustomersOut": 1,
-      "reportedCustomersRestored": 1849,
-      "sourceStatus": "Verified",
-      "startedAt": "2026-11-18T17:20:00Z",
-      "verified": true,
-      "workStatus": null
-    },
-    {
-      "cause": null,
-      "crewAssigned": false,
-      "endedAt": null,
-      "estimatedRestoration": null,
       "id": "fdb906cf8a129bf9fb76d0647d1a213cc5484666344ddc1ff15b5ce36a8dbf0d",
       "island": null,
       "locations": [
@@ -13252,7 +13227,7 @@
       "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-19T00:36:27Z",
+  "generatedAt": "2026-11-19T00:41:29Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -15137,21 +15112,21 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "973174e77219637b902a4692f41febfa72690d7fc8d6c1e72e5a1c757e38e87f",
+  "snapshotID": "6cbcf34d45edb39907c706fc1b9f91484fbbae64203570eb70e3629d139dc8fc",
   "source": {
-    "checkedAt": "2026-11-19T00:36:27Z",
+    "checkedAt": "2026-11-19T00:41:29Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-19T00:35:44Z",
+    "updatedAt": "2026-11-19T00:40:44Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "sourceSummary": {
     "customerCountDifference": 2,
-    "customersAffected": 17850,
-    "customersOut": 16001,
-    "customersRestored": 1849,
+    "customersAffected": 16000,
+    "customersOut": 16000,
+    "customersRestored": 0,
     "customersServed": 54726,
-    "eventCustomersOut": 15999,
+    "eventCustomersOut": 15998,
     "hourlyCustomersOut": [
       {
         "at": "2026-11-17T00:00:00Z",
@@ -15319,35 +15294,35 @@
       },
       {
         "at": "2026-11-18T17:00:00Z",
-        "customersOut": 28409
+        "customersOut": 28408
       },
       {
         "at": "2026-11-18T18:00:00Z",
-        "customersOut": 28408
+        "customersOut": 28407
       },
       {
         "at": "2026-11-18T19:00:00Z",
-        "customersOut": 28408
+        "customersOut": 28407
       },
       {
         "at": "2026-11-18T20:00:00Z",
-        "customersOut": 28231
+        "customersOut": 28230
       },
       {
         "at": "2026-11-18T21:00:00Z",
-        "customersOut": 28231
+        "customersOut": 28230
       },
       {
         "at": "2026-11-18T22:00:00Z",
-        "customersOut": 23805
+        "customersOut": 23804
       },
       {
         "at": "2026-11-18T23:00:00Z",
-        "customersOut": 16079
+        "customersOut": 16078
       },
       {
         "at": "2026-11-19T00:00:00Z",
-        "customersOut": 18877
+        "customersOut": 18876
       }
     ],
     "locations": [
@@ -17471,7 +17446,6 @@
       "CHARLOTTE AMALIE 26A RM B",
       "CHARLOTTE AMALIE 26A STE",
       "CHARLOTTE AMALIE 26A STE-",
-      "CHARLOTTE AMALIE 26A-33-",
       "CHARLOTTE AMALIE 28-2A",
       "CHARLOTTE AMALIE 3",
       "CHARLOTTE AMALIE 35-1",
@@ -27980,8 +27954,8 @@
       "ZUERIENDENHEIT",
       "ZUFRIDENHEIT 1"
     ],
-    "totalOutages": 24
+    "totalOutages": 23
   },
   "staleAfterSeconds": 900,
-  "unassignedEventCount": 21
+  "unassignedEventCount": 20
 }
