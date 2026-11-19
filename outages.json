@@ -37,6 +37,42 @@
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
+      "id": "49e410a6913de45aa7687fca1f7a62d64957de9d2f5da9a9e74577d96e420664",
+      "island": null,
+      "locations": [
+        "PETERS REST 230 A-1",
+        "PETERS REST 231",
+        "PETERS REST 231-A",
+        "PETERS REST 312",
+        "PETERS REST 316",
+        "PETERS REST 317",
+        "PETERS REST 318",
+        "PETERS REST 320",
+        "PETERS REST 321",
+        "PETERS REST 322",
+        "PETERS REST 323",
+        "PETERS REST 368"
+      ],
+      "modifiedAt": "2026-11-19T22:45:20Z",
+      "name": "T-C-18389",
+      "neighborhoodIDs": [],
+      "point": {
+        "latitude": 17.725876475474685,
+        "longitude": -64.73881817397486
+      },
+      "reportedCustomersInitially": 14,
+      "reportedCustomersOut": 14,
+      "reportedCustomersRestored": 0,
+      "sourceStatus": "Predicted",
+      "startedAt": "2026-11-19T18:40:00Z",
+      "verified": false,
+      "workStatus": null
+    },
+    {
+      "cause": null,
+      "crewAssigned": false,
+      "endedAt": null,
+      "estimatedRestoration": null,
       "id": "4c5554558053423a470bc0eb6c59d67a68e3c7fef9e4224900eac60cacfc7074",
       "island": null,
       "locations": [
@@ -1396,31 +1432,6 @@
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
-      "id": "8295784338849a5e3048167c6e497970ffbb1c962adab4790ab8f328e7cf77ec",
-      "island": null,
-      "locations": [
-        "PETERS REST 316"
-      ],
-      "modifiedAt": "2026-11-19T20:03:14Z",
-      "name": "30206",
-      "neighborhoodIDs": [],
-      "point": {
-        "latitude": 17.7266228622452,
-        "longitude": -64.7376607626433
-      },
-      "reportedCustomersInitially": 1,
-      "reportedCustomersOut": 1,
-      "reportedCustomersRestored": 0,
-      "sourceStatus": "Verified",
-      "startedAt": "2026-11-19T18:40:00Z",
-      "verified": true,
-      "workStatus": null
-    },
-    {
-      "cause": null,
-      "crewAssigned": false,
-      "endedAt": null,
-      "estimatedRestoration": null,
       "id": "8670fa9c4686f647f255a59717ed247db47d1b2b0610c7d9cfce15dc472b3875",
       "island": null,
       "locations": [
@@ -2608,45 +2619,6 @@
       "sourceStatus": "Verified",
       "startedAt": "2026-11-19T22:22:32Z",
       "verified": true,
-      "workStatus": null
-    },
-    {
-      "cause": null,
-      "crewAssigned": false,
-      "endedAt": null,
-      "estimatedRestoration": null,
-      "id": "99888c11523f862da4434deaf63cda0714178bab03698654c1fa1660d138341e",
-      "island": null,
-      "locations": [
-        "CONTANT",
-        "CONTANT 4-11",
-        "CONTANT 4-11 APT 17 (EL)",
-        "CONTANT 4-11 APT 18",
-        "CONTANT 4-11 APT 7",
-        "CONTANT 4-11 APT-12",
-        "CONTANT 4-11 APT-5",
-        "CONTANT 4-11 APT-6",
-        "CONTANT 4-11 HOUSE METER",
-        "CONTANT 4-11 TRAILER",
-        "CONTANT 4-11 TRAILER #8",
-        "CONTANT 42 SOUTH SIDE QT",
-        "EST CONTANT 411 MTR 15 EL",
-        "EST CONTANT 411 MTR 16 EL",
-        "ESTATE CONTANT 4-11"
-      ],
-      "modifiedAt": "2026-11-19T22:22:32Z",
-      "name": "T-T-01013",
-      "neighborhoodIDs": [],
-      "point": {
-        "latitude": 18.340297902743963,
-        "longitude": -64.96028902473446
-      },
-      "reportedCustomersInitially": 19,
-      "reportedCustomersOut": 19,
-      "reportedCustomersRestored": 0,
-      "sourceStatus": "Predicted",
-      "startedAt": "2026-11-19T22:22:11Z",
-      "verified": false,
       "workStatus": null
     },
     {
@@ -5376,9 +5348,46 @@
       "startedAt": "2026-11-19T22:36:00Z",
       "verified": true,
       "workStatus": null
+    },
+    {
+      "cause": null,
+      "crewAssigned": false,
+      "endedAt": null,
+      "estimatedRestoration": null,
+      "id": "fbfdeeda98f28ba9afd07de655b0d275ea0b88428664b1b8328210b982d24406",
+      "island": null,
+      "locations": [
+        "MAHOGANY RUN 17M MTR 4",
+        "MAHOGANY RUN 17U A-386",
+        "MAHOGANY RUN 19U",
+        "MAHOGANY RUN B-17 A-389",
+        "MAHOGANY RUN B18",
+        "MAHOGANY RUN COND 20",
+        "MAHOGANY RUN COND0 B-19",
+        "MAHOGANY RUN CONDO 20W",
+        "MAHOGANY RUN CONDO B-10",
+        "MAHOGANY RUN CONDO B-18",
+        "MAHOGANY RUN CONDO B-19",
+        "MAHOGANY RUN CONDO B-20",
+        "MAHOGONY RUN CONDO 20L"
+      ],
+      "modifiedAt": "2026-11-19T22:41:56Z",
+      "name": "T-T-17270",
+      "neighborhoodIDs": [],
+      "point": {
+        "latitude": 18.363170241078116,
+        "longitude": -64.90518530625968
+      },
+      "reportedCustomersInitially": 15,
+      "reportedCustomersOut": 15,
+      "reportedCustomersRestored": 0,
+      "sourceStatus": "Predicted",
+      "startedAt": "2026-11-19T22:41:40Z",
+      "verified": false,
+      "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-19T22:40:57Z",
+  "generatedAt": "2026-11-19T22:45:58Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -6183,21 +6192,21 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "5c6d3f1709710dc35035e68bda24e34cfdc159bbaa5eecb0c181963e7a8f8c64",
+  "snapshotID": "a4a0f390a7b5723552ba6d85bee2784cfd49e823b3a5465a548e0c710c6b0df7",
   "source": {
-    "checkedAt": "2026-11-19T22:40:57Z",
+    "checkedAt": "2026-11-19T22:45:58Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-19T22:40:42Z",
+    "updatedAt": "2026-11-19T22:45:42Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "sourceSummary": {
     "customerCountDifference": 2,
-    "customersAffected": 6882,
-    "customersOut": 6882,
+    "customersAffected": 6891,
+    "customersOut": 6891,
     "customersRestored": 0,
     "customersServed": 54726,
-    "eventCustomersOut": 6880,
+    "eventCustomersOut": 6889,
     "hourlyCustomersOut": [
       {
         "at": "2026-11-17T22:00:00Z",
@@ -6377,23 +6386,23 @@
       },
       {
         "at": "2026-11-19T18:00:00Z",
-        "customersOut": 8769
+        "customersOut": 8768
       },
       {
         "at": "2026-11-19T19:00:00Z",
-        "customersOut": 4121
+        "customersOut": 4120
       },
       {
         "at": "2026-11-19T20:00:00Z",
-        "customersOut": 12922
+        "customersOut": 12921
       },
       {
         "at": "2026-11-19T21:00:00Z",
-        "customersOut": 8908
+        "customersOut": 8907
       },
       {
         "at": "2026-11-19T22:00:00Z",
-        "customersOut": 15757
+        "customersOut": 15737
       }
     ],
     "locations": [
@@ -7660,17 +7669,6 @@
       "CONTANT 38",
       "CONTANT 38 MTR-4",
       "CONTANT 39A",
-      "CONTANT 4-11",
-      "CONTANT 4-11 APT 17 (EL)",
-      "CONTANT 4-11 APT 18",
-      "CONTANT 4-11 APT 7",
-      "CONTANT 4-11 APT-12",
-      "CONTANT 4-11 APT-5",
-      "CONTANT 4-11 APT-6",
-      "CONTANT 4-11 HOUSE METER",
-      "CONTANT 4-11 TRAILER",
-      "CONTANT 4-11 TRAILER #8",
-      "CONTANT 42 SOUTH SIDE QT",
       "CONTANT 4-D",
       "CONTANT 6-B",
       "CONTANT 7-105-A B/TRAFFIC",
@@ -7955,8 +7953,6 @@
       "EST BOVONI 6A-75",
       "EST CONTANT 19-42",
       "EST CONTANT 28-7B",
-      "EST CONTANT 411 MTR 15 EL",
-      "EST CONTANT 411 MTR 16 EL",
       "EST FRENCHMANS BAY 14-38",
       "EST FRENCHMAN'S BAY 16-58",
       "EST FRENCHMANS BAY 21-43",
@@ -8126,7 +8122,6 @@
       "ESTATE BOVONI 12B-37",
       "ESTATE BOVONI 5-46",
       "ESTATE BOVONI 5-46 APT-2",
-      "ESTATE CONTANT 4-11",
       "ESTATE FRENCHMANS BAY",
       "ESTATE FRYDENDAHL",
       "ESTATE FRYDENDAHL #4",
@@ -9801,7 +9796,20 @@
       "MAHOGANY ESTATE 162",
       "MAHOGANY ESTATE 168",
       "MAHOGANY ESTATE 187",
+      "MAHOGANY RUN 17M MTR 4",
+      "MAHOGANY RUN 17U A-386",
+      "MAHOGANY RUN 19U",
+      "MAHOGANY RUN B-17 A-389",
+      "MAHOGANY RUN B18",
+      "MAHOGANY RUN COND 20",
+      "MAHOGANY RUN COND0 B-19",
+      "MAHOGANY RUN CONDO 20W",
+      "MAHOGANY RUN CONDO B-10",
+      "MAHOGANY RUN CONDO B-18",
+      "MAHOGANY RUN CONDO B-19",
+      "MAHOGANY RUN CONDO B-20",
       "MAHOGANYEST 110",
+      "MAHOGONY RUN CONDO 20L",
       "MAIN STREET",
       "MAIN STREET 7-1",
       "MAIN STREET 7A UNIT 4",
@@ -10005,7 +10013,18 @@
       "PALM STRAEDE 16B APT-2",
       "PARCEL 56-7 FRYDENDAHL",
       "PCL SMITH BAY 20-11 UP",
+      "PETERS REST 230 A-1",
+      "PETERS REST 231",
+      "PETERS REST 231-A",
+      "PETERS REST 312",
       "PETERS REST 316",
+      "PETERS REST 317",
+      "PETERS REST 318",
+      "PETERS REST 320",
+      "PETERS REST 321",
+      "PETERS REST 322",
+      "PETERS REST 323",
+      "PETERS REST 368",
       "PILE STRADA",
       "PILE STRADE",
       "PILE STRADE #6",
