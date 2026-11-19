@@ -189,7 +189,7 @@ The existing delivered-feed monitor separately checks `rotation-schedule.json` a
 
 ### Rotation notification deduplication
 
-Rotation checks still open a new issue and fail the Actions run for a new incident or newly added problem. An unchanged already-open rotation incident now emits an explicit warning and an **UNHEALTHY** job summary instead of failing every monitor run again. The issue stays open until verified recovery, when the existing recovery comment/close path runs. A green monitor run means the check/incident tracking succeeded, not that expired rotation coverage recovered. This opt-in applies only to rotation checks: outage and cruise failure exits, GitHub/API errors, collection schedules and user notification settings are unchanged. No new notification subscription was added.
+Rotation checks still open a new issue and fail the Actions run for a new incident or newly added problem. An unchanged already-open rotation incident now emits an explicit warning and an **UNHEALTHY** job summary instead of failing every monitor run again. The issue stays open until verified recovery, when the existing recovery comment/close path runs. A green monitor run means the check/incident tracking succeeded, not that expired rotation coverage recovered. This opt-in applies to known rotation source incidents. Outage and cruise source-health failures still fail their monitor checks. No new notification subscription was added.
 
 
 ## Complete WAPA map details (November 10, 2026)
@@ -311,3 +311,63 @@ the original revision was not verified. The rows therefore retain the official
 images, not the tracker edits, and do not confirm actual outages or the latest
 noon revision. The disputed 12:00–14:00 slot had ended when reviewed. Existing
 today-only filtering and local-midnight expiry remain unchanged.
+
+
+## Delivery recovery (November 19, 2026)
+
+A public GitHub read gets at most three attempts, with 10-second request timeouts
+and waits of one and three seconds. All attempts use the same five-minute cache
+bucket. Network errors, incomplete JSON and temporary server errors may retry;
+access denials, rate limits, redirects, oversized responses and Retry-After do
+not. This helper cannot contact WAPA. Diagnostics retain the HTTP code or safe
+failure category, without response bodies or credentials.
+
+Delivery-unavailable issues are separate from source-health issues. An unreadable
+response cannot erase an existing source incident, declare source recovery, or
+make its unchanged problems look new on the next successful read. The first
+transport incident fails the monitor and opens an issue; unchanged repeats retain
+an explicit UNHEALTHY result and warning without another failure notification.
+Delivery recovery closes only the transport issue. The source check then decides
+whether freshness and coverage have recovered. Issue API failures still fail.
+
+The live outage collector reads settings, event details, then the publication
+summary, once each. It records the check time after these responses arrive,
+while preserving WAPA's separate publication timestamp. A publication arriving
+during the requests is no longer compared against an earlier check-start time.
+Future, regressed and inconsistent source clocks still fail validation; there
+are no extra provider retries or relaxed polling limits. Longer viewer refresh
+intervals and Retry-After reservations remain durable.
+
+Rotation source failures are recorded in the delivered rotation status and
+collector warnings, with their own deduplicated monitor issue. They no longer
+turn every successful live-outage collection into another failed job. A blocked
+rotation logs `access_review_required`, makes no source request, and stays
+blocked until an explicit access review. A green collector job is not proof of
+rotation availability; use the rotation status, actual source times, and monitor.
+
+### Explicit rotation access review
+
+The `Review rotation source access` workflow shares the collector concurrency
+lock and its existing contents-write permission. It never runs on a timer.
+Before dispatch, inspect the refusal and the official advisory page through
+ordinary permitted access. Supply the blocked schedule fingerprint, SHA256 of
+the inspected advisory page, and a UTC expiration within 15 minutes of execution.
+No credentials, permission changes, alternate identities or bypasses are needed.
+
+The workflow validates the review against current saved state, honors the saved
+next-attempt time, and persists the blocked reservation before source access.
+It checks the advisory page once and, only if its exact reviewed bytes still
+match and it links the allowlisted PDF, that document once. A denial, redirect,
+network failure, changed page, expired review or mismatched state cannot silently
+clear the block. A successful matching page with a missing/changed schedule
+replaces the access block with a truthful failed-schedule result and resumes
+ordinary page checks. It preserves the old document timestamps and coverage;
+this is access recovery, not schedule recovery. A new refusal blocks again.
+
+On November 19 at 20:16 UTC the official advisory page linked a PNG at the old
+STT/STJ document path. Visual review found **St. Croix, November 18, 2026**, not
+a current STT/STJ schedule. The image SHA256 was
+`c01f4a8c7effd4e6a012a8d79471a2f766c0c7e55d787b2586586cb3036517fd`.
+The collector reports `schedule_format_changed` and does not import that image's
+feeder times. Correct current STT/STJ source material is still required to restore
+rotation coverage. No raw source image or page is committed here.

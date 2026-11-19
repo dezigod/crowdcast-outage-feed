@@ -75,7 +75,7 @@ class CurrentDayTests(TestCase):
             output = []
             def no_access(*a, **k): self.fail('Deferred check must not access source')
             outcome = check_rotation(previous, output.append, now=NOW, loader=no_access)
-            self.assertEqual(outcome, 'deferred')
+            self.assertEqual(outcome, 'review_required' if blocked else 'deferred')
             self.assertEqual(len(output[-1][ROTATION]['schedule']['windows']), 7)
             self.assertTrue(all(row['startsAt'].startswith('2026-11-10')
                                 for row in output[-1][ROTATION]['schedule']['windows']))

@@ -1,0 +1,48 @@
+name: Review rotation source access
+run-name: Owner-reviewed rotation access check
+
+on:
+  workflow_dispatch:
+    inputs:
+      expected_fingerprint:
+        description: Fingerprint of the blocked schedule already inspected by the owner
+        required: true
+        type: string
+      advisory_fingerprint:
+        description: SHA256 of the official advisory page inspected during this access review
+        required: true
+        type: string
+      valid_until:
+        description: UTC expiry within 15 minutes of execution; no automatic renewal
+        required: true
+        type: string
+
+permissions:
+  contents: write
+
+concurrency:
+  group: reviewed-outage-collection
+  cancel-in-progress: false
+
+jobs:
+  review:
+    if: github.repository == 'dezigod/crowdcast-outage-feed' && github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    timeout-minutes: 3
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+        with:
+          persist-credentials: false
+      - name: Install pinned schedule parser
+        run: python3 -m pip install --disable-pip-version-check --no-deps -r outage_backend/requirements-rotation.txt
+      - name: Check reviewed access and preserve actual schedule status
+        env:
+          GH_TOKEN: ${{ github.token }}
+          EXPECTED_FINGERPRINT: ${{ inputs.expected_fingerprint }}
+          ADVISORY_FINGERPRINT: ${{ inputs.advisory_fingerprint }}
+          VALID_UNTIL: ${{ inputs.valid_until }}
+        run: >-
+          python3 -m scripts.review_rotation_access
+          --expected-fingerprint "$EXPECTED_FINGERPRINT"
+          --advisory-fingerprint "$ADVISORY_FINGERPRINT"
+          --valid-until "$VALID_UNTIL"
