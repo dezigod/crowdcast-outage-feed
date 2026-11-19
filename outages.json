@@ -71,7 +71,7 @@
         "ST JOHN 1-E",
         "ST JOHN 7-J"
       ],
-      "modifiedAt": "2026-11-19T14:00:06Z",
+      "modifiedAt": "2026-11-19T14:19:21Z",
       "name": "T-C-19205",
       "neighborhoodIDs": [],
       "point": {
@@ -4636,7 +4636,7 @@
       "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-19T14:15:50Z",
+  "generatedAt": "2026-11-19T14:20:52Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -5072,11 +5072,11 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "61544b2617179c1b98d84ce3ca1bc95c5f4cab15de8953199e06960eef2ed112",
+  "snapshotID": "604d0eb2285228ed24b7ee46fc9e28804f3e416720027d6e6d7cdf2b75580b5e",
   "source": {
-    "checkedAt": "2026-11-19T14:15:50Z",
+    "checkedAt": "2026-11-19T14:20:52Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-19T14:15:42Z",
+    "updatedAt": "2026-11-19T14:20:42Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
