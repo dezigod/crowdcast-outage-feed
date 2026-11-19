@@ -4397,6 +4397,32 @@
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
+      "id": "9fcdf5091576ece8789c0698f4de02a9a19574e4c527b9dc2ff1cb59135a7468",
+      "island": null,
+      "locations": [
+        "MT PELLIER 45",
+        "MT PELLIER 47"
+      ],
+      "modifiedAt": "2026-11-19T04:32:09Z",
+      "name": "T-C-20815",
+      "neighborhoodIDs": [],
+      "point": {
+        "latitude": 17.73968846726451,
+        "longitude": -64.84501008280641
+      },
+      "reportedCustomersInitially": 2,
+      "reportedCustomersOut": 2,
+      "reportedCustomersRestored": 0,
+      "sourceStatus": "Predicted",
+      "startedAt": "2026-11-19T04:31:43Z",
+      "verified": false,
+      "workStatus": null
+    },
+    {
+      "cause": null,
+      "crewAssigned": false,
+      "endedAt": null,
+      "estimatedRestoration": null,
       "id": "a7622fe5ec3f7460243d64545ddffb42dc3c534b3876e2c938737688abde9c58",
       "island": "stThomas",
       "locations": [
@@ -5062,7 +5088,7 @@
       "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-19T04:30:40Z",
+  "generatedAt": "2026-11-19T04:35:42Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -5181,21 +5207,21 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "abc97cb0c50a9f1b05896da6a88caa1fb327332ece5ec38ebab47c3fd287a684",
+  "snapshotID": "d41011593992b783a3c90c84c6b488d2ce6416b175f8616d537d90963b3ac949",
   "source": {
-    "checkedAt": "2026-11-19T04:30:40Z",
+    "checkedAt": "2026-11-19T04:35:42Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-19T04:25:41Z",
+    "updatedAt": "2026-11-19T04:35:42Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "sourceSummary": {
     "customerCountDifference": 2,
-    "customersAffected": 5880,
-    "customersOut": 5880,
+    "customersAffected": 5882,
+    "customersOut": 5882,
     "customersRestored": 0,
     "customersServed": 54726,
-    "eventCustomersOut": 5878,
+    "eventCustomersOut": 5880,
     "hourlyCustomersOut": [
       {
         "at": "2026-11-17T04:00:00Z",
@@ -5391,7 +5417,7 @@
       },
       {
         "at": "2026-11-19T04:00:00Z",
-        "customersOut": 5878
+        "customersOut": 5880
       }
     ],
     "locations": [
@@ -8489,6 +8515,8 @@
       "MOUNT WELCOME 1-A & 1-B B",
       "MOUNT WELCOME 1A-1B (EL)",
       "MT FANCY 43 B",
+      "MT PELLIER 45",
+      "MT PELLIER 47",
       "MT PLEASANT",
       "MT PLEASANT (PUMP)",
       "MT PLEASANT 10",
@@ -9988,8 +10016,8 @@
       "YELLOW CLIFF 29",
       "YELLOW CLIFF 4&5"
     ],
-    "totalOutages": 19
+    "totalOutages": 20
   },
   "staleAfterSeconds": 900,
-  "unassignedEventCount": 16
+  "unassignedEventCount": 17
 }
