@@ -4158,6 +4158,42 @@
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
+      "id": "7c27db75439c52d526f8725475e6fd48032a3f9dd2865512e3544401fb2b516b",
+      "island": null,
+      "locations": [
+        "PETERS REST 230 A-1",
+        "PETERS REST 231",
+        "PETERS REST 231-A",
+        "PETERS REST 312",
+        "PETERS REST 316",
+        "PETERS REST 317",
+        "PETERS REST 318",
+        "PETERS REST 320",
+        "PETERS REST 321",
+        "PETERS REST 322",
+        "PETERS REST 323",
+        "PETERS REST 368"
+      ],
+      "modifiedAt": "2026-11-19T18:40:33Z",
+      "name": "T-C-18389",
+      "neighborhoodIDs": [],
+      "point": {
+        "latitude": 17.725876475474685,
+        "longitude": -64.73881817397486
+      },
+      "reportedCustomersInitially": 14,
+      "reportedCustomersOut": 14,
+      "reportedCustomersRestored": 0,
+      "sourceStatus": "Predicted",
+      "startedAt": "2026-11-19T18:40:00Z",
+      "verified": false,
+      "workStatus": null
+    },
+    {
+      "cause": null,
+      "crewAssigned": false,
+      "endedAt": null,
+      "estimatedRestoration": null,
       "id": "7c2a97c65c5e8960baef0c027e50b02f52c3b9dcf4769240a2ee0b93cc804bd5",
       "island": null,
       "locations": [
@@ -4368,7 +4404,7 @@
       "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-19T18:40:30Z",
+  "generatedAt": "2026-11-19T18:45:32Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -4892,25 +4928,25 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "0b1ee553adbae11282261ef909c0078d3f8a9aa8a6fe125a0c139b64386fe696",
+  "snapshotID": "af71544194c2851bcb55cdc359de2150ac43da3941ad7e95f0dc408f685207a6",
   "source": {
-    "checkedAt": "2026-11-19T18:40:30Z",
+    "checkedAt": "2026-11-19T18:45:32Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-19T18:35:42Z",
+    "updatedAt": "2026-11-19T18:40:42Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "sourceSummary": {
     "customerCountDifference": 2,
-    "customersAffected": 4954,
-    "customersOut": 4954,
+    "customersAffected": 4968,
+    "customersOut": 4968,
     "customersRestored": 0,
     "customersServed": 54726,
-    "eventCustomersOut": 4952,
+    "eventCustomersOut": 4966,
     "hourlyCustomersOut": [
       {
         "at": "2026-11-17T18:00:00Z",
-        "customersOut": 3924
+        "customersOut": 2222
       },
       {
         "at": "2026-11-17T19:00:00Z",
@@ -5102,7 +5138,7 @@
       },
       {
         "at": "2026-11-19T18:00:00Z",
-        "customersOut": 7028
+        "customersOut": 7042
       }
     ],
     "locations": [
@@ -8613,6 +8649,18 @@
       "PETERBORG MTR DWN",
       "PETERBORGE 10-2-2",
       "PETERBORG-LOWER",
+      "PETERS REST 230 A-1",
+      "PETERS REST 231",
+      "PETERS REST 231-A",
+      "PETERS REST 312",
+      "PETERS REST 316",
+      "PETERS REST 317",
+      "PETERS REST 318",
+      "PETERS REST 320",
+      "PETERS REST 321",
+      "PETERS REST 322",
+      "PETERS REST 323",
+      "PETERS REST 368",
       "PINE PIECE STJ",
       "POLLYBERG",
       "POST OFFICE SQ NORRE GADE",
@@ -9099,8 +9147,8 @@
       "WINTBERG PEAK 1CD-6",
       "WINTBERG PEAK 1K"
     ],
-    "totalOutages": 15
+    "totalOutages": 16
   },
   "staleAfterSeconds": 900,
-  "unassignedEventCount": 12
+  "unassignedEventCount": 13
 }
