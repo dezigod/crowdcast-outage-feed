@@ -3509,7 +3509,7 @@
       "workStatus": null
     },
     {
-      "cause": null,
+      "cause": "770 Partial Power",
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
@@ -3520,7 +3520,7 @@
         "LITTLE PRINCESS 52A",
         "LITTLE PRINCESS 52-A TRL"
       ],
-      "modifiedAt": "2026-11-19T14:58:03Z",
+      "modifiedAt": "2026-11-19T19:43:05Z",
       "name": "T-C-09493",
       "neighborhoodIDs": [],
       "point": {
@@ -3545,7 +3545,7 @@
       "locations": [
         "PETERS REST 316"
       ],
-      "modifiedAt": "2026-11-19T19:35:58Z",
+      "modifiedAt": "2026-11-19T19:41:41Z",
       "name": "30206",
       "neighborhoodIDs": [],
       "point": {
@@ -3763,7 +3763,7 @@
         "CONCORDIA 16",
         "CONCORDIA 31-31-A"
       ],
-      "modifiedAt": "2026-11-19T13:47:04Z",
+      "modifiedAt": "2026-11-19T19:43:46Z",
       "name": "T-C-06731",
       "neighborhoodIDs": [],
       "point": {
@@ -3810,7 +3810,7 @@
       "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-19T19:40:50Z",
+  "generatedAt": "2026-11-19T19:45:52Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -3956,11 +3956,11 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "23c32b24dc0c5da107aea7c3978878df4f16752bf36259ab0a938c4938b6d4a9",
+  "snapshotID": "c11e1a57883912e69bea37e00a1620bd307a0048ff70bba03cfe589f0c9cfe81",
   "source": {
-    "checkedAt": "2026-11-19T19:40:50Z",
+    "checkedAt": "2026-11-19T19:45:52Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-19T19:40:42Z",
+    "updatedAt": "2026-11-19T19:45:41Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
