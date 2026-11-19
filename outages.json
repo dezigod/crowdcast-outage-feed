@@ -37,32 +37,6 @@
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
-      "id": "330eef19265b11cf3fd1172c88c28644fe77bfdb04f54f33e6289f8857263ca3",
-      "island": null,
-      "locations": [
-        "COTTON VALLEY 111-A",
-        "COTTON VALLEY 335"
-      ],
-      "modifiedAt": "2026-11-19T02:04:35Z",
-      "name": "T-C-10700",
-      "neighborhoodIDs": [],
-      "point": {
-        "latitude": 17.75227157432098,
-        "longitude": -64.6187593131606
-      },
-      "reportedCustomersInitially": 2,
-      "reportedCustomersOut": 2,
-      "reportedCustomersRestored": 0,
-      "sourceStatus": "Verified",
-      "startedAt": "2026-11-17T16:23:21Z",
-      "verified": true,
-      "workStatus": null
-    },
-    {
-      "cause": null,
-      "crewAssigned": false,
-      "endedAt": null,
-      "estimatedRestoration": null,
       "id": "4c5554558053423a470bc0eb6c59d67a68e3c7fef9e4224900eac60cacfc7074",
       "island": null,
       "locations": [
@@ -4567,6 +4541,37 @@
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
+      "id": "c174608caa50612dfdba5d2588f09ffeae410f4566128954b558296c3e93aa9a",
+      "island": null,
+      "locations": [
+        "MARLEY HOMES B-12",
+        "MARLEY HOMES B-12 A-21",
+        "MARLEY HOMES B-16",
+        "MARLEY HOMES B-16 A-29",
+        "MARLEY HOMES B-17",
+        "MARLEY HOMES B-17 A-31",
+        "MARLEY HOMES B-19 A-34"
+      ],
+      "modifiedAt": "2026-11-19T14:34:17Z",
+      "name": "T-C-21981",
+      "neighborhoodIDs": [],
+      "point": {
+        "latitude": 17.70675092111692,
+        "longitude": -64.88341065139724
+      },
+      "reportedCustomersInitially": 7,
+      "reportedCustomersOut": 7,
+      "reportedCustomersRestored": 0,
+      "sourceStatus": "Predicted",
+      "startedAt": "2026-11-19T14:33:53Z",
+      "verified": false,
+      "workStatus": null
+    },
+    {
+      "cause": null,
+      "crewAssigned": false,
+      "endedAt": null,
+      "estimatedRestoration": null,
       "id": "cbbd2ef62dee6d0405b3a5d5c18b1c3c5a5b4dbca8f2f81c8fc8d71e6fec7176",
       "island": "stThomas",
       "locations": [
@@ -4644,7 +4649,7 @@
       "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-19T14:30:56Z",
+  "generatedAt": "2026-11-19T14:35:58Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -5080,21 +5085,21 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "1f4d026425edf153c1083b6a2d7a594845b1b1f07714e433129c4295c8fb53d5",
+  "snapshotID": "73dc268afb4006b78d7504f30cdf428a6e6002fe82c438e002b806fd9b6811e3",
   "source": {
-    "checkedAt": "2026-11-19T14:30:56Z",
+    "checkedAt": "2026-11-19T14:35:58Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-19T14:30:42Z",
+    "updatedAt": "2026-11-19T14:35:42Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "sourceSummary": {
     "customerCountDifference": 2,
-    "customersAffected": 5536,
-    "customersOut": 5536,
+    "customersAffected": 5541,
+    "customersOut": 5541,
     "customersRestored": 0,
     "customersServed": 54726,
-    "eventCustomersOut": 5534,
+    "eventCustomersOut": 5539,
     "hourlyCustomersOut": [
       {
         "at": "2026-11-17T14:00:00Z",
@@ -5118,179 +5123,179 @@
       },
       {
         "at": "2026-11-17T19:00:00Z",
-        "customersOut": 6184
+        "customersOut": 6182
       },
       {
         "at": "2026-11-17T20:00:00Z",
-        "customersOut": 3356
+        "customersOut": 3354
       },
       {
         "at": "2026-11-17T21:00:00Z",
-        "customersOut": 2271
+        "customersOut": 2269
       },
       {
         "at": "2026-11-17T22:00:00Z",
-        "customersOut": 10815
+        "customersOut": 10813
       },
       {
         "at": "2026-11-17T23:00:00Z",
-        "customersOut": 8557
+        "customersOut": 8555
       },
       {
         "at": "2026-11-18T00:00:00Z",
-        "customersOut": 9504
+        "customersOut": 9502
       },
       {
         "at": "2026-11-18T01:00:00Z",
-        "customersOut": 6464
+        "customersOut": 6462
       },
       {
         "at": "2026-11-18T02:00:00Z",
-        "customersOut": 4252
+        "customersOut": 4250
       },
       {
         "at": "2026-11-18T03:00:00Z",
-        "customersOut": 2176
+        "customersOut": 2174
       },
       {
         "at": "2026-11-18T04:00:00Z",
-        "customersOut": 22
+        "customersOut": 20
       },
       {
         "at": "2026-11-18T05:00:00Z",
-        "customersOut": 22
+        "customersOut": 20
       },
       {
         "at": "2026-11-18T06:00:00Z",
-        "customersOut": 22
+        "customersOut": 20
       },
       {
         "at": "2026-11-18T07:00:00Z",
-        "customersOut": 22
+        "customersOut": 20
       },
       {
         "at": "2026-11-18T08:00:00Z",
-        "customersOut": 22
+        "customersOut": 20
       },
       {
         "at": "2026-11-18T09:00:00Z",
-        "customersOut": 22
+        "customersOut": 20
       },
       {
         "at": "2026-11-18T10:00:00Z",
-        "customersOut": 22
+        "customersOut": 20
       },
       {
         "at": "2026-11-18T11:00:00Z",
-        "customersOut": 22
+        "customersOut": 20
       },
       {
         "at": "2026-11-18T12:00:00Z",
-        "customersOut": 2411
+        "customersOut": 2409
       },
       {
         "at": "2026-11-18T13:00:00Z",
-        "customersOut": 2411
+        "customersOut": 2409
       },
       {
         "at": "2026-11-18T14:00:00Z",
-        "customersOut": 5232
+        "customersOut": 5230
       },
       {
         "at": "2026-11-18T15:00:00Z",
-        "customersOut": 3398
+        "customersOut": 3396
       },
       {
         "at": "2026-11-18T16:00:00Z",
-        "customersOut": 3771
+        "customersOut": 3769
       },
       {
         "at": "2026-11-18T17:00:00Z",
-        "customersOut": 26679
+        "customersOut": 26677
       },
       {
         "at": "2026-11-18T18:00:00Z",
-        "customersOut": 26678
+        "customersOut": 26676
       },
       {
         "at": "2026-11-18T19:00:00Z",
-        "customersOut": 27847
+        "customersOut": 27845
       },
       {
         "at": "2026-11-18T20:00:00Z",
-        "customersOut": 27670
+        "customersOut": 27668
       },
       {
         "at": "2026-11-18T21:00:00Z",
-        "customersOut": 27670
+        "customersOut": 27668
       },
       {
         "at": "2026-11-18T22:00:00Z",
-        "customersOut": 23244
+        "customersOut": 23242
       },
       {
         "at": "2026-11-18T23:00:00Z",
-        "customersOut": 15505
+        "customersOut": 15503
       },
       {
         "at": "2026-11-19T00:00:00Z",
-        "customersOut": 18294
+        "customersOut": 18292
       },
       {
         "at": "2026-11-19T01:00:00Z",
-        "customersOut": 14440
+        "customersOut": 14438
       },
       {
         "at": "2026-11-19T02:00:00Z",
-        "customersOut": 14742
+        "customersOut": 14740
       },
       {
         "at": "2026-11-19T03:00:00Z",
-        "customersOut": 12390
+        "customersOut": 12388
       },
       {
         "at": "2026-11-19T04:00:00Z",
-        "customersOut": 7998
+        "customersOut": 7996
       },
       {
         "at": "2026-11-19T05:00:00Z",
-        "customersOut": 2151
+        "customersOut": 2149
       },
       {
         "at": "2026-11-19T06:00:00Z",
-        "customersOut": 22
+        "customersOut": 20
       },
       {
         "at": "2026-11-19T07:00:00Z",
-        "customersOut": 22
+        "customersOut": 20
       },
       {
         "at": "2026-11-19T08:00:00Z",
-        "customersOut": 22
+        "customersOut": 20
       },
       {
         "at": "2026-11-19T09:00:00Z",
-        "customersOut": 22
+        "customersOut": 20
       },
       {
         "at": "2026-11-19T10:00:00Z",
-        "customersOut": 22
+        "customersOut": 20
       },
       {
         "at": "2026-11-19T11:00:00Z",
-        "customersOut": 22
+        "customersOut": 20
       },
       {
         "at": "2026-11-19T12:00:00Z",
-        "customersOut": 2818
+        "customersOut": 2816
       },
       {
         "at": "2026-11-19T13:00:00Z",
-        "customersOut": 2850
+        "customersOut": 2848
       },
       {
         "at": "2026-11-19T14:00:00Z",
-        "customersOut": 8321
+        "customersOut": 8326
       }
     ],
     "locations": [
@@ -6694,8 +6699,6 @@
       "CONTANT UPSTAIRS MTR",
       "CONTANT2C",
       "CONTNAT 11-3M DOWN",
-      "COTTON VALLEY 111-A",
-      "COTTON VALLEY 335",
       "CROWN BAY",
       "CROWN BAY 101 BOOTH",
       "CROWN BAY 161-B DEV SUBB",
@@ -8597,6 +8600,13 @@
       "MANDAHL 12B",
       "MARIENDAHL& LILLEN",
       "MARKET SQUARE STRING LIHG",
+      "MARLEY HOMES B-12",
+      "MARLEY HOMES B-12 A-21",
+      "MARLEY HOMES B-16",
+      "MARLEY HOMES B-16 A-29",
+      "MARLEY HOMES B-17",
+      "MARLEY HOMES B-17 A-31",
+      "MARLEY HOMES B-19 A-34",
       "MISGUNST",
       "MISGUNST #13",
       "MISGUNST #6A DOWN",
