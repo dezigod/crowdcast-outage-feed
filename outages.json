@@ -364,36 +364,6 @@
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
-      "id": "a38898041e943cd524cccd1161306d8d34dd3af5a145958f1afc164cfad98f70",
-      "island": null,
-      "locations": [
-        "EST HOPE 24 E",
-        "EST HOPE 24-8",
-        "EST HOPE 24E",
-        "ESTATE HOPE 24-6",
-        "HOPE EST 24-5",
-        "ST JOSEPH & ROSEN DWN"
-      ],
-      "modifiedAt": "2026-11-19T13:08:10Z",
-      "name": "T-T-01648",
-      "neighborhoodIDs": [],
-      "point": {
-        "latitude": 18.360261689987965,
-        "longitude": -65.00462748026408
-      },
-      "reportedCustomersInitially": 6,
-      "reportedCustomersOut": 6,
-      "reportedCustomersRestored": 0,
-      "sourceStatus": "Predicted",
-      "startedAt": "2026-11-19T12:20:16Z",
-      "verified": false,
-      "workStatus": null
-    },
-    {
-      "cause": null,
-      "crewAssigned": false,
-      "endedAt": null,
-      "estimatedRestoration": null,
       "id": "a7622fe5ec3f7460243d64545ddffb42dc3c534b3876e2c938737688abde9c58",
       "island": "stThomas",
       "locations": [
@@ -4621,7 +4591,7 @@
       "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-19T15:36:23Z",
+  "generatedAt": "2026-11-19T15:41:25Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -5057,21 +5027,21 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "6f01da4d135d299bd41ff689daf1b2c9106434ecc0392b58cfc8aab9fd2a0568",
+  "snapshotID": "6e0854dfef03c7d39ff1fb6a5b86a941b1656f594f634ccb9a24097ff1d9da0d",
   "source": {
-    "checkedAt": "2026-11-19T15:36:23Z",
+    "checkedAt": "2026-11-19T15:41:25Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-19T15:35:42Z",
+    "updatedAt": "2026-11-19T15:40:42Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "sourceSummary": {
     "customerCountDifference": 2,
-    "customersAffected": 5539,
-    "customersOut": 5539,
+    "customersAffected": 5533,
+    "customersOut": 5533,
     "customersRestored": 0,
     "customersServed": 54726,
-    "eventCustomersOut": 5537,
+    "eventCustomersOut": 5531,
     "hourlyCustomersOut": [
       {
         "at": "2026-11-17T15:00:00Z",
@@ -5267,7 +5237,7 @@
       },
       {
         "at": "2026-11-19T15:00:00Z",
-        "customersOut": 5537
+        "customersOut": 5531
       }
     ],
     "locations": [
@@ -6983,9 +6953,6 @@
       "EST HAVENSIGHT 17B",
       "EST HAVENSIGHT 25",
       "EST HAVENSIGHT UP",
-      "EST HOPE 24 E",
-      "EST HOPE 24-8",
-      "EST HOPE 24E",
       "EST HULL",
       "EST HULL #14-A",
       "EST HULL 11-1 11-D-D",
@@ -7362,7 +7329,6 @@
       "ESTATE ELIZABETH 7A MTR-A",
       "ESTATE ELIZABETH 7A MTR-B",
       "ESTATE FRENCHMANS BAY",
-      "ESTATE HOPE 24-6",
       "ESTATE HULL",
       "ESTATE HULL 11DA-4",
       "ESTATE HULL 11-F",
@@ -7979,7 +7945,6 @@
       "HONDURAS 82",
       "HONDURAS 83-B",
       "HONDURAS 8J-A",
-      "HOPE EST 24-5",
       "HOSPITAL GROUND 400B",
       "HULL",
       "HULL 11-1 11D-D",
@@ -9081,7 +9046,6 @@
       "ST JOHN 1-D",
       "ST JOHN 1-E",
       "ST JOHN 7-J",
-      "ST JOSEPH & ROSEN DWN",
       "ST PETER",
       "ST PETER #15 & 16A DWN",
       "ST PETER #15A & 16A UP",
@@ -9516,8 +9480,8 @@
       "ZUERIENDENHEIT",
       "ZUFRIDENHEIT 1"
     ],
-    "totalOutages": 15
+    "totalOutages": 14
   },
   "staleAfterSeconds": 900,
-  "unassignedEventCount": 12
+  "unassignedEventCount": 11
 }
