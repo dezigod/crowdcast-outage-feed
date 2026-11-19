@@ -6,6 +6,36 @@
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
+      "id": "1086c5bec8d4c898d7de3280853eab3c196a7d8bc902be0b52fb31421b36225a",
+      "island": null,
+      "locations": [
+        "16-16H ESTATE THOMAS",
+        "EST THOMAS",
+        "EST THOMAS 6H-16",
+        "EST THOMAS 8A",
+        "ESTATE THOMAS #6H",
+        "ESTATE THOMAS 8A-1"
+      ],
+      "modifiedAt": "2026-11-19T13:07:40Z",
+      "name": "T-T-17079",
+      "neighborhoodIDs": [],
+      "point": {
+        "latitude": 18.33477892848805,
+        "longitude": -64.91795611009752
+      },
+      "reportedCustomersInitially": 8,
+      "reportedCustomersOut": 8,
+      "reportedCustomersRestored": 0,
+      "sourceStatus": "Predicted",
+      "startedAt": "2026-11-19T13:07:11Z",
+      "verified": false,
+      "workStatus": null
+    },
+    {
+      "cause": null,
+      "crewAssigned": false,
+      "endedAt": null,
+      "estimatedRestoration": null,
       "id": "114334c01aa87b660788dbcd897dba52abaccf25d73a80313b285103c5d75502",
       "island": null,
       "locations": [
@@ -2453,7 +2483,7 @@
         "HOPE EST 24-5",
         "ST JOSEPH & ROSEN DWN"
       ],
-      "modifiedAt": "2026-11-19T12:20:43Z",
+      "modifiedAt": "2026-11-19T13:08:10Z",
       "name": "T-T-01648",
       "neighborhoodIDs": [],
       "point": {
@@ -2677,7 +2707,7 @@
       "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-19T13:06:26Z",
+  "generatedAt": "2026-11-19T13:11:28Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -3249,21 +3279,21 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "8b3c256900babf800db4fede176ef9805f56fe795d1b0cd2d0b6c77a56e1bf1e",
+  "snapshotID": "a913af31bfc660237bc1f43d70aa4155752a66fd147e722dcfcca0de79a996e3",
   "source": {
-    "checkedAt": "2026-11-19T13:06:26Z",
+    "checkedAt": "2026-11-19T13:11:28Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-19T13:05:40Z",
+    "updatedAt": "2026-11-19T13:10:41Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "sourceSummary": {
     "customerCountDifference": 2,
-    "customersAffected": 2882,
-    "customersOut": 2882,
+    "customersAffected": 2890,
+    "customersOut": 2890,
     "customersRestored": 0,
     "customersServed": 54726,
-    "eventCustomersOut": 2880,
+    "eventCustomersOut": 2888,
     "hourlyCustomersOut": [
       {
         "at": "2026-11-17T13:00:00Z",
@@ -3459,7 +3489,7 @@
       },
       {
         "at": "2026-11-19T13:00:00Z",
-        "customersOut": 2880
+        "customersOut": 2888
       }
     ],
     "locations": [
@@ -3467,6 +3497,7 @@
       "12B BJERGE GADE",
       "13B PETER BAY MAHO BAY",
       "13BA HARD LABOR",
+      "16-16H ESTATE THOMAS",
       "16A-4A ESTATE MANDAHL",
       "16EB MANDAHL",
       "1CD-8 ESTATE WINTBERG",
@@ -4418,10 +4449,13 @@
       "EST ST PETER 3H-25",
       "EST ST. JOSEPH-ROSEN 4-B",
       "EST TAARNEBERG 39C APT 3",
+      "EST THOMAS",
       "EST THOMAS 1 1ST ST",
       "EST THOMAS 246 1ST STREET",
       "EST THOMAS 2B",
+      "EST THOMAS 6H-16",
       "EST THOMAS 8 -",
+      "EST THOMAS 8A",
       "EST WINTBERG",
       "EST WINTBERG 1 CD 2",
       "EST WINTBERG 1-100",
@@ -4524,6 +4558,8 @@
       "ESTATE ROSS D-15",
       "ESTATE ROSS D-2",
       "ESTATE TAARNEBERG 39C",
+      "ESTATE THOMAS #6H",
+      "ESTATE THOMAS 8A-1",
       "ESTATE WINTBERG 1-J",
       "ESTATE ZOOTENVAAL 3A-5",
       "ESTATE ZOOTENVAAL 3A-5**",
@@ -5837,8 +5873,8 @@
       "ZOOTENVAAL 3Q (MTR 1)",
       "ZOOTENVAAL 3T"
     ],
-    "totalOutages": 12
+    "totalOutages": 13
   },
   "staleAfterSeconds": 900,
-  "unassignedEventCount": 9
+  "unassignedEventCount": 10
 }
