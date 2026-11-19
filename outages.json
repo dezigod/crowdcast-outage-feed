@@ -3545,7 +3545,7 @@
       "locations": [
         "PETERS REST 316"
       ],
-      "modifiedAt": "2026-11-19T19:41:41Z",
+      "modifiedAt": "2026-11-19T20:03:14Z",
       "name": "30206",
       "neighborhoodIDs": [],
       "point": {
@@ -3744,7 +3744,7 @@
       "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-19T20:00:58Z",
+  "generatedAt": "2026-11-19T20:06:00Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -3890,11 +3890,11 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "d8bbc07faa54c761508b2496e1a0cc938b491a4ed8f51067f5b6cb9d44ec5ece",
+  "snapshotID": "72920daaf52c4f85e12dfd8fd748a27bbce8ee7056f2a9733b9578ab19516924",
   "source": {
-    "checkedAt": "2026-11-19T20:00:58Z",
+    "checkedAt": "2026-11-19T20:06:00Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-19T20:00:42Z",
+    "updatedAt": "2026-11-19T20:05:46Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
