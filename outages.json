@@ -37,6 +37,34 @@
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
+      "id": "1c820018da0c256f83a202d1277970dee6a1edb7f61c5d59bff329bdd1bde9e7",
+      "island": null,
+      "locations": [
+        "BONNE RESOLUTION 16E-1",
+        "BONNE RESOLUTION 16E-1 DW",
+        "BONNE RESOLUTION 17-4",
+        "BONNE RESOLUTION 17-4-D"
+      ],
+      "modifiedAt": "2026-11-19T16:23:05Z",
+      "name": "T-T-16252",
+      "neighborhoodIDs": [],
+      "point": {
+        "latitude": 18.36688786653744,
+        "longitude": -64.95619803299122
+      },
+      "reportedCustomersInitially": 4,
+      "reportedCustomersOut": 4,
+      "reportedCustomersRestored": 0,
+      "sourceStatus": "Predicted",
+      "startedAt": "2026-11-19T16:22:56Z",
+      "verified": false,
+      "workStatus": null
+    },
+    {
+      "cause": null,
+      "crewAssigned": false,
+      "endedAt": null,
+      "estimatedRestoration": null,
       "id": "4c5554558053423a470bc0eb6c59d67a68e3c7fef9e4224900eac60cacfc7074",
       "island": null,
       "locations": [
@@ -4303,7 +4331,7 @@
       "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-19T16:20:45Z",
+  "generatedAt": "2026-11-19T16:25:47Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -5503,21 +5531,21 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "456a366ef1d5c2a89385439132dcaf58e2fe6f995bdf69a92c6810cecee0a7af",
+  "snapshotID": "bc9649154bcdf659ae67931535720155988a4fe05d8f62c308fbdaba97e06278",
   "source": {
-    "checkedAt": "2026-11-19T16:20:45Z",
+    "checkedAt": "2026-11-19T16:25:47Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-19T16:20:41Z",
+    "updatedAt": "2026-11-19T16:25:41Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "sourceSummary": {
     "customerCountDifference": 2,
-    "customersAffected": 5132,
-    "customersOut": 5132,
+    "customersAffected": 5136,
+    "customersOut": 5136,
     "customersRestored": 0,
     "customersServed": 54726,
-    "eventCustomersOut": 5130,
+    "eventCustomersOut": 5134,
     "hourlyCustomersOut": [
       {
         "at": "2026-11-17T16:00:00Z",
@@ -6314,6 +6342,10 @@
       "BOLONGO UP 61-31D",
       "BOLONGO#13",
       "BOLONGO, N3 FRENCHMAN'S",
+      "BONNE RESOLUTION 16E-1",
+      "BONNE RESOLUTION 16E-1 DW",
+      "BONNE RESOLUTION 17-4",
+      "BONNE RESOLUTION 17-4-D",
       "BOVONI",
       "BOVONI #12B-1",
       "BOVONI 102-5",
@@ -9643,8 +9675,8 @@
       "WINTBERG PEAK 1CD-6",
       "WINTBERG PEAK 1K"
     ],
-    "totalOutages": 15
+    "totalOutages": 16
   },
   "staleAfterSeconds": 900,
-  "unassignedEventCount": 12
+  "unassignedEventCount": 13
 }
