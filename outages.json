@@ -344,7 +344,7 @@
         "QUEEN STREET 49-50",
         "QUEEN STREET 50"
       ],
-      "modifiedAt": "2026-11-19T15:00:35Z",
+      "modifiedAt": "2026-11-19T15:17:10Z",
       "name": "T-C-25230",
       "neighborhoodIDs": [],
       "point": {
@@ -4706,7 +4706,7 @@
       "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-19T15:16:15Z",
+  "generatedAt": "2026-11-19T15:21:17Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -5142,11 +5142,11 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "13c023c827f5ba0c843b33bd2c4a04a13777343887f44d18af052e759cb1b85f",
+  "snapshotID": "55ca17ccdcb4986273c1f767a696294c40f136ac824f076a02174f8cd01b73cb",
   "source": {
-    "checkedAt": "2026-11-19T15:16:15Z",
+    "checkedAt": "2026-11-19T15:21:17Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-19T15:15:42Z",
+    "updatedAt": "2026-11-19T15:20:42Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
