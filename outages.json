@@ -4507,37 +4507,6 @@
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
-      "id": "c174608caa50612dfdba5d2588f09ffeae410f4566128954b558296c3e93aa9a",
-      "island": null,
-      "locations": [
-        "MARLEY HOMES B-12",
-        "MARLEY HOMES B-12 A-21",
-        "MARLEY HOMES B-16",
-        "MARLEY HOMES B-16 A-29",
-        "MARLEY HOMES B-17",
-        "MARLEY HOMES B-17 A-31",
-        "MARLEY HOMES B-19 A-34"
-      ],
-      "modifiedAt": "2026-11-19T14:34:17Z",
-      "name": "T-C-21981",
-      "neighborhoodIDs": [],
-      "point": {
-        "latitude": 17.70675092111692,
-        "longitude": -64.88341065139724
-      },
-      "reportedCustomersInitially": 7,
-      "reportedCustomersOut": 7,
-      "reportedCustomersRestored": 0,
-      "sourceStatus": "Predicted",
-      "startedAt": "2026-11-19T14:33:53Z",
-      "verified": false,
-      "workStatus": null
-    },
-    {
-      "cause": null,
-      "crewAssigned": false,
-      "endedAt": null,
-      "estimatedRestoration": null,
       "id": "cbbd2ef62dee6d0405b3a5d5c18b1c3c5a5b4dbca8f2f81c8fc8d71e6fec7176",
       "island": "stThomas",
       "locations": [
@@ -4654,7 +4623,7 @@
       "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-19T14:41:01Z",
+  "generatedAt": "2026-11-19T14:46:04Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -5090,21 +5059,21 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "2b183f790f9cf8824618c95e3ca156aab792c837e10e08de923878a7fc4f81f4",
+  "snapshotID": "e5cf6d8775d2726a397335ba7855b327949b02fe211fb912dc354ff167684dfb",
   "source": {
-    "checkedAt": "2026-11-19T14:41:01Z",
+    "checkedAt": "2026-11-19T14:46:04Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-19T14:40:42Z",
+    "updatedAt": "2026-11-19T14:45:42Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "sourceSummary": {
     "customerCountDifference": 2,
-    "customersAffected": 5545,
-    "customersOut": 5545,
+    "customersAffected": 5538,
+    "customersOut": 5538,
     "customersRestored": 0,
     "customersServed": 54726,
-    "eventCustomersOut": 5543,
+    "eventCustomersOut": 5536,
     "hourlyCustomersOut": [
       {
         "at": "2026-11-17T14:00:00Z",
@@ -5300,7 +5269,7 @@
       },
       {
         "at": "2026-11-19T14:00:00Z",
-        "customersOut": 8330
+        "customersOut": 8323
       }
     ],
     "locations": [
@@ -8611,13 +8580,6 @@
       "MAFOLIE-ROBERT HERRICK SC",
       "MANDAHL 12B",
       "MARIENDAHL& LILLEN",
-      "MARLEY HOMES B-12",
-      "MARLEY HOMES B-12 A-21",
-      "MARLEY HOMES B-16",
-      "MARLEY HOMES B-16 A-29",
-      "MARLEY HOMES B-17",
-      "MARLEY HOMES B-17 A-31",
-      "MARLEY HOMES B-19 A-34",
       "MISGUNST",
       "MISGUNST #13",
       "MISGUNST #6A DOWN",
@@ -9558,8 +9520,8 @@
       "ZUERIENDENHEIT",
       "ZUFRIDENHEIT 1"
     ],
-    "totalOutages": 16
+    "totalOutages": 15
   },
   "staleAfterSeconds": 900,
-  "unassignedEventCount": 13
+  "unassignedEventCount": 12
 }
