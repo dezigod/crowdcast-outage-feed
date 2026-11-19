@@ -3,10 +3,13 @@ import argparse
 import base64
 import calendar
 from datetime import datetime, timedelta, timezone
+import http.client
 import json
 import os
 import re
 import subprocess
+import time
+import urllib.error
 import urllib.request
 from urllib.parse import unquote, urlsplit
 from zoneinfo import ZoneInfo
@@ -68,13 +71,18 @@ def pending_empty_midnight_rollover(feed, schedule, now):
     midnight = local.replace(hour=0, minute=0, second=0, microsecond=0)
     if not (0 <= (local - midnight).total_seconds() < 300):
         return False
-    if (feed.get("status") != "ok"
-            or schedule.get("day") != (local.date() - timedelta(days=1)).isoformat()
-            or schedule.get("dayStatus") != "not_current"
+    if (schedule.get("day") != (local.date() - timedelta(days=1)).isoformat()
+            or schedule.get("dayStatus") not in {"not_current", "unreviewed"}
             or schedule.get("extractionStatus") != "unavailable"
             or schedule.get("windows") != []
             or schedule.get("coverageStart") is not None
             or schedule.get("coverageEnd") is not None):
+        return False
+    # An already unavailable, empty schedule cannot expose yesterday's times.
+    # Its access, stale-source and unreviewed-revision failures remain visible.
+    if feed.get("status") == "blocked" and schedule.get("dayStatus") == "unreviewed":
+        return True
+    if feed.get("status") != "ok" or schedule.get("dayStatus") != "not_current":
         return False
     try:
         checked = timestamp(schedule.get("checkedAt"))
@@ -187,23 +195,78 @@ def cruise_state_problems(state, now):
     return failures
 
 
+class PublishedReadError(OSError):
+    """Safe delivery diagnostics, without response bodies or request secrets."""
+
+    def __init__(self, category, attempts=1, http_status=None):
+        self.category = category
+        self.attempts = attempts
+        self.http_status = http_status
+        super().__init__("Published GitHub data read failed: " + category)
+
+
 class NoRedirect(urllib.request.HTTPRedirectHandler):
     def redirect_request(self, *args, **kwargs):
-        raise OSError("Unexpected redirect while checking GitHub delivery")
+        raise PublishedReadError("unexpected_redirect")
 
 
 def published_json(url, limit):
+    """Bounded retries of public GitHub reads only; never polls a provider."""
+    if url not in {CRUISE_STATE, *(value[0] for value in CONFIG.values())}:
+        raise PublishedReadError("unapproved_delivery_url")
     bucket = int(datetime.now(timezone.utc).timestamp()) // 300
     request = urllib.request.Request(url + "?health_check=" + str(bucket),
         headers={"User-Agent": "CrowdCast-feed-health", "Cache-Control": "no-cache"})
-    with urllib.request.build_opener(NoRedirect()).open(request, timeout=30) as response:
-        body = response.read(limit + 1)
-    if len(body) > limit:
-        raise ValueError("Feed size exceeded")
-    return json.loads(body)
+    for attempt in range(1, 4):
+        status = None
+        retry = True
+        try:
+            with urllib.request.build_opener(NoRedirect()).open(request, timeout=10) as response:
+                body = response.read(limit + 1)
+            if len(body) > limit:
+                raise PublishedReadError("response_too_large", attempt)
+            value = json.loads(body)
+            if not isinstance(value, dict):
+                raise PublishedReadError("invalid_json_envelope", attempt)
+            if attempt > 1:
+                print(json.dumps({"diagnostic": "github_read_recovered", "attempts": attempt}))
+            return value
+        except PublishedReadError:
+            raise
+        except urllib.error.HTTPError as error:
+            status = error.code
+            category = "http_error"
+            retry = status in {500, 502, 503, 504} and not error.headers.get("Retry-After")
+            error.close()
+        except (urllib.error.URLError, TimeoutError, ConnectionError, http.client.IncompleteRead):
+            category = "network_or_incomplete_response"
+        except (json.JSONDecodeError, UnicodeDecodeError):
+            category = "invalid_json_response"
+        except OSError:
+            category = "network_error"
+        print(json.dumps({"diagnostic": "github_read_failed", "category": category,
+                          "attempt": attempt, "httpStatus": status,
+                          "willRetry": retry and attempt < 3}))
+        if not retry or attempt == 3:
+            raise PublishedReadError(category, attempt, status)
+        time.sleep((1, 3)[attempt - 1])
 
 
-def alert(repository, failures, title=TITLE):
+def read_problem(kind, part, error):
+    details = {"diagnostic": "delivery_check_failed", "kind": kind, "part": part,
+               "category": getattr(error, "category", "invalid_feed_structure"),
+               "attempts": getattr(error, "attempts", 1),
+               "httpStatus": getattr(error, "http_status", None)}
+    print(json.dumps(details))
+    summary = os.environ.get("GITHUB_STEP_SUMMARY")
+    if summary:
+        with open(summary, "a", encoding="utf-8") as out:
+            out.write("\nDelivery diagnostic: `" + json.dumps(details, sort_keys=True) + "`\n")
+    return ("Cruise collection state could not be downloaded or validated."
+            if part == "collection_state" else "Published feed could not be downloaded or validated.")
+
+
+def alert(repository, failures, title=TITLE, recovery_note=None):
     # GitHub's search index can lag after issue creation. Read the live
     # issue list so adjacent checks recognise the same incident.
     pages = json.loads(gh("api", "--paginate", "--slurp", "repos/" + repository + "/issues?state=open&per_page=100"))
@@ -229,19 +292,20 @@ def alert(repository, failures, title=TITLE):
         return "known_incident"
     if incident:
         gh("issue", "close", str(incident["number"]), "--repo", repository,
-           "--comment", "@dezigod Recovery verified: the delivered feed now passes its freshness, source-coverage and collection checks.")
+           "--comment", recovery_note or "@dezigod Recovery verified: the delivered feed now passes its freshness, source-coverage and collection checks.")
         return "recovered"
     return "healthy"
 
 
-def report_result(kind, failures, alert_state, deduplicate=False):
+def report_result(kind, failures, alert_state, deduplicate=False, *, scope="source"):
     # A successfully tracked, unchanged rotation incident is not a new failure.
     # Its feed remains unhealthy and the open issue is the durable alert.
-    known = deduplicate and kind == "rotation" and alert_state == "known_incident"
+    known = deduplicate and (kind == "rotation" or scope == "delivery") and alert_state == "known_incident"
     print(json.dumps({"healthy": not failures, "problems": failures,
-                      "alertState": alert_state, "repeatNotificationSuppressed": bool(failures and known)}))
+                      "alertState": alert_state, "incidentScope": scope,
+                      "repeatNotificationSuppressed": bool(failures and known)}))
     if failures and known:
-        print("::warning title=WAPA schedule still needs review::Known incident remains open; no new repeat-failure notification. See job summary and open rotation-review issue.")
+        print("::warning title=Feed incident remains unresolved::Known incident remains open; no new repeat-failure notification. See job summary and the open incident.")
     summary = os.environ.get("GITHUB_STEP_SUMMARY")
     if summary:
         with open(summary, "a", encoding="utf-8") as out:
@@ -250,8 +314,39 @@ def report_result(kind, failures, alert_state, deduplicate=False):
             for failure in failures:
                 out.write("- " + failure + "\n")
             if failures and known:
-                out.write("\nThe existing rotation-review issue remains open. This monitor run succeeded at tracking an unresolved incident; it does **not** mean schedule coverage recovered.\n")
+                out.write("\nThe existing incident remains open. This monitor run succeeded at tracking an unresolved incident; it does **not** mean schedule coverage recovered. Source health is unverified when delivery is unreadable.\n")
     return 1 if failures and not known else 0
+
+
+def run_check(kind, repository, *, alert_repository=None, deduplicate=False):
+    destination = alert_repository or repository
+    title = "Cruise feed freshness alert" if destination != repository else TITLE
+    if kind == "rotation":
+        title = "WAPA rotation schedule needs review"
+    delivery_title = kind.capitalize() + " feed delivery unavailable"
+    failures, delivery_failures = [], []
+    try:
+        feed = published_json(CONFIG[kind][0], 3_000_000)
+        failures = problems(kind, feed, datetime.now(timezone.utc))
+        print(json.dumps({"feed": kind, "observedAt": datetime.now(timezone.utc).isoformat(),
+                          "sourceTimes": source_times(kind, feed)}))
+    except (OSError, ValueError, TypeError, AttributeError, KeyError) as error:
+        delivery_failures.append(read_problem(kind, "feed", error))
+    if kind == "cruise":
+        try:
+            state = published_json(CRUISE_STATE, 65_536)
+            failures.extend(cruise_state_problems(state, datetime.now(timezone.utc)))
+        except (OSError, ValueError, TypeError, AttributeError, KeyError) as error:
+            delivery_failures.append(read_problem(kind, "collection_state", error))
+    # A failed read cannot establish source recovery or replace an ongoing
+    # review/access incident. Track transport separately until all reads work.
+    delivery_state = alert(destination, delivery_failures, title=delivery_title,
+        recovery_note="@dezigod GitHub delivery is readable again. Source freshness and schedule coverage are checked separately; this does not close an existing source-review incident.")
+    if delivery_failures:
+        return report_result(kind, sorted(set(failures + delivery_failures)), delivery_state,
+                             deduplicate=True, scope="delivery")
+    alert_state = alert(destination, failures, title=title)
+    return report_result(kind, failures, alert_state, deduplicate)
 
 
 def main():
@@ -267,25 +362,8 @@ def main():
     expected = "dezigod/" + ("cruise-schedule-app" if args.kind == "cruise" else "crowdcast-outage-feed")
     if args.repository != expected:
         parser.error("Unexpected repository")
-    try:
-        feed = published_json(CONFIG[args.kind][0], 3_000_000)
-        failures = problems(args.kind, feed, datetime.now(timezone.utc))
-        print(json.dumps({"feed": args.kind, "observedAt": datetime.now(timezone.utc).isoformat(),
-                          "sourceTimes": source_times(args.kind, feed)}))
-    except (OSError, ValueError, TypeError, AttributeError, KeyError):
-        failures = ["Published feed could not be downloaded or validated."]
-    if args.kind == "cruise":
-        try:
-            state = published_json(CRUISE_STATE, 65_536)
-            failures.extend(cruise_state_problems(state, datetime.now(timezone.utc)))
-        except (OSError, ValueError, TypeError, AttributeError, KeyError):
-            failures.append("Cruise collection state could not be downloaded or validated.")
-    destination = args.alert_repository or args.repository
-    title = "Cruise feed freshness alert" if destination != args.repository else TITLE
-    if args.kind == "rotation":
-        title = "WAPA rotation schedule needs review"
-    alert_state = alert(destination, failures, title=title)
-    raise SystemExit(report_result(args.kind, failures, alert_state, args.deduplicate_known_incident))
+    raise SystemExit(run_check(args.kind, args.repository, alert_repository=args.alert_repository,
+                               deduplicate=args.deduplicate_known_incident))
 
 
 if __name__ == "__main__":

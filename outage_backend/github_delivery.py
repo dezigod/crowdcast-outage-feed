@@ -97,8 +97,9 @@ class PublishingStore(Store):
             self.publish(outgoing)
 
 
-def run_once(previous, approved, publish, *, now=None, loader=fetch):
-    now = now or datetime.now(timezone.utc)
+def run_once(previous, approved, publish, *, now=None, loader=fetch, clock=None):
+    clock = clock or ((lambda: now) if now is not None else (lambda: datetime.now(timezone.utc)))
+    now = now or clock()
     permission(approved, now)  # Invalid permission cannot publish or contact the source.
     with TemporaryDirectory(prefix="crowdcast-private-outages-") as directory:
         store = PublishingStore(directory, previous, publish)
@@ -109,7 +110,7 @@ def run_once(previous, approved, publish, *, now=None, loader=fetch):
         if next_attempt and now < next_attempt:
             return "deferred"
         try:
-            success = collect(store, approved, now=now, loader=loader)
+            success = collect(store, approved, now=now, loader=loader, clock=clock)
         except PermissionRequired:
             if store.read("health.json", {}).get("status") == "blocked":
                 return "blocked"
@@ -260,8 +261,13 @@ def main():
         if rotation_enabled:
             rotation_status = check_rotation(previous.get(ROTATION), remote.publish)
             print("Schedule check: " + rotation_status)
+            if rotation_status == "review_required":
+                print("::warning::Rotation access review is still required; no schedule source request made.")
             if rotation_status in {"failed", "blocked"}:
-                parser.exit(1, "Previous schedule link retained; schedule check needs review.\n")
+                # Rotation has its own persistent, deduplicated monitor issue.
+                # Do not send a new collector failure for the same known review
+                # problem every five minutes or hide the live outage outcome.
+                print("::warning::Rotation schedule remains unavailable; see its review incident. Source clocks retained.")
     except DeliveryError as error:
         parser.exit(1, str(error) + "; prior feed retained.\n")
     except PermissionRequired:

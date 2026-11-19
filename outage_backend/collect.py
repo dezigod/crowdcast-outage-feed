@@ -73,8 +73,9 @@ def deadline_stamp(value):
     return stamp(value)
 
 
-def collect(store, approved, *, now=None, loader=fetch):
-    now = now or datetime.now(timezone.utc)
+def collect(store, approved, *, now=None, loader=fetch, clock=None):
+    clock = clock or ((lambda: now) if now is not None else (lambda: datetime.now(timezone.utc)))
+    now = now or clock()
     interval = permission(approved, now)  # Must execute before any network access.
     store.directory.mkdir(parents=True, exist_ok=True, mode=0o700)
     with (store.directory / "collection.lock").open("a") as lock:
@@ -82,10 +83,10 @@ def collect(store, approved, *, now=None, loader=fetch):
             fcntl.flock(lock, fcntl.LOCK_EX | fcntl.LOCK_NB)
         except BlockingIOError:
             return False
-        return _collect_locked(store, approved, now=now, loader=loader, interval=interval)
+        return _collect_locked(store, approved, now=now, loader=loader, interval=interval, clock=clock)
 
 
-def _collect_locked(store, approved, *, now, loader, interval):
+def _collect_locked(store, approved, *, now, loader, interval, clock):
     health = store.read("health.json", {})
     if health.get("status") == "blocked":
         raise PermissionRequired("Previous access denial requires manual review of health.json")
@@ -96,17 +97,29 @@ def _collect_locked(store, approved, *, now, loader, interval):
     attempt = dict(status="failed", error="Source update incomplete", nextAttemptAt=deadline_stamp(now + timedelta(seconds=interval)))
     store.reserve(attempt)
     try:
-        settings, summary, outages = [loader(url) for url in URLS]
+        settings = loader(URLS[0])
         viewer_minutes = settings["mapOptions"]["refreshTime"]
         if type(viewer_minutes) is not int or viewer_minutes < 1:
             raise QualityError("Invalid viewer refresh setting")
         interval = max(interval, viewer_minutes * 60)
-        attempt["nextAttemptAt"] = deadline_stamp(now + timedelta(seconds=interval))
+        deadline = deadline_stamp(now + timedelta(seconds=interval))
+        if deadline != attempt["nextAttemptAt"]:
+            attempt["nextAttemptAt"] = deadline
+            store.reserve(attempt)
+        # Read details before the publication summary, once per approved URL.
+        # A summary read first can become older than details during these GETs.
+        # Inconsistent source revisions still fail validation; never merge or
+        # retry provider snapshots inside the minimum polling interval.
+        outages = loader(URLS[2])
+        summary = loader(URLS[1])
+        checked_at = clock()
+        if checked_at < now:
+            raise QualityError("Collection clock regressed")
         raw = {"settings": settings, "summary": summary, "outages": outages}
         fingerprint = hashlib.sha256(json.dumps(raw, sort_keys=True).encode()).hexdigest()
         # Retain failed as well as accepted input for private investigation.
-        store.write("raw-" + fingerprint + ".json", dict(raw, checkedAt=stamp(now), permissionReference=approved["reference"]))
-        feed = normalize(summary, outages, checked_at=now, raw_sha256=fingerprint, refresh_seconds=interval)
+        store.write("raw-" + fingerprint + ".json", dict(raw, checkedAt=stamp(checked_at), permissionReference=approved["reference"]))
+        feed = normalize(summary, outages, checked_at=checked_at, raw_sha256=fingerprint, refresh_seconds=interval)
         feed["source"]["viewerRefreshSeconds"] = viewer_minutes * 60
         prior = store.read("feed.json")
         if prior and date(feed["source"]["updatedAt"]) < date(prior["source"]["updatedAt"]):
@@ -117,8 +130,8 @@ def _collect_locked(store, approved, *, now, loader, interval):
         print("Source download failed: HTTP " + str(error.code))
         if error.code in (401, 403):
             attempt.update(status="blocked", error="Source access needs review")
-        elif error.code == 429:
-            attempt.update(error="Source rate limit", nextAttemptAt=deadline_stamp(max(now + timedelta(seconds=interval), retry_after(error.headers.get("Retry-After"), now))))
+        elif error.code == 429 or (error.code == 503 and error.headers.get("Retry-After")):
+            attempt.update(error="Source rate limit", nextAttemptAt=deadline_stamp(max(now + timedelta(seconds=interval), retry_after(error.headers.get("Retry-After"), clock()))))
         else:
             attempt.update(error="Source download failed")
         error.close()

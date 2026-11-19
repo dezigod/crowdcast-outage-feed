@@ -79,7 +79,7 @@ class RotationTests(unittest.TestCase):
         blocked = published[-1][ROTATION]
         self.assertEqual(blocked["schedule"], first["schedule"])
         self.assertEqual(check_rotation(blocked, published.append, now=NOW + timedelta(days=1),
-                                        loader=deny), "deferred")
+                                        loader=deny), "review_required")
 
 class ReviewedWindowTests(unittest.TestCase):
     def test_reviewed_windows_match_dated_pages_not_today(self):

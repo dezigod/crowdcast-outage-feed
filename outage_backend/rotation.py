@@ -11,7 +11,7 @@ from urllib.error import HTTPError
 from urllib.parse import urljoin
 from urllib.request import Request, build_opener
 
-from .collect import NoRedirect, PermissionRequired, retry_after
+from .collect import NoRedirect, PermissionRequired, retry_after, deadline_stamp
 from .normalize import date, stamp
 
 AST = ZoneInfo("America/St_Thomas")
@@ -24,12 +24,25 @@ PDF = re.compile(
     r"https://www\.viwapa\.vi/docs/default-source/outage-schedule/"
     r"sttstj-rotational-outage-schedule-doc\.pdf(?:\?sfvrsn=[a-zA-Z0-9_]+)?"
 )
+IMAGE = re.compile(
+    r"https://www\.viwapa\.vi/docs/default-source/outage-schedule/"
+    r"sttstj-rotational-outage-schedule-doc\.png(?:\?sfvrsn=[a-zA-Z0-9_]+)?"
+)
+
+
+class ScheduleUnavailable(ValueError):
+    """An official page changed; no replacement coverage can be inferred."""
+
+
+def diagnostic(category, **details):
+    print(json.dumps(dict(diagnostic="rotation_check", category=category, **details)))
 
 
 class ScheduleLinks(HTMLParser):
     def __init__(self):
         super().__init__()
         self.urls = set()
+        self.images = set()
 
     def handle_starttag(self, tag, attrs):
         href = dict(attrs).get("href")
@@ -37,13 +50,19 @@ class ScheduleLinks(HTMLParser):
             url = urljoin(ALERTS, href)
             if PDF.fullmatch(url):
                 self.urls.add(url)
+            elif IMAGE.fullmatch(url):
+                self.images.add(url)
 
 
 def schedule_url(html):
     links = ScheduleLinks()
     links.feed(html.decode("utf-8"))
+    if links.images:
+        # The November 19 access review found a PNG for another district and
+        # date at the former STT/STJ link. Never follow it as an STT/STJ PDF.
+        raise ScheduleUnavailable("schedule_format_changed")
     if len(links.urls) != 1:
-        raise ValueError("WAPA schedule link is missing or ambiguous")
+        raise ScheduleUnavailable("schedule_link_missing_or_ambiguous")
     return links.urls.pop()
 
 
@@ -203,8 +222,8 @@ def extract_windows(fingerprint, body):
         try:
             from .rotation_pdf import extracted_windows
             return dict(extracted_windows(body), extractionMethod="validated-layout")
-        except (ImportError, ValueError, OSError):
-            pass
+        except (ImportError, ValueError, OSError) as error:
+            diagnostic("schedule_layout_unverified", errorType=type(error).__name__, fingerprint=fingerprint)
     return dict(reviewed, extractionMethod="unavailable")
 
 
@@ -225,8 +244,23 @@ def download(url, *, previous_modified=None, limit):
         raise
 
 
-def check_rotation(previous, publish, *, now=None, loader=download):
-    now = now or datetime.now(timezone.utc)
+def validate_access_review(previous, review, now):
+    """One explicit, short-lived review; no automatic reset after a refusal."""
+    if (not previous or previous.get("status") != "blocked"
+            or set(review) != {"expectedFingerprint", "advisoryFingerprint", "validUntil"}
+            or (previous.get("schedule") or {}).get("fingerprint") != review["expectedFingerprint"]
+            or any(not isinstance(review[key], str) or not re.fullmatch(r"[0-9a-f]{64}", review[key])
+                   for key in ("expectedFingerprint", "advisoryFingerprint"))
+            or date(review["validUntil"]) is None
+            or not now < date(review["validUntil"]) <= now + timedelta(minutes=15)):
+        raise PermissionRequired("A current, matching access review is required")
+
+
+def check_rotation(previous, publish, *, now=None, loader=download, clock=None, access_review=None):
+    clock = clock or ((lambda: now) if now is not None else (lambda: datetime.now(timezone.utc)))
+    now = now or clock()
+    if access_review is not None:
+        validate_access_review(previous, access_review, now)
     if previous:
         public_rotation(previous)
         cleaned_schedule = current_day(previous.get("schedule"), now)
@@ -248,15 +282,24 @@ def check_rotation(previous, publish, *, now=None, loader=download):
             public_rotation(cleaned)
             publish({ROTATION: cleaned})
             previous = cleaned
-        if previous["status"] == "blocked" or date(previous["nextAttemptAt"]) > now:
+        if previous["status"] == "blocked" and access_review is None:
+            diagnostic("access_review_required", sourceRequested=False)
+            return "review_required"
+        if date(previous["nextAttemptAt"]) > now:
             return "deferred"
 
     old = previous.get("schedule") if previous else None
     state = dict(schemaVersion=1, subjectToChange=True, status=previous["status"] if previous else "failed",
-                 nextAttemptAt=stamp(now + timedelta(minutes=5)), schedule=old)
+                 nextAttemptAt=deadline_stamp(now + timedelta(minutes=5)), schedule=old)
     publish({ROTATION: state.copy()})
+    reviewed_page = False
     try:
         html, _ = loader(ALERTS, limit=1_000_000)
+        if access_review is not None:
+            if (sha256(html).hexdigest() != access_review["advisoryFingerprint"]
+                    or clock() >= date(access_review["validUntil"])):
+                raise PermissionRequired("Advisory page changed after access review")
+            reviewed_page = True
         url = schedule_url(html)
         same_url = old and old["url"] == url
         # Do not trust yesterday's conditional response or an unparsed revision
@@ -264,30 +307,42 @@ def check_rotation(previous, publish, *, now=None, loader=download):
         conditional = same_url and old.get("dayStatus") == "current"
         body, modified = loader(url, previous_modified=old["lastModified"] if conditional else None,
                                 limit=8_000_000)
+        checked_at = clock()
+        if checked_at < now:
+            raise ValueError("Collection clock regressed")
         if body is not None and not body.startswith(b"%PDF-"):
             raise ValueError("Invalid schedule response")
         fingerprint = old["fingerprint"] if body is None else sha256(body).hexdigest()
         unchanged = same_url and old["fingerprint"] == fingerprint
         extracted = ({key: old[key] for key in ("windows", "coverageStart", "coverageEnd", "extractionStatus", "extractionMethod")}
                      if body is None else extract_windows(fingerprint, body))
-        schedule = current_day(dict(url=url, fingerprint=fingerprint, checkedAt=stamp(now),
-                        revisionSeenAt=old["revisionSeenAt"] if unchanged else stamp(now),
-                        lastModified=modified, **extracted), now)
+        schedule = current_day(dict(url=url, fingerprint=fingerprint, checkedAt=stamp(checked_at),
+                        revisionSeenAt=old["revisionSeenAt"] if unchanged else stamp(checked_at),
+                        lastModified=modified, **extracted), checked_at)
         if schedule["dayStatus"] != "current":
-            social = reviewed_social_schedule(now)
+            social = reviewed_social_schedule(checked_at)
             if social is not None:
-                schedule = dict(social, websiteCheckedAt=stamp(now))
+                schedule = dict(social, websiteCheckedAt=stamp(checked_at))
         candidate = dict(state, status="ok", schedule=schedule)
         public_rotation(candidate)
         state = candidate
     except HTTPError as error:
-        state["status"] = "blocked" if error.code in (401, 403) else "failed"
+        state["status"] = "blocked" if error.code in (401, 403) or access_review is not None else "failed"
         if error.code in (429, 503) and (error.code == 429 or error.headers.get("Retry-After")):
-            state["nextAttemptAt"] = stamp(retry_after(error.headers.get("Retry-After"), now))
+            state["nextAttemptAt"] = deadline_stamp(retry_after(error.headers.get("Retry-After"), clock()))
+        diagnostic("http_error", httpStatus=error.code, status=state["status"])
         error.close()
     except PermissionRequired:
         state["status"] = "blocked"
-    except (OSError, ValueError):
-        state["status"] = "failed"
+        diagnostic("access_review_required", status="blocked")
+    except ScheduleUnavailable as error:
+        # A matching, owner-reviewed HTTP 200 advisory proves access recovered,
+        # even when it proves the required schedule is missing. Resume ordinary
+        # page checks, retaining the old source clocks and empty coverage.
+        state["status"] = "failed" if access_review is None or reviewed_page else "blocked"
+        diagnostic(str(error), status=state["status"])
+    except (OSError, ValueError) as error:
+        state["status"] = "blocked" if access_review is not None else "failed"
+        diagnostic("schedule_response_unverified", errorType=type(error).__name__, status=state["status"])
     publish({ROTATION: state})
     return state["status"]
