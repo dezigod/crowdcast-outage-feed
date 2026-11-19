@@ -1515,31 +1515,6 @@
       "workStatus": null
     },
     {
-      "cause": "000 Power supply",
-      "crewAssigned": false,
-      "endedAt": null,
-      "estimatedRestoration": null,
-      "id": "f48a9a6d843980dc25408d73a70cea113fb4798d72cf9e1a88d258c70c140483",
-      "island": null,
-      "locations": [
-        "UPPER LOVE"
-      ],
-      "modifiedAt": "2026-11-19T04:59:23Z",
-      "name": "STX Feeder 10B",
-      "neighborhoodIDs": [],
-      "point": {
-        "latitude": 17.735150820802463,
-        "longitude": -64.80986794585606
-      },
-      "reportedCustomersInitially": 1726,
-      "reportedCustomersOut": 1,
-      "reportedCustomersRestored": 1725,
-      "sourceStatus": "Verified",
-      "startedAt": "2026-11-19T04:08:38Z",
-      "verified": true,
-      "workStatus": null
-    },
-    {
       "cause": null,
       "crewAssigned": false,
       "endedAt": null,
@@ -1565,7 +1540,7 @@
       "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-19T12:31:13Z",
+  "generatedAt": "2026-11-19T12:36:15Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -1700,21 +1675,21 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "79f9bcfb590e5ce9272f4373bc0050176514996eb927a25beb0a8d433e03ffdb",
+  "snapshotID": "01382b055bc9893e5ebe8249f7d2c941ecdcfca79be51d576aee81b73701c604",
   "source": {
-    "checkedAt": "2026-11-19T12:31:13Z",
+    "checkedAt": "2026-11-19T12:36:15Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-19T12:30:41Z",
+    "updatedAt": "2026-11-19T12:35:41Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "sourceSummary": {
     "customerCountDifference": 2,
-    "customersAffected": 2992,
-    "customersOut": 1267,
-    "customersRestored": 1725,
+    "customersAffected": 1266,
+    "customersOut": 1266,
+    "customersRestored": 0,
     "customersServed": 54726,
-    "eventCustomersOut": 1265,
+    "eventCustomersOut": 1264,
     "hourlyCustomersOut": [
       {
         "at": "2026-11-17T12:00:00Z",
@@ -1878,39 +1853,39 @@
       },
       {
         "at": "2026-11-19T04:00:00Z",
-        "customersOut": 8081
+        "customersOut": 8080
       },
       {
         "at": "2026-11-19T05:00:00Z",
-        "customersOut": 2234
+        "customersOut": 2233
       },
       {
         "at": "2026-11-19T06:00:00Z",
-        "customersOut": 105
+        "customersOut": 104
       },
       {
         "at": "2026-11-19T07:00:00Z",
-        "customersOut": 105
+        "customersOut": 104
       },
       {
         "at": "2026-11-19T08:00:00Z",
-        "customersOut": 105
+        "customersOut": 104
       },
       {
         "at": "2026-11-19T09:00:00Z",
-        "customersOut": 105
+        "customersOut": 104
       },
       {
         "at": "2026-11-19T10:00:00Z",
-        "customersOut": 105
+        "customersOut": 104
       },
       {
         "at": "2026-11-19T11:00:00Z",
-        "customersOut": 105
+        "customersOut": 104
       },
       {
         "at": "2026-11-19T12:00:00Z",
-        "customersOut": 1265
+        "customersOut": 1264
       }
     ],
     "locations": [
@@ -3044,7 +3019,6 @@
       "TRUNK BAY SNACK BAR",
       "TRUNK BAY ST JOHN",
       "TRUNK BAY WATER PLANT",
-      "UPPER LOVE",
       "VESTER GADE 100",
       "WHARFSIDE VILLAGE 7A",
       "ZOOTENAL #-1",
@@ -3062,8 +3036,8 @@
       "ZOOTENVAAL 3Q (MTR 1)",
       "ZOOTENVAAL 3T"
     ],
-    "totalOutages": 17
+    "totalOutages": 16
   },
   "staleAfterSeconds": 900,
-  "unassignedEventCount": 14
+  "unassignedEventCount": 13
 }
