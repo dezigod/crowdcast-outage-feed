@@ -1110,6 +1110,35 @@
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
+      "id": "35805fc2c6f11da192dfe4844814e0e06378355ed4d3c92ff2da23637c73f3c5",
+      "island": null,
+      "locations": [
+        "CONTANT 7 TOWERS BLDG-F",
+        "CONTANT TOWERS BLD-E",
+        "CONTANT TOWERS BLDG-E",
+        "CONTANT TOWERS BLDG-F",
+        "TOWERS TOWERS BLDG-E"
+      ],
+      "modifiedAt": "2026-11-19T01:27:02Z",
+      "name": "T-T-16839",
+      "neighborhoodIDs": [],
+      "point": {
+        "latitude": 18.337819281659435,
+        "longitude": -64.9534963767135
+      },
+      "reportedCustomersInitially": 39,
+      "reportedCustomersOut": 39,
+      "reportedCustomersRestored": 0,
+      "sourceStatus": "Predicted",
+      "startedAt": "2026-11-19T01:26:58Z",
+      "verified": false,
+      "workStatus": null
+    },
+    {
+      "cause": null,
+      "crewAssigned": false,
+      "endedAt": null,
+      "estimatedRestoration": null,
       "id": "38a3663bffa5879eb1891531ff9581619b7d8c4d3416ad5043145ab672573229",
       "island": null,
       "locations": [
@@ -11343,7 +11372,7 @@
       "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-19T01:30:39Z",
+  "generatedAt": "2026-11-19T01:35:41Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -12987,25 +13016,25 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "b87d32a438ce022e4dbbe55b954fab2c5f461a67bece22148212937017dded70",
+  "snapshotID": "2b82cb17761e9dcbd945962d1cb4bc135c5be23ebdab3b240c5d8fb2bf6ff24e",
   "source": {
-    "checkedAt": "2026-11-19T01:30:39Z",
+    "checkedAt": "2026-11-19T01:35:41Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-19T01:25:43Z",
+    "updatedAt": "2026-11-19T01:30:43Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "sourceSummary": {
     "customerCountDifference": 2,
-    "customersAffected": 13483,
-    "customersOut": 13483,
+    "customersAffected": 13522,
+    "customersOut": 13522,
     "customersRestored": 0,
     "customersServed": 54726,
-    "eventCustomersOut": 13481,
+    "eventCustomersOut": 13520,
     "hourlyCustomersOut": [
       {
         "at": "2026-11-17T01:00:00Z",
-        "customersOut": 1713
+        "customersOut": 1712
       },
       {
         "at": "2026-11-17T02:00:00Z",
@@ -15816,6 +15845,7 @@
       "CONTANT 6-4",
       "CONTANT 6-5",
       "CONTANT 6-6",
+      "CONTANT 7 TOWERS BLDG-F",
       "CONTANT 7/8",
       "CONTANT 7-2",
       "CONTANT 7-2 MTR 2",
@@ -15852,7 +15882,10 @@
       "CONTANT MTR-1",
       "CONTANT PCL 13-F",
       "CONTANT PCL 6-2",
+      "CONTANT TOWERS BLD-E",
       "CONTANT TOWERS BLDG-A",
+      "CONTANT TOWERS BLDG-E",
+      "CONTANT TOWERS BLDG-F",
       "CONTANT/ENIGHED 131 (EL)",
       "CONTANT/ENIGHED 174 APT B",
       "CONTANT-ENIGHED 280",
@@ -23544,6 +23577,7 @@
       "TEMPLE STREET 9A A-1",
       "TEMPLE STREET UP",
       "THE ANCHORAGE RANGER",
+      "TOWERS TOWERS BLDG-E",
       "TRACT 1 EST NAZARETH 122-",
       "TROPACO PT HULL BAY",
       "TULIPAN STRADE 3",
@@ -23972,8 +24006,8 @@
       "ZUERIENDENHEIT",
       "ZUFRIDENHEIT 1"
     ],
-    "totalOutages": 22
+    "totalOutages": 23
   },
   "staleAfterSeconds": 900,
-  "unassignedEventCount": 19
+  "unassignedEventCount": 20
 }
