@@ -6,6 +6,61 @@
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
+      "id": "0a436e800c97f3da7223215d3adac8795f17791dc797f98663cdd9d0fd6fee39",
+      "island": null,
+      "locations": [
+        "ANNAS FANCY",
+        "ANNAS FANCY #19",
+        "ANNAS FANCY 1 (EL)",
+        "ANNAS FANCY 1 MTR-2",
+        "ANNAS FANCY 16B A-1",
+        "ANNAS FANCY 16B A-2",
+        "ANNAS FANCY 16B A-3",
+        "ANNAS FANCY 17",
+        "ANNAS FANCY 19",
+        "ANNAS FANCY 19AB",
+        "ANNAS FANCY 20",
+        "ANNAS FANCY 21",
+        "ANNAS FANCY 21B",
+        "ANNAS FANCY 23",
+        "ANNAS FANCY 24B (BACK)",
+        "ANNAS FANCY 24B (FRONT)",
+        "ANNAS FANCY 26A UP",
+        "ANNAS FANCY 27",
+        "ANNAS FANCY 28A",
+        "ANNAS FANCY 29",
+        "ANNAS FANCY 29 APT 2",
+        "ANNAS FANCY 29 APT 5",
+        "ANNAS FANCY 29 APT-4",
+        "ANNAS FANCY 29A",
+        "ANNAS FANCY 30 APT-1",
+        "ANNAS FANCY 31",
+        "ANNAS FANCY 34",
+        "ANNAS FANCY 37",
+        "ANNAS FANCY 6",
+        "ANNAS FANCY 7A",
+        "WESTERN CEMENTARY"
+      ],
+      "modifiedAt": "2026-11-19T17:06:35Z",
+      "name": "T-T-05813",
+      "neighborhoodIDs": [],
+      "point": {
+        "latitude": 18.3412559768581,
+        "longitude": -64.94096948409447
+      },
+      "reportedCustomersInitially": 52,
+      "reportedCustomersOut": 52,
+      "reportedCustomersRestored": 0,
+      "sourceStatus": "Predicted",
+      "startedAt": "2026-11-19T17:06:22Z",
+      "verified": false,
+      "workStatus": null
+    },
+    {
+      "cause": null,
+      "crewAssigned": false,
+      "endedAt": null,
+      "estimatedRestoration": null,
       "id": "114334c01aa87b660788dbcd897dba52abaccf25d73a80313b285103c5d75502",
       "island": null,
       "locations": [
@@ -4826,7 +4881,7 @@
       "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-19T17:06:01Z",
+  "generatedAt": "2026-11-19T17:11:03Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -6007,21 +6062,21 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "ef0fb5d2dd3b3e2811fb23e284a25aadd7b9edcb520370e9eae9f069e3b3a171",
+  "snapshotID": "8cd69b90dfae89a6a2246d4f3bd4271096b9262b87993a045dbf499efc8c39c1",
   "source": {
-    "checkedAt": "2026-11-19T17:06:01Z",
+    "checkedAt": "2026-11-19T17:11:03Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-19T17:05:42Z",
+    "updatedAt": "2026-11-19T17:10:41Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "sourceSummary": {
     "customerCountDifference": 2,
-    "customersAffected": 6007,
-    "customersOut": 6007,
+    "customersAffected": 6059,
+    "customersOut": 6059,
     "customersRestored": 0,
     "customersServed": 54726,
-    "eventCustomersOut": 6005,
+    "eventCustomersOut": 6057,
     "hourlyCustomersOut": [
       {
         "at": "2026-11-17T17:00:00Z",
@@ -6217,7 +6272,7 @@
       },
       {
         "at": "2026-11-19T17:00:00Z",
-        "customersOut": 6005
+        "customersOut": 6057
       }
     ],
     "locations": [
@@ -6333,6 +6388,36 @@
       "AKA 224 BARBADOS",
       "ALTONA & WEL",
       "ALTONA & WELGUNST PLO 50",
+      "ANNAS FANCY",
+      "ANNAS FANCY #19",
+      "ANNAS FANCY 1 (EL)",
+      "ANNAS FANCY 1 MTR-2",
+      "ANNAS FANCY 16B A-1",
+      "ANNAS FANCY 16B A-2",
+      "ANNAS FANCY 16B A-3",
+      "ANNAS FANCY 17",
+      "ANNAS FANCY 19",
+      "ANNAS FANCY 19AB",
+      "ANNAS FANCY 20",
+      "ANNAS FANCY 21",
+      "ANNAS FANCY 21B",
+      "ANNAS FANCY 23",
+      "ANNAS FANCY 24B (BACK)",
+      "ANNAS FANCY 24B (FRONT)",
+      "ANNAS FANCY 26A UP",
+      "ANNAS FANCY 27",
+      "ANNAS FANCY 28A",
+      "ANNAS FANCY 29",
+      "ANNAS FANCY 29 APT 2",
+      "ANNAS FANCY 29 APT 5",
+      "ANNAS FANCY 29 APT-4",
+      "ANNAS FANCY 29A",
+      "ANNAS FANCY 30 APT-1",
+      "ANNAS FANCY 31",
+      "ANNAS FANCY 34",
+      "ANNAS FANCY 37",
+      "ANNAS FANCY 6",
+      "ANNAS FANCY 7A",
       "ANNAS RETERAT 173- D3",
       "ANNAS RETREAT",
       "ANNAS RETREAT #1 NW QTR.",
@@ -10590,6 +10675,7 @@
       "WATERGATE VILLA SECTION 6",
       "WEST COND SAPP B-A",
       "WEST SAPPHIRE BAY CONDO",
+      "WESTERN CEMENTARY",
       "WINTBERG 1",
       "WINTBERG 1 CD-5 UP",
       "WINTBERG 1 G-2",
@@ -10642,8 +10728,8 @@
       "WINTBERG PEAK 1CD-6",
       "WINTBERG PEAK 1K"
     ],
-    "totalOutages": 16
+    "totalOutages": 17
   },
   "staleAfterSeconds": 900,
-  "unassignedEventCount": 13
+  "unassignedEventCount": 14
 }
