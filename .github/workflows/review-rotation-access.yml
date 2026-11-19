@@ -9,7 +9,7 @@ on:
         required: true
         type: string
       advisory_fingerprint:
-        description: SHA256 of the official advisory page inspected during this access review
+        description: Fingerprint of the exact allowlisted advisory link, computed with advisory_fingerprint
         required: true
         type: string
       valid_until:

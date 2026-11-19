@@ -350,16 +350,19 @@ rotation availability; use the rotation status, actual source times, and monitor
 The `Review rotation source access` workflow shares the collector concurrency
 lock and its existing contents-write permission. It never runs on a timer.
 Before dispatch, inspect the refusal and the official advisory page through
-ordinary permitted access. Supply the blocked schedule fingerprint, SHA256 of
-the inspected advisory page, and a UTC expiration within 15 minutes of execution.
+ordinary permitted access. Supply the blocked schedule fingerprint, the exact
+allowlisted link fingerprint computed by `rotation.advisory_fingerprint` from
+the inspected page, and a UTC expiration within 15 minutes of execution. The
+link fingerprint includes its revision query. Per-request HTML view-state or
+nonce changes cannot falsely invalidate an otherwise identical reviewed link.
 No credentials, permission changes, alternate identities or bypasses are needed.
 
 The workflow validates the review against current saved state, honors the saved
 next-attempt time, and persists the blocked reservation before source access.
-It checks the advisory page once and, only if its exact reviewed bytes still
-match and it links the allowlisted PDF, that document once. A denial, redirect,
+It checks the advisory page once and, only if its exact reviewed link still
+matches and is the allowlisted PDF, that document once. A denial, redirect,
 network failure, changed page, expired review or mismatched state cannot silently
-clear the block. A successful matching page with a missing/changed schedule
+clear the block. A successful page with the matching reviewed image link
 replaces the access block with a truthful failed-schedule result and resumes
 ordinary page checks. It preserves the old document timestamps and coverage;
 this is access recovery, not schedule recovery. A new refusal blocks again.

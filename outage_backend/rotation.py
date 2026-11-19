@@ -66,6 +66,21 @@ def schedule_url(html):
     return links.urls.pop()
 
 
+def advisory_fingerprint(html):
+    """Bind access review to the exact published link, not per-request HTML.
+
+    Sitefinity view-state/nonces can differ between otherwise identical page
+    responses. Only the allowlisted PDF/image links authorize this review.
+    The linked document still needs its own format, date and district checks.
+    """
+    links = ScheduleLinks()
+    links.feed(html.decode("utf-8"))
+    if len(links.urls | links.images) != 1:
+        raise PermissionRequired("Reviewed advisory link missing or ambiguous")
+    value = dict(schemaVersion=1, pdf=sorted(links.urls), images=sorted(links.images))
+    return sha256(json.dumps(value, sort_keys=True, separators=(",", ":")).encode()).hexdigest()
+
+
 def public_rotation(value):
     # Accept older records written before the tentative flag was added.
     if (set(value) - {"subjectToChange"} != {"schemaVersion", "status", "nextAttemptAt", "schedule"}
@@ -296,9 +311,12 @@ def check_rotation(previous, publish, *, now=None, loader=download, clock=None, 
     try:
         html, _ = loader(ALERTS, limit=1_000_000)
         if access_review is not None:
-            if (sha256(html).hexdigest() != access_review["advisoryFingerprint"]
-                    or clock() >= date(access_review["validUntil"])):
-                raise PermissionRequired("Advisory page changed after access review")
+            observed = advisory_fingerprint(html)
+            if observed != access_review["advisoryFingerprint"]:
+                diagnostic("advisory_link_mismatch", observedFingerprint=observed)
+                raise PermissionRequired("Advisory link changed after access review")
+            if clock() >= date(access_review["validUntil"]):
+                raise PermissionRequired("Access review expired during request")
             reviewed_page = True
         url = schedule_url(html)
         same_url = old and old["url"] == url
@@ -332,9 +350,13 @@ def check_rotation(previous, publish, *, now=None, loader=download, clock=None, 
             state["nextAttemptAt"] = deadline_stamp(retry_after(error.headers.get("Retry-After"), clock()))
         diagnostic("http_error", httpStatus=error.code, status=state["status"])
         error.close()
-    except PermissionRequired:
+    except PermissionRequired as error:
         state["status"] = "blocked"
-        diagnostic("access_review_required", status="blocked")
+        categories = {"Source redirect requires access review": "source_redirect_requires_review",
+                      "Advisory link changed after access review": "advisory_link_changed_since_review",
+                      "Reviewed advisory link missing or ambiguous": "reviewed_advisory_link_missing_or_ambiguous",
+                      "Access review expired during request": "access_review_expired"}
+        diagnostic(categories.get(str(error), "access_review_required"), status="blocked")
     except ScheduleUnavailable as error:
         # A matching, owner-reviewed HTTP 200 advisory proves access recovered,
         # even when it proves the required schedule is missing. Resume ordinary
