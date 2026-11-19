@@ -2654,7 +2654,7 @@
       "workStatus": null
     },
     {
-      "cause": null,
+      "cause": "000 Power supply",
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
@@ -3156,7 +3156,7 @@
         "NORTH ESTATE BOVONI",
         "TABOR & HARMONY 4-14A UP"
       ],
-      "modifiedAt": "2026-11-19T16:27:39Z",
+      "modifiedAt": "2026-11-19T18:53:55Z",
       "name": "BOVONI OUT WAY 3",
       "neighborhoodIDs": [],
       "point": {
@@ -5623,7 +5623,7 @@
       "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-19T18:55:36Z",
+  "generatedAt": "2026-11-19T19:00:38Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -6206,11 +6206,11 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "1b7c3f6b343e86901421a8a34407bf7c87ef2198ca51fe8864db75ad314d4041",
+  "snapshotID": "183c286740bc000cd649e056c429c064feb6e559f56ed124ee938d2b3d5f2cb5",
   "source": {
-    "checkedAt": "2026-11-19T18:55:36Z",
+    "checkedAt": "2026-11-19T19:00:38Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-19T18:50:42Z",
+    "updatedAt": "2026-11-19T18:55:42Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
