@@ -37,37 +37,6 @@
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
-      "id": "2e49b2f0a844e31b1090684a6542142f6d973ad26e314b068d21f540c1e77a5f",
-      "island": "stCroix",
-      "locations": [
-        "SION HILL",
-        "SION HILL 135-136",
-        "SION HILL 141-A & 142-D",
-        "SION HILL 142-C",
-        "SION HILL 149-D"
-      ],
-      "modifiedAt": "2026-11-20T11:15:43Z",
-      "name": "T-C-16076",
-      "neighborhoodIDs": [
-        "stCroix-sion-hill"
-      ],
-      "point": {
-        "latitude": 17.74514986988757,
-        "longitude": -64.74688115070958
-      },
-      "reportedCustomersInitially": 12,
-      "reportedCustomersOut": 12,
-      "reportedCustomersRestored": 0,
-      "sourceStatus": "Predicted",
-      "startedAt": "2026-11-20T11:15:11Z",
-      "verified": false,
-      "workStatus": null
-    },
-    {
-      "cause": null,
-      "crewAssigned": false,
-      "endedAt": null,
-      "estimatedRestoration": null,
       "id": "4c5554558053423a470bc0eb6c59d67a68e3c7fef9e4224900eac60cacfc7074",
       "island": null,
       "locations": [
@@ -1451,7 +1420,7 @@
       "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-20T11:30:38Z",
+  "generatedAt": "2026-11-20T11:35:41Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -1514,26 +1483,7 @@
       "coverage": "partial",
       "customersOut": null,
       "id": "stCroix",
-      "neighborhoods": [
-        {
-          "affectedCustomers": null,
-          "estimatedRestoration": null,
-          "id": "stCroix-sion-hill",
-          "island": "stCroix",
-          "locations": [
-            "135-136",
-            "141-A & 142-D",
-            "142-C",
-            "149-D"
-          ],
-          "name": "Sion Hill",
-          "sourceEventIDs": [
-            "2e49b2f0a844e31b1090684a6542142f6d973ad26e314b068d21f540c1e77a5f"
-          ],
-          "sourceStatus": "Predicted",
-          "startedAt": "2026-11-20T11:15:11Z"
-        }
-      ]
+      "neighborhoods": []
     },
     {
       "coverage": "partial",
@@ -1555,21 +1505,21 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "3c79afcff5c958766f92643bdcd5ef8b5f6284af35035cc2d2384f142aaf9db6",
+  "snapshotID": "b7a3582cd80b57890630998d6f6643de4d3ce1154d56b3e41fe5083b6bb2c018",
   "source": {
-    "checkedAt": "2026-11-20T11:30:38Z",
+    "checkedAt": "2026-11-20T11:35:41Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-20T11:25:43Z",
+    "updatedAt": "2026-11-20T11:30:42Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "sourceSummary": {
     "customerCountDifference": 2,
-    "customersAffected": 1457,
-    "customersOut": 1457,
+    "customersAffected": 1445,
+    "customersOut": 1445,
     "customersRestored": 0,
     "customersServed": 54726,
-    "eventCustomersOut": 1455,
+    "eventCustomersOut": 1443,
     "hourlyCustomersOut": [
       {
         "at": "2026-11-18T11:00:00Z",
@@ -1765,7 +1715,7 @@
       },
       {
         "at": "2026-11-20T11:00:00Z",
-        "customersOut": 1455
+        "customersOut": 1443
       }
     ],
     "locations": [
@@ -2872,11 +2822,6 @@
       "NAZARETH 2W-45",
       "NAZARETH 2-W-76-3",
       "REGATTA POINT VILLAS 1& 2",
-      "SION HILL",
-      "SION HILL 135-136",
-      "SION HILL 141-A & 142-D",
-      "SION HILL 142-C",
-      "SION HILL 149-D",
       "ST JOHN 1-D",
       "ST JOHN 1-E",
       "ST JOHN 7-J",
@@ -2971,7 +2916,7 @@
       "WEST INDIAN CO DOCK B-1",
       "WIC DOCK BAY BLDG-2"
     ],
-    "totalOutages": 10
+    "totalOutages": 9
   },
   "staleAfterSeconds": 900,
   "unassignedEventCount": 6
