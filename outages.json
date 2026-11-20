@@ -1408,7 +1408,7 @@
         "WINTBERG PEAK 1CD-6",
         "WINTBERG PEAK 1K"
       ],
-      "modifiedAt": "2026-11-20T22:26:37Z",
+      "modifiedAt": "2026-11-20T22:54:09Z",
       "name": "Feeder 08B",
       "neighborhoodIDs": [
         "stThomas-agnes-fancy",
@@ -5703,7 +5703,7 @@
         "WEST INDIAN CO DOCK B-1",
         "WIC DOCK BAY BLDG-2"
       ],
-      "modifiedAt": "2026-11-20T22:44:23Z",
+      "modifiedAt": "2026-11-20T22:54:04Z",
       "name": "Feeder 10B",
       "neighborhoodIDs": [
         "stCroix-pump-garden"
@@ -7314,7 +7314,7 @@
       "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-20T22:55:46Z",
+  "generatedAt": "2026-11-20T23:00:47Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -8842,11 +8842,11 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "4b8df46f71925ac07adb92807d5de0e80e5e9bea85414f6c80d0361206b0c647",
+  "snapshotID": "8341953d28b09a0db6a38ea747f3d324596a56a2f2ee57f4911da239d6c80aaf",
   "source": {
-    "checkedAt": "2026-11-20T22:55:46Z",
+    "checkedAt": "2026-11-20T23:00:47Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-20T22:50:46Z",
+    "updatedAt": "2026-11-20T22:55:46Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
@@ -8860,7 +8860,7 @@
     "hourlyCustomersOut": [
       {
         "at": "2026-11-18T22:00:00Z",
-        "customersOut": 17962
+        "customersOut": 15499
       },
       {
         "at": "2026-11-18T23:00:00Z",
