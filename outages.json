@@ -1316,49 +1316,6 @@
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
-      "id": "8e55108748963f6990d946569d97231160a0993a70b804965209ad1c561774fa",
-      "island": null,
-      "locations": [
-        "HONDURAS #5B",
-        "HONDURAS 1",
-        "HONDURAS 4F",
-        "HONDURAS 4G",
-        "HONDURAS 4J & 8C",
-        "HONDURAS 4-M-8C",
-        "HONDURAS 4M-8C APT-1",
-        "HONDURAS 5B",
-        "HONDURAS 5B MTR-A",
-        "HONDURAS 5-B MTR-B",
-        "HONDURAS 5-B MTR-D",
-        "HONDURAS 5G",
-        "HONDURAS 5G APT-2",
-        "HONDURAS 5G B-1 APT-3",
-        "HONDURAS 8",
-        "HONDURAS 8 UP",
-        "HONDURAS 8B",
-        "HONDURAS 8D",
-        "HONDURAS APT 1 HSE 1"
-      ],
-      "modifiedAt": "2026-11-20T03:11:36Z",
-      "name": "T-T-02560",
-      "neighborhoodIDs": [],
-      "point": {
-        "latitude": 18.33624581808932,
-        "longitude": -64.94397963627294
-      },
-      "reportedCustomersInitially": 23,
-      "reportedCustomersOut": 23,
-      "reportedCustomersRestored": 0,
-      "sourceStatus": "Predicted",
-      "startedAt": "2026-11-20T03:11:02Z",
-      "verified": false,
-      "workStatus": null
-    },
-    {
-      "cause": null,
-      "crewAssigned": false,
-      "endedAt": null,
-      "estimatedRestoration": null,
       "id": "a7622fe5ec3f7460243d64545ddffb42dc3c534b3876e2c938737688abde9c58",
       "island": "stThomas",
       "locations": [
@@ -1463,7 +1420,7 @@
       "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-20T03:51:08Z",
+  "generatedAt": "2026-11-20T03:56:10Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -1548,21 +1505,21 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "879b78ec565bd171a942dda8a18fe193d0bef7905b174f34725f28c0c97e1798",
+  "snapshotID": "61ef5dbde82437306638df926b865b2a881a62f35fcb459bfa782cd7bca55846",
   "source": {
-    "checkedAt": "2026-11-20T03:51:08Z",
+    "checkedAt": "2026-11-20T03:56:10Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-20T03:50:42Z",
+    "updatedAt": "2026-11-20T03:55:42Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "sourceSummary": {
     "customerCountDifference": 2,
-    "customersAffected": 1468,
-    "customersOut": 1468,
+    "customersAffected": 1445,
+    "customersOut": 1445,
     "customersRestored": 0,
     "customersServed": 54726,
-    "eventCustomersOut": 1466,
+    "eventCustomersOut": 1443,
     "hourlyCustomersOut": [
       {
         "at": "2026-11-18T03:00:00Z",
@@ -1758,7 +1715,7 @@
       },
       {
         "at": "2026-11-20T03:00:00Z",
-        "customersOut": 3081
+        "customersOut": 3058
       }
     ],
     "locations": [
@@ -2851,25 +2808,6 @@
       "HAVENSIGHT REMAINDER",
       "HAVENSIGHT WAY 18 A-C",
       "HAWK HILL CONDO APT. 9",
-      "HONDURAS #5B",
-      "HONDURAS 1",
-      "HONDURAS 4F",
-      "HONDURAS 4G",
-      "HONDURAS 4J & 8C",
-      "HONDURAS 4-M-8C",
-      "HONDURAS 4M-8C APT-1",
-      "HONDURAS 5B",
-      "HONDURAS 5B MTR-A",
-      "HONDURAS 5-B MTR-B",
-      "HONDURAS 5-B MTR-D",
-      "HONDURAS 5G",
-      "HONDURAS 5G APT-2",
-      "HONDURAS 5G B-1 APT-3",
-      "HONDURAS 8",
-      "HONDURAS 8 UP",
-      "HONDURAS 8B",
-      "HONDURAS 8D",
-      "HONDURAS APT 1 HSE 1",
       "LA GRANDE PRINCESS 70-E",
       "LERKENLUND 9D-1-2",
       "LITTLE PRINCESS 52 BLDG-C",
@@ -2978,8 +2916,8 @@
       "WEST INDIAN CO DOCK B-1",
       "WIC DOCK BAY BLDG-2"
     ],
-    "totalOutages": 10
+    "totalOutages": 9
   },
   "staleAfterSeconds": 900,
-  "unassignedEventCount": 7
+  "unassignedEventCount": 6
 }
