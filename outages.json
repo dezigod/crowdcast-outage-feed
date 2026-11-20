@@ -4114,57 +4114,6 @@
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
-      "id": "4e178f9d33060f28c2760575f62219c7ffc9f883cfc06795c5f381026fb9808a",
-      "island": null,
-      "locations": [
-        "GENERAL GADE 20",
-        "KANAL GADE",
-        "KRONPRINDSEN GADE",
-        "PRINCESSE GADE",
-        "PRINCESSE GADE UP",
-        "PRINDSESSE GADE 1",
-        "PRINDSESSE GADE 38",
-        "PRINDSESSE GADE 4 APT-1",
-        "PRINDSESSE GADE 4 APT-2",
-        "PRINDSESSE GADE 4 APT-3",
-        "REGJERING GADE 9A",
-        "REGJERINGS GADE 10",
-        "REGJERINGS GADE 4C",
-        "REGJERRING GADE 16A",
-        "REGJERRING GADE 16A A-1",
-        "REGJERRING GADE 17-A",
-        "REGJERRING GADE 4-A",
-        "REGJERRING GADE 4C UP",
-        "REGJERRING GADE 9A B-3",
-        "REGJERRINGS GADE",
-        "REGJERRINGS GADE 10A",
-        "REGJERRINGS GADE 16A A-3",
-        "REGJERRINGS GADE 20",
-        "REGJERRINGS GADE 21",
-        "REGJERRINGS GADE 9B",
-        "REJERRING GADE",
-        "REJERRINGS GADE 18"
-      ],
-      "modifiedAt": "2026-11-20T15:48:47Z",
-      "name": "T-T-09624",
-      "neighborhoodIDs": [],
-      "point": {
-        "latitude": 18.341836041547467,
-        "longitude": -64.93592473660982
-      },
-      "reportedCustomersInitially": 37,
-      "reportedCustomersOut": 37,
-      "reportedCustomersRestored": 0,
-      "sourceStatus": "Predicted",
-      "startedAt": "2026-11-20T15:48:13Z",
-      "verified": false,
-      "workStatus": null
-    },
-    {
-      "cause": null,
-      "crewAssigned": false,
-      "endedAt": null,
-      "estimatedRestoration": null,
       "id": "688d24f7b6e72cb60f9dd7cfcfc315b9ee0efe7095b9fbf192b7ed84c8031d54",
       "island": "stThomas",
       "locations": [
@@ -6166,7 +6115,7 @@
       "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-20T17:00:34Z",
+  "generatedAt": "2026-11-20T17:05:40Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -7180,26 +7129,22 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "950f241255aab3e24cc7d6200a2733389b18586b9964594630b020fd0dfd1770",
+  "snapshotID": "5b9ad14d02c6b5d2355affa22c2d2b47e252ecdd9fe3f245443f6fbbaf4b25bb",
   "source": {
-    "checkedAt": "2026-11-20T17:00:34Z",
+    "checkedAt": "2026-11-20T17:05:40Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-20T16:55:45Z",
+    "updatedAt": "2026-11-20T17:00:45Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "sourceSummary": {
     "customerCountDifference": 2,
-    "customersAffected": 7858,
-    "customersOut": 7858,
+    "customersAffected": 7821,
+    "customersOut": 7821,
     "customersRestored": 0,
     "customersServed": 54726,
-    "eventCustomersOut": 7856,
+    "eventCustomersOut": 7819,
     "hourlyCustomersOut": [
-      {
-        "at": "2026-11-18T16:00:00Z",
-        "customersOut": 3694
-      },
       {
         "at": "2026-11-18T17:00:00Z",
         "customersOut": 26673
@@ -7386,11 +7331,15 @@
       },
       {
         "at": "2026-11-20T15:00:00Z",
-        "customersOut": 3842
+        "customersOut": 3805
       },
       {
         "at": "2026-11-20T16:00:00Z",
-        "customersOut": 11634
+        "customersOut": 11597
+      },
+      {
+        "at": "2026-11-20T17:00:00Z",
+        "customersOut": 7819
       }
     ],
     "locations": [
@@ -10549,7 +10498,6 @@
       "FRYDENHOJ 1-20",
       "FT MYINER SHOPPING CENTER",
       "GAMBLE NORDSIDEVEJ 9Q",
-      "GENERAL GADE 20",
       "HARMONY 4-16",
       "HARMONY 4-26",
       "HARMONY 4-36",
@@ -10817,8 +10765,6 @@
       "JOSEPH & ROSENDAHL 4G-7",
       "JOSEPH & ROSENDAHL 4G-8",
       "JOSEPH & ROSENDAHL 8D-4",
-      "KANAL GADE",
-      "KRONPRINDSEN GADE",
       "KRUM BAY (WAPA HR)",
       "KRUM BAY 19",
       "KRUM BAY 2",
@@ -12019,13 +11965,6 @@
       "PMP GARDEN BLDG-8",
       "PMP GARDEN BLDG-9",
       "PMP GARDEN BLDG-9 STAIR",
-      "PRINCESSE GADE",
-      "PRINCESSE GADE UP",
-      "PRINDSESSE GADE 1",
-      "PRINDSESSE GADE 38",
-      "PRINDSESSE GADE 4 APT-1",
-      "PRINDSESSE GADE 4 APT-2",
-      "PRINDSESSE GADE 4 APT-3",
       "PZ EST THOMAS",
       "RAPHUNE 1-13-43",
       "RAPHUNE 11-5B A",
@@ -12114,23 +12053,6 @@
       "RAPHUNE HILL LOT",
       "RAPHUNE HILL U-408",
       "RAPUNE HILL 5 DOWN",
-      "REGJERING GADE 9A",
-      "REGJERINGS GADE 10",
-      "REGJERINGS GADE 4C",
-      "REGJERRING GADE 16A",
-      "REGJERRING GADE 16A A-1",
-      "REGJERRING GADE 17-A",
-      "REGJERRING GADE 4-A",
-      "REGJERRING GADE 4C UP",
-      "REGJERRING GADE 9A B-3",
-      "REGJERRINGS GADE",
-      "REGJERRINGS GADE 10A",
-      "REGJERRINGS GADE 16A A-3",
-      "REGJERRINGS GADE 20",
-      "REGJERRINGS GADE 21",
-      "REGJERRINGS GADE 9B",
-      "REJERRING GADE",
-      "REJERRINGS GADE 18",
       "REM ESTATE ST PETER",
       "REM ESTATE THOMAS",
       "REMAINDER EST WINTBERG",
@@ -13278,8 +13200,8 @@
       "ZUERIENDENHEIT",
       "ZUFRIDENHEIT 1"
     ],
-    "totalOutages": 11
+    "totalOutages": 10
   },
   "staleAfterSeconds": 900,
-  "unassignedEventCount": 9
+  "unassignedEventCount": 8
 }
