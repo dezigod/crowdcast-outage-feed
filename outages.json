@@ -1420,7 +1420,7 @@
       "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-20T11:15:32Z",
+  "generatedAt": "2026-11-20T11:20:35Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -1505,18 +1505,18 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "c537274f8ea77d362bf99847fa062d87f6ed01ba09482f3c6d2ddfec01a676a8",
+  "snapshotID": "caed0370d747533e6487ab1a31c55b6f96765d36818e8fab14002cb41683bcb5",
   "source": {
-    "checkedAt": "2026-11-20T11:15:32Z",
+    "checkedAt": "2026-11-20T11:20:35Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-20T11:10:43Z",
+    "updatedAt": "2026-11-20T11:15:43Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "sourceSummary": {
-    "customerCountDifference": 2,
-    "customersAffected": 1445,
-    "customersOut": 1445,
+    "customerCountDifference": 14,
+    "customersAffected": 1457,
+    "customersOut": 1457,
     "customersRestored": 0,
     "customersServed": 54726,
     "eventCustomersOut": 1443,
@@ -1715,7 +1715,7 @@
       },
       {
         "at": "2026-11-20T11:00:00Z",
-        "customersOut": 1443
+        "customersOut": 1455
       }
     ],
     "locations": [
@@ -2822,6 +2822,11 @@
       "NAZARETH 2W-45",
       "NAZARETH 2-W-76-3",
       "REGATTA POINT VILLAS 1& 2",
+      "SION HILL",
+      "SION HILL 135-136",
+      "SION HILL 141-A & 142-D",
+      "SION HILL 142-C",
+      "SION HILL 149-D",
       "ST JOHN 1-D",
       "ST JOHN 1-E",
       "ST JOHN 7-J",
