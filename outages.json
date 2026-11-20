@@ -2681,6 +2681,49 @@
       "workStatus": null
     },
     {
+      "cause": null,
+      "crewAssigned": false,
+      "endedAt": null,
+      "estimatedRestoration": null,
+      "id": "92dc8d67b69c8d2021ba8547a53aa8d01a782778874b609b041c328f3dece31e",
+      "island": null,
+      "locations": [
+        "HONDURAS #5B",
+        "HONDURAS 1",
+        "HONDURAS 4F",
+        "HONDURAS 4G",
+        "HONDURAS 4J & 8C",
+        "HONDURAS 4-M-8C",
+        "HONDURAS 4M-8C APT-1",
+        "HONDURAS 5B",
+        "HONDURAS 5B MTR-A",
+        "HONDURAS 5-B MTR-B",
+        "HONDURAS 5-B MTR-D",
+        "HONDURAS 5G",
+        "HONDURAS 5G APT-2",
+        "HONDURAS 5G B-1 APT-3",
+        "HONDURAS 8",
+        "HONDURAS 8 UP",
+        "HONDURAS 8B",
+        "HONDURAS 8D",
+        "HONDURAS APT 1 HSE 1"
+      ],
+      "modifiedAt": "2026-11-20T02:19:39Z",
+      "name": "T-T-02560",
+      "neighborhoodIDs": [],
+      "point": {
+        "latitude": 18.33624581808932,
+        "longitude": -64.94397963627294
+      },
+      "reportedCustomersInitially": 23,
+      "reportedCustomersOut": 23,
+      "reportedCustomersRestored": 0,
+      "sourceStatus": "Predicted",
+      "startedAt": "2026-11-20T02:19:10Z",
+      "verified": false,
+      "workStatus": null
+    },
+    {
       "cause": "000 Power supply",
       "crewAssigned": false,
       "endedAt": null,
@@ -5683,7 +5726,7 @@
       "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-20T02:20:38Z",
+  "generatedAt": "2026-11-20T02:25:40Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -6923,21 +6966,21 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "d2e77929a556a9e8b03565f57730677bcea2cc8722bddc38e7da8283fb0638c1",
+  "snapshotID": "15a284d288cd8cceff9ac624a3f4f3bfd9bda0ff848def6f69e3c6e0db15f71c",
   "source": {
-    "checkedAt": "2026-11-20T02:20:38Z",
+    "checkedAt": "2026-11-20T02:25:40Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-20T02:15:43Z",
+    "updatedAt": "2026-11-20T02:20:43Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "sourceSummary": {
     "customerCountDifference": 2,
-    "customersAffected": 6849,
-    "customersOut": 6849,
+    "customersAffected": 6872,
+    "customersOut": 6872,
     "customersRestored": 0,
     "customersServed": 54726,
-    "eventCustomersOut": 6847,
+    "eventCustomersOut": 6870,
     "hourlyCustomersOut": [
       {
         "at": "2026-11-18T02:00:00Z",
@@ -7133,7 +7176,7 @@
       },
       {
         "at": "2026-11-20T02:00:00Z",
-        "customersOut": 6847
+        "customersOut": 6870
       }
     ],
     "locations": [
@@ -9778,6 +9821,25 @@
       "HAVENSIGHT WAY 18 A-C",
       "HAWK HILL CONDO APT. 9",
       "HGHWAY LGHT BOYSCOUT BLDG",
+      "HONDURAS #5B",
+      "HONDURAS 1",
+      "HONDURAS 4F",
+      "HONDURAS 4G",
+      "HONDURAS 4J & 8C",
+      "HONDURAS 4-M-8C",
+      "HONDURAS 4M-8C APT-1",
+      "HONDURAS 5B",
+      "HONDURAS 5B MTR-A",
+      "HONDURAS 5-B MTR-B",
+      "HONDURAS 5-B MTR-D",
+      "HONDURAS 5G",
+      "HONDURAS 5G APT-2",
+      "HONDURAS 5G B-1 APT-3",
+      "HONDURAS 8",
+      "HONDURAS 8 UP",
+      "HONDURAS 8B",
+      "HONDURAS 8D",
+      "HONDURAS APT 1 HSE 1",
       "HOSPITAL GR",
       "HOSPITAL GR 407-3-407",
       "HOSPITAL GR 407-3-407-1A-",
@@ -12487,8 +12549,8 @@
       "WINTBERG PEAK 1CD-6",
       "WINTBERG PEAK 1K"
     ],
-    "totalOutages": 13
+    "totalOutages": 14
   },
   "staleAfterSeconds": 900,
-  "unassignedEventCount": 10
+  "unassignedEventCount": 11
 }
