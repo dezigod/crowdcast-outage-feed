@@ -37,34 +37,6 @@
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
-      "id": "188f549917383f57057940d818d1c23db5286b3fa6421748a1426ae4870c20b3",
-      "island": null,
-      "locations": [
-        "STRAWBERRY 270",
-        "STRAWBERRY HILL 267",
-        "STRAWBERRY HILL 268",
-        "STRAWBERRY HILL 269"
-      ],
-      "modifiedAt": "2026-11-20T12:26:44Z",
-      "name": "T-C-14419",
-      "neighborhoodIDs": [],
-      "point": {
-        "latitude": 17.732178819988683,
-        "longitude": -64.75923709052918
-      },
-      "reportedCustomersInitially": 4,
-      "reportedCustomersOut": 4,
-      "reportedCustomersRestored": 0,
-      "sourceStatus": "Predicted",
-      "startedAt": "2026-11-20T12:26:36Z",
-      "verified": false,
-      "workStatus": null
-    },
-    {
-      "cause": null,
-      "crewAssigned": false,
-      "endedAt": null,
-      "estimatedRestoration": null,
       "id": "4c5554558053423a470bc0eb6c59d67a68e3c7fef9e4224900eac60cacfc7074",
       "island": null,
       "locations": [
@@ -3667,7 +3639,7 @@
       "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-20T12:41:03Z",
+  "generatedAt": "2026-11-20T12:46:03Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -3804,21 +3776,21 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "4ef5076ef918826eaf6c8c318b69c4bdba9fa043accf9a79356d00fb50a27503",
+  "snapshotID": "1b5f05292b0f899189b292fcc0eb3560434ace96fa05dd4ff77fdfe941e65416",
   "source": {
-    "checkedAt": "2026-11-20T12:41:03Z",
+    "checkedAt": "2026-11-20T12:46:03Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-20T12:40:44Z",
+    "updatedAt": "2026-11-20T12:45:45Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "sourceSummary": {
     "customerCountDifference": 2,
-    "customersAffected": 3768,
-    "customersOut": 3768,
+    "customersAffected": 3764,
+    "customersOut": 3764,
     "customersRestored": 0,
     "customersServed": 54726,
-    "eventCustomersOut": 3766,
+    "eventCustomersOut": 3762,
     "hourlyCustomersOut": [
       {
         "at": "2026-11-18T12:00:00Z",
@@ -4014,7 +3986,7 @@
       },
       {
         "at": "2026-11-20T12:00:00Z",
-        "customersOut": 3766
+        "customersOut": 3762
       }
     ],
     "locations": [
@@ -7258,10 +7230,6 @@
       "ST PETER MTR 3",
       "ST PETER MTR 4",
       "ST. PETER 3H-26",
-      "STRAWBERRY 270",
-      "STRAWBERRY HILL 267",
-      "STRAWBERRY HILL 268",
-      "STRAWBERRY HILL 269",
       "SUBBASE 100",
       "SUBBASE 101 (EL)",
       "SUBBASE 69",
@@ -7385,8 +7353,8 @@
       "WEST INDIAN CO DOCK B-1",
       "WIC DOCK BAY BLDG-2"
     ],
-    "totalOutages": 12
+    "totalOutages": 11
   },
   "staleAfterSeconds": 900,
-  "unassignedEventCount": 9
+  "unassignedEventCount": 8
 }
