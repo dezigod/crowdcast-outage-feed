@@ -1418,9 +1418,43 @@
       "startedAt": "2026-11-19T12:18:54Z",
       "verified": false,
       "workStatus": null
+    },
+    {
+      "cause": null,
+      "crewAssigned": false,
+      "endedAt": null,
+      "estimatedRestoration": null,
+      "id": "fb36b27f043d5577f8bf813c73482d6e9b258bd4c2c317aaac1a48c627468160",
+      "island": null,
+      "locations": [
+        "ANNAS FANCY",
+        "ANNAS FANCY 11",
+        "ANNAS FANCY 12 DOWN",
+        "ANNAS FANCY 12 TOP FLOOR",
+        "ANNAS FANCY 14",
+        "ANNAS FANCY 15A",
+        "ANNAS FANCY 19",
+        "ANNAS FANCY 39",
+        "ANNAS FANCY 41",
+        "ANNAS FANCY 9B"
+      ],
+      "modifiedAt": "2026-11-20T11:41:01Z",
+      "name": "T-T-05815",
+      "neighborhoodIDs": [],
+      "point": {
+        "latitude": 18.34154843797657,
+        "longitude": -64.94056228890871
+      },
+      "reportedCustomersInitially": 11,
+      "reportedCustomersOut": 11,
+      "reportedCustomersRestored": 0,
+      "sourceStatus": "Predicted",
+      "startedAt": "2026-11-20T11:40:49Z",
+      "verified": false,
+      "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-20T11:45:45Z",
+  "generatedAt": "2026-11-20T11:50:46Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -1505,21 +1539,21 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "d3179eeddb1a87bee4070b75c76ec71a51f93f43f073b854ce16a1210a704b91",
+  "snapshotID": "f0645dd9dcb4e6d7b583bad7cdba1861790398a5743d7424aa88e900236be3fc",
   "source": {
-    "checkedAt": "2026-11-20T11:45:45Z",
+    "checkedAt": "2026-11-20T11:50:46Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-20T11:45:42Z",
+    "updatedAt": "2026-11-20T11:50:42Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "sourceSummary": {
-    "customerCountDifference": 13,
+    "customerCountDifference": 2,
     "customersAffected": 1456,
     "customersOut": 1456,
     "customersRestored": 0,
     "customersServed": 54726,
-    "eventCustomersOut": 1443,
+    "eventCustomersOut": 1454,
     "hourlyCustomersOut": [
       {
         "at": "2026-11-18T11:00:00Z",
@@ -2926,8 +2960,8 @@
       "WEST INDIAN CO DOCK B-1",
       "WIC DOCK BAY BLDG-2"
     ],
-    "totalOutages": 9
+    "totalOutages": 10
   },
   "staleAfterSeconds": 900,
-  "unassignedEventCount": 6
+  "unassignedEventCount": 7
 }
