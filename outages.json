@@ -1495,7 +1495,7 @@
       "workStatus": null
     },
     {
-      "cause": null,
+      "cause": "000 Power supply",
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
@@ -3621,7 +3621,7 @@
         "SUZANNABERG 2-3 HOUSE",
         "VIRGIN GRAND EST #71"
       ],
-      "modifiedAt": "2026-11-20T12:07:46Z",
+      "modifiedAt": "2026-11-20T12:22:55Z",
       "name": "Feeder 09E",
       "neighborhoodIDs": [
         "stThomas-lovenlund"
@@ -3639,7 +3639,7 @@
       "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-20T12:20:55Z",
+  "generatedAt": "2026-11-20T12:25:57Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -3776,11 +3776,11 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "d80b3ce6cd6ab54b67653a6578030c00f5f06e0fdb01c52e3c6cbccf246f4e75",
+  "snapshotID": "e8be67dad3ad8434845a92f6a6a7fcde89525bd7ded5da5081891325e47091cd",
   "source": {
-    "checkedAt": "2026-11-20T12:20:55Z",
+    "checkedAt": "2026-11-20T12:25:57Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-20T12:20:44Z",
+    "updatedAt": "2026-11-20T12:25:43Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
