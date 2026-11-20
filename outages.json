@@ -37,6 +37,37 @@
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
+      "id": "2e49b2f0a844e31b1090684a6542142f6d973ad26e314b068d21f540c1e77a5f",
+      "island": "stCroix",
+      "locations": [
+        "SION HILL",
+        "SION HILL 135-136",
+        "SION HILL 141-A & 142-D",
+        "SION HILL 142-C",
+        "SION HILL 149-D"
+      ],
+      "modifiedAt": "2026-11-20T11:15:43Z",
+      "name": "T-C-16076",
+      "neighborhoodIDs": [
+        "stCroix-sion-hill"
+      ],
+      "point": {
+        "latitude": 17.74514986988757,
+        "longitude": -64.74688115070958
+      },
+      "reportedCustomersInitially": 12,
+      "reportedCustomersOut": 12,
+      "reportedCustomersRestored": 0,
+      "sourceStatus": "Predicted",
+      "startedAt": "2026-11-20T11:15:11Z",
+      "verified": false,
+      "workStatus": null
+    },
+    {
+      "cause": null,
+      "crewAssigned": false,
+      "endedAt": null,
+      "estimatedRestoration": null,
       "id": "4c5554558053423a470bc0eb6c59d67a68e3c7fef9e4224900eac60cacfc7074",
       "island": null,
       "locations": [
@@ -1420,7 +1451,7 @@
       "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-20T11:20:35Z",
+  "generatedAt": "2026-11-20T11:25:38Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -1483,7 +1514,26 @@
       "coverage": "partial",
       "customersOut": null,
       "id": "stCroix",
-      "neighborhoods": []
+      "neighborhoods": [
+        {
+          "affectedCustomers": null,
+          "estimatedRestoration": null,
+          "id": "stCroix-sion-hill",
+          "island": "stCroix",
+          "locations": [
+            "135-136",
+            "141-A & 142-D",
+            "142-C",
+            "149-D"
+          ],
+          "name": "Sion Hill",
+          "sourceEventIDs": [
+            "2e49b2f0a844e31b1090684a6542142f6d973ad26e314b068d21f540c1e77a5f"
+          ],
+          "sourceStatus": "Predicted",
+          "startedAt": "2026-11-20T11:15:11Z"
+        }
+      ]
     },
     {
       "coverage": "partial",
@@ -1505,21 +1555,21 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "caed0370d747533e6487ab1a31c55b6f96765d36818e8fab14002cb41683bcb5",
+  "snapshotID": "aeac7578047f1a1090d5991d586b589e121723a175472931f958d96402285d71",
   "source": {
-    "checkedAt": "2026-11-20T11:20:35Z",
+    "checkedAt": "2026-11-20T11:25:38Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-20T11:15:43Z",
+    "updatedAt": "2026-11-20T11:20:43Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "sourceSummary": {
-    "customerCountDifference": 14,
+    "customerCountDifference": 2,
     "customersAffected": 1457,
     "customersOut": 1457,
     "customersRestored": 0,
     "customersServed": 54726,
-    "eventCustomersOut": 1443,
+    "eventCustomersOut": 1455,
     "hourlyCustomersOut": [
       {
         "at": "2026-11-18T11:00:00Z",
@@ -2921,7 +2971,7 @@
       "WEST INDIAN CO DOCK B-1",
       "WIC DOCK BAY BLDG-2"
     ],
-    "totalOutages": 9
+    "totalOutages": 10
   },
   "staleAfterSeconds": 900,
   "unassignedEventCount": 6
