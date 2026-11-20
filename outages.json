@@ -94,7 +94,7 @@
         "RAPHUNE HILL LOT",
         "REM ESTATE THOMAS"
       ],
-      "modifiedAt": "2026-11-20T22:28:58Z",
+      "modifiedAt": "2026-11-20T22:37:53Z",
       "name": "FUST-07215A",
       "neighborhoodIDs": [],
       "point": {
@@ -8162,7 +8162,7 @@
       "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-20T22:40:39Z",
+  "generatedAt": "2026-11-20T22:45:41Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -9661,11 +9661,11 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "6f4294b32eede7e7d9f1fc4b158c557200f38c8c987a6e977a474f85a88e35e6",
+  "snapshotID": "112c946f75e84820112fa024b3017c35d2cbb83e939c3d21ae276dfced8d3ef8",
   "source": {
-    "checkedAt": "2026-11-20T22:40:39Z",
+    "checkedAt": "2026-11-20T22:45:41Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-20T22:35:46Z",
+    "updatedAt": "2026-11-20T22:40:46Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
@@ -9679,7 +9679,7 @@
     "hourlyCustomersOut": [
       {
         "at": "2026-11-18T22:00:00Z",
-        "customersOut": 22153
+        "customersOut": 20569
       },
       {
         "at": "2026-11-18T23:00:00Z",
