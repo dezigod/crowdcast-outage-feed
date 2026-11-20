@@ -3005,7 +3005,7 @@
       "workStatus": null
     },
     {
-      "cause": null,
+      "cause": "000 Power supply",
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
@@ -4303,7 +4303,7 @@
         "WINTBERG PEAK 1CD-6",
         "WINTBERG PEAK 1K"
       ],
-      "modifiedAt": "2026-11-20T18:08:57Z",
+      "modifiedAt": "2026-11-20T18:43:18Z",
       "name": "Feeder 08B",
       "neighborhoodIDs": [
         "stThomas-agnes-fancy",
@@ -4320,6 +4320,34 @@
       "reportedCustomersRestored": 0,
       "sourceStatus": "Verified",
       "startedAt": "2026-11-20T18:01:09Z",
+      "verified": true,
+      "workStatus": null
+    },
+    {
+      "cause": null,
+      "crewAssigned": false,
+      "endedAt": null,
+      "estimatedRestoration": null,
+      "id": "33a3d2f2a7010e14be4bfe5e5644e69747015f977655363b758a8fa000b5dd11",
+      "island": null,
+      "locations": [
+        "PEPPERTREE TERR B-7 L-2",
+        "PEPPERTREE TERR B-8 L-2",
+        "PEPPERTREE TERR B-8 L-3",
+        "PEPPERTREE TERR B-8 WELL"
+      ],
+      "modifiedAt": "2026-11-20T18:41:54Z",
+      "name": "STX_31690",
+      "neighborhoodIDs": [],
+      "point": {
+        "latitude": 17.731733365364647,
+        "longitude": -64.75253840699395
+      },
+      "reportedCustomersInitially": 6,
+      "reportedCustomersOut": 6,
+      "reportedCustomersRestored": 0,
+      "sourceStatus": "Verified",
+      "startedAt": "2026-11-20T18:41:51Z",
       "verified": true,
       "workStatus": null
     },
@@ -8654,7 +8682,7 @@
       "workStatus": null
     },
     {
-      "cause": null,
+      "cause": "000 Power supply",
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
@@ -9567,7 +9595,7 @@
         "NORTH ESTATE BOVONI",
         "TABOR & HARMONY 4-14A UP"
       ],
-      "modifiedAt": "2026-11-20T18:18:07Z",
+      "modifiedAt": "2026-11-20T18:43:27Z",
       "name": "Feeder 09C",
       "neighborhoodIDs": [],
       "point": {
@@ -12601,7 +12629,7 @@
       "workStatus": null
     },
     {
-      "cause": null,
+      "cause": "000 Power supply",
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
@@ -13952,7 +13980,7 @@
         "VESSUP BAY EST 9-39",
         "VESSUP LANE 9A-19"
       ],
-      "modifiedAt": "2026-11-20T18:18:07Z",
+      "modifiedAt": "2026-11-20T18:44:23Z",
       "name": "9D IN WAY 2",
       "neighborhoodIDs": [
         "stThomas-smith-bay"
@@ -13970,7 +13998,7 @@
       "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-20T18:41:19Z",
+  "generatedAt": "2026-11-20T18:46:21Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -15469,21 +15497,21 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "b10a799246efb779a63fcf48b2e6bdeda94c7dd3a9a373f1f0df4aeeb4223c0d",
+  "snapshotID": "a1f557f21bf4ed1e1534f21e00d7a35aabce4947564af9a7cd2de614520a1c5d",
   "source": {
-    "checkedAt": "2026-11-20T18:41:19Z",
+    "checkedAt": "2026-11-20T18:46:21Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-20T18:40:48Z",
+    "updatedAt": "2026-11-20T18:45:49Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "sourceSummary": {
     "customerCountDifference": 2,
-    "customersAffected": 17516,
-    "customersOut": 17516,
+    "customersAffected": 17522,
+    "customersOut": 17522,
     "customersRestored": 0,
     "customersServed": 54726,
-    "eventCustomersOut": 17514,
+    "eventCustomersOut": 17520,
     "hourlyCustomersOut": [
       {
         "at": "2026-11-18T18:00:00Z",
@@ -15679,7 +15707,7 @@
       },
       {
         "at": "2026-11-20T18:00:00Z",
-        "customersOut": 17882
+        "customersOut": 17888
       }
     ],
     "locations": [
@@ -27038,6 +27066,10 @@
       "PEARL 3AB-8A-2",
       "PEARL EST 39-A-A-2",
       "PENN POINT (CORAL BAY)",
+      "PEPPERTREE TERR B-7 L-2",
+      "PEPPERTREE TERR B-8 L-2",
+      "PEPPERTREE TERR B-8 L-3",
+      "PEPPERTREE TERR B-8 WELL",
       "PERTERBORG 11-30",
       "PETER BAY",
       "PETER BAY #1",
@@ -29243,8 +29275,8 @@
       "ZUERIENDENHEIT",
       "ZUFRIDENHEIT 1"
     ],
-    "totalOutages": 14
+    "totalOutages": 15
   },
   "staleAfterSeconds": 900,
-  "unassignedEventCount": 12
+  "unassignedEventCount": 13
 }
