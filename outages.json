@@ -37,6 +37,45 @@
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
+      "id": "1564e88a81b542df6aa1009e9f096fa5e3e6dd12717400f0fce718bd5d412e5f",
+      "island": null,
+      "locations": [
+        "EST THOMAS #3",
+        "EST THOMAS 24 COTTAGE",
+        "EST THOMAS 3",
+        "EST THOMAS 6E",
+        "EST THOMAS 6E PAR",
+        "EST THOMAS 7 APT 4",
+        "EST THOMAS 7 APT-6",
+        "EST THOMAS 7 APT-7",
+        "EST THOMAS 7 UNIT-2",
+        "EST THOMAS LOT 2",
+        "EST THOMAS PCL 3",
+        "EST THOMAS UNIT-5",
+        "ESTATE THOMAS 7",
+        "RAPHUNE HILL 3 COTTAGE",
+        "RAPHUNE HILL LOT"
+      ],
+      "modifiedAt": "2026-11-20T22:09:15Z",
+      "name": "T-T-03655",
+      "neighborhoodIDs": [],
+      "point": {
+        "latitude": 18.33816399832297,
+        "longitude": -64.91011551565
+      },
+      "reportedCustomersInitially": 16,
+      "reportedCustomersOut": 16,
+      "reportedCustomersRestored": 0,
+      "sourceStatus": "Predicted",
+      "startedAt": "2026-11-20T22:09:08Z",
+      "verified": false,
+      "workStatus": null
+    },
+    {
+      "cause": null,
+      "crewAssigned": false,
+      "endedAt": null,
+      "estimatedRestoration": null,
       "id": "33a3d2f2a7010e14be4bfe5e5644e69747015f977655363b758a8fa000b5dd11",
       "island": null,
       "locations": [
@@ -6126,7 +6165,7 @@
       "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-20T22:06:29Z",
+  "generatedAt": "2026-11-20T22:11:32Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -6914,21 +6953,21 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "16a75d9ec7a8cc1083506b5ed06c05c27358a04349f87f055561784b48a921fe",
+  "snapshotID": "260eacfd8caf65c55ad731af1b1c692b5b6d7ff4558387abfe64dda931113d17",
   "source": {
-    "checkedAt": "2026-11-20T22:06:29Z",
+    "checkedAt": "2026-11-20T22:11:32Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-20T22:05:47Z",
+    "updatedAt": "2026-11-20T22:10:45Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "sourceSummary": {
     "customerCountDifference": 2,
-    "customersAffected": 7782,
-    "customersOut": 7782,
+    "customersAffected": 7798,
+    "customersOut": 7798,
     "customersRestored": 0,
     "customersServed": 54726,
-    "eventCustomersOut": 7780,
+    "eventCustomersOut": 7796,
     "hourlyCustomersOut": [
       {
         "at": "2026-11-18T22:00:00Z",
@@ -7124,7 +7163,7 @@
       },
       {
         "at": "2026-11-20T22:00:00Z",
-        "customersOut": 8842
+        "customersOut": 8858
       }
     ],
     "locations": [
@@ -9343,6 +9382,18 @@
       "EST SMITH BAY 83-2",
       "EST SMITH BAY 84",
       "EST SMITH BAY 93",
+      "EST THOMAS #3",
+      "EST THOMAS 24 COTTAGE",
+      "EST THOMAS 3",
+      "EST THOMAS 6E",
+      "EST THOMAS 6E PAR",
+      "EST THOMAS 7 APT 4",
+      "EST THOMAS 7 APT-6",
+      "EST THOMAS 7 APT-7",
+      "EST THOMAS 7 UNIT-2",
+      "EST THOMAS LOT 2",
+      "EST THOMAS PCL 3",
+      "EST THOMAS UNIT-5",
       "EST TUTU #173A-52 UP",
       "EST WIND NAZARETH",
       "EST. BOVONI",
@@ -9510,6 +9561,7 @@
       "ESTATE SMITH BAY 19-2-40",
       "ESTATE SMITH BAY 51",
       "ESTATE SMITH BAY 57X-2A",
+      "ESTATE THOMAS 7",
       "ESTATE ZOOTENVAAL 3A-5",
       "ESTATE ZOOTENVAAL 3A-5**",
       "ESTATE ZOOTENVAL 3Q",
@@ -11770,6 +11822,8 @@
       "RAADETS GADE 32B",
       "RAADETS GADE 33",
       "RAINBOW ANCHORAGE",
+      "RAPHUNE HILL 3 COTTAGE",
+      "RAPHUNE HILL LOT",
       "RED HOOK 18-7 SUITE 207",
       "RED HOOK 205",
       "RED HOOK CENTER",
@@ -12972,8 +13026,8 @@
       "ZOOTENVAAL 3Q (MTR 1)",
       "ZOOTENVAAL 3T"
     ],
-    "totalOutages": 11
+    "totalOutages": 12
   },
   "staleAfterSeconds": 900,
-  "unassignedEventCount": 9
+  "unassignedEventCount": 10
 }
