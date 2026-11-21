@@ -17,7 +17,7 @@
         "NAZARETH 2W-45",
         "NAZARETH 2-W-76-3"
       ],
-      "modifiedAt": "2026-11-18T17:27:30Z",
+      "modifiedAt": "2026-11-21T06:21:16Z",
       "name": "T-T-12926",
       "neighborhoodIDs": [],
       "point": {
@@ -37,151 +37,7 @@
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
-      "id": "33a3d2f2a7010e14be4bfe5e5644e69747015f977655363b758a8fa000b5dd11",
-      "island": null,
-      "locations": [
-        "PEPPERTREE TERR B-7 L-2",
-        "PEPPERTREE TERR B-8 L-2",
-        "PEPPERTREE TERR B-8 L-3",
-        "PEPPERTREE TERR B-8 WELL"
-      ],
-      "modifiedAt": "2026-11-20T20:08:42Z",
-      "name": "STX_31690",
-      "neighborhoodIDs": [],
-      "point": {
-        "latitude": 17.731733365364647,
-        "longitude": -64.75253840699395
-      },
-      "reportedCustomersInitially": 6,
-      "reportedCustomersOut": 6,
-      "reportedCustomersRestored": 0,
-      "sourceStatus": "Verified",
-      "startedAt": "2026-11-20T18:41:51Z",
-      "verified": true,
-      "workStatus": null
-    },
-    {
-      "cause": null,
-      "crewAssigned": false,
-      "endedAt": null,
-      "estimatedRestoration": null,
-      "id": "688d24f7b6e72cb60f9dd7cfcfc315b9ee0efe7095b9fbf192b7ed84c8031d54",
-      "island": "stThomas",
-      "locations": [
-        "AGNES FANCY",
-        "AGNES FANCY 5-A",
-        "AGNES FANCY 5B",
-        "AGNES FANCY 5F"
-      ],
-      "modifiedAt": "2026-05-24T00:22:35Z",
-      "name": "T-T-14319",
-      "neighborhoodIDs": [
-        "stThomas-agnes-fancy"
-      ],
-      "point": {
-        "latitude": 18.35006256453069,
-        "longitude": -64.93588373921254
-      },
-      "reportedCustomersInitially": 5,
-      "reportedCustomersOut": 5,
-      "reportedCustomersRestored": 0,
-      "sourceStatus": "Predicted",
-      "startedAt": "2026-05-24T00:16:58Z",
-      "verified": false,
-      "workStatus": null
-    },
-    {
-      "cause": null,
-      "crewAssigned": false,
-      "endedAt": null,
-      "estimatedRestoration": null,
-      "id": "a7622fe5ec3f7460243d64545ddffb42dc3c534b3876e2c938737688abde9c58",
-      "island": "stThomas",
-      "locations": [
-        "LOVENLUND EST FARMHOUSE"
-      ],
-      "modifiedAt": "2026-11-15T22:16:20Z",
-      "name": "T-T-17122",
-      "neighborhoodIDs": [
-        "stThomas-lovenlund"
-      ],
-      "point": {
-        "latitude": 18.358913104215013,
-        "longitude": -64.91093464297694
-      },
-      "reportedCustomersInitially": 1,
-      "reportedCustomersOut": 1,
-      "reportedCustomersRestored": 0,
-      "sourceStatus": "Verified",
-      "startedAt": "2026-11-05T17:32:26Z",
-      "verified": true,
-      "workStatus": null
-    },
-    {
-      "cause": null,
-      "crewAssigned": false,
-      "endedAt": null,
-      "estimatedRestoration": null,
-      "id": "a89610ebe31856d6f6ea3be72bf0e09c00f930398b485466e6cf001b90144036",
-      "island": null,
-      "locations": [
-        "LERKENLUND 9D-1-2"
-      ],
-      "modifiedAt": "2026-11-18T18:35:34Z",
-      "name": "77786",
-      "neighborhoodIDs": [],
-      "point": {
-        "latitude": 18.355800959434777,
-        "longitude": -64.94398332427946
-      },
-      "reportedCustomersInitially": 1,
-      "reportedCustomersOut": 1,
-      "reportedCustomersRestored": 0,
-      "sourceStatus": "Verified",
-      "startedAt": "2026-11-04T17:15:35Z",
-      "verified": true,
-      "workStatus": null
-    },
-    {
-      "cause": null,
-      "crewAssigned": false,
-      "endedAt": null,
-      "estimatedRestoration": null,
-      "id": "bd670eb4a2a89423f88c804d5eb70e9a1c0144babb12bbca473e8ebd48b0cc55",
-      "island": null,
-      "locations": [
-        "EST NAZARETH M-2",
-        "ESTATE NAZARETH",
-        "ESTATE NAZARETH T-4",
-        "NAZARETH",
-        "NAZARETH APT-1",
-        "NAZARETH LOT R-25",
-        "NAZARETH M-3",
-        "NAZARETH R-37",
-        "NAZARETH T-5",
-        "TRACT 1 EST NAZARETH 122-"
-      ],
-      "modifiedAt": "2026-11-21T06:20:27Z",
-      "name": "T-T-12800",
-      "neighborhoodIDs": [],
-      "point": {
-        "latitude": 18.32781380211992,
-        "longitude": -64.85731769078453
-      },
-      "reportedCustomersInitially": 12,
-      "reportedCustomersOut": 12,
-      "reportedCustomersRestored": 0,
-      "sourceStatus": "Verified",
-      "startedAt": "2026-11-21T06:19:23Z",
-      "verified": true,
-      "workStatus": null
-    },
-    {
-      "cause": null,
-      "crewAssigned": false,
-      "endedAt": null,
-      "estimatedRestoration": null,
-      "id": "bfe432fb34ce56ffca3549a8cbbc1e2bc12e204dbf6fe6b4d3b3d7733722e631",
+      "id": "1bf632ca2fe97815f500162b4b53c4b6db7b167903ceddc390c1021d277b1c6f",
       "island": null,
       "locations": [
         "110-K FRYDENHOJ",
@@ -1520,7 +1376,7 @@
         "VESSUP BAY EST 9-39",
         "VESSUP LANE 9A-19"
       ],
-      "modifiedAt": "2026-11-21T06:20:27Z",
+      "modifiedAt": "2026-11-21T06:21:54Z",
       "name": "9D IN WAY 2",
       "neighborhoodIDs": [
         "stThomas-smith-bay"
@@ -1533,7 +1389,151 @@
       "reportedCustomersOut": 1603,
       "reportedCustomersRestored": 0,
       "sourceStatus": "Verified",
-      "startedAt": "2026-11-21T06:19:46Z",
+      "startedAt": "2026-11-21T06:14:00Z",
+      "verified": true,
+      "workStatus": null
+    },
+    {
+      "cause": null,
+      "crewAssigned": false,
+      "endedAt": null,
+      "estimatedRestoration": null,
+      "id": "33a3d2f2a7010e14be4bfe5e5644e69747015f977655363b758a8fa000b5dd11",
+      "island": null,
+      "locations": [
+        "PEPPERTREE TERR B-7 L-2",
+        "PEPPERTREE TERR B-8 L-2",
+        "PEPPERTREE TERR B-8 L-3",
+        "PEPPERTREE TERR B-8 WELL"
+      ],
+      "modifiedAt": "2026-11-20T20:08:42Z",
+      "name": "STX_31690",
+      "neighborhoodIDs": [],
+      "point": {
+        "latitude": 17.731733365364647,
+        "longitude": -64.75253840699395
+      },
+      "reportedCustomersInitially": 6,
+      "reportedCustomersOut": 6,
+      "reportedCustomersRestored": 0,
+      "sourceStatus": "Verified",
+      "startedAt": "2026-11-20T18:41:51Z",
+      "verified": true,
+      "workStatus": null
+    },
+    {
+      "cause": null,
+      "crewAssigned": false,
+      "endedAt": null,
+      "estimatedRestoration": null,
+      "id": "688d24f7b6e72cb60f9dd7cfcfc315b9ee0efe7095b9fbf192b7ed84c8031d54",
+      "island": "stThomas",
+      "locations": [
+        "AGNES FANCY",
+        "AGNES FANCY 5-A",
+        "AGNES FANCY 5B",
+        "AGNES FANCY 5F"
+      ],
+      "modifiedAt": "2026-05-24T00:22:35Z",
+      "name": "T-T-14319",
+      "neighborhoodIDs": [
+        "stThomas-agnes-fancy"
+      ],
+      "point": {
+        "latitude": 18.35006256453069,
+        "longitude": -64.93588373921254
+      },
+      "reportedCustomersInitially": 5,
+      "reportedCustomersOut": 5,
+      "reportedCustomersRestored": 0,
+      "sourceStatus": "Predicted",
+      "startedAt": "2026-05-24T00:16:58Z",
+      "verified": false,
+      "workStatus": null
+    },
+    {
+      "cause": null,
+      "crewAssigned": false,
+      "endedAt": null,
+      "estimatedRestoration": null,
+      "id": "a7622fe5ec3f7460243d64545ddffb42dc3c534b3876e2c938737688abde9c58",
+      "island": "stThomas",
+      "locations": [
+        "LOVENLUND EST FARMHOUSE"
+      ],
+      "modifiedAt": "2026-11-15T22:16:20Z",
+      "name": "T-T-17122",
+      "neighborhoodIDs": [
+        "stThomas-lovenlund"
+      ],
+      "point": {
+        "latitude": 18.358913104215013,
+        "longitude": -64.91093464297694
+      },
+      "reportedCustomersInitially": 1,
+      "reportedCustomersOut": 1,
+      "reportedCustomersRestored": 0,
+      "sourceStatus": "Verified",
+      "startedAt": "2026-11-05T17:32:26Z",
+      "verified": true,
+      "workStatus": null
+    },
+    {
+      "cause": null,
+      "crewAssigned": false,
+      "endedAt": null,
+      "estimatedRestoration": null,
+      "id": "a89610ebe31856d6f6ea3be72bf0e09c00f930398b485466e6cf001b90144036",
+      "island": null,
+      "locations": [
+        "LERKENLUND 9D-1-2"
+      ],
+      "modifiedAt": "2026-11-18T18:35:34Z",
+      "name": "77786",
+      "neighborhoodIDs": [],
+      "point": {
+        "latitude": 18.355800959434777,
+        "longitude": -64.94398332427946
+      },
+      "reportedCustomersInitially": 1,
+      "reportedCustomersOut": 1,
+      "reportedCustomersRestored": 0,
+      "sourceStatus": "Verified",
+      "startedAt": "2026-11-04T17:15:35Z",
+      "verified": true,
+      "workStatus": null
+    },
+    {
+      "cause": null,
+      "crewAssigned": false,
+      "endedAt": null,
+      "estimatedRestoration": null,
+      "id": "bd670eb4a2a89423f88c804d5eb70e9a1c0144babb12bbca473e8ebd48b0cc55",
+      "island": null,
+      "locations": [
+        "EST NAZARETH M-2",
+        "ESTATE NAZARETH",
+        "ESTATE NAZARETH T-4",
+        "NAZARETH",
+        "NAZARETH APT-1",
+        "NAZARETH LOT R-25",
+        "NAZARETH M-3",
+        "NAZARETH R-37",
+        "NAZARETH T-5",
+        "TRACT 1 EST NAZARETH 122-"
+      ],
+      "modifiedAt": "2026-11-21T06:21:16Z",
+      "name": "T-T-12800",
+      "neighborhoodIDs": [],
+      "point": {
+        "latitude": 18.32781380211992,
+        "longitude": -64.85731769078453
+      },
+      "reportedCustomersInitially": 12,
+      "reportedCustomersOut": 12,
+      "reportedCustomersRestored": 0,
+      "sourceStatus": "Verified",
+      "startedAt": "2026-11-21T06:19:23Z",
       "verified": true,
       "workStatus": null
     },
@@ -2040,7 +2040,7 @@
         "NORTH ESTATE BOVONI",
         "TABOR & HARMONY 4-14A UP"
       ],
-      "modifiedAt": "2026-11-21T06:18:14Z",
+      "modifiedAt": "2026-11-21T06:21:16Z",
       "name": "BOVONI OUT WAY 3",
       "neighborhoodIDs": [],
       "point": {
@@ -2056,7 +2056,7 @@
       "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-21T06:21:08Z",
+  "generatedAt": "2026-11-21T06:26:10Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -2163,10 +2163,10 @@
           ],
           "name": "Smith Bay",
           "sourceEventIDs": [
-            "bfe432fb34ce56ffca3549a8cbbc1e2bc12e204dbf6fe6b4d3b3d7733722e631"
+            "1bf632ca2fe97815f500162b4b53c4b6db7b167903ceddc390c1021d277b1c6f"
           ],
           "sourceStatus": "Verified",
-          "startedAt": "2026-11-21T06:19:46Z"
+          "startedAt": "2026-11-21T06:14:00Z"
         }
       ]
     },
@@ -2196,11 +2196,11 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "f2bbb9c75d00f08b4dd6fe349d2206cc2a12ee89d96df965fb14074556519ce3",
+  "snapshotID": "5e9fac5675d1b90065c49781d8ff06185cc1593f08df67b76e4bac3fa3537278",
   "source": {
-    "checkedAt": "2026-11-21T06:21:08Z",
+    "checkedAt": "2026-11-21T06:26:10Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-21T06:20:44Z",
+    "updatedAt": "2026-11-21T06:25:46Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
