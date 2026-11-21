@@ -1000,7 +1000,7 @@
         "UPPER CARET BAY 6C-1 REM",
         "UPPER JOHN DUNKOE"
       ],
-      "modifiedAt": "2026-11-21T20:50:15Z",
+      "modifiedAt": "2026-11-21T21:26:54Z",
       "name": "REC-6A-1B-NISK",
       "neighborhoodIDs": [],
       "point": {
@@ -1014,59 +1014,9 @@
       "startedAt": "2026-11-21T20:49:45Z",
       "verified": true,
       "workStatus": null
-    },
-    {
-      "cause": null,
-      "crewAssigned": false,
-      "endedAt": null,
-      "estimatedRestoration": null,
-      "id": "d32179f0eb8df12a57b4bbbcce3503378ee0081597810a3abd8df4927eaf108f",
-      "island": null,
-      "locations": [
-        "MJK TERR BLDG 18",
-        "MJK TERR BLDG 18 APT 91",
-        "MJK TERR BLDG 18 APT 93",
-        "MJK TERR BLDG-19 SAFETY",
-        "MJK TERRACE",
-        "MJK TERRACE (OFFICE)",
-        "MJK TERRACE BLD 17 APT 85",
-        "MJK TERRACE BLD 17 APT 86",
-        "MJK TERRACE BLD 17 APT 87",
-        "MJK TERRACE BLD 17 APT 88",
-        "MJK TERRACE BLD 17 APT 89",
-        "MJK TERRACE BLD 17 APT 90",
-        "MJK TERRACE BLDG 18",
-        "MJK TERRACE BLDG 18 A-101",
-        "MJK TERRACE BLDG 18 A-102",
-        "MJK TERRACE BLDG 18 A-95",
-        "MJK TERRACE BLDG 18 A-97",
-        "MJK TERRACE BLDG 19",
-        "MJK TERRACE BLDG 20 A 115",
-        "MJK TERRACE BLDG 20 A 117",
-        "MJK TERRACE BLDG 20 A 118",
-        "MJK TERRACE BLDG 20 A 120",
-        "MJK TERRACE BLDG 21",
-        "MJK TERRACE BLDG-17",
-        "MJK TERRACE BLDG-18",
-        "MJK TERRACE BLDG-20"
-      ],
-      "modifiedAt": "2026-11-21T21:02:49Z",
-      "name": "T-T-01495",
-      "neighborhoodIDs": [],
-      "point": {
-        "latitude": 18.342315777263707,
-        "longitude": -64.96700212696882
-      },
-      "reportedCustomersInitially": 49,
-      "reportedCustomersOut": 49,
-      "reportedCustomersRestored": 0,
-      "sourceStatus": "Predicted",
-      "startedAt": "2026-11-21T21:02:29Z",
-      "verified": false,
-      "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-21T21:30:36Z",
+  "generatedAt": "2026-11-21T21:35:38Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -1134,25 +1084,25 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "c450d466146bbfdc1f00343b23ca5939b482d91d916c32c5aa170c37e8862405",
+  "snapshotID": "bc11056e2c0878c11cd9b8599384acda47ddc307e6e654dcbee963039f008cfe",
   "source": {
-    "checkedAt": "2026-11-21T21:30:36Z",
+    "checkedAt": "2026-11-21T21:35:38Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-21T21:25:45Z",
+    "updatedAt": "2026-11-21T21:30:45Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "sourceSummary": {
     "customerCountDifference": 2,
-    "customersAffected": 1190,
-    "customersOut": 1190,
+    "customersAffected": 1141,
+    "customersOut": 1141,
     "customersRestored": 0,
     "customersServed": 54727,
-    "eventCustomersOut": 1188,
+    "eventCustomersOut": 1139,
     "hourlyCustomersOut": [
       {
         "at": "2026-11-19T21:00:00Z",
-        "customersOut": 8907
+        "customersOut": 8893
       },
       {
         "at": "2026-11-19T22:00:00Z",
@@ -1344,7 +1294,7 @@
       },
       {
         "at": "2026-11-21T21:00:00Z",
-        "customersOut": 1188
+        "customersOut": 1139
       }
     ],
     "locations": [
@@ -2071,32 +2021,6 @@
       "LINDBERGH BAY 44B HSE-1",
       "LINDBERGH BAY 46-11",
       "LOVENLUND EST FARMHOUSE",
-      "MJK TERR BLDG 18",
-      "MJK TERR BLDG 18 APT 91",
-      "MJK TERR BLDG 18 APT 93",
-      "MJK TERR BLDG-19 SAFETY",
-      "MJK TERRACE",
-      "MJK TERRACE (OFFICE)",
-      "MJK TERRACE BLD 17 APT 85",
-      "MJK TERRACE BLD 17 APT 86",
-      "MJK TERRACE BLD 17 APT 87",
-      "MJK TERRACE BLD 17 APT 88",
-      "MJK TERRACE BLD 17 APT 89",
-      "MJK TERRACE BLD 17 APT 90",
-      "MJK TERRACE BLDG 18",
-      "MJK TERRACE BLDG 18 A-101",
-      "MJK TERRACE BLDG 18 A-102",
-      "MJK TERRACE BLDG 18 A-95",
-      "MJK TERRACE BLDG 18 A-97",
-      "MJK TERRACE BLDG 19",
-      "MJK TERRACE BLDG 20 A 115",
-      "MJK TERRACE BLDG 20 A 117",
-      "MJK TERRACE BLDG 20 A 118",
-      "MJK TERRACE BLDG 20 A 120",
-      "MJK TERRACE BLDG 21",
-      "MJK TERRACE BLDG-17",
-      "MJK TERRACE BLDG-18",
-      "MJK TERRACE BLDG-20",
       "NAZARETH 2W-39",
       "NAZARETH 2W-40",
       "NAZARETH 2W-41.",
@@ -2193,8 +2117,8 @@
       "UPPER CARET BAY 6C-1 REM",
       "UPPER JOHN DUNKOE"
     ],
-    "totalOutages": 9
+    "totalOutages": 8
   },
   "staleAfterSeconds": 900,
-  "unassignedEventCount": 7
+  "unassignedEventCount": 6
 }
