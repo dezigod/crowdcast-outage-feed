@@ -136,6 +136,41 @@
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
+      "id": "713b654ada17decb00445e0074a84e50af89d56907adc0baa8a2a7d1eceb7a6f",
+      "island": null,
+      "locations": [
+        "EST LERKENLUND 9D-6",
+        "LERKENLUND 8-63 TOP",
+        "LERKENLUND 9D-10",
+        "LITTLE N. STAR VILL 3-I24",
+        "ST PETER 31-18 HSE METER",
+        "ST PETER 31-19 & 31-18",
+        "ST PETER 31-22 NORTH STAR",
+        "ST PETER 31-22 NORTHSTAR",
+        "ST PETER 3I-20 HIBIS LANE"
+      ],
+      "modifiedAt": "2026-11-21T22:46:31Z",
+      "name": "T-T-16676",
+      "neighborhoodIDs": [
+        "stThomas-st-peter"
+      ],
+      "point": {
+        "latitude": 18.35671960987612,
+        "longitude": -64.94569466203092
+      },
+      "reportedCustomersInitially": 12,
+      "reportedCustomersOut": 12,
+      "reportedCustomersRestored": 0,
+      "sourceStatus": "Predicted",
+      "startedAt": "2026-11-21T22:46:27Z",
+      "verified": false,
+      "workStatus": null
+    },
+    {
+      "cause": null,
+      "crewAssigned": false,
+      "endedAt": null,
+      "estimatedRestoration": null,
       "id": "81948c962da134184e6e7a854d85452b3293ab3c1ca7ffba915aaff72af01a39",
       "island": null,
       "locations": [
@@ -1474,7 +1509,7 @@
       "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-21T22:46:02Z",
+  "generatedAt": "2026-11-21T22:51:04Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -1498,6 +1533,25 @@
           ],
           "sourceStatus": "Predicted",
           "startedAt": "2026-05-24T00:16:58Z"
+        },
+        {
+          "affectedCustomers": null,
+          "estimatedRestoration": null,
+          "id": "stThomas-st-peter",
+          "island": "stThomas",
+          "locations": [
+            "31-18 HSE METER",
+            "31-19 & 31-18",
+            "31-22 NORTH STAR",
+            "31-22 NORTHSTAR",
+            "3I-20 HIBIS LANE"
+          ],
+          "name": "Estate St. Peter",
+          "sourceEventIDs": [
+            "713b654ada17decb00445e0074a84e50af89d56907adc0baa8a2a7d1eceb7a6f"
+          ],
+          "sourceStatus": "Predicted",
+          "startedAt": "2026-11-21T22:46:27Z"
         },
         {
           "affectedCustomers": null,
@@ -1573,21 +1627,21 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "fd7e6368f89b056457ce08f1bf220bbc1b0780eaf9a7618554ca9d2ca7436d70",
+  "snapshotID": "392a94e11071e531f81dfa32f32f0180ed7441d38428cfd3f2d4ff7bbcd267b5",
   "source": {
-    "checkedAt": "2026-11-21T22:46:02Z",
+    "checkedAt": "2026-11-21T22:51:04Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-21T22:45:46Z",
+    "updatedAt": "2026-11-21T22:50:45Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "sourceSummary": {
     "customerCountDifference": 2,
-    "customersAffected": 1643,
-    "customersOut": 1643,
+    "customersAffected": 1655,
+    "customersOut": 1655,
     "customersRestored": 0,
     "customersServed": 54727,
-    "eventCustomersOut": 1641,
+    "eventCustomersOut": 1653,
     "hourlyCustomersOut": [
       {
         "at": "2026-11-19T22:00:00Z",
@@ -1783,7 +1837,7 @@
       },
       {
         "at": "2026-11-21T22:00:00Z",
-        "customersOut": 2703
+        "customersOut": 2715
       }
     ],
     "locations": [
@@ -2280,6 +2334,7 @@
       "EST HAVENSIGHT 17B",
       "EST HAVENSIGHT 25",
       "EST HAVENSIGHT UP",
+      "EST LERKENLUND 9D-6",
       "EST NAZARETH 2W-40",
       "EST NAZARETH 2Y2-2",
       "EST THOMAS",
@@ -2923,7 +2978,10 @@
       "HAVENSIGHT REMAINDER",
       "HAVENSIGHT WAY 18 A-C",
       "HAWK HILL CONDO APT. 9",
+      "LERKENLUND 8-63 TOP",
+      "LERKENLUND 9D-10",
       "LERKENLUND 9D-1-2",
+      "LITTLE N. STAR VILL 3-I24",
       "LONGBAY LANDFILL PAN YARD",
       "LOT 15 EST. THOMAS",
       "LOVENLUND EST FARMHOUSE",
@@ -2973,6 +3031,11 @@
       "PMP GARDENS B-21 A-168",
       "PMP MANAGER OFFICE",
       "REGATTA POINT VILLAS 1& 2",
+      "ST PETER 31-18 HSE METER",
+      "ST PETER 31-19 & 31-18",
+      "ST PETER 31-22 NORTH STAR",
+      "ST PETER 31-22 NORTHSTAR",
+      "ST PETER 3I-20 HIBIS LANE",
       "THOMASVILLE",
       "THOMASVILLE 10A",
       "THOMASVILLE 10C",
@@ -3062,8 +3125,8 @@
       "WEST INDIAN CO DOCK B-1",
       "WIC DOCK BAY BLDG-2"
     ],
-    "totalOutages": 8
+    "totalOutages": 9
   },
   "staleAfterSeconds": 900,
-  "unassignedEventCount": 6
+  "unassignedEventCount": 7
 }
