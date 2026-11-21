@@ -33,7 +33,7 @@
       "workStatus": null
     },
     {
-      "cause": null,
+      "cause": "000 Power supply",
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
@@ -2049,7 +2049,7 @@
         "UPPER JOHN DUNKOE MTR 4",
         "WEST CARET BAY"
       ],
-      "modifiedAt": "2026-11-21T14:30:49Z",
+      "modifiedAt": "2026-11-21T14:50:14Z",
       "name": "Feeder 07A",
       "neighborhoodIDs": [
         "stThomas-agnes-fancy",
@@ -2069,7 +2069,7 @@
       "workStatus": null
     },
     {
-      "cause": null,
+      "cause": "000 Power supply",
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
@@ -2119,7 +2119,7 @@
         "GALLOWS POINT 3AA",
         "LAVENDER HILL CONDO 8E"
       ],
-      "modifiedAt": "2026-11-21T13:05:41Z",
+      "modifiedAt": "2026-11-21T14:50:31Z",
       "name": "Feeder 08E",
       "neighborhoodIDs": [],
       "point": {
@@ -2204,7 +2204,7 @@
       "workStatus": null
     },
     {
-      "cause": null,
+      "cause": "000 Power supply",
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
@@ -4330,7 +4330,7 @@
         "SUZANNABERG 2-3 HOUSE",
         "VIRGIN GRAND EST #71"
       ],
-      "modifiedAt": "2026-11-21T14:06:17Z",
+      "modifiedAt": "2026-11-21T14:50:20Z",
       "name": "Feeder 09E",
       "neighborhoodIDs": [
         "stThomas-lovenlund"
@@ -4405,7 +4405,7 @@
       "workStatus": null
     },
     {
-      "cause": null,
+      "cause": "000 Power supply",
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
@@ -5357,7 +5357,7 @@
         "ZUERIENDENHEIT",
         "ZUFRIDENHEIT 1"
       ],
-      "modifiedAt": "2026-11-21T14:30:49Z",
+      "modifiedAt": "2026-11-21T14:50:03Z",
       "name": "REC-7A-1B-NSTR",
       "neighborhoodIDs": [
         "stThomas-st-peter"
@@ -5444,7 +5444,7 @@
       "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-21T14:50:37Z",
+  "generatedAt": "2026-11-21T14:55:40Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -5848,11 +5848,11 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "452b79be837853d5828abee0cc658544549b2582ddde259945b77f3ce65e9586",
+  "snapshotID": "b39b8a1d3cd6f41cdb5197568c2831301c9eb8081a7f2d7bfc77060eddbd64dc",
   "source": {
-    "checkedAt": "2026-11-21T14:50:37Z",
+    "checkedAt": "2026-11-21T14:55:40Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-21T14:45:46Z",
+    "updatedAt": "2026-11-21T14:50:47Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
