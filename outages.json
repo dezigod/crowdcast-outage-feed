@@ -2071,28 +2071,26 @@
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
-      "id": "85a91d0de705955d53b6db0422a4675e6dd6b9a1071b1f3cb8bb8c064fd6f691",
+      "id": "81948c962da134184e6e7a854d85452b3293ab3c1ca7ffba915aaff72af01a39",
       "island": null,
       "locations": [
-        "LA GRANDE PRINCESS",
-        "LITTLE PRINCESS",
-        "LITTLE PRINCESS 108",
-        "LITTLE PRINCESS 108 HSE 2",
-        "LITTLE PRINCESS 112",
-        "LITTLE PRINCESS 98"
+        "EST NAZARETH 2Y2-2",
+        "ESTATE NAZARETH",
+        "NAZARETH 2Y2-1",
+        "NAZARETH 9M-5 2Y-27"
       ],
-      "modifiedAt": "2026-11-21T15:58:55Z",
-      "name": "T-C-03823",
+      "modifiedAt": "2026-11-21T16:19:30Z",
+      "name": "T-T-13011",
       "neighborhoodIDs": [],
       "point": {
-        "latitude": 17.750192619852086,
-        "longitude": -64.73018376054091
+        "latitude": 18.319970585054353,
+        "longitude": -64.85331328773833
       },
-      "reportedCustomersInitially": 11,
-      "reportedCustomersOut": 11,
+      "reportedCustomersInitially": 4,
+      "reportedCustomersOut": 4,
       "reportedCustomersRestored": 0,
       "sourceStatus": "Predicted",
-      "startedAt": "2026-11-21T15:58:20Z",
+      "startedAt": "2026-11-21T15:29:59Z",
       "verified": false,
       "workStatus": null
     },
@@ -5271,7 +5269,7 @@
       "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-21T16:16:03Z",
+  "generatedAt": "2026-11-21T16:21:05Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -6165,21 +6163,21 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "a7200b6f2549fa6c2e0f4190dbcd58e9316868cf3f5a313b6c361520fc796626",
+  "snapshotID": "59dc1d6b4aee2557a5ffdbadd7b1f6961a68964f1ae08c07dc8fa18f461b93b2",
   "source": {
-    "checkedAt": "2026-11-21T16:16:03Z",
+    "checkedAt": "2026-11-21T16:21:05Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-21T16:15:46Z",
+    "updatedAt": "2026-11-21T16:20:47Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "sourceSummary": {
     "customerCountDifference": 2,
-    "customersAffected": 6290,
-    "customersOut": 6290,
+    "customersAffected": 6283,
+    "customersOut": 6283,
     "customersRestored": 0,
     "customersServed": 54727,
-    "eventCustomersOut": 6288,
+    "eventCustomersOut": 6281,
     "hourlyCustomersOut": [
       {
         "at": "2026-11-19T16:00:00Z",
@@ -6371,11 +6369,11 @@
       },
       {
         "at": "2026-11-21T15:00:00Z",
-        "customersOut": 6333
+        "customersOut": 6326
       },
       {
         "at": "2026-11-21T16:00:00Z",
-        "customersOut": 11314
+        "customersOut": 11307
       }
     ],
     "locations": [
@@ -8100,6 +8098,7 @@
       "EST NADIR 5-B",
       "EST NADIR 8G",
       "EST NAZARETH 2W-40",
+      "EST NAZARETH 2Y2-2",
       "EST PETER 13 & 14-1",
       "EST PETER 14-8",
       "EST PETER 3E",
@@ -8992,6 +8991,7 @@
       "ESTATE MANDAHL 8-1-B-1 UP",
       "ESTATE MISGUNST",
       "ESTATE MISGUNST 7K",
+      "ESTATE NAZARETH",
       "ESTATE RAPHUNE 17-4 MTR 1",
       "ESTATE ROSS 8B",
       "ESTATE ST PETER 13-5B",
@@ -9395,7 +9395,6 @@
       "JOSEPH & ROSENDAHL 4G-7",
       "JOSEPH & ROSENDAHL 4G-8",
       "JOSEPH & ROSENDAHL 8D-4",
-      "LA GRANDE PRINCESS",
       "LAVENDER HILL CONDO 8E",
       "LEARKENLUND",
       "LEARKENLUND EST 6C",
@@ -9626,11 +9625,6 @@
       "LITTLE PLANTATION 4E",
       "LITTLE PLANTATION 4E*",
       "LITTLE PLANTATION 4E**",
-      "LITTLE PRINCESS",
-      "LITTLE PRINCESS 108",
-      "LITTLE PRINCESS 108 HSE 2",
-      "LITTLE PRINCESS 112",
-      "LITTLE PRINCESS 98",
       "L'LUND MAHOGANY RN UPPER",
       "LOCKHART GARDENS 4 & 5",
       "LOCKHART SHOP CTR. HSEMTR",
@@ -10268,6 +10262,8 @@
       "NAZARETH 2W-44",
       "NAZARETH 2W-45",
       "NAZARETH 2-W-76-3",
+      "NAZARETH 2Y2-1",
+      "NAZARETH 9M-5 2Y-27",
       "NEW HERNHUT",
       "NEW HERNHUT 11A NEW QTR",
       "NEW HERNHUT 11B 5A NEW QT",
