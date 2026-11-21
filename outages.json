@@ -4382,6 +4382,36 @@
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
+      "id": "85a91d0de705955d53b6db0422a4675e6dd6b9a1071b1f3cb8bb8c064fd6f691",
+      "island": null,
+      "locations": [
+        "LA GRANDE PRINCESS",
+        "LITTLE PRINCESS",
+        "LITTLE PRINCESS 108",
+        "LITTLE PRINCESS 108 HSE 2",
+        "LITTLE PRINCESS 112",
+        "LITTLE PRINCESS 98"
+      ],
+      "modifiedAt": "2026-11-21T15:58:55Z",
+      "name": "T-C-03823",
+      "neighborhoodIDs": [],
+      "point": {
+        "latitude": 17.750192619852086,
+        "longitude": -64.73018376054091
+      },
+      "reportedCustomersInitially": 11,
+      "reportedCustomersOut": 11,
+      "reportedCustomersRestored": 0,
+      "sourceStatus": "Predicted",
+      "startedAt": "2026-11-21T15:58:20Z",
+      "verified": false,
+      "workStatus": null
+    },
+    {
+      "cause": null,
+      "crewAssigned": false,
+      "endedAt": null,
+      "estimatedRestoration": null,
       "id": "a7622fe5ec3f7460243d64545ddffb42dc3c534b3876e2c938737688abde9c58",
       "island": "stThomas",
       "locations": [
@@ -5444,7 +5474,7 @@
       "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-21T15:55:58Z",
+  "generatedAt": "2026-11-21T16:00:58Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -5848,29 +5878,25 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "0d5785a7208d172061be96bdca9eb4d10a8f6bdbb8ead234b58b5e77d97badaa",
+  "snapshotID": "951fe7fe7b032d3e4420e8c9701f69a5a5079ee793d2c7dc0a03b75761b56392",
   "source": {
-    "checkedAt": "2026-11-21T15:55:58Z",
+    "checkedAt": "2026-11-21T16:00:58Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-21T15:55:49Z",
+    "updatedAt": "2026-11-21T16:00:47Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "sourceSummary": {
     "customerCountDifference": 2,
-    "customersAffected": 6324,
-    "customersOut": 6324,
+    "customersAffected": 6335,
+    "customersOut": 6335,
     "customersRestored": 0,
     "customersServed": 54727,
-    "eventCustomersOut": 6322,
+    "eventCustomersOut": 6333,
     "hourlyCustomersOut": [
       {
-        "at": "2026-11-19T15:00:00Z",
-        "customersOut": 5504
-      },
-      {
         "at": "2026-11-19T16:00:00Z",
-        "customersOut": 10228
+        "customersOut": 10220
       },
       {
         "at": "2026-11-19T17:00:00Z",
@@ -6058,7 +6084,11 @@
       },
       {
         "at": "2026-11-21T15:00:00Z",
-        "customersOut": 6322
+        "customersOut": 6333
+      },
+      {
+        "at": "2026-11-21T16:00:00Z",
+        "customersOut": 6333
       }
     ],
     "locations": [
@@ -9696,6 +9726,7 @@
       "KRUM BAY 2",
       "KRUM BAY-SYSTEM PLANNING",
       "KRUMP BAY",
+      "LA GRANDE PRINCESS",
       "LAVENDER HILL CONDO 8E",
       "LEARKENLUND",
       "LEARKENLUND EST 6C",
@@ -10006,6 +10037,11 @@
       "LILLIENDAL& MARIENHOJ 6-6",
       "LILLIENDAL&MARIEN 6A-2-2",
       "LITTLE N. STAR VILL 3-I24",
+      "LITTLE PRINCESS",
+      "LITTLE PRINCESS 108",
+      "LITTLE PRINCESS 108 HSE 2",
+      "LITTLE PRINCESS 112",
+      "LITTLE PRINCESS 98",
       "LOUISENHOJ 8A A UP",
       "LOUISENHOJ 8A B",
       "LOUISENHOJ 8C & 9A",
@@ -11215,8 +11251,8 @@
       "ZUERIENDENHEIT",
       "ZUFRIDENHEIT 1"
     ],
-    "totalOutages": 11
+    "totalOutages": 12
   },
   "staleAfterSeconds": 900,
-  "unassignedEventCount": 9
+  "unassignedEventCount": 10
 }
