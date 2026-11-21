@@ -37,6 +37,36 @@
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
+      "id": "2f4517f8bcb88fe319bd416c512db0634257f21abed753f5b2afd19e21b5d0f5",
+      "island": null,
+      "locations": [
+        "LA GRANDE PRINCESS",
+        "LITTLE PRINCESS",
+        "LITTLE PRINCESS 108",
+        "LITTLE PRINCESS 108 HSE 2",
+        "LITTLE PRINCESS 112",
+        "LITTLE PRINCESS 98"
+      ],
+      "modifiedAt": "2026-11-21T04:15:25Z",
+      "name": "T-C-03823",
+      "neighborhoodIDs": [],
+      "point": {
+        "latitude": 17.750192619852086,
+        "longitude": -64.73018376054091
+      },
+      "reportedCustomersInitially": 11,
+      "reportedCustomersOut": 11,
+      "reportedCustomersRestored": 0,
+      "sourceStatus": "Predicted",
+      "startedAt": "2026-11-21T04:15:03Z",
+      "verified": false,
+      "workStatus": null
+    },
+    {
+      "cause": null,
+      "crewAssigned": false,
+      "endedAt": null,
+      "estimatedRestoration": null,
       "id": "33a3d2f2a7010e14be4bfe5e5644e69747015f977655363b758a8fa000b5dd11",
       "island": null,
       "locations": [
@@ -1174,7 +1204,7 @@
       "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-21T04:11:30Z",
+  "generatedAt": "2026-11-21T04:16:30Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -1242,21 +1272,21 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "2493b7f37bc25cc01d8de8fc62c1f917648f50c565639d4d6afcabe0a977332b",
+  "snapshotID": "7a511b0191efc58757d5927a3ba5eccc3be5740ed4f63fc374bd95a6edb56db3",
   "source": {
-    "checkedAt": "2026-11-21T04:11:30Z",
+    "checkedAt": "2026-11-21T04:16:30Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-21T04:10:44Z",
+    "updatedAt": "2026-11-21T04:15:44Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "sourceSummary": {
     "customerCountDifference": 2,
-    "customersAffected": 1109,
-    "customersOut": 1109,
+    "customersAffected": 1120,
+    "customersOut": 1120,
     "customersRestored": 0,
     "customersServed": 54726,
-    "eventCustomersOut": 1107,
+    "eventCustomersOut": 1118,
     "hourlyCustomersOut": [
       {
         "at": "2026-11-19T04:00:00Z",
@@ -1452,7 +1482,7 @@
       },
       {
         "at": "2026-11-21T04:00:00Z",
-        "customersOut": 1107
+        "customersOut": 1118
       }
     ],
     "locations": [
@@ -2331,6 +2361,7 @@
       "JOHNS FOLLY 2-8",
       "JOHNS FOLLY 90-J",
       "JOHNS FOLLY C",
+      "LA GRANDE PRINCESS",
       "LERKENLUND 9D-1-2",
       "LIND POINT",
       "LIND POINT RD",
@@ -2347,6 +2378,11 @@
       "LITTLE PLANTATION 4E",
       "LITTLE PLANTATION 4E*",
       "LITTLE PLANTATION 4E**",
+      "LITTLE PRINCESS",
+      "LITTLE PRINCESS 108",
+      "LITTLE PRINCESS 108 HSE 2",
+      "LITTLE PRINCESS 112",
+      "LITTLE PRINCESS 98",
       "LOVENLUND EST FARMHOUSE",
       "MAHO BAY 178 ISLAND FANCY",
       "MAHO BAY 3A",
@@ -2481,8 +2517,8 @@
       "ZOOTENVAAL 3Q (MTR 1)",
       "ZOOTENVAAL 3T"
     ],
-    "totalOutages": 6
+    "totalOutages": 7
   },
   "staleAfterSeconds": 900,
-  "unassignedEventCount": 4
+  "unassignedEventCount": 5
 }
