@@ -68,6 +68,43 @@
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
+      "id": "244743c705a7ae59d6ffa7b431d20a613a4392283ea5efea6ef7232b0fbca83c",
+      "island": null,
+      "locations": [
+        "NADIR 20-1",
+        "WINTBERG 1-124",
+        "WINTBERG 1-127",
+        "WINTBERG 1-128",
+        "WINTBERG 1-129",
+        "WINTBERG 1-130",
+        "WINTBERG 1-130 MTR 2",
+        "WINTBERG 1-132",
+        "WINTBERG 1-132 DWN",
+        "WINTBERG 1-133",
+        "WINTBERG 1-133 MRT-2"
+      ],
+      "modifiedAt": "2026-11-22T18:34:23Z",
+      "name": "T-T-08879",
+      "neighborhoodIDs": [
+        "stThomas-wintberg"
+      ],
+      "point": {
+        "latitude": 18.354043391575253,
+        "longitude": -64.90679886836153
+      },
+      "reportedCustomersInitially": 14,
+      "reportedCustomersOut": 14,
+      "reportedCustomersRestored": 0,
+      "sourceStatus": "Predicted",
+      "startedAt": "2026-11-22T18:33:55Z",
+      "verified": false,
+      "workStatus": null
+    },
+    {
+      "cause": null,
+      "crewAssigned": false,
+      "endedAt": null,
+      "estimatedRestoration": null,
       "id": "3060960a04dc0bd7ac2c95b5e71d171f8ba3cd0a83533983feed59d87f08242c",
       "island": null,
       "locations": [
@@ -202,6 +239,52 @@
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
+      "id": "60a17d8cb71bf94def7b6ba3e44b3dce3c7b67210e5ab035472bf2e4fe379ed7",
+      "island": null,
+      "locations": [
+        "EST FRYDENHOJ 12G",
+        "EST FRYDENHOJ 12P",
+        "EST FRYDENHOJ 12S",
+        "EST FRYDENHOJ 74 BD1",
+        "EST FRYDENHOJ 74BD",
+        "EST FRYDENHOJ 74K",
+        "FRYDENHOJ 12G",
+        "FRYDENHOJ 12T",
+        "FRYDENHOJ 12U MTR A",
+        "FRYDENHOJ 12-U MTR C",
+        "FRYDENHOJ 12U MTR-B",
+        "FRYDENHOJ 52B",
+        "FRYDENHOJ 52C-B",
+        "FRYDENHOJ 52D-C",
+        "FRYDENHOJ 52FA",
+        "FRYDENHOJ 52M-A",
+        "FRYDENHOJ 74 BC",
+        "FRYDENHOJ 74BE",
+        "FRYDENHOJ 74BG",
+        "FRYDENHOJ 74-H",
+        "FRYDENHOJ 74-J",
+        "FRYDENHOJ 74J (UP)"
+      ],
+      "modifiedAt": "2026-11-22T18:34:41Z",
+      "name": "T-T-10089",
+      "neighborhoodIDs": [],
+      "point": {
+        "latitude": 18.321378203170028,
+        "longitude": -64.86924473860961
+      },
+      "reportedCustomersInitially": 26,
+      "reportedCustomersOut": 26,
+      "reportedCustomersRestored": 0,
+      "sourceStatus": "Predicted",
+      "startedAt": "2026-11-22T18:34:07Z",
+      "verified": false,
+      "workStatus": null
+    },
+    {
+      "cause": null,
+      "crewAssigned": false,
+      "endedAt": null,
+      "estimatedRestoration": null,
       "id": "688d24f7b6e72cb60f9dd7cfcfc315b9ee0efe7095b9fbf192b7ed84c8031d54",
       "island": "stThomas",
       "locations": [
@@ -224,6 +307,46 @@
       "reportedCustomersRestored": 0,
       "sourceStatus": "Predicted",
       "startedAt": "2026-05-24T00:16:58Z",
+      "verified": false,
+      "workStatus": null
+    },
+    {
+      "cause": null,
+      "crewAssigned": false,
+      "endedAt": null,
+      "estimatedRestoration": null,
+      "id": "6e206f4a8eb5173a4bc94c748677507179e1f2d083b147ba0445ff0db42d3950",
+      "island": "stThomas",
+      "locations": [
+        "EST WINTBERG 1",
+        "EST WINTBERG 1-80 DOWN",
+        "EST WINTBERG 1-80 UP",
+        "WINTBERG 1-143-15",
+        "WINTBERG 1-143-58",
+        "WINTBERG 1-143-59",
+        "WINTBERG 1-143-60",
+        "WINTBERG 1-143-61",
+        "WINTBERG 1-59",
+        "WINTBERG 1-68",
+        "WINTBERG 1-78",
+        "WINTBERG 1-79 APT-A",
+        "WINTBERG 1-79 APT-B",
+        "WINTBERG 1-80"
+      ],
+      "modifiedAt": "2026-11-22T18:35:12Z",
+      "name": "T-T-10754",
+      "neighborhoodIDs": [
+        "stThomas-wintberg"
+      ],
+      "point": {
+        "latitude": 18.35015907865739,
+        "longitude": -64.90669180653975
+      },
+      "reportedCustomersInitially": 15,
+      "reportedCustomersOut": 15,
+      "reportedCustomersRestored": 0,
+      "sourceStatus": "Predicted",
+      "startedAt": "2026-11-22T18:34:51Z",
       "verified": false,
       "workStatus": null
     },
@@ -3647,7 +3770,7 @@
       "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-22T18:31:20Z",
+  "generatedAt": "2026-11-22T18:36:21Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -4058,6 +4181,43 @@
           ],
           "sourceStatus": "Verified",
           "startedAt": "2026-11-22T13:21:37Z"
+        },
+        {
+          "affectedCustomers": null,
+          "estimatedRestoration": null,
+          "id": "stThomas-wintberg",
+          "island": "stThomas",
+          "locations": [
+            "1",
+            "1-124",
+            "1-127",
+            "1-128",
+            "1-129",
+            "1-130",
+            "1-130 MTR 2",
+            "1-132",
+            "1-133",
+            "1-133 MRT-2",
+            "1-143-15",
+            "1-143-58",
+            "1-143-59",
+            "1-143-60",
+            "1-143-61",
+            "1-59",
+            "1-68",
+            "1-78",
+            "1-79 APT-A",
+            "1-79 APT-B",
+            "1-80",
+            "1-80 DOWN"
+          ],
+          "name": "Wintberg",
+          "sourceEventIDs": [
+            "244743c705a7ae59d6ffa7b431d20a613a4392283ea5efea6ef7232b0fbca83c",
+            "6e206f4a8eb5173a4bc94c748677507179e1f2d083b147ba0445ff0db42d3950"
+          ],
+          "sourceStatus": "Predicted",
+          "startedAt": null
         }
       ]
     },
@@ -4127,21 +4287,21 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "62f816d5e3473d6c538df271d453086c31a665fe389e53c0fce84c10a5eb0da5",
+  "snapshotID": "03b01a5706fb338623586579c8b13cbc9c73a8b2291336bfb09bab7ebd5450d4",
   "source": {
-    "checkedAt": "2026-11-22T18:31:20Z",
+    "checkedAt": "2026-11-22T18:36:21Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-22T18:30:50Z",
+    "updatedAt": "2026-11-22T18:35:50Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "sourceSummary": {
     "customerCountDifference": 2,
-    "customersAffected": 4148,
-    "customersOut": 4148,
+    "customersAffected": 4203,
+    "customersOut": 4203,
     "customersRestored": 0,
     "customersServed": 54727,
-    "eventCustomersOut": 4146,
+    "eventCustomersOut": 4201,
     "hourlyCustomersOut": [
       {
         "at": "2026-11-20T18:00:00Z",
@@ -4337,7 +4497,7 @@
       },
       {
         "at": "2026-11-22T18:00:00Z",
-        "customersOut": 4146
+        "customersOut": 4201
       }
     ],
     "locations": [
@@ -5658,6 +5818,12 @@
       "EST ELIZABETH 9",
       "EST ELIZABETH REM #6",
       "EST FRYDENHOJ 1-2 MTR-C",
+      "EST FRYDENHOJ 12G",
+      "EST FRYDENHOJ 12P",
+      "EST FRYDENHOJ 12S",
+      "EST FRYDENHOJ 74 BD1",
+      "EST FRYDENHOJ 74BD",
+      "EST FRYDENHOJ 74K",
       "EST HULL",
       "EST HULL #14-A",
       "EST HULL 11-1 11-D-D",
@@ -5876,6 +6042,9 @@
       "EST UPPER JOHN DUNKO 20",
       "EST UPPER JOHN DUNKO 64",
       "EST UPPER JOHN DUNKOE",
+      "EST WINTBERG 1",
+      "EST WINTBERG 1-80 DOWN",
+      "EST WINTBERG 1-80 UP",
       "EST ZUFRIEDENHEIT 7",
       "EST. ALTONA 212C UNIT 905",
       "EST. BONNE RESOLUTION",
@@ -5976,7 +6145,23 @@
       "ESTATE ST PETER 9H & 9J",
       "ESTATE ST. PETER 3CD-B",
       "FRYDENDAHL 56-16 MTR-C",
+      "FRYDENHOJ 12G",
+      "FRYDENHOJ 12T",
+      "FRYDENHOJ 12U MTR A",
+      "FRYDENHOJ 12-U MTR C",
+      "FRYDENHOJ 12U MTR-B",
       "FRYDENHOJ 41-5-8",
+      "FRYDENHOJ 52B",
+      "FRYDENHOJ 52C-B",
+      "FRYDENHOJ 52D-C",
+      "FRYDENHOJ 52FA",
+      "FRYDENHOJ 52M-A",
+      "FRYDENHOJ 74 BC",
+      "FRYDENHOJ 74BE",
+      "FRYDENHOJ 74BG",
+      "FRYDENHOJ 74-H",
+      "FRYDENHOJ 74-J",
+      "FRYDENHOJ 74J (UP)",
       "GENERAL GADE 20",
       "HANNAHS REST 260-C",
       "HANSEN BAY 6-0-B",
@@ -6627,6 +6812,7 @@
       "MISGUNST TERRACE 2 CONDO",
       "MOUNTAIN TOP B-2",
       "MOUNTAIN TOP COND B-2 A-5",
+      "NADIR 20-1",
       "NAZARETH 2 W-75",
       "NAZARETH 2 W-9",
       "NAZARETH 2W-10",
@@ -7454,11 +7640,32 @@
       "UPPER JOHN DUNKOE MTR 4",
       "WEST CARET BAY",
       "WHIM 268",
+      "WINTBERG 1-124",
+      "WINTBERG 1-127",
+      "WINTBERG 1-128",
+      "WINTBERG 1-129",
+      "WINTBERG 1-130",
+      "WINTBERG 1-130 MTR 2",
+      "WINTBERG 1-132",
+      "WINTBERG 1-132 DWN",
+      "WINTBERG 1-133",
+      "WINTBERG 1-133 MRT-2",
+      "WINTBERG 1-143-15",
+      "WINTBERG 1-143-58",
+      "WINTBERG 1-143-59",
+      "WINTBERG 1-143-60",
+      "WINTBERG 1-143-61",
+      "WINTBERG 1-59",
+      "WINTBERG 1-68",
+      "WINTBERG 1-78",
+      "WINTBERG 1-79 APT-A",
+      "WINTBERG 1-79 APT-B",
+      "WINTBERG 1-80",
       "ZUERIENDENHEIT",
       "ZUFRIDENHEIT 1"
     ],
-    "totalOutages": 21
+    "totalOutages": 24
   },
   "staleAfterSeconds": 900,
-  "unassignedEventCount": 17
+  "unassignedEventCount": 19
 }
