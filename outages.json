@@ -37,32 +37,6 @@
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
-      "id": "17f30383d6389b80b2f2b0f69460c518f857ed139a76627458f1293af21a2d80",
-      "island": null,
-      "locations": [
-        "CAROLINA 10-30C-1A",
-        "CAROLINA 10-30C-5"
-      ],
-      "modifiedAt": "2026-11-22T03:18:55Z",
-      "name": "T-J-03914",
-      "neighborhoodIDs": [],
-      "point": {
-        "latitude": 18.33884437569973,
-        "longitude": -64.71838654311689
-      },
-      "reportedCustomersInitially": 2,
-      "reportedCustomersOut": 2,
-      "reportedCustomersRestored": 0,
-      "sourceStatus": "Predicted",
-      "startedAt": "2026-11-22T03:18:28Z",
-      "verified": false,
-      "workStatus": null
-    },
-    {
-      "cause": null,
-      "crewAssigned": false,
-      "endedAt": null,
-      "estimatedRestoration": null,
       "id": "33a3d2f2a7010e14be4bfe5e5644e69747015f977655363b758a8fa000b5dd11",
       "island": null,
       "locations": [
@@ -197,7 +171,7 @@
       "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-22T03:41:29Z",
+  "generatedAt": "2026-11-22T03:46:30Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -265,21 +239,21 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "420423f9518cb4f2b883a68ed9735af11086467670a202232945d6f908f6dede",
+  "snapshotID": "77aa3777b6d370f57e5655403e0b02d796e4b1e3a2fe21a7759236ad520e508a",
   "source": {
-    "checkedAt": "2026-11-22T03:41:29Z",
+    "checkedAt": "2026-11-22T03:46:30Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-22T03:40:47Z",
+    "updatedAt": "2026-11-22T03:45:47Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "sourceSummary": {
     "customerCountDifference": 2,
-    "customersAffected": 30,
-    "customersOut": 30,
+    "customersAffected": 28,
+    "customersOut": 28,
     "customersRestored": 0,
     "customersServed": 54727,
-    "eventCustomersOut": 28,
+    "eventCustomersOut": 26,
     "hourlyCustomersOut": [
       {
         "at": "2026-11-20T03:00:00Z",
@@ -475,7 +449,7 @@
       },
       {
         "at": "2026-11-22T03:00:00Z",
-        "customersOut": 3556
+        "customersOut": 3554
       }
     ],
     "locations": [
@@ -483,8 +457,6 @@
       "AGNES FANCY 5-A",
       "AGNES FANCY 5B",
       "AGNES FANCY 5F",
-      "CAROLINA 10-30C-1A",
-      "CAROLINA 10-30C-5",
       "EST NAZARETH 2W-40",
       "EST NAZARETH 2Y2-2",
       "ESTATE NAZARETH",
@@ -503,8 +475,8 @@
       "PEPPERTREE TERR B-8 L-3",
       "PEPPERTREE TERR B-8 WELL"
     ],
-    "totalOutages": 7
+    "totalOutages": 6
   },
   "staleAfterSeconds": 900,
-  "unassignedEventCount": 5
+  "unassignedEventCount": 4
 }
