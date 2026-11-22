@@ -2181,37 +2181,6 @@
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
-      "id": "23ce8e938ae5e100b272a6e1543e11d72771b61e2ec350276ba2816a4f754ed7",
-      "island": "stCroix",
-      "locations": [
-        "SION HILL 1-32",
-        "SION HILL 1-32 APT B",
-        "SION HILL 1-32 UNIT C",
-        "SION HILL 1-38",
-        "SION HILL 1-40"
-      ],
-      "modifiedAt": "2026-11-22T15:35:45Z",
-      "name": "T-C-24550",
-      "neighborhoodIDs": [
-        "stCroix-sion-hill"
-      ],
-      "point": {
-        "latitude": 17.74086341276579,
-        "longitude": -64.74607981685887
-      },
-      "reportedCustomersInitially": 5,
-      "reportedCustomersOut": 5,
-      "reportedCustomersRestored": 0,
-      "sourceStatus": "Predicted",
-      "startedAt": "2026-11-22T15:35:43Z",
-      "verified": false,
-      "workStatus": null
-    },
-    {
-      "cause": null,
-      "crewAssigned": false,
-      "endedAt": null,
-      "estimatedRestoration": null,
       "id": "33a3d2f2a7010e14be4bfe5e5644e69747015f977655363b758a8fa000b5dd11",
       "island": null,
       "locations": [
@@ -3680,48 +3649,9 @@
       "startedAt": "2026-11-22T17:54:39Z",
       "verified": true,
       "workStatus": null
-    },
-    {
-      "cause": null,
-      "crewAssigned": false,
-      "endedAt": null,
-      "estimatedRestoration": null,
-      "id": "ef39e2f3a18ebab47d262953972bab005e8d99662b57980521f3766d602101ba",
-      "island": null,
-      "locations": [
-        "CAMPO RICO",
-        "CAMPO RICO 270",
-        "CAMPO RICO 271",
-        "CAMPO RICO 273",
-        "CAMPO RICO 275 HOUSE",
-        "CAMPO RICO 276",
-        "CAMPO RICO 291",
-        "CAMPO RICO 292",
-        "CAMPO RICO 293",
-        "CAMPO RICO 296",
-        "CAMPO RICO 297",
-        "CAMPO RICO 298",
-        "CAMPO RICO/WHIM 269",
-        "HANNAHS REST 260-C",
-        "WHIM 268"
-      ],
-      "modifiedAt": "2026-11-22T19:38:31Z",
-      "name": "T-C-12234",
-      "neighborhoodIDs": [],
-      "point": {
-        "latitude": 17.69143416176743,
-        "longitude": -64.86769141103673
-      },
-      "reportedCustomersInitially": 16,
-      "reportedCustomersOut": 16,
-      "reportedCustomersRestored": 0,
-      "sourceStatus": "Predicted",
-      "startedAt": "2026-11-22T09:58:31Z",
-      "verified": false,
-      "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-22T20:10:50Z",
+  "generatedAt": "2026-11-22T20:15:51Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -3819,25 +3749,6 @@
           ],
           "sourceStatus": "Verified",
           "startedAt": "2026-11-22T17:54:39Z"
-        },
-        {
-          "affectedCustomers": null,
-          "estimatedRestoration": null,
-          "id": "stCroix-sion-hill",
-          "island": "stCroix",
-          "locations": [
-            "1-32",
-            "1-32 APT B",
-            "1-32 UNIT C",
-            "1-38",
-            "1-40"
-          ],
-          "name": "Sion Hill",
-          "sourceEventIDs": [
-            "23ce8e938ae5e100b272a6e1543e11d72771b61e2ec350276ba2816a4f754ed7"
-          ],
-          "sourceStatus": "Predicted",
-          "startedAt": "2026-11-22T15:35:43Z"
         }
       ]
     },
@@ -3861,25 +3772,25 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "3884c2038d1cc6bbce7ea0e74a3a08f7be53f23eb503ad3a88ed1e30c55ab1d8",
+  "snapshotID": "6a709ce41a1c8806b422312e5e7c0e6f5a442655691b38335bd493c684b5c30d",
   "source": {
-    "checkedAt": "2026-11-22T20:10:50Z",
+    "checkedAt": "2026-11-22T20:15:51Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-22T20:05:50Z",
+    "updatedAt": "2026-11-22T20:10:50Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "sourceSummary": {
     "customerCountDifference": 2,
-    "customersAffected": 3928,
-    "customersOut": 3928,
+    "customersAffected": 3907,
+    "customersOut": 3907,
     "customersRestored": 0,
     "customersServed": 54727,
-    "eventCustomersOut": 3926,
+    "eventCustomersOut": 3905,
     "hourlyCustomersOut": [
       {
         "at": "2026-11-20T20:00:00Z",
-        "customersOut": 18583
+        "customersOut": 16961
       },
       {
         "at": "2026-11-20T21:00:00Z",
@@ -4055,23 +3966,23 @@
       },
       {
         "at": "2026-11-22T16:00:00Z",
-        "customersOut": 7360
+        "customersOut": 7344
       },
       {
         "at": "2026-11-22T17:00:00Z",
-        "customersOut": 5028
+        "customersOut": 5012
       },
       {
         "at": "2026-11-22T18:00:00Z",
-        "customersOut": 8896
+        "customersOut": 8875
       },
       {
         "at": "2026-11-22T19:00:00Z",
-        "customersOut": 3926
+        "customersOut": 3905
       },
       {
         "at": "2026-11-22T20:00:00Z",
-        "customersOut": 3926
+        "customersOut": 3905
       }
     ],
     "locations": [
@@ -4762,19 +4673,6 @@
       "BOVONI LOT 5-95",
       "BOVONI LOT 5-98",
       "BOVONI UP",
-      "CAMPO RICO",
-      "CAMPO RICO 270",
-      "CAMPO RICO 271",
-      "CAMPO RICO 273",
-      "CAMPO RICO 275 HOUSE",
-      "CAMPO RICO 276",
-      "CAMPO RICO 291",
-      "CAMPO RICO 292",
-      "CAMPO RICO 293",
-      "CAMPO RICO 296",
-      "CAMPO RICO 297",
-      "CAMPO RICO 298",
-      "CAMPO RICO/WHIM 269",
       "CAROLINA 10-10-1",
       "CAROLINA 10-10-10",
       "CAROLINA 10-10-11",
@@ -6923,7 +6821,6 @@
       "GRUNWALD 5C APT 2",
       "GRUNWALD APT.#4",
       "GRUNWALD EST 1-1-21",
-      "HANNAHS REST 260-C",
       "HAVENSGHT MALL B STE 304A",
       "HAVENSIGHT",
       "HAVENSIGHT #12",
@@ -7366,11 +7263,6 @@
       "SANS SOUCI 2-1",
       "SANS SOUCI 2-2",
       "SANS SOUCI& GUINEA GUT3B-",
-      "SION HILL 1-32",
-      "SION HILL 1-32 APT B",
-      "SION HILL 1-32 UNIT C",
-      "SION HILL 1-38",
-      "SION HILL 1-40",
       "ST JOHN 7",
       "SUSANABERG 7-F",
       "SUSANANABERG 17-A",
@@ -7491,11 +7383,10 @@
       "WATERGATE VILLA B16",
       "WATERGATE VILLA SECTION 6",
       "WEST INDIAN CO DOCK B-1",
-      "WHIM 268",
       "WIC DOCK BAY BLDG-2"
     ],
-    "totalOutages": 12
+    "totalOutages": 10
   },
   "staleAfterSeconds": 900,
-  "unassignedEventCount": 8
+  "unassignedEventCount": 7
 }
