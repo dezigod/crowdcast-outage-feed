@@ -2371,6 +2371,31 @@
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
+      "id": "c7f37263753e78c12586d6155684838ca40a6b95c2806152619cd17729e36943",
+      "island": null,
+      "locations": [
+        "EST DONOE LOT M"
+      ],
+      "modifiedAt": "2026-11-22T16:48:39Z",
+      "name": "T-T-10763",
+      "neighborhoodIDs": [],
+      "point": {
+        "latitude": 18.336424603111524,
+        "longitude": -64.89783401173071
+      },
+      "reportedCustomersInitially": 1,
+      "reportedCustomersOut": 1,
+      "reportedCustomersRestored": 0,
+      "sourceStatus": "Predicted",
+      "startedAt": "2026-11-22T16:48:02Z",
+      "verified": false,
+      "workStatus": null
+    },
+    {
+      "cause": null,
+      "crewAssigned": false,
+      "endedAt": null,
+      "estimatedRestoration": null,
       "id": "d01775ba3a49273b2f86eb56eb9f03aa9d56f58cdf8fb7e85e50153e0a749338",
       "island": null,
       "locations": [
@@ -3478,7 +3503,7 @@
       "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-22T16:50:49Z",
+  "generatedAt": "2026-11-22T16:55:52Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -3958,21 +3983,21 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "7968ce37a81194a8d877b740385625c581c20bef0e8058da2c49d30ace131f98",
+  "snapshotID": "55816f42115ec696a8d7f03ae9ae0f9da155182bd0adc44deff3618bb1486d67",
   "source": {
-    "checkedAt": "2026-11-22T16:50:49Z",
+    "checkedAt": "2026-11-22T16:55:52Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-22T16:45:50Z",
+    "updatedAt": "2026-11-22T16:50:50Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "sourceSummary": {
     "customerCountDifference": 2,
-    "customersAffected": 4084,
-    "customersOut": 4084,
+    "customersAffected": 4085,
+    "customersOut": 4085,
     "customersRestored": 0,
     "customersServed": 54727,
-    "eventCustomersOut": 4082,
+    "eventCustomersOut": 4083,
     "hourlyCustomersOut": [
       {
         "at": "2026-11-20T16:00:00Z",
@@ -4168,7 +4193,7 @@
       },
       {
         "at": "2026-11-22T16:00:00Z",
-        "customersOut": 4082
+        "customersOut": 4083
       }
     ],
     "locations": [
@@ -5408,6 +5433,7 @@
       "EST CONTANT #7BA A2",
       "EST CONTANT 11-3 B & C",
       "EST CONTANT 3CH BOTTOM",
+      "EST DONOE LOT M",
       "EST DOROTHEA",
       "EST DOROTHEA #8",
       "EST DOROTHEA 10A",
@@ -7240,8 +7266,8 @@
       "ZUERIENDENHEIT",
       "ZUFRIDENHEIT 1"
     ],
-    "totalOutages": 16
+    "totalOutages": 17
   },
   "staleAfterSeconds": 900,
-  "unassignedEventCount": 12
+  "unassignedEventCount": 13
 }
