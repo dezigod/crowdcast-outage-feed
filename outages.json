@@ -40,6 +40,32 @@
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
+      "id": "0ad1581899cade7b789a6f9eaf977b6b5fa024bfcedc4beed6517bbbc5733196",
+      "island": null,
+      "locations": [
+        "CARET BAY 2E-51-19 &2E-53",
+        "CARET BAY 2E-51-19 B-1"
+      ],
+      "modifiedAt": "2026-11-22T23:49:10Z",
+      "name": "T-T-11709",
+      "neighborhoodIDs": [],
+      "point": {
+        "latitude": 18.37180903074883,
+        "longitude": -64.98088047140257
+      },
+      "reportedCustomersInitially": 4,
+      "reportedCustomersOut": 4,
+      "reportedCustomersRestored": 0,
+      "sourceStatus": "Predicted",
+      "startedAt": "2026-11-22T23:48:49Z",
+      "verified": false,
+      "workStatus": null
+    },
+    {
+      "cause": null,
+      "crewAssigned": false,
+      "endedAt": null,
+      "estimatedRestoration": null,
       "id": "114334c01aa87b660788dbcd897dba52abaccf25d73a80313b285103c5d75502",
       "island": null,
       "locations": [
@@ -4337,7 +4363,7 @@
       "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-22T23:46:30Z",
+  "generatedAt": "2026-11-22T23:51:32Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -5560,21 +5586,21 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "0ac55649bb388ecbc842252c9f4ca17361d9a02008d9b71d12e6564f8313b67e",
+  "snapshotID": "ca05299cf84921158724038d00cf4d194612a71f8193d8335ea684f7f229265f",
   "source": {
-    "checkedAt": "2026-11-22T23:46:30Z",
+    "checkedAt": "2026-11-22T23:51:32Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-22T23:45:51Z",
+    "updatedAt": "2026-11-22T23:50:51Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "sourceSummary": {
     "customerCountDifference": 2,
-    "customersAffected": 6865,
-    "customersOut": 5016,
+    "customersAffected": 6869,
+    "customersOut": 5020,
     "customersRestored": 1849,
     "customersServed": 54727,
-    "eventCustomersOut": 5014,
+    "eventCustomersOut": 5018,
     "hourlyCustomersOut": [
       {
         "at": "2026-11-20T23:00:00Z",
@@ -5770,7 +5796,7 @@
       },
       {
         "at": "2026-11-22T23:00:00Z",
-        "customersOut": 5014
+        "customersOut": 5018
       }
     ],
     "locations": [
@@ -6221,6 +6247,8 @@
       "CANEEL BAY 6A",
       "CANEEL BAY 6B (BLDG A)",
       "CANEEL BAY EST 238",
+      "CARET BAY 2E-51-19 &2E-53",
+      "CARET BAY 2E-51-19 B-1",
       "CARNIVAL VILLAGE",
       "CAROLINA",
       "CAROLINA #6T-14 MRT-A",
@@ -9686,8 +9714,8 @@
       "ZOOTENVAAL 3Q (MTR 1)",
       "ZOOTENVAAL 3T"
     ],
-    "totalOutages": 17
+    "totalOutages": 18
   },
   "staleAfterSeconds": 900,
-  "unassignedEventCount": 14
+  "unassignedEventCount": 15
 }
