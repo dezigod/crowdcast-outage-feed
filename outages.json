@@ -3417,6 +3417,34 @@
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
+      "id": "d7ce9650f8ae1f8ee5bbd5d775418ef0a59b4ecf06923d8f2b94aaeb1d14d243",
+      "island": null,
+      "locations": [
+        "3M BAKKERO",
+        "BAKKERO 3A-2-REMAINDER",
+        "BAKKERO 3C",
+        "BAKKERO 3L FLAG HILL"
+      ],
+      "modifiedAt": "2026-11-22T17:55:00Z",
+      "name": "T-T-14640",
+      "neighborhoodIDs": [],
+      "point": {
+        "latitude": 18.327975674240342,
+        "longitude": -64.91384419899413
+      },
+      "reportedCustomersInitially": 4,
+      "reportedCustomersOut": 4,
+      "reportedCustomersRestored": 0,
+      "sourceStatus": "Predicted",
+      "startedAt": "2026-11-22T17:54:39Z",
+      "verified": false,
+      "workStatus": null
+    },
+    {
+      "cause": null,
+      "crewAssigned": false,
+      "endedAt": null,
+      "estimatedRestoration": null,
       "id": "db386348b7dcd08e76cb95a6f4ef23bc74694ddb4b7484e1cb850ac1e9319b41",
       "island": null,
       "locations": [
@@ -3503,7 +3531,7 @@
       "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-22T17:51:07Z",
+  "generatedAt": "2026-11-22T17:56:08Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -3983,21 +4011,21 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "99b75d119a7dea6645f45b65c10ab2aa857bbe8e203807e3bfeebe655e320922",
+  "snapshotID": "1aff297d50f038c4af5c575b85dcfe873edd2d3cfc386b444715d9b133e2632c",
   "source": {
-    "checkedAt": "2026-11-22T17:51:07Z",
+    "checkedAt": "2026-11-22T17:56:08Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-22T17:50:50Z",
+    "updatedAt": "2026-11-22T17:55:50Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "sourceSummary": {
     "customerCountDifference": 2,
-    "customersAffected": 4085,
-    "customersOut": 4085,
+    "customersAffected": 4089,
+    "customersOut": 4089,
     "customersRestored": 0,
     "customersServed": 54727,
-    "eventCustomersOut": 4083,
+    "eventCustomersOut": 4087,
     "hourlyCustomersOut": [
       {
         "at": "2026-11-20T17:00:00Z",
@@ -4193,7 +4221,7 @@
       },
       {
         "at": "2026-11-22T17:00:00Z",
-        "customersOut": 4083
+        "customersOut": 4087
       }
     ],
     "locations": [
@@ -4214,6 +4242,7 @@
       "23-3R CONTANT",
       "2F CARET BAY",
       "3B EST MISGUNST",
+      "3M BAKKERO",
       "3M-1A ESTATE ST PETER",
       "3M-1A ST PETER MTR 1",
       "5&9A EST LOWER JOHN DUNKO",
@@ -4562,6 +4591,9 @@
       "ANNAS RETREAT 10 S",
       "ANNAS RETREAT 24B DOWN",
       "ARAWAK VILLAGE B-2 A-3",
+      "BAKKERO 3A-2-REMAINDER",
+      "BAKKERO 3C",
+      "BAKKERO 3L FLAG HILL",
       "BARRETT #13-5",
       "BARRETT EST 14-2",
       "BARRETT EST 14-2 COTTAGE",
@@ -7266,8 +7298,8 @@
       "ZUERIENDENHEIT",
       "ZUFRIDENHEIT 1"
     ],
-    "totalOutages": 17
+    "totalOutages": 18
   },
   "staleAfterSeconds": 900,
-  "unassignedEventCount": 13
+  "unassignedEventCount": 14
 }
