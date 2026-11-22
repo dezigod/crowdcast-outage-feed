@@ -2475,6 +2475,46 @@
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
+      "id": "50fe57202f2e91ab19d914f00d370f16507700db160403c32726e8b1cdb5f4e3",
+      "island": null,
+      "locations": [
+        "CONSTITUTION HILL",
+        "CONSTITUTION HILL 10-AB",
+        "CONSTITUTION HILL 10-AC",
+        "CONSTITUTION HILL 18",
+        "CONSTITUTION HILL 19",
+        "CONSTITUTION HILL 20",
+        "CONSTITUTION HILL 21",
+        "CONSTITUTION HILL 22",
+        "CONSTITUTION HILL 23",
+        "CONSTITUTION HILL 24",
+        "CONSTITUTION HILL 25",
+        "CONSTITUTION HILL 26",
+        "CONSTITUTION HILL 27",
+        "CONSTITUTION HILL 28",
+        "CONSTITUTION HILL 29",
+        "CONSTITUTION HILL 40"
+      ],
+      "modifiedAt": "2026-11-22T22:42:20Z",
+      "name": "T-C-09193",
+      "neighborhoodIDs": [],
+      "point": {
+        "latitude": 17.735778500864043,
+        "longitude": -64.73795859192215
+      },
+      "reportedCustomersInitially": 17,
+      "reportedCustomersOut": 17,
+      "reportedCustomersRestored": 0,
+      "sourceStatus": "Predicted",
+      "startedAt": "2026-11-22T22:37:54Z",
+      "verified": false,
+      "workStatus": null
+    },
+    {
+      "cause": null,
+      "crewAssigned": false,
+      "endedAt": null,
+      "estimatedRestoration": null,
       "id": "688d24f7b6e72cb60f9dd7cfcfc315b9ee0efe7095b9fbf192b7ed84c8031d54",
       "island": "stThomas",
       "locations": [
@@ -4272,7 +4312,7 @@
       "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-22T22:41:06Z",
+  "generatedAt": "2026-11-22T22:46:09Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -5495,25 +5535,25 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "b75593838906c677a05f5b358419022b098e3ddf7345617c850df4d55ca5495f",
+  "snapshotID": "21e6a229d82428aa35ee684175dcdb713738565f2e7af026392fc0c0810aca9a",
   "source": {
-    "checkedAt": "2026-11-22T22:41:06Z",
+    "checkedAt": "2026-11-22T22:46:09Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-22T22:40:51Z",
+    "updatedAt": "2026-11-22T22:45:51Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "sourceSummary": {
     "customerCountDifference": 2,
-    "customersAffected": 6847,
-    "customersOut": 4998,
+    "customersAffected": 6864,
+    "customersOut": 5015,
     "customersRestored": 1849,
     "customersServed": 54727,
-    "eventCustomersOut": 4996,
+    "eventCustomersOut": 5013,
     "hourlyCustomersOut": [
       {
         "at": "2026-11-20T22:00:00Z",
-        "customersOut": 10915
+        "customersOut": 9331
       },
       {
         "at": "2026-11-20T23:00:00Z",
@@ -5705,7 +5745,7 @@
       },
       {
         "at": "2026-11-22T22:00:00Z",
-        "customersOut": 11095
+        "customersOut": 11112
       }
     ],
     "locations": [
@@ -6418,6 +6458,22 @@
       "CONCORDIA 2-7",
       "CONCORDIA 2-8",
       "CONCORDIA 2-9",
+      "CONSTITUTION HILL",
+      "CONSTITUTION HILL 10-AB",
+      "CONSTITUTION HILL 10-AC",
+      "CONSTITUTION HILL 18",
+      "CONSTITUTION HILL 19",
+      "CONSTITUTION HILL 20",
+      "CONSTITUTION HILL 21",
+      "CONSTITUTION HILL 22",
+      "CONSTITUTION HILL 23",
+      "CONSTITUTION HILL 24",
+      "CONSTITUTION HILL 25",
+      "CONSTITUTION HILL 26",
+      "CONSTITUTION HILL 27",
+      "CONSTITUTION HILL 28",
+      "CONSTITUTION HILL 29",
+      "CONSTITUTION HILL 40",
       "CONTANT",
       "CONTANT & ENIGHED",
       "CONTANT & ENIGHED 109",
@@ -9604,8 +9660,8 @@
       "ZOOTENVAAL 3Q (MTR 1)",
       "ZOOTENVAAL 3T"
     ],
-    "totalOutages": 15
+    "totalOutages": 16
   },
   "staleAfterSeconds": 900,
-  "unassignedEventCount": 12
+  "unassignedEventCount": 13
 }
