@@ -232,6 +232,32 @@
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
+      "id": "6ebddce9c79f6c0fa8b1c846923c80be2b6d2fce7df228becb814ab355a43aa2",
+      "island": null,
+      "locations": [
+        "HANSEN BAY 6-0-B",
+        "HANSEN BAY 6-0-C"
+      ],
+      "modifiedAt": "2026-11-22T18:18:51Z",
+      "name": "T-J-04353",
+      "neighborhoodIDs": [],
+      "point": {
+        "latitude": 18.337952902591645,
+        "longitude": -64.67352089647832
+      },
+      "reportedCustomersInitially": 2,
+      "reportedCustomersOut": 2,
+      "reportedCustomersRestored": 0,
+      "sourceStatus": "Predicted",
+      "startedAt": "2026-11-22T18:18:43Z",
+      "verified": false,
+      "workStatus": null
+    },
+    {
+      "cause": null,
+      "crewAssigned": false,
+      "endedAt": null,
+      "estimatedRestoration": null,
       "id": "7b774916b9a43cd59192ac720476694cc7970174a33b7a8fa9c21481931891a2",
       "island": null,
       "locations": [
@@ -2422,6 +2448,45 @@
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
+      "id": "bddba45d39df7a91888a172a3d63d42550707662f4e8cb849649ec7c3742e47d",
+      "island": null,
+      "locations": [
+        "FRYDENHOJ 41-5-8",
+        "NAZARETH 2 W-75",
+        "NAZARETH 2 W-9",
+        "NAZARETH 2W-10",
+        "NAZARETH 2W-53",
+        "NAZARETH 2W-54 APT. 2",
+        "NAZARETH 2W-54 APT.1",
+        "NAZARETH 2W-55",
+        "NAZARETH 2W-55 UP",
+        "NAZARETH 2-W7",
+        "NAZARETH 2-W-75",
+        "NAZARETH 2W9",
+        "NAZARETH 2W9 A-4",
+        "NAZARETH B-2 A EE SUBSTAT",
+        "NAZARETH2 W-8"
+      ],
+      "modifiedAt": "2026-11-22T18:18:51Z",
+      "name": "T-T-12933",
+      "neighborhoodIDs": [],
+      "point": {
+        "latitude": 18.321102336431313,
+        "longitude": -64.8617574445156
+      },
+      "reportedCustomersInitially": 20,
+      "reportedCustomersOut": 20,
+      "reportedCustomersRestored": 0,
+      "sourceStatus": "Predicted",
+      "startedAt": "2026-11-22T18:18:15Z",
+      "verified": false,
+      "workStatus": null
+    },
+    {
+      "cause": null,
+      "crewAssigned": false,
+      "endedAt": null,
+      "estimatedRestoration": null,
       "id": "c7f37263753e78c12586d6155684838ca40a6b95c2806152619cd17729e36943",
       "island": null,
       "locations": [
@@ -3582,7 +3647,7 @@
       "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-22T18:16:15Z",
+  "generatedAt": "2026-11-22T18:21:16Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -4062,21 +4127,21 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "73be84079b098d69e2a44bcb64278d2c8762cd17d43b6dd5f8e69faeace76001",
+  "snapshotID": "ec5181c69afbb4b4241907c510e6644baf0c82b4a26f05a5a6dc146020103b80",
   "source": {
-    "checkedAt": "2026-11-22T18:16:15Z",
+    "checkedAt": "2026-11-22T18:21:16Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-22T18:15:50Z",
+    "updatedAt": "2026-11-22T18:20:50Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "sourceSummary": {
     "customerCountDifference": 2,
-    "customersAffected": 4126,
-    "customersOut": 4126,
+    "customersAffected": 4148,
+    "customersOut": 4148,
     "customersRestored": 0,
     "customersServed": 54727,
-    "eventCustomersOut": 4124,
+    "eventCustomersOut": 4146,
     "hourlyCustomersOut": [
       {
         "at": "2026-11-20T18:00:00Z",
@@ -4272,7 +4337,7 @@
       },
       {
         "at": "2026-11-22T18:00:00Z",
-        "customersOut": 4124
+        "customersOut": 4146
       }
     ],
     "locations": [
@@ -5911,8 +5976,11 @@
       "ESTATE ST PETER 9H & 9J",
       "ESTATE ST. PETER 3CD-B",
       "FRYDENDAHL 56-16 MTR-C",
+      "FRYDENHOJ 41-5-8",
       "GENERAL GADE 20",
       "HANNAHS REST 260-C",
+      "HANSEN BAY 6-0-B",
+      "HANSEN BAY 6-0-C",
       "HAYPIECE HILL 158B",
       "HERITAGE HILLS B-7 APT708",
       "HODGE STREET 24-25",
@@ -6559,14 +6627,28 @@
       "MISGUNST TERRACE 2 CONDO",
       "MOUNTAIN TOP B-2",
       "MOUNTAIN TOP COND B-2 A-5",
+      "NAZARETH 2 W-75",
+      "NAZARETH 2 W-9",
+      "NAZARETH 2W-10",
       "NAZARETH 2W-39",
       "NAZARETH 2W-40",
       "NAZARETH 2W-41.",
       "NAZARETH 2W-44",
       "NAZARETH 2W-45",
+      "NAZARETH 2W-53",
+      "NAZARETH 2W-54 APT. 2",
+      "NAZARETH 2W-54 APT.1",
+      "NAZARETH 2W-55",
+      "NAZARETH 2W-55 UP",
+      "NAZARETH 2-W7",
+      "NAZARETH 2-W-75",
       "NAZARETH 2-W-76-3",
+      "NAZARETH 2W9",
+      "NAZARETH 2W9 A-4",
       "NAZARETH 2Y2-1",
       "NAZARETH 9M-5 2Y-27",
+      "NAZARETH B-2 A EE SUBSTAT",
+      "NAZARETH2 W-8",
       "NELTBERG 5 HOUSE METER",
       "NELTEBERG",
       "NELTEBERG 6",
@@ -7375,8 +7457,8 @@
       "ZUERIENDENHEIT",
       "ZUFRIDENHEIT 1"
     ],
-    "totalOutages": 19
+    "totalOutages": 21
   },
   "staleAfterSeconds": 900,
-  "unassignedEventCount": 15
+  "unassignedEventCount": 17
 }
