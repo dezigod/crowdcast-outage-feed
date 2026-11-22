@@ -3112,7 +3112,7 @@
         "ZUERIENDENHEIT",
         "ZUFRIDENHEIT 1"
       ],
-      "modifiedAt": "2026-11-22T13:23:36Z",
+      "modifiedAt": "2026-11-22T13:39:25Z",
       "name": "Feeder 07A",
       "neighborhoodIDs": [
         "stThomas-agnes-fancy",
@@ -4593,7 +4593,7 @@
       "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-22T13:40:41Z",
+  "generatedAt": "2026-11-22T13:45:44Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -5431,11 +5431,11 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "811a320d46cae96c6c0a46b3ae2e296cf07e0e3992985bd775fa94aeb65f3a04",
+  "snapshotID": "f7c999f3e61d7788742047062917717818b34ff6eee63f741b7296a1fb37f19f",
   "source": {
-    "checkedAt": "2026-11-22T13:40:41Z",
+    "checkedAt": "2026-11-22T13:45:44Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-22T13:35:51Z",
+    "updatedAt": "2026-11-22T13:40:51Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
