@@ -136,6 +136,40 @@
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
+      "id": "7dd1ac38488b5872904a869d22c4a439df413fa5ca55590e03bf2b603798a1c5",
+      "island": null,
+      "locations": [
+        "EST NAZARETH M-2",
+        "ESTATE NAZARETH",
+        "ESTATE NAZARETH T-4",
+        "NAZARETH",
+        "NAZARETH APT-1",
+        "NAZARETH LOT R-25",
+        "NAZARETH M-3",
+        "NAZARETH R-37",
+        "NAZARETH T-5",
+        "TRACT 1 EST NAZARETH 122-"
+      ],
+      "modifiedAt": "2026-11-22T13:58:13Z",
+      "name": "T-T-12800",
+      "neighborhoodIDs": [],
+      "point": {
+        "latitude": 18.32781380211992,
+        "longitude": -64.85731769078453
+      },
+      "reportedCustomersInitially": 12,
+      "reportedCustomersOut": 12,
+      "reportedCustomersRestored": 0,
+      "sourceStatus": "Predicted",
+      "startedAt": "2026-11-22T13:57:53Z",
+      "verified": false,
+      "workStatus": null
+    },
+    {
+      "cause": null,
+      "crewAssigned": false,
+      "endedAt": null,
+      "estimatedRestoration": null,
       "id": "81948c962da134184e6e7a854d85452b3293ab3c1ca7ffba915aaff72af01a39",
       "island": null,
       "locations": [
@@ -4593,7 +4627,7 @@
       "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-22T14:00:49Z",
+  "generatedAt": "2026-11-22T14:05:51Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -5431,26 +5465,22 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "c83fc6a9da15a0baacce012c059c8e0bc8cec16592d4f7ad9d2e10c6270c3466",
+  "snapshotID": "4ddeb35f703b657291705f5f7de1e9a45749e766235821b5cddd2602746ad67e",
   "source": {
-    "checkedAt": "2026-11-22T14:00:49Z",
+    "checkedAt": "2026-11-22T14:05:51Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-22T13:55:50Z",
+    "updatedAt": "2026-11-22T14:00:50Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "sourceSummary": {
     "customerCountDifference": 2,
-    "customersAffected": 5730,
-    "customersOut": 5730,
+    "customersAffected": 5742,
+    "customersOut": 5742,
     "customersRestored": 0,
     "customersServed": 54727,
-    "eventCustomersOut": 5728,
+    "eventCustomersOut": 5740,
     "hourlyCustomersOut": [
-      {
-        "at": "2026-11-20T13:00:00Z",
-        "customersOut": 2273
-      },
       {
         "at": "2026-11-20T14:00:00Z",
         "customersOut": 6051
@@ -5641,7 +5671,11 @@
       },
       {
         "at": "2026-11-22T13:00:00Z",
-        "customersOut": 5728
+        "customersOut": 5740
+      },
+      {
+        "at": "2026-11-22T14:00:00Z",
+        "customersOut": 5740
       }
     ],
     "locations": [
@@ -7243,6 +7277,7 @@
       "EST MISGUNST PCL-5N",
       "EST NAZARETH 2W-40",
       "EST NAZARETH 2Y2-2",
+      "EST NAZARETH M-2",
       "EST NELTJBERG 3",
       "EST NELTJBERG 42",
       "EST NELTJEBERG 1",
@@ -7463,6 +7498,7 @@
       "ESTATE MISGUNST",
       "ESTATE MISGUNST 7K",
       "ESTATE NAZARETH",
+      "ESTATE NAZARETH T-4",
       "ESTATE NELTJEBERG",
       "ESTATE PEARL 39K",
       "ESTATE PETERBORG",
@@ -8636,6 +8672,7 @@
       "MODULAR CLASSROOM - CAHS",
       "MOUNTAIN TOP B-2",
       "MOUNTAIN TOP COND B-2 A-5",
+      "NAZARETH",
       "NAZARETH 2W-39",
       "NAZARETH 2W-40",
       "NAZARETH 2W-41.",
@@ -8644,6 +8681,11 @@
       "NAZARETH 2-W-76-3",
       "NAZARETH 2Y2-1",
       "NAZARETH 9M-5 2Y-27",
+      "NAZARETH APT-1",
+      "NAZARETH LOT R-25",
+      "NAZARETH M-3",
+      "NAZARETH R-37",
+      "NAZARETH T-5",
       "NELTBERG 5 HOUSE METER",
       "NELTEBERG",
       "NELTEBERG 6",
@@ -9847,6 +9889,7 @@
       "TEMPLE STREET 15 UP",
       "TEMPLE STREET 16",
       "TOLBOD GADE EMANCIPATION",
+      "TRACT 1 EST NAZARETH 122-",
       "TROPACO PT HULL BAY",
       "TUTU PARK MALL SUITE 111",
       "UPPER JOHN DONKO 2-5 MTR",
@@ -9956,8 +9999,8 @@
       "ZUERIENDENHEIT",
       "ZUFRIDENHEIT 1"
     ],
-    "totalOutages": 11
+    "totalOutages": 12
   },
   "staleAfterSeconds": 900,
-  "unassignedEventCount": 9
+  "unassignedEventCount": 10
 }
