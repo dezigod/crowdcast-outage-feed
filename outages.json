@@ -210,7 +210,7 @@
       "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-22T11:41:06Z",
+  "generatedAt": "2026-11-22T11:46:06Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -278,11 +278,11 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "c58a92cea0e16e21bed4c0da482818cc79ca574dee882bc33bf934bf0d6455b9",
+  "snapshotID": "ae617590bca4c9d9a7efba278b3b346282b651dfeab5b1713305b5949c40a7ff",
   "source": {
-    "checkedAt": "2026-11-22T11:41:06Z",
+    "checkedAt": "2026-11-22T11:46:06Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-22T11:40:48Z",
+    "updatedAt": "2026-11-22T11:45:48Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
