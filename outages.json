@@ -6,6 +6,40 @@
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
+      "id": "07495e5e165bfe867bf94849c58cf9e3d46a032508cfae1f67b6d6474ec508fa",
+      "island": null,
+      "locations": [
+        "ALTONA & WELGUNST",
+        "ALTONA & WELGUNST 200-24",
+        "ALTONA & WELGUNST 220-23",
+        "ALTONA & WELGUNST 220-24",
+        "ALTONA & WELGUNST 220-25",
+        "ALTONA & WELGUNST 220-26",
+        "ALTONA & WELGUNST 220-27",
+        "ALTONA & WELGUNST 220-28",
+        "ALTONA WEL #220-23",
+        "ALTONA WEL 220-23 APT #3"
+      ],
+      "modifiedAt": "2026-11-22T22:23:38Z",
+      "name": "T-T-02154",
+      "neighborhoodIDs": [],
+      "point": {
+        "latitude": 18.34468475060347,
+        "longitude": -64.94699945439028
+      },
+      "reportedCustomersInitially": 14,
+      "reportedCustomersOut": 14,
+      "reportedCustomersRestored": 0,
+      "sourceStatus": "Predicted",
+      "startedAt": "2026-11-22T22:23:12Z",
+      "verified": false,
+      "workStatus": null
+    },
+    {
+      "cause": null,
+      "crewAssigned": false,
+      "endedAt": null,
+      "estimatedRestoration": null,
       "id": "114334c01aa87b660788dbcd897dba52abaccf25d73a80313b285103c5d75502",
       "island": null,
       "locations": [
@@ -5751,7 +5785,7 @@
       "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-22T22:21:00Z",
+  "generatedAt": "2026-11-22T22:26:01Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -7014,25 +7048,25 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "6d6393796374cda33739318af047cbb8fa47864d00e474c5e02a5303a9e6c04b",
+  "snapshotID": "75417f5acf19ce9bd547ce27f4bf6343cce4c34a3b44a3b79cdce0dde74fb4a9",
   "source": {
-    "checkedAt": "2026-11-22T22:21:00Z",
+    "checkedAt": "2026-11-22T22:26:01Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-22T22:20:51Z",
+    "updatedAt": "2026-11-22T22:25:51Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "sourceSummary": {
     "customerCountDifference": 2,
-    "customersAffected": 6833,
-    "customersOut": 6833,
+    "customersAffected": 6847,
+    "customersOut": 6847,
     "customersRestored": 0,
     "customersServed": 54727,
-    "eventCustomersOut": 6831,
+    "eventCustomersOut": 6845,
     "hourlyCustomersOut": [
       {
         "at": "2026-11-20T22:00:00Z",
-        "customersOut": 12000
+        "customersOut": 10915
       },
       {
         "at": "2026-11-20T23:00:00Z",
@@ -7348,6 +7382,16 @@
       "AGNES FANCY 5-E",
       "AGNES FANCY 5F",
       "AKA 224 BARBADOS",
+      "ALTONA & WELGUNST",
+      "ALTONA & WELGUNST 200-24",
+      "ALTONA & WELGUNST 220-23",
+      "ALTONA & WELGUNST 220-24",
+      "ALTONA & WELGUNST 220-25",
+      "ALTONA & WELGUNST 220-26",
+      "ALTONA & WELGUNST 220-27",
+      "ALTONA & WELGUNST 220-28",
+      "ALTONA WEL #220-23",
+      "ALTONA WEL 220-23 APT #3",
       "ANNABERG 4C",
       "ANNABERG 4K",
       "ANNABERG 4-O-1",
@@ -12618,8 +12662,8 @@
       "ZOOTENVAAL 3Q (MTR 1)",
       "ZOOTENVAAL 3T"
     ],
-    "totalOutages": 14
+    "totalOutages": 15
   },
   "staleAfterSeconds": 900,
-  "unassignedEventCount": 11
+  "unassignedEventCount": 12
 }
