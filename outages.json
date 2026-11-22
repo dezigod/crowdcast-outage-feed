@@ -2193,7 +2193,7 @@
         "SUZANNABERG 2-3 HOUSE",
         "VIRGIN GRAND EST #71"
       ],
-      "modifiedAt": "2026-11-22T19:00:48Z",
+      "modifiedAt": "2026-11-22T19:01:03Z",
       "name": "Feeder 09E",
       "neighborhoodIDs": [
         "stThomas-lovenlund"
@@ -2454,7 +2454,7 @@
       "workStatus": null
     },
     {
-      "cause": null,
+      "cause": "000 Power supply",
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
@@ -3802,7 +3802,7 @@
         "VESSUP BAY EST 9-39",
         "VESSUP LANE 9A-19"
       ],
-      "modifiedAt": "2026-11-22T18:50:53Z",
+      "modifiedAt": "2026-11-22T19:04:25Z",
       "name": "9D IN WAY 2",
       "neighborhoodIDs": [
         "stThomas-smith-bay"
@@ -6142,7 +6142,7 @@
       "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-22T19:01:32Z",
+  "generatedAt": "2026-11-22T19:06:33Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -6567,11 +6567,11 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "721a20e8365f797b532f11ead64352f7627f2a2db90d237f21d7551883bc0f13",
+  "snapshotID": "316a5b078042e905717f2e646d44f945d41466c003a8846577436e4ece96f46b",
   "source": {
-    "checkedAt": "2026-11-22T19:01:32Z",
+    "checkedAt": "2026-11-22T19:06:33Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-22T19:00:57Z",
+    "updatedAt": "2026-11-22T19:05:51Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
