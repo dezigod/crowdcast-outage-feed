@@ -3664,7 +3664,7 @@
         "WEST INDIAN CO DOCK B-1",
         "WIC DOCK BAY BLDG-2"
       ],
-      "modifiedAt": "2026-11-22T19:10:23Z",
+      "modifiedAt": "2026-11-22T20:00:35Z",
       "name": "Feeder 10B",
       "neighborhoodIDs": [
         "stCroix-pump-garden"
@@ -3721,7 +3721,7 @@
       "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-22T20:00:46Z",
+  "generatedAt": "2026-11-22T20:05:48Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -3861,11 +3861,11 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "05ec3155dd59f286a83053241632e8c0ee7ac885ae55fb9fa6485471aabbb009",
+  "snapshotID": "6e90249a4e4d986cf097819e1b7dc61627882916b5b3451690f4ca1644eafd1d",
   "source": {
-    "checkedAt": "2026-11-22T20:00:46Z",
+    "checkedAt": "2026-11-22T20:05:48Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-22T19:55:50Z",
+    "updatedAt": "2026-11-22T20:00:51Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
@@ -3877,10 +3877,6 @@
     "customersServed": 54727,
     "eventCustomersOut": 3926,
     "hourlyCustomersOut": [
-      {
-        "at": "2026-11-20T19:00:00Z",
-        "customersOut": 17521
-      },
       {
         "at": "2026-11-20T20:00:00Z",
         "customersOut": 18583
@@ -4071,6 +4067,10 @@
       },
       {
         "at": "2026-11-22T19:00:00Z",
+        "customersOut": 3926
+      },
+      {
+        "at": "2026-11-22T20:00:00Z",
         "customersOut": 3926
       }
     ],
