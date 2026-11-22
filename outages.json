@@ -2665,6 +2665,31 @@
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
+      "id": "868050600084d7a910daca26fd5728317a9fe1a731e902c557c31647c0703f26",
+      "island": null,
+      "locations": [
+        "EST DONOE LOT M"
+      ],
+      "modifiedAt": "2026-11-22T22:52:44Z",
+      "name": "T-T-10763",
+      "neighborhoodIDs": [],
+      "point": {
+        "latitude": 18.336424603111524,
+        "longitude": -64.89783401173071
+      },
+      "reportedCustomersInitially": 1,
+      "reportedCustomersOut": 1,
+      "reportedCustomersRestored": 0,
+      "sourceStatus": "Predicted",
+      "startedAt": "2026-11-22T22:52:18Z",
+      "verified": false,
+      "workStatus": null
+    },
+    {
+      "cause": null,
+      "crewAssigned": false,
+      "endedAt": null,
+      "estimatedRestoration": null,
       "id": "914cc575c5a8d1e64e0d94a8ea7ec8a1a2054c324011d89725f5db11015372e8",
       "island": "stCroix",
       "locations": [
@@ -4312,7 +4337,7 @@
       "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-22T22:51:11Z",
+  "generatedAt": "2026-11-22T22:56:13Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -5535,21 +5560,21 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "d00daeb085503e6c47b5f274a1b35415a9727bf67de7fd250c38afb2c2aa7adc",
+  "snapshotID": "32091046c6758c8902bcc7ceed67ac31c204e5a06934fea28c2d923050dd8e1c",
   "source": {
-    "checkedAt": "2026-11-22T22:51:11Z",
+    "checkedAt": "2026-11-22T22:56:13Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-22T22:50:51Z",
+    "updatedAt": "2026-11-22T22:55:51Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "sourceSummary": {
     "customerCountDifference": 2,
-    "customersAffected": 6864,
-    "customersOut": 5015,
+    "customersAffected": 6865,
+    "customersOut": 5016,
     "customersRestored": 1849,
     "customersServed": 54727,
-    "eventCustomersOut": 5013,
+    "eventCustomersOut": 5014,
     "hourlyCustomersOut": [
       {
         "at": "2026-11-20T22:00:00Z",
@@ -5745,7 +5770,7 @@
       },
       {
         "at": "2026-11-22T22:00:00Z",
-        "customersOut": 11112
+        "customersOut": 11113
       }
     ],
     "locations": [
@@ -6906,6 +6931,7 @@
       "EST CONCORDIA 20-27",
       "EST CONTANT & ENIGHED",
       "EST DENNIS BAY",
+      "EST DONOE LOT M",
       "EST EMMAUS B-1",
       "EST ENIGHED 18-10-18-37",
       "EST ENIGHED 228",
@@ -9660,8 +9686,8 @@
       "ZOOTENVAAL 3Q (MTR 1)",
       "ZOOTENVAAL 3T"
     ],
-    "totalOutages": 16
+    "totalOutages": 17
   },
   "staleAfterSeconds": 900,
-  "unassignedEventCount": 13
+  "unassignedEventCount": 14
 }
