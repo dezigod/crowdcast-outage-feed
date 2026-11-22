@@ -33,7 +33,7 @@
       "workStatus": null
     },
     {
-      "cause": null,
+      "cause": "300 Material or equipment fault/failure",
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
@@ -144,7 +144,7 @@
         "SMALL STRADE 3",
         "SMALL STRADE 5B"
       ],
-      "modifiedAt": "2026-11-22T02:28:42Z",
+      "modifiedAt": "2026-11-22T02:38:25Z",
       "name": "T-T-09610",
       "neighborhoodIDs": [],
       "point": {
@@ -2167,7 +2167,7 @@
       "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-22T02:36:10Z",
+  "generatedAt": "2026-11-22T02:41:13Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -2809,11 +2809,11 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "94bfe4fdfe4525a81f401991f4613f454d712495b1ad00b1b476e7c784c0131e",
+  "snapshotID": "1870ba8b4ddca4d849ba9724a7762e71bbe136d25d26eab3d3f726f134b434d8",
   "source": {
-    "checkedAt": "2026-11-22T02:36:10Z",
+    "checkedAt": "2026-11-22T02:41:13Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-22T02:35:46Z",
+    "updatedAt": "2026-11-22T02:40:46Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
