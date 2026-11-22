@@ -2416,7 +2416,7 @@
         "LA GRANGE 40-EF",
         "LA GRANGE 69-D"
       ],
-      "modifiedAt": "2026-11-22T15:03:22Z",
+      "modifiedAt": "2026-11-22T19:50:28Z",
       "name": "T-C-12220",
       "neighborhoodIDs": [
         "stCroix-la-grange"
@@ -3787,7 +3787,7 @@
       "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-22T19:50:43Z",
+  "generatedAt": "2026-11-22T19:55:45Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -3927,11 +3927,11 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "a7244dc4650f2697fdd784268e9b26df98ba6c004452432f98492112d6fd7af3",
+  "snapshotID": "1244cefc39fff28dea78c1b86b5c11516ed21f94051331683fe755bc0b13bf9d",
   "source": {
-    "checkedAt": "2026-11-22T19:50:43Z",
+    "checkedAt": "2026-11-22T19:55:45Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-22T19:45:50Z",
+    "updatedAt": "2026-11-22T19:50:50Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
