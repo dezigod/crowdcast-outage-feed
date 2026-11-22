@@ -3752,57 +3752,6 @@
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
-      "id": "db386348b7dcd08e76cb95a6f4ef23bc74694ddb4b7484e1cb850ac1e9319b41",
-      "island": null,
-      "locations": [
-        "GENERAL GADE 20",
-        "KANAL GADE",
-        "KRONPRINDSEN GADE",
-        "PRINCESSE GADE",
-        "PRINCESSE GADE UP",
-        "PRINDSESSE GADE 1",
-        "PRINDSESSE GADE 38",
-        "PRINDSESSE GADE 4 APT-1",
-        "PRINDSESSE GADE 4 APT-2",
-        "PRINDSESSE GADE 4 APT-3",
-        "REGJERING GADE 9A",
-        "REGJERINGS GADE 10",
-        "REGJERINGS GADE 4C",
-        "REGJERRING GADE 16A",
-        "REGJERRING GADE 16A A-1",
-        "REGJERRING GADE 17-A",
-        "REGJERRING GADE 4-A",
-        "REGJERRING GADE 4C UP",
-        "REGJERRING GADE 9A B-3",
-        "REGJERRINGS GADE",
-        "REGJERRINGS GADE 10A",
-        "REGJERRINGS GADE 16A A-3",
-        "REGJERRINGS GADE 20",
-        "REGJERRINGS GADE 21",
-        "REGJERRINGS GADE 9B",
-        "REJERRING GADE",
-        "REJERRINGS GADE 18"
-      ],
-      "modifiedAt": "2026-11-22T15:31:27Z",
-      "name": "T-T-09624",
-      "neighborhoodIDs": [],
-      "point": {
-        "latitude": 18.341836041547467,
-        "longitude": -64.93592473660982
-      },
-      "reportedCustomersInitially": 37,
-      "reportedCustomersOut": 37,
-      "reportedCustomersRestored": 0,
-      "sourceStatus": "Predicted",
-      "startedAt": "2026-11-22T13:34:25Z",
-      "verified": false,
-      "workStatus": null
-    },
-    {
-      "cause": null,
-      "crewAssigned": false,
-      "endedAt": null,
-      "estimatedRestoration": null,
       "id": "ef39e2f3a18ebab47d262953972bab005e8d99662b57980521f3766d602101ba",
       "island": null,
       "locations": [
@@ -3822,7 +3771,7 @@
         "HANNAHS REST 260-C",
         "WHIM 268"
       ],
-      "modifiedAt": "2026-11-22T12:36:13Z",
+      "modifiedAt": "2026-11-22T19:38:31Z",
       "name": "T-C-12234",
       "neighborhoodIDs": [],
       "point": {
@@ -3838,7 +3787,7 @@
       "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-22T19:40:38Z",
+  "generatedAt": "2026-11-22T19:45:41Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -3978,21 +3927,21 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "dcd352efa0a3904fa2d3f71174122768773d1463b711836fd62b6101945667e1",
+  "snapshotID": "95e2fdcb21093cd7d145e8067d6b47bdd62a9d165f84415830dfc49f7f96d45a",
   "source": {
-    "checkedAt": "2026-11-22T19:40:38Z",
+    "checkedAt": "2026-11-22T19:45:41Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-22T19:35:50Z",
+    "updatedAt": "2026-11-22T19:40:51Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "sourceSummary": {
     "customerCountDifference": 2,
-    "customersAffected": 3987,
-    "customersOut": 3987,
+    "customersAffected": 3950,
+    "customersOut": 3950,
     "customersRestored": 0,
     "customersServed": 54727,
-    "eventCustomersOut": 3985,
+    "eventCustomersOut": 3948,
     "hourlyCustomersOut": [
       {
         "at": "2026-11-20T19:00:00Z",
@@ -4164,31 +4113,31 @@
       },
       {
         "at": "2026-11-22T13:00:00Z",
-        "customersOut": 5623
+        "customersOut": 5586
       },
       {
         "at": "2026-11-22T14:00:00Z",
-        "customersOut": 5623
+        "customersOut": 5586
       },
       {
         "at": "2026-11-22T15:00:00Z",
-        "customersOut": 4038
+        "customersOut": 4001
       },
       {
         "at": "2026-11-22T16:00:00Z",
-        "customersOut": 7397
+        "customersOut": 7360
       },
       {
         "at": "2026-11-22T17:00:00Z",
-        "customersOut": 5065
+        "customersOut": 5028
       },
       {
         "at": "2026-11-22T18:00:00Z",
-        "customersOut": 8947
+        "customersOut": 8910
       },
       {
         "at": "2026-11-22T19:00:00Z",
-        "customersOut": 3985
+        "customersOut": 3948
       }
     ],
     "locations": [
@@ -6842,7 +6791,6 @@
       "FRENHCMAN'S BAY 14-13",
       "FRENHCMANS BAY 14-40 B-2",
       "FRENMANS BAY HOUSE",
-      "GENERAL GADE 20",
       "GIFFT & REGENBACH D",
       "GIFT & REGENBACH 13-14",
       "GIFT & REGENBACH 4-C",
@@ -7151,9 +7099,7 @@
       "HAVENSIGHT WAY 18 A-C",
       "HAWK HILL CONDO APT. 9",
       "HP & R PARKING LOT",
-      "KANAL GADE",
       "KC BETHANY 5",
-      "KRONPRINDSEN GADE",
       "LA GRANGE",
       "LA GRANGE 40 EF APT B",
       "LA GRANGE 40EB A-1",
@@ -7363,31 +7309,7 @@
       "PMP GARDEN BLDG-30",
       "PMP GARDENS B-21 A-168",
       "PMP MANAGER OFFICE",
-      "PRINCESSE GADE",
-      "PRINCESSE GADE UP",
-      "PRINDSESSE GADE 1",
-      "PRINDSESSE GADE 38",
-      "PRINDSESSE GADE 4 APT-1",
-      "PRINDSESSE GADE 4 APT-2",
-      "PRINDSESSE GADE 4 APT-3",
       "REGATTA POINT VILLAS 1& 2",
-      "REGJERING GADE 9A",
-      "REGJERINGS GADE 10",
-      "REGJERINGS GADE 4C",
-      "REGJERRING GADE 16A",
-      "REGJERRING GADE 16A A-1",
-      "REGJERRING GADE 17-A",
-      "REGJERRING GADE 4-A",
-      "REGJERRING GADE 4C UP",
-      "REGJERRING GADE 9A B-3",
-      "REGJERRINGS GADE",
-      "REGJERRINGS GADE 10A",
-      "REGJERRINGS GADE 16A A-3",
-      "REGJERRINGS GADE 20",
-      "REGJERRINGS GADE 21",
-      "REGJERRINGS GADE 9B",
-      "REJERRING GADE",
-      "REJERRINGS GADE 18",
       "REM CAROLINA 10-26-5",
       "REM ENIGHED MTR 1",
       "REM GIFT & REGENBACK",
@@ -7656,8 +7578,8 @@
       "WHIM 268",
       "WIC DOCK BAY BLDG-2"
     ],
-    "totalOutages": 15
+    "totalOutages": 14
   },
   "staleAfterSeconds": 900,
-  "unassignedEventCount": 11
+  "unassignedEventCount": 10
 }
