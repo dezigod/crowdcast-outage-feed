@@ -96,6 +96,35 @@
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
+      "id": "50296347ce0a1db81abd9157d78b96d2fddb57adff7359e9dc10048429aa06c0",
+      "island": null,
+      "locations": [
+        "MANDAHL 2 A-2",
+        "MANDAHL 2A-1",
+        "MANDAHL 2A-1 APT 1",
+        "MANDAHL 2A-1 HSE",
+        "MANDAHL 2-A-2"
+      ],
+      "modifiedAt": "2026-11-22T16:45:06Z",
+      "name": "T-T-07309",
+      "neighborhoodIDs": [],
+      "point": {
+        "latitude": 18.35395103922831,
+        "longitude": -64.90184928361165
+      },
+      "reportedCustomersInitially": 10,
+      "reportedCustomersOut": 10,
+      "reportedCustomersRestored": 0,
+      "sourceStatus": "Predicted",
+      "startedAt": "2026-11-22T16:44:43Z",
+      "verified": false,
+      "workStatus": null
+    },
+    {
+      "cause": null,
+      "crewAssigned": false,
+      "endedAt": null,
+      "estimatedRestoration": null,
       "id": "60087703c7eb3c324aac65f895907f318f0fa063c8ddc780ad178580ee92e686",
       "island": null,
       "locations": [
@@ -3449,7 +3478,7 @@
       "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-22T16:45:48Z",
+  "generatedAt": "2026-11-22T16:50:49Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -3929,21 +3958,21 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "387aedca299c4e1ac73fef5aea8e8008caf374f2f356a486d1f27b47f7dc15c9",
+  "snapshotID": "7968ce37a81194a8d877b740385625c581c20bef0e8058da2c49d30ace131f98",
   "source": {
-    "checkedAt": "2026-11-22T16:45:48Z",
+    "checkedAt": "2026-11-22T16:50:49Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-22T16:40:51Z",
+    "updatedAt": "2026-11-22T16:45:50Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "sourceSummary": {
     "customerCountDifference": 2,
-    "customersAffected": 4074,
-    "customersOut": 4074,
+    "customersAffected": 4084,
+    "customersOut": 4084,
     "customersRestored": 0,
     "customersServed": 54727,
-    "eventCustomersOut": 4072,
+    "eventCustomersOut": 4082,
     "hourlyCustomersOut": [
       {
         "at": "2026-11-20T16:00:00Z",
@@ -4139,7 +4168,7 @@
       },
       {
         "at": "2026-11-22T16:00:00Z",
-        "customersOut": 4072
+        "customersOut": 4082
       }
     ],
     "locations": [
@@ -6354,6 +6383,11 @@
       "MAFOLIE EST 21A DOWN",
       "MAFOLIE-ROBERT HERRICK SC",
       "MANDAHL 12B",
+      "MANDAHL 2 A-2",
+      "MANDAHL 2A-1",
+      "MANDAHL 2A-1 APT 1",
+      "MANDAHL 2A-1 HSE",
+      "MANDAHL 2-A-2",
       "MANDAHL 34 J3",
       "MANDAHL 34J",
       "MARIENDAHL& LILLEN",
@@ -7206,8 +7240,8 @@
       "ZUERIENDENHEIT",
       "ZUFRIDENHEIT 1"
     ],
-    "totalOutages": 15
+    "totalOutages": 16
   },
   "staleAfterSeconds": 900,
-  "unassignedEventCount": 11
+  "unassignedEventCount": 12
 }
