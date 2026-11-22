@@ -6,38 +6,6 @@
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
-      "id": "0ed795a52d60637c816aa6bef8251a428521996aed183377364e606f6bc735aa",
-      "island": null,
-      "locations": [
-        "BONNE RESOLUTION",
-        "BONNE RESOLUTION 14-1",
-        "BONNE RESOLUTION 14-2",
-        "BONNE RESOLUTION 14-2 A-1",
-        "BONNE RESOLUTION 14-50",
-        "BONNE RESOLUTION 14-51",
-        "BONNE RESOLUTION 15-3",
-        "BONNE RESOLUTION 15-4"
-      ],
-      "modifiedAt": "2026-11-22T19:28:10Z",
-      "name": "T-T-09238",
-      "neighborhoodIDs": [],
-      "point": {
-        "latitude": 18.364145456156777,
-        "longitude": -64.95703658952502
-      },
-      "reportedCustomersInitially": 8,
-      "reportedCustomersOut": 8,
-      "reportedCustomersRestored": 0,
-      "sourceStatus": "Predicted",
-      "startedAt": "2026-11-22T19:28:06Z",
-      "verified": false,
-      "workStatus": null
-    },
-    {
-      "cause": null,
-      "crewAssigned": false,
-      "endedAt": null,
-      "estimatedRestoration": null,
       "id": "114334c01aa87b660788dbcd897dba52abaccf25d73a80313b285103c5d75502",
       "island": null,
       "locations": [
@@ -62,40 +30,6 @@
       "sourceStatus": "Verified",
       "startedAt": "2026-11-18T01:41:31Z",
       "verified": true,
-      "workStatus": null
-    },
-    {
-      "cause": null,
-      "crewAssigned": false,
-      "endedAt": null,
-      "estimatedRestoration": null,
-      "id": "1b9862e649023a504a776e8f539465263c168b1e25d664d69e1b1ea419f0c514",
-      "island": null,
-      "locations": [
-        "ALTONA & WELGUNST",
-        "ALTONA & WELGUNST 200-24",
-        "ALTONA & WELGUNST 220-23",
-        "ALTONA & WELGUNST 220-24",
-        "ALTONA & WELGUNST 220-25",
-        "ALTONA & WELGUNST 220-26",
-        "ALTONA & WELGUNST 220-27",
-        "ALTONA & WELGUNST 220-28",
-        "ALTONA WEL #220-23",
-        "ALTONA WEL 220-23 APT #3"
-      ],
-      "modifiedAt": "2026-11-22T18:59:23Z",
-      "name": "T-T-02154",
-      "neighborhoodIDs": [],
-      "point": {
-        "latitude": 18.34468475060347,
-        "longitude": -64.94699945439028
-      },
-      "reportedCustomersInitially": 14,
-      "reportedCustomersOut": 14,
-      "reportedCustomersRestored": 0,
-      "sourceStatus": "Predicted",
-      "startedAt": "2026-11-22T18:59:18Z",
-      "verified": false,
       "workStatus": null
     },
     {
@@ -3787,7 +3721,7 @@
       "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-22T19:55:45Z",
+  "generatedAt": "2026-11-22T20:00:46Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -3927,21 +3861,21 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "1244cefc39fff28dea78c1b86b5c11516ed21f94051331683fe755bc0b13bf9d",
+  "snapshotID": "05ec3155dd59f286a83053241632e8c0ee7ac885ae55fb9fa6485471aabbb009",
   "source": {
-    "checkedAt": "2026-11-22T19:55:45Z",
+    "checkedAt": "2026-11-22T20:00:46Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-22T19:50:50Z",
+    "updatedAt": "2026-11-22T19:55:50Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "sourceSummary": {
     "customerCountDifference": 2,
-    "customersAffected": 3950,
-    "customersOut": 3950,
+    "customersAffected": 3928,
+    "customersOut": 3928,
     "customersRestored": 0,
     "customersServed": 54727,
-    "eventCustomersOut": 3948,
+    "eventCustomersOut": 3926,
     "hourlyCustomersOut": [
       {
         "at": "2026-11-20T19:00:00Z",
@@ -4133,11 +4067,11 @@
       },
       {
         "at": "2026-11-22T18:00:00Z",
-        "customersOut": 8910
+        "customersOut": 8896
       },
       {
         "at": "2026-11-22T19:00:00Z",
-        "customersOut": 3948
+        "customersOut": 3926
       }
     ],
     "locations": [
@@ -4266,16 +4200,6 @@
       "AGNES FANCY 5-A",
       "AGNES FANCY 5B",
       "AGNES FANCY 5F",
-      "ALTONA & WELGUNST",
-      "ALTONA & WELGUNST 200-24",
-      "ALTONA & WELGUNST 220-23",
-      "ALTONA & WELGUNST 220-24",
-      "ALTONA & WELGUNST 220-25",
-      "ALTONA & WELGUNST 220-26",
-      "ALTONA & WELGUNST 220-27",
-      "ALTONA & WELGUNST 220-28",
-      "ALTONA WEL #220-23",
-      "ALTONA WEL 220-23 APT #3",
       "ANNAS RETREAT 10 S",
       "B 1 CAROLINA",
       "B 1 REM GIFT & REGENBACK",
@@ -4724,14 +4648,6 @@
       "BOLONGO UP 61-31D",
       "BOLONGO#13",
       "BOLONGO, N3 FRENCHMAN'S",
-      "BONNE RESOLUTION",
-      "BONNE RESOLUTION 14-1",
-      "BONNE RESOLUTION 14-2",
-      "BONNE RESOLUTION 14-2 A-1",
-      "BONNE RESOLUTION 14-50",
-      "BONNE RESOLUTION 14-51",
-      "BONNE RESOLUTION 15-3",
-      "BONNE RESOLUTION 15-4",
       "BORDEAUX 5A",
       "BORDEAUX 5B-A",
       "BORDEAUX 5-E",
@@ -7578,8 +7494,8 @@
       "WHIM 268",
       "WIC DOCK BAY BLDG-2"
     ],
-    "totalOutages": 14
+    "totalOutages": 12
   },
   "staleAfterSeconds": 900,
-  "unassignedEventCount": 10
+  "unassignedEventCount": 8
 }
