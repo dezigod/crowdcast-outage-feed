@@ -4507,6 +4507,57 @@
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
+      "id": "db386348b7dcd08e76cb95a6f4ef23bc74694ddb4b7484e1cb850ac1e9319b41",
+      "island": null,
+      "locations": [
+        "GENERAL GADE 20",
+        "KANAL GADE",
+        "KRONPRINDSEN GADE",
+        "PRINCESSE GADE",
+        "PRINCESSE GADE UP",
+        "PRINDSESSE GADE 1",
+        "PRINDSESSE GADE 38",
+        "PRINDSESSE GADE 4 APT-1",
+        "PRINDSESSE GADE 4 APT-2",
+        "PRINDSESSE GADE 4 APT-3",
+        "REGJERING GADE 9A",
+        "REGJERINGS GADE 10",
+        "REGJERINGS GADE 4C",
+        "REGJERRING GADE 16A",
+        "REGJERRING GADE 16A A-1",
+        "REGJERRING GADE 17-A",
+        "REGJERRING GADE 4-A",
+        "REGJERRING GADE 4C UP",
+        "REGJERRING GADE 9A B-3",
+        "REGJERRINGS GADE",
+        "REGJERRINGS GADE 10A",
+        "REGJERRINGS GADE 16A A-3",
+        "REGJERRINGS GADE 20",
+        "REGJERRINGS GADE 21",
+        "REGJERRINGS GADE 9B",
+        "REJERRING GADE",
+        "REJERRINGS GADE 18"
+      ],
+      "modifiedAt": "2026-11-22T13:34:56Z",
+      "name": "T-T-09624",
+      "neighborhoodIDs": [],
+      "point": {
+        "latitude": 18.341836041547467,
+        "longitude": -64.93592473660982
+      },
+      "reportedCustomersInitially": 37,
+      "reportedCustomersOut": 37,
+      "reportedCustomersRestored": 0,
+      "sourceStatus": "Predicted",
+      "startedAt": "2026-11-22T13:34:25Z",
+      "verified": false,
+      "workStatus": null
+    },
+    {
+      "cause": null,
+      "crewAssigned": false,
+      "endedAt": null,
+      "estimatedRestoration": null,
       "id": "ef39e2f3a18ebab47d262953972bab005e8d99662b57980521f3766d602101ba",
       "island": null,
       "locations": [
@@ -4542,7 +4593,7 @@
       "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-22T13:35:40Z",
+  "generatedAt": "2026-11-22T13:40:41Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -5380,21 +5431,21 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "1596efe6b0ded1a3363008cf1ec761a6b843386b277fb9defbf2bf67b0ac3dab",
+  "snapshotID": "811a320d46cae96c6c0a46b3ae2e296cf07e0e3992985bd775fa94aeb65f3a04",
   "source": {
-    "checkedAt": "2026-11-22T13:35:40Z",
+    "checkedAt": "2026-11-22T13:40:41Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-22T13:30:50Z",
+    "updatedAt": "2026-11-22T13:35:51Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "sourceSummary": {
     "customerCountDifference": 2,
-    "customersAffected": 5693,
-    "customersOut": 5693,
+    "customersAffected": 5730,
+    "customersOut": 5730,
     "customersRestored": 0,
     "customersServed": 54727,
-    "eventCustomersOut": 5691,
+    "eventCustomersOut": 5728,
     "hourlyCustomersOut": [
       {
         "at": "2026-11-20T13:00:00Z",
@@ -5590,7 +5641,7 @@
       },
       {
         "at": "2026-11-22T13:00:00Z",
-        "customersOut": 5691
+        "customersOut": 5728
       }
     ],
     "locations": [
@@ -7481,6 +7532,7 @@
       "FRYDENDAHL 56-16 MTR-C",
       "FT CHRISTIAN PARKING LOT",
       "GADE #5 (NATIVE SON)",
+      "GENERAL GADE 20",
       "GGA LYTTONS FANCY",
       "HANNAHS REST 260-C",
       "HAYPIECE HILL 158B",
@@ -7933,6 +7985,7 @@
       "JOSEPH & ROSENDAHL 9L",
       "JOSEPH & ROSENDHAL 9G-C",
       "JOSPEH & ROSENDAHL 3-20",
+      "KANAL GADE",
       "KONGENS GADE 10",
       "KONGENS GADE 10-A",
       "KONGENS GADE 19B",
@@ -7957,6 +8010,7 @@
       "KONGENS GADE 9A (KING ST)",
       "KONGENS GD",
       "KONGENS TVER GADE",
+      "KRONPRINDSEN GADE",
       "KRUM BAY (WAPA HR)",
       "KRUM BAY 19",
       "KRUM BAY 2",
@@ -8866,6 +8920,8 @@
       "POLLYBERG",
       "POST OFFICE SQ NORRE GADE",
       "POST OFFICE SQUARE NORRE",
+      "PRINCESSE GADE",
+      "PRINCESSE GADE UP",
       "PRINDSEN GADE 58",
       "PRINDSENS",
       "PRINDSENS GADE",
@@ -8920,6 +8976,28 @@
       "PRINDSENS GADE A-2-1",
       "PRINDSENS GADE MTR 6",
       "PRINDSENS GADE UP",
+      "PRINDSESSE GADE 1",
+      "PRINDSESSE GADE 38",
+      "PRINDSESSE GADE 4 APT-1",
+      "PRINDSESSE GADE 4 APT-2",
+      "PRINDSESSE GADE 4 APT-3",
+      "REGJERING GADE 9A",
+      "REGJERINGS GADE 10",
+      "REGJERINGS GADE 4C",
+      "REGJERRING GADE 16A",
+      "REGJERRING GADE 16A A-1",
+      "REGJERRING GADE 17-A",
+      "REGJERRING GADE 4-A",
+      "REGJERRING GADE 4C UP",
+      "REGJERRING GADE 9A B-3",
+      "REGJERRINGS GADE",
+      "REGJERRINGS GADE 10A",
+      "REGJERRINGS GADE 16A A-3",
+      "REGJERRINGS GADE 20",
+      "REGJERRINGS GADE 21",
+      "REGJERRINGS GADE 9B",
+      "REJERRING GADE",
+      "REJERRINGS GADE 18",
       "REM ESTATE ST PETER",
       "RESOLUTION",
       "ROSENDAHL 2-19 MTR-3",
@@ -9878,8 +9956,8 @@
       "ZUERIENDENHEIT",
       "ZUFRIDENHEIT 1"
     ],
-    "totalOutages": 10
+    "totalOutages": 11
   },
   "staleAfterSeconds": 900,
-  "unassignedEventCount": 8
+  "unassignedEventCount": 9
 }
