@@ -169,9 +169,48 @@
       "startedAt": "2026-11-04T17:15:35Z",
       "verified": true,
       "workStatus": null
+    },
+    {
+      "cause": null,
+      "crewAssigned": false,
+      "endedAt": null,
+      "estimatedRestoration": null,
+      "id": "ef39e2f3a18ebab47d262953972bab005e8d99662b57980521f3766d602101ba",
+      "island": null,
+      "locations": [
+        "CAMPO RICO",
+        "CAMPO RICO 270",
+        "CAMPO RICO 271",
+        "CAMPO RICO 273",
+        "CAMPO RICO 275 HOUSE",
+        "CAMPO RICO 276",
+        "CAMPO RICO 291",
+        "CAMPO RICO 292",
+        "CAMPO RICO 293",
+        "CAMPO RICO 296",
+        "CAMPO RICO 297",
+        "CAMPO RICO 298",
+        "CAMPO RICO/WHIM 269",
+        "HANNAHS REST 260-C",
+        "WHIM 268"
+      ],
+      "modifiedAt": "2026-11-22T11:32:40Z",
+      "name": "T-C-12234",
+      "neighborhoodIDs": [],
+      "point": {
+        "latitude": 17.69143416176743,
+        "longitude": -64.86769141103673
+      },
+      "reportedCustomersInitially": 16,
+      "reportedCustomersOut": 16,
+      "reportedCustomersRestored": 0,
+      "sourceStatus": "Predicted",
+      "startedAt": "2026-11-22T09:58:31Z",
+      "verified": false,
+      "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-22T11:31:02Z",
+  "generatedAt": "2026-11-22T11:36:04Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -239,21 +278,21 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "d7e10e5895f455247f0ebe5949b9fbc4b9d4200ef568fe1917dd0bd53a256daf",
+  "snapshotID": "5aca26164c220461093f11d84d10d44d7d61e6d91ea325af62f8c67389fa6a15",
   "source": {
-    "checkedAt": "2026-11-22T11:31:02Z",
+    "checkedAt": "2026-11-22T11:36:04Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-22T11:30:48Z",
+    "updatedAt": "2026-11-22T11:35:49Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "sourceSummary": {
     "customerCountDifference": 2,
-    "customersAffected": 28,
-    "customersOut": 28,
+    "customersAffected": 44,
+    "customersOut": 44,
     "customersRestored": 0,
     "customersServed": 54727,
-    "eventCustomersOut": 26,
+    "eventCustomersOut": 42,
     "hourlyCustomersOut": [
       {
         "at": "2026-11-20T11:00:00Z",
@@ -441,15 +480,15 @@
       },
       {
         "at": "2026-11-22T09:00:00Z",
-        "customersOut": 26
+        "customersOut": 42
       },
       {
         "at": "2026-11-22T10:00:00Z",
-        "customersOut": 26
+        "customersOut": 42
       },
       {
         "at": "2026-11-22T11:00:00Z",
-        "customersOut": 26
+        "customersOut": 42
       }
     ],
     "locations": [
@@ -457,9 +496,23 @@
       "AGNES FANCY 5-A",
       "AGNES FANCY 5B",
       "AGNES FANCY 5F",
+      "CAMPO RICO",
+      "CAMPO RICO 270",
+      "CAMPO RICO 271",
+      "CAMPO RICO 273",
+      "CAMPO RICO 275 HOUSE",
+      "CAMPO RICO 276",
+      "CAMPO RICO 291",
+      "CAMPO RICO 292",
+      "CAMPO RICO 293",
+      "CAMPO RICO 296",
+      "CAMPO RICO 297",
+      "CAMPO RICO 298",
+      "CAMPO RICO/WHIM 269",
       "EST NAZARETH 2W-40",
       "EST NAZARETH 2Y2-2",
       "ESTATE NAZARETH",
+      "HANNAHS REST 260-C",
       "LERKENLUND 9D-1-2",
       "LOVENLUND EST FARMHOUSE",
       "NAZARETH 2W-39",
@@ -473,10 +526,11 @@
       "PEPPERTREE TERR B-7 L-2",
       "PEPPERTREE TERR B-8 L-2",
       "PEPPERTREE TERR B-8 L-3",
-      "PEPPERTREE TERR B-8 WELL"
+      "PEPPERTREE TERR B-8 WELL",
+      "WHIM 268"
     ],
-    "totalOutages": 6
+    "totalOutages": 7
   },
   "staleAfterSeconds": 900,
-  "unassignedEventCount": 4
+  "unassignedEventCount": 5
 }
