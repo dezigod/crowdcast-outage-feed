@@ -802,7 +802,7 @@
       "workStatus": null
     },
     {
-      "cause": null,
+      "cause": "000 Power supply",
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
@@ -2316,7 +2316,7 @@
         "WEST COND SAPP B-A",
         "WEST SAPPHIRE BAY CONDO"
       ],
-      "modifiedAt": "2026-11-23T23:20:07Z",
+      "modifiedAt": "2026-11-23T23:32:02Z",
       "name": "TSW-7C-7D-CASI-A",
       "neighborhoodIDs": [
         "stThomas-smith-bay"
@@ -2364,7 +2364,7 @@
       "workStatus": null
     },
     {
-      "cause": null,
+      "cause": "000 Power supply",
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
@@ -2389,7 +2389,7 @@
         "CHARLOTTE AMALIE STE-135A",
         "TUTU PARK MALL SUITE 111"
       ],
-      "modifiedAt": "2026-11-23T23:30:28Z",
+      "modifiedAt": "2026-11-23T23:31:22Z",
       "name": "Mall",
       "neighborhoodIDs": [],
       "point": {
@@ -2484,7 +2484,7 @@
       "workStatus": null
     },
     {
-      "cause": null,
+      "cause": "000 Power supply",
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
@@ -4496,7 +4496,7 @@
         "UPPER JOHN DUNKOE MTR 4",
         "WEST CARET BAY"
       ],
-      "modifiedAt": "2026-11-23T23:21:04Z",
+      "modifiedAt": "2026-11-23T23:31:29Z",
       "name": "Feeder 07A",
       "neighborhoodIDs": [
         "stThomas-agnes-fancy",
@@ -6207,7 +6207,7 @@
       "workStatus": null
     },
     {
-      "cause": null,
+      "cause": "000 Power supply",
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
@@ -7159,7 +7159,7 @@
         "ZUERIENDENHEIT",
         "ZUFRIDENHEIT 1"
       ],
-      "modifiedAt": "2026-11-23T23:20:21Z",
+      "modifiedAt": "2026-11-23T23:31:48Z",
       "name": "REC-7A-1B-NSTR",
       "neighborhoodIDs": [
         "stThomas-st-peter"
@@ -9045,7 +9045,7 @@
       "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-23T23:31:30Z",
+  "generatedAt": "2026-11-23T23:36:33Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -10580,11 +10580,11 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "abf85f52b69291f83c5c2edcabc878586fa73ae9c7b5c4cb56c5a874e1dbe718",
+  "snapshotID": "7130ead7fbd3a35efd237cfa69031dc93f9b790eda5d3d2132fc9a144b9927d6",
   "source": {
-    "checkedAt": "2026-11-23T23:31:30Z",
+    "checkedAt": "2026-11-23T23:36:33Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-23T23:31:01Z",
+    "updatedAt": "2026-11-23T23:36:01Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
