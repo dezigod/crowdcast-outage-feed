@@ -3724,46 +3724,6 @@
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
-      "id": "61973464d9e89d478391e165f95a6528bbafe3a22ad029408912fff1315b9f3b",
-      "island": null,
-      "locations": [
-        "HOSPITAL LINE",
-        "HOSPITAL LINE 17 A&B",
-        "HOSPITAL LINE 17A & 17B",
-        "HOSPITAL LINE 17A&B",
-        "HOSPITAL LINE 17A-17B",
-        "HOSPITAL LINE 17A-B",
-        "PRINDSEN GADE 58",
-        "PRINDSENS GADE 15A",
-        "PRINDSENS GADE 15B",
-        "PRINDSENS GADE 3RD FL",
-        "PRINDSENS GADE 58",
-        "PRINDSENS GADE 58 2-3",
-        "PRINDSENS GADE 58 APT 2-4",
-        "PRINDSENS GADE 59",
-        "PRINDSENS GADE A-2-1",
-        "PRINDSENS GADE MTR 6"
-      ],
-      "modifiedAt": "2026-11-23T22:39:18Z",
-      "name": "T-T-04202",
-      "neighborhoodIDs": [],
-      "point": {
-        "latitude": 18.343453784707307,
-        "longitude": -64.92685505329223
-      },
-      "reportedCustomersInitially": 28,
-      "reportedCustomersOut": 28,
-      "reportedCustomersRestored": 0,
-      "sourceStatus": "Predicted",
-      "startedAt": "2026-11-23T22:38:49Z",
-      "verified": false,
-      "workStatus": null
-    },
-    {
-      "cause": null,
-      "crewAssigned": false,
-      "endedAt": null,
-      "estimatedRestoration": null,
       "id": "688d24f7b6e72cb60f9dd7cfcfc315b9ee0efe7095b9fbf192b7ed84c8031d54",
       "island": "stThomas",
       "locations": [
@@ -3786,45 +3746,6 @@
       "reportedCustomersRestored": 0,
       "sourceStatus": "Predicted",
       "startedAt": "2026-05-24T00:16:58Z",
-      "verified": false,
-      "workStatus": null
-    },
-    {
-      "cause": null,
-      "crewAssigned": false,
-      "endedAt": null,
-      "estimatedRestoration": null,
-      "id": "a0c50862343eccb1d7cdada6233bfdb332fe4f686976b5d3401443161c1c2a8b",
-      "island": null,
-      "locations": [
-        "EST THOMAS 16 7TH ST",
-        "EST THOMAS 17 7TH",
-        "EST THOMAS 18 7TH ST A-1",
-        "EST THOMAS 18 7TH ST A-3",
-        "EST THOMAS 18 7TH ST A-4",
-        "EST THOMAS 20 7TH ST",
-        "EST THOMAS 34 1ST AVE",
-        "EST THOMAS 34 1ST AVE B-2",
-        "EST THOMAS 36 1ST AVE",
-        "EST THOMAS 36 7TH ST",
-        "EST THOMAS 36A 7TH ST",
-        "EST THOMAS 38 1ST AVE",
-        "EST THOMAS 7TH ST",
-        "ESTATE THOMAS 18 7TH ST",
-        "SUGAR EST. 15 7TH ST"
-      ],
-      "modifiedAt": "2026-11-23T22:38:19Z",
-      "name": "T-T-16463",
-      "neighborhoodIDs": [],
-      "point": {
-        "latitude": 18.338470918937503,
-        "longitude": -64.91795878828273
-      },
-      "reportedCustomersInitially": 26,
-      "reportedCustomersOut": 26,
-      "reportedCustomersRestored": 0,
-      "sourceStatus": "Predicted",
-      "startedAt": "2026-11-23T22:37:43Z",
       "verified": false,
       "workStatus": null
     },
@@ -6410,7 +6331,7 @@
       "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-23T22:46:15Z",
+  "generatedAt": "2026-11-23T22:51:17Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -6612,21 +6533,21 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "95b1fc5ec6127b76053678fc1b5e3e7cd5c6ddfca83d1f5ef9872fbe3c659195",
+  "snapshotID": "ea46965216f70c953b79d979accdfacb5476c779886646acdd08eabb18937e54",
   "source": {
-    "checkedAt": "2026-11-23T22:46:15Z",
+    "checkedAt": "2026-11-23T22:51:17Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-23T22:46:02Z",
+    "updatedAt": "2026-11-23T22:51:00Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "sourceSummary": {
     "customerCountDifference": 2,
-    "customersAffected": 7931,
-    "customersOut": 7931,
+    "customersAffected": 7877,
+    "customersOut": 7877,
     "customersRestored": 0,
     "customersServed": 54728,
-    "eventCustomersOut": 7929,
+    "eventCustomersOut": 7875,
     "hourlyCustomersOut": [
       {
         "at": "2026-11-21T22:00:00Z",
@@ -6822,7 +6743,7 @@
       },
       {
         "at": "2026-11-23T22:00:00Z",
-        "customersOut": 12784
+        "customersOut": 12730
       }
     ],
     "locations": [
@@ -9045,14 +8966,9 @@
       "EST THOMAS 15 1ST AVE A-4",
       "EST THOMAS 15 4TH ST",
       "EST THOMAS 15 8TH ST",
-      "EST THOMAS 16 7TH ST",
       "EST THOMAS 16-18 4TH",
       "EST THOMAS 16-18 4TH ST",
       "EST THOMAS 16-18 4TH ST A",
-      "EST THOMAS 17 7TH",
-      "EST THOMAS 18 7TH ST A-1",
-      "EST THOMAS 18 7TH ST A-3",
-      "EST THOMAS 18 7TH ST A-4",
       "EST THOMAS 18-9TH STR",
       "EST THOMAS 1A",
       "EST THOMAS 1B",
@@ -9068,7 +8984,6 @@
       "EST THOMAS 2 1ST AVE",
       "EST THOMAS 2 3RD ST",
       "EST THOMAS 2&4 9TH ST 2ND",
-      "EST THOMAS 20 7TH ST",
       "EST THOMAS 21-9TH STREET",
       "EST THOMAS 23-9TH",
       "EST THOMAS 2-4 9TH ST",
@@ -9082,13 +8997,7 @@
       "EST THOMAS 33 DOWN",
       "EST THOMAS 33 UP",
       "EST THOMAS 3-4",
-      "EST THOMAS 34 1ST AVE",
-      "EST THOMAS 34 1ST AVE B-2",
-      "EST THOMAS 36 1ST AVE",
-      "EST THOMAS 36 7TH ST",
-      "EST THOMAS 36A 7TH ST",
       "EST THOMAS 37",
-      "EST THOMAS 38 1ST AVE",
       "EST THOMAS 3E 2ND ST A-2",
       "EST THOMAS 3RD",
       "EST THOMAS 3RD STREET",
@@ -9151,7 +9060,6 @@
       "EST THOMAS 7 1ST ST MTR-2",
       "EST THOMAS 7 2ND ST",
       "EST THOMAS 7&6 1ST STREET",
-      "EST THOMAS 7TH ST",
       "EST THOMAS 8 2ND ST",
       "EST THOMAS 8 3RD ST APT-3",
       "EST THOMAS 8 3RD ST APT-4",
@@ -9332,7 +9240,6 @@
       "ESTATE THOMAS 10 3RD ST",
       "ESTATE THOMAS 14-16",
       "ESTATE THOMAS 15 8TH ST",
-      "ESTATE THOMAS 18 7TH ST",
       "ESTATE THOMAS 1ST 9",
       "ESTATE THOMAS 22 9TH NO",
       "ESTATE THOMAS 22 9TH ST",
@@ -9973,12 +9880,6 @@
       "HILL STREET 8-A",
       "HILL STREET 8-B",
       "HILL STREET 9",
-      "HOSPITAL LINE",
-      "HOSPITAL LINE 17 A&B",
-      "HOSPITAL LINE 17A & 17B",
-      "HOSPITAL LINE 17A&B",
-      "HOSPITAL LINE 17A-17B",
-      "HOSPITAL LINE 17A-B",
       "HOSPITAL STREET",
       "HOSPITAL STREET 2",
       "HOSPITAL STREET 2 A-3",
@@ -11686,16 +11587,6 @@
       "PRINCE STREET 9-B",
       "PRINCE STREET 9-B (UPPER)",
       "PRINCESS PLAZA 9A",
-      "PRINDSEN GADE 58",
-      "PRINDSENS GADE 15A",
-      "PRINDSENS GADE 15B",
-      "PRINDSENS GADE 3RD FL",
-      "PRINDSENS GADE 58",
-      "PRINDSENS GADE 58 2-3",
-      "PRINDSENS GADE 58 APT 2-4",
-      "PRINDSENS GADE 59",
-      "PRINDSENS GADE A-2-1",
-      "PRINDSENS GADE MTR 6",
       "PRIVATEER BAY 6Y-5",
       "PROFIT",
       "PROFIT 1",
@@ -12534,7 +12425,6 @@
       "STRAND STREET PAN AM",
       "SUGAR EST 1 4TH STREET",
       "SUGAR EST CAHS-MODULAR",
-      "SUGAR EST. 15 7TH ST",
       "SUGAR ESTATE",
       "SUGAR ESTATE 8-10-12",
       "SUNDAY MARKET SQUARE",
@@ -12790,8 +12680,8 @@
       "ZOOTENVAAL 3Q (MTR 1)",
       "ZOOTENVAAL 3T"
     ],
-    "totalOutages": 18
+    "totalOutages": 16
   },
   "staleAfterSeconds": 900,
-  "unassignedEventCount": 16
+  "unassignedEventCount": 14
 }
