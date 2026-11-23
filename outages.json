@@ -6330,6 +6330,46 @@
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
+      "id": "894e090a69b75efbb8fdd65d1e7e247f8d380374cbd9894e465870b7f9829e09",
+      "island": null,
+      "locations": [
+        "HOSPITAL LINE",
+        "HOSPITAL LINE 17 A&B",
+        "HOSPITAL LINE 17A & 17B",
+        "HOSPITAL LINE 17A&B",
+        "HOSPITAL LINE 17A-17B",
+        "HOSPITAL LINE 17A-B",
+        "PRINDSEN GADE 58",
+        "PRINDSENS GADE 15A",
+        "PRINDSENS GADE 15B",
+        "PRINDSENS GADE 3RD FL",
+        "PRINDSENS GADE 58",
+        "PRINDSENS GADE 58 2-3",
+        "PRINDSENS GADE 58 APT 2-4",
+        "PRINDSENS GADE 59",
+        "PRINDSENS GADE A-2-1",
+        "PRINDSENS GADE MTR 6"
+      ],
+      "modifiedAt": "2026-11-23T21:47:43Z",
+      "name": "T-T-04202",
+      "neighborhoodIDs": [],
+      "point": {
+        "latitude": 18.343453784707307,
+        "longitude": -64.92685505329223
+      },
+      "reportedCustomersInitially": 28,
+      "reportedCustomersOut": 28,
+      "reportedCustomersRestored": 0,
+      "sourceStatus": "Predicted",
+      "startedAt": "2026-11-23T21:47:38Z",
+      "verified": false,
+      "workStatus": null
+    },
+    {
+      "cause": null,
+      "crewAssigned": false,
+      "endedAt": null,
+      "estimatedRestoration": null,
       "id": "a58edb135552a9265415ab9402f734a93c8b7036485758fb1a54d130cf482e2d",
       "island": null,
       "locations": [
@@ -6709,7 +6749,7 @@
       "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-23T21:50:53Z",
+  "generatedAt": "2026-11-23T21:55:55Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -7325,21 +7365,21 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "2a7ad51bcf4819a10b096270a905afae7526221ddcf56ba41b446664ef94edd6",
+  "snapshotID": "20ee727a71432feaf2ec59f29a178a3702579338037d85525929cfa168c1ef79",
   "source": {
-    "checkedAt": "2026-11-23T21:50:53Z",
+    "checkedAt": "2026-11-23T21:55:55Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-23T21:45:55Z",
+    "updatedAt": "2026-11-23T21:50:55Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "sourceSummary": {
     "customerCountDifference": 2,
-    "customersAffected": 8835,
-    "customersOut": 8835,
+    "customersAffected": 8863,
+    "customersOut": 8863,
     "customersRestored": 0,
     "customersServed": 54728,
-    "eventCustomersOut": 8833,
+    "eventCustomersOut": 8861,
     "hourlyCustomersOut": [
       {
         "at": "2026-11-21T21:00:00Z",
@@ -7535,7 +7575,7 @@
       },
       {
         "at": "2026-11-23T21:00:00Z",
-        "customersOut": 15430
+        "customersOut": 15458
       }
     ],
     "locations": [
@@ -10538,6 +10578,12 @@
       "HERMITAGE 1-B (COAST GRD)",
       "HERMITAGE BLUE MT1-A BM#2",
       "HERMITAGE BLUE MT2",
+      "HOSPITAL LINE",
+      "HOSPITAL LINE 17 A&B",
+      "HOSPITAL LINE 17A & 17B",
+      "HOSPITAL LINE 17A&B",
+      "HOSPITAL LINE 17A-17B",
+      "HOSPITAL LINE 17A-B",
       "HULL BAY 9 REM",
       "HURRICANE HOLE",
       "JOHN F KENNEDY",
@@ -12636,6 +12682,16 @@
       "PRINCESS HILL 1A",
       "PRINCESS HILL 1A A-3N",
       "PRINCESS VILLAS",
+      "PRINDSEN GADE 58",
+      "PRINDSENS GADE 15A",
+      "PRINDSENS GADE 15B",
+      "PRINDSENS GADE 3RD FL",
+      "PRINDSENS GADE 58",
+      "PRINDSENS GADE 58 2-3",
+      "PRINDSENS GADE 58 APT 2-4",
+      "PRINDSENS GADE 59",
+      "PRINDSENS GADE A-2-1",
+      "PRINDSENS GADE MTR 6",
       "PRIVATEER BAY 6Y-5",
       "QUAC/ZIM 6B-37REM & 6B34",
       "QUACCO & ZIMMER 6C-1A-3",
@@ -13889,8 +13945,8 @@
       "ZOOTENVAAL 3Q (MTR 1)",
       "ZOOTENVAAL 3T"
     ],
-    "totalOutages": 14
+    "totalOutages": 15
   },
   "staleAfterSeconds": 900,
-  "unassignedEventCount": 12
+  "unassignedEventCount": 13
 }
