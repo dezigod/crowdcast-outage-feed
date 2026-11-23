@@ -1088,21 +1088,30 @@
         "TRUNK BAY WATER PLANT",
         "VESTER GADE 100",
         "WHARFSIDE VILLAGE 7A",
+        "ZOOTENAL #-1",
         "ZOOTENVAAL",
+        "ZOOTENVAAL 1",
         "ZOOTENVAAL 3A-6",
+        "ZOOTENVAAL 3B-2",
+        "ZOOTENVAAL 3C",
+        "ZOOTENVAAL 3-C (WEST)",
+        "ZOOTENVAAL 3D",
+        "ZOOTENVAAL 3E-2",
+        "ZOOTENVAAL 3L",
+        "ZOOTENVAAL 3N*",
         "ZOOTENVAAL 3Q",
         "ZOOTENVAAL 3Q (MTR 1)",
         "ZOOTENVAAL 3T"
       ],
-      "modifiedAt": "2026-11-23T15:11:50Z",
+      "modifiedAt": "2026-11-23T15:18:14Z",
       "name": "Feeder 07E",
       "neighborhoodIDs": [],
       "point": {
         "latitude": 18.33687505543497,
         "longitude": -64.7308660196345
       },
-      "reportedCustomersInitially": 1076,
-      "reportedCustomersOut": 1076,
+      "reportedCustomersInitially": 1085,
+      "reportedCustomersOut": 1085,
       "reportedCustomersRestored": 0,
       "sourceStatus": "Verified",
       "startedAt": "2026-11-23T15:11:45Z",
@@ -1271,6 +1280,7 @@
         "ALTONA & WELGUNST 178-46",
         "ALTONA & WELGUNST 178-49",
         "ALTONA & WELGUNST 200-10",
+        "ALTONA & WELGUNST 200-24",
         "ALTONA & WELGUNST 200-3L",
         "ALTONA & WELGUNST 200-3M",
         "ALTONA & WELGUNST 200-3M-",
@@ -1335,6 +1345,12 @@
         "ALTONA & WELGUNST 220-2",
         "ALTONA & WELGUNST 220-21",
         "ALTONA & WELGUNST 220-22",
+        "ALTONA & WELGUNST 220-23",
+        "ALTONA & WELGUNST 220-24",
+        "ALTONA & WELGUNST 220-25",
+        "ALTONA & WELGUNST 220-26",
+        "ALTONA & WELGUNST 220-27",
+        "ALTONA & WELGUNST 220-28",
         "ALTONA & WELGUNST 220-3",
         "ALTONA & WELGUNST 220-3 2",
         "ALTONA & WELGUNST 220-5",
@@ -1422,6 +1438,8 @@
         "ALTONA PROJECT 178-27-A",
         "ALTONA PROJECT 178-8",
         "ALTONA UNIT 212C 1012",
+        "ALTONA WEL #220-23",
+        "ALTONA WEL 220-23 APT #3",
         "ALTONA WELGUNST",
         "ALTONA WELGUNST 200-5A-6",
         "ALTONA WELGUNST 200-5B-2",
@@ -4083,7 +4101,7 @@
         "ZUERIENDENHEIT",
         "ZUFRIDENHEIT 1"
       ],
-      "modifiedAt": "2026-11-23T15:05:56Z",
+      "modifiedAt": "2026-11-23T15:18:08Z",
       "name": "Feeder 07A",
       "neighborhoodIDs": [
         "stThomas-agnes-fancy",
@@ -4094,8 +4112,8 @@
         "latitude": 18.35228440783854,
         "longitude": -64.95675437082409
       },
-      "reportedCustomersInitially": 3882,
-      "reportedCustomersOut": 3882,
+      "reportedCustomersInitially": 3896,
+      "reportedCustomersOut": 3896,
       "reportedCustomersRestored": 0,
       "sourceStatus": "Verified",
       "startedAt": "2026-11-23T15:00:00Z",
@@ -4128,39 +4146,6 @@
       "sourceStatus": "Predicted",
       "startedAt": "2026-11-23T13:22:05Z",
       "verified": false,
-      "workStatus": null
-    },
-    {
-      "cause": null,
-      "crewAssigned": false,
-      "endedAt": null,
-      "estimatedRestoration": null,
-      "id": "999589e660e8c7ebb1b1b5f6f6ab48a944f02025d4c1576050bb142c3d8181cd",
-      "island": null,
-      "locations": [
-        "ZOOTENAL #-1",
-        "ZOOTENVAAL 1",
-        "ZOOTENVAAL 3B-2",
-        "ZOOTENVAAL 3C",
-        "ZOOTENVAAL 3-C (WEST)",
-        "ZOOTENVAAL 3D",
-        "ZOOTENVAAL 3E-2",
-        "ZOOTENVAAL 3L",
-        "ZOOTENVAAL 3N*"
-      ],
-      "modifiedAt": "2026-11-23T15:11:50Z",
-      "name": "T-J-00292",
-      "neighborhoodIDs": [],
-      "point": {
-        "latitude": 18.348878074696984,
-        "longitude": -64.70679908793792
-      },
-      "reportedCustomersInitially": 9,
-      "reportedCustomersOut": 9,
-      "reportedCustomersRestored": 0,
-      "sourceStatus": "Verified",
-      "startedAt": "2026-11-23T15:09:36Z",
-      "verified": true,
       "workStatus": null
     },
     {
@@ -6312,40 +6297,6 @@
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
-      "id": "a5b1db0baf9ddeaed1cc16338cc0b9ecd8ca239283b83c18683e2f4bfb6c7533",
-      "island": null,
-      "locations": [
-        "ALTONA & WELGUNST",
-        "ALTONA & WELGUNST 200-24",
-        "ALTONA & WELGUNST 220-23",
-        "ALTONA & WELGUNST 220-24",
-        "ALTONA & WELGUNST 220-25",
-        "ALTONA & WELGUNST 220-26",
-        "ALTONA & WELGUNST 220-27",
-        "ALTONA & WELGUNST 220-28",
-        "ALTONA WEL #220-23",
-        "ALTONA WEL 220-23 APT #3"
-      ],
-      "modifiedAt": "2026-11-23T15:05:56Z",
-      "name": "T-T-02154",
-      "neighborhoodIDs": [],
-      "point": {
-        "latitude": 18.34468475060347,
-        "longitude": -64.94699945439028
-      },
-      "reportedCustomersInitially": 14,
-      "reportedCustomersOut": 14,
-      "reportedCustomersRestored": 0,
-      "sourceStatus": "Verified",
-      "startedAt": "2026-11-23T14:47:19Z",
-      "verified": true,
-      "workStatus": null
-    },
-    {
-      "cause": null,
-      "crewAssigned": false,
-      "endedAt": null,
-      "estimatedRestoration": null,
       "id": "a7622fe5ec3f7460243d64545ddffb42dc3c534b3876e2c938737688abde9c58",
       "island": "stThomas",
       "locations": [
@@ -6430,7 +6381,7 @@
       "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-23T15:16:35Z",
+  "generatedAt": "2026-11-23T15:21:36Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -6856,11 +6807,11 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "4ce4e30ff0de72db7271afa9565519c87160be1df38e875ef8f5d7b9f86fdd95",
+  "snapshotID": "d9c4dbeb511f6298d447beec19c5cb18ad89d0b55a51330ecd36ea2b93698ec9",
   "source": {
-    "checkedAt": "2026-11-23T15:16:35Z",
+    "checkedAt": "2026-11-23T15:21:36Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-23T15:15:53Z",
+    "updatedAt": "2026-11-23T15:20:53Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
@@ -7062,7 +7013,7 @@
       },
       {
         "at": "2026-11-23T14:00:00Z",
-        "customersOut": 2680
+        "customersOut": 2666
       },
       {
         "at": "2026-11-23T15:00:00Z",
@@ -13161,8 +13112,8 @@
       "ZUERIENDENHEIT",
       "ZUFRIDENHEIT 1"
     ],
-    "totalOutages": 13
+    "totalOutages": 11
   },
   "staleAfterSeconds": 900,
-  "unassignedEventCount": 11
+  "unassignedEventCount": 9
 }
