@@ -118,6 +118,34 @@
       "workStatus": null
     },
     {
+      "cause": null,
+      "crewAssigned": false,
+      "endedAt": null,
+      "estimatedRestoration": null,
+      "id": "88dc08b0bc42243ff493cdbbf4090bae1aaace41db6e01838a6fffadbae915a2",
+      "island": null,
+      "locations": [
+        "ST JOHN",
+        "ST JOHN 30-FA",
+        "ST JOHN 9-L",
+        "ST JOHN 9N"
+      ],
+      "modifiedAt": "2026-11-23T13:29:25Z",
+      "name": "T-C-20007",
+      "neighborhoodIDs": [],
+      "point": {
+        "latitude": 17.759147243692887,
+        "longitude": -64.75131554543484
+      },
+      "reportedCustomersInitially": 6,
+      "reportedCustomersOut": 6,
+      "reportedCustomersRestored": 0,
+      "sourceStatus": "Predicted",
+      "startedAt": "2026-11-23T13:22:05Z",
+      "verified": false,
+      "workStatus": null
+    },
+    {
       "cause": "000 Power supply",
       "crewAssigned": false,
       "endedAt": null,
@@ -2350,7 +2378,7 @@
       "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-23T13:30:53Z",
+  "generatedAt": "2026-11-23T13:35:54Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -2443,21 +2471,21 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "add6181a43101393f9a86c8e9884b79872516d8670034a16e187bbec18cc64a8",
+  "snapshotID": "54f5af8c16e7cf2debb6ca06eba5f5fa642a8a46b180d0e5a447dca6fa4a5ab6",
   "source": {
-    "checkedAt": "2026-11-23T13:30:53Z",
+    "checkedAt": "2026-11-23T13:35:54Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-23T13:25:51Z",
+    "updatedAt": "2026-11-23T13:35:51Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "sourceSummary": {
     "customerCountDifference": 2,
-    "customersAffected": 2294,
-    "customersOut": 2294,
+    "customersAffected": 2300,
+    "customersOut": 2300,
     "customersRestored": 0,
     "customersServed": 54727,
-    "eventCustomersOut": 2292,
+    "eventCustomersOut": 2298,
     "hourlyCustomersOut": [
       {
         "at": "2026-11-21T13:00:00Z",
@@ -2653,7 +2681,7 @@
       },
       {
         "at": "2026-11-23T13:00:00Z",
-        "customersOut": 2292
+        "customersOut": 2298
       }
     ],
     "locations": [
@@ -4771,7 +4799,11 @@
       "SMITH BAY 19-2-149-21",
       "SMITH BAY 19-2-149-7",
       "SMITH BAY 19-2-149-8",
+      "ST JOHN",
+      "ST JOHN 30-FA",
       "ST JOHN 7",
+      "ST JOHN 9-L",
+      "ST JOHN 9N",
       "SUSANABERG 7-F",
       "SUSANANABERG 17-A",
       "SUSANNABERG",
@@ -4806,8 +4838,8 @@
       "TEAQUE BAY N SLOB",
       "VIRGIN GRAND EST #71"
     ],
-    "totalOutages": 8
+    "totalOutages": 9
   },
   "staleAfterSeconds": 900,
-  "unassignedEventCount": 6
+  "unassignedEventCount": 7
 }
