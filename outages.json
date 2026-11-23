@@ -61,33 +61,6 @@
       "workStatus": null
     },
     {
-      "cause": "780 Fluctuation of Power",
-      "crewAssigned": false,
-      "endedAt": null,
-      "estimatedRestoration": null,
-      "id": "44679534ecc9537d9accfe0554e643bd3f0fdcaac4ac054c32029fa30e2389dd",
-      "island": null,
-      "locations": [
-        "NORTH SLOB 6",
-        "NORTH SLOB 8",
-        "TEAQUE BAY N SLOB"
-      ],
-      "modifiedAt": "2026-11-23T16:40:44Z",
-      "name": "T-C-10751",
-      "neighborhoodIDs": [],
-      "point": {
-        "latitude": 17.754209226224063,
-        "longitude": -64.60514916133039
-      },
-      "reportedCustomersInitially": 3,
-      "reportedCustomersOut": 3,
-      "reportedCustomersRestored": 0,
-      "sourceStatus": "Predicted",
-      "startedAt": "2026-11-23T12:48:36Z",
-      "verified": false,
-      "workStatus": null
-    },
-    {
       "cause": null,
       "crewAssigned": false,
       "endedAt": null,
@@ -6381,7 +6354,7 @@
       "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-23T16:41:00Z",
+  "generatedAt": "2026-11-23T16:46:03Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -6807,21 +6780,21 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "dcaebfa9035300d5a1d73b32ec5479cb560df14882f8012db05901217b4a87dd",
+  "snapshotID": "1f1ef6bb7e8bb1b4f2e71a46227f267312600f65681f52aa627d1dc6bad71961",
   "source": {
-    "checkedAt": "2026-11-23T16:41:00Z",
+    "checkedAt": "2026-11-23T16:46:03Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-23T16:40:54Z",
+    "updatedAt": "2026-11-23T16:45:54Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "sourceSummary": {
     "customerCountDifference": 2,
-    "customersAffected": 7281,
-    "customersOut": 7281,
+    "customersAffected": 7278,
+    "customersOut": 7278,
     "customersRestored": 0,
     "customersServed": 54728,
-    "eventCustomersOut": 7279,
+    "eventCustomersOut": 7276,
     "hourlyCustomersOut": [
       {
         "at": "2026-11-21T16:00:00Z",
@@ -7017,7 +6990,7 @@
       },
       {
         "at": "2026-11-23T16:00:00Z",
-        "customersOut": 7279
+        "customersOut": 7276
       }
     ],
     "locations": [
@@ -11935,8 +11908,6 @@
       "NISKY 6",
       "NO. 5 FREENMANS GROUND",
       "NORTH SHORE ROAD CANEEL",
-      "NORTH SLOB 6",
-      "NORTH SLOB 8",
       "NORTH STAR VILLAGE 41",
       "NYE NORDSEVEJ 21D",
       "NYE NORDSIDEVEJ",
@@ -13030,7 +13001,6 @@
       "SUSANNABERG 8",
       "SUSANNABERG ESTATE 3B",
       "SUZANNABERG 2-3 HOUSE",
-      "TEAQUE BAY N SLOB",
       "TEMPLE STREET",
       "TEMPLE STREET 12",
       "TEMPLE STREET 12 (EL)",
@@ -13112,8 +13082,8 @@
       "ZUERIENDENHEIT",
       "ZUFRIDENHEIT 1"
     ],
-    "totalOutages": 11
+    "totalOutages": 10
   },
   "staleAfterSeconds": 900,
-  "unassignedEventCount": 9
+  "unassignedEventCount": 8
 }
