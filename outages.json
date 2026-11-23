@@ -1663,7 +1663,7 @@
         "WEST COND SAPP B-A",
         "WEST SAPPHIRE BAY CONDO"
       ],
-      "modifiedAt": "2026-11-23T17:01:26Z",
+      "modifiedAt": "2026-11-23T18:38:14Z",
       "name": "TSW-7C-7D-CASI-A",
       "neighborhoodIDs": [
         "stThomas-smith-bay"
@@ -1736,7 +1736,7 @@
       "workStatus": null
     },
     {
-      "cause": null,
+      "cause": "000 Power supply",
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
@@ -2238,7 +2238,7 @@
         "NORTH ESTATE BOVONI",
         "TABOR & HARMONY 4-14A UP"
       ],
-      "modifiedAt": "2026-11-23T17:13:25Z",
+      "modifiedAt": "2026-11-23T18:39:49Z",
       "name": "BOVONI OUT WAY 3",
       "neighborhoodIDs": [],
       "point": {
@@ -4021,7 +4021,7 @@
         "WEST INDIAN CO DOCK B-1",
         "WIC DOCK BAY BLDG-2"
       ],
-      "modifiedAt": "2026-11-23T17:41:31Z",
+      "modifiedAt": "2026-11-23T18:39:23Z",
       "name": "Feeder 10B",
       "neighborhoodIDs": [
         "stCroix-pump-garden"
@@ -4039,7 +4039,7 @@
       "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-23T18:40:43Z",
+  "generatedAt": "2026-11-23T18:45:44Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -4834,11 +4834,11 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "07c93303c734e5664dc94b1566a1321c81ebb1de854fae35e921cdf7d5ca5987",
+  "snapshotID": "e3c03a2effcde5790c44a563e87aa2acb2f1df5b1585a692a57010cca7417e4f",
   "source": {
-    "checkedAt": "2026-11-23T18:40:43Z",
+    "checkedAt": "2026-11-23T18:45:44Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-23T18:36:05Z",
+    "updatedAt": "2026-11-23T18:40:53Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
