@@ -6,66 +6,6 @@
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
-      "id": "07495e5e165bfe867bf94849c58cf9e3d46a032508cfae1f67b6d6474ec508fa",
-      "island": null,
-      "locations": [
-        "ALTONA & WELGUNST",
-        "ALTONA & WELGUNST 200-24",
-        "ALTONA & WELGUNST 220-23",
-        "ALTONA & WELGUNST 220-24",
-        "ALTONA & WELGUNST 220-25",
-        "ALTONA & WELGUNST 220-26",
-        "ALTONA & WELGUNST 220-27",
-        "ALTONA & WELGUNST 220-28",
-        "ALTONA WEL #220-23",
-        "ALTONA WEL 220-23 APT #3"
-      ],
-      "modifiedAt": "2026-11-22T22:23:38Z",
-      "name": "T-T-02154",
-      "neighborhoodIDs": [],
-      "point": {
-        "latitude": 18.34468475060347,
-        "longitude": -64.94699945439028
-      },
-      "reportedCustomersInitially": 14,
-      "reportedCustomersOut": 14,
-      "reportedCustomersRestored": 0,
-      "sourceStatus": "Predicted",
-      "startedAt": "2026-11-22T22:23:12Z",
-      "verified": false,
-      "workStatus": null
-    },
-    {
-      "cause": null,
-      "crewAssigned": false,
-      "endedAt": null,
-      "estimatedRestoration": null,
-      "id": "0ad1581899cade7b789a6f9eaf977b6b5fa024bfcedc4beed6517bbbc5733196",
-      "island": null,
-      "locations": [
-        "CARET BAY 2E-51-19 &2E-53",
-        "CARET BAY 2E-51-19 B-1"
-      ],
-      "modifiedAt": "2026-11-22T23:49:10Z",
-      "name": "T-T-11709",
-      "neighborhoodIDs": [],
-      "point": {
-        "latitude": 18.37180903074883,
-        "longitude": -64.98088047140257
-      },
-      "reportedCustomersInitially": 4,
-      "reportedCustomersOut": 4,
-      "reportedCustomersRestored": 0,
-      "sourceStatus": "Predicted",
-      "startedAt": "2026-11-22T23:48:49Z",
-      "verified": false,
-      "workStatus": null
-    },
-    {
-      "cause": null,
-      "crewAssigned": false,
-      "endedAt": null,
-      "estimatedRestoration": null,
       "id": "114334c01aa87b660788dbcd897dba52abaccf25d73a80313b285103c5d75502",
       "island": null,
       "locations": [
@@ -256,7 +196,7 @@
       "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-23T03:45:38Z",
+  "generatedAt": "2026-11-23T03:50:40Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -324,21 +264,21 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "fc5c9393db32985794cb12475f80127b9f14c8773ecfb2f91e1f739cc4fb1541",
+  "snapshotID": "4cadaa5160d0102591146de8134ee07046d2d72523fb2c04f42aa0d09b713339",
   "source": {
-    "checkedAt": "2026-11-23T03:45:38Z",
+    "checkedAt": "2026-11-23T03:50:40Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-23T03:40:50Z",
+    "updatedAt": "2026-11-23T03:45:50Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "sourceSummary": {
     "customerCountDifference": 2,
-    "customersAffected": 1896,
-    "customersOut": 47,
+    "customersAffected": 1878,
+    "customersOut": 29,
     "customersRestored": 1849,
     "customersServed": 54727,
-    "eventCustomersOut": 45,
+    "eventCustomersOut": 27,
     "hourlyCustomersOut": [
       {
         "at": "2026-11-21T03:00:00Z",
@@ -518,23 +458,23 @@
       },
       {
         "at": "2026-11-22T23:00:00Z",
-        "customersOut": 2907
+        "customersOut": 2889
       },
       {
         "at": "2026-11-23T00:00:00Z",
-        "customersOut": 4484
+        "customersOut": 4466
       },
       {
         "at": "2026-11-23T01:00:00Z",
-        "customersOut": 1697
+        "customersOut": 1679
       },
       {
         "at": "2026-11-23T02:00:00Z",
-        "customersOut": 1680
+        "customersOut": 1662
       },
       {
         "at": "2026-11-23T03:00:00Z",
-        "customersOut": 45
+        "customersOut": 27
       }
     ],
     "locations": [
@@ -542,18 +482,6 @@
       "AGNES FANCY 5-A",
       "AGNES FANCY 5B",
       "AGNES FANCY 5F",
-      "ALTONA & WELGUNST",
-      "ALTONA & WELGUNST 200-24",
-      "ALTONA & WELGUNST 220-23",
-      "ALTONA & WELGUNST 220-24",
-      "ALTONA & WELGUNST 220-25",
-      "ALTONA & WELGUNST 220-26",
-      "ALTONA & WELGUNST 220-27",
-      "ALTONA & WELGUNST 220-28",
-      "ALTONA WEL #220-23",
-      "ALTONA WEL 220-23 APT #3",
-      "CARET BAY 2E-51-19 &2E-53",
-      "CARET BAY 2E-51-19 B-1",
       "CHARLOTTE AMALIE 26A-33-",
       "EST NAZARETH 2W-40",
       "EST NAZARETH 2Y2-2",
@@ -573,8 +501,8 @@
       "PEPPERTREE TERR B-8 L-3",
       "PEPPERTREE TERR B-8 WELL"
     ],
-    "totalOutages": 9
+    "totalOutages": 7
   },
   "staleAfterSeconds": 900,
-  "unassignedEventCount": 7
+  "unassignedEventCount": 5
 }
