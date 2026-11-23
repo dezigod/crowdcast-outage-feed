@@ -125,42 +125,6 @@
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
-      "id": "4f668bb622e210148511a6c07347194094caa1c71f164ea42b0fd17333685e64",
-      "island": null,
-      "locations": [
-        "EST. SMITH BAY",
-        "SMITH BAY 19-2 149-6",
-        "SMITH BAY 19-2-149-11",
-        "SMITH BAY 19-2-149-12",
-        "SMITH BAY 19-2-149-15",
-        "SMITH BAY 19-2-149-16",
-        "SMITH BAY 19-2-149-20",
-        "SMITH BAY 19-2-149-21",
-        "SMITH BAY 19-2-149-7",
-        "SMITH BAY 19-2-149-8"
-      ],
-      "modifiedAt": "2026-11-23T00:12:00Z",
-      "name": "T-T-07813",
-      "neighborhoodIDs": [
-        "stThomas-smith-bay"
-      ],
-      "point": {
-        "latitude": 18.335726960680894,
-        "longitude": -64.85914405162058
-      },
-      "reportedCustomersInitially": 10,
-      "reportedCustomersOut": 10,
-      "reportedCustomersRestored": 0,
-      "sourceStatus": "Predicted",
-      "startedAt": "2026-11-23T00:11:58Z",
-      "verified": false,
-      "workStatus": null
-    },
-    {
-      "cause": null,
-      "crewAssigned": false,
-      "endedAt": null,
-      "estimatedRestoration": null,
       "id": "50fe57202f2e91ab19d914f00d370f16507700db160403c32726e8b1cdb5f4e3",
       "island": null,
       "locations": [
@@ -255,39 +219,6 @@
       "workStatus": null
     },
     {
-      "cause": "420 Tree growth",
-      "crewAssigned": false,
-      "endedAt": null,
-      "estimatedRestoration": null,
-      "id": "914cc575c5a8d1e64e0d94a8ea7ec8a1a2054c324011d89725f5db11015372e8",
-      "island": "stCroix",
-      "locations": [
-        "LA GRANGE",
-        "LA GRANGE 40 EF APT B",
-        "LA GRANGE 40EB A-1",
-        "LA GRANGE 40EBA",
-        "LA GRANGE 40-EEA",
-        "LA GRANGE 40-EF",
-        "LA GRANGE 69-D"
-      ],
-      "modifiedAt": "2026-11-23T02:50:46Z",
-      "name": "T-C-12220",
-      "neighborhoodIDs": [
-        "stCroix-la-grange"
-      ],
-      "point": {
-        "latitude": 17.71121287126857,
-        "longitude": -64.87626326714204
-      },
-      "reportedCustomersInitially": 7,
-      "reportedCustomersOut": 7,
-      "reportedCustomersRestored": 0,
-      "sourceStatus": "Predicted",
-      "startedAt": "2026-11-22T15:02:59Z",
-      "verified": false,
-      "workStatus": null
-    },
-    {
       "cause": null,
       "crewAssigned": false,
       "endedAt": null,
@@ -363,47 +294,9 @@
       "startedAt": "2026-11-22T20:07:41Z",
       "verified": true,
       "workStatus": null
-    },
-    {
-      "cause": null,
-      "crewAssigned": false,
-      "endedAt": null,
-      "estimatedRestoration": null,
-      "id": "de71fa9781e4c95d28d16fdebc944686c89261b1d5d08d8790929b149a8cf401",
-      "island": null,
-      "locations": [
-        "SMITH BAY",
-        "SMITH BAY 10-7",
-        "SMITH BAY 10-9",
-        "SMITH BAY 115-1",
-        "SMITH BAY 115-10",
-        "SMITH BAY 115-2",
-        "SMITH BAY 115-5",
-        "SMITH BAY 115-7",
-        "SMITH BAY 115-8 MTR 2",
-        "SMITH BAY 115-9 DWN",
-        "SMITH BAY DOWN",
-        "SMITHBAY 115-8"
-      ],
-      "modifiedAt": "2026-11-23T00:14:32Z",
-      "name": "T-T-07899",
-      "neighborhoodIDs": [
-        "stThomas-smith-bay"
-      ],
-      "point": {
-        "latitude": 18.337608587923107,
-        "longitude": -64.86791280327866
-      },
-      "reportedCustomersInitially": 13,
-      "reportedCustomersOut": 13,
-      "reportedCustomersRestored": 0,
-      "sourceStatus": "Predicted",
-      "startedAt": "2026-11-23T00:14:02Z",
-      "verified": false,
-      "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-23T02:51:26Z",
+  "generatedAt": "2026-11-23T02:56:28Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -442,40 +335,6 @@
           ],
           "sourceStatus": "Verified",
           "startedAt": "2026-11-05T17:32:26Z"
-        },
-        {
-          "affectedCustomers": null,
-          "estimatedRestoration": null,
-          "id": "stThomas-smith-bay",
-          "island": "stThomas",
-          "locations": [
-            "10-7",
-            "10-9",
-            "115-1",
-            "115-10",
-            "115-2",
-            "115-5",
-            "115-7",
-            "115-8 MTR 2",
-            "115-9",
-            "19-2 149-6",
-            "19-2-149-11",
-            "19-2-149-12",
-            "19-2-149-15",
-            "19-2-149-16",
-            "19-2-149-20",
-            "19-2-149-21",
-            "19-2-149-7",
-            "19-2-149-8",
-            "DOWN"
-          ],
-          "name": "Smith Bay",
-          "sourceEventIDs": [
-            "4f668bb622e210148511a6c07347194094caa1c71f164ea42b0fd17333685e64",
-            "de71fa9781e4c95d28d16fdebc944686c89261b1d5d08d8790929b149a8cf401"
-          ],
-          "sourceStatus": "Predicted",
-          "startedAt": null
         }
       ]
     },
@@ -483,28 +342,7 @@
       "coverage": "partial",
       "customersOut": null,
       "id": "stCroix",
-      "neighborhoods": [
-        {
-          "affectedCustomers": null,
-          "estimatedRestoration": null,
-          "id": "stCroix-la-grange",
-          "island": "stCroix",
-          "locations": [
-            "40 EF APT B",
-            "40-EEA",
-            "40-EF",
-            "40EB A-1",
-            "40EBA",
-            "69-D"
-          ],
-          "name": "La Grange",
-          "sourceEventIDs": [
-            "914cc575c5a8d1e64e0d94a8ea7ec8a1a2054c324011d89725f5db11015372e8"
-          ],
-          "sourceStatus": "Predicted",
-          "startedAt": "2026-11-22T15:02:59Z"
-        }
-      ]
+      "neighborhoods": []
     },
     {
       "coverage": "partial",
@@ -526,21 +364,21 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "e8317f2e5afe113dcb4106a71d02a2b883dee4bf341d1e27ac436200f0c6aeb9",
+  "snapshotID": "0e81cfd3cf8a8d80e719d7a82e0de5334eeba7fcb9503157727e5912313f1cd8",
   "source": {
-    "checkedAt": "2026-11-23T02:51:26Z",
+    "checkedAt": "2026-11-23T02:56:28Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-23T02:50:50Z",
+    "updatedAt": "2026-11-23T02:55:49Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "sourceSummary": {
     "customerCountDifference": 2,
-    "customersAffected": 1943,
-    "customersOut": 94,
+    "customersAffected": 1913,
+    "customersOut": 64,
     "customersRestored": 1849,
     "customersServed": 54727,
-    "eventCustomersOut": 92,
+    "eventCustomersOut": 62,
     "hourlyCustomersOut": [
       {
         "at": "2026-11-21T02:00:00Z",
@@ -728,15 +566,15 @@
       },
       {
         "at": "2026-11-23T00:00:00Z",
-        "customersOut": 4514
+        "customersOut": 4484
       },
       {
         "at": "2026-11-23T01:00:00Z",
-        "customersOut": 1727
+        "customersOut": 1697
       },
       {
         "at": "2026-11-23T02:00:00Z",
-        "customersOut": 1727
+        "customersOut": 1697
       }
     ],
     "locations": [
@@ -775,15 +613,7 @@
       "CONSTITUTION HILL 40",
       "EST NAZARETH 2W-40",
       "EST NAZARETH 2Y2-2",
-      "EST. SMITH BAY",
       "ESTATE NAZARETH",
-      "LA GRANGE",
-      "LA GRANGE 40 EF APT B",
-      "LA GRANGE 40EB A-1",
-      "LA GRANGE 40EBA",
-      "LA GRANGE 40-EEA",
-      "LA GRANGE 40-EF",
-      "LA GRANGE 69-D",
       "LERKENLUND 9D-1-2",
       "LOVENLUND EST FARMHOUSE",
       "NAZARETH 2W-39",
@@ -797,31 +627,10 @@
       "PEPPERTREE TERR B-7 L-2",
       "PEPPERTREE TERR B-8 L-2",
       "PEPPERTREE TERR B-8 L-3",
-      "PEPPERTREE TERR B-8 WELL",
-      "SMITH BAY",
-      "SMITH BAY 10-7",
-      "SMITH BAY 10-9",
-      "SMITH BAY 115-1",
-      "SMITH BAY 115-10",
-      "SMITH BAY 115-2",
-      "SMITH BAY 115-5",
-      "SMITH BAY 115-7",
-      "SMITH BAY 115-8 MTR 2",
-      "SMITH BAY 115-9 DWN",
-      "SMITH BAY 19-2 149-6",
-      "SMITH BAY 19-2-149-11",
-      "SMITH BAY 19-2-149-12",
-      "SMITH BAY 19-2-149-15",
-      "SMITH BAY 19-2-149-16",
-      "SMITH BAY 19-2-149-20",
-      "SMITH BAY 19-2-149-21",
-      "SMITH BAY 19-2-149-7",
-      "SMITH BAY 19-2-149-8",
-      "SMITH BAY DOWN",
-      "SMITHBAY 115-8"
+      "PEPPERTREE TERR B-8 WELL"
     ],
-    "totalOutages": 13
+    "totalOutages": 10
   },
   "staleAfterSeconds": 900,
-  "unassignedEventCount": 10
+  "unassignedEventCount": 8
 }
