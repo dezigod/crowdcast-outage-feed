@@ -2368,6 +2368,47 @@
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
+      "id": "a1d2505e2ca7e76f6c9066510e93fba028d48b281a943cb4b446fa9e01750341",
+      "island": null,
+      "locations": [
+        "ANNAS RETREAT 10 S",
+        "CHAR. AMALIE 26 STE. 235",
+        "CHAR. AMALIE SPACE 119 MR",
+        "CHARLOTTE AMALIE",
+        "CHARLOTTE AMALIE 26",
+        "CHARLOTTE AMALIE 26 A",
+        "CHARLOTTE AMALIE 26 AMT",
+        "CHARLOTTE AMALIE 26A",
+        "CHARLOTTE AMALIE 26A 188-",
+        "CHARLOTTE AMALIE 26A OTR",
+        "CHARLOTTE AMALIE 26A RM B",
+        "CHARLOTTE AMALIE 26A STE",
+        "CHARLOTTE AMALIE 26A STE-",
+        "CHARLOTTE AMALIE BASE 26",
+        "CHARLOTTE AMALIE SPACE",
+        "CHARLOTTE AMALIE STE-135A",
+        "TUTU PARK MALL SUITE 111"
+      ],
+      "modifiedAt": "2026-11-23T23:30:28Z",
+      "name": "Mall",
+      "neighborhoodIDs": [],
+      "point": {
+        "latitude": 18.339012805739145,
+        "longitude": -64.89099649150623
+      },
+      "reportedCustomersInitially": 51,
+      "reportedCustomersOut": 51,
+      "reportedCustomersRestored": 0,
+      "sourceStatus": "Verified",
+      "startedAt": "2026-11-23T23:28:00Z",
+      "verified": true,
+      "workStatus": null
+    },
+    {
+      "cause": null,
+      "crewAssigned": false,
+      "endedAt": null,
+      "estimatedRestoration": null,
       "id": "a58edb135552a9265415ab9402f734a93c8b7036485758fb1a54d130cf482e2d",
       "island": null,
       "locations": [
@@ -9004,7 +9045,7 @@
       "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-23T23:26:28Z",
+  "generatedAt": "2026-11-23T23:31:30Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -10539,21 +10580,21 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "3857fd82cedbbcbcf240d66e2275a5f4c97e2c5b078a891d95abd3e2ad61fd46",
+  "snapshotID": "abf85f52b69291f83c5c2edcabc878586fa73ae9c7b5c4cb56c5a874e1dbe718",
   "source": {
-    "checkedAt": "2026-11-23T23:26:28Z",
+    "checkedAt": "2026-11-23T23:31:30Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-23T23:26:01Z",
+    "updatedAt": "2026-11-23T23:31:01Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "sourceSummary": {
     "customerCountDifference": 2,
-    "customersAffected": 11579,
-    "customersOut": 11579,
+    "customersAffected": 11630,
+    "customersOut": 11630,
     "customersRestored": 0,
     "customersServed": 54728,
-    "eventCustomersOut": 11577,
+    "eventCustomersOut": 11628,
     "hourlyCustomersOut": [
       {
         "at": "2026-11-21T23:00:00Z",
@@ -10749,7 +10790,7 @@
       },
       {
         "at": "2026-11-23T23:00:00Z",
-        "customersOut": 15516
+        "customersOut": 15567
       }
     ],
     "locations": [
@@ -11292,6 +11333,7 @@
       "ANNAS RETERAT 173- D3",
       "ANNAS RETREAT",
       "ANNAS RETREAT #1 NW QTR.",
+      "ANNAS RETREAT 10 S",
       "ANNAS RETREAT 12-130",
       "ANNAS RETREAT 130-12A",
       "ANNAS RETREAT 146-E3",
@@ -12121,6 +12163,21 @@
       "CASTLE BURKE STE 2 P-584",
       "CASTLE BURKE STS 2 HS-529",
       "CAY ISLAND",
+      "CHAR. AMALIE 26 STE. 235",
+      "CHAR. AMALIE SPACE 119 MR",
+      "CHARLOTTE AMALIE",
+      "CHARLOTTE AMALIE 26",
+      "CHARLOTTE AMALIE 26 A",
+      "CHARLOTTE AMALIE 26 AMT",
+      "CHARLOTTE AMALIE 26A",
+      "CHARLOTTE AMALIE 26A 188-",
+      "CHARLOTTE AMALIE 26A OTR",
+      "CHARLOTTE AMALIE 26A RM B",
+      "CHARLOTTE AMALIE 26A STE",
+      "CHARLOTTE AMALIE 26A STE-",
+      "CHARLOTTE AMALIE BASE 26",
+      "CHARLOTTE AMALIE SPACE",
+      "CHARLOTTE AMALIE STE-135A",
       "CHARLOTTE APTS",
       "CHARLOTTE APTS A2 B",
       "CHARLOTTE APTS BLD 1",
@@ -19038,6 +19095,7 @@
       "TOLBOD GADE EMANCIPATION",
       "TROPACO PT HULL BAY",
       "TUTU 1-9",
+      "TUTU PARK MALL SUITE 111",
       "UP SMITH BAY",
       "UPPER BETHLAHEM 2A-2B",
       "UPPER BETHLEHEM",
@@ -19359,8 +19417,8 @@
       "ZUERIENDENHEIT",
       "ZUFRIDENHEIT 1"
     ],
-    "totalOutages": 15
+    "totalOutages": 16
   },
   "staleAfterSeconds": 900,
-  "unassignedEventCount": 13
+  "unassignedEventCount": 14
 }
