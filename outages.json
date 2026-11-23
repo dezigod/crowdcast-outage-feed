@@ -6,6 +6,50 @@
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
+      "id": "0804f59076de25c5fd1a05461e319097ff1c60d0c1ef7c4c8bce3a6de4c0a841",
+      "island": null,
+      "locations": [
+        "3R AGNES FANCY",
+        "AGNES FANCY",
+        "AGNES FANCY 3B-1",
+        "AGNES FANCY 3C",
+        "AGNES FANCY 3D-1",
+        "AGNES FANCY 3F MTR-1",
+        "AGNES FANCY 3K",
+        "AGNES FANCY 3K-1",
+        "AGNES FANCY 3L",
+        "AGNES FANCY 3-N",
+        "AGNES FANCY 3Q",
+        "AGNES FANCY 3S",
+        "AGNES FANCY 5D",
+        "AGNES FANCY 5D DWELLING",
+        "AGNES FANCY 5D DWN",
+        "AGNES FANCY 5E",
+        "AGNES FANCY 5-E",
+        "EST AGNES FANCY 5H"
+      ],
+      "modifiedAt": "2026-11-23T14:09:42Z",
+      "name": "T-T-04226",
+      "neighborhoodIDs": [
+        "stThomas-agnes-fancy"
+      ],
+      "point": {
+        "latitude": 18.349069598570136,
+        "longitude": -64.9351704926616
+      },
+      "reportedCustomersInitially": 19,
+      "reportedCustomersOut": 19,
+      "reportedCustomersRestored": 0,
+      "sourceStatus": "Predicted",
+      "startedAt": "2026-11-23T14:09:13Z",
+      "verified": false,
+      "workStatus": null
+    },
+    {
+      "cause": null,
+      "crewAssigned": false,
+      "endedAt": null,
+      "estimatedRestoration": null,
       "id": "114334c01aa87b660788dbcd897dba52abaccf25d73a80313b285103c5d75502",
       "island": null,
       "locations": [
@@ -2378,7 +2422,7 @@
       "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-23T14:06:07Z",
+  "generatedAt": "2026-11-23T14:11:08Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -2392,16 +2436,31 @@
           "id": "stThomas-agnes-fancy",
           "island": "stThomas",
           "locations": [
+            "3-N",
+            "3B-1",
+            "3C",
+            "3D-1",
+            "3F MTR-1",
+            "3K",
+            "3K-1",
+            "3L",
+            "3Q",
+            "3S",
             "5-A",
+            "5-E",
             "5B",
+            "5D",
+            "5D DWELLING",
+            "5E",
             "5F"
           ],
           "name": "Agnes Fancy",
           "sourceEventIDs": [
+            "0804f59076de25c5fd1a05461e319097ff1c60d0c1ef7c4c8bce3a6de4c0a841",
             "688d24f7b6e72cb60f9dd7cfcfc315b9ee0efe7095b9fbf192b7ed84c8031d54"
           ],
           "sourceStatus": "Predicted",
-          "startedAt": "2026-05-24T00:16:58Z"
+          "startedAt": null
         },
         {
           "affectedCustomers": null,
@@ -2471,21 +2530,21 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "b0676091a09b4b3159adcd5db0cea78056ebeba8879834d853964e840bd8e636",
+  "snapshotID": "951aaab8bc0bbce7c028714032467b7c6e10e223f6700e4ae16e6749a56774c3",
   "source": {
-    "checkedAt": "2026-11-23T14:06:07Z",
+    "checkedAt": "2026-11-23T14:11:08Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-23T14:05:51Z",
+    "updatedAt": "2026-11-23T14:10:51Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "sourceSummary": {
     "customerCountDifference": 2,
-    "customersAffected": 2300,
-    "customersOut": 2300,
+    "customersAffected": 2319,
+    "customersOut": 2319,
     "customersRestored": 0,
     "customersServed": 54727,
-    "eventCustomersOut": 2298,
+    "eventCustomersOut": 2317,
     "hourlyCustomersOut": [
       {
         "at": "2026-11-21T14:00:00Z",
@@ -2681,7 +2740,7 @@
       },
       {
         "at": "2026-11-23T14:00:00Z",
-        "customersOut": 2298
+        "customersOut": 2317
       }
     ],
     "locations": [
@@ -2703,6 +2762,7 @@
       "3-4B REM. ESTATE PASTORY",
       "3-7E PASTORY",
       "3B BVERSHOUDTSBERG",
+      "3R AGNES FANCY",
       "488C EST CHOCOLATE HOLE",
       "4G ENIGHED",
       "53A & 54 CHOCOLATE HOLE",
@@ -2798,8 +2858,23 @@
       "ADRIAN 9-K",
       "ADRIAN REALTY, LLC 11K",
       "AGNES FANCY",
+      "AGNES FANCY 3B-1",
+      "AGNES FANCY 3C",
+      "AGNES FANCY 3D-1",
+      "AGNES FANCY 3F MTR-1",
+      "AGNES FANCY 3K",
+      "AGNES FANCY 3K-1",
+      "AGNES FANCY 3L",
+      "AGNES FANCY 3-N",
+      "AGNES FANCY 3Q",
+      "AGNES FANCY 3S",
       "AGNES FANCY 5-A",
       "AGNES FANCY 5B",
+      "AGNES FANCY 5D",
+      "AGNES FANCY 5D DWELLING",
+      "AGNES FANCY 5D DWN",
+      "AGNES FANCY 5E",
+      "AGNES FANCY 5-E",
       "AGNES FANCY 5F",
       "B 1 CAROLINA",
       "B 1 REM GIFT & REGENBACK",
@@ -3981,6 +4056,7 @@
       "EST ADRIAN 13",
       "EST ADRIAN 3-3",
       "EST ADRIAN 5 REMAINDER",
+      "EST AGNES FANCY 5H",
       "EST BELLEVUE #11-U",
       "EST BELLEVUE #21-L",
       "EST BELLEVUE #21-U",
@@ -4838,8 +4914,8 @@
       "TEAQUE BAY N SLOB",
       "VIRGIN GRAND EST #71"
     ],
-    "totalOutages": 9
+    "totalOutages": 10
   },
   "staleAfterSeconds": 900,
-  "unassignedEventCount": 7
+  "unassignedEventCount": 8
 }
