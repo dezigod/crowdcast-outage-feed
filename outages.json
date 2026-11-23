@@ -4729,7 +4729,7 @@
         "VESSUP BAY EST 9-39",
         "VESSUP LANE 9A-19"
       ],
-      "modifiedAt": "2026-11-23T21:05:27Z",
+      "modifiedAt": "2026-11-23T21:54:03Z",
       "name": "9D IN WAY 2",
       "neighborhoodIDs": [
         "stThomas-smith-bay"
@@ -5249,7 +5249,7 @@
         "NORTH ESTATE BOVONI",
         "TABOR & HARMONY 4-14A UP"
       ],
-      "modifiedAt": "2026-11-23T21:10:21Z",
+      "modifiedAt": "2026-11-23T21:54:18Z",
       "name": "BOVONI OUT WAY 3",
       "neighborhoodIDs": [],
       "point": {
@@ -6280,7 +6280,7 @@
         "ZOOTENVAAL 3Q (MTR 1)",
         "ZOOTENVAAL 3T"
       ],
-      "modifiedAt": "2026-11-23T21:23:14Z",
+      "modifiedAt": "2026-11-23T21:55:51Z",
       "name": "Feeder 07E",
       "neighborhoodIDs": [],
       "point": {
@@ -6667,7 +6667,7 @@
         "SUGAR ESTATE 8-10-12",
         "TAARNEBERG 100-1B"
       ],
-      "modifiedAt": "2026-11-23T21:16:57Z",
+      "modifiedAt": "2026-11-23T21:54:29Z",
       "name": "Feeder 09B",
       "neighborhoodIDs": [],
       "point": {
@@ -6749,7 +6749,7 @@
       "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-23T21:55:55Z",
+  "generatedAt": "2026-11-23T22:00:57Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -7365,11 +7365,11 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "20ee727a71432feaf2ec59f29a178a3702579338037d85525929cfa168c1ef79",
+  "snapshotID": "42c057e97a887286be79b5d700234dca2d1a853e9b7be7d2544a932f69b80bb5",
   "source": {
-    "checkedAt": "2026-11-23T21:55:55Z",
+    "checkedAt": "2026-11-23T22:00:57Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-23T21:50:55Z",
+    "updatedAt": "2026-11-23T21:55:55Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
