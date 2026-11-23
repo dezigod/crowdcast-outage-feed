@@ -1280,50 +1280,6 @@
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
-      "id": "52ca8d7583a7837d345e98ec10f5d8d8f92a270b6f7b93e59e2d64a3c058bd91",
-      "island": null,
-      "locations": [
-        "ANNAS RET. A-B",
-        "ANNAS RETREAT 283",
-        "ANNAS RETREAT 283 DWN",
-        "ANNAS RETREAT 283 UP",
-        "ANNAS RETREAT 284 IST FL",
-        "ANNAS RETREAT 284 UP",
-        "ANNAS RETREAT 286",
-        "ANNAS RETREAT 287",
-        "ANNAS RETREAT 289-A",
-        "ANNAS RETREAT 289B",
-        "ANNAS RETREAT 291A- DWN",
-        "ANNAS RETREAT 291B 1ST",
-        "ANNAS RETREAT 291B 2ND",
-        "ANNAS RETREAT 292",
-        "EST ANNAS RETREAT 290",
-        "EST MANDAHL 8-1 AB",
-        "EST MANDAHL 8-1-C",
-        "ESTATE MANDAHL 8-1-B-1 UP",
-        "MANDAHL 8-1-B MTR-1",
-        "MANDAHL DWN 8-1-B"
-      ],
-      "modifiedAt": "2026-11-23T00:13:50Z",
-      "name": "T-T-15349",
-      "neighborhoodIDs": [],
-      "point": {
-        "latitude": 18.350142739471337,
-        "longitude": -64.89560537291288
-      },
-      "reportedCustomersInitially": 23,
-      "reportedCustomersOut": 23,
-      "reportedCustomersRestored": 0,
-      "sourceStatus": "Predicted",
-      "startedAt": "2026-11-23T00:13:19Z",
-      "verified": false,
-      "workStatus": null
-    },
-    {
-      "cause": null,
-      "crewAssigned": false,
-      "endedAt": null,
-      "estimatedRestoration": null,
       "id": "688d24f7b6e72cb60f9dd7cfcfc315b9ee0efe7095b9fbf192b7ed84c8031d54",
       "island": "stThomas",
       "locations": [
@@ -1567,7 +1523,7 @@
       "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-23T00:50:47Z",
+  "generatedAt": "2026-11-23T00:55:47Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -1692,21 +1648,21 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "9be7390cea3f62de257f4579386a6d75d4525ee707440db9f606c85cb0d3d91a",
+  "snapshotID": "caa173a07336f66de6b1dd7b8647fb3e56f24ad7b44676ddce90bd965bf1a5a7",
   "source": {
-    "checkedAt": "2026-11-23T00:50:47Z",
+    "checkedAt": "2026-11-23T00:55:47Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-23T00:45:50Z",
+    "updatedAt": "2026-11-23T00:50:50Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "sourceSummary": {
     "customerCountDifference": 2,
-    "customersAffected": 3601,
-    "customersOut": 1752,
+    "customersAffected": 3578,
+    "customersOut": 1729,
     "customersRestored": 1849,
     "customersServed": 54727,
-    "eventCustomersOut": 1750,
+    "eventCustomersOut": 1727,
     "hourlyCustomersOut": [
       {
         "at": "2026-11-21T00:00:00Z",
@@ -1902,7 +1858,7 @@
       },
       {
         "at": "2026-11-23T00:00:00Z",
-        "customersOut": 4537
+        "customersOut": 4514
       }
     ],
     "locations": [
@@ -2087,21 +2043,7 @@
       "ALTONA PLOT D",
       "ALTONA WEL #220-23",
       "ALTONA WEL 220-23 APT #3",
-      "ANNAS RET. A-B",
       "ANNAS RETREAT 10 S",
-      "ANNAS RETREAT 283",
-      "ANNAS RETREAT 283 DWN",
-      "ANNAS RETREAT 283 UP",
-      "ANNAS RETREAT 284 IST FL",
-      "ANNAS RETREAT 284 UP",
-      "ANNAS RETREAT 286",
-      "ANNAS RETREAT 287",
-      "ANNAS RETREAT 289-A",
-      "ANNAS RETREAT 289B",
-      "ANNAS RETREAT 291A- DWN",
-      "ANNAS RETREAT 291B 1ST",
-      "ANNAS RETREAT 291B 2ND",
-      "ANNAS RETREAT 292",
       "B CRYSTAL GADE HOUSE MTR",
       "BARBEL PLAZA",
       "BELTJEN ROAD HATCHETT SUB",
@@ -2426,15 +2368,11 @@
       "DRONNINGENS GADE STE IX",
       "EMANCIPATION GARDEN",
       "EMILE GRIFFITH B PARK",
-      "EST ANNAS RETREAT 290",
       "EST HONDURAS 30-4",
-      "EST MANDAHL 8-1 AB",
-      "EST MANDAHL 8-1-C",
       "EST NAZARETH 2W-40",
       "EST NAZARETH 2Y2-2",
       "EST ORKANSHULLET(HASS)8-1",
       "EST. SMITH BAY",
-      "ESTATE MANDAHL 8-1-B-1 UP",
       "ESTATE NAZARETH",
       "FRENCHTOWN B-2",
       "FRYDENHOJ 156",
@@ -2815,8 +2753,6 @@
       "MAIN STREET",
       "MAIN STREET 7-1",
       "MAIN STREET 7A UNIT 4",
-      "MANDAHL 8-1-B MTR-1",
-      "MANDAHL DWN 8-1-B",
       "MARKET SQUARE STRING LIHG",
       "MURPHY GADE",
       "MURPHY GADE 2",
@@ -3075,8 +3011,8 @@
       "WIMMELSKAFTS GADE 6A(RES)",
       "WINDWARD PASSAGE/TRAFFIC"
     ],
-    "totalOutages": 16
+    "totalOutages": 15
   },
   "staleAfterSeconds": 900,
-  "unassignedEventCount": 13
+  "unassignedEventCount": 12
 }
