@@ -403,6 +403,36 @@
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
+      "id": "8777e7736430082c016c2402c86842782a08adf955adda27f1aacb4df5c29e79",
+      "island": null,
+      "locations": [
+        "16-16H ESTATE THOMAS",
+        "EST THOMAS",
+        "EST THOMAS 6H-16",
+        "EST THOMAS 8A",
+        "ESTATE THOMAS #6H",
+        "ESTATE THOMAS 8A-1"
+      ],
+      "modifiedAt": "2026-11-23T14:22:02Z",
+      "name": "T-T-17079",
+      "neighborhoodIDs": [],
+      "point": {
+        "latitude": 18.33477892848805,
+        "longitude": -64.91795611009752
+      },
+      "reportedCustomersInitially": 8,
+      "reportedCustomersOut": 8,
+      "reportedCustomersRestored": 0,
+      "sourceStatus": "Predicted",
+      "startedAt": "2026-11-23T14:21:28Z",
+      "verified": false,
+      "workStatus": null
+    },
+    {
+      "cause": null,
+      "crewAssigned": false,
+      "endedAt": null,
+      "estimatedRestoration": null,
       "id": "88dc08b0bc42243ff493cdbbf4090bae1aaace41db6e01838a6fffadbae915a2",
       "island": null,
       "locations": [
@@ -2692,7 +2722,7 @@
       "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-23T14:21:12Z",
+  "generatedAt": "2026-11-23T14:26:12Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -2800,21 +2830,21 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "bcb45d6e07a7f5ad1143780054e15ca6861fb07f21237ff0f6c2553994afa503",
+  "snapshotID": "a216ed37db0b12b3f70bbbba16ac29129df6920ceb29756f49a753ef757476d3",
   "source": {
-    "checkedAt": "2026-11-23T14:21:12Z",
+    "checkedAt": "2026-11-23T14:26:12Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-23T14:20:51Z",
+    "updatedAt": "2026-11-23T14:25:51Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "sourceSummary": {
     "customerCountDifference": 2,
-    "customersAffected": 2698,
-    "customersOut": 2698,
+    "customersAffected": 2706,
+    "customersOut": 2706,
     "customersRestored": 0,
     "customersServed": 54727,
-    "eventCustomersOut": 2696,
+    "eventCustomersOut": 2704,
     "hourlyCustomersOut": [
       {
         "at": "2026-11-21T14:00:00Z",
@@ -3010,7 +3040,7 @@
       },
       {
         "at": "2026-11-23T14:00:00Z",
-        "customersOut": 2696
+        "customersOut": 2704
       }
     ],
     "locations": [
@@ -3025,6 +3055,7 @@
       "13C CONTANT",
       "1-42-1A EST CAROLINA",
       "15B-1C ESTATE RENDEZVOUS",
+      "16-16H ESTATE THOMAS",
       "1-D REMAINER EST. BETHANY",
       "1KC BETHANY CRUZ BAY QTR",
       "1KC EST BETHANY MTR#1",
@@ -4525,6 +4556,7 @@
       "EST THOMAS 6A BAY 2",
       "EST THOMAS 6A BAY 8",
       "EST THOMAS 6A NEW QUATER",
+      "EST THOMAS 6H-16",
       "EST THOMAS 7 1ST ST MTR-2",
       "EST THOMAS 7 2ND ST",
       "EST THOMAS 7&6 1ST STREET",
@@ -4533,6 +4565,7 @@
       "EST THOMAS 8 3RD ST APT-4",
       "EST THOMAS 8 4TH ST",
       "EST THOMAS 8.10,12 MTR-5",
+      "EST THOMAS 8A",
       "EST THOMAS 9 1ST STREET",
       "EST THOMAS 9TH",
       "EST THOMAS 9TH ST",
@@ -4649,6 +4682,7 @@
       "ESTATE RENDEZVOUS",
       "ESTATE SANS SOUCI",
       "ESTATE SUSANNABERG",
+      "ESTATE THOMAS #6H",
       "ESTATE THOMAS 1 3RD ST",
       "ESTATE THOMAS 10 3RD ST",
       "ESTATE THOMAS 14-16",
@@ -4677,6 +4711,7 @@
       "ESTATE THOMAS 8 3RD ST",
       "ESTATE THOMAS 8-10-12",
       "ESTATE THOMAS 8-10-12 1ST",
+      "ESTATE THOMAS 8A-1",
       "FISH BAY",
       "FISH BAY #18",
       "FISH BAY 1 REM",
@@ -5406,8 +5441,8 @@
       "TEAQUE BAY N SLOB",
       "VIRGIN GRAND EST #71"
     ],
-    "totalOutages": 12
+    "totalOutages": 13
   },
   "staleAfterSeconds": 900,
-  "unassignedEventCount": 10
+  "unassignedEventCount": 11
 }
