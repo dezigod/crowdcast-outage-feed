@@ -180,7 +180,7 @@
       "workStatus": null
     },
     {
-      "cause": null,
+      "cause": "000 Power supply",
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
@@ -2306,7 +2306,7 @@
         "SUZANNABERG 2-3 HOUSE",
         "VIRGIN GRAND EST #71"
       ],
-      "modifiedAt": "2026-11-23T13:01:23Z",
+      "modifiedAt": "2026-11-23T13:10:08Z",
       "name": "Feeder 09E",
       "neighborhoodIDs": [
         "stThomas-lovenlund"
@@ -2376,31 +2376,6 @@
       "workStatus": null
     },
     {
-      "cause": "000 Power supply",
-      "crewAssigned": false,
-      "endedAt": null,
-      "estimatedRestoration": null,
-      "id": "c8a8cec2f25a7ebdf90cd04e18a3c54708f8d7418fce1fec73c8abaee658790b",
-      "island": null,
-      "locations": [
-        "CHARLOTTE AMALIE 26A-33-"
-      ],
-      "modifiedAt": "2026-11-22T22:26:54Z",
-      "name": "Feeder 07C",
-      "neighborhoodIDs": [],
-      "point": {
-        "latitude": 18.34059508788897,
-        "longitude": -64.88882169172471
-      },
-      "reportedCustomersInitially": 1850,
-      "reportedCustomersOut": 1,
-      "reportedCustomersRestored": 1849,
-      "sourceStatus": "Verified",
-      "startedAt": "2026-11-22T20:07:41Z",
-      "verified": true,
-      "workStatus": null
-    },
-    {
       "cause": null,
       "crewAssigned": false,
       "endedAt": null,
@@ -2419,7 +2394,7 @@
         "SMITH BAY 19-2-149-7",
         "SMITH BAY 19-2-149-8"
       ],
-      "modifiedAt": "2026-11-23T13:00:43Z",
+      "modifiedAt": "2026-11-23T13:09:37Z",
       "name": "T-T-07813",
       "neighborhoodIDs": [
         "stThomas-smith-bay"
@@ -2437,7 +2412,7 @@
       "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-23T13:10:45Z",
+  "generatedAt": "2026-11-23T13:15:48Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -2530,21 +2505,21 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "2a435e3d8f55aafdacafd85a319968ccc74f27204f7bf4a3221bafa99cbc560d",
+  "snapshotID": "9c2509a9de7828aad34cde452fe617d2bf9fa75125b4453f0216f38047b5ff44",
   "source": {
-    "checkedAt": "2026-11-23T13:10:45Z",
+    "checkedAt": "2026-11-23T13:15:48Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-23T13:05:51Z",
+    "updatedAt": "2026-11-23T13:10:51Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "sourceSummary": {
     "customerCountDifference": 2,
-    "customersAffected": 4162,
-    "customersOut": 2313,
-    "customersRestored": 1849,
+    "customersAffected": 2312,
+    "customersOut": 2312,
+    "customersRestored": 0,
     "customersServed": 54727,
-    "eventCustomersOut": 2311,
+    "eventCustomersOut": 2310,
     "hourlyCustomersOut": [
       {
         "at": "2026-11-21T13:00:00Z",
@@ -2672,75 +2647,75 @@
       },
       {
         "at": "2026-11-22T20:00:00Z",
-        "customersOut": 12095
+        "customersOut": 12094
       },
       {
         "at": "2026-11-22T21:00:00Z",
-        "customersOut": 8274
+        "customersOut": 8273
       },
       {
         "at": "2026-11-22T22:00:00Z",
-        "customersOut": 11078
+        "customersOut": 11077
       },
       {
         "at": "2026-11-22T23:00:00Z",
-        "customersOut": 2889
+        "customersOut": 2888
       },
       {
         "at": "2026-11-23T00:00:00Z",
-        "customersOut": 4466
+        "customersOut": 4465
       },
       {
         "at": "2026-11-23T01:00:00Z",
-        "customersOut": 1679
+        "customersOut": 1678
       },
       {
         "at": "2026-11-23T02:00:00Z",
-        "customersOut": 1662
+        "customersOut": 1661
       },
       {
         "at": "2026-11-23T03:00:00Z",
-        "customersOut": 27
+        "customersOut": 26
       },
       {
         "at": "2026-11-23T04:00:00Z",
-        "customersOut": 27
+        "customersOut": 26
       },
       {
         "at": "2026-11-23T05:00:00Z",
-        "customersOut": 27
+        "customersOut": 26
       },
       {
         "at": "2026-11-23T06:00:00Z",
-        "customersOut": 27
+        "customersOut": 26
       },
       {
         "at": "2026-11-23T07:00:00Z",
-        "customersOut": 25172
+        "customersOut": 25171
       },
       {
         "at": "2026-11-23T08:00:00Z",
-        "customersOut": 5347
+        "customersOut": 5346
       },
       {
         "at": "2026-11-23T09:00:00Z",
-        "customersOut": 5347
+        "customersOut": 5346
       },
       {
         "at": "2026-11-23T10:00:00Z",
-        "customersOut": 5347
+        "customersOut": 5346
       },
       {
         "at": "2026-11-23T11:00:00Z",
-        "customersOut": 5347
+        "customersOut": 5346
       },
       {
         "at": "2026-11-23T12:00:00Z",
-        "customersOut": 5350
+        "customersOut": 5349
       },
       {
         "at": "2026-11-23T13:00:00Z",
-        "customersOut": 2311
+        "customersOut": 2310
       }
     ],
     "locations": [
@@ -3203,7 +3178,6 @@
       "CATHERINGBERG, #3-20",
       "CATHRINEBERG",
       "CENTERLINE",
-      "CHARLOTTE AMALIE 26A-33-",
       "CHOCOLATE 300-31",
       "CHOCOLATE HOLE",
       "CHOCOLATE HOLE #300-67",
@@ -4908,8 +4882,8 @@
       "TEAQUE BAY N SLOB",
       "VIRGIN GRAND EST #71"
     ],
-    "totalOutages": 11
+    "totalOutages": 10
   },
   "staleAfterSeconds": 900,
-  "unassignedEventCount": 9
+  "unassignedEventCount": 8
 }
