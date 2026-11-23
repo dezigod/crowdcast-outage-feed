@@ -359,36 +359,6 @@
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
-      "id": "8777e7736430082c016c2402c86842782a08adf955adda27f1aacb4df5c29e79",
-      "island": null,
-      "locations": [
-        "16-16H ESTATE THOMAS",
-        "EST THOMAS",
-        "EST THOMAS 6H-16",
-        "EST THOMAS 8A",
-        "ESTATE THOMAS #6H",
-        "ESTATE THOMAS 8A-1"
-      ],
-      "modifiedAt": "2026-11-23T14:22:02Z",
-      "name": "T-T-17079",
-      "neighborhoodIDs": [],
-      "point": {
-        "latitude": 18.33477892848805,
-        "longitude": -64.91795611009752
-      },
-      "reportedCustomersInitially": 8,
-      "reportedCustomersOut": 8,
-      "reportedCustomersRestored": 0,
-      "sourceStatus": "Predicted",
-      "startedAt": "2026-11-23T14:21:28Z",
-      "verified": false,
-      "workStatus": null
-    },
-    {
-      "cause": null,
-      "crewAssigned": false,
-      "endedAt": null,
-      "estimatedRestoration": null,
       "id": "88dc08b0bc42243ff493cdbbf4090bae1aaace41db6e01838a6fffadbae915a2",
       "island": null,
       "locations": [
@@ -2561,6 +2531,40 @@
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
+      "id": "a5b1db0baf9ddeaed1cc16338cc0b9ecd8ca239283b83c18683e2f4bfb6c7533",
+      "island": null,
+      "locations": [
+        "ALTONA & WELGUNST",
+        "ALTONA & WELGUNST 200-24",
+        "ALTONA & WELGUNST 220-23",
+        "ALTONA & WELGUNST 220-24",
+        "ALTONA & WELGUNST 220-25",
+        "ALTONA & WELGUNST 220-26",
+        "ALTONA & WELGUNST 220-27",
+        "ALTONA & WELGUNST 220-28",
+        "ALTONA WEL #220-23",
+        "ALTONA WEL 220-23 APT #3"
+      ],
+      "modifiedAt": "2026-11-23T14:47:52Z",
+      "name": "T-T-02154",
+      "neighborhoodIDs": [],
+      "point": {
+        "latitude": 18.34468475060347,
+        "longitude": -64.94699945439028
+      },
+      "reportedCustomersInitially": 14,
+      "reportedCustomersOut": 14,
+      "reportedCustomersRestored": 0,
+      "sourceStatus": "Predicted",
+      "startedAt": "2026-11-23T14:47:19Z",
+      "verified": false,
+      "workStatus": null
+    },
+    {
+      "cause": null,
+      "crewAssigned": false,
+      "endedAt": null,
+      "estimatedRestoration": null,
       "id": "a7622fe5ec3f7460243d64545ddffb42dc3c534b3876e2c938737688abde9c58",
       "island": "stThomas",
       "locations": [
@@ -2645,7 +2649,7 @@
       "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-23T14:46:23Z",
+  "generatedAt": "2026-11-23T14:51:24Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -2738,21 +2742,21 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "9f30cddd220dc4bfc0023c595ac3317ab8682f5f65cc340aa1c2aaeb43bb34fa",
+  "snapshotID": "85b93e16462605f8d67e468a9b20cb9bd3923c03ae7254936a99d9ef2906af8d",
   "source": {
-    "checkedAt": "2026-11-23T14:46:23Z",
+    "checkedAt": "2026-11-23T14:51:24Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-23T14:45:52Z",
+    "updatedAt": "2026-11-23T14:50:51Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "sourceSummary": {
     "customerCountDifference": 2,
-    "customersAffected": 2676,
-    "customersOut": 2676,
+    "customersAffected": 2682,
+    "customersOut": 2682,
     "customersRestored": 0,
     "customersServed": 54727,
-    "eventCustomersOut": 2674,
+    "eventCustomersOut": 2680,
     "hourlyCustomersOut": [
       {
         "at": "2026-11-21T14:00:00Z",
@@ -2948,7 +2952,7 @@
       },
       {
         "at": "2026-11-23T14:00:00Z",
-        "customersOut": 2674
+        "customersOut": 2680
       }
     ],
     "locations": [
@@ -2963,7 +2967,6 @@
       "13C CONTANT",
       "1-42-1A EST CAROLINA",
       "15B-1C ESTATE RENDEZVOUS",
-      "16-16H ESTATE THOMAS",
       "1-D REMAINER EST. BETHANY",
       "1KC BETHANY CRUZ BAY QTR",
       "1KC EST BETHANY MTR#1",
@@ -3072,6 +3075,16 @@
       "AGNES FANCY 5-A",
       "AGNES FANCY 5B",
       "AGNES FANCY 5F",
+      "ALTONA & WELGUNST",
+      "ALTONA & WELGUNST 200-24",
+      "ALTONA & WELGUNST 220-23",
+      "ALTONA & WELGUNST 220-24",
+      "ALTONA & WELGUNST 220-25",
+      "ALTONA & WELGUNST 220-26",
+      "ALTONA & WELGUNST 220-27",
+      "ALTONA & WELGUNST 220-28",
+      "ALTONA WEL #220-23",
+      "ALTONA WEL 220-23 APT #3",
       "B 1 CAROLINA",
       "B 1 REM GIFT & REGENBACK",
       "BARBEL PLAZA",
@@ -4447,7 +4460,6 @@
       "EST THOMAS 6A BAY 2",
       "EST THOMAS 6A BAY 8",
       "EST THOMAS 6A NEW QUATER",
-      "EST THOMAS 6H-16",
       "EST THOMAS 7 1ST ST MTR-2",
       "EST THOMAS 7 2ND ST",
       "EST THOMAS 7&6 1ST STREET",
@@ -4456,7 +4468,6 @@
       "EST THOMAS 8 3RD ST APT-4",
       "EST THOMAS 8 4TH ST",
       "EST THOMAS 8.10,12 MTR-5",
-      "EST THOMAS 8A",
       "EST THOMAS 9 1ST STREET",
       "EST THOMAS 9TH",
       "EST THOMAS 9TH ST",
@@ -4573,7 +4584,6 @@
       "ESTATE RENDEZVOUS",
       "ESTATE SANS SOUCI",
       "ESTATE SUSANNABERG",
-      "ESTATE THOMAS #6H",
       "ESTATE THOMAS 1 3RD ST",
       "ESTATE THOMAS 10 3RD ST",
       "ESTATE THOMAS 14-16",
@@ -4602,7 +4612,6 @@
       "ESTATE THOMAS 8 3RD ST",
       "ESTATE THOMAS 8-10-12",
       "ESTATE THOMAS 8-10-12 1ST",
-      "ESTATE THOMAS 8A-1",
       "FISH BAY",
       "FISH BAY #18",
       "FISH BAY 1 REM",
