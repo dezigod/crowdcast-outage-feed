@@ -6349,39 +6349,6 @@
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
-      "id": "b0a3b96ce3c114a1c4c5e2d3f689e2eb2133d3c2c0060dbbc85370b3c93bd326",
-      "island": null,
-      "locations": [
-        "PETER'S REST 349 (EL)",
-        "PETERS REST 354",
-        "PETERS REST 365",
-        "PETERS REST 366 A",
-        "PETERS REST 366 APT-B",
-        "PETERS REST 366 APT-C",
-        "PETERS REST 366 APT-E",
-        "PETERS REST 6-I",
-        "PETERS REST 6-J"
-      ],
-      "modifiedAt": "2026-11-23T15:21:06Z",
-      "name": "T-C-05956",
-      "neighborhoodIDs": [],
-      "point": {
-        "latitude": 17.728820658554877,
-        "longitude": -64.74052865838541
-      },
-      "reportedCustomersInitially": 11,
-      "reportedCustomersOut": 11,
-      "reportedCustomersRestored": 0,
-      "sourceStatus": "Predicted",
-      "startedAt": "2026-11-23T15:20:40Z",
-      "verified": false,
-      "workStatus": null
-    },
-    {
-      "cause": null,
-      "crewAssigned": false,
-      "endedAt": null,
-      "estimatedRestoration": null,
       "id": "ec5bb6db45e6040e80461a0d91762d687660b7619bcead18876d73a3b365a585",
       "island": null,
       "locations": [
@@ -6414,7 +6381,7 @@
       "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-23T15:55:40Z",
+  "generatedAt": "2026-11-23T16:00:44Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -6840,21 +6807,21 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "2712c57a5d5796cba7724979d979d26b45b76329cd87f149e36fe03aa591c0b0",
+  "snapshotID": "139db704017df1aa40e235f0cb396fe3e2870ce74d688bc2277043b66511cfba",
   "source": {
-    "checkedAt": "2026-11-23T15:55:40Z",
+    "checkedAt": "2026-11-23T16:00:44Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-23T15:50:54Z",
+    "updatedAt": "2026-11-23T15:55:54Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "sourceSummary": {
     "customerCountDifference": 2,
-    "customersAffected": 7292,
-    "customersOut": 7292,
+    "customersAffected": 7281,
+    "customersOut": 7281,
     "customersRestored": 0,
     "customersServed": 54728,
-    "eventCustomersOut": 7290,
+    "eventCustomersOut": 7279,
     "hourlyCustomersOut": [
       {
         "at": "2026-11-21T15:00:00Z",
@@ -7050,7 +7017,7 @@
       },
       {
         "at": "2026-11-23T15:00:00Z",
-        "customersOut": 7290
+        "customersOut": 7279
       }
     ],
     "locations": [
@@ -12183,15 +12150,6 @@
       "PETERS BAY #5-C T-4",
       "PETERS BAY 2A",
       "PETERS BAY 6A",
-      "PETER'S REST 349 (EL)",
-      "PETERS REST 354",
-      "PETERS REST 365",
-      "PETERS REST 366 A",
-      "PETERS REST 366 APT-B",
-      "PETERS REST 366 APT-C",
-      "PETERS REST 366 APT-E",
-      "PETERS REST 6-I",
-      "PETERS REST 6-J",
       "PINE PIECE STJ",
       "PRIVATEER BAY 6Y-5",
       "QUAC/ZIM 6B-37REM & 6B34",
@@ -13154,8 +13112,8 @@
       "ZUERIENDENHEIT",
       "ZUFRIDENHEIT 1"
     ],
-    "totalOutages": 12
+    "totalOutages": 11
   },
   "staleAfterSeconds": 900,
-  "unassignedEventCount": 10
+  "unassignedEventCount": 9
 }
