@@ -37,40 +37,6 @@
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
-      "id": "19a36af836588097bbd09ecee8ffd40be8a37a087a828c238ebac42b5ff332df",
-      "island": null,
-      "locations": [
-        "ALTONA & WELGUNST",
-        "ALTONA & WELGUNST 200-24",
-        "ALTONA & WELGUNST 220-23",
-        "ALTONA & WELGUNST 220-24",
-        "ALTONA & WELGUNST 220-25",
-        "ALTONA & WELGUNST 220-26",
-        "ALTONA & WELGUNST 220-27",
-        "ALTONA & WELGUNST 220-28",
-        "ALTONA WEL #220-23",
-        "ALTONA WEL 220-23 APT #3"
-      ],
-      "modifiedAt": "2026-11-23T13:00:27Z",
-      "name": "T-T-02154",
-      "neighborhoodIDs": [],
-      "point": {
-        "latitude": 18.34468475060347,
-        "longitude": -64.94699945439028
-      },
-      "reportedCustomersInitially": 14,
-      "reportedCustomersOut": 14,
-      "reportedCustomersRestored": 0,
-      "sourceStatus": "Predicted",
-      "startedAt": "2026-11-23T13:00:15Z",
-      "verified": false,
-      "workStatus": null
-    },
-    {
-      "cause": null,
-      "crewAssigned": false,
-      "endedAt": null,
-      "estimatedRestoration": null,
       "id": "33a3d2f2a7010e14be4bfe5e5644e69747015f977655363b758a8fa000b5dd11",
       "island": null,
       "locations": [
@@ -149,34 +115,6 @@
       "sourceStatus": "Predicted",
       "startedAt": "2026-05-24T00:16:58Z",
       "verified": false,
-      "workStatus": null
-    },
-    {
-      "cause": null,
-      "crewAssigned": false,
-      "endedAt": null,
-      "estimatedRestoration": null,
-      "id": "81948c962da134184e6e7a854d85452b3293ab3c1ca7ffba915aaff72af01a39",
-      "island": null,
-      "locations": [
-        "EST NAZARETH 2Y2-2",
-        "ESTATE NAZARETH",
-        "NAZARETH 2Y2-1",
-        "NAZARETH 9M-5 2Y-27"
-      ],
-      "modifiedAt": "2026-11-21T18:02:57Z",
-      "name": "T-T-13011",
-      "neighborhoodIDs": [],
-      "point": {
-        "latitude": 18.319970585054353,
-        "longitude": -64.85331328773833
-      },
-      "reportedCustomersInitially": 4,
-      "reportedCustomersOut": 4,
-      "reportedCustomersRestored": 0,
-      "sourceStatus": "Verified",
-      "startedAt": "2026-11-21T15:29:59Z",
-      "verified": true,
       "workStatus": null
     },
     {
@@ -2412,7 +2350,7 @@
       "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-23T13:15:48Z",
+  "generatedAt": "2026-11-23T13:20:50Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -2505,21 +2443,21 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "9c2509a9de7828aad34cde452fe617d2bf9fa75125b4453f0216f38047b5ff44",
+  "snapshotID": "b6fdf782c9ae3556d302933280edf1f97c20c7ce5fcedc8294c0a1e8f6915494",
   "source": {
-    "checkedAt": "2026-11-23T13:15:48Z",
+    "checkedAt": "2026-11-23T13:20:50Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-23T13:10:51Z",
+    "updatedAt": "2026-11-23T13:15:52Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "sourceSummary": {
     "customerCountDifference": 2,
-    "customersAffected": 2312,
-    "customersOut": 2312,
+    "customersAffected": 2294,
+    "customersOut": 2294,
     "customersRestored": 0,
     "customersServed": 54727,
-    "eventCustomersOut": 2310,
+    "eventCustomersOut": 2292,
     "hourlyCustomersOut": [
       {
         "at": "2026-11-21T13:00:00Z",
@@ -2627,95 +2565,95 @@
       },
       {
         "at": "2026-11-22T15:00:00Z",
-        "customersOut": 4001
+        "customersOut": 3997
       },
       {
         "at": "2026-11-22T16:00:00Z",
-        "customersOut": 7344
+        "customersOut": 7340
       },
       {
         "at": "2026-11-22T17:00:00Z",
-        "customersOut": 5012
+        "customersOut": 5008
       },
       {
         "at": "2026-11-22T18:00:00Z",
-        "customersOut": 8875
+        "customersOut": 8871
       },
       {
         "at": "2026-11-22T19:00:00Z",
-        "customersOut": 5981
+        "customersOut": 5977
       },
       {
         "at": "2026-11-22T20:00:00Z",
-        "customersOut": 12094
+        "customersOut": 12090
       },
       {
         "at": "2026-11-22T21:00:00Z",
-        "customersOut": 8273
+        "customersOut": 8269
       },
       {
         "at": "2026-11-22T22:00:00Z",
-        "customersOut": 11077
+        "customersOut": 11073
       },
       {
         "at": "2026-11-22T23:00:00Z",
-        "customersOut": 2888
+        "customersOut": 2884
       },
       {
         "at": "2026-11-23T00:00:00Z",
-        "customersOut": 4465
+        "customersOut": 4461
       },
       {
         "at": "2026-11-23T01:00:00Z",
-        "customersOut": 1678
+        "customersOut": 1674
       },
       {
         "at": "2026-11-23T02:00:00Z",
-        "customersOut": 1661
+        "customersOut": 1657
       },
       {
         "at": "2026-11-23T03:00:00Z",
-        "customersOut": 26
+        "customersOut": 22
       },
       {
         "at": "2026-11-23T04:00:00Z",
-        "customersOut": 26
+        "customersOut": 22
       },
       {
         "at": "2026-11-23T05:00:00Z",
-        "customersOut": 26
+        "customersOut": 22
       },
       {
         "at": "2026-11-23T06:00:00Z",
-        "customersOut": 26
+        "customersOut": 22
       },
       {
         "at": "2026-11-23T07:00:00Z",
-        "customersOut": 25171
+        "customersOut": 25167
       },
       {
         "at": "2026-11-23T08:00:00Z",
-        "customersOut": 5346
+        "customersOut": 5342
       },
       {
         "at": "2026-11-23T09:00:00Z",
-        "customersOut": 5346
+        "customersOut": 5342
       },
       {
         "at": "2026-11-23T10:00:00Z",
-        "customersOut": 5346
+        "customersOut": 5342
       },
       {
         "at": "2026-11-23T11:00:00Z",
-        "customersOut": 5346
+        "customersOut": 5342
       },
       {
         "at": "2026-11-23T12:00:00Z",
-        "customersOut": 5349
+        "customersOut": 5345
       },
       {
         "at": "2026-11-23T13:00:00Z",
-        "customersOut": 2310
+        "customersOut": 2292
       }
     ],
     "locations": [
@@ -2835,16 +2773,6 @@
       "AGNES FANCY 5-A",
       "AGNES FANCY 5B",
       "AGNES FANCY 5F",
-      "ALTONA & WELGUNST",
-      "ALTONA & WELGUNST 200-24",
-      "ALTONA & WELGUNST 220-23",
-      "ALTONA & WELGUNST 220-24",
-      "ALTONA & WELGUNST 220-25",
-      "ALTONA & WELGUNST 220-26",
-      "ALTONA & WELGUNST 220-27",
-      "ALTONA & WELGUNST 220-28",
-      "ALTONA WEL #220-23",
-      "ALTONA WEL 220-23 APT #3",
       "B 1 CAROLINA",
       "B 1 REM GIFT & REGENBACK",
       "BEAVERHOUDTSBERG 3-5",
@@ -4074,7 +4002,6 @@
       "EST GRUNWALD 1-2-12",
       "EST GRUNWALD HOUSE",
       "EST NAZARETH 2W-40",
-      "EST NAZARETH 2Y2-2",
       "EST PASTORY I",
       "EST PASTORY II",
       "EST PASTORY NORTH",
@@ -4171,7 +4098,6 @@
       "ESTATE GRUNWALD 1-1-16",
       "ESTATE GRUNWALD 1-1-6",
       "ESTATE GRUNWALD 3-7",
-      "ESTATE NAZARETH",
       "ESTATE PASTORY",
       "ESTATE PASTORY 12-5K",
       "ESTATE PASTORY 3-5D",
@@ -4541,8 +4467,6 @@
       "NAZARETH 2W-44",
       "NAZARETH 2W-45",
       "NAZARETH 2-W-76-3",
-      "NAZARETH 2Y2-1",
-      "NAZARETH 9M-5 2Y-27",
       "NORTH SLOB 6",
       "NORTH SLOB 8",
       "P ESTATE CRUZ BAY",
@@ -4882,8 +4806,8 @@
       "TEAQUE BAY N SLOB",
       "VIRGIN GRAND EST #71"
     ],
-    "totalOutages": 10
+    "totalOutages": 8
   },
   "staleAfterSeconds": 900,
-  "unassignedEventCount": 8
+  "unassignedEventCount": 6
 }
