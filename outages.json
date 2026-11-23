@@ -6412,39 +6412,9 @@
       "startedAt": "2026-11-23T13:00:19Z",
       "verified": false,
       "workStatus": null
-    },
-    {
-      "cause": null,
-      "crewAssigned": false,
-      "endedAt": null,
-      "estimatedRestoration": null,
-      "id": "fd40eb5e6906ac8c53b5d7e4204c28868a70881743eeb27d8e1b2e928e222aa1",
-      "island": null,
-      "locations": [
-        "HANNAHS REST 73",
-        "HANNAHS REST 75",
-        "STONEY GROUND 3-A",
-        "STONEY GROUND 5",
-        "STONEY GROUND 6 (EL)",
-        "STONY GROUND 3"
-      ],
-      "modifiedAt": "2026-11-23T15:44:59Z",
-      "name": "T-C-17027",
-      "neighborhoodIDs": [],
-      "point": {
-        "latitude": 17.692645467135513,
-        "longitude": -64.87612093390001
-      },
-      "reportedCustomersInitially": 11,
-      "reportedCustomersOut": 11,
-      "reportedCustomersRestored": 0,
-      "sourceStatus": "Predicted",
-      "startedAt": "2026-11-23T15:44:41Z",
-      "verified": false,
-      "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-23T15:50:39Z",
+  "generatedAt": "2026-11-23T15:55:40Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -6870,21 +6840,21 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "765967b5f019a0a86e27f410da77343f249d94b6e497cecc1ea95bf18331e89c",
+  "snapshotID": "2712c57a5d5796cba7724979d979d26b45b76329cd87f149e36fe03aa591c0b0",
   "source": {
-    "checkedAt": "2026-11-23T15:50:39Z",
+    "checkedAt": "2026-11-23T15:55:40Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-23T15:45:53Z",
+    "updatedAt": "2026-11-23T15:50:54Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "sourceSummary": {
     "customerCountDifference": 2,
-    "customersAffected": 7303,
-    "customersOut": 7303,
+    "customersAffected": 7292,
+    "customersOut": 7292,
     "customersRestored": 0,
     "customersServed": 54728,
-    "eventCustomersOut": 7301,
+    "eventCustomersOut": 7290,
     "hourlyCustomersOut": [
       {
         "at": "2026-11-21T15:00:00Z",
@@ -7080,7 +7050,7 @@
       },
       {
         "at": "2026-11-23T15:00:00Z",
-        "customersOut": 7301
+        "customersOut": 7290
       }
     ],
     "locations": [
@@ -11187,8 +11157,6 @@
       "GRUNWALD 5C APT 2",
       "GRUNWALD APT.#4",
       "GRUNWALD EST 1-1-21",
-      "HANNAHS REST 73",
-      "HANNAHS REST 75",
       "HANSEN BAY \"\"B\"\"",
       "HANSEN BAY 1-A-2",
       "HANSEN BAY 1A-3",
@@ -13022,10 +12990,6 @@
       "ST.QUACCO ZIMMERMAN",
       "ST.QUACO & ZIMMERMAN 3B-9",
       "ST.QUACO &ZIMMERMAN",
-      "STONEY GROUND 3-A",
-      "STONEY GROUND 5",
-      "STONEY GROUND 6 (EL)",
-      "STONY GROUND 3",
       "SUBASE CHINNERY BLDG",
       "SUBBASE",
       "SUBBASE #1 PRINT SHOP",
@@ -13190,8 +13154,8 @@
       "ZUERIENDENHEIT",
       "ZUFRIDENHEIT 1"
     ],
-    "totalOutages": 13
+    "totalOutages": 12
   },
   "staleAfterSeconds": 900,
-  "unassignedEventCount": 11
+  "unassignedEventCount": 10
 }
