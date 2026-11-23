@@ -4729,7 +4729,7 @@
         "VESSUP BAY EST 9-39",
         "VESSUP LANE 9A-19"
       ],
-      "modifiedAt": "2026-11-23T21:54:03Z",
+      "modifiedAt": "2026-11-23T21:56:24Z",
       "name": "9D IN WAY 2",
       "neighborhoodIDs": [
         "stThomas-smith-bay"
@@ -5249,7 +5249,7 @@
         "NORTH ESTATE BOVONI",
         "TABOR & HARMONY 4-14A UP"
       ],
-      "modifiedAt": "2026-11-23T21:54:18Z",
+      "modifiedAt": "2026-11-23T21:56:08Z",
       "name": "BOVONI OUT WAY 3",
       "neighborhoodIDs": [],
       "point": {
@@ -6667,7 +6667,7 @@
         "SUGAR ESTATE 8-10-12",
         "TAARNEBERG 100-1B"
       ],
-      "modifiedAt": "2026-11-23T21:54:29Z",
+      "modifiedAt": "2026-11-23T21:55:59Z",
       "name": "Feeder 09B",
       "neighborhoodIDs": [],
       "point": {
@@ -6749,7 +6749,7 @@
       "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-23T22:00:57Z",
+  "generatedAt": "2026-11-23T22:05:59Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -7365,11 +7365,11 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "42c057e97a887286be79b5d700234dca2d1a853e9b7be7d2544a932f69b80bb5",
+  "snapshotID": "9440ebd98b51733eaac7d96689a0ec581bf30de7e4bdade41c96defe8d591dfd",
   "source": {
-    "checkedAt": "2026-11-23T22:00:57Z",
+    "checkedAt": "2026-11-23T22:05:59Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-23T21:55:55Z",
+    "updatedAt": "2026-11-23T22:01:01Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
@@ -7381,10 +7381,6 @@
     "customersServed": 54728,
     "eventCustomersOut": 8861,
     "hourlyCustomersOut": [
-      {
-        "at": "2026-11-21T21:00:00Z",
-        "customersOut": 2703
-      },
       {
         "at": "2026-11-21T22:00:00Z",
         "customersOut": 2703
@@ -7576,6 +7572,10 @@
       {
         "at": "2026-11-23T21:00:00Z",
         "customersOut": 15458
+      },
+      {
+        "at": "2026-11-23T22:00:00Z",
+        "customersOut": 8861
       }
     ],
     "locations": [
