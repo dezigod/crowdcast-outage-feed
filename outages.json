@@ -5312,6 +5312,32 @@
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
+      "id": "579ac1f7f61e2ae93d296e9858c406e546b6018862f499df3db4c99338d4ded0",
+      "island": null,
+      "locations": [
+        "CAROLINA 10-30C-1A",
+        "CAROLINA 10-30C-5"
+      ],
+      "modifiedAt": "2026-11-23T21:35:51Z",
+      "name": "T-J-03914",
+      "neighborhoodIDs": [],
+      "point": {
+        "latitude": 18.33884437569973,
+        "longitude": -64.71838654311689
+      },
+      "reportedCustomersInitially": 2,
+      "reportedCustomersOut": 2,
+      "reportedCustomersRestored": 0,
+      "sourceStatus": "Predicted",
+      "startedAt": "2026-11-23T21:35:32Z",
+      "verified": false,
+      "workStatus": null
+    },
+    {
+      "cause": null,
+      "crewAssigned": false,
+      "endedAt": null,
+      "estimatedRestoration": null,
       "id": "5c9a1d12d88b4c66b7fc4262d7796d320eaa115a2753857b46581f4cc2f975b8",
       "island": null,
       "locations": [
@@ -6752,7 +6778,7 @@
       "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-23T21:35:48Z",
+  "generatedAt": "2026-11-23T21:40:50Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -7368,21 +7394,21 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "1b0bbf45403d2e9e7799f54f9a807b1c3c2a7cab4a9a4af6bcd67ae3a4e9bc95",
+  "snapshotID": "b233c6ef0d218c027f928a09ffb8c05301cf31725223abcc572609a3857bf5f9",
   "source": {
-    "checkedAt": "2026-11-23T21:35:48Z",
+    "checkedAt": "2026-11-23T21:40:50Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-23T21:30:56Z",
+    "updatedAt": "2026-11-23T21:35:55Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "sourceSummary": {
     "customerCountDifference": 2,
-    "customersAffected": 8858,
-    "customersOut": 8858,
+    "customersAffected": 8860,
+    "customersOut": 8860,
     "customersRestored": 0,
     "customersServed": 54728,
-    "eventCustomersOut": 8856,
+    "eventCustomersOut": 8858,
     "hourlyCustomersOut": [
       {
         "at": "2026-11-21T21:00:00Z",
@@ -8298,6 +8324,8 @@
       "CAROLINA 10-28-9",
       "CAROLINA 10-29-3",
       "CAROLINA 10-3",
+      "CAROLINA 10-30C-1A",
+      "CAROLINA 10-30C-5",
       "CAROLINA 10-39*",
       "CAROLINA 10-40 (1)",
       "CAROLINA 10-40 (2)",
@@ -13951,8 +13979,8 @@
       "ZOOTENVAAL 3Q (MTR 1)",
       "ZOOTENVAAL 3T"
     ],
-    "totalOutages": 15
+    "totalOutages": 16
   },
   "staleAfterSeconds": 900,
-  "unassignedEventCount": 13
+  "unassignedEventCount": 14
 }
