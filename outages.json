@@ -3380,6 +3380,37 @@
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
+      "id": "f62b68a676fa9f77a094aa9af7a58bf76d9b906e5c456798bb5f5c71b9d65dbb",
+      "island": null,
+      "locations": [
+        "CLIFTON HILL 198",
+        "CLIFTON HILL 198 DWN",
+        "CLIFTON HILL 200",
+        "CLIFTON HILL 202",
+        "CLIFTON HILL 203",
+        "CLIFTON HILL 204",
+        "CLIFTON HILL 207"
+      ],
+      "modifiedAt": "2026-11-23T10:05:39Z",
+      "name": "T-C-14999",
+      "neighborhoodIDs": [],
+      "point": {
+        "latitude": 17.724624761170197,
+        "longitude": -64.7728225352749
+      },
+      "reportedCustomersInitially": 8,
+      "reportedCustomersOut": 8,
+      "reportedCustomersRestored": 0,
+      "sourceStatus": "Predicted",
+      "startedAt": "2026-11-23T10:05:13Z",
+      "verified": false,
+      "workStatus": null
+    },
+    {
+      "cause": null,
+      "crewAssigned": false,
+      "endedAt": null,
+      "estimatedRestoration": null,
       "id": "f87c98c9bad60c37055ce07f8d34cf92e4cdc5222284d9fd6f75eb7e2cf75e63",
       "island": null,
       "locations": [
@@ -3401,7 +3432,7 @@
       "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-23T10:05:42Z",
+  "generatedAt": "2026-11-23T10:10:44Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -3507,21 +3538,21 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "f46a0c42bcfce17973d4f9b3466575bb1208dda9a1aaafbeb84088972901240b",
+  "snapshotID": "3c6e4a361cdb6d6da829725f68c0357c96e1805b2f28e54a31b54c3f45da6c09",
   "source": {
-    "checkedAt": "2026-11-23T10:05:42Z",
+    "checkedAt": "2026-11-23T10:10:44Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-23T10:00:56Z",
+    "updatedAt": "2026-11-23T10:05:51Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "sourceSummary": {
     "customerCountDifference": 2,
-    "customersAffected": 4996,
-    "customersOut": 3147,
+    "customersAffected": 5004,
+    "customersOut": 3155,
     "customersRestored": 1849,
     "customersServed": 54727,
-    "eventCustomersOut": 3145,
+    "eventCustomersOut": 3153,
     "hourlyCustomersOut": [
       {
         "at": "2026-11-21T10:00:00Z",
@@ -3717,7 +3748,7 @@
       },
       {
         "at": "2026-11-23T10:00:00Z",
-        "customersOut": 3145
+        "customersOut": 3153
       }
     ],
     "locations": [
@@ -3942,6 +3973,13 @@
       "CARLTON GARDENS 6-CB",
       "CARLTON PLOT 44",
       "CHARLOTTE AMALIE 26A-33-",
+      "CLIFTON HILL 198",
+      "CLIFTON HILL 198 DWN",
+      "CLIFTON HILL 200",
+      "CLIFTON HILL 202",
+      "CLIFTON HILL 203",
+      "CLIFTON HILL 204",
+      "CLIFTON HILL 207",
       "CONCORDIA 15-16",
       "CONCORDIA 207",
       "CONCORDIA 211",
@@ -6245,8 +6283,8 @@
       "WILLIAMS DELIGHT PLOT 577",
       "WILLIAMS DELIGHT/LED HWY"
     ],
-    "totalOutages": 36
+    "totalOutages": 37
   },
   "staleAfterSeconds": 900,
-  "unassignedEventCount": 34
+  "unassignedEventCount": 35
 }
