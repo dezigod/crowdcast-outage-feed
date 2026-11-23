@@ -2246,7 +2246,7 @@
         "GOLDEN ROCK TRAFFIC LIGHT",
         "GOLDEN ROCK/LED HWY LIGHT"
       ],
-      "modifiedAt": "2026-11-23T19:01:22Z",
+      "modifiedAt": "2026-11-23T19:29:32Z",
       "name": "T-C-05412",
       "neighborhoodIDs": [],
       "point": {
@@ -5781,7 +5781,7 @@
       "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-23T19:26:00Z",
+  "generatedAt": "2026-11-23T19:31:02Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -7089,11 +7089,11 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "ccabf8c2602997ab83e247865196b6dc4d0d7d5d881eb3ca6b22a89c70d54f4c",
+  "snapshotID": "3ff73e6750044764877399aeb93f881e1344fbfcf1765bbda0e744e3214efc70",
   "source": {
-    "checkedAt": "2026-11-23T19:26:00Z",
+    "checkedAt": "2026-11-23T19:31:02Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-23T19:25:54Z",
+    "updatedAt": "2026-11-23T19:30:54Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
