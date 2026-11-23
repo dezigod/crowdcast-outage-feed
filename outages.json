@@ -3754,38 +3754,24 @@
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
-      "id": "894e090a69b75efbb8fdd65d1e7e247f8d380374cbd9894e465870b7f9829e09",
+      "id": "7d49dccd2cf298e76ef2ab1606e5da1fa2aa0eb0f0bd4fcb1cccc73ae4724994",
       "island": null,
       "locations": [
-        "HOSPITAL LINE",
-        "HOSPITAL LINE 17 A&B",
-        "HOSPITAL LINE 17A & 17B",
-        "HOSPITAL LINE 17A&B",
-        "HOSPITAL LINE 17A-17B",
-        "HOSPITAL LINE 17A-B",
-        "PRINDSEN GADE 58",
-        "PRINDSENS GADE 15A",
-        "PRINDSENS GADE 15B",
-        "PRINDSENS GADE 3RD FL",
-        "PRINDSENS GADE 58",
-        "PRINDSENS GADE 58 2-3",
-        "PRINDSENS GADE 58 APT 2-4",
-        "PRINDSENS GADE 59",
-        "PRINDSENS GADE A-2-1",
-        "PRINDSENS GADE MTR 6"
+        "ORANGE GROVE VILLAS I",
+        "ORANGE GROVE VILLAS II"
       ],
-      "modifiedAt": "2026-11-23T21:47:43Z",
-      "name": "T-T-04202",
+      "modifiedAt": "2026-11-23T22:25:46Z",
+      "name": "T-C-03472",
       "neighborhoodIDs": [],
       "point": {
-        "latitude": 18.343453784707307,
-        "longitude": -64.92685505329223
+        "latitude": 17.744551647972628,
+        "longitude": -64.72105657571566
       },
-      "reportedCustomersInitially": 28,
-      "reportedCustomersOut": 28,
+      "reportedCustomersInitially": 21,
+      "reportedCustomersOut": 21,
       "reportedCustomersRestored": 0,
       "sourceStatus": "Predicted",
-      "startedAt": "2026-11-23T21:47:38Z",
+      "startedAt": "2026-11-23T22:25:24Z",
       "verified": false,
       "workStatus": null
     },
@@ -3797,19 +3783,17 @@
       "id": "a58edb135552a9265415ab9402f734a93c8b7036485758fb1a54d130cf482e2d",
       "island": null,
       "locations": [
-        "1-C ORANGE GROVE",
-        "GOLDEN ROCK TRAFFIC LIGHT",
-        "GOLDEN ROCK/LED HWY LIGHT"
+        "1-C ORANGE GROVE"
       ],
-      "modifiedAt": "2026-11-23T19:29:32Z",
+      "modifiedAt": "2026-11-23T22:25:46Z",
       "name": "T-C-05412",
       "neighborhoodIDs": [],
       "point": {
-        "latitude": 17.745091906529048,
-        "longitude": -64.71925659604176
+        "latitude": 17.744989669472268,
+        "longitude": -64.71943475919747
       },
-      "reportedCustomersInitially": 3,
-      "reportedCustomersOut": 3,
+      "reportedCustomersInitially": 1,
+      "reportedCustomersOut": 1,
       "reportedCustomersRestored": 0,
       "sourceStatus": "Predicted",
       "startedAt": "2026-11-23T18:47:39Z",
@@ -6347,7 +6331,7 @@
       "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-23T22:21:05Z",
+  "generatedAt": "2026-11-23T22:26:07Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -6549,21 +6533,21 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "11624a4fb9d353eb7f4a6618d3d7f37b84e0bf59497f0b6a80e1984c0dbf2667",
+  "snapshotID": "ab8e457b6e00c4b3fd4e1b6d33530f26669d7a5f2cd15d73ce6c1985f197a100",
   "source": {
-    "checkedAt": "2026-11-23T22:21:05Z",
+    "checkedAt": "2026-11-23T22:26:07Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-23T22:21:00Z",
+    "updatedAt": "2026-11-23T22:26:00Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "sourceSummary": {
     "customerCountDifference": 2,
-    "customersAffected": 7886,
-    "customersOut": 7886,
+    "customersAffected": 7877,
+    "customersOut": 7877,
     "customersRestored": 0,
     "customersServed": 54728,
-    "eventCustomersOut": 7884,
+    "eventCustomersOut": 7875,
     "hourlyCustomersOut": [
       {
         "at": "2026-11-21T22:00:00Z",
@@ -6743,23 +6727,23 @@
       },
       {
         "at": "2026-11-23T18:00:00Z",
-        "customersOut": 9724
+        "customersOut": 9722
       },
       {
         "at": "2026-11-23T19:00:00Z",
-        "customersOut": 8160
+        "customersOut": 8158
       },
       {
         "at": "2026-11-23T20:00:00Z",
-        "customersOut": 11491
+        "customersOut": 11489
       },
       {
         "at": "2026-11-23T21:00:00Z",
-        "customersOut": 15458
+        "customersOut": 15428
       },
       {
         "at": "2026-11-23T22:00:00Z",
-        "customersOut": 12739
+        "customersOut": 12730
       }
     ],
     "locations": [
@@ -9791,8 +9775,6 @@
       "GOLDEN GROVE PK 48-1",
       "GOLDEN GROVE POLIC HD",
       "GOLDEN GROVE*",
-      "GOLDEN ROCK TRAFFIC LIGHT",
-      "GOLDEN ROCK/LED HWY LIGHT",
       "GREAT BAY",
       "GREAT S E QRTS",
       "HAMILTON AIRPORT",
@@ -9898,12 +9880,6 @@
       "HILL STREET 8-A",
       "HILL STREET 8-B",
       "HILL STREET 9",
-      "HOSPITAL LINE",
-      "HOSPITAL LINE 17 A&B",
-      "HOSPITAL LINE 17A & 17B",
-      "HOSPITAL LINE 17A&B",
-      "HOSPITAL LINE 17A-17B",
-      "HOSPITAL LINE 17A-B",
       "HOSPITAL STREET",
       "HOSPITAL STREET 2",
       "HOSPITAL STREET 2 A-3",
@@ -11482,6 +11458,8 @@
       "OLD CUSTOM HOUSE",
       "OLD POST OFFICE BLD",
       "OLD WORKS 111 (UPSTAIRS)",
+      "ORANGE GROVE VILLAS I",
+      "ORANGE GROVE VILLAS II",
       "PAM AM PAV BAY 5-6&7",
       "PAN AM PAV",
       "PAN AM PAV BAY",
@@ -11609,16 +11587,6 @@
       "PRINCE STREET 9-B",
       "PRINCE STREET 9-B (UPPER)",
       "PRINCESS PLAZA 9A",
-      "PRINDSEN GADE 58",
-      "PRINDSENS GADE 15A",
-      "PRINDSENS GADE 15B",
-      "PRINDSENS GADE 3RD FL",
-      "PRINDSENS GADE 58",
-      "PRINDSENS GADE 58 2-3",
-      "PRINDSENS GADE 58 APT 2-4",
-      "PRINDSENS GADE 59",
-      "PRINDSENS GADE A-2-1",
-      "PRINDSENS GADE MTR 6",
       "PRIVATEER BAY 6Y-5",
       "PROFIT",
       "PROFIT 1",
