@@ -1123,6 +1123,35 @@
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
+      "id": "5df990d89326ea81ee805ec30558a15ba7343fab03b776967976183f44c03787",
+      "island": null,
+      "locations": [
+        "EST THOMAS 50 MED FDN",
+        "EST THOMAS 50 PGN BLDG",
+        "EST THOMAS 58 MED FDN",
+        "EST THOMAS SUITE 206",
+        "EST. THOMAS 50 MED FDN"
+      ],
+      "modifiedAt": "2026-11-23T15:25:50Z",
+      "name": "T-T-17105",
+      "neighborhoodIDs": [],
+      "point": {
+        "latitude": 18.341440479638294,
+        "longitude": -64.91306485106297
+      },
+      "reportedCustomersInitially": 18,
+      "reportedCustomersOut": 18,
+      "reportedCustomersRestored": 0,
+      "sourceStatus": "Predicted",
+      "startedAt": "2026-11-23T15:25:18Z",
+      "verified": false,
+      "workStatus": null
+    },
+    {
+      "cause": null,
+      "crewAssigned": false,
+      "endedAt": null,
+      "estimatedRestoration": null,
       "id": "688d24f7b6e72cb60f9dd7cfcfc315b9ee0efe7095b9fbf192b7ed84c8031d54",
       "island": "stThomas",
       "locations": [
@@ -6349,6 +6378,39 @@
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
+      "id": "b0a3b96ce3c114a1c4c5e2d3f689e2eb2133d3c2c0060dbbc85370b3c93bd326",
+      "island": null,
+      "locations": [
+        "PETER'S REST 349 (EL)",
+        "PETERS REST 354",
+        "PETERS REST 365",
+        "PETERS REST 366 A",
+        "PETERS REST 366 APT-B",
+        "PETERS REST 366 APT-C",
+        "PETERS REST 366 APT-E",
+        "PETERS REST 6-I",
+        "PETERS REST 6-J"
+      ],
+      "modifiedAt": "2026-11-23T15:21:06Z",
+      "name": "T-C-05956",
+      "neighborhoodIDs": [],
+      "point": {
+        "latitude": 17.728820658554877,
+        "longitude": -64.74052865838541
+      },
+      "reportedCustomersInitially": 11,
+      "reportedCustomersOut": 11,
+      "reportedCustomersRestored": 0,
+      "sourceStatus": "Predicted",
+      "startedAt": "2026-11-23T15:20:40Z",
+      "verified": false,
+      "workStatus": null
+    },
+    {
+      "cause": null,
+      "crewAssigned": false,
+      "endedAt": null,
+      "estimatedRestoration": null,
       "id": "ec5bb6db45e6040e80461a0d91762d687660b7619bcead18876d73a3b365a585",
       "island": null,
       "locations": [
@@ -6381,7 +6443,7 @@
       "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-23T15:21:36Z",
+  "generatedAt": "2026-11-23T15:30:32Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -6807,21 +6869,21 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "d9c4dbeb511f6298d447beec19c5cb18ad89d0b55a51330ecd36ea2b93698ec9",
+  "snapshotID": "a2317e23f42315e268a80532fac332218642f2b1b185c851c47d649a41e99b3e",
   "source": {
-    "checkedAt": "2026-11-23T15:21:36Z",
+    "checkedAt": "2026-11-23T15:30:32Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-23T15:20:53Z",
+    "updatedAt": "2026-11-23T15:25:53Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "sourceSummary": {
     "customerCountDifference": 2,
-    "customersAffected": 7281,
-    "customersOut": 7281,
+    "customersAffected": 7310,
+    "customersOut": 7310,
     "customersRestored": 0,
     "customersServed": 54728,
-    "eventCustomersOut": 7279,
+    "eventCustomersOut": 7308,
     "hourlyCustomersOut": [
       {
         "at": "2026-11-21T15:00:00Z",
@@ -7017,7 +7079,7 @@
       },
       {
         "at": "2026-11-23T15:00:00Z",
-        "customersOut": 7279
+        "customersOut": 7308
       }
     ],
     "locations": [
@@ -10501,7 +10563,11 @@
       "EST ST. PETER 5C-1-B",
       "EST STAABI 6",
       "EST SUSANNABERG 7B & 7C",
+      "EST THOMAS 50 MED FDN",
+      "EST THOMAS 50 PGN BLDG",
+      "EST THOMAS 58 MED FDN",
       "EST THOMAS 5A-5B",
+      "EST THOMAS SUITE 206",
       "EST TUTU 163",
       "EST UPPER JOHN DONKOE 9",
       "EST UPPER JOHN DUNKO #57",
@@ -10541,6 +10607,7 @@
       "EST. ST QUACO & ZIMMERMAN",
       "EST. ST. PETER 1A-1",
       "EST. ST. PETER 4 DWN",
+      "EST. THOMAS 50 MED FDN",
       "EST. UPPER JOHN DUNKOE 9",
       "EST.CALABASH BOOM UNIT 1E",
       "EST.CALABASH BOOM UNIT 1J",
@@ -12150,6 +12217,15 @@
       "PETERS BAY #5-C T-4",
       "PETERS BAY 2A",
       "PETERS BAY 6A",
+      "PETER'S REST 349 (EL)",
+      "PETERS REST 354",
+      "PETERS REST 365",
+      "PETERS REST 366 A",
+      "PETERS REST 366 APT-B",
+      "PETERS REST 366 APT-C",
+      "PETERS REST 366 APT-E",
+      "PETERS REST 6-I",
+      "PETERS REST 6-J",
       "PINE PIECE STJ",
       "PRIVATEER BAY 6Y-5",
       "QUAC/ZIM 6B-37REM & 6B34",
@@ -13112,8 +13188,8 @@
       "ZUERIENDENHEIT",
       "ZUFRIDENHEIT 1"
     ],
-    "totalOutages": 11
+    "totalOutages": 13
   },
   "staleAfterSeconds": 900,
-  "unassignedEventCount": 9
+  "unassignedEventCount": 11
 }
