@@ -2671,7 +2671,7 @@
         "SMITH BAY 19-2-149-7",
         "SMITH BAY 19-2-149-8"
       ],
-      "modifiedAt": "2026-11-23T13:09:37Z",
+      "modifiedAt": "2026-11-23T14:31:44Z",
       "name": "T-T-07813",
       "neighborhoodIDs": [
         "stThomas-smith-bay"
@@ -2689,7 +2689,7 @@
       "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-23T14:31:15Z",
+  "generatedAt": "2026-11-23T14:36:18Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -2797,11 +2797,11 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "86f3b6515c38e9b576fba94bb5c2385edb039812c1d752d78464f1a573a9af9a",
+  "snapshotID": "e5d5efd9e44d99450dd1cfcc3292b3e3de56eed2ce27e24d13abc0756dc0b6b6",
   "source": {
-    "checkedAt": "2026-11-23T14:31:15Z",
+    "checkedAt": "2026-11-23T14:36:18Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-23T14:30:52Z",
+    "updatedAt": "2026-11-23T14:35:52Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
