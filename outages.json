@@ -279,6 +279,33 @@
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
+      "id": "3711dbeba3cd55f51bff5ec7788355c09d20499fe4e635565eaa6fa3b424aa19",
+      "island": null,
+      "locations": [
+        "SEVEN HILLS",
+        "SEVEN HILLS 52 (DNST)",
+        "SEVEN HILLS 52 (UPST)"
+      ],
+      "modifiedAt": "2026-11-23T07:15:57Z",
+      "name": "T-C-02920",
+      "neighborhoodIDs": [],
+      "point": {
+        "latitude": 17.749660080534337,
+        "longitude": -64.64882345047437
+      },
+      "reportedCustomersInitially": 8,
+      "reportedCustomersOut": 8,
+      "reportedCustomersRestored": 0,
+      "sourceStatus": "Predicted",
+      "startedAt": "2026-11-23T07:15:30Z",
+      "verified": false,
+      "workStatus": null
+    },
+    {
+      "cause": null,
+      "crewAssigned": false,
+      "endedAt": null,
+      "estimatedRestoration": null,
       "id": "3b4510ae8d2a8ab3ce155065c309798b1c2c498cc676ca61d8e1f1b7d8254af3",
       "island": null,
       "locations": [
@@ -3347,7 +3374,7 @@
       "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-23T07:20:42Z",
+  "generatedAt": "2026-11-23T07:25:46Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -3453,21 +3480,21 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "ab04dfb334a09d01e674e9697df6d4b49347f99a248e5680b3b6e223f1efdb9e",
+  "snapshotID": "8c185440422aad122591c7fcb71fe3df6b2f9fc496c3962289e2479811ca10b4",
   "source": {
-    "checkedAt": "2026-11-23T07:20:42Z",
+    "checkedAt": "2026-11-23T07:25:46Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-23T07:15:52Z",
+    "updatedAt": "2026-11-23T07:20:51Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "sourceSummary": {
     "customerCountDifference": 2,
-    "customersAffected": 4985,
-    "customersOut": 3136,
+    "customersAffected": 4993,
+    "customersOut": 3144,
     "customersRestored": 1849,
     "customersServed": 54727,
-    "eventCustomersOut": 3134,
+    "eventCustomersOut": 3142,
     "hourlyCustomersOut": [
       {
         "at": "2026-11-21T07:00:00Z",
@@ -3663,7 +3690,7 @@
       },
       {
         "at": "2026-11-23T07:00:00Z",
-        "customersOut": 3134
+        "customersOut": 3142
       }
     ],
     "locations": [
@@ -5024,6 +5051,9 @@
       "QUEEN STREET TWN HMS 14-A",
       "ROHLSEN FIELD/ENVY 2",
       "ROPES HILL 1",
+      "SEVEN HILLS",
+      "SEVEN HILLS 52 (DNST)",
+      "SEVEN HILLS 52 (UPST)",
       "SION FARM 250",
       "SION FARM 252",
       "SION FARM 253",
@@ -6185,8 +6215,8 @@
       "WILLIAMS DELIGHT PLOT 577",
       "WILLIAMS DELIGHT/LED HWY"
     ],
-    "totalOutages": 34
+    "totalOutages": 35
   },
   "staleAfterSeconds": 900,
-  "unassignedEventCount": 32
+  "unassignedEventCount": 33
 }
