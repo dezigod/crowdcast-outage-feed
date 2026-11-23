@@ -1710,6 +1710,36 @@
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
+      "id": "af504358513f61fc5f3742b32b166a7d2dc0be8c7491cb1957a1efb6087b27d6",
+      "island": null,
+      "locations": [
+        "EST ST PETER 3A",
+        "ST PETER 3A-12",
+        "ST PETER 3A-18",
+        "ST PETER MT PCL 23A"
+      ],
+      "modifiedAt": "2026-11-23T17:52:33Z",
+      "name": "T-T-09387",
+      "neighborhoodIDs": [
+        "stThomas-st-peter"
+      ],
+      "point": {
+        "latitude": 18.355392320362224,
+        "longitude": -64.94684247528572
+      },
+      "reportedCustomersInitially": 4,
+      "reportedCustomersOut": 4,
+      "reportedCustomersRestored": 0,
+      "sourceStatus": "Predicted",
+      "startedAt": "2026-11-23T17:52:12Z",
+      "verified": false,
+      "workStatus": null
+    },
+    {
+      "cause": null,
+      "crewAssigned": false,
+      "endedAt": null,
+      "estimatedRestoration": null,
       "id": "c1fe79cda9b6a2e2ee2b7f13fcc47d13a8f04ccc26d1bb3d2f2bbd68159a03fd",
       "island": null,
       "locations": [
@@ -4043,7 +4073,7 @@
       "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-23T17:51:30Z",
+  "generatedAt": "2026-11-23T17:56:31Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -4067,6 +4097,23 @@
           ],
           "sourceStatus": "Predicted",
           "startedAt": "2026-05-24T00:16:58Z"
+        },
+        {
+          "affectedCustomers": null,
+          "estimatedRestoration": null,
+          "id": "stThomas-st-peter",
+          "island": "stThomas",
+          "locations": [
+            "3A-12",
+            "3A-18",
+            "MT PCL 23A"
+          ],
+          "name": "Estate St. Peter",
+          "sourceEventIDs": [
+            "af504358513f61fc5f3742b32b166a7d2dc0be8c7491cb1957a1efb6087b27d6"
+          ],
+          "sourceStatus": "Predicted",
+          "startedAt": "2026-11-23T17:52:12Z"
         },
         {
           "affectedCustomers": null,
@@ -4821,21 +4868,21 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "6abbd832ac3897adab7be99b07ebc695b79005467998baac44b6c495aac75701",
+  "snapshotID": "2c48aa2e6da86c7642bbd34a54ad4f1d76e34021fe389eaa2cc28697778aec7a",
   "source": {
-    "checkedAt": "2026-11-23T17:51:30Z",
+    "checkedAt": "2026-11-23T17:56:31Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-23T17:50:52Z",
+    "updatedAt": "2026-11-23T17:55:53Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "sourceSummary": {
     "customerCountDifference": 2,
-    "customersAffected": 5203,
-    "customersOut": 5203,
+    "customersAffected": 5207,
+    "customersOut": 5207,
     "customersRestored": 0,
     "customersServed": 54728,
-    "eventCustomersOut": 5201,
+    "eventCustomersOut": 5205,
     "hourlyCustomersOut": [
       {
         "at": "2026-11-21T17:00:00Z",
@@ -6425,6 +6472,7 @@
       "EST SMITH BAY 83-2",
       "EST SMITH BAY 84",
       "EST SMITH BAY 93",
+      "EST ST PETER 3A",
       "EST THOMAS",
       "EST THOMAS #1-C",
       "EST THOMAS (MANDELA CIR)",
@@ -8648,6 +8696,9 @@
       "ST MAARTEN 203E SAPP",
       "ST MAARTEN SAPPHIR 204A",
       "ST MAARTEN SAPPHIRE 304-E",
+      "ST PETER 3A-12",
+      "ST PETER 3A-18",
+      "ST PETER MT PCL 23A",
       "ST VINCENT 300E SAPP VILL",
       "ST VINCENT 302A SAPP",
       "ST VINCENT 303E SAPP",
@@ -8770,8 +8821,8 @@
       "WIC DOCK BAY BLDG-2",
       "WINDWARD PASSAGE/TRAFFIC"
     ],
-    "totalOutages": 12
+    "totalOutages": 13
   },
   "staleAfterSeconds": 900,
-  "unassignedEventCount": 9
+  "unassignedEventCount": 10
 }
