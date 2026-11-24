@@ -18305,6 +18305,45 @@
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
+      "id": "a1e47d5986c0f49b1c39f380e1ed9cefbffef04274d90c3647b352ba5c533822",
+      "island": null,
+      "locations": [
+        "LOVELUND 3-4 BLD 12",
+        "LOVENLUND 3-4 B-12 A-1232",
+        "LOVENLUND 3-4 BLD 12",
+        "LOVENLUND 3-4 BLDG-12",
+        "LOVENLUND B-12",
+        "LOVENLUND B-12 APT 1211",
+        "LOVENLUND B-12 APT 1212",
+        "LOVENLUND B-12 APT 1213",
+        "LOVENLUND B-12 APT 1221",
+        "LOVENLUND B-12 APT 1222",
+        "LOVENLUND B-12 APT 1224",
+        "LOVENLUND B-12 APT 1234",
+        "LOVENLUND BLDG 12"
+      ],
+      "modifiedAt": "2026-11-24T22:14:43Z",
+      "name": "T-T-17094",
+      "neighborhoodIDs": [
+        "stThomas-lovenlund"
+      ],
+      "point": {
+        "latitude": 18.36069582323325,
+        "longitude": -64.91562176612281
+      },
+      "reportedCustomersInitially": 13,
+      "reportedCustomersOut": 13,
+      "reportedCustomersRestored": 0,
+      "sourceStatus": "Predicted",
+      "startedAt": "2026-11-24T22:14:10Z",
+      "verified": false,
+      "workStatus": null
+    },
+    {
+      "cause": null,
+      "crewAssigned": false,
+      "endedAt": null,
+      "estimatedRestoration": null,
       "id": "a58edb135552a9265415ab9402f734a93c8b7036485758fb1a54d130cf482e2d",
       "island": null,
       "locations": [
@@ -21868,7 +21907,7 @@
       "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-24T22:15:53Z",
+  "generatedAt": "2026-11-24T22:20:55Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -22209,14 +22248,27 @@
           "id": "stThomas-lovenlund",
           "island": "stThomas",
           "locations": [
+            "3-4 B-12 A-1232",
+            "3-4 BLD 12",
+            "3-4 BLDG-12",
+            "B-12",
+            "B-12 APT 1211",
+            "B-12 APT 1212",
+            "B-12 APT 1213",
+            "B-12 APT 1221",
+            "B-12 APT 1222",
+            "B-12 APT 1224",
+            "B-12 APT 1234",
+            "Building 12",
             "EST FARMHOUSE"
           ],
           "name": "Lovenlund",
           "sourceEventIDs": [
+            "a1e47d5986c0f49b1c39f380e1ed9cefbffef04274d90c3647b352ba5c533822",
             "a7622fe5ec3f7460243d64545ddffb42dc3c534b3876e2c938737688abde9c58"
           ],
-          "sourceStatus": "Verified",
-          "startedAt": "2026-11-05T17:32:26Z"
+          "sourceStatus": "Unconfirmed",
+          "startedAt": null
         },
         {
           "affectedCustomers": null,
@@ -23448,21 +23500,21 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "6984835b81e744592fcb801b4366ef221adc578fc344cc0bd337efad6fb64f6c",
+  "snapshotID": "4ec4eb57e47088e26c6266a192e06b3e399d18afbc4571f051ac048248abc966",
   "source": {
-    "checkedAt": "2026-11-24T22:15:53Z",
+    "checkedAt": "2026-11-24T22:20:55Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-24T22:11:11Z",
+    "updatedAt": "2026-11-24T22:16:11Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "sourceSummary": {
     "customerCountDifference": 2,
-    "customersAffected": 28343,
-    "customersOut": 28343,
+    "customersAffected": 28356,
+    "customersOut": 28356,
     "customersRestored": 0,
     "customersServed": 54729,
-    "eventCustomersOut": 28341,
+    "eventCustomersOut": 28354,
     "hourlyCustomersOut": [
       {
         "at": "2026-11-22T22:00:00Z",
@@ -23658,7 +23710,7 @@
       },
       {
         "at": "2026-11-24T22:00:00Z",
-        "customersOut": 28341
+        "customersOut": 28354
       }
     ],
     "locations": [
@@ -36171,6 +36223,19 @@
       "LOUISENHOJ 8C & 9A",
       "LOUISENHOJ 8C & 9A DWN",
       "LOUISENHOJ 9B",
+      "LOVELUND 3-4 BLD 12",
+      "LOVENLUND 3-4 B-12 A-1232",
+      "LOVENLUND 3-4 BLD 12",
+      "LOVENLUND 3-4 BLDG-12",
+      "LOVENLUND B-12",
+      "LOVENLUND B-12 APT 1211",
+      "LOVENLUND B-12 APT 1212",
+      "LOVENLUND B-12 APT 1213",
+      "LOVENLUND B-12 APT 1221",
+      "LOVENLUND B-12 APT 1222",
+      "LOVENLUND B-12 APT 1224",
+      "LOVENLUND B-12 APT 1234",
+      "LOVENLUND BLDG 12",
       "LOVENLUND EST FARMHOUSE",
       "LOWER CO STREET",
       "LOWER JOHN DUNKO 15-16-17",
@@ -44833,8 +44898,8 @@
       "ZUERIENDENHEIT",
       "ZUFRIDENHEIT 1"
     ],
-    "totalOutages": 22
+    "totalOutages": 23
   },
   "staleAfterSeconds": 900,
-  "unassignedEventCount": 20
+  "unassignedEventCount": 21
 }
