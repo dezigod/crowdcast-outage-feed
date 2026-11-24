@@ -16496,6 +16496,54 @@
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
+      "id": "a255002733768dfa3e7cce510dd91cb5c93241a9fef393de37162fc9e7fded31",
+      "island": null,
+      "locations": [
+        "BJERGE GADE 19",
+        "BJERGE GADE 20",
+        "DRONNINGENS GADE 58B",
+        "DRONNINGENS GADE 59C",
+        "DRONNINGENS GADE 70",
+        "HOSPITAL GROUND 9-10",
+        "PRINDSENS GADE",
+        "PRINDSENS GADE #14",
+        "PRINDSENS GADE 10A",
+        "PRINDSENS GADE 10A (UP)",
+        "PRINDSENS GADE 10A MTR 1",
+        "PRINDSENS GADE 11",
+        "PRINDSENS GADE 13-A",
+        "PRINDSENS GADE 13B",
+        "PRINDSENS GADE 4 MTR 1",
+        "PRINDSENS GADE 60",
+        "PRINDSENS GADE 60 HSE-1",
+        "PRINDSENS GADE 61B UP",
+        "PRINDSENS GADE 62A 2ND FL",
+        "PRINDSENS GADE 62A MTR-2",
+        "PRINDSENS GADE 64B",
+        "PRINDSENS GADE 8B",
+        "PRINDSENS GADE 9B DWN",
+        "PRINDSENS GADE UP"
+      ],
+      "modifiedAt": "2026-11-24T20:58:16Z",
+      "name": "T-T-16583",
+      "neighborhoodIDs": [],
+      "point": {
+        "latitude": 18.343164857188178,
+        "longitude": -64.92568331168249
+      },
+      "reportedCustomersInitially": 34,
+      "reportedCustomersOut": 34,
+      "reportedCustomersRestored": 0,
+      "sourceStatus": "Predicted",
+      "startedAt": "2026-11-24T20:57:52Z",
+      "verified": false,
+      "workStatus": null
+    },
+    {
+      "cause": null,
+      "crewAssigned": false,
+      "endedAt": null,
+      "estimatedRestoration": null,
       "id": "a31c7d6aaa434a72366d1785010cc1ac9a8d7e86e79c04f1da1fe023dc4d0abb",
       "island": null,
       "locations": [
@@ -24426,7 +24474,7 @@
       "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-24T20:56:28Z",
+  "generatedAt": "2026-11-24T21:01:30Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -26175,26 +26223,22 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "4db933618151743da384d2ad105d27159907fcdcbeb9ae965af475dd28115761",
+  "snapshotID": "4583c7a27a1b4975c71161c023ab7c5a52bf38530862fd591ec84a2bb5f48d6c",
   "source": {
-    "checkedAt": "2026-11-24T20:56:28Z",
+    "checkedAt": "2026-11-24T21:01:30Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-24T20:56:12Z",
+    "updatedAt": "2026-11-24T21:01:12Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "sourceSummary": {
     "customerCountDifference": 2,
-    "customersAffected": 32149,
-    "customersOut": 32149,
+    "customersAffected": 32183,
+    "customersOut": 32183,
     "customersRestored": 0,
     "customersServed": 54729,
-    "eventCustomersOut": 32147,
+    "eventCustomersOut": 32181,
     "hourlyCustomersOut": [
-      {
-        "at": "2026-11-22T20:00:00Z",
-        "customersOut": 8269
-      },
       {
         "at": "2026-11-22T21:00:00Z",
         "customersOut": 8269
@@ -26385,7 +26429,11 @@
       },
       {
         "at": "2026-11-24T20:00:00Z",
-        "customersOut": 39142
+        "customersOut": 39176
+      },
+      {
+        "at": "2026-11-24T21:00:00Z",
+        "customersOut": 32181
       }
     ],
     "locations": [
@@ -28833,6 +28881,8 @@
       "BETSYS JEWEL 4",
       "BETSYS JEWEL 6",
       "BIG PRINCESS",
+      "BJERGE GADE 19",
+      "BJERGE GADE 20",
       "BLDG#2 EAST STREET",
       "BLDG. 2 MEADA'S PLAZA",
       "BLESSING",
@@ -33742,6 +33792,9 @@
       "DOROTHEA PCL 21 LOT 24",
       "DOROTHEA UP",
       "DOROTHEA-16-D",
+      "DRONNINGENS GADE 58B",
+      "DRONNINGENS GADE 59C",
+      "DRONNINGENS GADE 70",
       "EAST A LONGFORD",
       "EAST AIRPORT",
       "EAST AIRPORT ROAD/HIGHWAY",
@@ -38097,6 +38150,7 @@
       "HOPE EST 24-5",
       "HOSPITAL GROUND 1C",
       "HOSPITAL GROUND 400B",
+      "HOSPITAL GROUND 9-10",
       "HOSPITAL ST 17-C",
       "HOSPITAL ST 30AA A-1 UP",
       "HOSPITAL STREET",
@@ -43381,6 +43435,24 @@
       "PRINCESS HILL 6BB",
       "PRINCESS PLAZA 9A",
       "PRINCESS VILLAS",
+      "PRINDSENS GADE",
+      "PRINDSENS GADE #14",
+      "PRINDSENS GADE 10A",
+      "PRINDSENS GADE 10A (UP)",
+      "PRINDSENS GADE 10A MTR 1",
+      "PRINDSENS GADE 11",
+      "PRINDSENS GADE 13-A",
+      "PRINDSENS GADE 13B",
+      "PRINDSENS GADE 4 MTR 1",
+      "PRINDSENS GADE 60",
+      "PRINDSENS GADE 60 HSE-1",
+      "PRINDSENS GADE 61B UP",
+      "PRINDSENS GADE 62A 2ND FL",
+      "PRINDSENS GADE 62A MTR-2",
+      "PRINDSENS GADE 64B",
+      "PRINDSENS GADE 8B",
+      "PRINDSENS GADE 9B DWN",
+      "PRINDSENS GADE UP",
       "PRIVATEER BAY 6Y-5",
       "PROFIT",
       "PROFIT 1",
@@ -49850,8 +49922,8 @@
       "ZUERIENDENHEIT",
       "ZUFRIDENHEIT 1"
     ],
-    "totalOutages": 31
+    "totalOutages": 32
   },
   "staleAfterSeconds": 900,
-  "unassignedEventCount": 29
+  "unassignedEventCount": 30
 }
