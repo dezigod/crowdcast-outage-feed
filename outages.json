@@ -10507,6 +10507,31 @@
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
+      "id": "673c94fc04982469d29a18e12dfb128ae80371e0a95776bc697d65678d88ca97",
+      "island": null,
+      "locations": [
+        "BUTLERS BAY 2-B"
+      ],
+      "modifiedAt": "2026-11-24T20:52:06Z",
+      "name": "T-C-04741",
+      "neighborhoodIDs": [],
+      "point": {
+        "latitude": 17.753092320175146,
+        "longitude": -64.88084556339297
+      },
+      "reportedCustomersInitially": 1,
+      "reportedCustomersOut": 1,
+      "reportedCustomersRestored": 0,
+      "sourceStatus": "Predicted",
+      "startedAt": "2026-11-24T20:51:31Z",
+      "verified": false,
+      "workStatus": null
+    },
+    {
+      "cause": null,
+      "crewAssigned": false,
+      "endedAt": null,
+      "estimatedRestoration": null,
       "id": "688d24f7b6e72cb60f9dd7cfcfc315b9ee0efe7095b9fbf192b7ed84c8031d54",
       "island": "stThomas",
       "locations": [
@@ -17601,6 +17626,31 @@
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
+      "id": "a805efdbe3cdb8c304b767e9ecb012d2d68878f82f7fbff1f24eca8c8d443109",
+      "island": null,
+      "locations": [
+        "CRUZ BAY 18-5"
+      ],
+      "modifiedAt": "2026-11-24T20:52:51Z",
+      "name": "T-J-03785",
+      "neighborhoodIDs": [],
+      "point": {
+        "latitude": 18.33257445254561,
+        "longitude": -64.79179795286248
+      },
+      "reportedCustomersInitially": 1,
+      "reportedCustomersOut": 1,
+      "reportedCustomersRestored": 0,
+      "sourceStatus": "Predicted",
+      "startedAt": "2026-11-24T20:52:28Z",
+      "verified": false,
+      "workStatus": null
+    },
+    {
+      "cause": null,
+      "crewAssigned": false,
+      "endedAt": null,
+      "estimatedRestoration": null,
       "id": "a89610ebe31856d6f6ea3be72bf0e09c00f930398b485466e6cf001b90144036",
       "island": null,
       "locations": [
@@ -24376,7 +24426,7 @@
       "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-24T20:51:26Z",
+  "generatedAt": "2026-11-24T20:56:28Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -26125,21 +26175,21 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "6853f80c64e9cc6412d8996b797d1b41dbb57bebd6889010bac4f6fabf382fad",
+  "snapshotID": "4db933618151743da384d2ad105d27159907fcdcbeb9ae965af475dd28115761",
   "source": {
-    "checkedAt": "2026-11-24T20:51:26Z",
+    "checkedAt": "2026-11-24T20:56:28Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-24T20:51:12Z",
+    "updatedAt": "2026-11-24T20:56:12Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "sourceSummary": {
     "customerCountDifference": 2,
-    "customersAffected": 32147,
-    "customersOut": 32147,
+    "customersAffected": 32149,
+    "customersOut": 32149,
     "customersRestored": 0,
     "customersServed": 54729,
-    "eventCustomersOut": 32145,
+    "eventCustomersOut": 32147,
     "hourlyCustomersOut": [
       {
         "at": "2026-11-22T20:00:00Z",
@@ -26335,7 +26385,7 @@
       },
       {
         "at": "2026-11-24T20:00:00Z",
-        "customersOut": 39141
+        "customersOut": 39142
       }
     ],
     "locations": [
@@ -29794,6 +29844,7 @@
       "BUGBY HOLE 99 A",
       "BULOWS MINDS/BEESTON HILL",
       "BUTLER BAY EAST 5-A",
+      "BUTLERS BAY 2-B",
       "CALABASH BM MAIN PUMP 1-2",
       "CALABASH BOOM",
       "CALABASH BOOM #28-11",
@@ -33174,6 +33225,7 @@
       "CRUZ BAY 12C (APT C2)",
       "CRUZ BAY 12C-A2",
       "CRUZ BAY 18-38 1 ZONE D",
+      "CRUZ BAY 18-5",
       "CRUZ BAY 1A",
       "CRUZ BAY 1-A",
       "CRUZ BAY 1A COOL BREEZE",
@@ -49798,8 +49850,8 @@
       "ZUERIENDENHEIT",
       "ZUFRIDENHEIT 1"
     ],
-    "totalOutages": 29
+    "totalOutages": 31
   },
   "staleAfterSeconds": 900,
-  "unassignedEventCount": 27
+  "unassignedEventCount": 29
 }
