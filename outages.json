@@ -19325,6 +19325,34 @@
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
+      "id": "d07f2a9ecaa1eefc68bf44d951f35e35a2f6748e2c8e0018e307a0f60fd73ed8",
+      "island": null,
+      "locations": [
+        "HONDURAS 24A",
+        "HONDURAS 24A ALEX",
+        "HONDURAS 62",
+        "HONDURAS PCL 24A"
+      ],
+      "modifiedAt": "2026-11-24T22:27:30Z",
+      "name": "T-T-02574",
+      "neighborhoodIDs": [],
+      "point": {
+        "latitude": 18.337134539653867,
+        "longitude": -64.94056941181879
+      },
+      "reportedCustomersInitially": 6,
+      "reportedCustomersOut": 6,
+      "reportedCustomersRestored": 0,
+      "sourceStatus": "Predicted",
+      "startedAt": "2026-11-24T22:27:06Z",
+      "verified": false,
+      "workStatus": null
+    },
+    {
+      "cause": null,
+      "crewAssigned": false,
+      "endedAt": null,
+      "estimatedRestoration": null,
       "id": "d2b3c4a783164c32cbbc9917373196348294cce491eff2a3d6b043c7982dd924",
       "island": null,
       "locations": [
@@ -22016,7 +22044,7 @@
       "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-24T22:30:59Z",
+  "generatedAt": "2026-11-24T22:36:02Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -23624,25 +23652,25 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "f967b998cc40da5bd52f1f767f2a4d0ba0f80aa6ac0ae960b81a2efbc57e966f",
+  "snapshotID": "6470601055acfb3f0172788a76f0fcb8093d316a22b09dffeb646b1e7735a081",
   "source": {
-    "checkedAt": "2026-11-24T22:30:59Z",
+    "checkedAt": "2026-11-24T22:36:02Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-24T22:26:12Z",
+    "updatedAt": "2026-11-24T22:31:12Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "sourceSummary": {
     "customerCountDifference": 2,
-    "customersAffected": 28395,
-    "customersOut": 28395,
+    "customersAffected": 28401,
+    "customersOut": 28401,
     "customersRestored": 0,
     "customersServed": 54729,
-    "eventCustomersOut": 28393,
+    "eventCustomersOut": 28399,
     "hourlyCustomersOut": [
       {
         "at": "2026-11-22T22:00:00Z",
-        "customersOut": 4733
+        "customersOut": 2884
       },
       {
         "at": "2026-11-22T23:00:00Z",
@@ -23834,7 +23862,7 @@
       },
       {
         "at": "2026-11-24T22:00:00Z",
-        "customersOut": 28393
+        "customersOut": 28399
       }
     ],
     "locations": [
@@ -34357,6 +34385,10 @@
       "HOGENSBORG 6-K APT3",
       "HOLGER'S HOPE",
       "HOLGER'S HOPE 1",
+      "HONDURAS 24A",
+      "HONDURAS 24A ALEX",
+      "HONDURAS 62",
+      "HONDURAS PCL 24A",
       "HONEY MOON BEACH-WATER IS",
       "HOPE",
       "HOPE #15",
@@ -45056,8 +45088,8 @@
       "ZUERIENDENHEIT",
       "ZUFRIDENHEIT 1"
     ],
-    "totalOutages": 26
+    "totalOutages": 27
   },
   "staleAfterSeconds": 900,
-  "unassignedEventCount": 24
+  "unassignedEventCount": 25
 }
