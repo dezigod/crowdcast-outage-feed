@@ -6,6 +6,71 @@
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
+      "id": "08f8b54101a89ec9de6201dfb816faacafb00411d9d4ae989202cb859b6a85db",
+      "island": null,
+      "locations": [
+        "CRUZAN PRINCESS",
+        "CRUZAN PRINCESS U-1",
+        "CRUZAN PRINCESS U-2",
+        "CRUZAN PRINCESS V-1",
+        "CRUZAN PRINCESS V-2",
+        "CRUZAN PRINCESS V-3",
+        "CRUZAN PRINCESS V-4",
+        "CRUZAN PRINCESS W-2",
+        "CRUZAN PRINCESS X-1",
+        "CRUZAN PRINCESS X-2",
+        "CRUZAN PRINCESS Y-1",
+        "CRUZAN PRINCESS Y-2",
+        "CRUZAN PRINCESS Z-1",
+        "CRUZAN PRINCESS Z-2",
+        "LA GRANDE PRINCESS",
+        "LA GRANDE PRINCESS 4129"
+      ],
+      "modifiedAt": "2026-11-24T23:05:29Z",
+      "name": "T-C-05168",
+      "neighborhoodIDs": [],
+      "point": {
+        "latitude": 17.763778628333924,
+        "longitude": -64.73312189743885
+      },
+      "reportedCustomersInitially": 18,
+      "reportedCustomersOut": 18,
+      "reportedCustomersRestored": 0,
+      "sourceStatus": "Predicted",
+      "startedAt": "2026-11-24T23:05:11Z",
+      "verified": false,
+      "workStatus": null
+    },
+    {
+      "cause": null,
+      "crewAssigned": false,
+      "endedAt": null,
+      "estimatedRestoration": null,
+      "id": "0e841817a2c7dd33dedaa5553149db876c309568802cc30a77b785290af39b54",
+      "island": null,
+      "locations": [
+        "CARAMBOLA-SAMAN VILLAS"
+      ],
+      "modifiedAt": "2026-11-24T23:04:59Z",
+      "name": "T-C-00159",
+      "neighborhoodIDs": [],
+      "point": {
+        "latitude": 17.748944877400366,
+        "longitude": -64.8250840952984
+      },
+      "reportedCustomersInitially": 4,
+      "reportedCustomersOut": 4,
+      "reportedCustomersRestored": 0,
+      "sourceStatus": "Predicted",
+      "startedAt": "2026-11-24T23:04:26Z",
+      "verified": false,
+      "workStatus": null
+    },
+    {
+      "cause": null,
+      "crewAssigned": false,
+      "endedAt": null,
+      "estimatedRestoration": null,
       "id": "114334c01aa87b660788dbcd897dba52abaccf25d73a80313b285103c5d75502",
       "island": null,
       "locations": [
@@ -3006,6 +3071,32 @@
       "sourceStatus": "Verified",
       "startedAt": "2026-11-24T18:47:19Z",
       "verified": true,
+      "workStatus": null
+    },
+    {
+      "cause": null,
+      "crewAssigned": false,
+      "endedAt": null,
+      "estimatedRestoration": null,
+      "id": "5c00ad38379b43bad9f5942d9357098485b9cd63041adbb77e71a56cbcaf2f21",
+      "island": null,
+      "locations": [
+        "CARIB VILLAS IV",
+        "LA GRANDE PRINCESS"
+      ],
+      "modifiedAt": "2026-11-24T23:02:55Z",
+      "name": "T-C-04070",
+      "neighborhoodIDs": [],
+      "point": {
+        "latitude": 17.765228817924424,
+        "longitude": -64.7408331220272
+      },
+      "reportedCustomersInitially": 22,
+      "reportedCustomersOut": 22,
+      "reportedCustomersRestored": 0,
+      "sourceStatus": "Predicted",
+      "startedAt": "2026-11-24T23:02:43Z",
+      "verified": false,
       "workStatus": null
     },
     {
@@ -8240,6 +8331,47 @@
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
+      "id": "8eb948ac8d89a57f29ab2c63f4e554c91f20812a33636ec01cf3cca83af14d7e",
+      "island": null,
+      "locations": [
+        "LITTLE LA GRANGE 109",
+        "LITTLE LA GRANGE 114",
+        "LITTLE LA GRANGE 151",
+        "LITTLE LA GRANGE 154",
+        "LITTLE LA GRANGE 155",
+        "LITTLE LA GRANGE 156",
+        "LITTLE LA GRANGE 157",
+        "LITTLE LA GRANGE 160-162",
+        "LITTLE LA GRANGE 163",
+        "LITTLE LA GRANGE 168",
+        "LITTLE LA GRANGE 169",
+        "LITTLE LA GRANGE 170",
+        "LITTLE LA GRANGE 173",
+        "LITTLE LA GRANGE 174A",
+        "LITTLE LA GRANGE 175",
+        "LITTLE LA GRANGE 177",
+        "LITTLE LA GRANGE 178"
+      ],
+      "modifiedAt": "2026-11-24T23:03:07Z",
+      "name": "OCD1046958",
+      "neighborhoodIDs": [],
+      "point": {
+        "latitude": 17.730910473764926,
+        "longitude": -64.86805946333718
+      },
+      "reportedCustomersInitially": 17,
+      "reportedCustomersOut": 17,
+      "reportedCustomersRestored": 0,
+      "sourceStatus": "Predicted",
+      "startedAt": "2026-11-24T23:02:16Z",
+      "verified": false,
+      "workStatus": null
+    },
+    {
+      "cause": null,
+      "crewAssigned": false,
+      "endedAt": null,
+      "estimatedRestoration": null,
       "id": "93530747377917ca92be02a8ea14567292bc8cd14f164f3b1f518e559c7b3617",
       "island": null,
       "locations": [
@@ -10348,6 +10480,35 @@
       "sourceStatus": "Verified",
       "startedAt": "2026-11-24T20:13:51Z",
       "verified": true,
+      "workStatus": null
+    },
+    {
+      "cause": null,
+      "crewAssigned": false,
+      "endedAt": null,
+      "estimatedRestoration": null,
+      "id": "93853de3da6d0e24584b12f3f4e8d1ea6db5fc5ae269576feb3f0e999fc98dcd",
+      "island": null,
+      "locations": [
+        "GROVE PLACE 124",
+        "GROVE PLACE 235",
+        "GROVE PLACE 236",
+        "GROVE PLACE 262",
+        "GROVE PLACE HSE 2"
+      ],
+      "modifiedAt": "2026-11-24T23:03:26Z",
+      "name": "T-C-12787",
+      "neighborhoodIDs": [],
+      "point": {
+        "latitude": 17.731292371844155,
+        "longitude": -64.82394727789227
+      },
+      "reportedCustomersInitially": 6,
+      "reportedCustomersOut": 6,
+      "reportedCustomersRestored": 0,
+      "sourceStatus": "Predicted",
+      "startedAt": "2026-11-24T23:02:49Z",
+      "verified": false,
       "workStatus": null
     },
     {
@@ -14348,6 +14509,33 @@
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
+      "id": "acad9ca07c165931b9745d4701c1135a38fa114c60d174c29e98838dd3afcf10",
+      "island": null,
+      "locations": [
+        "BETSYS JEWEL",
+        "BETSYS JEWEL 10",
+        "BETSYS JEWEL 4"
+      ],
+      "modifiedAt": "2026-11-24T23:03:26Z",
+      "name": "T-C-22739",
+      "neighborhoodIDs": [],
+      "point": {
+        "latitude": 17.764903958062035,
+        "longitude": -64.7963201239863
+      },
+      "reportedCustomersInitially": 3,
+      "reportedCustomersOut": 3,
+      "reportedCustomersRestored": 0,
+      "sourceStatus": "Predicted",
+      "startedAt": "2026-11-24T23:03:19Z",
+      "verified": false,
+      "workStatus": null
+    },
+    {
+      "cause": null,
+      "crewAssigned": false,
+      "endedAt": null,
+      "estimatedRestoration": null,
       "id": "af504358513f61fc5f3742b32b166a7d2dc0be8c7491cb1957a1efb6087b27d6",
       "island": null,
       "locations": [
@@ -14437,6 +14625,33 @@
       "sourceStatus": "Verified",
       "startedAt": "2026-11-24T22:37:00Z",
       "verified": true,
+      "workStatus": null
+    },
+    {
+      "cause": null,
+      "crewAssigned": false,
+      "endedAt": null,
+      "estimatedRestoration": null,
+      "id": "b39e20f2b033944bb677292bf8f92259f935006008d4b91452b9c2dad85e3325",
+      "island": null,
+      "locations": [
+        "CONCORDIA 71 (EAST)",
+        "CONCORDIA 77",
+        "VISTA CONCORDIA 70"
+      ],
+      "modifiedAt": "2026-11-24T23:04:42Z",
+      "name": "T-C-08796",
+      "neighborhoodIDs": [],
+      "point": {
+        "latitude": 17.773750560886306,
+        "longitude": -64.7705577043577
+      },
+      "reportedCustomersInitially": 3,
+      "reportedCustomersOut": 3,
+      "reportedCustomersRestored": 0,
+      "sourceStatus": "Predicted",
+      "startedAt": "2026-11-24T23:04:07Z",
+      "verified": false,
       "workStatus": null
     },
     {
@@ -18463,6 +18678,31 @@
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
+      "id": "d641dc384ff6fa4ef79f3b9a636aab1888abca9219033e2098a46d7fd276f85c",
+      "island": null,
+      "locations": [
+        "JOLLY HILL 7-C"
+      ],
+      "modifiedAt": "2026-11-24T23:04:42Z",
+      "name": "T-C-21381",
+      "neighborhoodIDs": [],
+      "point": {
+        "latitude": 17.73158210036855,
+        "longitude": -64.85672371479843
+      },
+      "reportedCustomersInitially": 1,
+      "reportedCustomersOut": 1,
+      "reportedCustomersRestored": 0,
+      "sourceStatus": "Predicted",
+      "startedAt": "2026-11-24T23:04:23Z",
+      "verified": false,
+      "workStatus": null
+    },
+    {
+      "cause": null,
+      "crewAssigned": false,
+      "endedAt": null,
+      "estimatedRestoration": null,
       "id": "ec5bb6db45e6040e80461a0d91762d687660b7619bcead18876d73a3b365a585",
       "island": null,
       "locations": [
@@ -20047,7 +20287,7 @@
       "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-24T23:01:13Z",
+  "generatedAt": "2026-11-24T23:06:19Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -21037,29 +21277,25 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "9b2835bfc8f532ed5b65f793a8c4b189fed3bbcb1287d8361c2c9dcb1b2bc162",
+  "snapshotID": "c97c455241c22b59dad373acf103efb6e8a37c838877b81019fbca5bdd69036a",
   "source": {
-    "checkedAt": "2026-11-24T23:01:13Z",
+    "checkedAt": "2026-11-24T23:06:19Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-24T22:56:10Z",
+    "updatedAt": "2026-11-24T23:06:10Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "sourceSummary": {
-    "customerCountDifference": 2,
-    "customersAffected": 25849,
-    "customersOut": 25849,
+    "customerCountDifference": 7,
+    "customersAffected": 25928,
+    "customersOut": 25928,
     "customersRestored": 0,
     "customersServed": 54729,
-    "eventCustomersOut": 25847,
+    "eventCustomersOut": 25921,
     "hourlyCustomersOut": [
       {
-        "at": "2026-11-22T22:00:00Z",
-        "customersOut": 2884
-      },
-      {
         "at": "2026-11-22T23:00:00Z",
-        "customersOut": 2884
+        "customersOut": 2877
       },
       {
         "at": "2026-11-23T00:00:00Z",
@@ -21248,6 +21484,10 @@
       {
         "at": "2026-11-24T22:00:00Z",
         "customersOut": 37824
+      },
+      {
+        "at": "2026-11-24T23:00:00Z",
+        "customersOut": 25926
       }
     ],
     "locations": [
@@ -22889,6 +23129,9 @@
       "BETHLEHEM/NEW WORK",
       "BETHLEHEM/OLD WORKS 111",
       "BETHNAY 1JB UP",
+      "BETSYS JEWEL",
+      "BETSYS JEWEL 10",
+      "BETSYS JEWEL 4",
       "BEVERHOUDSTSBERG 2-F(DWN)",
       "BEVERHOUDTBERG 2B-1",
       "BEVERHOUDTSBERG # 3-1",
@@ -23400,6 +23643,7 @@
       "CANEBRAKE APARTMENTS B-8",
       "CANEGATA BALL PARK",
       "CANEGATA BASEBALL FIELD",
+      "CARAMBOLA-SAMAN VILLAS",
       "CARANAGE",
       "CARAVELLE ARCADE",
       "CARAVELLE ARCADE #15",
@@ -23476,6 +23720,7 @@
       "CARET BAY-EAST #7",
       "CARGO TERMINAL",
       "CARGO TERMINAL STX ALEXAN",
+      "CARIB VILLAS IV",
       "CARLTON",
       "CARLTON #2 BAY 4 & 7",
       "CARLTON (COTTAGE) 11",
@@ -25257,11 +25502,13 @@
       "CONCORDIA 70-E",
       "CONCORDIA 70-F",
       "CONCORDIA 71",
+      "CONCORDIA 71 (EAST)",
       "CONCORDIA 73 B-3",
       "CONCORDIA 75",
       "CONCORDIA 75C 1",
       "CONCORDIA 76 & 77",
       "CONCORDIA 76-77",
+      "CONCORDIA 77",
       "CONCORDIA 78",
       "CONCORDIA 80",
       "CONCORDIA 81",
@@ -26292,6 +26539,20 @@
       "CRUZ BAY TOWN 86 B-C",
       "CRUZ BAY TOWN B-C",
       "CRUZ BAY/ENIGHED",
+      "CRUZAN PRINCESS",
+      "CRUZAN PRINCESS U-1",
+      "CRUZAN PRINCESS U-2",
+      "CRUZAN PRINCESS V-1",
+      "CRUZAN PRINCESS V-2",
+      "CRUZAN PRINCESS V-3",
+      "CRUZAN PRINCESS V-4",
+      "CRUZAN PRINCESS W-2",
+      "CRUZAN PRINCESS X-1",
+      "CRUZAN PRINCESS X-2",
+      "CRUZAN PRINCESS Y-1",
+      "CRUZAN PRINCESS Y-2",
+      "CRUZAN PRINCESS Z-1",
+      "CRUZAN PRINCESS Z-2",
       "CRYSTAL GADE",
       "CRYSTAL GADE 11",
       "CRYSTAL GADE 13A",
@@ -29600,6 +29861,11 @@
       "GRIFFITH BALL PARKING",
       "GRIFFITH PARK PKING LOT",
       "GROVE PLACE 112",
+      "GROVE PLACE 124",
+      "GROVE PLACE 235",
+      "GROVE PLACE 236",
+      "GROVE PLACE 262",
+      "GROVE PLACE HSE 2",
       "GRUNDWALD 3-1",
       "GRUNDWALD 3-2-1",
       "GRUNDWALD 3-3",
@@ -30841,6 +31107,7 @@
       "JOHN F KENNEDY COMMUNITY",
       "JOHN F KENNEDY OFFICE",
       "JOHN F KENNEDY STRWAY LGT",
+      "JOLLY HILL 7-C",
       "JOSEPH & ROSENDAHL 10E&F",
       "JOSEPH & ROSENDAHL 10H",
       "JOSEPH & ROSENDAHL 10-J",
@@ -31269,6 +31536,8 @@
       "KRONPRINDSENS GADE UP-A",
       "KRONPRINDSENS GD 1-2-3-4",
       "K'SHILL INTERSECTION/CHS",
+      "LA GRANDE PRINCESS",
+      "LA GRANDE PRINCESS 4129",
       "LA GRANGE",
       "LA GRANGE 1",
       "LA GRANGE 1 NB",
@@ -31666,12 +31935,29 @@
       "LITTLE HOSPITAL STREET 7A",
       "LITTLE HOSPITAL STREET DW",
       "LITTLE LA GRANGE",
+      "LITTLE LA GRANGE 109",
+      "LITTLE LA GRANGE 114",
       "LITTLE LA GRANGE 125",
       "LITTLE LA GRANGE 126-126A",
       "LITTLE LA GRANGE 127",
       "LITTLE LA GRANGE 130",
       "LITTLE LA GRANGE 140",
       "LITTLE LA GRANGE 141",
+      "LITTLE LA GRANGE 151",
+      "LITTLE LA GRANGE 154",
+      "LITTLE LA GRANGE 155",
+      "LITTLE LA GRANGE 156",
+      "LITTLE LA GRANGE 157",
+      "LITTLE LA GRANGE 160-162",
+      "LITTLE LA GRANGE 163",
+      "LITTLE LA GRANGE 168",
+      "LITTLE LA GRANGE 169",
+      "LITTLE LA GRANGE 170",
+      "LITTLE LA GRANGE 173",
+      "LITTLE LA GRANGE 174A",
+      "LITTLE LA GRANGE 175",
+      "LITTLE LA GRANGE 177",
+      "LITTLE LA GRANGE 178",
       "LITTLE LA GRANGE 198",
       "LITTLE LA GRANGE 200",
       "LITTLE LA GRANGE 203",
@@ -36150,6 +36436,8 @@
       "SION FARM 37",
       "SION FARM 38",
       "SION FARM 39",
+      "SION FARM 3-J",
+      "SION FARM 3-K",
       "SION FARM 4",
       "SION FARM 4 A-6",
       "SION FARM 40-A",
@@ -37869,6 +38157,7 @@
       "VILLA MADELEINE CONDO 8",
       "VILLA MADELEINE CONDO 9",
       "VIRGIN GRAND EST #71",
+      "VISTA CONCORDIA 70",
       "VITRACO MALL 1-STIX",
       "VITRACO MALL B-1 BAY-2",
       "VITRACO PARK",
@@ -40631,8 +40920,8 @@
       "YELLOW CLIFF 29",
       "YELLOW CLIFF 4&5"
     ],
-    "totalOutages": 21
+    "totalOutages": 29
   },
   "staleAfterSeconds": 900,
-  "unassignedEventCount": 19
+  "unassignedEventCount": 27
 }
