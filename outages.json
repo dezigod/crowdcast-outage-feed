@@ -19255,6 +19255,32 @@
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
+      "id": "b8d555730241581804519970fab36581dec8e5e5ab73b2cf4b69b889714c3d43",
+      "island": null,
+      "locations": [
+        "MANDAHL 34 J3",
+        "MANDAHL 34J"
+      ],
+      "modifiedAt": "2026-11-24T22:24:59Z",
+      "name": "T-T-15351",
+      "neighborhoodIDs": [],
+      "point": {
+        "latitude": 18.361085626334184,
+        "longitude": -64.89975519931279
+      },
+      "reportedCustomersInitially": 2,
+      "reportedCustomersOut": 2,
+      "reportedCustomersRestored": 0,
+      "sourceStatus": "Predicted",
+      "startedAt": "2026-11-24T22:24:36Z",
+      "verified": false,
+      "workStatus": null
+    },
+    {
+      "cause": null,
+      "crewAssigned": false,
+      "endedAt": null,
+      "estimatedRestoration": null,
       "id": "c6ac9db2176e4818f27a84d904019629f2ec91cec5f873094cbf2909334713da",
       "island": null,
       "locations": [
@@ -21990,7 +22016,7 @@
       "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-24T22:25:57Z",
+  "generatedAt": "2026-11-24T22:30:59Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -23598,21 +23624,21 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "fc20112d3d53c86fcc05fd4e0d7a23d7bac960ea30552e4367d5b148d9ff07bd",
+  "snapshotID": "f967b998cc40da5bd52f1f767f2a4d0ba0f80aa6ac0ae960b81a2efbc57e966f",
   "source": {
-    "checkedAt": "2026-11-24T22:25:57Z",
+    "checkedAt": "2026-11-24T22:30:59Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-24T22:21:11Z",
+    "updatedAt": "2026-11-24T22:26:12Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "sourceSummary": {
     "customerCountDifference": 2,
-    "customersAffected": 28393,
-    "customersOut": 28393,
+    "customersAffected": 28395,
+    "customersOut": 28395,
     "customersRestored": 0,
     "customersServed": 54729,
-    "eventCustomersOut": 28391,
+    "eventCustomersOut": 28393,
     "hourlyCustomersOut": [
       {
         "at": "2026-11-22T22:00:00Z",
@@ -23808,7 +23834,7 @@
       },
       {
         "at": "2026-11-24T22:00:00Z",
-        "customersOut": 28391
+        "customersOut": 28393
       }
     ],
     "locations": [
@@ -36525,6 +36551,8 @@
       "MANDAHL 16-EC",
       "MANDAHL 16E-D-1",
       "MANDAHL 16F",
+      "MANDAHL 34 J3",
+      "MANDAHL 34J",
       "MANNING BAY 1",
       "MANNING BAY 1RR FBO LLC",
       "MANNING BAY 33-5",
@@ -45028,8 +45056,8 @@
       "ZUERIENDENHEIT",
       "ZUFRIDENHEIT 1"
     ],
-    "totalOutages": 25
+    "totalOutages": 26
   },
   "staleAfterSeconds": 900,
-  "unassignedEventCount": 23
+  "unassignedEventCount": 24
 }
