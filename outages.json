@@ -6,6 +6,44 @@
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
+      "id": "1012f413f7b7b0a9286eb536189f6b2e46895b2e6a0590e06ada3977e676d1f6",
+      "island": null,
+      "locations": [
+        "ESTATE SOLBEG 79-43",
+        "ESTATE SOLBERG 79-38",
+        "ESTATE SOLBERG 79-43",
+        "ESTATE SOLBERG 94-8 MTR 2",
+        "SOLBERG",
+        "SOLBERG 79-38 EAST",
+        "SOLBERG 79-39",
+        "SOLBERG 79-40",
+        "SOLBERG 79-41",
+        "SOLBERG 79-42 UP",
+        "SOLBERG 79-43",
+        "SOLBERG 91",
+        "SOLBERG 91 UP",
+        "SOLBERG 94-8 MTR 1"
+      ],
+      "modifiedAt": "2026-11-24T16:08:43Z",
+      "name": "T-T-02150",
+      "neighborhoodIDs": [],
+      "point": {
+        "latitude": 18.346144580514284,
+        "longitude": -64.94534613417767
+      },
+      "reportedCustomersInitially": 16,
+      "reportedCustomersOut": 16,
+      "reportedCustomersRestored": 0,
+      "sourceStatus": "Predicted",
+      "startedAt": "2026-11-24T16:08:30Z",
+      "verified": false,
+      "workStatus": null
+    },
+    {
+      "cause": null,
+      "crewAssigned": false,
+      "endedAt": null,
+      "estimatedRestoration": null,
       "id": "114334c01aa87b660788dbcd897dba52abaccf25d73a80313b285103c5d75502",
       "island": null,
       "locations": [
@@ -372,6 +410,52 @@
       "sourceStatus": "Verified",
       "startedAt": "2026-11-24T12:35:52Z",
       "verified": true,
+      "workStatus": null
+    },
+    {
+      "cause": null,
+      "crewAssigned": false,
+      "endedAt": null,
+      "estimatedRestoration": null,
+      "id": "2a7d0be3a8d1ae5da8eac01b38f0181175e0710302de15aa267d07a7f84065ea",
+      "island": null,
+      "locations": [
+        "EST FRYDENHOJ 12G",
+        "EST FRYDENHOJ 12P",
+        "EST FRYDENHOJ 12S",
+        "EST FRYDENHOJ 74 BD1",
+        "EST FRYDENHOJ 74BD",
+        "EST FRYDENHOJ 74K",
+        "FRYDENHOJ 12G",
+        "FRYDENHOJ 12T",
+        "FRYDENHOJ 12U MTR A",
+        "FRYDENHOJ 12-U MTR C",
+        "FRYDENHOJ 12U MTR-B",
+        "FRYDENHOJ 52B",
+        "FRYDENHOJ 52C-B",
+        "FRYDENHOJ 52D-C",
+        "FRYDENHOJ 52FA",
+        "FRYDENHOJ 52M-A",
+        "FRYDENHOJ 74 BC",
+        "FRYDENHOJ 74BE",
+        "FRYDENHOJ 74BG",
+        "FRYDENHOJ 74-H",
+        "FRYDENHOJ 74-J",
+        "FRYDENHOJ 74J (UP)"
+      ],
+      "modifiedAt": "2026-11-24T16:08:27Z",
+      "name": "T-T-10089",
+      "neighborhoodIDs": [],
+      "point": {
+        "latitude": 18.321378203170028,
+        "longitude": -64.86924473860961
+      },
+      "reportedCustomersInitially": 26,
+      "reportedCustomersOut": 26,
+      "reportedCustomersRestored": 0,
+      "sourceStatus": "Predicted",
+      "startedAt": "2026-11-24T16:08:03Z",
+      "verified": false,
       "workStatus": null
     },
     {
@@ -15440,7 +15524,7 @@
       "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-24T16:06:25Z",
+  "generatedAt": "2026-11-24T16:11:26Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -17461,21 +17545,21 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "86ef8ade3e81ee7f86d3d33568dc52b6a99194a81493b88f9ae9e26ca5e10a40",
+  "snapshotID": "ed0930df5e881537d8a116576b33e7f1da17bd46cb35ffa55a980d8125d9c55c",
   "source": {
-    "checkedAt": "2026-11-24T16:06:25Z",
+    "checkedAt": "2026-11-24T16:11:26Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-24T16:06:08Z",
+    "updatedAt": "2026-11-24T16:11:08Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "sourceSummary": {
     "customerCountDifference": 2,
-    "customersAffected": 20174,
-    "customersOut": 20174,
+    "customersAffected": 20216,
+    "customersOut": 20216,
     "customersRestored": 0,
     "customersServed": 54728,
-    "eventCustomersOut": 20172,
+    "eventCustomersOut": 20214,
     "hourlyCustomersOut": [
       {
         "at": "2026-11-22T16:00:00Z",
@@ -17671,7 +17755,7 @@
       },
       {
         "at": "2026-11-24T16:00:00Z",
-        "customersOut": 20172
+        "customersOut": 20214
       }
     ],
     "locations": [
@@ -22016,6 +22100,12 @@
       "EST FRYDENDAHL 56-81 PUMP",
       "EST FRYDENDAHL 56-9 DWN",
       "EST FRYDENHAL 56-15 UP",
+      "EST FRYDENHOJ 12G",
+      "EST FRYDENHOJ 12P",
+      "EST FRYDENHOJ 12S",
+      "EST FRYDENHOJ 74 BD1",
+      "EST FRYDENHOJ 74BD",
+      "EST FRYDENHOJ 74K",
       "EST GEORGES PLOT 194",
       "EST GOLDEN GROVE MOBILE",
       "EST GOLDEN GROVE MOBILE*",
@@ -23112,6 +23202,10 @@
       "ESTATE SMITH BAY 19-2-164",
       "ESTATE SMITH BAY 51",
       "ESTATE SMITH BAY 57X-2A",
+      "ESTATE SOLBEG 79-43",
+      "ESTATE SOLBERG 79-38",
+      "ESTATE SOLBERG 79-43",
+      "ESTATE SOLBERG 94-8 MTR 2",
       "ESTATE ST. JOHN 5",
       "ESTATE THOMAS",
       "ESTATE THOMAS #6 6TH ST",
@@ -23960,7 +24054,23 @@
       "FRYDENDHL STE 5-7-8",
       "FRYDENHAHL 52-7",
       "FRYDENHOJ 1-20",
+      "FRYDENHOJ 12G",
+      "FRYDENHOJ 12T",
+      "FRYDENHOJ 12U MTR A",
+      "FRYDENHOJ 12-U MTR C",
+      "FRYDENHOJ 12U MTR-B",
       "FRYDENHOJ 2 12BA A2",
+      "FRYDENHOJ 52B",
+      "FRYDENHOJ 52C-B",
+      "FRYDENHOJ 52D-C",
+      "FRYDENHOJ 52FA",
+      "FRYDENHOJ 52M-A",
+      "FRYDENHOJ 74 BC",
+      "FRYDENHOJ 74BE",
+      "FRYDENHOJ 74BG",
+      "FRYDENHOJ 74-H",
+      "FRYDENHOJ 74-J",
+      "FRYDENHOJ 74J (UP)",
       "FT MYINER SHOPPING CENTER",
       "GAMBLE NORDSIDEVEJ 9Q",
       "GENTLE WINDS A-1",
@@ -31015,6 +31125,16 @@
       "SMITHBAY SAPP VIL 104-A",
       "SMITHBAY/ST VINCENT BLD",
       "SMITHFIELD 24",
+      "SOLBERG",
+      "SOLBERG 79-38 EAST",
+      "SOLBERG 79-39",
+      "SOLBERG 79-40",
+      "SOLBERG 79-41",
+      "SOLBERG 79-42 UP",
+      "SOLBERG 79-43",
+      "SOLBERG 91",
+      "SOLBERG 91 UP",
+      "SOLBERG 94-8 MTR 1",
       "SPANISH TOWN 3A",
       "SPANISH TOWN SITE 2",
       "SPRINGFIELD",
@@ -32482,8 +32602,8 @@
       "ZOOTENVAAL 3Q (MTR 1)",
       "ZOOTENVAAL 3T"
     ],
-    "totalOutages": 22
+    "totalOutages": 24
   },
   "staleAfterSeconds": 900,
-  "unassignedEventCount": 20
+  "unassignedEventCount": 22
 }
