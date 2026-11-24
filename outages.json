@@ -2,7 +2,7 @@
   "collectionStatus": "ok",
   "events": [
     {
-      "cause": null,
+      "cause": "000 Power supply",
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
@@ -2950,7 +2950,7 @@
         "ZUERIENDENHEIT",
         "ZUFRIDENHEIT 1"
       ],
-      "modifiedAt": "2026-11-24T16:36:38Z",
+      "modifiedAt": "2026-11-24T17:35:43Z",
       "name": "Feeder 07A",
       "neighborhoodIDs": [
         "stThomas-agnes-fancy",
@@ -3343,7 +3343,7 @@
       "workStatus": null
     },
     {
-      "cause": null,
+      "cause": "000 Power supply",
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
@@ -5597,7 +5597,7 @@
         "VESSUP BAY EST 9-39",
         "VESSUP LANE 9A-19"
       ],
-      "modifiedAt": "2026-11-24T16:33:37Z",
+      "modifiedAt": "2026-11-24T17:35:48Z",
       "name": "Feeder 09C",
       "neighborhoodIDs": [
         "stThomas-smith-bay"
@@ -7175,7 +7175,7 @@
       "workStatus": null
     },
     {
-      "cause": null,
+      "cause": "000 Power supply",
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
@@ -9301,7 +9301,7 @@
         "SUZANNABERG 2-3 HOUSE",
         "VIRGIN GRAND EST #71"
       ],
-      "modifiedAt": "2026-11-24T16:37:30Z",
+      "modifiedAt": "2026-11-24T17:35:52Z",
       "name": "Feeder 09E",
       "neighborhoodIDs": [
         "stThomas-lovenlund"
@@ -12532,7 +12532,7 @@
       "workStatus": null
     },
     {
-      "cause": null,
+      "cause": "000 Power supply",
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
@@ -13003,7 +13003,7 @@
         "WATERFRONT/HIGHWAY & TRAF",
         "WINDWARD PASSAGE/TRAFFIC"
       ],
-      "modifiedAt": "2026-11-24T16:51:44Z",
+      "modifiedAt": "2026-11-24T17:35:39Z",
       "name": "Mkt SW1 10A Way 3",
       "neighborhoodIDs": [],
       "point": {
@@ -17243,7 +17243,7 @@
       "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-24T17:35:59Z",
+  "generatedAt": "2026-11-24T17:41:04Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -19026,11 +19026,11 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "8ef32e19e58539dc80de33303e09736c133fc652937e8339daaea7ce1fee8b33",
+  "snapshotID": "37ecfa0d3b227082b5b15479d504ae6a4a188f65d58e181dda88333eb77605bf",
   "source": {
-    "checkedAt": "2026-11-24T17:35:59Z",
+    "checkedAt": "2026-11-24T17:41:04Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-24T17:31:07Z",
+    "updatedAt": "2026-11-24T17:36:08Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
