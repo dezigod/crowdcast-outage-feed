@@ -5471,6 +5471,31 @@
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
+      "id": "84337944657195ea281f27d9d8ecf5edb6db547f8def41f63306a8debf09c634",
+      "island": null,
+      "locations": [
+        "GLYNN"
+      ],
+      "modifiedAt": "2026-11-24T12:28:55Z",
+      "name": "T-C-08287",
+      "neighborhoodIDs": [],
+      "point": {
+        "latitude": 17.755144372171372,
+        "longitude": -64.77328727388982
+      },
+      "reportedCustomersInitially": 1,
+      "reportedCustomersOut": 1,
+      "reportedCustomersRestored": 0,
+      "sourceStatus": "Predicted",
+      "startedAt": "2026-11-24T12:28:30Z",
+      "verified": false,
+      "workStatus": null
+    },
+    {
+      "cause": null,
+      "crewAssigned": false,
+      "endedAt": null,
+      "estimatedRestoration": null,
       "id": "8f6541b74e036d153add2c201fa1f38da04826a9c6faade8ae3cea77a1cffd1f",
       "island": null,
       "locations": [
@@ -7735,6 +7760,37 @@
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
+      "id": "ab763215b1092ba339ba7cca6bd4454f4710c9786d7153191ec67b732b09df28",
+      "island": null,
+      "locations": [
+        "CASTLE COAKLEY",
+        "CASTLE COAKLEY 14A (UPST)",
+        "CASTLE COAKLEY 15 SM-HSE",
+        "NEW CASTLE COAKLEY",
+        "NEW CASTLE COAKLEY 5"
+      ],
+      "modifiedAt": "2026-11-24T12:29:57Z",
+      "name": "T-C-06105",
+      "neighborhoodIDs": [
+        "stCroix-castle-coakley"
+      ],
+      "point": {
+        "latitude": 17.725991241691034,
+        "longitude": -64.74982587420055
+      },
+      "reportedCustomersInitially": 9,
+      "reportedCustomersOut": 9,
+      "reportedCustomersRestored": 0,
+      "sourceStatus": "Predicted",
+      "startedAt": "2026-11-24T12:29:31Z",
+      "verified": false,
+      "workStatus": null
+    },
+    {
+      "cause": null,
+      "crewAssigned": false,
+      "endedAt": null,
+      "estimatedRestoration": null,
       "id": "af504358513f61fc5f3742b32b166a7d2dc0be8c7491cb1957a1efb6087b27d6",
       "island": null,
       "locations": [
@@ -7851,7 +7907,7 @@
       "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-24T12:31:00Z",
+  "generatedAt": "2026-11-24T12:36:01Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -8315,7 +8371,24 @@
       "coverage": "partial",
       "customersOut": null,
       "id": "stCroix",
-      "neighborhoods": []
+      "neighborhoods": [
+        {
+          "affectedCustomers": null,
+          "estimatedRestoration": null,
+          "id": "stCroix-castle-coakley",
+          "island": "stCroix",
+          "locations": [
+            "14A (UPST)",
+            "15 SM-HSE"
+          ],
+          "name": "Castle Coakley",
+          "sourceEventIDs": [
+            "ab763215b1092ba339ba7cca6bd4454f4710c9786d7153191ec67b732b09df28"
+          ],
+          "sourceStatus": "Predicted",
+          "startedAt": "2026-11-24T12:29:31Z"
+        }
+      ]
     },
     {
       "coverage": "partial",
@@ -8337,21 +8410,21 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "d0257795b7d4b8fb0c4500f39282f2a73d85ec71b30ecb9b75b4e88c6af1917e",
+  "snapshotID": "93ed6df53ed9fbe20a73cd1356f845be56632c465d7253cad6390de0b550c7ec",
   "source": {
-    "checkedAt": "2026-11-24T12:31:00Z",
+    "checkedAt": "2026-11-24T12:36:01Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-24T12:26:03Z",
+    "updatedAt": "2026-11-24T12:31:02Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "sourceSummary": {
     "customerCountDifference": 2,
-    "customersAffected": 9328,
-    "customersOut": 9328,
+    "customersAffected": 9338,
+    "customersOut": 9338,
     "customersRestored": 0,
     "customersServed": 54728,
-    "eventCustomersOut": 9326,
+    "eventCustomersOut": 9336,
     "hourlyCustomersOut": [
       {
         "at": "2026-11-22T12:00:00Z",
@@ -8547,7 +8620,7 @@
       },
       {
         "at": "2026-11-24T12:00:00Z",
-        "customersOut": 14786
+        "customersOut": 14796
       }
     ],
     "locations": [
@@ -10017,6 +10090,9 @@
       "CAROLINA 9-9-8",
       "CAROLINA EST 10-20",
       "CAROLINA REM 10-32",
+      "CASTLE COAKLEY",
+      "CASTLE COAKLEY 14A (UPST)",
+      "CASTLE COAKLEY 15 SM-HSE",
       "CATERINEBERG EST 3-1",
       "CATHERINBERG 3-10",
       "CATHERINBERG 3-15",
@@ -13070,6 +13146,7 @@
       "GLUCKSBERG 9-9 (DOWN)",
       "GLUCKSBERG 9-9 (UP)",
       "GLUCKSBERG PCL 6",
+      "GLYNN",
       "GOLDEN ROCK TRAFFIC LIGHT",
       "GOLDEN ROCK/LED HWY LIGHT",
       "GREAT BAY",
@@ -14742,6 +14819,8 @@
       "NELTJEBERG 5 UP EAST",
       "NELTJEBERG MRT-1UP",
       "NELTJEBERG PUMP 12 C",
+      "NEW CASTLE COAKLEY",
+      "NEW CASTLE COAKLEY 5",
       "NISKY 17-3",
       "NISKY 6",
       "NORTH ESTATE BOVONI",
@@ -15969,8 +16048,8 @@
       "ZUERIENDENHEIT",
       "ZUFRIDENHEIT 1"
     ],
-    "totalOutages": 17
+    "totalOutages": 19
   },
   "staleAfterSeconds": 900,
-  "unassignedEventCount": 15
+  "unassignedEventCount": 17
 }
