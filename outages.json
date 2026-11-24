@@ -2631,7 +2631,7 @@
         "VISTA MAR",
         "VISTA MAR LAUNDRY"
       ],
-      "modifiedAt": "2026-11-24T12:48:31Z",
+      "modifiedAt": "2026-11-24T12:58:32Z",
       "name": "STX Feeder 06B",
       "neighborhoodIDs": [],
       "point": {
@@ -6948,7 +6948,7 @@
         "VICORP LAND 325",
         "VICORP LANDS 10 (FARM)"
       ],
-      "modifiedAt": "2026-11-24T12:48:22Z",
+      "modifiedAt": "2026-11-24T12:58:30Z",
       "name": "STX Feeder 10B",
       "neighborhoodIDs": [
         "stCroix-coble",
@@ -10957,7 +10957,7 @@
         "WEST PALM DRIVE 64",
         "YELLOW CEDAR 40-D"
       ],
-      "modifiedAt": "2026-11-24T12:48:38Z",
+      "modifiedAt": "2026-11-24T12:58:34Z",
       "name": "STX Feeder 09B",
       "neighborhoodIDs": [
         "stCroix-vicorp-land"
@@ -15199,7 +15199,7 @@
       "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-24T12:56:10Z",
+  "generatedAt": "2026-11-24T13:01:14Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -16345,11 +16345,11 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "62430df160b69eea3f1c7bdb0a00101dccf2dc7f90bd51d9f02cc0c50b5b4a97",
+  "snapshotID": "085836f845f9e2b408ef0425ed764776cef4e309631ac67df3f95cace1fb9de5",
   "source": {
-    "checkedAt": "2026-11-24T12:56:10Z",
+    "checkedAt": "2026-11-24T13:01:14Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-24T12:56:06Z",
+    "updatedAt": "2026-11-24T13:01:08Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
@@ -16361,10 +16361,6 @@
     "customersServed": 54728,
     "eventCustomersOut": 19648,
     "hourlyCustomersOut": [
-      {
-        "at": "2026-11-22T12:00:00Z",
-        "customersOut": 42
-      },
       {
         "at": "2026-11-22T13:00:00Z",
         "customersOut": 5586
@@ -16556,6 +16552,10 @@
       {
         "at": "2026-11-24T12:00:00Z",
         "customersOut": 25108
+      },
+      {
+        "at": "2026-11-24T13:00:00Z",
+        "customersOut": 19648
       }
     ],
     "locations": [
