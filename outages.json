@@ -20601,6 +20601,38 @@
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
+      "id": "cfd031e79f7028bb3ea4b6093a4d4303e953c3c1a6fa143d67577f0345cb92d1",
+      "island": null,
+      "locations": [
+        "EST THOMAS 17A 1ST",
+        "EST THOMAS 17B 1ST AVE",
+        "EST THOMAS 17-B TRAILER C",
+        "PMP GARDEN BLDG-8",
+        "PMP GARDEN BLDG-9",
+        "PMP GARDEN BLDG-9 STAIR"
+      ],
+      "modifiedAt": "2026-11-24T21:16:50Z",
+      "name": "T-T-04218",
+      "neighborhoodIDs": [
+        "stCroix-pump-garden"
+      ],
+      "point": {
+        "latitude": 18.3386923356028,
+        "longitude": -64.9196560420043
+      },
+      "reportedCustomersInitially": 21,
+      "reportedCustomersOut": 21,
+      "reportedCustomersRestored": 0,
+      "sourceStatus": "Predicted",
+      "startedAt": "2026-11-24T21:16:24Z",
+      "verified": false,
+      "workStatus": null
+    },
+    {
+      "cause": null,
+      "crewAssigned": false,
+      "endedAt": null,
+      "estimatedRestoration": null,
       "id": "d4df086dc1ed0c629dc634ed69dfdde88c4b0e0f5563b6d084ef58afb41bd9d9",
       "island": null,
       "locations": [
@@ -24350,7 +24382,7 @@
       "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-24T21:16:38Z",
+  "generatedAt": "2026-11-24T21:25:34Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -25824,6 +25856,23 @@
         {
           "affectedCustomers": null,
           "estimatedRestoration": null,
+          "id": "stCroix-pump-garden",
+          "island": "stCroix",
+          "locations": [
+            "Building 8",
+            "Building 9",
+            "Building 9 STAIR"
+          ],
+          "name": "Pompano / Pump Garden",
+          "sourceEventIDs": [
+            "cfd031e79f7028bb3ea4b6093a4d4303e953c3c1a6fa143d67577f0345cb92d1"
+          ],
+          "sourceStatus": "Predicted",
+          "startedAt": "2026-11-24T21:16:24Z"
+        },
+        {
+          "affectedCustomers": null,
+          "estimatedRestoration": null,
           "id": "stCroix-sion-hill",
           "island": "stCroix",
           "locations": [
@@ -26119,21 +26168,21 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "badbf3814c68f41194d8436d557b24d0fb6a2f09837ad9ce285df9038bb5c905",
+  "snapshotID": "aff6cd85828edbdf7a400eb548ffc8fb6e37fba334d6d92e17a442036c349567",
   "source": {
-    "checkedAt": "2026-11-24T21:16:38Z",
+    "checkedAt": "2026-11-24T21:25:34Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-24T21:16:12Z",
+    "updatedAt": "2026-11-24T21:21:12Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "sourceSummary": {
     "customerCountDifference": 2,
-    "customersAffected": 31418,
-    "customersOut": 31418,
+    "customersAffected": 31439,
+    "customersOut": 31439,
     "customersRestored": 0,
     "customersServed": 54729,
-    "eventCustomersOut": 31416,
+    "eventCustomersOut": 31437,
     "hourlyCustomersOut": [
       {
         "at": "2026-11-22T21:00:00Z",
@@ -26329,7 +26378,7 @@
       },
       {
         "at": "2026-11-24T21:00:00Z",
-        "customersOut": 31416
+        "customersOut": 31437
       }
     ],
     "locations": [
@@ -35087,6 +35136,9 @@
       "EST THOMAS 16-18 4TH",
       "EST THOMAS 16-18 4TH ST",
       "EST THOMAS 16-18 4TH ST A",
+      "EST THOMAS 17A 1ST",
+      "EST THOMAS 17B 1ST AVE",
+      "EST THOMAS 17-B TRAILER C",
       "EST THOMAS 18-9TH STR",
       "EST THOMAS 1A",
       "EST THOMAS 1A-1",
@@ -42430,6 +42482,9 @@
       "PLT 6-CA CARLTON GARDENS",
       "PLT CORNHILL GRANANRD",
       "PLT EST PROFIT",
+      "PMP GARDEN BLDG-8",
+      "PMP GARDEN BLDG-9",
+      "PMP GARDEN BLDG-9 STAIR",
       "PO &CSTED WATER FRONT",
       "POINT PLEASANT",
       "POINT PLEASANT RESORT",
@@ -49806,8 +49861,8 @@
       "ZUERIENDENHEIT",
       "ZUFRIDENHEIT 1"
     ],
-    "totalOutages": 28
+    "totalOutages": 29
   },
   "staleAfterSeconds": 900,
-  "unassignedEventCount": 26
+  "unassignedEventCount": 27
 }
