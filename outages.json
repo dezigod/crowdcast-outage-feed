@@ -37,44 +37,6 @@
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
-      "id": "1a70dae3a272ea0be7bac06c3502df93e115d900e27204d69d23de0d2c426544",
-      "island": null,
-      "locations": [
-        "HOSPITAL GROUND",
-        "HOSPITAL GROUND 219 MTR-2",
-        "HOSPITAL GROUND 221",
-        "HOSPITAL GROUND 235",
-        "HOSPITAL GROUND 303",
-        "HOSPITAL GROUND 303 B-5",
-        "HOSPITAL GROUND 303A B-5",
-        "HOSPITAL GROUND 303A-30",
-        "HOSPITAL GROUND 303A-31",
-        "HOSPITAL GROUND 303A-32",
-        "HOSPITAL GROUND 303A-33 B",
-        "HOSPITAL GROUND 303A-34",
-        "HOSPITAL GROUND 303A-K",
-        "HOSPITAL GROUND 303A-L"
-      ],
-      "modifiedAt": "2026-11-24T00:05:56Z",
-      "name": "T-T-09041",
-      "neighborhoodIDs": [],
-      "point": {
-        "latitude": 18.34744150281641,
-        "longitude": -64.92753683217788
-      },
-      "reportedCustomersInitially": 17,
-      "reportedCustomersOut": 17,
-      "reportedCustomersRestored": 0,
-      "sourceStatus": "Predicted",
-      "startedAt": "2026-11-24T00:05:33Z",
-      "verified": false,
-      "workStatus": null
-    },
-    {
-      "cause": null,
-      "crewAssigned": false,
-      "endedAt": null,
-      "estimatedRestoration": null,
       "id": "33a3d2f2a7010e14be4bfe5e5644e69747015f977655363b758a8fa000b5dd11",
       "island": null,
       "locations": [
@@ -8283,7 +8245,7 @@
       "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-24T00:15:41Z",
+  "generatedAt": "2026-11-24T00:20:42Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -9783,21 +9745,21 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "ebfa0a3ac29cee33e71c2c60a284e57aa16742569fd2bbcf7d02b2b640efc7f9",
+  "snapshotID": "6959e4698b1473da1661710d086935c72376c10d26c71379e6c63f1b22d20e13",
   "source": {
-    "checkedAt": "2026-11-24T00:15:41Z",
+    "checkedAt": "2026-11-24T00:20:42Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-24T00:11:02Z",
+    "updatedAt": "2026-11-24T00:16:01Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "sourceSummary": {
     "customerCountDifference": 2,
-    "customersAffected": 10866,
-    "customersOut": 10866,
+    "customersAffected": 10849,
+    "customersOut": 10849,
     "customersRestored": 0,
     "customersServed": 54728,
-    "eventCustomersOut": 10864,
+    "eventCustomersOut": 10847,
     "hourlyCustomersOut": [
       {
         "at": "2026-11-22T00:00:00Z",
@@ -9993,7 +9955,7 @@
       },
       {
         "at": "2026-11-24T00:00:00Z",
-        "customersOut": 14742
+        "customersOut": 14725
       }
     ],
     "locations": [
@@ -13352,9 +13314,6 @@
       "HOSPITAL GROUND 1C",
       "HOSPITAL GROUND 2",
       "HOSPITAL GROUND 2 HSE",
-      "HOSPITAL GROUND 219 MTR-2",
-      "HOSPITAL GROUND 221",
-      "HOSPITAL GROUND 235",
       "HOSPITAL GROUND 268",
       "HOSPITAL GROUND 273",
       "HOSPITAL GROUND 278",
@@ -13380,16 +13339,6 @@
       "HOSPITAL GROUND 295A-1",
       "HOSPITAL GROUND 298",
       "HOSPITAL GROUND 3",
-      "HOSPITAL GROUND 303",
-      "HOSPITAL GROUND 303 B-5",
-      "HOSPITAL GROUND 303A B-5",
-      "HOSPITAL GROUND 303A-30",
-      "HOSPITAL GROUND 303A-31",
-      "HOSPITAL GROUND 303A-32",
-      "HOSPITAL GROUND 303A-33 B",
-      "HOSPITAL GROUND 303A-34",
-      "HOSPITAL GROUND 303A-K",
-      "HOSPITAL GROUND 303A-L",
       "HOSPITAL GROUND 310",
       "HOSPITAL GROUND 310 A-1-A",
       "HOSPITAL GROUND 310 A-2A",
@@ -17883,8 +17832,8 @@
       "ZUERIENDENHEIT",
       "ZUFRIDENHEIT 1"
     ],
-    "totalOutages": 15
+    "totalOutages": 14
   },
   "staleAfterSeconds": 900,
-  "unassignedEventCount": 13
+  "unassignedEventCount": 12
 }
