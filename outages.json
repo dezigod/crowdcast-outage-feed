@@ -11680,6 +11680,7 @@
         "JOHN F KENNEDY B2",
         "JOHN F KENNEDY B-2",
         "JOHN F KENNEDY B2 A13",
+        "JOHN F KENNEDY B2 A14",
         "JOHN F KENNEDY B2 A16",
         "JOHN F KENNEDY B2 A18",
         "JOHN F KENNEDY B2 A19",
@@ -12001,7 +12002,7 @@
         "SUNNY ISLES X-MAS TREE",
         "UNITED SHOPPING PLAZA"
       ],
-      "modifiedAt": "2026-11-24T12:48:18Z",
+      "modifiedAt": "2026-11-24T20:09:52Z",
       "name": "STX Feeder 9A",
       "neighborhoodIDs": [
         "stCroix-castle-coakley"
@@ -12010,8 +12011,8 @@
         "latitude": 17.733174967971067,
         "longitude": -64.74755011061504
       },
-      "reportedCustomersInitially": 1027,
-      "reportedCustomersOut": 1027,
+      "reportedCustomersInitially": 1028,
+      "reportedCustomersOut": 1028,
       "reportedCustomersRestored": 0,
       "sourceStatus": "Verified",
       "startedAt": "2026-11-24T12:29:31Z",
@@ -20513,7 +20514,7 @@
       "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-24T20:11:07Z",
+  "generatedAt": "2026-11-24T20:16:09Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -21600,21 +21601,21 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "e824f75a765605493a8b426ec93fbca10e4834bd87c623b61d920b22a63a8aad",
+  "snapshotID": "e699663a07dd649f9fd44667bf6cccd1ad118e09603f2544a62974166cdff4d5",
   "source": {
-    "checkedAt": "2026-11-24T20:11:07Z",
+    "checkedAt": "2026-11-24T20:16:09Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-24T20:06:09Z",
+    "updatedAt": "2026-11-24T20:11:09Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "sourceSummary": {
     "customerCountDifference": 2,
-    "customersAffected": 26516,
-    "customersOut": 26516,
+    "customersAffected": 26517,
+    "customersOut": 26517,
     "customersRestored": 0,
-    "customersServed": 54728,
-    "eventCustomersOut": 26514,
+    "customersServed": 54729,
+    "eventCustomersOut": 26515,
     "hourlyCustomersOut": [
       {
         "at": "2026-11-22T20:00:00Z",
@@ -21778,39 +21779,39 @@
       },
       {
         "at": "2026-11-24T12:00:00Z",
-        "customersOut": 25477
+        "customersOut": 25478
       },
       {
         "at": "2026-11-24T13:00:00Z",
-        "customersOut": 20017
+        "customersOut": 20018
       },
       {
         "at": "2026-11-24T14:00:00Z",
-        "customersOut": 29691
+        "customersOut": 29692
       },
       {
         "at": "2026-11-24T15:00:00Z",
-        "customersOut": 20172
+        "customersOut": 20173
       },
       {
         "at": "2026-11-24T16:00:00Z",
-        "customersOut": 29183
+        "customersOut": 29184
       },
       {
         "at": "2026-11-24T17:00:00Z",
-        "customersOut": 25471
+        "customersOut": 25472
       },
       {
         "at": "2026-11-24T18:00:00Z",
-        "customersOut": 25373
+        "customersOut": 25374
       },
       {
         "at": "2026-11-24T19:00:00Z",
-        "customersOut": 21889
+        "customersOut": 21890
       },
       {
         "at": "2026-11-24T20:00:00Z",
-        "customersOut": 26809
+        "customersOut": 26810
       }
     ],
     "locations": [
@@ -32477,6 +32478,7 @@
       "JOHN F KENNEDY B2",
       "JOHN F KENNEDY B-2",
       "JOHN F KENNEDY B2 A13",
+      "JOHN F KENNEDY B2 A14",
       "JOHN F KENNEDY B2 A16",
       "JOHN F KENNEDY B2 A18",
       "JOHN F KENNEDY B2 A19",
