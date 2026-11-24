@@ -19177,6 +19177,57 @@
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
+      "id": "d2b3c4a783164c32cbbc9917373196348294cce491eff2a3d6b043c7982dd924",
+      "island": null,
+      "locations": [
+        "DONOE 3 BLDG 1",
+        "DONOE 3 BLDG 1 APT G101",
+        "DONOE 3 BLDG 1 APT G102",
+        "DONOE 3 BLDG 1 APT G105",
+        "DONOE 3 BLDG 1 APT G106",
+        "DONOE 3 BLDG 1 APT G110",
+        "DONOE 3 BLDG 1 APT G111",
+        "DONOE 3 BLDG 2 APT G201",
+        "DONOE 3 BLDG 2 APT G203",
+        "DONOE 3 BLDG 2 APT G204",
+        "DONOE 3 BLDG 2 APT G205",
+        "DONOE 3 BLDG 2 APT G206",
+        "DONOE 3 BLDG 3",
+        "DONOE 3 BLDG 3 APT G301",
+        "DONOE 3 BLDG 3 APT G302",
+        "DONOE 3 BLDG 3 APT G303",
+        "DONOE 3 BLDG 3 APT G304",
+        "DONOE 3 BLDG 3 APT G305",
+        "DONOE 3 BLDG 3 APT G306",
+        "DONOE 3 BLDG 3 APT G308",
+        "DONOE 3 BLDG 3 APT G311",
+        "DONOE 3 BLDG 3 APT G312",
+        "DONOE 3 BLDG-1 (HSE)",
+        "DONOE 3 BLDG-2 (HSE)",
+        "DUNOE 3 BLDG 2 APT G202"
+      ],
+      "modifiedAt": "2026-11-24T22:07:03Z",
+      "name": "T-T-11775",
+      "neighborhoodIDs": [
+        "stThomas-donoe"
+      ],
+      "point": {
+        "latitude": 18.344356746526692,
+        "longitude": -64.89995296974458
+      },
+      "reportedCustomersInitially": 32,
+      "reportedCustomersOut": 32,
+      "reportedCustomersRestored": 0,
+      "sourceStatus": "Predicted",
+      "startedAt": "2026-11-24T22:06:44Z",
+      "verified": false,
+      "workStatus": null
+    },
+    {
+      "cause": null,
+      "crewAssigned": false,
+      "endedAt": null,
+      "estimatedRestoration": null,
       "id": "d4df086dc1ed0c629dc634ed69dfdde88c4b0e0f5563b6d084ef58afb41bd9d9",
       "island": null,
       "locations": [
@@ -21817,7 +21868,7 @@
       "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-24T22:10:52Z",
+  "generatedAt": "2026-11-24T22:15:53Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -21877,6 +21928,44 @@
           ],
           "sourceStatus": "Unconfirmed",
           "startedAt": null
+        },
+        {
+          "affectedCustomers": null,
+          "estimatedRestoration": null,
+          "id": "stThomas-donoe",
+          "island": "stThomas",
+          "locations": [
+            "3 BLDG 1",
+            "3 BLDG 1 APT G101",
+            "3 BLDG 1 APT G102",
+            "3 BLDG 1 APT G105",
+            "3 BLDG 1 APT G106",
+            "3 BLDG 1 APT G110",
+            "3 BLDG 1 APT G111",
+            "3 BLDG 2 APT G201",
+            "3 BLDG 2 APT G203",
+            "3 BLDG 2 APT G204",
+            "3 BLDG 2 APT G205",
+            "3 BLDG 2 APT G206",
+            "3 BLDG 3",
+            "3 BLDG 3 APT G301",
+            "3 BLDG 3 APT G302",
+            "3 BLDG 3 APT G303",
+            "3 BLDG 3 APT G304",
+            "3 BLDG 3 APT G305",
+            "3 BLDG 3 APT G306",
+            "3 BLDG 3 APT G308",
+            "3 BLDG 3 APT G311",
+            "3 BLDG 3 APT G312",
+            "3 BLDG-1",
+            "3 BLDG-2"
+          ],
+          "name": "Donoe",
+          "sourceEventIDs": [
+            "d2b3c4a783164c32cbbc9917373196348294cce491eff2a3d6b043c7982dd924"
+          ],
+          "sourceStatus": "Predicted",
+          "startedAt": "2026-11-24T22:06:44Z"
         },
         {
           "affectedCustomers": null,
@@ -23359,25 +23448,25 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "2ecfab6892f742b75f1ca6911379c552d3935b0e97c7291273cd54f424705b83",
+  "snapshotID": "6984835b81e744592fcb801b4366ef221adc578fc344cc0bd337efad6fb64f6c",
   "source": {
-    "checkedAt": "2026-11-24T22:10:52Z",
+    "checkedAt": "2026-11-24T22:15:53Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-24T22:06:11Z",
+    "updatedAt": "2026-11-24T22:11:11Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "sourceSummary": {
     "customerCountDifference": 2,
-    "customersAffected": 28311,
-    "customersOut": 28311,
+    "customersAffected": 28343,
+    "customersOut": 28343,
     "customersRestored": 0,
     "customersServed": 54729,
-    "eventCustomersOut": 28309,
+    "eventCustomersOut": 28341,
     "hourlyCustomersOut": [
       {
         "at": "2026-11-22T22:00:00Z",
-        "customersOut": 8997
+        "customersOut": 4733
       },
       {
         "at": "2026-11-22T23:00:00Z",
@@ -23569,7 +23658,7 @@
       },
       {
         "at": "2026-11-24T22:00:00Z",
-        "customersOut": 28309
+        "customersOut": 28341
       }
     ],
     "locations": [
@@ -30361,6 +30450,30 @@
       "DOMINICA SAPP VILL 305E",
       "DOMINICA SAPPHIRE",
       "DOMINICA VILL SAPP 202A",
+      "DONOE 3 BLDG 1",
+      "DONOE 3 BLDG 1 APT G101",
+      "DONOE 3 BLDG 1 APT G102",
+      "DONOE 3 BLDG 1 APT G105",
+      "DONOE 3 BLDG 1 APT G106",
+      "DONOE 3 BLDG 1 APT G110",
+      "DONOE 3 BLDG 1 APT G111",
+      "DONOE 3 BLDG 2 APT G201",
+      "DONOE 3 BLDG 2 APT G203",
+      "DONOE 3 BLDG 2 APT G204",
+      "DONOE 3 BLDG 2 APT G205",
+      "DONOE 3 BLDG 2 APT G206",
+      "DONOE 3 BLDG 3",
+      "DONOE 3 BLDG 3 APT G301",
+      "DONOE 3 BLDG 3 APT G302",
+      "DONOE 3 BLDG 3 APT G303",
+      "DONOE 3 BLDG 3 APT G304",
+      "DONOE 3 BLDG 3 APT G305",
+      "DONOE 3 BLDG 3 APT G306",
+      "DONOE 3 BLDG 3 APT G308",
+      "DONOE 3 BLDG 3 APT G311",
+      "DONOE 3 BLDG 3 APT G312",
+      "DONOE 3 BLDG-1 (HSE)",
+      "DONOE 3 BLDG-2 (HSE)",
       "DORETHEA 17-2 B3B",
       "DOROTHEA",
       "DOROTHEA #14 B-3 UP",
@@ -30538,6 +30651,7 @@
       "DOROTHEA PCL 21 LOT 24",
       "DOROTHEA UP",
       "DOROTHEA-16-D",
+      "DUNOE 3 BLDG 2 APT G202",
       "EAST A LONGFORD",
       "EAST AIRPORT",
       "EAST AIRPORT ROAD/HIGHWAY",
@@ -44719,8 +44833,8 @@
       "ZUERIENDENHEIT",
       "ZUFRIDENHEIT 1"
     ],
-    "totalOutages": 21
+    "totalOutages": 22
   },
   "staleAfterSeconds": 900,
-  "unassignedEventCount": 19
+  "unassignedEventCount": 20
 }
