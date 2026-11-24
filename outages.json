@@ -7179,31 +7179,6 @@
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
-      "id": "523b16cdbc5ed9044efffb0cb3b24c42d771ed2bbd88976c71a50d5939a3b3e2",
-      "island": null,
-      "locations": [
-        "WHEEL OF FORTUNE 96"
-      ],
-      "modifiedAt": "2026-11-24T15:00:54Z",
-      "name": "T-C-25480",
-      "neighborhoodIDs": [],
-      "point": {
-        "latitude": 17.71009232501852,
-        "longitude": -64.87459502054423
-      },
-      "reportedCustomersInitially": 1,
-      "reportedCustomersOut": 1,
-      "reportedCustomersRestored": 0,
-      "sourceStatus": "Predicted",
-      "startedAt": "2026-11-24T14:54:58Z",
-      "verified": false,
-      "workStatus": null
-    },
-    {
-      "cause": null,
-      "crewAssigned": false,
-      "endedAt": null,
-      "estimatedRestoration": null,
       "id": "562ecd2758d6b9bff2d4bd1f4434a34787f99dd2d3610e112c6e192d95f5f3fd",
       "island": null,
       "locations": [
@@ -17268,7 +17243,7 @@
       "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-24T17:15:51Z",
+  "generatedAt": "2026-11-24T17:20:54Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -19051,21 +19026,21 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "04a24314b2608a237cd0667fca92803d19325ba96935c9ce4f1ba40c025d1328",
+  "snapshotID": "f559c496be31aa50c0a3abb85d3a768fad273f93acd210dcab55194b1ffea79d",
   "source": {
-    "checkedAt": "2026-11-24T17:15:51Z",
+    "checkedAt": "2026-11-24T17:20:54Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-24T17:11:08Z",
+    "updatedAt": "2026-11-24T17:16:08Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "sourceSummary": {
     "customerCountDifference": 2,
-    "customersAffected": 22372,
-    "customersOut": 22372,
+    "customersAffected": 22371,
+    "customersOut": 22371,
     "customersRestored": 0,
     "customersServed": 54728,
-    "eventCustomersOut": 22370,
+    "eventCustomersOut": 22369,
     "hourlyCustomersOut": [
       {
         "at": "2026-11-22T17:00:00Z",
@@ -19261,7 +19236,7 @@
       },
       {
         "at": "2026-11-24T17:00:00Z",
-        "customersOut": 22370
+        "customersOut": 22369
       }
     ],
     "locations": [
@@ -35917,14 +35892,13 @@
       "WEST COND SAPP B-A",
       "WEST PALM DRIVE 64",
       "WEST SAPPHIRE BAY CONDO",
-      "WHEEL OF FORTUNE 96",
       "WINDWARD PASSAGE/TRAFFIC",
       "YELLOW CEDAR 40-D",
       "ZUERIENDENHEIT",
       "ZUFRIDENHEIT 1"
     ],
-    "totalOutages": 21
+    "totalOutages": 20
   },
   "staleAfterSeconds": 900,
-  "unassignedEventCount": 19
+  "unassignedEventCount": 18
 }
