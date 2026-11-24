@@ -61,6 +61,38 @@
       "workStatus": null
     },
     {
+      "cause": null,
+      "crewAssigned": false,
+      "endedAt": null,
+      "estimatedRestoration": null,
+      "id": "590201096e8ec258b857efd7dde7b3fe45e2e1f3a3e530103145f960ccc44f7a",
+      "island": null,
+      "locations": [
+        "EST THOMAS 17A 1ST",
+        "EST THOMAS 17B 1ST AVE",
+        "EST THOMAS 17-B TRAILER C",
+        "PMP GARDEN BLDG-8",
+        "PMP GARDEN BLDG-9",
+        "PMP GARDEN BLDG-9 STAIR"
+      ],
+      "modifiedAt": "2026-11-24T00:19:52Z",
+      "name": "T-T-04218",
+      "neighborhoodIDs": [
+        "stCroix-pump-garden"
+      ],
+      "point": {
+        "latitude": 18.3386923356028,
+        "longitude": -64.9196560420043
+      },
+      "reportedCustomersInitially": 21,
+      "reportedCustomersOut": 21,
+      "reportedCustomersRestored": 0,
+      "sourceStatus": "Predicted",
+      "startedAt": "2026-11-24T00:19:21Z",
+      "verified": false,
+      "workStatus": null
+    },
+    {
       "cause": "000 Power supply",
       "crewAssigned": false,
       "endedAt": null,
@@ -8245,7 +8277,7 @@
       "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-24T00:20:42Z",
+  "generatedAt": "2026-11-24T00:25:42Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -9723,7 +9755,25 @@
       "coverage": "partial",
       "customersOut": null,
       "id": "stCroix",
-      "neighborhoods": []
+      "neighborhoods": [
+        {
+          "affectedCustomers": null,
+          "estimatedRestoration": null,
+          "id": "stCroix-pump-garden",
+          "island": "stCroix",
+          "locations": [
+            "Building 8",
+            "Building 9",
+            "Building 9 STAIR"
+          ],
+          "name": "Pompano / Pump Garden",
+          "sourceEventIDs": [
+            "590201096e8ec258b857efd7dde7b3fe45e2e1f3a3e530103145f960ccc44f7a"
+          ],
+          "sourceStatus": "Predicted",
+          "startedAt": "2026-11-24T00:19:21Z"
+        }
+      ]
     },
     {
       "coverage": "partial",
@@ -9745,21 +9795,21 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "6959e4698b1473da1661710d086935c72376c10d26c71379e6c63f1b22d20e13",
+  "snapshotID": "a1c079b89a4a2d7f63d10b8ed4455f81fdf4dcd62b35cf57f681d70601439135",
   "source": {
-    "checkedAt": "2026-11-24T00:20:42Z",
+    "checkedAt": "2026-11-24T00:25:42Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-24T00:16:01Z",
+    "updatedAt": "2026-11-24T00:21:01Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "sourceSummary": {
     "customerCountDifference": 2,
-    "customersAffected": 10849,
-    "customersOut": 10849,
+    "customersAffected": 10870,
+    "customersOut": 10870,
     "customersRestored": 0,
     "customersServed": 54728,
-    "eventCustomersOut": 10847,
+    "eventCustomersOut": 10868,
     "hourlyCustomersOut": [
       {
         "at": "2026-11-22T00:00:00Z",
@@ -9955,7 +10005,7 @@
       },
       {
         "at": "2026-11-24T00:00:00Z",
-        "customersOut": 14725
+        "customersOut": 14746
       }
     ],
     "locations": [
@@ -12564,6 +12614,9 @@
       "EST TEAGUE BAY",
       "EST TEAQUES BAY PROP OF R",
       "EST THOMAS 1 1ST ST",
+      "EST THOMAS 17A 1ST",
+      "EST THOMAS 17B 1ST AVE",
+      "EST THOMAS 17-B TRAILER C",
       "EST THOMAS 246 1ST STREET",
       "EST THOMAS 2B",
       "EST THOMAS 5A-5B",
@@ -15050,6 +15103,9 @@
       "PLEASANT VALLEY 9 DUPLEX",
       "PLEASANT VALLEY 9H",
       "PLOT NO SMITH BAY",
+      "PMP GARDEN BLDG-8",
+      "PMP GARDEN BLDG-9",
+      "PMP GARDEN BLDG-9 STAIR",
       "POINT PLEASANT",
       "POINT PLEASANT RESORT",
       "POLLYBERG",
@@ -17832,8 +17888,8 @@
       "ZUERIENDENHEIT",
       "ZUFRIDENHEIT 1"
     ],
-    "totalOutages": 14
+    "totalOutages": 15
   },
   "staleAfterSeconds": 900,
-  "unassignedEventCount": 12
+  "unassignedEventCount": 13
 }
