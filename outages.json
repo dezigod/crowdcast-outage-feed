@@ -61,38 +61,6 @@
       "workStatus": null
     },
     {
-      "cause": null,
-      "crewAssigned": false,
-      "endedAt": null,
-      "estimatedRestoration": null,
-      "id": "590201096e8ec258b857efd7dde7b3fe45e2e1f3a3e530103145f960ccc44f7a",
-      "island": null,
-      "locations": [
-        "EST THOMAS 17A 1ST",
-        "EST THOMAS 17B 1ST AVE",
-        "EST THOMAS 17-B TRAILER C",
-        "PMP GARDEN BLDG-8",
-        "PMP GARDEN BLDG-9",
-        "PMP GARDEN BLDG-9 STAIR"
-      ],
-      "modifiedAt": "2026-11-24T00:19:52Z",
-      "name": "T-T-04218",
-      "neighborhoodIDs": [
-        "stCroix-pump-garden"
-      ],
-      "point": {
-        "latitude": 18.3386923356028,
-        "longitude": -64.9196560420043
-      },
-      "reportedCustomersInitially": 21,
-      "reportedCustomersOut": 21,
-      "reportedCustomersRestored": 0,
-      "sourceStatus": "Predicted",
-      "startedAt": "2026-11-24T00:19:21Z",
-      "verified": false,
-      "workStatus": null
-    },
-    {
       "cause": "000 Power supply",
       "crewAssigned": false,
       "endedAt": null,
@@ -3834,40 +3802,6 @@
       "reportedCustomersRestored": 0,
       "sourceStatus": "Predicted",
       "startedAt": "2026-11-23T18:47:39Z",
-      "verified": false,
-      "workStatus": null
-    },
-    {
-      "cause": null,
-      "crewAssigned": false,
-      "endedAt": null,
-      "estimatedRestoration": null,
-      "id": "a7581f8f87e7481c8381c6e5bc7dfee03622968fcb21bf82ab87e90b3c532f38",
-      "island": null,
-      "locations": [
-        "CASTLE BURKE #601",
-        "CASTLE BURKE 391 H-55",
-        "CASTLE BURKE 392",
-        "CASTLE BURKE 394 H-76",
-        "CASTLE BURKE 602",
-        "CASTLE BURKE P-390 HS-72",
-        "CASTLE BURKE REM PARCEL5",
-        "VICORP LAND 393 PARCEL 5"
-      ],
-      "modifiedAt": "2026-11-24T00:24:51Z",
-      "name": "T-C-20571",
-      "neighborhoodIDs": [
-        "stCroix-vicorp-land"
-      ],
-      "point": {
-        "latitude": 17.724223481791164,
-        "longitude": -64.7960022988116
-      },
-      "reportedCustomersInitially": 8,
-      "reportedCustomersOut": 8,
-      "reportedCustomersRestored": 0,
-      "sourceStatus": "Predicted",
-      "startedAt": "2026-11-24T00:24:18Z",
       "verified": false,
       "workStatus": null
     },
@@ -8311,7 +8245,7 @@
       "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-24T00:30:44Z",
+  "generatedAt": "2026-11-24T00:35:47Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -9789,40 +9723,7 @@
       "coverage": "partial",
       "customersOut": null,
       "id": "stCroix",
-      "neighborhoods": [
-        {
-          "affectedCustomers": null,
-          "estimatedRestoration": null,
-          "id": "stCroix-pump-garden",
-          "island": "stCroix",
-          "locations": [
-            "Building 8",
-            "Building 9",
-            "Building 9 STAIR"
-          ],
-          "name": "Pompano / Pump Garden",
-          "sourceEventIDs": [
-            "590201096e8ec258b857efd7dde7b3fe45e2e1f3a3e530103145f960ccc44f7a"
-          ],
-          "sourceStatus": "Predicted",
-          "startedAt": "2026-11-24T00:19:21Z"
-        },
-        {
-          "affectedCustomers": null,
-          "estimatedRestoration": null,
-          "id": "stCroix-vicorp-land",
-          "island": "stCroix",
-          "locations": [
-            "393 PARCEL 5"
-          ],
-          "name": "Vicorp Land",
-          "sourceEventIDs": [
-            "a7581f8f87e7481c8381c6e5bc7dfee03622968fcb21bf82ab87e90b3c532f38"
-          ],
-          "sourceStatus": "Predicted",
-          "startedAt": "2026-11-24T00:24:18Z"
-        }
-      ]
+      "neighborhoods": []
     },
     {
       "coverage": "partial",
@@ -9844,21 +9745,21 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "f23ce2ba54efbfe7b0f79cffbc57c46ef126f700c168b3ca99eed4acac2f27ee",
+  "snapshotID": "6245e1e7b307149d5e1d648a8e640c85d8858a822199bfaa370074710c03bf6f",
   "source": {
-    "checkedAt": "2026-11-24T00:30:44Z",
+    "checkedAt": "2026-11-24T00:35:47Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-24T00:26:01Z",
+    "updatedAt": "2026-11-24T00:31:01Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "sourceSummary": {
     "customerCountDifference": 2,
-    "customersAffected": 10878,
-    "customersOut": 10878,
+    "customersAffected": 10849,
+    "customersOut": 10849,
     "customersRestored": 0,
     "customersServed": 54728,
-    "eventCustomersOut": 10876,
+    "eventCustomersOut": 10847,
     "hourlyCustomersOut": [
       {
         "at": "2026-11-22T00:00:00Z",
@@ -10054,7 +9955,7 @@
       },
       {
         "at": "2026-11-24T00:00:00Z",
-        "customersOut": 14746
+        "customersOut": 14725
       }
     ],
     "locations": [
@@ -11193,13 +11094,6 @@
       "CARET BAY WEST 2E-51-1",
       "CARET BAY\\WEST 2E-44",
       "CARET BAY21-2E-50A",
-      "CASTLE BURKE #601",
-      "CASTLE BURKE 391 H-55",
-      "CASTLE BURKE 392",
-      "CASTLE BURKE 394 H-76",
-      "CASTLE BURKE 602",
-      "CASTLE BURKE P-390 HS-72",
-      "CASTLE BURKE REM PARCEL5",
       "CATHERINES HOPE 100",
       "CATHERINES HOPE 108",
       "CATHERINES HOPE 110",
@@ -12670,9 +12564,6 @@
       "EST TEAGUE BAY",
       "EST TEAQUES BAY PROP OF R",
       "EST THOMAS 1 1ST ST",
-      "EST THOMAS 17A 1ST",
-      "EST THOMAS 17B 1ST AVE",
-      "EST THOMAS 17-B TRAILER C",
       "EST THOMAS 246 1ST STREET",
       "EST THOMAS 2B",
       "EST THOMAS 5A-5B",
@@ -15159,9 +15050,6 @@
       "PLEASANT VALLEY 9 DUPLEX",
       "PLEASANT VALLEY 9H",
       "PLOT NO SMITH BAY",
-      "PMP GARDEN BLDG-8",
-      "PMP GARDEN BLDG-9",
-      "PMP GARDEN BLDG-9 STAIR",
       "POINT PLEASANT",
       "POINT PLEASANT RESORT",
       "POLLYBERG",
@@ -17802,7 +17690,6 @@
       "VETERAN DRIVE RESCUE DOCK",
       "VETERANS DRIVE",
       "VETERANS DRIVE -FED BLDG",
-      "VICORP LAND 393 PARCEL 5",
       "VILLA MADELEINE CONDO 1",
       "VILLA MADELEINE CONDO 10",
       "VILLA MADELEINE CONDO 11",
@@ -17945,8 +17832,8 @@
       "ZUERIENDENHEIT",
       "ZUFRIDENHEIT 1"
     ],
-    "totalOutages": 16
+    "totalOutages": 14
   },
   "staleAfterSeconds": 900,
-  "unassignedEventCount": 14
+  "unassignedEventCount": 12
 }
