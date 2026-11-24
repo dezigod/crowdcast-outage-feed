@@ -1594,9 +1594,47 @@
       "startedAt": "2026-11-23T13:00:19Z",
       "verified": true,
       "workStatus": null
+    },
+    {
+      "cause": null,
+      "crewAssigned": false,
+      "endedAt": null,
+      "estimatedRestoration": null,
+      "id": "ff0b34bdabdd61fddccdb2ace1f274ce2a2d453112ceb05e879b07fa78eb91ac",
+      "island": null,
+      "locations": [
+        "EST THOMAS 14E 6",
+        "EST THOMAS 14NJ A-1",
+        "EST THOMAS 14NP",
+        "EST THOMAS 14NP 3FL APT-5",
+        "EST THOMAS 14NP APT 2",
+        "EST THOMAS 14NP-18 6E A-3",
+        "EST THOMAS 14NQ 6E",
+        "EST THOMAS 14NQ-6E",
+        "EST THOMAS 14PI",
+        "EST THOMAS 14PI (EL)",
+        "EST THOMAS 14PI APT-1",
+        "EST THOMAS 14PL (EL)",
+        "EST THOMAS 14PL APT-7",
+        "ESTATE THOMAS 14NQ-6E"
+      ],
+      "modifiedAt": "2026-11-24T11:20:50Z",
+      "name": "T-T-15855",
+      "neighborhoodIDs": [],
+      "point": {
+        "latitude": 18.33546038779535,
+        "longitude": -64.91060845401466
+      },
+      "reportedCustomersInitially": 22,
+      "reportedCustomersOut": 22,
+      "reportedCustomersRestored": 0,
+      "sourceStatus": "Predicted",
+      "startedAt": "2026-11-24T11:20:19Z",
+      "verified": false,
+      "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-24T11:16:31Z",
+  "generatedAt": "2026-11-24T11:21:35Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -2141,21 +2179,21 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "4b612353becbadf81f7814a9dea66cae23d9c6765f5316d9b8c4052022fda089",
+  "snapshotID": "31340dd759cf41fe2841e5889e248d32254a9a6d595575e1e0e970bb6e0ef4b6",
   "source": {
-    "checkedAt": "2026-11-24T11:16:31Z",
+    "checkedAt": "2026-11-24T11:21:35Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-24T11:15:59Z",
+    "updatedAt": "2026-11-24T11:20:59Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "sourceSummary": {
     "customerCountDifference": 2,
-    "customersAffected": 1794,
-    "customersOut": 1794,
+    "customersAffected": 1816,
+    "customersOut": 1816,
     "customersRestored": 0,
     "customersServed": 54728,
-    "eventCustomersOut": 1792,
+    "eventCustomersOut": 1814,
     "hourlyCustomersOut": [
       {
         "at": "2026-11-22T11:00:00Z",
@@ -2351,7 +2389,7 @@
       },
       {
         "at": "2026-11-24T11:00:00Z",
-        "customersOut": 1792
+        "customersOut": 1814
       }
     ],
     "locations": [
@@ -2615,6 +2653,19 @@
       "EST ST. JOSEPH-ROSEN 4-B",
       "EST TAARNEBERG 39C APT 3",
       "EST THOMAS 1 1ST ST",
+      "EST THOMAS 14E 6",
+      "EST THOMAS 14NJ A-1",
+      "EST THOMAS 14NP",
+      "EST THOMAS 14NP 3FL APT-5",
+      "EST THOMAS 14NP APT 2",
+      "EST THOMAS 14NP-18 6E A-3",
+      "EST THOMAS 14NQ 6E",
+      "EST THOMAS 14NQ-6E",
+      "EST THOMAS 14PI",
+      "EST THOMAS 14PI (EL)",
+      "EST THOMAS 14PI APT-1",
+      "EST THOMAS 14PL (EL)",
+      "EST THOMAS 14PL APT-7",
       "EST THOMAS 246 1ST STREET",
       "EST THOMAS 2B",
       "EST THOMAS 8 -",
@@ -2673,6 +2724,7 @@
       "ESTATE ROSS D-15",
       "ESTATE ROSS D-2",
       "ESTATE TAARNEBERG 39C",
+      "ESTATE THOMAS 14NQ-6E",
       "ESTATE WINTBERG 1-J",
       "FORT CHRISTIAN",
       "FORT CHRISTIAN LOT MAIN 1",
@@ -3696,8 +3748,8 @@
       "WINTBERG PEAK 1CD-6",
       "WINTBERG PEAK 1K"
     ],
-    "totalOutages": 10
+    "totalOutages": 11
   },
   "staleAfterSeconds": 900,
-  "unassignedEventCount": 8
+  "unassignedEventCount": 9
 }
