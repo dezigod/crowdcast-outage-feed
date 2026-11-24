@@ -59,7 +59,7 @@
       "workStatus": null
     },
     {
-      "cause": null,
+      "cause": "000 Power supply",
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
@@ -2313,7 +2313,7 @@
         "VESSUP BAY EST 9-39",
         "VESSUP LANE 9A-19"
       ],
-      "modifiedAt": "2026-11-24T12:33:44Z",
+      "modifiedAt": "2026-11-24T12:39:43Z",
       "name": "Feeder 09C",
       "neighborhoodIDs": [
         "stThomas-smith-bay"
@@ -2418,6 +2418,34 @@
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
+      "id": "2049ffd4dcb79719e27ca8f0381f2a9cd8ffb9b1f1a2ab99f963ed51aa5b0723",
+      "island": null,
+      "locations": [
+        "ST JOHN",
+        "ST JOHN 30-FA",
+        "ST JOHN 9-L",
+        "ST JOHN 9N"
+      ],
+      "modifiedAt": "2026-11-24T12:36:19Z",
+      "name": "T-C-20007",
+      "neighborhoodIDs": [],
+      "point": {
+        "latitude": 17.759147243692887,
+        "longitude": -64.75131554543484
+      },
+      "reportedCustomersInitially": 6,
+      "reportedCustomersOut": 6,
+      "reportedCustomersRestored": 0,
+      "sourceStatus": "Predicted",
+      "startedAt": "2026-11-24T12:35:52Z",
+      "verified": false,
+      "workStatus": null
+    },
+    {
+      "cause": null,
+      "crewAssigned": false,
+      "endedAt": null,
+      "estimatedRestoration": null,
       "id": "33a3d2f2a7010e14be4bfe5e5644e69747015f977655363b758a8fa000b5dd11",
       "island": null,
       "locations": [
@@ -2442,7 +2470,7 @@
       "workStatus": null
     },
     {
-      "cause": null,
+      "cause": "000 Power supply",
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
@@ -5390,7 +5418,7 @@
         "ZUERIENDENHEIT",
         "ZUFRIDENHEIT 1"
       ],
-      "modifiedAt": "2026-11-24T12:33:54Z",
+      "modifiedAt": "2026-11-24T12:39:58Z",
       "name": "Feeder 07A",
       "neighborhoodIDs": [
         "stThomas-agnes-fancy",
@@ -5469,6 +5497,59 @@
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
+      "id": "6a4b93058c9b7d25d8bc3c2d8b2c24a8835099948eee0b8b862ce2289a49731a",
+      "island": null,
+      "locations": [
+        "ORANGE GROVE 34-B",
+        "ORANGE GROVE 34-B (WELL)"
+      ],
+      "modifiedAt": "2026-11-24T12:39:24Z",
+      "name": "T-C-21034",
+      "neighborhoodIDs": [],
+      "point": {
+        "latitude": 17.74140168443038,
+        "longitude": -64.84837981202712
+      },
+      "reportedCustomersInitially": 2,
+      "reportedCustomersOut": 2,
+      "reportedCustomersRestored": 0,
+      "sourceStatus": "Predicted",
+      "startedAt": "2026-11-24T12:39:05Z",
+      "verified": false,
+      "workStatus": null
+    },
+    {
+      "cause": null,
+      "crewAssigned": false,
+      "endedAt": null,
+      "estimatedRestoration": null,
+      "id": "6beebcc07dd0c167a69d67587d8193aa8da3faa2a72c3b7bf250ce8a0a11af69",
+      "island": null,
+      "locations": [
+        "MT PELLIER 36",
+        "MT PELLIER 38",
+        "MT PELLIER 38 (DWNSTR)"
+      ],
+      "modifiedAt": "2026-11-24T12:36:19Z",
+      "name": "T-C-20812",
+      "neighborhoodIDs": [],
+      "point": {
+        "latitude": 17.740776625931254,
+        "longitude": -64.8453164903948
+      },
+      "reportedCustomersInitially": 3,
+      "reportedCustomersOut": 3,
+      "reportedCustomersRestored": 0,
+      "sourceStatus": "Predicted",
+      "startedAt": "2026-11-24T12:35:44Z",
+      "verified": false,
+      "workStatus": null
+    },
+    {
+      "cause": null,
+      "crewAssigned": false,
+      "endedAt": null,
+      "estimatedRestoration": null,
       "id": "8044a38a04fbde90a667131f94fbd7eecec7b7ae9be4c9ef7bb4166aa1fa1e8a",
       "island": null,
       "locations": [
@@ -5517,7 +5598,7 @@
       "workStatus": null
     },
     {
-      "cause": null,
+      "cause": "000 Power supply",
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
@@ -7643,7 +7724,7 @@
         "SUZANNABERG 2-3 HOUSE",
         "VIRGIN GRAND EST #71"
       ],
-      "modifiedAt": "2026-11-24T12:34:00Z",
+      "modifiedAt": "2026-11-24T12:40:03Z",
       "name": "Feeder 09E",
       "neighborhoodIDs": [
         "stThomas-lovenlund"
@@ -7657,47 +7738,6 @@
       "reportedCustomersRestored": 0,
       "sourceStatus": "Verified",
       "startedAt": "2026-11-24T12:04:36Z",
-      "verified": true,
-      "workStatus": null
-    },
-    {
-      "cause": "000 Power supply",
-      "crewAssigned": false,
-      "endedAt": null,
-      "estimatedRestoration": null,
-      "id": "a1d2505e2ca7e76f6c9066510e93fba028d48b281a943cb4b446fa9e01750341",
-      "island": null,
-      "locations": [
-        "ANNAS RETREAT 10 S",
-        "CHAR. AMALIE 26 STE. 235",
-        "CHAR. AMALIE SPACE 119 MR",
-        "CHARLOTTE AMALIE",
-        "CHARLOTTE AMALIE 26",
-        "CHARLOTTE AMALIE 26 A",
-        "CHARLOTTE AMALIE 26 AMT",
-        "CHARLOTTE AMALIE 26A",
-        "CHARLOTTE AMALIE 26A 188-",
-        "CHARLOTTE AMALIE 26A OTR",
-        "CHARLOTTE AMALIE 26A RM B",
-        "CHARLOTTE AMALIE 26A STE",
-        "CHARLOTTE AMALIE 26A STE-",
-        "CHARLOTTE AMALIE BASE 26",
-        "CHARLOTTE AMALIE SPACE",
-        "CHARLOTTE AMALIE STE-135A",
-        "TUTU PARK MALL SUITE 111"
-      ],
-      "modifiedAt": "2026-11-23T23:31:22Z",
-      "name": "Mall",
-      "neighborhoodIDs": [],
-      "point": {
-        "latitude": 18.339012805739145,
-        "longitude": -64.89099649150623
-      },
-      "reportedCustomersInitially": 51,
-      "reportedCustomersOut": 51,
-      "reportedCustomersRestored": 0,
-      "sourceStatus": "Verified",
-      "startedAt": "2026-11-23T23:28:00Z",
       "verified": true,
       "workStatus": null
     },
@@ -7785,6 +7825,36 @@
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
+      "id": "a90f3e661400491c81dadd291a1023b298ec60cf2320fef12564351f56674786",
+      "island": null,
+      "locations": [
+        "UPPER LOVE",
+        "UPPER LOVE 177 (EL)",
+        "UPPER LOVE 6-H",
+        "UPPER LOVE 6-I",
+        "UPPER LOVE 6L",
+        "UPPER LOVE 6-LA"
+      ],
+      "modifiedAt": "2026-11-24T12:39:06Z",
+      "name": "T-C-14244",
+      "neighborhoodIDs": [],
+      "point": {
+        "latitude": 17.72717662929103,
+        "longitude": -64.81549357984427
+      },
+      "reportedCustomersInitially": 14,
+      "reportedCustomersOut": 14,
+      "reportedCustomersRestored": 0,
+      "sourceStatus": "Predicted",
+      "startedAt": "2026-11-24T12:38:50Z",
+      "verified": false,
+      "workStatus": null
+    },
+    {
+      "cause": null,
+      "crewAssigned": false,
+      "endedAt": null,
+      "estimatedRestoration": null,
       "id": "ab763215b1092ba339ba7cca6bd4454f4710c9786d7153191ec67b732b09df28",
       "island": null,
       "locations": [
@@ -7839,6 +7909,84 @@
       "sourceStatus": "Verified",
       "startedAt": "2026-11-23T17:52:12Z",
       "verified": true,
+      "workStatus": null
+    },
+    {
+      "cause": null,
+      "crewAssigned": false,
+      "endedAt": null,
+      "estimatedRestoration": null,
+      "id": "b66285377e1297195ffcdbd8658138a543e16ee02bc84eb8e4f833953cae21eb",
+      "island": null,
+      "locations": [
+        "CARAMBOLA-SAMAN VILLAS"
+      ],
+      "modifiedAt": "2026-11-24T12:37:19Z",
+      "name": "T-C-00159",
+      "neighborhoodIDs": [],
+      "point": {
+        "latitude": 17.748944877400366,
+        "longitude": -64.8250840952984
+      },
+      "reportedCustomersInitially": 4,
+      "reportedCustomersOut": 4,
+      "reportedCustomersRestored": 0,
+      "sourceStatus": "Predicted",
+      "startedAt": "2026-11-24T12:36:48Z",
+      "verified": false,
+      "workStatus": null
+    },
+    {
+      "cause": null,
+      "crewAssigned": false,
+      "endedAt": null,
+      "estimatedRestoration": null,
+      "id": "d33564c1cfe5e9e3b9833f830fa14c37fb02961b30c1c233a8d1758a41c9a8ab",
+      "island": null,
+      "locations": [
+        "CONCORDIA 25 (EAST)",
+        "SALT RIVER 56"
+      ],
+      "modifiedAt": "2026-11-24T12:37:35Z",
+      "name": "T-C-08717",
+      "neighborhoodIDs": [],
+      "point": {
+        "latitude": 17.77051712119762,
+        "longitude": -64.76711954026713
+      },
+      "reportedCustomersInitially": 2,
+      "reportedCustomersOut": 2,
+      "reportedCustomersRestored": 0,
+      "sourceStatus": "Predicted",
+      "startedAt": "2026-11-24T12:37:14Z",
+      "verified": false,
+      "workStatus": null
+    },
+    {
+      "cause": null,
+      "crewAssigned": false,
+      "endedAt": null,
+      "estimatedRestoration": null,
+      "id": "d36485115321de21821af2c190ddb3d11397190c61a2cc1297a8f301ee235498",
+      "island": null,
+      "locations": [
+        "BETSYS JEWEL",
+        "BETSYS JEWEL 10",
+        "BETSYS JEWEL 4"
+      ],
+      "modifiedAt": "2026-11-24T12:36:19Z",
+      "name": "T-C-22739",
+      "neighborhoodIDs": [],
+      "point": {
+        "latitude": 17.764903958062035,
+        "longitude": -64.7963201239863
+      },
+      "reportedCustomersInitially": 3,
+      "reportedCustomersOut": 3,
+      "reportedCustomersRestored": 0,
+      "sourceStatus": "Predicted",
+      "startedAt": "2026-11-24T12:35:57Z",
+      "verified": false,
       "workStatus": null
     },
     {
@@ -7932,7 +8080,7 @@
       "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-24T12:41:05Z",
+  "generatedAt": "2026-11-24T12:46:07Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -8435,21 +8583,21 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "28c718928ca2a2574848eb731216fdae50923dbc39e048a8b370ccbc842bb142",
+  "snapshotID": "b4cf56e35c72a507189436389f4413f74b4f38c9bdd2d4e92a198155d9290d39",
   "source": {
-    "checkedAt": "2026-11-24T12:41:05Z",
+    "checkedAt": "2026-11-24T12:46:07Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-24T12:36:03Z",
+    "updatedAt": "2026-11-24T12:41:03Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "sourceSummary": {
     "customerCountDifference": 2,
-    "customersAffected": 9340,
-    "customersOut": 9340,
+    "customersAffected": 9323,
+    "customersOut": 9323,
     "customersRestored": 0,
     "customersServed": 54728,
-    "eventCustomersOut": 9338,
+    "eventCustomersOut": 9321,
     "hourlyCustomersOut": [
       {
         "at": "2026-11-22T12:00:00Z",
@@ -8617,35 +8765,35 @@
       },
       {
         "at": "2026-11-24T05:00:00Z",
-        "customersOut": 90
+        "customersOut": 39
       },
       {
         "at": "2026-11-24T06:00:00Z",
-        "customersOut": 90
+        "customersOut": 39
       },
       {
         "at": "2026-11-24T07:00:00Z",
-        "customersOut": 90
+        "customersOut": 39
       },
       {
         "at": "2026-11-24T08:00:00Z",
-        "customersOut": 90
+        "customersOut": 39
       },
       {
         "at": "2026-11-24T09:00:00Z",
-        "customersOut": 90
+        "customersOut": 39
       },
       {
         "at": "2026-11-24T10:00:00Z",
-        "customersOut": 3356
+        "customersOut": 3305
       },
       {
         "at": "2026-11-24T11:00:00Z",
-        "customersOut": 9415
+        "customersOut": 9364
       },
       {
         "at": "2026-11-24T12:00:00Z",
-        "customersOut": 14798
+        "customersOut": 14781
       }
     ],
     "locations": [
@@ -9187,7 +9335,6 @@
       "ANNAS FANCY MTR 1",
       "ANNAS FANCY TOP FLOOR",
       "ANNAS FANCY UP",
-      "ANNAS RETREAT 10 S",
       "ANNAS RETREAT 148-385",
       "ANNAS RETREAT 24B DOWN",
       "ARAWAK VILLAGE B-2 A-3",
@@ -9311,6 +9458,9 @@
       "BETHANY JC-2",
       "BETHANY JD-1",
       "BETHNAY 1JB UP",
+      "BETSYS JEWEL",
+      "BETSYS JEWEL 10",
+      "BETSYS JEWEL 4",
       "BEVERHOUDSTSBERG 2-F(DWN)",
       "BEVERHOUDTBERG 2B-1",
       "BEVERHOUDTSBERG # 3-1",
@@ -9805,6 +9955,7 @@
       "CABRITE POINT 39-B",
       "CABRITE POINT 47A",
       "CABRITE POINT NAZARETH 37",
+      "CARAMBOLA-SAMAN VILLAS",
       "CARET",
       "CARET BAY",
       "CARET BAY #50",
@@ -10141,8 +10292,6 @@
       "CATHERINGBERG, #3-20",
       "CATHRINEBERG",
       "CENTERLINE",
-      "CHAR. AMALIE 26 STE. 235",
-      "CHAR. AMALIE SPACE 119 MR",
       "CHARLOT AMALIE 10-1-12 A3",
       "CHARLOTT AMALIE 10-1-21-2",
       "CHARLOTTE",
@@ -10170,23 +10319,11 @@
       "CHARLOTTE AMALIE 12",
       "CHARLOTTE AMALIE 16",
       "CHARLOTTE AMALIE 2",
-      "CHARLOTTE AMALIE 26",
-      "CHARLOTTE AMALIE 26 A",
-      "CHARLOTTE AMALIE 26 AMT",
-      "CHARLOTTE AMALIE 26A",
-      "CHARLOTTE AMALIE 26A 188-",
-      "CHARLOTTE AMALIE 26A OTR",
-      "CHARLOTTE AMALIE 26A RM B",
-      "CHARLOTTE AMALIE 26A STE",
-      "CHARLOTTE AMALIE 26A STE-",
       "CHARLOTTE AMALIE 3",
       "CHARLOTTE AMALIE 5",
       "CHARLOTTE AMALIE 6",
       "CHARLOTTE AMALIE 6 N QTR",
       "CHARLOTTE AMALIE 6 UP",
-      "CHARLOTTE AMALIE BASE 26",
-      "CHARLOTTE AMALIE SPACE",
-      "CHARLOTTE AMALIE STE-135A",
       "CHARLOTTE AMALIE TOP FL",
       "CHARLOTTE AMALIE-TRAFFIC",
       "CHOCOLATE 300-31",
@@ -10486,6 +10623,7 @@
       "CHOCOLATE HOLE PCL 67",
       "CHOCOLATE HOLE P-NO",
       "COMMANDANT GADE 12",
+      "CONCORDIA 25 (EAST)",
       "CONCORDIA 71 (EAST)",
       "CONCORDIA 77",
       "CONSOLIDATED EST CAROLINA",
@@ -14245,6 +14383,9 @@
       "MISGUNST TERRACE 2 CONDO",
       "MOUNTAIN TOP B-2",
       "MOUNTAIN TOP COND B-2 A-5",
+      "MT PELLIER 36",
+      "MT PELLIER 38",
+      "MT PELLIER 38 (DWNSTR)",
       "MT ZION 10-12-12",
       "N ESTATE ENIGHED",
       "NADIR",
@@ -14861,6 +15002,8 @@
       "NYE NORDSIDEVEJ 21A A-3",
       "NYE NORDSIDEVEJ 21B",
       "O H COURT BLDG-17",
+      "ORANGE GROVE 34-B",
+      "ORANGE GROVE 34-B (WELL)",
       "P ESTATE CRUZ BAY",
       "PARCEL 1CJ EST DOROTHEA",
       "PARCEL D BENNER HILL",
@@ -15151,6 +15294,7 @@
       "RESOLUTE",
       "RESOLUTION",
       "S REM GIFT & REGENBACH",
+      "SALT RIVER 56",
       "SAN SOUCCI #3B-53",
       "SAN SOUCCI & GUINEA",
       "SAN SOUCCI & GUINEA 3B-21",
@@ -15676,8 +15820,12 @@
       "ST C CONDO G-331",
       "ST C CONDO H-135",
       "ST C CONDOS 321",
+      "ST JOHN",
       "ST JOHN 2&6",
+      "ST JOHN 30-FA",
       "ST JOHN 7",
+      "ST JOHN 9-L",
+      "ST JOHN 9N",
       "ST PETER",
       "ST PETER #15 & 16A DWN",
       "ST PETER #15A & 16A UP",
@@ -16005,7 +16153,6 @@
       "THE ANCHORAGE RANGER",
       "TRACT 1 EST NAZARETH 122-",
       "TROPACO PT HULL BAY",
-      "TUTU PARK MALL SUITE 111",
       "UPPER JOHN DONKO 2-5 MTR",
       "UPPER JOHN DONKO 58",
       "UPPER JOHN DONKOE #19",
@@ -16054,6 +16201,12 @@
       "UPPER JOHN DUNKOE DWN",
       "UPPER JOHN DUNKOE MTR 3",
       "UPPER JOHN DUNKOE MTR 4",
+      "UPPER LOVE",
+      "UPPER LOVE 177 (EL)",
+      "UPPER LOVE 6-H",
+      "UPPER LOVE 6-I",
+      "UPPER LOVE 6L",
+      "UPPER LOVE 6-LA",
       "VESSUP 9",
       "VESSUP BAY",
       "VESSUP BAY 9-12",
@@ -16074,8 +16227,8 @@
       "ZUERIENDENHEIT",
       "ZUFRIDENHEIT 1"
     ],
-    "totalOutages": 20
+    "totalOutages": 26
   },
   "staleAfterSeconds": 900,
-  "unassignedEventCount": 18
+  "unassignedEventCount": 24
 }
