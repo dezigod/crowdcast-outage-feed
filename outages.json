@@ -11947,6 +11947,58 @@
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
+      "id": "e661097dc3bc9b6987aadeea5c0e0a3951d44ae95c31972b42fdfa591790f550",
+      "island": null,
+      "locations": [
+        "AAB MANDAMBERG APT 8",
+        "HOSPITAL GROUND #4 APT 4",
+        "HOSPITAL GROUND 1A",
+        "HOSPITAL GROUND 1-A UP",
+        "HOSPITAL GROUND 2",
+        "HOSPITAL GROUND 2 HSE",
+        "HOSPITAL GROUND 3",
+        "HOSPITAL GROUND 4",
+        "HOSPITAL GROUND 4 APT-1",
+        "HOSPITAL GROUND 4 APT-2",
+        "HOSPITAL GROUND BLDG 1",
+        "HOSPITAL LINE 1",
+        "HOSPITAL LINE 2",
+        "MADAMBERG 1AAB APT-1",
+        "MADAMBERG 1AAB APT-2",
+        "MADAMBERG 1AAB APT-4",
+        "MADAMBERG 1AAB APT-5",
+        "MADAMBERG 1AAB APT-6",
+        "MADAMBERG 1AAB APT-7",
+        "MADAMBERG 1AAB HSE MTR",
+        "MADAMBERG 4B-A",
+        "MADAMBERG 4BC",
+        "PRINDSENS GADE",
+        "PRINDSENS GADE 2-1",
+        "PRINDSENS GADE 3A",
+        "PRINDSENS GADE 71",
+        "PRINDSENS GADE 71 MTR-2",
+        "PRINDSENS GADE 72"
+      ],
+      "modifiedAt": "2026-11-24T19:46:24Z",
+      "name": "T-T-17116_1217",
+      "neighborhoodIDs": [],
+      "point": {
+        "latitude": 18.34357204303059,
+        "longitude": -64.92388028651658
+      },
+      "reportedCustomersInitially": 29,
+      "reportedCustomersOut": 29,
+      "reportedCustomersRestored": 0,
+      "sourceStatus": "Predicted",
+      "startedAt": "2026-11-24T19:46:09Z",
+      "verified": false,
+      "workStatus": null
+    },
+    {
+      "cause": null,
+      "crewAssigned": false,
+      "endedAt": null,
+      "estimatedRestoration": null,
       "id": "ec5bb6db45e6040e80461a0d91762d687660b7619bcead18876d73a3b365a585",
       "island": null,
       "locations": [
@@ -13088,7 +13140,7 @@
       "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-24T19:50:58Z",
+  "generatedAt": "2026-11-24T19:56:01Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -13886,21 +13938,21 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "c179c5ecfdeadfd9289221243d9f72af11db3cdd10cdabbdcba29dc82d954322",
+  "snapshotID": "b85569b5e0c3855b4684e7c6b6f58127d1e4d69e1cd0963ab80b3715df880649",
   "source": {
-    "checkedAt": "2026-11-24T19:50:58Z",
+    "checkedAt": "2026-11-24T19:56:01Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-24T19:46:06Z",
+    "updatedAt": "2026-11-24T19:51:05Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "sourceSummary": {
     "customerCountDifference": 2,
-    "customersAffected": 17395,
-    "customersOut": 17395,
+    "customersAffected": 17424,
+    "customersOut": 17424,
     "customersRestored": 0,
     "customersServed": 54728,
-    "eventCustomersOut": 17393,
+    "eventCustomersOut": 17422,
     "hourlyCustomersOut": [
       {
         "at": "2026-11-22T19:00:00Z",
@@ -14096,7 +14148,7 @@
       },
       {
         "at": "2026-11-24T19:00:00Z",
-        "customersOut": 17393
+        "customersOut": 17422
       }
     ],
     "locations": [
@@ -14160,6 +14212,7 @@
       "9K CROWN & HAWK",
       "9L MAHOG RUN CONDO U-379",
       "A APT EAST MTR A",
+      "AAB MANDAMBERG APT 8",
       "ADVENTURE",
       "ADVENTURE HILL 1 H-281",
       "ADVENTURE HILL 10 H-264",
@@ -20115,6 +20168,18 @@
       "HOFFMAN C-11",
       "HOFFMAN C-4",
       "HOFFMAN C-6 2B NEW QTR",
+      "HOSPITAL GROUND #4 APT 4",
+      "HOSPITAL GROUND 1A",
+      "HOSPITAL GROUND 1-A UP",
+      "HOSPITAL GROUND 2",
+      "HOSPITAL GROUND 2 HSE",
+      "HOSPITAL GROUND 3",
+      "HOSPITAL GROUND 4",
+      "HOSPITAL GROUND 4 APT-1",
+      "HOSPITAL GROUND 4 APT-2",
+      "HOSPITAL GROUND BLDG 1",
+      "HOSPITAL LINE 1",
+      "HOSPITAL LINE 2",
       "HSE METER",
       "HULL BAY 9 REM",
       "INDUS PARK B-2 SEC A",
@@ -21612,6 +21677,15 @@
       "LOWER LOVE 31-A",
       "LOWER LOVE 4",
       "LOWER LOVE/MARKETING",
+      "MADAMBERG 1AAB APT-1",
+      "MADAMBERG 1AAB APT-2",
+      "MADAMBERG 1AAB APT-4",
+      "MADAMBERG 1AAB APT-5",
+      "MADAMBERG 1AAB APT-6",
+      "MADAMBERG 1AAB APT-7",
+      "MADAMBERG 1AAB HSE MTR",
+      "MADAMBERG 4B-A",
+      "MADAMBERG 4BC",
       "MAHAGONY RUN 314 RM 892",
       "MAHAGONY RUN B322L R918",
       "MAHGONY RUN R465",
@@ -24039,6 +24113,12 @@
       "PRINCESS HILL 6BB",
       "PRINCESS PLAZA 9A",
       "PRINCESS VILLAS",
+      "PRINDSENS GADE",
+      "PRINDSENS GADE 2-1",
+      "PRINDSENS GADE 3A",
+      "PRINDSENS GADE 71",
+      "PRINDSENS GADE 71 MTR-2",
+      "PRINDSENS GADE 72",
       "PROFIT",
       "PROFIT 1",
       "PROFIT 10",
@@ -26611,8 +26691,8 @@
       "WINTHBERG 1-B4 APT 303",
       "YELLOW CEDAR 40-D"
     ],
-    "totalOutages": 20
+    "totalOutages": 21
   },
   "staleAfterSeconds": 900,
-  "unassignedEventCount": 18
+  "unassignedEventCount": 19
 }
