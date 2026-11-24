@@ -37,6 +37,34 @@
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
+      "id": "24cc19e2b6604d00526e29812e71dac05f98695f9d0f9fd50e8ce5595923784e",
+      "island": null,
+      "locations": [
+        "3M BAKKERO",
+        "BAKKERO 3A-2-REMAINDER",
+        "BAKKERO 3C",
+        "BAKKERO 3L FLAG HILL"
+      ],
+      "modifiedAt": "2026-11-24T11:25:35Z",
+      "name": "T-T-14640",
+      "neighborhoodIDs": [],
+      "point": {
+        "latitude": 18.327975674240342,
+        "longitude": -64.91384419899413
+      },
+      "reportedCustomersInitially": 4,
+      "reportedCustomersOut": 4,
+      "reportedCustomersRestored": 0,
+      "sourceStatus": "Predicted",
+      "startedAt": "2026-11-24T11:25:05Z",
+      "verified": false,
+      "workStatus": null
+    },
+    {
+      "cause": null,
+      "crewAssigned": false,
+      "endedAt": null,
+      "estimatedRestoration": null,
       "id": "33a3d2f2a7010e14be4bfe5e5644e69747015f977655363b758a8fa000b5dd11",
       "island": null,
       "locations": [
@@ -1634,7 +1662,7 @@
       "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-24T11:21:35Z",
+  "generatedAt": "2026-11-24T11:30:37Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -2179,21 +2207,21 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "31340dd759cf41fe2841e5889e248d32254a9a6d595575e1e0e970bb6e0ef4b6",
+  "snapshotID": "7c61955b480481a1b24584a05b922b5767388e388112a0a2bf5de366b1904b1b",
   "source": {
-    "checkedAt": "2026-11-24T11:21:35Z",
+    "checkedAt": "2026-11-24T11:30:37Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-24T11:20:59Z",
+    "updatedAt": "2026-11-24T11:25:59Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "sourceSummary": {
     "customerCountDifference": 2,
-    "customersAffected": 1816,
-    "customersOut": 1816,
+    "customersAffected": 1820,
+    "customersOut": 1820,
     "customersRestored": 0,
     "customersServed": 54728,
-    "eventCustomersOut": 1814,
+    "eventCustomersOut": 1818,
     "hourlyCustomersOut": [
       {
         "at": "2026-11-22T11:00:00Z",
@@ -2389,7 +2417,7 @@
       },
       {
         "at": "2026-11-24T11:00:00Z",
-        "customersOut": 1814
+        "customersOut": 1818
       }
     ],
     "locations": [
@@ -2400,6 +2428,7 @@
       "267A EST HOSPITAL GROUND",
       "268A HOSPITAL GROUND",
       "2B ESTATE MAFOLIE",
+      "3M BAKKERO",
       "3R AGNES FANCY",
       "400F HOSPITAL GROUND",
       "406-1C HOSPITAL GROUND",
@@ -2462,6 +2491,9 @@
       "AGNES FANCY 5F",
       "ANNAS RETREAT 10 S",
       "ANNAS RETREAT 146-E3",
+      "BAKKERO 3A-2-REMAINDER",
+      "BAKKERO 3C",
+      "BAKKERO 3L FLAG HILL",
       "BAND STAND EMANCIPATION",
       "BJERGE GADE",
       "BJERGE GADE #15 A-1",
@@ -3748,8 +3780,8 @@
       "WINTBERG PEAK 1CD-6",
       "WINTBERG PEAK 1K"
     ],
-    "totalOutages": 11
+    "totalOutages": 12
   },
   "staleAfterSeconds": 900,
-  "unassignedEventCount": 9
+  "unassignedEventCount": 10
 }
