@@ -2748,7 +2748,7 @@
       "locations": [
         "WHEEL OF FORTUNE 96"
       ],
-      "modifiedAt": "2026-11-24T14:55:00Z",
+      "modifiedAt": "2026-11-24T15:00:54Z",
       "name": "T-C-25480",
       "neighborhoodIDs": [],
       "point": {
@@ -15415,7 +15415,7 @@
       "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-24T15:00:58Z",
+  "generatedAt": "2026-11-24T15:05:59Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -17436,11 +17436,11 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "077a4c0b59ab3783f5fea440900e7c3fc4a03a1a7c3f9586ca743c7c9db8caaf",
+  "snapshotID": "43a55ebd2e65b93ce87e549a7df95497c7678f3b818ead40dcc1b0e48f1145fe",
   "source": {
-    "checkedAt": "2026-11-24T15:00:58Z",
+    "checkedAt": "2026-11-24T15:05:59Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-24T14:56:06Z",
+    "updatedAt": "2026-11-24T15:01:06Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
@@ -17452,10 +17452,6 @@
     "customersServed": 54728,
     "eventCustomersOut": 20171,
     "hourlyCustomersOut": [
-      {
-        "at": "2026-11-22T14:00:00Z",
-        "customersOut": 3880
-      },
       {
         "at": "2026-11-22T15:00:00Z",
         "customersOut": 3997
@@ -17647,6 +17643,10 @@
       {
         "at": "2026-11-24T14:00:00Z",
         "customersOut": 29691
+      },
+      {
+        "at": "2026-11-24T15:00:00Z",
+        "customersOut": 20171
       }
     ],
     "locations": [
