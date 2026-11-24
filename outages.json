@@ -3461,9 +3461,41 @@
       "startedAt": "2026-11-23T13:00:19Z",
       "verified": true,
       "workStatus": null
+    },
+    {
+      "cause": null,
+      "crewAssigned": false,
+      "endedAt": null,
+      "estimatedRestoration": null,
+      "id": "ee3a2ec060949f77632eb7df3d2eee47de3750f0aca06f2b5dbebcc7b577a7e7",
+      "island": null,
+      "locations": [
+        "EST THOMAS 17A 1ST",
+        "EST THOMAS 17B 1ST AVE",
+        "EST THOMAS 17-B TRAILER C",
+        "PMP GARDEN BLDG-8",
+        "PMP GARDEN BLDG-9",
+        "PMP GARDEN BLDG-9 STAIR"
+      ],
+      "modifiedAt": "2026-11-24T01:37:09Z",
+      "name": "T-T-04218",
+      "neighborhoodIDs": [
+        "stCroix-pump-garden"
+      ],
+      "point": {
+        "latitude": 18.3386923356028,
+        "longitude": -64.9196560420043
+      },
+      "reportedCustomersInitially": 21,
+      "reportedCustomersOut": 21,
+      "reportedCustomersRestored": 0,
+      "sourceStatus": "Predicted",
+      "startedAt": "2026-11-24T01:36:48Z",
+      "verified": false,
+      "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-24T01:36:07Z",
+  "generatedAt": "2026-11-24T01:41:10Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -4112,7 +4144,25 @@
       "coverage": "partial",
       "customersOut": null,
       "id": "stCroix",
-      "neighborhoods": []
+      "neighborhoods": [
+        {
+          "affectedCustomers": null,
+          "estimatedRestoration": null,
+          "id": "stCroix-pump-garden",
+          "island": "stCroix",
+          "locations": [
+            "Building 8",
+            "Building 9",
+            "Building 9 STAIR"
+          ],
+          "name": "Pompano / Pump Garden",
+          "sourceEventIDs": [
+            "ee3a2ec060949f77632eb7df3d2eee47de3750f0aca06f2b5dbebcc7b577a7e7"
+          ],
+          "sourceStatus": "Predicted",
+          "startedAt": "2026-11-24T01:36:48Z"
+        }
+      ]
     },
     {
       "coverage": "partial",
@@ -4134,21 +4184,21 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "902f4cdb350209c95ae048604e4bc00c917fb3aee2b4ba04b9aa9f28dff6da4b",
+  "snapshotID": "0030f2f0045e591dd7d928dc0ea661d3504f8ae2b4de75d56c29d269e46d5f4a",
   "source": {
-    "checkedAt": "2026-11-24T01:36:07Z",
+    "checkedAt": "2026-11-24T01:41:10Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-24T01:35:59Z",
+    "updatedAt": "2026-11-24T01:40:59Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "sourceSummary": {
     "customerCountDifference": 2,
-    "customersAffected": 4319,
-    "customersOut": 4319,
+    "customersAffected": 4340,
+    "customersOut": 4340,
     "customersRestored": 0,
     "customersServed": 54728,
-    "eventCustomersOut": 4317,
+    "eventCustomersOut": 4338,
     "hourlyCustomersOut": [
       {
         "at": "2026-11-22T01:00:00Z",
@@ -4344,7 +4394,7 @@
       },
       {
         "at": "2026-11-24T01:00:00Z",
-        "customersOut": 15074
+        "customersOut": 15095
       }
     ],
     "locations": [
@@ -5584,6 +5634,9 @@
       "EST THOMAS 16-18 4TH",
       "EST THOMAS 16-18 4TH ST",
       "EST THOMAS 16-18 4TH ST A",
+      "EST THOMAS 17A 1ST",
+      "EST THOMAS 17B 1ST AVE",
+      "EST THOMAS 17-B TRAILER C",
       "EST THOMAS 18-9TH STR",
       "EST THOMAS 1A",
       "EST THOMAS 1B",
@@ -6930,6 +6983,9 @@
       "PILE STRADE 7",
       "PILE STRADE A",
       "PILE STRADE BOTTOM FL",
+      "PMP GARDEN BLDG-8",
+      "PMP GARDEN BLDG-9",
+      "PMP GARDEN BLDG-9 STAIR",
       "PRINDSESSE GADE 38",
       "QUEEN STREET - QTR DRAKE",
       "QUEENS QTRS DRAKE PAS 31",
@@ -7505,8 +7561,8 @@
       "WINTBERG-TRAILER",
       "WINTHBERG 1-B4 APT 303"
     ],
-    "totalOutages": 12
+    "totalOutages": 13
   },
   "staleAfterSeconds": 900,
-  "unassignedEventCount": 10
+  "unassignedEventCount": 11
 }
