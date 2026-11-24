@@ -216,6 +216,31 @@
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
+      "id": "16396ee92e3272ef3f3a912fc38543f56571f980d60be269d05145802d08a369",
+      "island": null,
+      "locations": [
+        "PROSPERITY 25 NORTHSIDE"
+      ],
+      "modifiedAt": "2026-11-24T23:18:41Z",
+      "name": "T-C-12651",
+      "neighborhoodIDs": [],
+      "point": {
+        "latitude": 17.765845898398453,
+        "longitude": -64.82267704160974
+      },
+      "reportedCustomersInitially": 1,
+      "reportedCustomersOut": 1,
+      "reportedCustomersRestored": 0,
+      "sourceStatus": "Predicted",
+      "startedAt": "2026-11-24T23:18:16Z",
+      "verified": false,
+      "workStatus": null
+    },
+    {
+      "cause": null,
+      "crewAssigned": false,
+      "endedAt": null,
+      "estimatedRestoration": null,
       "id": "18620271ef31a1f1776997c365d24793215b86c3ac43e2294d08a6c78ec5d3a3",
       "island": null,
       "locations": [
@@ -2405,6 +2430,33 @@
       "reportedCustomersRestored": 0,
       "sourceStatus": "Predicted",
       "startedAt": "2026-11-24T23:10:53Z",
+      "verified": false,
+      "workStatus": null
+    },
+    {
+      "cause": null,
+      "crewAssigned": false,
+      "endedAt": null,
+      "estimatedRestoration": null,
+      "id": "440830b505dabe9c1cc01dcd287211a3a8d459fd32d212ac9110324c00c84c14",
+      "island": null,
+      "locations": [
+        "ST JOHN",
+        "ST JOHN 38 & 38-A",
+        "ST JOHN 40 (EL)"
+      ],
+      "modifiedAt": "2026-11-24T23:20:28Z",
+      "name": "T-C-04320",
+      "neighborhoodIDs": [],
+      "point": {
+        "latitude": 17.765833747732714,
+        "longitude": -64.74982930523498
+      },
+      "reportedCustomersInitially": 3,
+      "reportedCustomersOut": 3,
+      "reportedCustomersRestored": 0,
+      "sourceStatus": "Predicted",
+      "startedAt": "2026-11-24T23:19:59Z",
       "verified": false,
       "workStatus": null
     },
@@ -8546,6 +8598,37 @@
       "reportedCustomersRestored": 0,
       "sourceStatus": "Predicted",
       "startedAt": "2026-05-24T00:16:58Z",
+      "verified": false,
+      "workStatus": null
+    },
+    {
+      "cause": null,
+      "crewAssigned": false,
+      "endedAt": null,
+      "estimatedRestoration": null,
+      "id": "7cda8ab1c10a81b7ff07d631bc3a328a3e2f76182d679782c8a8f2c06bdbdd9a",
+      "island": null,
+      "locations": [
+        "PLESSEN 11",
+        "PLESSEN 11-G 11-F",
+        "PLESSEN 11-H",
+        "PLESSEN 11-H APT 2",
+        "PLESSEN 11-I",
+        "PLESSEN 11-I (B)",
+        "PLESSEN 11K"
+      ],
+      "modifiedAt": "2026-11-24T23:18:25Z",
+      "name": "T-C-20056",
+      "neighborhoodIDs": [],
+      "point": {
+        "latitude": 17.73201324531356,
+        "longitude": -64.82555791346033
+      },
+      "reportedCustomersInitially": 7,
+      "reportedCustomersOut": 7,
+      "reportedCustomersRestored": 0,
+      "sourceStatus": "Predicted",
+      "startedAt": "2026-11-24T23:17:56Z",
       "verified": false,
       "workStatus": null
     },
@@ -19063,6 +19146,39 @@
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
+      "id": "ea30f2b4fcd2857afdaf1c0fe2558eb92da4e1c3b7db3ef60a069c6bd00727fe",
+      "island": null,
+      "locations": [
+        "EST LERKENLUND 5C-2 UP",
+        "LERKENLUND 1-2",
+        "LERKENLUND 1-2 UP",
+        "LERKENLUND 5C",
+        "LERKENLUND 5C A-1",
+        "LERKENLUND 5C-1 BLDG. 6",
+        "LERKENLUND 5C-2",
+        "LERKENLUND PCL 5LA MTR.A",
+        "LERKENLUND PCL 5LA MTR.B"
+      ],
+      "modifiedAt": "2026-11-24T23:20:43Z",
+      "name": "T-T-06072",
+      "neighborhoodIDs": [],
+      "point": {
+        "latitude": 18.36182595959746,
+        "longitude": -64.9429898119392
+      },
+      "reportedCustomersInitially": 9,
+      "reportedCustomersOut": 9,
+      "reportedCustomersRestored": 0,
+      "sourceStatus": "Predicted",
+      "startedAt": "2026-11-24T23:20:21Z",
+      "verified": false,
+      "workStatus": null
+    },
+    {
+      "cause": null,
+      "crewAssigned": false,
+      "endedAt": null,
+      "estimatedRestoration": null,
       "id": "ec5bb6db45e6040e80461a0d91762d687660b7619bcead18876d73a3b365a585",
       "island": null,
       "locations": [
@@ -20673,7 +20789,7 @@
       "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-24T23:16:22Z",
+  "generatedAt": "2026-11-24T23:21:24Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -21663,21 +21779,21 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "8e8836f0035217ab55c6e4fc74f0c7cc7c0d4368ede2146d267b313202b7bfcd",
+  "snapshotID": "c40b952e3a2a0a06e161cff6e88a44c9cf318b6ca08801e10d60cb7df0c0d11d",
   "source": {
-    "checkedAt": "2026-11-24T23:16:22Z",
+    "checkedAt": "2026-11-24T23:21:24Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-24T23:16:11Z",
+    "updatedAt": "2026-11-24T23:21:10Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "sourceSummary": {
     "customerCountDifference": 2,
-    "customersAffected": 26151,
-    "customersOut": 26151,
+    "customersAffected": 26171,
+    "customersOut": 26171,
     "customersRestored": 0,
     "customersServed": 54729,
-    "eventCustomersOut": 26149,
+    "eventCustomersOut": 26169,
     "hourlyCustomersOut": [
       {
         "at": "2026-11-22T23:00:00Z",
@@ -21873,7 +21989,7 @@
       },
       {
         "at": "2026-11-24T23:00:00Z",
-        "customersOut": 26149
+        "customersOut": 26169
       }
     ],
     "locations": [
@@ -28242,6 +28358,7 @@
       "EST HONDURAS 30-4",
       "EST HOPE 8 CONTAINER PORT",
       "EST JOSEPH & ROSENDAHL",
+      "EST LERKENLUND 5C-2 UP",
       "EST LINDBERG BAY 54",
       "EST LINDBERG BAY 54 A-1",
       "EST LONG POINT COTTON A",
@@ -32263,8 +32380,16 @@
       "LEMON STRADE 2A",
       "LEMON STRADE 2B",
       "LEMON STRAEDE 3A-4B",
+      "LERKENLUND 1-2",
+      "LERKENLUND 1-2 UP",
       "LERKENLUND 501L",
+      "LERKENLUND 5C",
+      "LERKENLUND 5C A-1",
+      "LERKENLUND 5C-1 BLDG. 6",
+      "LERKENLUND 5C-2",
       "LERKENLUND 9D-1-2",
+      "LERKENLUND PCL 5LA MTR.A",
+      "LERKENLUND PCL 5LA MTR.B",
       "LEVKOI STRADE",
       "LEVKOI STRADE 5B",
       "LEVKOI STRADE 7B",
@@ -35632,6 +35757,13 @@
       "PLEASANT VALLEY 8B",
       "PLEASANT VALLEY 9 DUPLEX",
       "PLEASANT VALLEY 9H",
+      "PLESSEN 11",
+      "PLESSEN 11-G 11-F",
+      "PLESSEN 11-H",
+      "PLESSEN 11-H APT 2",
+      "PLESSEN 11-I",
+      "PLESSEN 11-I (B)",
+      "PLESSEN 11K",
       "PLESSEN 17-DB",
       "PLESSEN 19",
       "PLESSEN CROIXVILLE",
@@ -36057,6 +36189,7 @@
       "PROSPERITY 23",
       "PROSPERITY 24",
       "PROSPERITY 25",
+      "PROSPERITY 25 NORTHSIDE",
       "PROSPERITY 29 (DNSTRS)",
       "PROSPERITY 29 (UPSTRS)",
       "PROSPERITY 2-AB",
@@ -37523,6 +37656,9 @@
       "ST GEORGES HILL 9",
       "ST GEORGES HILL 9 DWN",
       "ST GEORGES HILL PROXC3178",
+      "ST JOHN",
+      "ST JOHN 38 & 38-A",
+      "ST JOHN 40 (EL)",
       "ST JOHN 7",
       "ST JOS & ROS 1-23A UP",
       "ST JOS & ROS 4C B1 UD",
@@ -41424,8 +41560,8 @@
       "YELLOW CLIFF 29",
       "YELLOW CLIFF 4&5"
     ],
-    "totalOutages": 40
+    "totalOutages": 44
   },
   "staleAfterSeconds": 900,
-  "unassignedEventCount": 38
+  "unassignedEventCount": 42
 }
