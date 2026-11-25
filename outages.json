@@ -37,54 +37,6 @@
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
-      "id": "1c47b3285d417a7a01f065ed591c49aee706c363c640b7c473c2ff7fc34198cc",
-      "island": null,
-      "locations": [
-        "BARREN SPOT",
-        "BARREN SPOT 100",
-        "BARREN SPOT 101",
-        "BARREN SPOT 103",
-        "BARREN SPOT 104",
-        "BARREN SPOT 106",
-        "BARREN SPOT 106B",
-        "BARREN SPOT 107",
-        "BARREN SPOT 109",
-        "BARREN SPOT 116",
-        "BARREN SPOT 117",
-        "BARREN SPOT 119",
-        "BARREN SPOT 120",
-        "BARREN SPOT 120 (DWNST)",
-        "BARREN SPOT 121",
-        "BARREN SPOT 121-B",
-        "BARREN SPOT 122 A-B",
-        "BARREN SPOT 122-A",
-        "BARREN SPOT 94",
-        "BARREN SPOT 95",
-        "BARREN SPOT 96",
-        "BARREN SPOT 99",
-        "BARREN SPOT VILL",
-        "BARREN SPOT VILLAGE"
-      ],
-      "modifiedAt": "2026-11-25T01:56:53Z",
-      "name": "T-C-07392",
-      "neighborhoodIDs": [],
-      "point": {
-        "latitude": 17.728645786593724,
-        "longitude": -64.76257827141015
-      },
-      "reportedCustomersInitially": 25,
-      "reportedCustomersOut": 25,
-      "reportedCustomersRestored": 0,
-      "sourceStatus": "Predicted",
-      "startedAt": "2026-11-25T01:56:22Z",
-      "verified": false,
-      "workStatus": null
-    },
-    {
-      "cause": null,
-      "crewAssigned": false,
-      "endedAt": null,
-      "estimatedRestoration": null,
       "id": "266e426d16676eb76c44f2bc5b028c8cce9fa8a433ed36db84ba025253648c17",
       "island": null,
       "locations": [
@@ -18719,7 +18671,7 @@
       "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-25T02:50:42Z",
+  "generatedAt": "2026-11-25T02:55:45Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -20329,25 +20281,25 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "61208937526db4dfea1feac13f5d9795b4c1db0f72301d35ba5004a78d4b9dea",
+  "snapshotID": "65253c3534e77da83cff996e7e30198d8dcb4f047cff935e3c13e5c6266a24dd",
   "source": {
-    "checkedAt": "2026-11-25T02:50:42Z",
+    "checkedAt": "2026-11-25T02:55:45Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-25T02:46:10Z",
+    "updatedAt": "2026-11-25T02:51:10Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "sourceSummary": {
     "customerCountDifference": 2,
-    "customersAffected": 26731,
-    "customersOut": 24524,
+    "customersAffected": 26706,
+    "customersOut": 24499,
     "customersRestored": 2207,
     "customersServed": 54729,
-    "eventCustomersOut": 24522,
+    "eventCustomersOut": 24497,
     "hourlyCustomersOut": [
       {
         "at": "2026-11-23T02:00:00Z",
-        "customersOut": 1657
+        "customersOut": 22
       },
       {
         "at": "2026-11-23T03:00:00Z",
@@ -20535,11 +20487,11 @@
       },
       {
         "at": "2026-11-25T01:00:00Z",
-        "customersOut": 30883
+        "customersOut": 30858
       },
       {
         "at": "2026-11-25T02:00:00Z",
-        "customersOut": 36425
+        "customersOut": 36400
       }
     ],
     "locations": [
@@ -21681,24 +21633,6 @@
       "BARBEL PLAZA",
       "BARBEL PLAZA B8-A",
       "BARREN RIDGE",
-      "BARREN SPOT",
-      "BARREN SPOT 100",
-      "BARREN SPOT 101",
-      "BARREN SPOT 103",
-      "BARREN SPOT 104",
-      "BARREN SPOT 106",
-      "BARREN SPOT 106B",
-      "BARREN SPOT 107",
-      "BARREN SPOT 109",
-      "BARREN SPOT 116",
-      "BARREN SPOT 117",
-      "BARREN SPOT 119",
-      "BARREN SPOT 120",
-      "BARREN SPOT 120 (DWNST)",
-      "BARREN SPOT 121",
-      "BARREN SPOT 121-B",
-      "BARREN SPOT 122 A-B",
-      "BARREN SPOT 122-A",
       "BARREN SPOT 288 C",
       "BARREN SPOT 291-B",
       "BARREN SPOT 294A & 295",
@@ -21724,12 +21658,6 @@
       "BARREN SPOT 410",
       "BARREN SPOT 459 (EL)",
       "BARREN SPOT 463",
-      "BARREN SPOT 94",
-      "BARREN SPOT 95",
-      "BARREN SPOT 96",
-      "BARREN SPOT 99",
-      "BARREN SPOT VILL",
-      "BARREN SPOT VILLAGE",
       "BARRON RIDGE 400",
       "BARRON SPOT 294A & 295",
       "BASSIN TRIANGLE",
@@ -38529,8 +38457,8 @@
       "YELLOW CLIFF 29",
       "YELLOW CLIFF 4&5"
     ],
-    "totalOutages": 25
+    "totalOutages": 24
   },
   "staleAfterSeconds": 900,
-  "unassignedEventCount": 23
+  "unassignedEventCount": 22
 }
