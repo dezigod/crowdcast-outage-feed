@@ -37,45 +37,6 @@
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
-      "id": "12501e32cc1ae7e6abc97d7405964a04b283d9aecb789368afd1e52f17a27d24",
-      "island": null,
-      "locations": [
-        "EST THOMAS 16 7TH ST",
-        "EST THOMAS 17 7TH",
-        "EST THOMAS 18 7TH ST A-1",
-        "EST THOMAS 18 7TH ST A-3",
-        "EST THOMAS 18 7TH ST A-4",
-        "EST THOMAS 20 7TH ST",
-        "EST THOMAS 34 1ST AVE",
-        "EST THOMAS 34 1ST AVE B-2",
-        "EST THOMAS 36 1ST AVE",
-        "EST THOMAS 36 7TH ST",
-        "EST THOMAS 36A 7TH ST",
-        "EST THOMAS 38 1ST AVE",
-        "EST THOMAS 7TH ST",
-        "ESTATE THOMAS 18 7TH ST",
-        "SUGAR EST. 15 7TH ST"
-      ],
-      "modifiedAt": "2026-11-25T03:00:15Z",
-      "name": "T-T-16463",
-      "neighborhoodIDs": [],
-      "point": {
-        "latitude": 18.338470918937503,
-        "longitude": -64.91795878828273
-      },
-      "reportedCustomersInitially": 26,
-      "reportedCustomersOut": 26,
-      "reportedCustomersRestored": 0,
-      "sourceStatus": "Predicted",
-      "startedAt": "2026-11-25T02:59:53Z",
-      "verified": false,
-      "workStatus": null
-    },
-    {
-      "cause": null,
-      "crewAssigned": false,
-      "endedAt": null,
-      "estimatedRestoration": null,
       "id": "266e426d16676eb76c44f2bc5b028c8cce9fa8a433ed36db84ba025253648c17",
       "island": null,
       "locations": [
@@ -1945,36 +1906,6 @@
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
-      "id": "2cc2d588648eb4db2bde13f00097e3c0474866ab21f6c3fa889bef6fb905d940",
-      "island": null,
-      "locations": [
-        "ENFIELD GREEN 318",
-        "ENFIELD GREEN 322",
-        "ENFIELD GREEN 325",
-        "ENFIELD GREEN 327",
-        "PLOT 319 ENFIELD GREEN",
-        "PLOT 326 ENFIELD GREEN"
-      ],
-      "modifiedAt": "2026-11-25T03:14:08Z",
-      "name": "T-C-24259",
-      "neighborhoodIDs": [],
-      "point": {
-        "latitude": 17.694356177219184,
-        "longitude": -64.82816456257524
-      },
-      "reportedCustomersInitially": 6,
-      "reportedCustomersOut": 6,
-      "reportedCustomersRestored": 0,
-      "sourceStatus": "Predicted",
-      "startedAt": "2026-11-25T03:14:03Z",
-      "verified": false,
-      "workStatus": null
-    },
-    {
-      "cause": null,
-      "crewAssigned": false,
-      "endedAt": null,
-      "estimatedRestoration": null,
       "id": "33a3d2f2a7010e14be4bfe5e5644e69747015f977655363b758a8fa000b5dd11",
       "island": null,
       "locations": [
@@ -2054,41 +1985,6 @@
       "reportedCustomersRestored": 0,
       "sourceStatus": "Predicted",
       "startedAt": "2026-05-24T00:16:58Z",
-      "verified": false,
-      "workStatus": null
-    },
-    {
-      "cause": null,
-      "crewAssigned": false,
-      "endedAt": null,
-      "estimatedRestoration": null,
-      "id": "6a3d13c7db8e9cd0cc413c4133121eff51be565703be57f1dc4f56c036b54ffa",
-      "island": "stCroix",
-      "locations": [
-        "PMP GARDEN (HOUSE)",
-        "PMP GARDEN B-4",
-        "PMP GARDEN BLDG-3",
-        "PMP GARDEN BLDG-4",
-        "PMP GARDEN BLDG-4 (HSE)",
-        "PMP GARDEN BLDG-5",
-        "PMP GARDEN BLDG-6",
-        "PMP GARDEN BLDG-7",
-        "PMP GARDEN BLDG-7 (HSE)"
-      ],
-      "modifiedAt": "2026-11-25T02:59:14Z",
-      "name": "T-T-16558",
-      "neighborhoodIDs": [
-        "stCroix-pump-garden"
-      ],
-      "point": {
-        "latitude": 18.33891049785419,
-        "longitude": -64.92032669075411
-      },
-      "reportedCustomersInitially": 45,
-      "reportedCustomersOut": 45,
-      "reportedCustomersRestored": 0,
-      "sourceStatus": "Predicted",
-      "startedAt": "2026-11-25T02:58:51Z",
       "verified": false,
       "workStatus": null
     },
@@ -9282,39 +9178,6 @@
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
-      "id": "ea30f2b4fcd2857afdaf1c0fe2558eb92da4e1c3b7db3ef60a069c6bd00727fe",
-      "island": null,
-      "locations": [
-        "EST LERKENLUND 5C-2 UP",
-        "LERKENLUND 1-2",
-        "LERKENLUND 1-2 UP",
-        "LERKENLUND 5C",
-        "LERKENLUND 5C A-1",
-        "LERKENLUND 5C-1 BLDG. 6",
-        "LERKENLUND 5C-2",
-        "LERKENLUND PCL 5LA MTR.A",
-        "LERKENLUND PCL 5LA MTR.B"
-      ],
-      "modifiedAt": "2026-11-25T00:25:06Z",
-      "name": "T-T-06072",
-      "neighborhoodIDs": [],
-      "point": {
-        "latitude": 18.36182595959746,
-        "longitude": -64.9429898119392
-      },
-      "reportedCustomersInitially": 9,
-      "reportedCustomersOut": 9,
-      "reportedCustomersRestored": 0,
-      "sourceStatus": "Verified",
-      "startedAt": "2026-11-24T23:20:21Z",
-      "verified": true,
-      "workStatus": null
-    },
-    {
-      "cause": null,
-      "crewAssigned": false,
-      "endedAt": null,
-      "estimatedRestoration": null,
       "id": "ec5bb6db45e6040e80461a0d91762d687660b7619bcead18876d73a3b365a585",
       "island": null,
       "locations": [
@@ -10481,7 +10344,7 @@
       "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-25T03:20:55Z",
+  "generatedAt": "2026-11-25T03:25:56Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -11209,7 +11072,6 @@
           "locations": [
             "B-1",
             "B-30",
-            "B-4",
             "Building 1",
             "Building 19",
             "Building 21",
@@ -11223,21 +11085,14 @@
             "Building 28",
             "Building 28 STAIR",
             "Building 29",
-            "Building 3",
-            "Building 30",
-            "Building 4",
-            "Building 5",
-            "Building 6",
-            "Building 7",
-            "House"
+            "Building 30"
           ],
           "name": "Pompano / Pump Garden",
           "sourceEventIDs": [
-            "6a3d13c7db8e9cd0cc413c4133121eff51be565703be57f1dc4f56c036b54ffa",
             "9be34a1b53fe656eec7b475e7fef1872531413485e103cf81b17c0e1c01052eb"
           ],
-          "sourceStatus": "Unconfirmed",
-          "startedAt": null
+          "sourceStatus": "Verified",
+          "startedAt": "2026-11-25T00:12:00Z"
         },
         {
           "affectedCustomers": null,
@@ -11536,21 +11391,21 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "5b65a5f5c9b034eb7da8f8a0ba249f220ec24a2351c6c709f32a1fb1c760b3bf",
+  "snapshotID": "c6f86965eaa211c48dea5d20bce47b4e18c85e638de540fbb2a80e538aea0e65",
   "source": {
-    "checkedAt": "2026-11-25T03:20:55Z",
+    "checkedAt": "2026-11-25T03:25:56Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-25T03:16:05Z",
+    "updatedAt": "2026-11-25T03:21:05Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "sourceSummary": {
     "customerCountDifference": 2,
-    "customersAffected": 15696,
-    "customersOut": 13489,
+    "customersAffected": 15610,
+    "customersOut": 13403,
     "customersRestored": 2207,
     "customersServed": 54729,
-    "eventCustomersOut": 13487,
+    "eventCustomersOut": 13401,
     "hourlyCustomersOut": [
       {
         "at": "2026-11-23T03:00:00Z",
@@ -11738,15 +11593,15 @@
       },
       {
         "at": "2026-11-25T01:00:00Z",
-        "customersOut": 29132
+        "customersOut": 29123
       },
       {
         "at": "2026-11-25T02:00:00Z",
-        "customersOut": 34745
+        "customersOut": 34665
       },
       {
         "at": "2026-11-25T03:00:00Z",
-        "customersOut": 22766
+        "customersOut": 22686
       }
     ],
     "locations": [
@@ -14987,10 +14842,6 @@
       "ELIZA'S RETREAT(FLAM WEL)",
       "EMANCIPATION GARDEN",
       "EMILE GRIFFITH B PARK",
-      "ENFIELD GREEN 318",
-      "ENFIELD GREEN 322",
-      "ENFIELD GREEN 325",
-      "ENFIELD GREEN 327",
       "EST ADVENTURE",
       "EST ANGUILA MAIN GATE",
       "EST ANNAS RET 260-8",
@@ -15076,7 +14927,6 @@
       "EST HOFFMAN C-5",
       "EST HOFFMAN LOT C-10",
       "EST HONDURAS 30-4",
-      "EST LERKENLUND 5C-2 UP",
       "EST LONG POINT COTTON A",
       "EST LOVELUND",
       "EST LOVENLUND 1302",
@@ -15146,15 +14996,10 @@
       "EST THOMAS 14B-14-64 B UP",
       "EST THOMAS 14B-15-6-H-14",
       "EST THOMAS 15",
-      "EST THOMAS 16 7TH ST",
       "EST THOMAS 16-2",
-      "EST THOMAS 17 7TH",
       "EST THOMAS 17-1 & 6",
       "EST THOMAS 17-1 NQ 6H",
       "EST THOMAS 18",
-      "EST THOMAS 18 7TH ST A-1",
-      "EST THOMAS 18 7TH ST A-3",
-      "EST THOMAS 18 7TH ST A-4",
       "EST THOMAS 18 DECK BAY",
       "EST THOMAS 18 STE-105A",
       "EST THOMAS 18 STE-107B",
@@ -15175,15 +15020,8 @@
       "EST THOMAS 1C",
       "EST THOMAS 1-C",
       "EST THOMAS 1-RESTAURANT",
-      "EST THOMAS 20 7TH ST",
       "EST THOMAS 2-6F",
       "EST THOMAS 2A*",
-      "EST THOMAS 34 1ST AVE",
-      "EST THOMAS 34 1ST AVE B-2",
-      "EST THOMAS 36 1ST AVE",
-      "EST THOMAS 36 7TH ST",
-      "EST THOMAS 36A 7TH ST",
-      "EST THOMAS 38 1ST AVE",
       "EST THOMAS 6 SPACE 1",
       "EST THOMAS 6 SPACE 5",
       "EST THOMAS 6-3 SUITE 308",
@@ -15219,7 +15057,6 @@
       "EST THOMAS 6H NEW QT",
       "EST THOMAS 6H-16",
       "EST THOMAS 7-F WAREHSE 11",
-      "EST THOMAS 7TH ST",
       "EST THOMAS 8A",
       "EST THOMAS 9A MANDELA CIR",
       "EST THOMAS A BASE LP1",
@@ -15409,7 +15246,6 @@
       "ESTATE SALLY'S FANCY 3",
       "ESTATE SION HILL 13-16",
       "ESTATE THOMAS #6H",
-      "ESTATE THOMAS 18 7TH ST",
       "ESTATE THOMAS 18 REMAINER",
       "ESTATE THOMAS 19",
       "ESTATE THOMAS 1F-LONG BAY",
@@ -16996,16 +16832,8 @@
       "LEMON STRADE 2A",
       "LEMON STRADE 2B",
       "LEMON STRAEDE 3A-4B",
-      "LERKENLUND 1-2",
-      "LERKENLUND 1-2 UP",
       "LERKENLUND 501L",
-      "LERKENLUND 5C",
-      "LERKENLUND 5C A-1",
-      "LERKENLUND 5C-1 BLDG. 6",
-      "LERKENLUND 5C-2",
       "LERKENLUND 9D-1-2",
-      "LERKENLUND PCL 5LA MTR.A",
-      "LERKENLUND PCL 5LA MTR.B",
       "LEVKOI STRADE",
       "LEVKOI STRADE 5B",
       "LEVKOI STRADE 7B",
@@ -18900,17 +18728,13 @@
       "PLESSEN\\CROIXVILLE",
       "PLESSEN\\CROIXVILLE B-D",
       "PLESSEN\\CROIXVILLE B-G",
-      "PLOT 319 ENFIELD GREEN",
-      "PLOT 326 ENFIELD GREEN",
       "PLT EST PROFIT",
       "PMP",
       "PMP B-23",
       "PMP BLDG 21",
       "PMP GAR B-21 A-165",
-      "PMP GARDEN (HOUSE)",
       "PMP GARDEN B-1",
       "PMP GARDEN B-30",
-      "PMP GARDEN B-4",
       "PMP GARDEN BLDG 19",
       "PMP GARDEN BLDG-1",
       "PMP GARDEN BLDG-19",
@@ -18925,14 +18749,7 @@
       "PMP GARDEN BLDG-28",
       "PMP GARDEN BLDG-28 STAIR",
       "PMP GARDEN BLDG-29",
-      "PMP GARDEN BLDG-3",
       "PMP GARDEN BLDG-30",
-      "PMP GARDEN BLDG-4",
-      "PMP GARDEN BLDG-4 (HSE)",
-      "PMP GARDEN BLDG-5",
-      "PMP GARDEN BLDG-6",
-      "PMP GARDEN BLDG-7",
-      "PMP GARDEN BLDG-7 (HSE)",
       "PMP GARDENS B-21 A-168",
       "PMP MANAGER OFFICE",
       "PORT TERM/GB 118 HSE MTR",
@@ -20610,7 +20427,6 @@
       "STRAND STRADE 7",
       "STUDIO",
       "STUDIO 1300 HSE MTR",
-      "SUGAR EST. 15 7TH ST",
       "SUITE #1B & 1C",
       "SUNNY ACRES 602",
       "SUNNY ISLE - SPACE 56",
@@ -21615,8 +21431,8 @@
       "YELLOW CLIFF 29",
       "YELLOW CLIFF 4&5"
     ],
-    "totalOutages": 22
+    "totalOutages": 18
   },
   "staleAfterSeconds": 900,
-  "unassignedEventCount": 19
+  "unassignedEventCount": 16
 }
