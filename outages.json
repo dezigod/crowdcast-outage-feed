@@ -469,6 +469,36 @@
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
+      "id": "81360b21018e444b40d38ae5f213cf4e8a6493aa70b3a89dc581d682db32914d",
+      "island": null,
+      "locations": [
+        "EST ST PETER 24-6J",
+        "ST PETER 20-1",
+        "ST PETER 22A",
+        "ST PETER 6D-1"
+      ],
+      "modifiedAt": "2026-11-25T07:37:46Z",
+      "name": "T-T-06207",
+      "neighborhoodIDs": [
+        "stThomas-st-peter"
+      ],
+      "point": {
+        "latitude": 18.36320194936752,
+        "longitude": -64.945504975774
+      },
+      "reportedCustomersInitially": 5,
+      "reportedCustomersOut": 5,
+      "reportedCustomersRestored": 0,
+      "sourceStatus": "Predicted",
+      "startedAt": "2026-11-25T07:37:25Z",
+      "verified": false,
+      "workStatus": null
+    },
+    {
+      "cause": null,
+      "crewAssigned": false,
+      "endedAt": null,
+      "estimatedRestoration": null,
       "id": "92b8f75e71fd839cffcd81ff2dcd0cfc9ff80f9af3da2f75cfc86774b14f141b",
       "island": null,
       "locations": [
@@ -4639,7 +4669,7 @@
       "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-25T07:36:24Z",
+  "generatedAt": "2026-11-25T07:41:26Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -4714,16 +4744,20 @@
           "id": "stThomas-st-peter",
           "island": "stThomas",
           "locations": [
+            "20-1",
+            "22A",
             "3A-12",
             "3A-18",
+            "6D-1",
             "MT PCL 23A"
           ],
           "name": "Estate St. Peter",
           "sourceEventIDs": [
+            "81360b21018e444b40d38ae5f213cf4e8a6493aa70b3a89dc581d682db32914d",
             "af504358513f61fc5f3742b32b166a7d2dc0be8c7491cb1957a1efb6087b27d6"
           ],
-          "sourceStatus": "Verified",
-          "startedAt": "2026-11-23T17:52:12Z"
+          "sourceStatus": "Unconfirmed",
+          "startedAt": null
         },
         {
           "affectedCustomers": null,
@@ -5232,21 +5266,21 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "c3c4dc748439252abe0b6daa3b7851325f0fd457b69f97bac3e3fa015c0fc98d",
+  "snapshotID": "7d6a615b914c9404382fef1cd2cf5b69e9eadeca76c5c46090d385cc3ea640c7",
   "source": {
-    "checkedAt": "2026-11-25T07:36:24Z",
+    "checkedAt": "2026-11-25T07:41:26Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-25T07:36:03Z",
+    "updatedAt": "2026-11-25T07:41:03Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "sourceSummary": {
     "customerCountDifference": 2,
-    "customersAffected": 5264,
-    "customersOut": 5264,
+    "customersAffected": 5269,
+    "customersOut": 5269,
     "customersRestored": 0,
     "customersServed": 54729,
-    "eventCustomersOut": 5262,
+    "eventCustomersOut": 5267,
     "hourlyCustomersOut": [
       {
         "at": "2026-11-23T07:00:00Z",
@@ -5442,7 +5476,7 @@
       },
       {
         "at": "2026-11-25T07:00:00Z",
-        "customersOut": 5262
+        "customersOut": 5267
       }
     ],
     "locations": [
@@ -6822,6 +6856,7 @@
       "EST ROSS-MADAMBERG 2-17",
       "EST SOLBERG 100-5",
       "EST ST JOSE & ROSEN 4D-4",
+      "EST ST PETER 24-6J",
       "EST ST PETER 3A",
       "EST ST. JOSEPH-ROSEN 4-B",
       "EST TAARNEBERG 39C APT 3",
@@ -9113,8 +9148,11 @@
       "ST JOSEPH/ROSENDHAL 4D-2",
       "ST JOSPEH & ROSENDAHL 4I-",
       "ST JOSPEH & ROSENDAHL 6CA",
+      "ST PETER 20-1",
+      "ST PETER 22A",
       "ST PETER 3A-12",
       "ST PETER 3A-18",
+      "ST PETER 6D-1",
       "ST PETER MT PCL 23A",
       "ST. JOSE & ROSENDAHL 1-16",
       "ST. JOSEPH & ROSE 9F-1",
@@ -9354,8 +9392,8 @@
       "ZOOTENVAAL 3L",
       "ZOOTENVAAL 3N*"
     ],
-    "totalOutages": 29
+    "totalOutages": 30
   },
   "staleAfterSeconds": 900,
-  "unassignedEventCount": 26
+  "unassignedEventCount": 27
 }
