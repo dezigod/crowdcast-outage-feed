@@ -5969,6 +5969,35 @@
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
+      "id": "b3e513e5c02e1989da4d418edacd07dfad1899fe181462f70fe1feafebb939e1",
+      "island": null,
+      "locations": [
+        "ELIZAS RETREAT 103",
+        "ELIZAS RETREAT 105",
+        "ELIZAS RETREAT 106",
+        "ELIZAS RETREAT 106 SPY",
+        "ELIZAS RETREAT 69"
+      ],
+      "modifiedAt": "2026-11-25T15:18:29Z",
+      "name": "T-C-02030",
+      "neighborhoodIDs": [],
+      "point": {
+        "latitude": 17.744802122805755,
+        "longitude": -64.69075028407576
+      },
+      "reportedCustomersInitially": 5,
+      "reportedCustomersOut": 5,
+      "reportedCustomersRestored": 0,
+      "sourceStatus": "Predicted",
+      "startedAt": "2026-11-25T14:48:54Z",
+      "verified": false,
+      "workStatus": null
+    },
+    {
+      "cause": null,
+      "crewAssigned": false,
+      "endedAt": null,
+      "estimatedRestoration": null,
       "id": "d4df086dc1ed0c629dc634ed69dfdde88c4b0e0f5563b6d084ef58afb41bd9d9",
       "island": null,
       "locations": [
@@ -6023,33 +6052,6 @@
       "sourceStatus": "Verified",
       "startedAt": "2026-11-23T13:00:19Z",
       "verified": true,
-      "workStatus": null
-    },
-    {
-      "cause": null,
-      "crewAssigned": false,
-      "endedAt": null,
-      "estimatedRestoration": null,
-      "id": "fc7c813d5ef23fa092850eede5b2814941854718a98f84edb9e46c0a6d03cd90",
-      "island": null,
-      "locations": [
-        "CONSTITUTION HILL 2",
-        "CONSTITUTION HILL 6-B",
-        "CONSTITUTION HILL 6-F"
-      ],
-      "modifiedAt": "2026-11-25T13:22:05Z",
-      "name": "T-C-19752",
-      "neighborhoodIDs": [],
-      "point": {
-        "latitude": 17.734643636843764,
-        "longitude": -64.73280815422589
-      },
-      "reportedCustomersInitially": 4,
-      "reportedCustomersOut": 4,
-      "reportedCustomersRestored": 0,
-      "sourceStatus": "Predicted",
-      "startedAt": "2026-11-25T07:42:03Z",
-      "verified": false,
       "workStatus": null
     },
     {
@@ -8609,7 +8611,7 @@
       "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-25T15:16:26Z",
+  "generatedAt": "2026-11-25T15:21:29Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -8748,21 +8750,21 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "e8d2afa0d6edb3a7666341bf24ff8b9598e3bb743d9f3f2006f61a56149a0076",
+  "snapshotID": "7ab6b402fa3108ef48a257723ff45f52c3a95aca387288b4f5d9907f788eb7a6",
   "source": {
-    "checkedAt": "2026-11-25T15:16:26Z",
+    "checkedAt": "2026-11-25T15:21:29Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-25T15:16:06Z",
+    "updatedAt": "2026-11-25T15:21:05Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "sourceSummary": {
     "customerCountDifference": 2,
-    "customersAffected": 10597,
-    "customersOut": 10597,
+    "customersAffected": 10598,
+    "customersOut": 10598,
     "customersRestored": 0,
     "customersServed": 54729,
-    "eventCustomersOut": 10595,
+    "eventCustomersOut": 10596,
     "hourlyCustomersOut": [
       {
         "at": "2026-11-23T15:00:00Z",
@@ -8926,39 +8928,39 @@
       },
       {
         "at": "2026-11-25T07:00:00Z",
-        "customersOut": 8856
+        "customersOut": 8853
       },
       {
         "at": "2026-11-25T08:00:00Z",
-        "customersOut": 4000
+        "customersOut": 3997
       },
       {
         "at": "2026-11-25T09:00:00Z",
-        "customersOut": 4000
+        "customersOut": 3997
       },
       {
         "at": "2026-11-25T10:00:00Z",
-        "customersOut": 4369
+        "customersOut": 4366
       },
       {
         "at": "2026-11-25T11:00:00Z",
-        "customersOut": 4371
+        "customersOut": 4368
       },
       {
         "at": "2026-11-25T12:00:00Z",
-        "customersOut": 14830
+        "customersOut": 14827
       },
       {
         "at": "2026-11-25T13:00:00Z",
-        "customersOut": 10479
+        "customersOut": 10476
       },
       {
         "at": "2026-11-25T14:00:00Z",
-        "customersOut": 22106
+        "customersOut": 22108
       },
       {
         "at": "2026-11-25T15:00:00Z",
-        "customersOut": 10595
+        "customersOut": 10596
       }
     ],
     "locations": [
@@ -10740,9 +10742,6 @@
       "CONCORDIA 2-7",
       "CONCORDIA 2-8",
       "CONCORDIA 2-9",
-      "CONSTITUTION HILL 2",
-      "CONSTITUTION HILL 6-B",
-      "CONSTITUTION HILL 6-F",
       "CONTAN 320",
       "CONTANT",
       "CONTANT #136 MTR-2",
@@ -11882,6 +11881,11 @@
       "EDEN 2-8-3",
       "EDEN 2-8-7",
       "EDEN REM 2-7-A",
+      "ELIZAS RETREAT 103",
+      "ELIZAS RETREAT 105",
+      "ELIZAS RETREAT 106",
+      "ELIZAS RETREAT 106 SPY",
+      "ELIZAS RETREAT 69",
       "EMILE GRIFFITH B PARK",
       "EMMAUS 10-E",
       "EMMAUS 11",
