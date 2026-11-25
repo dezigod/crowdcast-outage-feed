@@ -1474,6 +1474,43 @@
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
+      "id": "7520e3c5b4ee056e1b1b977e65bcf892b2f5b13f414d529e3fb5dcdc994c8bb8",
+      "island": null,
+      "locations": [
+        "CASTLE BURKE 446/TRAILER",
+        "CASTLE BURKE 450",
+        "CASTLE BURKE 461",
+        "CASTLE BURKE S-2 459",
+        "CASTLE BURKE S-2 P-448 EL",
+        "CASTLE BURKE S-2 P-453",
+        "CASTLE BURKE S-2 P-454 EL",
+        "CASTLE BURKE S-2 P-455",
+        "CASTLE BURKE S-2 P-456 EL",
+        "CASTLE BURKE S-2 P-458 EL",
+        "CASTLE BURKE SITE 2 P-462",
+        "CASTLE BURKE STE 2 P-463",
+        "VICOP LAND 460"
+      ],
+      "modifiedAt": "2026-11-25T19:16:25Z",
+      "name": "T-C-20501",
+      "neighborhoodIDs": [],
+      "point": {
+        "latitude": 17.724102323345264,
+        "longitude": -64.79161098389181
+      },
+      "reportedCustomersInitially": 13,
+      "reportedCustomersOut": 13,
+      "reportedCustomersRestored": 0,
+      "sourceStatus": "Predicted",
+      "startedAt": "2026-11-25T19:09:40Z",
+      "verified": false,
+      "workStatus": null
+    },
+    {
+      "cause": null,
+      "crewAssigned": false,
+      "endedAt": null,
+      "estimatedRestoration": null,
       "id": "7b7ba85d3cba52ce305d18ba1052a5decf9fb9689b82c5817f41b2c3a9b8a6ff",
       "island": null,
       "locations": [
@@ -8149,7 +8186,7 @@
       "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-25T19:20:53Z",
+  "generatedAt": "2026-11-25T19:25:54Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -8303,25 +8340,25 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "fd9b1152339d936447efc896a35692cf6a6bb5711201b5dbd6fbe288abc08b18",
+  "snapshotID": "1daf0df4eb958dadb413a4404038aff5f5f52e856836f3e4ac58b8fc013bc3b1",
   "source": {
-    "checkedAt": "2026-11-25T19:20:53Z",
+    "checkedAt": "2026-11-25T19:25:54Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-25T19:16:06Z",
+    "updatedAt": "2026-11-25T19:21:06Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "sourceSummary": {
     "customerCountDifference": 2,
-    "customersAffected": 9973,
-    "customersOut": 9973,
+    "customersAffected": 9986,
+    "customersOut": 9986,
     "customersRestored": 0,
     "customersServed": 54729,
-    "eventCustomersOut": 9971,
+    "eventCustomersOut": 9984,
     "hourlyCustomersOut": [
       {
         "at": "2026-11-23T19:00:00Z",
-        "customersOut": 7503
+        "customersOut": 6633
       },
       {
         "at": "2026-11-23T20:00:00Z",
@@ -8513,7 +8550,7 @@
       },
       {
         "at": "2026-11-25T19:00:00Z",
-        "customersOut": 10841
+        "customersOut": 10854
       }
     ],
     "locations": [
@@ -10127,6 +10164,18 @@
       "CAROLINA 8-4-5",
       "CAROLINA 8-5",
       "CAROLINA REM 6-2-1",
+      "CASTLE BURKE 446/TRAILER",
+      "CASTLE BURKE 450",
+      "CASTLE BURKE 461",
+      "CASTLE BURKE S-2 459",
+      "CASTLE BURKE S-2 P-448 EL",
+      "CASTLE BURKE S-2 P-453",
+      "CASTLE BURKE S-2 P-454 EL",
+      "CASTLE BURKE S-2 P-455",
+      "CASTLE BURKE S-2 P-456 EL",
+      "CASTLE BURKE S-2 P-458 EL",
+      "CASTLE BURKE SITE 2 P-462",
+      "CASTLE BURKE STE 2 P-463",
       "CELEBRATION VILLAGE CRUZ",
       "CHARLOTTE AMALIE",
       "CHARLOTTE AMALIE 13",
@@ -15843,6 +15892,7 @@
       "UPPER CARET BAY 6C-1 REM",
       "UPPER JOHN DUNKOE",
       "VESTER GADE 100",
+      "VICOP LAND 460",
       "VITRACO MALL 1-STIX",
       "VITRACO MALL B-1 BAY-2",
       "VITRACO PARK",
@@ -16237,8 +16287,8 @@
       "ZOOTENVAAL 3Q (MTR 1)",
       "ZOOTENVAAL 3T"
     ],
-    "totalOutages": 17
+    "totalOutages": 18
   },
   "staleAfterSeconds": 900,
-  "unassignedEventCount": 15
+  "unassignedEventCount": 16
 }
