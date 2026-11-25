@@ -1614,6 +1614,34 @@
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
+      "id": "9bb9389d169400a6bd235e989394b1a85c87926321a2e60ac185ea75f86e3136",
+      "island": "stThomas",
+      "locations": [
+        "ST PETER 14-6",
+        "ST PETER 18A"
+      ],
+      "modifiedAt": "2026-11-25T07:54:50Z",
+      "name": "T-T-06053",
+      "neighborhoodIDs": [
+        "stThomas-st-peter"
+      ],
+      "point": {
+        "latitude": 18.368025283136575,
+        "longitude": -64.94399401394799
+      },
+      "reportedCustomersInitially": 3,
+      "reportedCustomersOut": 3,
+      "reportedCustomersRestored": 0,
+      "sourceStatus": "Predicted",
+      "startedAt": "2026-11-25T07:54:37Z",
+      "verified": false,
+      "workStatus": null
+    },
+    {
+      "cause": null,
+      "crewAssigned": false,
+      "endedAt": null,
+      "estimatedRestoration": null,
       "id": "9be34a1b53fe656eec7b475e7fef1872531413485e103cf81b17c0e1c01052eb",
       "island": null,
       "locations": [
@@ -4696,7 +4724,7 @@
       "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-25T07:51:30Z",
+  "generatedAt": "2026-11-25T07:56:31Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -4771,6 +4799,8 @@
           "id": "stThomas-st-peter",
           "island": "stThomas",
           "locations": [
+            "14-6",
+            "18A",
             "20-1",
             "22A",
             "3A-12",
@@ -4781,6 +4811,7 @@
           "name": "Estate St. Peter",
           "sourceEventIDs": [
             "81360b21018e444b40d38ae5f213cf4e8a6493aa70b3a89dc581d682db32914d",
+            "9bb9389d169400a6bd235e989394b1a85c87926321a2e60ac185ea75f86e3136",
             "af504358513f61fc5f3742b32b166a7d2dc0be8c7491cb1957a1efb6087b27d6"
           ],
           "sourceStatus": "Unconfirmed",
@@ -5293,21 +5324,21 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "f6aa6dbcd5db2e5c942f1ca19c7e4eea699b8d3ab5aaae4e34720ff38746ec20",
+  "snapshotID": "102a35c7e97a031a187bd1f8191805d284f041f92f22bc0b4824fc10a96fc21a",
   "source": {
-    "checkedAt": "2026-11-25T07:51:30Z",
+    "checkedAt": "2026-11-25T07:56:31Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-25T07:51:03Z",
+    "updatedAt": "2026-11-25T07:56:03Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "sourceSummary": {
     "customerCountDifference": 2,
-    "customersAffected": 5273,
-    "customersOut": 5273,
+    "customersAffected": 5276,
+    "customersOut": 5276,
     "customersRestored": 0,
     "customersServed": 54729,
-    "eventCustomersOut": 5271,
+    "eventCustomersOut": 5274,
     "hourlyCustomersOut": [
       {
         "at": "2026-11-23T07:00:00Z",
@@ -5503,7 +5534,7 @@
       },
       {
         "at": "2026-11-25T07:00:00Z",
-        "customersOut": 5271
+        "customersOut": 5274
       }
     ],
     "locations": [
@@ -6573,6 +6604,16 @@
       "DOMINI GADE 8N",
       "DOMINI GADE 8-O",
       "DOMINI TVER GD 4",
+      "DOROTHEA",
+      "DOROTHEA 13A DOWN",
+      "DOROTHEA 2C",
+      "DOROTHEA 2C A-4C",
+      "DOROTHEA 2-CA",
+      "DOROTHEA 2-CA B/4 A/11",
+      "DOROTHEA 2CA B-4 A-13",
+      "DOROTHEA 2D",
+      "DOROTHEA 2D A-8",
+      "DOROTHEA 2-D APT",
       "DRAKES PASSAGE",
       "DRAKES PASSAGE 14-1",
       "DRAKES PASSAGE C-1 31-2",
@@ -6779,6 +6820,12 @@
       "EST CANAAN 1C MAIN HSE",
       "EST CANAAN 3B",
       "EST CANAAN 3F",
+      "EST DOROTHEA",
+      "EST DOROTHEA 2B",
+      "EST DOROTHEA 2B UP",
+      "EST DOROTHEA 2-D APT4",
+      "EST DOROTHEA 2-D PUMP",
+      "EST DOROTHEA 3-I REMAINDE",
       "EST FORTUNA 4-4-14",
       "EST FORTUNA 4-4-21",
       "EST FRENCHMANS BAY 14-38",
@@ -9178,6 +9225,8 @@
       "ST JOSEPH/ROSENDHAL 4D-2",
       "ST JOSPEH & ROSENDAHL 4I-",
       "ST JOSPEH & ROSENDAHL 6CA",
+      "ST PETER 14-6",
+      "ST PETER 18A",
       "ST PETER 20-1",
       "ST PETER 22A",
       "ST PETER 3A-12",
@@ -9422,7 +9471,7 @@
       "ZOOTENVAAL 3L",
       "ZOOTENVAAL 3N*"
     ],
-    "totalOutages": 31
+    "totalOutages": 32
   },
   "staleAfterSeconds": 900,
   "unassignedEventCount": 28
