@@ -1277,7 +1277,7 @@
         "WEST INDIAN CO DOCK B-1",
         "WIC DOCK BAY BLDG-2"
       ],
-      "modifiedAt": "2026-11-25T18:17:33Z",
+      "modifiedAt": "2026-11-25T19:06:46Z",
       "name": "Feeder 10B",
       "neighborhoodIDs": [
         "stCroix-pump-garden"
@@ -1303,20 +1303,17 @@
       "island": null,
       "locations": [
         "DRONNINGENS GADE 23",
-        "DRONNINGENS GADE 24",
-        "DRONNINGENS GADE 24 B-26",
-        "DRONNINGENS GADE 24 STE",
         "GADE 24 2ND FL B-24&B-25"
       ],
-      "modifiedAt": "2026-11-25T17:44:20Z",
+      "modifiedAt": "2026-11-25T19:10:00Z",
       "name": "T-T-01838",
       "neighborhoodIDs": [],
       "point": {
-        "latitude": 18.340652565184975,
+        "latitude": 18.340667462467103,
         "longitude": -64.93334048550838
       },
-      "reportedCustomersInitially": 5,
-      "reportedCustomersOut": 5,
+      "reportedCustomersInitially": 2,
+      "reportedCustomersOut": 2,
       "reportedCustomersRestored": 0,
       "sourceStatus": "Predicted",
       "startedAt": "2026-11-25T14:03:28Z",
@@ -1402,7 +1399,7 @@
         "GALLOWS POINT 3AA",
         "LAVENDER HILL CONDO 8E"
       ],
-      "modifiedAt": "2026-11-25T14:48:12Z",
+      "modifiedAt": "2026-11-25T19:06:41Z",
       "name": "Feeder 08E",
       "neighborhoodIDs": [],
       "point": {
@@ -3969,7 +3966,7 @@
         "WATER ISLE 62",
         "WATER ISLE 63"
       ],
-      "modifiedAt": "2026-11-25T18:32:29Z",
+      "modifiedAt": "2026-11-25T19:06:23Z",
       "name": "Feeder 06A",
       "neighborhoodIDs": [],
       "point": {
@@ -5052,7 +5049,7 @@
         "ZOOTENVAAL 3Q (MTR 1)",
         "ZOOTENVAAL 3T"
       ],
-      "modifiedAt": "2026-11-25T18:40:03Z",
+      "modifiedAt": "2026-11-25T19:06:37Z",
       "name": "Feeder 07E",
       "neighborhoodIDs": [],
       "point": {
@@ -7997,7 +7994,7 @@
         "WINTBERG-TRAILER",
         "WINTHBERG 1-B4 APT 303"
       ],
-      "modifiedAt": "2026-11-25T18:39:02Z",
+      "modifiedAt": "2026-11-25T19:06:28Z",
       "name": "Feeder 07B",
       "neighborhoodIDs": [],
       "point": {
@@ -8010,6 +8007,55 @@
       "sourceStatus": "Verified",
       "startedAt": "2026-11-25T18:24:00Z",
       "verified": true,
+      "workStatus": null
+    },
+    {
+      "cause": null,
+      "crewAssigned": false,
+      "endedAt": null,
+      "estimatedRestoration": null,
+      "id": "c9bfd9cf1e8c3be33d2c8b17e59097fc3db890ddcb95afad5dc31f80769f70a9",
+      "island": null,
+      "locations": [
+        "ALTONA",
+        "ALTONA & WELGUNST 104 A-1",
+        "ALTONA & WELGUNST 104 A-2",
+        "ALTONA & WELGUNST 104 A-3",
+        "ALTONA & WELGUNST 104 A-4",
+        "ALTONA & WELGUNST 104 A-5",
+        "ALTONA & WELGUNST 104 STT",
+        "ALTONA & WELGUNST 35",
+        "ALTONA & WELGUNST 36",
+        "ALTONA & WELGUNST 43",
+        "ALTONA & WELGUNST 85 DOWN",
+        "ALTONA & WELGUNST 85 UP",
+        "ALTONA 102",
+        "ALTONA 102 3FL",
+        "ALTONA 102 MIDDLE",
+        "ALTONA 103 APT-1",
+        "ALTONA 103 APT-2",
+        "ALTONA 103 APT-3",
+        "ALTONA 103 APT-4",
+        "ALTONA 103 APT-5",
+        "ALTONA 103A",
+        "ALTONA 38",
+        "ALTONA 45",
+        "ALTONA 45 APT-5",
+        "ALTONA 45 APT-6"
+      ],
+      "modifiedAt": "2026-11-25T19:06:35Z",
+      "name": "T-T-00748",
+      "neighborhoodIDs": [],
+      "point": {
+        "latitude": 18.338366906094063,
+        "longitude": -64.94381684173308
+      },
+      "reportedCustomersInitially": 30,
+      "reportedCustomersOut": 30,
+      "reportedCustomersRestored": 0,
+      "sourceStatus": "Predicted",
+      "startedAt": "2026-11-25T19:06:26Z",
+      "verified": false,
       "workStatus": null
     },
     {
@@ -8049,7 +8095,7 @@
         "CROWN BAY 45",
         "SUBBASE 72 INSPECTION LN"
       ],
-      "modifiedAt": "2026-11-25T16:26:06Z",
+      "modifiedAt": "2026-11-25T19:10:15Z",
       "name": "T-T-09493",
       "neighborhoodIDs": [
         "stThomas-subbase"
@@ -8103,7 +8149,7 @@
       "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-25T19:10:49Z",
+  "generatedAt": "2026-11-25T19:15:51Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -8257,21 +8303,21 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "4ff38a954c0ad4b32d77e13f400514ee2fbe65e0e6e50b2d55153b0d66a4c5aa",
+  "snapshotID": "b848929e50f40c395d6ce86e6f872d8b58de7e3d65442d92dd6cf61c64f44e03",
   "source": {
-    "checkedAt": "2026-11-25T19:10:49Z",
+    "checkedAt": "2026-11-25T19:15:51Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-25T19:06:06Z",
+    "updatedAt": "2026-11-25T19:11:06Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "sourceSummary": {
     "customerCountDifference": 2,
-    "customersAffected": 9946,
-    "customersOut": 9946,
+    "customersAffected": 9973,
+    "customersOut": 9973,
     "customersRestored": 0,
     "customersServed": 54729,
-    "eventCustomersOut": 9944,
+    "eventCustomersOut": 9971,
     "hourlyCustomersOut": [
       {
         "at": "2026-11-23T19:00:00Z",
@@ -8447,27 +8493,27 @@
       },
       {
         "at": "2026-11-25T14:00:00Z",
-        "customersOut": 22076
+        "customersOut": 22073
       },
       {
         "at": "2026-11-25T15:00:00Z",
-        "customersOut": 10564
+        "customersOut": 10561
       },
       {
         "at": "2026-11-25T16:00:00Z",
-        "customersOut": 21723
+        "customersOut": 21720
       },
       {
         "at": "2026-11-25T17:00:00Z",
-        "customersOut": 11907
+        "customersOut": 11904
       },
       {
         "at": "2026-11-25T18:00:00Z",
-        "customersOut": 21100
+        "customersOut": 21097
       },
       {
         "at": "2026-11-25T19:00:00Z",
-        "customersOut": 10814
+        "customersOut": 10841
       }
     ],
     "locations": [
@@ -8567,6 +8613,31 @@
       "AGNES FANCY 5-A",
       "AGNES FANCY 5B",
       "AGNES FANCY 5F",
+      "ALTONA",
+      "ALTONA & WELGUNST 104 A-1",
+      "ALTONA & WELGUNST 104 A-2",
+      "ALTONA & WELGUNST 104 A-3",
+      "ALTONA & WELGUNST 104 A-4",
+      "ALTONA & WELGUNST 104 A-5",
+      "ALTONA & WELGUNST 104 STT",
+      "ALTONA & WELGUNST 35",
+      "ALTONA & WELGUNST 36",
+      "ALTONA & WELGUNST 43",
+      "ALTONA & WELGUNST 85 DOWN",
+      "ALTONA & WELGUNST 85 UP",
+      "ALTONA 102",
+      "ALTONA 102 3FL",
+      "ALTONA 102 MIDDLE",
+      "ALTONA 103 APT-1",
+      "ALTONA 103 APT-2",
+      "ALTONA 103 APT-3",
+      "ALTONA 103 APT-4",
+      "ALTONA 103 APT-5",
+      "ALTONA 103A",
+      "ALTONA 38",
+      "ALTONA 45",
+      "ALTONA 45 APT-5",
+      "ALTONA 45 APT-6",
       "ANNABERG 4C",
       "ANNABERG 4K",
       "ANNABERG 4-O-1",
@@ -11166,9 +11237,6 @@
       "DOROTHEA 6BA REM",
       "DOROTHEA UP",
       "DRONNINGENS GADE 23",
-      "DRONNINGENS GADE 24",
-      "DRONNINGENS GADE 24 B-26",
-      "DRONNINGENS GADE 24 STE",
       "DUNOE 3 BLDG 2 APT G202",
       "E ESTATE MANDAHL",
       "EC ESTATE MANDAHL",
@@ -16169,8 +16237,8 @@
       "ZOOTENVAAL 3Q (MTR 1)",
       "ZOOTENVAAL 3T"
     ],
-    "totalOutages": 16
+    "totalOutages": 17
   },
   "staleAfterSeconds": 900,
-  "unassignedEventCount": 14
+  "unassignedEventCount": 15
 }
