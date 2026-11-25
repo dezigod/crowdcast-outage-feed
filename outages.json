@@ -3299,6 +3299,41 @@
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
+      "id": "afefa262824c7714ee6ecb2b9d0223c1e563b59895f6fb837c89bb4fa3983511",
+      "island": null,
+      "locations": [
+        "EST LERKENLUND 9D-6",
+        "LERKENLUND 8-63 TOP",
+        "LERKENLUND 9D-10",
+        "LITTLE N. STAR VILL 3-I24",
+        "ST PETER 31-18 HSE METER",
+        "ST PETER 31-19 & 31-18",
+        "ST PETER 31-22 NORTH STAR",
+        "ST PETER 31-22 NORTHSTAR",
+        "ST PETER 3I-20 HIBIS LANE"
+      ],
+      "modifiedAt": "2026-11-25T09:24:33Z",
+      "name": "T-T-16676",
+      "neighborhoodIDs": [
+        "stThomas-st-peter"
+      ],
+      "point": {
+        "latitude": 18.35671960987612,
+        "longitude": -64.94569466203092
+      },
+      "reportedCustomersInitially": 12,
+      "reportedCustomersOut": 12,
+      "reportedCustomersRestored": 0,
+      "sourceStatus": "Predicted",
+      "startedAt": "2026-11-25T09:24:02Z",
+      "verified": false,
+      "workStatus": null
+    },
+    {
+      "cause": null,
+      "crewAssigned": false,
+      "endedAt": null,
+      "estimatedRestoration": null,
       "id": "b5a5abb0630289e3151d00f06a5c9b642d7229530e94c0c0b76c160417908a87",
       "island": null,
       "locations": [
@@ -5051,7 +5086,7 @@
       "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-25T09:25:59Z",
+  "generatedAt": "2026-11-25T09:31:01Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -5130,8 +5165,13 @@
             "18A",
             "20-1",
             "22A",
+            "31-18 HSE METER",
+            "31-19 & 31-18",
+            "31-22 NORTH STAR",
+            "31-22 NORTHSTAR",
             "3A-12",
             "3A-18",
+            "3I-20 HIBIS LANE",
             "6D-1",
             "MT PCL 23A"
           ],
@@ -5139,7 +5179,8 @@
           "sourceEventIDs": [
             "81360b21018e444b40d38ae5f213cf4e8a6493aa70b3a89dc581d682db32914d",
             "9bb9389d169400a6bd235e989394b1a85c87926321a2e60ac185ea75f86e3136",
-            "af504358513f61fc5f3742b32b166a7d2dc0be8c7491cb1957a1efb6087b27d6"
+            "af504358513f61fc5f3742b32b166a7d2dc0be8c7491cb1957a1efb6087b27d6",
+            "afefa262824c7714ee6ecb2b9d0223c1e563b59895f6fb837c89bb4fa3983511"
           ],
           "sourceStatus": "Unconfirmed",
           "startedAt": null
@@ -5651,21 +5692,21 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "7de60e44f92333831d504d0e28ae3a1268d0dae729a5ba8d6dc0a7863cda4c26",
+  "snapshotID": "cfe3f09225f1be5e69a6394e7c7a0e4da2ca60c2899fceff045616c13f5ef3a2",
   "source": {
-    "checkedAt": "2026-11-25T09:25:59Z",
+    "checkedAt": "2026-11-25T09:31:01Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-25T09:21:04Z",
+    "updatedAt": "2026-11-25T09:26:05Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "sourceSummary": {
     "customerCountDifference": 2,
-    "customersAffected": 5667,
-    "customersOut": 5667,
+    "customersAffected": 5679,
+    "customersOut": 5679,
     "customersRestored": 0,
     "customersServed": 54729,
-    "eventCustomersOut": 5665,
+    "eventCustomersOut": 5677,
     "hourlyCustomersOut": [
       {
         "at": "2026-11-23T09:00:00Z",
@@ -5861,7 +5902,7 @@
       },
       {
         "at": "2026-11-25T09:00:00Z",
-        "customersOut": 5665
+        "customersOut": 5677
       }
     ],
     "locations": [
@@ -7445,6 +7486,7 @@
       "EST HULL PLOT 5A",
       "EST HULL-BOTTOM",
       "EST JOSEPH & ROSENDAHL",
+      "EST LERKENLUND 9D-6",
       "EST LOUISENHOJ 1",
       "EST LOUISENHOJ 11-1A",
       "EST LOUISENHOJ 1A",
@@ -8881,6 +8923,8 @@
       "LEMON STRADE 2A",
       "LEMON STRADE 2B",
       "LEMON STRAEDE 3A-4B",
+      "LERKENLUND 8-63 TOP",
+      "LERKENLUND 9D-10",
       "LERKENLUND 9D-1-2",
       "LEVKOI STRADE",
       "LEVKOI STRADE 5B",
@@ -8890,6 +8934,7 @@
       "LILLIENDAH & MARIEN 6A-28",
       "LILLIENDAHL & MARIENHOJ",
       "LIONEL ROBERTS STADIUM",
+      "LITTLE N. STAR VILL 3-I24",
       "LONG BAY STATION",
       "LONGBAY LANDFILL PAN YARD",
       "LOT 15 EST. THOMAS",
@@ -9815,8 +9860,13 @@
       "ST PETER 18A",
       "ST PETER 20-1",
       "ST PETER 22A",
+      "ST PETER 31-18 HSE METER",
+      "ST PETER 31-19 & 31-18",
+      "ST PETER 31-22 NORTH STAR",
+      "ST PETER 31-22 NORTHSTAR",
       "ST PETER 3A-12",
       "ST PETER 3A-18",
+      "ST PETER 3I-20 HIBIS LANE",
       "ST PETER 6D-1",
       "ST PETER MT PCL 23A",
       "ST. JOSE & ROSENDAHL 1-16",
@@ -10057,8 +10107,8 @@
       "ZOOTENVAAL 3L",
       "ZOOTENVAAL 3N*"
     ],
-    "totalOutages": 34
+    "totalOutages": 35
   },
   "staleAfterSeconds": 900,
-  "unassignedEventCount": 30
+  "unassignedEventCount": 31
 }
