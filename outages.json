@@ -16999,35 +16999,6 @@
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
-      "id": "a46d5e71929d3a9bb10e588d96fcc58354c927d1296baa9b453737b42b6df4e2",
-      "island": null,
-      "locations": [
-        "EST PEARL 37-37",
-        "EST PEARL 37-39",
-        "ESTATE PEARL 37-42",
-        "PEARL 37-36",
-        "PEARL 37-41"
-      ],
-      "modifiedAt": "2026-11-25T01:33:32Z",
-      "name": "T-T-01244",
-      "neighborhoodIDs": [],
-      "point": {
-        "latitude": 18.35602271184545,
-        "longitude": -64.98051169762479
-      },
-      "reportedCustomersInitially": 5,
-      "reportedCustomersOut": 5,
-      "reportedCustomersRestored": 0,
-      "sourceStatus": "Predicted",
-      "startedAt": "2026-11-25T01:33:11Z",
-      "verified": false,
-      "workStatus": null
-    },
-    {
-      "cause": null,
-      "crewAssigned": false,
-      "endedAt": null,
-      "estimatedRestoration": null,
       "id": "a58edb135552a9265415ab9402f734a93c8b7036485758fb1a54d130cf482e2d",
       "island": null,
       "locations": [
@@ -23261,7 +23232,7 @@
       "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-25T01:41:16Z",
+  "generatedAt": "2026-11-25T01:46:18Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -25721,21 +25692,21 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "edb3c70edcdbcbcdcbac40e8b1b2d57d4f5f9acea8ed095d75cc76ba98e5bd58",
+  "snapshotID": "816e24ab3c37d576839c8d109c0664d5d30c103e7e5922fc7d2df4e4034a2a4d",
   "source": {
-    "checkedAt": "2026-11-25T01:41:16Z",
+    "checkedAt": "2026-11-25T01:46:18Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-25T01:36:13Z",
+    "updatedAt": "2026-11-25T01:46:12Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "sourceSummary": {
     "customerCountDifference": 2,
-    "customersAffected": 30865,
-    "customersOut": 30865,
+    "customersAffected": 30860,
+    "customersOut": 30860,
     "customersRestored": 0,
     "customersServed": 54729,
-    "eventCustomersOut": 30863,
+    "eventCustomersOut": 30858,
     "hourlyCustomersOut": [
       {
         "at": "2026-11-23T01:00:00Z",
@@ -25931,7 +25902,7 @@
       },
       {
         "at": "2026-11-25T01:00:00Z",
-        "customersOut": 30863
+        "customersOut": 30858
       }
     ],
     "locations": [
@@ -32394,8 +32365,6 @@
       "EST PEARL",
       "EST PEARL 1A & 2",
       "EST PEARL 3",
-      "EST PEARL 37-37",
-      "EST PEARL 37-39",
       "EST PEARL 38B-1B/38B-4-1",
       "EST PEARL 38B-2",
       "EST PEARL 38B-8A-1",
@@ -33374,7 +33343,6 @@
       "ESTATE NORTH SLOB 14C-D",
       "ESTATE ORANGE GROVE 14&15",
       "ESTATE PARARA 9 EST QUT",
-      "ESTATE PEARL 37-42",
       "ESTATE PEARL 39K",
       "ESTATE PETERBORG",
       "ESTATE PETERBORG 10-1-29",
@@ -40350,8 +40318,6 @@
       "PEARL 18",
       "PEARL 2",
       "PEARL 3",
-      "PEARL 37-36",
-      "PEARL 37-41",
       "PEARL 38A-3 & 38B-6A UP",
       "PEARL 38B-1A/38B-5-1",
       "PEARL 38B-2 UP",
@@ -48420,8 +48386,8 @@
       "ZUERIENDENHEIT",
       "ZUFRIDENHEIT 1"
     ],
-    "totalOutages": 26
+    "totalOutages": 25
   },
   "staleAfterSeconds": 900,
-  "unassignedEventCount": 24
+  "unassignedEventCount": 23
 }
