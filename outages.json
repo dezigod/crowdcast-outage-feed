@@ -37,6 +37,54 @@
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
+      "id": "1c47b3285d417a7a01f065ed591c49aee706c363c640b7c473c2ff7fc34198cc",
+      "island": null,
+      "locations": [
+        "BARREN SPOT",
+        "BARREN SPOT 100",
+        "BARREN SPOT 101",
+        "BARREN SPOT 103",
+        "BARREN SPOT 104",
+        "BARREN SPOT 106",
+        "BARREN SPOT 106B",
+        "BARREN SPOT 107",
+        "BARREN SPOT 109",
+        "BARREN SPOT 116",
+        "BARREN SPOT 117",
+        "BARREN SPOT 119",
+        "BARREN SPOT 120",
+        "BARREN SPOT 120 (DWNST)",
+        "BARREN SPOT 121",
+        "BARREN SPOT 121-B",
+        "BARREN SPOT 122 A-B",
+        "BARREN SPOT 122-A",
+        "BARREN SPOT 94",
+        "BARREN SPOT 95",
+        "BARREN SPOT 96",
+        "BARREN SPOT 99",
+        "BARREN SPOT VILL",
+        "BARREN SPOT VILLAGE"
+      ],
+      "modifiedAt": "2026-11-25T01:56:53Z",
+      "name": "T-C-07392",
+      "neighborhoodIDs": [],
+      "point": {
+        "latitude": 17.728645786593724,
+        "longitude": -64.76257827141015
+      },
+      "reportedCustomersInitially": 25,
+      "reportedCustomersOut": 25,
+      "reportedCustomersRestored": 0,
+      "sourceStatus": "Predicted",
+      "startedAt": "2026-11-25T01:56:22Z",
+      "verified": false,
+      "workStatus": null
+    },
+    {
+      "cause": null,
+      "crewAssigned": false,
+      "endedAt": null,
+      "estimatedRestoration": null,
       "id": "25900f69a05814b4c3dcf590dd8862ded7d8b1810667cbbd9444516e25809a23",
       "island": null,
       "locations": [
@@ -23232,7 +23280,7 @@
       "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-25T01:56:24Z",
+  "generatedAt": "2026-11-25T02:01:26Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -25692,26 +25740,22 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "68a88173a50fac00b6bc48aa4a39e7c78a23fc32160f3a41ed971925136228ff",
+  "snapshotID": "9155a9f5fa2d303875ea2d7f8e9b4fcfabbcb804b425ac2943f9acd185941c7e",
   "source": {
-    "checkedAt": "2026-11-25T01:56:24Z",
+    "checkedAt": "2026-11-25T02:01:26Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-25T01:56:13Z",
+    "updatedAt": "2026-11-25T02:01:12Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "sourceSummary": {
     "customerCountDifference": 2,
-    "customersAffected": 30860,
-    "customersOut": 30860,
+    "customersAffected": 30885,
+    "customersOut": 30885,
     "customersRestored": 0,
     "customersServed": 54729,
-    "eventCustomersOut": 30858,
+    "eventCustomersOut": 30883,
     "hourlyCustomersOut": [
-      {
-        "at": "2026-11-23T01:00:00Z",
-        "customersOut": 1657
-      },
       {
         "at": "2026-11-23T02:00:00Z",
         "customersOut": 1657
@@ -25902,7 +25946,11 @@
       },
       {
         "at": "2026-11-25T01:00:00Z",
-        "customersOut": 30858
+        "customersOut": 30883
+      },
+      {
+        "at": "2026-11-25T02:00:00Z",
+        "customersOut": 30883
       }
     ],
     "locations": [
@@ -27916,7 +27964,31 @@
       "BARBADOS SAPP VILL 204E",
       "BARBEL PLAZA",
       "BARBEL PLAZA B8-A",
+      "BARREN SPOT",
+      "BARREN SPOT 100",
+      "BARREN SPOT 101",
+      "BARREN SPOT 103",
+      "BARREN SPOT 104",
+      "BARREN SPOT 106",
+      "BARREN SPOT 106B",
+      "BARREN SPOT 107",
+      "BARREN SPOT 109",
+      "BARREN SPOT 116",
+      "BARREN SPOT 117",
+      "BARREN SPOT 119",
+      "BARREN SPOT 120",
+      "BARREN SPOT 120 (DWNST)",
+      "BARREN SPOT 121",
+      "BARREN SPOT 121-B",
+      "BARREN SPOT 122 A-B",
+      "BARREN SPOT 122-A",
       "BARREN SPOT 41",
+      "BARREN SPOT 94",
+      "BARREN SPOT 95",
+      "BARREN SPOT 96",
+      "BARREN SPOT 99",
+      "BARREN SPOT VILL",
+      "BARREN SPOT VILLAGE",
       "BARRETT #13-5",
       "BARRETT EST 14-2",
       "BARRETT EST 14-2 COTTAGE",
@@ -48386,8 +48458,8 @@
       "ZUERIENDENHEIT",
       "ZUFRIDENHEIT 1"
     ],
-    "totalOutages": 25
+    "totalOutages": 26
   },
   "staleAfterSeconds": 900,
-  "unassignedEventCount": 23
+  "unassignedEventCount": 24
 }
