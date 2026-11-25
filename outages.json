@@ -37,6 +37,45 @@
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
+      "id": "12501e32cc1ae7e6abc97d7405964a04b283d9aecb789368afd1e52f17a27d24",
+      "island": null,
+      "locations": [
+        "EST THOMAS 16 7TH ST",
+        "EST THOMAS 17 7TH",
+        "EST THOMAS 18 7TH ST A-1",
+        "EST THOMAS 18 7TH ST A-3",
+        "EST THOMAS 18 7TH ST A-4",
+        "EST THOMAS 20 7TH ST",
+        "EST THOMAS 34 1ST AVE",
+        "EST THOMAS 34 1ST AVE B-2",
+        "EST THOMAS 36 1ST AVE",
+        "EST THOMAS 36 7TH ST",
+        "EST THOMAS 36A 7TH ST",
+        "EST THOMAS 38 1ST AVE",
+        "EST THOMAS 7TH ST",
+        "ESTATE THOMAS 18 7TH ST",
+        "SUGAR EST. 15 7TH ST"
+      ],
+      "modifiedAt": "2026-11-25T03:00:15Z",
+      "name": "T-T-16463",
+      "neighborhoodIDs": [],
+      "point": {
+        "latitude": 18.338470918937503,
+        "longitude": -64.91795878828273
+      },
+      "reportedCustomersInitially": 26,
+      "reportedCustomersOut": 26,
+      "reportedCustomersRestored": 0,
+      "sourceStatus": "Predicted",
+      "startedAt": "2026-11-25T02:59:53Z",
+      "verified": false,
+      "workStatus": null
+    },
+    {
+      "cause": null,
+      "crewAssigned": false,
+      "endedAt": null,
+      "estimatedRestoration": null,
       "id": "266e426d16676eb76c44f2bc5b028c8cce9fa8a433ed36db84ba025253648c17",
       "island": null,
       "locations": [
@@ -1881,7 +1920,7 @@
         "WINTBERG-TRAILER",
         "WINTHBERG 1-B4 APT 303"
       ],
-      "modifiedAt": "2026-11-25T02:31:51Z",
+      "modifiedAt": "2026-11-25T02:56:44Z",
       "name": "TSW-7B-9C-MASA-B",
       "neighborhoodIDs": [
         "stThomas-donoe",
@@ -8657,6 +8696,41 @@
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
+      "id": "6a3d13c7db8e9cd0cc413c4133121eff51be565703be57f1dc4f56c036b54ffa",
+      "island": "stCroix",
+      "locations": [
+        "PMP GARDEN (HOUSE)",
+        "PMP GARDEN B-4",
+        "PMP GARDEN BLDG-3",
+        "PMP GARDEN BLDG-4",
+        "PMP GARDEN BLDG-4 (HSE)",
+        "PMP GARDEN BLDG-5",
+        "PMP GARDEN BLDG-6",
+        "PMP GARDEN BLDG-7",
+        "PMP GARDEN BLDG-7 (HSE)"
+      ],
+      "modifiedAt": "2026-11-25T02:59:14Z",
+      "name": "T-T-16558",
+      "neighborhoodIDs": [
+        "stCroix-pump-garden"
+      ],
+      "point": {
+        "latitude": 18.33891049785419,
+        "longitude": -64.92032669075411
+      },
+      "reportedCustomersInitially": 45,
+      "reportedCustomersOut": 45,
+      "reportedCustomersRestored": 0,
+      "sourceStatus": "Predicted",
+      "startedAt": "2026-11-25T02:58:51Z",
+      "verified": false,
+      "workStatus": null
+    },
+    {
+      "cause": null,
+      "crewAssigned": false,
+      "endedAt": null,
+      "estimatedRestoration": null,
       "id": "756858ea2795062d3a48ff1f23a33300689d112420fea8aad8d26f8fa3b3f348",
       "island": null,
       "locations": [
@@ -9398,7 +9472,7 @@
         "SUNNY ISLES X-MAS TREE",
         "UNITED SHOPPING PLAZA"
       ],
-      "modifiedAt": "2026-11-25T02:25:13Z",
+      "modifiedAt": "2026-11-25T02:56:33Z",
       "name": "STX Feeder 9A",
       "neighborhoodIDs": [
         "stCroix-castle-coakley"
@@ -11803,7 +11877,7 @@
         "WIMMELSKAFTS GADE 6A(RES)",
         "WINDWARD PASSAGE/TRAFFIC"
       ],
-      "modifiedAt": "2026-11-25T02:33:47Z",
+      "modifiedAt": "2026-11-25T02:56:56Z",
       "name": "Feeder 06B",
       "neighborhoodIDs": [
         "stThomas-smith-bay"
@@ -17091,7 +17165,7 @@
         "WEST PALM DRIVE 64",
         "YELLOW CEDAR 40-D"
       ],
-      "modifiedAt": "2026-11-25T02:22:36Z",
+      "modifiedAt": "2026-11-25T02:56:20Z",
       "name": "STX Feeder 09B",
       "neighborhoodIDs": [
         "stCroix-vicorp-land"
@@ -18605,7 +18679,7 @@
       "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-25T03:00:45Z",
+  "generatedAt": "2026-11-25T03:05:47Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -19891,6 +19965,7 @@
           "locations": [
             "B-1",
             "B-30",
+            "B-4",
             "Building 1",
             "Building 19",
             "Building 21",
@@ -19904,14 +19979,21 @@
             "Building 28",
             "Building 28 STAIR",
             "Building 29",
-            "Building 30"
+            "Building 3",
+            "Building 30",
+            "Building 4",
+            "Building 5",
+            "Building 6",
+            "Building 7",
+            "House"
           ],
           "name": "Pompano / Pump Garden",
           "sourceEventIDs": [
+            "6a3d13c7db8e9cd0cc413c4133121eff51be565703be57f1dc4f56c036b54ffa",
             "9be34a1b53fe656eec7b475e7fef1872531413485e103cf81b17c0e1c01052eb"
           ],
-          "sourceStatus": "Verified",
-          "startedAt": "2026-11-25T00:12:00Z"
+          "sourceStatus": "Unconfirmed",
+          "startedAt": null
         },
         {
           "affectedCustomers": null,
@@ -20215,26 +20297,22 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "30421cc88339c9aaf6dfc041025b213eb710b1744d0897995d126b7ea3ad328e",
+  "snapshotID": "a41a5ac6f14f4baeff51db4450eddd29957e7c09b50ac14426d2ed91f2e7c7e2",
   "source": {
-    "checkedAt": "2026-11-25T03:00:45Z",
+    "checkedAt": "2026-11-25T03:05:47Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-25T02:56:10Z",
+    "updatedAt": "2026-11-25T03:01:10Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "sourceSummary": {
     "customerCountDifference": 2,
-    "customersAffected": 26630,
-    "customersOut": 24423,
+    "customersAffected": 26701,
+    "customersOut": 24494,
     "customersRestored": 2207,
     "customersServed": 54729,
-    "eventCustomersOut": 24421,
+    "eventCustomersOut": 24492,
     "hourlyCustomersOut": [
-      {
-        "at": "2026-11-23T02:00:00Z",
-        "customersOut": 22
-      },
       {
         "at": "2026-11-23T03:00:00Z",
         "customersOut": 22
@@ -20425,7 +20503,11 @@
       },
       {
         "at": "2026-11-25T02:00:00Z",
-        "customersOut": 36400
+        "customersOut": 36471
+      },
+      {
+        "at": "2026-11-25T03:00:00Z",
+        "customersOut": 24492
       }
     ],
     "locations": [
@@ -25194,13 +25276,18 @@
       "EST THOMAS 15 1ST AVE A-4",
       "EST THOMAS 15 4TH ST",
       "EST THOMAS 15 8TH ST",
+      "EST THOMAS 16 7TH ST",
       "EST THOMAS 16-18 4TH",
       "EST THOMAS 16-18 4TH ST",
       "EST THOMAS 16-18 4TH ST A",
       "EST THOMAS 16-2",
+      "EST THOMAS 17 7TH",
       "EST THOMAS 17-1 & 6",
       "EST THOMAS 17-1 NQ 6H",
       "EST THOMAS 18",
+      "EST THOMAS 18 7TH ST A-1",
+      "EST THOMAS 18 7TH ST A-3",
+      "EST THOMAS 18 7TH ST A-4",
       "EST THOMAS 18 DECK BAY",
       "EST THOMAS 18 STE-105A",
       "EST THOMAS 18 STE-107B",
@@ -25234,6 +25321,7 @@
       "EST THOMAS 2 1ST AVE",
       "EST THOMAS 2 3RD ST",
       "EST THOMAS 2&4 9TH ST 2ND",
+      "EST THOMAS 20 7TH ST",
       "EST THOMAS 21-9TH STREET",
       "EST THOMAS 23-9TH",
       "EST THOMAS 2-4 9TH ST",
@@ -25249,7 +25337,13 @@
       "EST THOMAS 33 DOWN",
       "EST THOMAS 33 UP",
       "EST THOMAS 3-4",
+      "EST THOMAS 34 1ST AVE",
+      "EST THOMAS 34 1ST AVE B-2",
+      "EST THOMAS 36 1ST AVE",
+      "EST THOMAS 36 7TH ST",
+      "EST THOMAS 36A 7TH ST",
       "EST THOMAS 37",
+      "EST THOMAS 38 1ST AVE",
       "EST THOMAS 3E 2ND ST A-2",
       "EST THOMAS 3RD",
       "EST THOMAS 3RD STREET",
@@ -25347,6 +25441,7 @@
       "EST THOMAS 7 2ND ST",
       "EST THOMAS 7&6 1ST STREET",
       "EST THOMAS 7-F WAREHSE 11",
+      "EST THOMAS 7TH ST",
       "EST THOMAS 8 2ND ST",
       "EST THOMAS 8 3RD ST APT-3",
       "EST THOMAS 8 3RD ST APT-4",
@@ -25602,6 +25697,7 @@
       "ESTATE THOMAS 10 3RD ST",
       "ESTATE THOMAS 14-16",
       "ESTATE THOMAS 15 8TH ST",
+      "ESTATE THOMAS 18 7TH ST",
       "ESTATE THOMAS 18 REMAINER",
       "ESTATE THOMAS 19",
       "ESTATE THOMAS 1F-LONG BAY",
@@ -32479,8 +32575,10 @@
       "PMP B-23",
       "PMP BLDG 21",
       "PMP GAR B-21 A-165",
+      "PMP GARDEN (HOUSE)",
       "PMP GARDEN B-1",
       "PMP GARDEN B-30",
+      "PMP GARDEN B-4",
       "PMP GARDEN BLDG 19",
       "PMP GARDEN BLDG-1",
       "PMP GARDEN BLDG-19",
@@ -32495,7 +32593,14 @@
       "PMP GARDEN BLDG-28",
       "PMP GARDEN BLDG-28 STAIR",
       "PMP GARDEN BLDG-29",
+      "PMP GARDEN BLDG-3",
       "PMP GARDEN BLDG-30",
+      "PMP GARDEN BLDG-4",
+      "PMP GARDEN BLDG-4 (HSE)",
+      "PMP GARDEN BLDG-5",
+      "PMP GARDEN BLDG-6",
+      "PMP GARDEN BLDG-7",
+      "PMP GARDEN BLDG-7 (HSE)",
       "PMP GARDENS B-21 A-168",
       "PMP MANAGER OFFICE",
       "PORT HESS COMPOUND 3RD",
@@ -35038,6 +35143,7 @@
       "SUGAR BEACH CONDOS 315",
       "SUGAR EST 1 4TH STREET",
       "SUGAR EST CAHS-MODULAR",
+      "SUGAR EST. 15 7TH ST",
       "SUGAR ESTATE",
       "SUGAR ESTATE 8-10-12",
       "SUITE #1B & 1C",
@@ -38349,8 +38455,8 @@
       "YELLOW CLIFF 29",
       "YELLOW CLIFF 4&5"
     ],
-    "totalOutages": 23
+    "totalOutages": 25
   },
   "staleAfterSeconds": 900,
-  "unassignedEventCount": 21
+  "unassignedEventCount": 22
 }
