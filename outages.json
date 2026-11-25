@@ -8297,7 +8297,7 @@
       "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-25T23:01:08Z",
+  "generatedAt": "2026-11-25T23:06:10Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -9461,29 +9461,25 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "5aab347634b5c09e64a0a82e5d4dac4f833dba61078ba299a8b9d26249582441",
+  "snapshotID": "86fcaaad6bfb5c50b54da6221d7b22301f64c426c09e809237c54c73d1d50ae6",
   "source": {
-    "checkedAt": "2026-11-25T23:01:08Z",
+    "checkedAt": "2026-11-25T23:06:10Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-25T22:56:06Z",
+    "updatedAt": "2026-11-25T23:06:06Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "sourceSummary": {
-    "customerCountDifference": 2,
-    "customersAffected": 10338,
-    "customersOut": 10338,
+    "customerCountDifference": 11,
+    "customersAffected": 10347,
+    "customersOut": 10347,
     "customersRestored": 0,
     "customersServed": 54729,
     "eventCustomersOut": 10336,
     "hourlyCustomersOut": [
       {
-        "at": "2026-11-23T22:00:00Z",
-        "customersOut": 7853
-      },
-      {
         "at": "2026-11-23T23:00:00Z",
-        "customersOut": 15564
+        "customersOut": 15195
       },
       {
         "at": "2026-11-24T00:00:00Z",
@@ -9672,6 +9668,10 @@
       {
         "at": "2026-11-25T22:00:00Z",
         "customersOut": 23402
+      },
+      {
+        "at": "2026-11-25T23:00:00Z",
+        "customersOut": 10345
       }
     ],
     "locations": [
@@ -12224,6 +12224,7 @@
       "EST HOFFMAN LOT C-10",
       "EST HONDURAS 30-4",
       "EST JOSEPH & ROSENDAHL",
+      "EST LERKENLUND 5C-2 UP",
       "EST LOUISENHOJ 1",
       "EST LOUISENHOJ 11-1A",
       "EST LOUISENHOJ 1A",
@@ -14880,8 +14881,16 @@
       "LEMON STRADE 2A",
       "LEMON STRADE 2B",
       "LEMON STRAEDE 3A-4B",
+      "LERKENLUND 1-2",
+      "LERKENLUND 1-2 UP",
       "LERKENLUND 501L",
+      "LERKENLUND 5C",
+      "LERKENLUND 5C A-1",
+      "LERKENLUND 5C-1 BLDG. 6",
+      "LERKENLUND 5C-2",
       "LERKENLUND 9D-1-2",
+      "LERKENLUND PCL 5LA MTR.A",
+      "LERKENLUND PCL 5LA MTR.B",
       "LEVKOI STRADE",
       "LEVKOI STRADE 5B",
       "LEVKOI STRADE 7B",
