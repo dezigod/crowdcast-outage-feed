@@ -1609,7 +1609,7 @@
         "TUTU 173-55",
         "TUTU 173-61"
       ],
-      "modifiedAt": "2026-11-25T12:44:31Z",
+      "modifiedAt": "2026-11-25T12:59:30Z",
       "name": "Feeder 07C",
       "neighborhoodIDs": [
         "stThomas-smith-bay"
@@ -4605,7 +4605,7 @@
         "ZUERIENDENHEIT",
         "ZUFRIDENHEIT 1"
       ],
-      "modifiedAt": "2026-11-25T12:29:11Z",
+      "modifiedAt": "2026-11-25T12:59:13Z",
       "name": "Feeder 07A",
       "neighborhoodIDs": [
         "stThomas-agnes-fancy",
@@ -6751,7 +6751,7 @@
         "SUZANNABERG 2-3 HOUSE",
         "VIRGIN GRAND EST #71"
       ],
-      "modifiedAt": "2026-11-25T12:29:37Z",
+      "modifiedAt": "2026-11-25T12:59:22Z",
       "name": "Feeder 09E",
       "neighborhoodIDs": [
         "stThomas-lovenlund"
@@ -8283,7 +8283,7 @@
         "WEST COND SAPP B-A",
         "WEST SAPPHIRE BAY CONDO"
       ],
-      "modifiedAt": "2026-11-25T12:24:13Z",
+      "modifiedAt": "2026-11-25T12:59:26Z",
       "name": "TSW-7C-7D-CASI-A",
       "neighborhoodIDs": [
         "stThomas-smith-bay"
@@ -8632,7 +8632,7 @@
         "SUGAR ESTATE 8-10-12",
         "TAARNEBERG 100-1B"
       ],
-      "modifiedAt": "2026-11-25T12:21:37Z",
+      "modifiedAt": "2026-11-25T12:59:18Z",
       "name": "Feeder 09B",
       "neighborhoodIDs": [],
       "point": {
@@ -8781,7 +8781,7 @@
       "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-25T12:56:34Z",
+  "generatedAt": "2026-11-25T13:05:33Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -9885,11 +9885,11 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "3396b80524ed1ebc498f7eb4928847572ef0e5b5c2428d9d0238ecfa20cf2a26",
+  "snapshotID": "25fa34e5b0ce137702cfc974313f672193f92913b2cc6e7fd588318ed989f226",
   "source": {
-    "checkedAt": "2026-11-25T12:56:34Z",
+    "checkedAt": "2026-11-25T13:05:33Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-25T12:56:06Z",
+    "updatedAt": "2026-11-25T13:01:05Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
@@ -9901,10 +9901,6 @@
     "customersServed": 54729,
     "eventCustomersOut": 10507,
     "hourlyCustomersOut": [
-      {
-        "at": "2026-11-23T12:00:00Z",
-        "customersOut": 25
-      },
       {
         "at": "2026-11-23T13:00:00Z",
         "customersOut": 2293
@@ -10096,6 +10092,10 @@
       {
         "at": "2026-11-25T12:00:00Z",
         "customersOut": 14858
+      },
+      {
+        "at": "2026-11-25T13:00:00Z",
+        "customersOut": 10507
       }
     ],
     "locations": [
