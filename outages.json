@@ -1353,41 +1353,6 @@
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
-      "id": "45d85374e2bf6a5c698dfd2bce8f64f72af52506b962666e20ce0e7e6dcc96be",
-      "island": null,
-      "locations": [
-        "WILLIAMS DELIGHT 251",
-        "WILLIAMS DELIGHT 252",
-        "WILLIAMS DELIGHT 253",
-        "WILLIAMS DELIGHT 254",
-        "WILLIAMS DELIGHT 255",
-        "WILLIAMS DELIGHT 258",
-        "WILLIAMS DELIGHT 259",
-        "WILLIAMS DELIGHT 268",
-        "WILLIAMS DELIGHT 269",
-        "WILLIAMS DELIGHT 272",
-        "WILLIAMS DELIGHT 274"
-      ],
-      "modifiedAt": "2026-11-25T14:59:47Z",
-      "name": "T-C-23416",
-      "neighborhoodIDs": [],
-      "point": {
-        "latitude": 17.69788698062858,
-        "longitude": -64.83711121520398
-      },
-      "reportedCustomersInitially": 11,
-      "reportedCustomersOut": 11,
-      "reportedCustomersRestored": 0,
-      "sourceStatus": "Predicted",
-      "startedAt": "2026-11-25T14:59:12Z",
-      "verified": false,
-      "workStatus": null
-    },
-    {
-      "cause": null,
-      "crewAssigned": false,
-      "endedAt": null,
-      "estimatedRestoration": null,
       "id": "49632027e519a25ef373b1024518c1a864191572f766f36d3d1896d55e57062f",
       "island": null,
       "locations": [
@@ -8644,7 +8609,7 @@
       "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-25T15:01:20Z",
+  "generatedAt": "2026-11-25T15:06:23Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -8783,21 +8748,21 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "21102221a3f5de88f841ceb8cfbc9db64e39afeba7fcc72ad7fef8a68a2ef46c",
+  "snapshotID": "f6437aafd7c3d9052faf32fd24b8e042be15bad3171c87c931837d9ac8bd75a2",
   "source": {
-    "checkedAt": "2026-11-25T15:01:20Z",
+    "checkedAt": "2026-11-25T15:06:23Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-25T15:01:05Z",
+    "updatedAt": "2026-11-25T15:06:05Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "sourceSummary": {
     "customerCountDifference": 2,
-    "customersAffected": 10608,
-    "customersOut": 10608,
+    "customersAffected": 10597,
+    "customersOut": 10597,
     "customersRestored": 0,
     "customersServed": 54729,
-    "eventCustomersOut": 10606,
+    "eventCustomersOut": 10595,
     "hourlyCustomersOut": [
       {
         "at": "2026-11-23T15:00:00Z",
@@ -8989,11 +8954,11 @@
       },
       {
         "at": "2026-11-25T14:00:00Z",
-        "customersOut": 22117
+        "customersOut": 22106
       },
       {
         "at": "2026-11-25T15:00:00Z",
-        "customersOut": 10606
+        "customersOut": 10595
       }
     ],
     "locations": [
@@ -16852,17 +16817,6 @@
       "WHEATLEY SHOPPING CTR",
       "WHEATLEYS SHOPPING CTR",
       "WIC DOCK BAY BLDG-2",
-      "WILLIAMS DELIGHT 251",
-      "WILLIAMS DELIGHT 252",
-      "WILLIAMS DELIGHT 253",
-      "WILLIAMS DELIGHT 254",
-      "WILLIAMS DELIGHT 255",
-      "WILLIAMS DELIGHT 258",
-      "WILLIAMS DELIGHT 259",
-      "WILLIAMS DELIGHT 268",
-      "WILLIAMS DELIGHT 269",
-      "WILLIAMS DELIGHT 272",
-      "WILLIAMS DELIGHT 274",
       "WINDWARD PASSAGE/TRAFFIC",
       "WINTBEERG 1B-5-6",
       "WINTBERG",
@@ -17165,8 +17119,8 @@
       "ZOOTENVAAL 3Q (MTR 1)",
       "ZOOTENVAAL 3T"
     ],
-    "totalOutages": 19
+    "totalOutages": 18
   },
   "staleAfterSeconds": 900,
-  "unassignedEventCount": 17
+  "unassignedEventCount": 16
 }
