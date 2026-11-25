@@ -1419,31 +1419,6 @@
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
-      "id": "63ecbb077233d143023bf16762bf43bae6a6838bc344c6ef3630607921bd3825",
-      "island": null,
-      "locations": [
-        "MARLEY PROJECT HEADSTART"
-      ],
-      "modifiedAt": "2026-11-25T17:55:31Z",
-      "name": "155868",
-      "neighborhoodIDs": [],
-      "point": {
-        "latitude": 17.705952351041233,
-        "longitude": -64.88336856968465
-      },
-      "reportedCustomersInitially": 1,
-      "reportedCustomersOut": 1,
-      "reportedCustomersRestored": 0,
-      "sourceStatus": "Verified",
-      "startedAt": "2026-11-25T17:12:43Z",
-      "verified": true,
-      "workStatus": null
-    },
-    {
-      "cause": null,
-      "crewAssigned": false,
-      "endedAt": null,
-      "estimatedRestoration": null,
       "id": "688d24f7b6e72cb60f9dd7cfcfc315b9ee0efe7095b9fbf192b7ed84c8031d54",
       "island": "stThomas",
       "locations": [
@@ -8186,7 +8161,7 @@
       "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-25T19:41:00Z",
+  "generatedAt": "2026-11-25T19:46:00Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -8340,21 +8315,21 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "9ebd57d31830d0ab805931108c5bd6aaeac829bde442eb0d26712843a9d5a154",
+  "snapshotID": "75b4862a4d9ee5d2f179dcec94afdcbed0f877447d658a4746e9e6e88b960c11",
   "source": {
-    "checkedAt": "2026-11-25T19:41:00Z",
+    "checkedAt": "2026-11-25T19:46:00Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-25T19:36:06Z",
+    "updatedAt": "2026-11-25T19:41:06Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "sourceSummary": {
     "customerCountDifference": 2,
-    "customersAffected": 9986,
-    "customersOut": 9986,
+    "customersAffected": 9985,
+    "customersOut": 9985,
     "customersRestored": 0,
     "customersServed": 54729,
-    "eventCustomersOut": 9984,
+    "eventCustomersOut": 9983,
     "hourlyCustomersOut": [
       {
         "at": "2026-11-23T19:00:00Z",
@@ -14924,7 +14899,6 @@
       "MANDAHL-14-C",
       "MARIENDAHL 10-2",
       "MARIENDAHL 10-42",
-      "MARLEY PROJECT HEADSTART",
       "MJK TERR BLDG 18",
       "MJK TERR BLDG 18 APT 91",
       "MJK TERR BLDG 18 APT 93",
@@ -16287,8 +16261,8 @@
       "ZOOTENVAAL 3Q (MTR 1)",
       "ZOOTENVAAL 3T"
     ],
-    "totalOutages": 18
+    "totalOutages": 17
   },
   "staleAfterSeconds": 900,
-  "unassignedEventCount": 16
+  "unassignedEventCount": 15
 }
