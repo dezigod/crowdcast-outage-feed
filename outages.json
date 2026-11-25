@@ -8535,32 +8535,6 @@
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
-      "id": "b3bb9e98e42a76a086743203ef4b9ed5444a369458102d54fdfae1ae9ae45059",
-      "island": null,
-      "locations": [
-        "EST LERKENLUND 1-4",
-        "EST LERKENLUND 1-4 UP"
-      ],
-      "modifiedAt": "2026-11-25T18:28:21Z",
-      "name": "T-T-05842",
-      "neighborhoodIDs": [],
-      "point": {
-        "latitude": 18.361728552514602,
-        "longitude": -64.94232164974866
-      },
-      "reportedCustomersInitially": 2,
-      "reportedCustomersOut": 2,
-      "reportedCustomersRestored": 0,
-      "sourceStatus": "Predicted",
-      "startedAt": "2026-11-25T18:28:14Z",
-      "verified": false,
-      "workStatus": null
-    },
-    {
-      "cause": null,
-      "crewAssigned": false,
-      "endedAt": null,
-      "estimatedRestoration": null,
       "id": "d4df086dc1ed0c629dc634ed69dfdde88c4b0e0f5563b6d084ef58afb41bd9d9",
       "island": null,
       "locations": [
@@ -8647,7 +8621,7 @@
       "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-25T18:55:44Z",
+  "generatedAt": "2026-11-25T19:00:46Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -8801,21 +8775,21 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "a8756ea50ef5ecbae7e61fc38d405228a5323c4170880d7ae0d505847a469761",
+  "snapshotID": "6e24f27546599009ebfd886f629aa148933beaaebc41828fbc44a6fb987f96b3",
   "source": {
-    "checkedAt": "2026-11-25T18:55:44Z",
+    "checkedAt": "2026-11-25T19:00:46Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-25T18:51:06Z",
+    "updatedAt": "2026-11-25T18:56:06Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "sourceSummary": {
     "customerCountDifference": 2,
-    "customersAffected": 10818,
-    "customersOut": 10818,
+    "customersAffected": 10816,
+    "customersOut": 10816,
     "customersRestored": 0,
     "customersServed": 54729,
-    "eventCustomersOut": 10816,
+    "eventCustomersOut": 10814,
     "hourlyCustomersOut": [
       {
         "at": "2026-11-23T18:00:00Z",
@@ -12483,8 +12457,6 @@
       "EST HOPE 9A",
       "EST HOPE LOT 2A",
       "EST HOPE WEST END 11C",
-      "EST LERKENLUND 1-4",
-      "EST LERKENLUND 1-4 UP",
       "EST LINDBERG BAY 24D-A",
       "EST LINDBERG BAY 54",
       "EST LINDBERG BAY 54 A-1",
@@ -17203,8 +17175,8 @@
       "ZOOTENVAAL 3Q (MTR 1)",
       "ZOOTENVAAL 3T"
     ],
-    "totalOutages": 18
+    "totalOutages": 17
   },
   "staleAfterSeconds": 900,
-  "unassignedEventCount": 16
+  "unassignedEventCount": 15
 }
