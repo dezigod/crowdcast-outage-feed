@@ -1491,7 +1491,7 @@
         "CASTLE BURKE STE 2 P-463",
         "VICOP LAND 460"
       ],
-      "modifiedAt": "2026-11-25T19:16:25Z",
+      "modifiedAt": "2026-11-25T19:30:22Z",
       "name": "T-C-20501",
       "neighborhoodIDs": [],
       "point": {
@@ -8186,7 +8186,7 @@
       "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-25T19:30:57Z",
+  "generatedAt": "2026-11-25T19:35:59Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -8340,11 +8340,11 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "0c4d148ddd21a6daeb8ff69b97a279ca49af9921777e8f2962d7489e5a7556d1",
+  "snapshotID": "6005b3ebe407d827b9e6fa6242847053afa36e08a7ee2b5f4e9383aed3d22e75",
   "source": {
-    "checkedAt": "2026-11-25T19:30:57Z",
+    "checkedAt": "2026-11-25T19:35:59Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-25T19:26:06Z",
+    "updatedAt": "2026-11-25T19:31:06Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
