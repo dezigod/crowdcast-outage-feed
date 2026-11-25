@@ -37,6 +37,35 @@
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
+      "id": "284ffa34d6db2b07e218d17a3183973e1fdd84fdc626e4c7d3d839e810a4ee5b",
+      "island": null,
+      "locations": [
+        "DRONNINGENS GADE 23",
+        "DRONNINGENS GADE 24",
+        "DRONNINGENS GADE 24 B-26",
+        "DRONNINGENS GADE 24 STE",
+        "GADE 24 2ND FL B-24&B-25"
+      ],
+      "modifiedAt": "2026-11-25T14:03:39Z",
+      "name": "T-T-01838",
+      "neighborhoodIDs": [],
+      "point": {
+        "latitude": 18.340652565184975,
+        "longitude": -64.93334048550838
+      },
+      "reportedCustomersInitially": 5,
+      "reportedCustomersOut": 5,
+      "reportedCustomersRestored": 0,
+      "sourceStatus": "Predicted",
+      "startedAt": "2026-11-25T14:03:28Z",
+      "verified": false,
+      "workStatus": null
+    },
+    {
+      "cause": null,
+      "crewAssigned": false,
+      "endedAt": null,
+      "estimatedRestoration": null,
       "id": "33a3d2f2a7010e14be4bfe5e5644e69747015f977655363b758a8fa000b5dd11",
       "island": null,
       "locations": [
@@ -8707,9 +8736,37 @@
       "startedAt": "2026-11-25T07:42:03Z",
       "verified": false,
       "workStatus": null
+    },
+    {
+      "cause": null,
+      "crewAssigned": false,
+      "endedAt": null,
+      "estimatedRestoration": null,
+      "id": "fedc0c3c9699ee9fb342e7df9d04e3a7e5358da36d24d347cd73a9e1794c8521",
+      "island": "waterIsland",
+      "locations": [
+        "WATER ISLAND",
+        "WATER ISLAND 5A"
+      ],
+      "modifiedAt": "2026-11-25T14:04:59Z",
+      "name": "T-T-00592",
+      "neighborhoodIDs": [
+        "waterIsland-water-island"
+      ],
+      "point": {
+        "latitude": 18.308279109490954,
+        "longitude": -64.95773500187246
+      },
+      "reportedCustomersInitially": 2,
+      "reportedCustomersOut": 2,
+      "reportedCustomersRestored": 0,
+      "sourceStatus": "Predicted",
+      "startedAt": "2026-11-25T14:04:37Z",
+      "verified": false,
+      "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-25T14:05:59Z",
+  "generatedAt": "2026-11-25T14:11:00Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -9803,7 +9860,23 @@
       "coverage": "partial",
       "customersOut": null,
       "id": "waterIsland",
-      "neighborhoods": []
+      "neighborhoods": [
+        {
+          "affectedCustomers": null,
+          "estimatedRestoration": null,
+          "id": "waterIsland-water-island",
+          "island": "waterIsland",
+          "locations": [
+            "5A"
+          ],
+          "name": "Water Island",
+          "sourceEventIDs": [
+            "fedc0c3c9699ee9fb342e7df9d04e3a7e5358da36d24d347cd73a9e1794c8521"
+          ],
+          "sourceStatus": "Predicted",
+          "startedAt": "2026-11-25T14:04:37Z"
+        }
+      ]
     }
   ],
   "lastCollectionError": null,
@@ -9813,21 +9886,21 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "1bf1fb99c6dc644d1efd33858b8953f4c31c95d8715b759705e1640f6d862dac",
+  "snapshotID": "7318a0fa2387421e940e3ca696b71443765d7207c9fd80f1899d4e566cb5b99d",
   "source": {
-    "checkedAt": "2026-11-25T14:05:59Z",
+    "checkedAt": "2026-11-25T14:11:00Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-25T14:01:07Z",
+    "updatedAt": "2026-11-25T14:06:07Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "sourceSummary": {
     "customerCountDifference": 2,
-    "customersAffected": 10481,
-    "customersOut": 10481,
+    "customersAffected": 10488,
+    "customersOut": 10488,
     "customersRestored": 0,
     "customersServed": 54729,
-    "eventCustomersOut": 10479,
+    "eventCustomersOut": 10486,
     "hourlyCustomersOut": [
       {
         "at": "2026-11-23T14:00:00Z",
@@ -10023,7 +10096,7 @@
       },
       {
         "at": "2026-11-25T14:00:00Z",
-        "customersOut": 10479
+        "customersOut": 10486
       }
     ],
     "locations": [
@@ -13317,6 +13390,10 @@
       "DOROTHEA PCL 21 LOT 24",
       "DOROTHEA UP",
       "DOROTHEA-16-D",
+      "DRONNINGENS GADE 23",
+      "DRONNINGENS GADE 24",
+      "DRONNINGENS GADE 24 B-26",
+      "DRONNINGENS GADE 24 STE",
       "ELIZ. 30A,B,D-H,J K B-U",
       "ELIZABETH",
       "ELIZABETH #41",
@@ -15303,6 +15380,7 @@
       "FRYDENDHL STE 5-7-8",
       "FRYDENHAHL 52-7",
       "FRYDENHOJ 2 12BA A2",
+      "GADE 24 2ND FL B-24&B-25",
       "GIFFT & REGENBACH D",
       "GIFT & REGENBACH 13-14",
       "GIFT & REGENBACH 4-C",
@@ -18341,14 +18419,16 @@
       "UPPER JOHN DUNKOE MTR 3",
       "UPPER JOHN DUNKOE MTR 4",
       "VIRGIN GRAND EST #71",
+      "WATER ISLAND",
+      "WATER ISLAND 5A",
       "WEST CARET BAY",
       "WEST COND SAPP B-A",
       "WEST SAPPHIRE BAY CONDO",
       "ZUERIENDENHEIT",
       "ZUFRIDENHEIT 1"
     ],
-    "totalOutages": 15
+    "totalOutages": 17
   },
   "staleAfterSeconds": 900,
-  "unassignedEventCount": 13
+  "unassignedEventCount": 14
 }
