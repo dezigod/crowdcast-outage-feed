@@ -3540,6 +3540,36 @@
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
+      "id": "b6b6013d2c66bb657da995919bba3677cd4851a99af9e91da1dc7537900d66ba",
+      "island": null,
+      "locations": [
+        "EST UPPER JOHN DUNKO #57",
+        "SCOTT FREE 47",
+        "SCOTT FREE 54",
+        "SCOTT FREE 54 DWN",
+        "SCOTT FREE UP",
+        "UPPER JOHN DUNKOE 56"
+      ],
+      "modifiedAt": "2026-11-25T10:06:11Z",
+      "name": "T-T-09133",
+      "neighborhoodIDs": [],
+      "point": {
+        "latitude": 18.34675706557234,
+        "longitude": -64.9509581212159
+      },
+      "reportedCustomersInitially": 6,
+      "reportedCustomersOut": 6,
+      "reportedCustomersRestored": 0,
+      "sourceStatus": "Predicted",
+      "startedAt": "2026-11-25T10:05:57Z",
+      "verified": false,
+      "workStatus": null
+    },
+    {
+      "cause": null,
+      "crewAssigned": false,
+      "endedAt": null,
+      "estimatedRestoration": null,
       "id": "be43a090e5b443e824b74a8f9ea17a16b35271d63f802f63dab5cefe78905fd6",
       "island": null,
       "locations": [
@@ -5086,7 +5116,7 @@
       "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-25T10:06:20Z",
+  "generatedAt": "2026-11-25T10:11:20Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -5692,21 +5722,21 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "246ff903eab641cf09e04dde8b8ae11d02508310f01edfc59d30c19452684db5",
+  "snapshotID": "04d6e524c54a4eb0c7f118615b7381344e02eab3c5c3ec646e4859a3a9831c87",
   "source": {
-    "checkedAt": "2026-11-25T10:06:20Z",
+    "checkedAt": "2026-11-25T10:11:20Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-25T10:06:03Z",
+    "updatedAt": "2026-11-25T10:11:03Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "sourceSummary": {
     "customerCountDifference": 2,
-    "customersAffected": 5679,
-    "customersOut": 5679,
+    "customersAffected": 5685,
+    "customersOut": 5685,
     "customersRestored": 0,
     "customersServed": 54729,
-    "eventCustomersOut": 5677,
+    "eventCustomersOut": 5683,
     "hourlyCustomersOut": [
       {
         "at": "2026-11-23T10:00:00Z",
@@ -5902,7 +5932,7 @@
       },
       {
         "at": "2026-11-25T10:00:00Z",
-        "customersOut": 5677
+        "customersOut": 5683
       }
     ],
     "locations": [
@@ -7644,6 +7674,7 @@
       "EST THOMAS PCL 6",
       "EST THOMAS PLOT 6F",
       "EST THOMAS STE 17",
+      "EST UPPER JOHN DUNKO #57",
       "EST WINTBERG",
       "EST WINTBERG 1 CD 2",
       "EST WINTBERG 1-100",
@@ -9688,6 +9719,10 @@
       "ROSS TAARNEBERG B-4",
       "ROSS TARNABERG LOT 2-7",
       "SANDFILL BOOTH# 2",
+      "SCOTT FREE 47",
+      "SCOTT FREE 54",
+      "SCOTT FREE 54 DWN",
+      "SCOTT FREE UP",
       "SENATE BUILDING",
       "SHIP MOORING",
       "SILKE GADE",
@@ -10010,6 +10045,7 @@
       "TROMPETER GADE 1 MTR-1",
       "TROMPETER GADE 2",
       "UPPER JOHN DUNKOE",
+      "UPPER JOHN DUNKOE 56",
       "VESTER GADE",
       "VESTER GADE 37 DOWN",
       "VESTER GADE 39",
@@ -10107,8 +10143,8 @@
       "ZOOTENVAAL 3L",
       "ZOOTENVAAL 3N*"
     ],
-    "totalOutages": 35
+    "totalOutages": 36
   },
   "staleAfterSeconds": 900,
-  "unassignedEventCount": 31
+  "unassignedEventCount": 32
 }
