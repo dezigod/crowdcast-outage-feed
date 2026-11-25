@@ -37,6 +37,34 @@
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
+      "id": "1a970a981d07d0596ba5e2ee0d531aac27972e8d9f60622005156818b6657899",
+      "island": null,
+      "locations": [
+        "C-IF EST COKIE POINT",
+        "COKI POINT C-1A",
+        "COKI POINT C1-C",
+        "COKI POINT C-1F DOWN"
+      ],
+      "modifiedAt": "2026-11-25T16:05:11Z",
+      "name": "T-T-07927",
+      "neighborhoodIDs": [],
+      "point": {
+        "latitude": 18.349281734945112,
+        "longitude": -64.86340460963713
+      },
+      "reportedCustomersInitially": 4,
+      "reportedCustomersOut": 4,
+      "reportedCustomersRestored": 0,
+      "sourceStatus": "Predicted",
+      "startedAt": "2026-11-25T16:04:58Z",
+      "verified": false,
+      "workStatus": null
+    },
+    {
+      "cause": null,
+      "crewAssigned": false,
+      "endedAt": null,
+      "estimatedRestoration": null,
       "id": "284ffa34d6db2b07e218d17a3183973e1fdd84fdc626e4c7d3d839e810a4ee5b",
       "island": null,
       "locations": [
@@ -6050,6 +6078,41 @@
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
+      "id": "dbf1c8a7649bcf71feeda59bde87cbe12c6b7d05c5031b4377eded23204c70f3",
+      "island": "stThomas",
+      "locations": [
+        "SMITH BAY",
+        "SMITH BAY 18-21 A-1",
+        "SMITH BAY 18-23",
+        "SMITH BAY 18-23 1-B",
+        "SMITH BAY 18-23 HSE/PUMP",
+        "SMITH BAY 18-23 U-1A",
+        "SMITH BAY 18-23 U-2-A",
+        "SMITH BAY 18-3",
+        "SMITH BAY 18-4"
+      ],
+      "modifiedAt": "2026-11-25T16:04:10Z",
+      "name": "T-T-08232",
+      "neighborhoodIDs": [
+        "stThomas-smith-bay"
+      ],
+      "point": {
+        "latitude": 18.327998047483206,
+        "longitude": -64.85162531011511
+      },
+      "reportedCustomersInitially": 9,
+      "reportedCustomersOut": 9,
+      "reportedCustomersRestored": 0,
+      "sourceStatus": "Predicted",
+      "startedAt": "2026-11-25T16:03:57Z",
+      "verified": false,
+      "workStatus": null
+    },
+    {
+      "cause": null,
+      "crewAssigned": false,
+      "endedAt": null,
+      "estimatedRestoration": null,
       "id": "ec5bb6db45e6040e80461a0d91762d687660b7619bcead18876d73a3b365a585",
       "island": null,
       "locations": [
@@ -8638,7 +8701,7 @@
       "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-25T16:05:39Z",
+  "generatedAt": "2026-11-25T16:10:43Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -8701,6 +8764,14 @@
           "id": "stThomas-smith-bay",
           "island": "stThomas",
           "locations": [
+            "18-21 A-1",
+            "18-23",
+            "18-23 1-B",
+            "18-23 HSE/PUMP",
+            "18-23 U-1A",
+            "18-23 U-2-A",
+            "18-3",
+            "18-4",
             "19-2 149-6",
             "19-2-149-11",
             "19-2-149-12",
@@ -8713,10 +8784,11 @@
           ],
           "name": "Smith Bay",
           "sourceEventIDs": [
+            "dbf1c8a7649bcf71feeda59bde87cbe12c6b7d05c5031b4377eded23204c70f3",
             "ec5bb6db45e6040e80461a0d91762d687660b7619bcead18876d73a3b365a585"
           ],
-          "sourceStatus": "Verified",
-          "startedAt": "2026-11-23T13:00:19Z"
+          "sourceStatus": "Unconfirmed",
+          "startedAt": null
         }
       ]
     },
@@ -8777,21 +8849,21 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "1d143ed2370519a6921249d5f7f1488664bf31513581d2beba8408c62f097e0d",
+  "snapshotID": "1113a93f2a10416f09472c6db6b9cb4e94c01d53a7cb909e201fbbf07b54a1ca",
   "source": {
-    "checkedAt": "2026-11-25T16:05:39Z",
+    "checkedAt": "2026-11-25T16:10:43Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-25T16:01:05Z",
+    "updatedAt": "2026-11-25T16:06:06Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "sourceSummary": {
     "customerCountDifference": 2,
-    "customersAffected": 10601,
-    "customersOut": 10601,
+    "customersAffected": 10614,
+    "customersOut": 10614,
     "customersRestored": 0,
     "customersServed": 54729,
-    "eventCustomersOut": 10599,
+    "eventCustomersOut": 10612,
     "hourlyCustomersOut": [
       {
         "at": "2026-11-23T16:00:00Z",
@@ -8987,7 +9059,7 @@
       },
       {
         "at": "2026-11-25T16:00:00Z",
-        "customersOut": 10599
+        "customersOut": 10612
       }
     ],
     "locations": [
@@ -10749,10 +10821,14 @@
       "CHARLOTTE AMALIE 5A",
       "CHARLOTTE AMALIE 5C",
       "CHARLOTTE AMALIE PCL 5B",
+      "C-IF EST COKIE POINT",
       "CINNAMON BAY",
       "CINNAMON BAY 69",
       "CINNAMON BAY WATER PLANT",
       "CINNAMON BAY-INCINERTOR",
+      "COKI POINT C-1A",
+      "COKI POINT C1-C",
+      "COKI POINT C-1F DOWN",
       "CONCORDIA",
       "CONCORDIA #2-13 UNIT-B",
       "CONCORDIA #2-15 MAIN HSE",
@@ -16447,6 +16523,15 @@
       "SHUBUI COND 21B",
       "SHUBUI ESTATE CONTANT",
       "SILVER SHOP)",
+      "SMITH BAY",
+      "SMITH BAY 18-21 A-1",
+      "SMITH BAY 18-23",
+      "SMITH BAY 18-23 1-B",
+      "SMITH BAY 18-23 HSE/PUMP",
+      "SMITH BAY 18-23 U-1A",
+      "SMITH BAY 18-23 U-2-A",
+      "SMITH BAY 18-3",
+      "SMITH BAY 18-4",
       "SMITH BAY 19-1-2-6",
       "SMITH BAY 19-2 149-6",
       "SMITH BAY 19-2-149-11",
@@ -17153,8 +17238,8 @@
       "ZOOTENVAAL 3Q (MTR 1)",
       "ZOOTENVAAL 3T"
     ],
-    "totalOutages": 19
+    "totalOutages": 21
   },
   "staleAfterSeconds": 900,
-  "unassignedEventCount": 17
+  "unassignedEventCount": 18
 }
