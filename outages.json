@@ -157,6 +157,33 @@
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
+      "id": "7979e4577a28247cfcb4f3b33aaff4814a4aede79fa02f9e436274d7e8872ba5",
+      "island": "waterIsland",
+      "locations": [
+        "WATER ISLAND"
+      ],
+      "modifiedAt": "2026-11-25T04:34:44Z",
+      "name": "T-T-00481",
+      "neighborhoodIDs": [
+        "waterIsland-water-island"
+      ],
+      "point": {
+        "latitude": 18.324109207019767,
+        "longitude": -64.94691307159084
+      },
+      "reportedCustomersInitially": 3,
+      "reportedCustomersOut": 3,
+      "reportedCustomersRestored": 0,
+      "sourceStatus": "Predicted",
+      "startedAt": "2026-11-25T04:34:21Z",
+      "verified": false,
+      "workStatus": null
+    },
+    {
+      "cause": null,
+      "crewAssigned": false,
+      "endedAt": null,
+      "estimatedRestoration": null,
       "id": "92b8f75e71fd839cffcd81ff2dcd0cfc9ff80f9af3da2f75cfc86774b14f141b",
       "island": null,
       "locations": [
@@ -2668,6 +2695,37 @@
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
+      "id": "e631ed914b95a590371f8df354d5eee93ebadb8852e88abd3255b04ec5d64225",
+      "island": null,
+      "locations": [
+        "CONTANT (EL)",
+        "CONTANT 41-2",
+        "CONTANT 41-3",
+        "CONTANT 69-3",
+        "CONTANT 69-6 7A SSIDE QTR",
+        "CONTANT 69-7",
+        "CONTANT 69-8 7A SS QTR"
+      ],
+      "modifiedAt": "2026-11-25T04:33:43Z",
+      "name": "T-T-01332",
+      "neighborhoodIDs": [],
+      "point": {
+        "latitude": 18.342081612064856,
+        "longitude": -64.9554487761514
+      },
+      "reportedCustomersInitially": 7,
+      "reportedCustomersOut": 7,
+      "reportedCustomersRestored": 0,
+      "sourceStatus": "Predicted",
+      "startedAt": "2026-11-25T04:33:31Z",
+      "verified": false,
+      "workStatus": null
+    },
+    {
+      "cause": null,
+      "crewAssigned": false,
+      "endedAt": null,
+      "estimatedRestoration": null,
       "id": "e8261a9a1a52844c7c136877a8055cad4d3073c88424bf7ba68fe5482779a472",
       "island": null,
       "locations": [
@@ -4019,7 +4077,7 @@
       "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-25T04:31:20Z",
+  "generatedAt": "2026-11-25T04:36:22Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -4587,31 +4645,46 @@
       "coverage": "partial",
       "customersOut": null,
       "id": "waterIsland",
-      "neighborhoods": []
+      "neighborhoods": [
+        {
+          "affectedCustomers": null,
+          "estimatedRestoration": null,
+          "id": "waterIsland-water-island",
+          "island": "waterIsland",
+          "locations": [],
+          "name": "Water Island",
+          "sourceEventIDs": [
+            "7979e4577a28247cfcb4f3b33aaff4814a4aede79fa02f9e436274d7e8872ba5"
+          ],
+          "sourceStatus": "Predicted",
+          "startedAt": "2026-11-25T04:34:21Z"
+        }
+      ]
     }
   ],
   "lastCollectionError": null,
   "qualityNotes": [
+    "Some neighborhood listings do not identify individual lots.",
     "Some source events need island review. Island totals and empty listings may be incomplete.",
     "WAPA\u2019s summary and event customer totals disagree. Customer totals are unconfirmed."
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "07df9e0c4fb90eccc608c5c11bc9558bd3cc4de620909cbc7ea786c71f0ad27b",
+  "snapshotID": "9b7d2da04b744dc3a214bf231e4bf6e8ac663cef858ee3a26f248101a592c4db",
   "source": {
-    "checkedAt": "2026-11-25T04:31:20Z",
+    "checkedAt": "2026-11-25T04:36:22Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-25T04:31:02Z",
+    "updatedAt": "2026-11-25T04:36:02Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "sourceSummary": {
     "customerCountDifference": 2,
-    "customersAffected": 4921,
-    "customersOut": 4921,
+    "customersAffected": 4931,
+    "customersOut": 4931,
     "customersRestored": 0,
     "customersServed": 54729,
-    "eventCustomersOut": 4919,
+    "eventCustomersOut": 4929,
     "hourlyCustomersOut": [
       {
         "at": "2026-11-23T04:00:00Z",
@@ -4807,7 +4880,7 @@
       },
       {
         "at": "2026-11-25T04:00:00Z",
-        "customersOut": 7193
+        "customersOut": 7203
       }
     ],
     "locations": [
@@ -5624,12 +5697,19 @@
       "COMMANDANT GADE HSE-1",
       "COMMANDANT GADE SCH",
       "COMMANDANT TVER GADE",
+      "CONTANT (EL)",
       "CONTANT 3 AD",
       "CONTANT 3 AD APT-A",
       "CONTANT 3A",
       "CONTANT 3A-11",
       "CONTANT 3AE",
       "CONTANT 3A-E (EL)",
+      "CONTANT 41-2",
+      "CONTANT 41-3",
+      "CONTANT 69-3",
+      "CONTANT 69-6 7A SSIDE QTR",
+      "CONTANT 69-7",
+      "CONTANT 69-8 7A SS QTR",
       "CONTANT 7B",
       "CONTANT 7B-3-2",
       "CONTANT 97-98A",
@@ -8360,6 +8440,7 @@
       "VETERANS DRIVE -FED BLDG",
       "VETERANS DRIVE POST OFFIC",
       "W LEWIS DRIVE/HIGHWAY",
+      "WATER ISLAND",
       "WATERFRONT PCL S B- C",
       "WATERFRONT/HIGHWAY & TRAF",
       "WATERFRONT/VETERAN'S PARK",
@@ -8441,8 +8522,8 @@
       "ZOOTENVAAL 3L",
       "ZOOTENVAAL 3N*"
     ],
-    "totalOutages": 15
+    "totalOutages": 17
   },
   "staleAfterSeconds": 900,
-  "unassignedEventCount": 13
+  "unassignedEventCount": 14
 }
