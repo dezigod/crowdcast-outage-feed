@@ -37,6 +37,33 @@
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
+      "id": "138de28f475eb27b5e422f22a75722e1e52f76397a151d7f0e888f7ebbc20246",
+      "island": null,
+      "locations": [
+        "EST NAZARETH 8-9",
+        "EST. NAZARETH 8-22",
+        "NAZARETH 8-25 DECK POINT"
+      ],
+      "modifiedAt": "2026-11-25T01:50:32Z",
+      "name": "T-T-13017",
+      "neighborhoodIDs": [],
+      "point": {
+        "latitude": 18.313162321420116,
+        "longitude": -64.845198497253
+      },
+      "reportedCustomersInitially": 3,
+      "reportedCustomersOut": 3,
+      "reportedCustomersRestored": 0,
+      "sourceStatus": "Predicted",
+      "startedAt": "2026-11-25T01:50:08Z",
+      "verified": false,
+      "workStatus": null
+    },
+    {
+      "cause": null,
+      "crewAssigned": false,
+      "endedAt": null,
+      "estimatedRestoration": null,
       "id": "25900f69a05814b4c3dcf590dd8862ded7d8b1810667cbbd9444516e25809a23",
       "island": null,
       "locations": [
@@ -23232,7 +23259,7 @@
       "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-25T01:46:18Z",
+  "generatedAt": "2026-11-25T01:51:20Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -25692,21 +25719,21 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "816e24ab3c37d576839c8d109c0664d5d30c103e7e5922fc7d2df4e4034a2a4d",
+  "snapshotID": "021b548538ce07095508fd35b9feeb30340453665a17e91ebd9d17326481ddb4",
   "source": {
-    "checkedAt": "2026-11-25T01:46:18Z",
+    "checkedAt": "2026-11-25T01:51:20Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-25T01:46:12Z",
+    "updatedAt": "2026-11-25T01:51:12Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "sourceSummary": {
     "customerCountDifference": 2,
-    "customersAffected": 30860,
-    "customersOut": 30860,
+    "customersAffected": 30863,
+    "customersOut": 30863,
     "customersRestored": 0,
     "customersServed": 54729,
-    "eventCustomersOut": 30858,
+    "eventCustomersOut": 30861,
     "hourlyCustomersOut": [
       {
         "at": "2026-11-23T01:00:00Z",
@@ -25902,7 +25929,7 @@
       },
       {
         "at": "2026-11-25T01:00:00Z",
-        "customersOut": 30858
+        "customersOut": 30861
       }
     ],
     "locations": [
@@ -32358,6 +32385,7 @@
       "EST NADIR/STREET LIGHT",
       "EST NAZARETH",
       "EST NAZARETH 2W-40",
+      "EST NAZARETH 8-9",
       "EST NELTJBERG 3",
       "EST NELTJBERG 42",
       "EST NELTJEBERG 1",
@@ -33173,6 +33201,7 @@
       "EST. LA VALLEE 121-D&E",
       "EST. LERKENLAND 3I-1",
       "EST. LERKENLUND 6A1-A-1",
+      "EST. NAZARETH 8-22",
       "EST. PEARL 39-A-A3",
       "EST. PETERBORG 10-2-22",
       "EST. PETERBORG 11-15",
@@ -39988,6 +40017,7 @@
       "NAZARETH 2W-44",
       "NAZARETH 2W-45",
       "NAZARETH 2-W-76-3",
+      "NAZARETH 8-25 DECK POINT",
       "NELTBERG 5 HOUSE METER",
       "NELTEBERG",
       "NELTEBERG 6",
@@ -48386,8 +48416,8 @@
       "ZUERIENDENHEIT",
       "ZUFRIDENHEIT 1"
     ],
-    "totalOutages": 25
+    "totalOutages": 26
   },
   "staleAfterSeconds": 900,
-  "unassignedEventCount": 23
+  "unassignedEventCount": 24
 }
