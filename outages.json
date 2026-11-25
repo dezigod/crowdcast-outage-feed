@@ -3377,6 +3377,32 @@
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
+      "id": "b2a960b62070bbe2097e81f711924a963963df9017115c8f56f128f90c4808cd",
+      "island": null,
+      "locations": [
+        "ESTATE GRUNWALD",
+        "SAN SOUCI 5-3"
+      ],
+      "modifiedAt": "2026-11-25T11:02:27Z",
+      "name": "T-J-02452",
+      "neighborhoodIDs": [],
+      "point": {
+        "latitude": 18.331896417242625,
+        "longitude": -64.78043475896084
+      },
+      "reportedCustomersInitially": 2,
+      "reportedCustomersOut": 2,
+      "reportedCustomersRestored": 0,
+      "sourceStatus": "Predicted",
+      "startedAt": "2026-11-25T11:01:58Z",
+      "verified": false,
+      "workStatus": null
+    },
+    {
+      "cause": null,
+      "crewAssigned": false,
+      "endedAt": null,
+      "estimatedRestoration": null,
       "id": "b3f2acbb37c4e5991a029c13f75489bc5870cea19179c7b9ef7cd498914840d8",
       "island": null,
       "locations": [
@@ -5197,7 +5223,7 @@
       "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-25T11:05:43Z",
+  "generatedAt": "2026-11-25T11:10:45Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -5803,21 +5829,21 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "07e9b3eca3496ca2511b829ec2178a898eb8196be5598415d9a3aded30415b1d",
+  "snapshotID": "dc2d6765c1d6c562847131f291a613c184b298fa0b5e6b3fbe82f0edd9c2b4a0",
   "source": {
-    "checkedAt": "2026-11-25T11:05:43Z",
+    "checkedAt": "2026-11-25T11:10:45Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-25T11:01:03Z",
+    "updatedAt": "2026-11-25T11:06:03Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "sourceSummary": {
     "customerCountDifference": 2,
-    "customersAffected": 5727,
-    "customersOut": 5727,
+    "customersAffected": 5729,
+    "customersOut": 5729,
     "customersRestored": 0,
     "customersServed": 54729,
-    "eventCustomersOut": 5725,
+    "eventCustomersOut": 5727,
     "hourlyCustomersOut": [
       {
         "at": "2026-11-23T11:00:00Z",
@@ -6013,7 +6039,7 @@
       },
       {
         "at": "2026-11-25T11:00:00Z",
-        "customersOut": 5725
+        "customersOut": 5727
       }
     ],
     "locations": [
@@ -7835,6 +7861,7 @@
       "ESTATE CONTANT 7B",
       "ESTATE FORTUNA 4-4-16",
       "ESTATE FRENCHMANS BAY",
+      "ESTATE GRUNWALD",
       "ESTATE HOPE 10-1 APT-C",
       "ESTATE HULL",
       "ESTATE HULL 2J",
@@ -9832,6 +9859,7 @@
       "ROSS TAARNEBERG B-28",
       "ROSS TAARNEBERG B-4",
       "ROSS TARNABERG LOT 2-7",
+      "SAN SOUCI 5-3",
       "SANDFILL BOOTH# 2",
       "SCOTT FREE 47",
       "SCOTT FREE 54",
@@ -10257,8 +10285,8 @@
       "ZOOTENVAAL 3L",
       "ZOOTENVAAL 3N*"
     ],
-    "totalOutages": 38
+    "totalOutages": 39
   },
   "staleAfterSeconds": 900,
-  "unassignedEventCount": 34
+  "unassignedEventCount": 35
 }
