@@ -566,6 +566,42 @@
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
+      "id": "804e26ebc1ca05e8f9ef8dedd9da8c36af44fb0d784e501f672980e4f376535b",
+      "island": null,
+      "locations": [
+        "DOROTHEA",
+        "DOROTHEA 12-A",
+        "DOROTHEA 12A UP",
+        "DOROTHEA 12B",
+        "DOROTHEA 12C",
+        "DOROTHEA 3B",
+        "DOROTHEA 3K",
+        "DOROTHEA 3K-2",
+        "DOROTHEA 3K-3",
+        "EST DOROTHEA 12D",
+        "EST DOROTHEA 2D COTTAGE",
+        "EST DOROTHEA 3-B (UP)-B"
+      ],
+      "modifiedAt": "2026-11-25T08:37:56Z",
+      "name": "T-T-16229",
+      "neighborhoodIDs": [],
+      "point": {
+        "latitude": 18.35856453349769,
+        "longitude": -64.96348088183024
+      },
+      "reportedCustomersInitially": 13,
+      "reportedCustomersOut": 13,
+      "reportedCustomersRestored": 0,
+      "sourceStatus": "Predicted",
+      "startedAt": "2026-11-25T08:37:32Z",
+      "verified": false,
+      "workStatus": null
+    },
+    {
+      "cause": null,
+      "crewAssigned": false,
+      "endedAt": null,
+      "estimatedRestoration": null,
       "id": "81360b21018e444b40d38ae5f213cf4e8a6493aa70b3a89dc581d682db32914d",
       "island": null,
       "locations": [
@@ -4861,7 +4897,7 @@
       "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-25T08:40:44Z",
+  "generatedAt": "2026-11-25T08:45:46Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -5461,21 +5497,21 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "99a165fc9eca6141e802ad9c3dd16c2ee35f3897054ebe6e943cc756ef708a11",
+  "snapshotID": "8a23e4ba1a964eebec476a6ee0eb709158281105aee5b9118e22862ec7547d71",
   "source": {
-    "checkedAt": "2026-11-25T08:40:44Z",
+    "checkedAt": "2026-11-25T08:45:46Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-25T08:36:04Z",
+    "updatedAt": "2026-11-25T08:41:03Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "sourceSummary": {
     "customerCountDifference": 2,
-    "customersAffected": 5438,
-    "customersOut": 5438,
+    "customersAffected": 5451,
+    "customersOut": 5451,
     "customersRestored": 0,
     "customersServed": 54729,
-    "eventCustomersOut": 5436,
+    "eventCustomersOut": 5449,
     "hourlyCustomersOut": [
       {
         "at": "2026-11-23T08:00:00Z",
@@ -5671,7 +5707,7 @@
       },
       {
         "at": "2026-11-25T08:00:00Z",
-        "customersOut": 5436
+        "customersOut": 5449
       }
     ],
     "locations": [
@@ -6825,6 +6861,10 @@
       "DOMINI GADE 8-O",
       "DOMINI TVER GD 4",
       "DOROTHEA",
+      "DOROTHEA 12-A",
+      "DOROTHEA 12A UP",
+      "DOROTHEA 12B",
+      "DOROTHEA 12C",
       "DOROTHEA 13A DOWN",
       "DOROTHEA 2C",
       "DOROTHEA 2C A-4C",
@@ -6834,6 +6874,10 @@
       "DOROTHEA 2D",
       "DOROTHEA 2D A-8",
       "DOROTHEA 2-D APT",
+      "DOROTHEA 3B",
+      "DOROTHEA 3K",
+      "DOROTHEA 3K-2",
+      "DOROTHEA 3K-3",
       "DRAKES PASSAGE",
       "DRAKES PASSAGE 14-1",
       "DRAKES PASSAGE C-1 31-2",
@@ -7041,10 +7085,13 @@
       "EST CANAAN 3B",
       "EST CANAAN 3F",
       "EST DOROTHEA",
+      "EST DOROTHEA 12D",
       "EST DOROTHEA 2B",
       "EST DOROTHEA 2B UP",
       "EST DOROTHEA 2-D APT4",
+      "EST DOROTHEA 2D COTTAGE",
       "EST DOROTHEA 2-D PUMP",
+      "EST DOROTHEA 3-B (UP)-B",
       "EST DOROTHEA 3-I REMAINDE",
       "EST FORTUNA 4-4-14",
       "EST FORTUNA 4-4-21",
@@ -9705,8 +9752,8 @@
       "ZOOTENVAAL 3L",
       "ZOOTENVAAL 3N*"
     ],
-    "totalOutages": 33
+    "totalOutages": 34
   },
   "staleAfterSeconds": 900,
-  "unassignedEventCount": 29
+  "unassignedEventCount": 30
 }
