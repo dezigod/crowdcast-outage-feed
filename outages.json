@@ -2353,6 +2353,60 @@
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
+      "id": "4e4258761e5dbee858ecb8f6184d63acdc1776186104e1ddd2e899b1528ab2e3",
+      "island": null,
+      "locations": [
+        "LEB VILLAS II A-203",
+        "LEB VILLAS PHASE II",
+        "LEB VILLAS PHASE II 311",
+        "LEB VILLAS PHASE II A 106",
+        "LEB VILLAS PHASE II A 209",
+        "LEB VILLAS PHASE II A-102",
+        "LEB VILLAS PHASE II A-103",
+        "LEB VILLAS PHASE II A-104",
+        "LEB VILLAS PHASE II A-105",
+        "LEB VILLAS PHASE II A-107",
+        "LEB VILLAS PHASE II A110",
+        "LEB VILLAS PHASE II A-201",
+        "LEB VILLAS PHASE II A-202",
+        "LEB VILLAS PHASE II A-206",
+        "LEB VILLAS PHASE II A-208",
+        "LEB VILLAS PHASE II A-210",
+        "LEB VILLAS PHASE II A-211",
+        "LEB VILLAS PHASE II A212",
+        "LEB VILLAS PHASE II A-213",
+        "LEB VILLAS PHASE II A-214",
+        "LEB VILLAS PHASE II A-303",
+        "LEB VILLAS PHASE II A-305",
+        "LEB VILLAS PHASE II A-306",
+        "LEB VILLAS PHASE II A-308",
+        "LEB VILLAS PHASE II A-309",
+        "LEB VILLAS PHASE II A-312",
+        "LEB VILLAS PHASE II A-313",
+        "LEB VILLAS PHASE II A-314",
+        "PARADISE 2-J-3",
+        "PARADISE 2-J-3 (HSE MTR)"
+      ],
+      "modifiedAt": "2026-11-25T20:24:03Z",
+      "name": "T-C-00550",
+      "neighborhoodIDs": [],
+      "point": {
+        "latitude": 17.704663391851177,
+        "longitude": -64.81826606678374
+      },
+      "reportedCustomersInitially": 41,
+      "reportedCustomersOut": 41,
+      "reportedCustomersRestored": 0,
+      "sourceStatus": "Predicted",
+      "startedAt": "2026-11-25T20:23:36Z",
+      "verified": false,
+      "workStatus": null
+    },
+    {
+      "cause": null,
+      "crewAssigned": false,
+      "endedAt": null,
+      "estimatedRestoration": null,
       "id": "688d24f7b6e72cb60f9dd7cfcfc315b9ee0efe7095b9fbf192b7ed84c8031d54",
       "island": "stThomas",
       "locations": [
@@ -11536,7 +11590,7 @@
       "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-25T20:21:16Z",
+  "generatedAt": "2026-11-25T20:26:15Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -12526,21 +12580,21 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "3c8dd1370aa425289bfefbb1bd7917a9e569cb811d26f2de45cb9552a89da580",
+  "snapshotID": "5c583d1568dfc816b19f24647a347df27cbec80df088b614f7405b15d398c6b9",
   "source": {
-    "checkedAt": "2026-11-25T20:21:16Z",
+    "checkedAt": "2026-11-25T20:26:15Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-25T20:21:08Z",
+    "updatedAt": "2026-11-25T20:26:07Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "sourceSummary": {
     "customerCountDifference": 2,
-    "customersAffected": 13596,
-    "customersOut": 13596,
+    "customersAffected": 13637,
+    "customersOut": 13637,
     "customersRestored": 0,
     "customersServed": 54729,
-    "eventCustomersOut": 13594,
+    "eventCustomersOut": 13635,
     "hourlyCustomersOut": [
       {
         "at": "2026-11-23T20:00:00Z",
@@ -12736,7 +12790,7 @@
       },
       {
         "at": "2026-11-25T20:00:00Z",
-        "customersOut": 16780
+        "customersOut": 16821
       }
     ],
     "locations": [
@@ -20189,6 +20243,34 @@
       "LAVENDER HILL CONDO 8E",
       "LEARKENLUND",
       "LEARKENLUND EST 6C",
+      "LEB VILLAS II A-203",
+      "LEB VILLAS PHASE II",
+      "LEB VILLAS PHASE II 311",
+      "LEB VILLAS PHASE II A 106",
+      "LEB VILLAS PHASE II A 209",
+      "LEB VILLAS PHASE II A-102",
+      "LEB VILLAS PHASE II A-103",
+      "LEB VILLAS PHASE II A-104",
+      "LEB VILLAS PHASE II A-105",
+      "LEB VILLAS PHASE II A-107",
+      "LEB VILLAS PHASE II A110",
+      "LEB VILLAS PHASE II A-201",
+      "LEB VILLAS PHASE II A-202",
+      "LEB VILLAS PHASE II A-206",
+      "LEB VILLAS PHASE II A-208",
+      "LEB VILLAS PHASE II A-210",
+      "LEB VILLAS PHASE II A-211",
+      "LEB VILLAS PHASE II A212",
+      "LEB VILLAS PHASE II A-213",
+      "LEB VILLAS PHASE II A-214",
+      "LEB VILLAS PHASE II A-303",
+      "LEB VILLAS PHASE II A-305",
+      "LEB VILLAS PHASE II A-306",
+      "LEB VILLAS PHASE II A-308",
+      "LEB VILLAS PHASE II A-309",
+      "LEB VILLAS PHASE II A-312",
+      "LEB VILLAS PHASE II A-313",
+      "LEB VILLAS PHASE II A-314",
       "LEB VILLAS PHASE III",
       "LERKENDLUND 10AA 10BA UP",
       "LERKENLUND",
@@ -21759,6 +21841,8 @@
       "ORKANSHULLET 2-3 (HASSEL)",
       "P ESTATE CRUZ BAY",
       "PALM GARDEN 900B B-D",
+      "PARADISE 2-J-3",
+      "PARADISE 2-J-3 (HSE MTR)",
       "PARCEL 1CJ EST DOROTHEA",
       "PARCEL 4XE EST FORTUNA",
       "PARKS & REC SUBBASE # 1",
@@ -23660,8 +23744,8 @@
       "ZUERIENDENHEIT",
       "ZUFRIDENHEIT 1"
     ],
-    "totalOutages": 23
+    "totalOutages": 24
   },
   "staleAfterSeconds": 900,
-  "unassignedEventCount": 21
+  "unassignedEventCount": 22
 }
