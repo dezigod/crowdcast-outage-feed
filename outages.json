@@ -3646,6 +3646,31 @@
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
+      "id": "63ecbb077233d143023bf16762bf43bae6a6838bc344c6ef3630607921bd3825",
+      "island": null,
+      "locations": [
+        "MARLEY PROJECT HEADSTART"
+      ],
+      "modifiedAt": "2026-11-25T17:55:31Z",
+      "name": "155868",
+      "neighborhoodIDs": [],
+      "point": {
+        "latitude": 17.705952351041233,
+        "longitude": -64.88336856968465
+      },
+      "reportedCustomersInitially": 1,
+      "reportedCustomersOut": 1,
+      "reportedCustomersRestored": 0,
+      "sourceStatus": "Verified",
+      "startedAt": "2026-11-25T17:12:43Z",
+      "verified": true,
+      "workStatus": null
+    },
+    {
+      "cause": null,
+      "crewAssigned": false,
+      "endedAt": null,
+      "estimatedRestoration": null,
       "id": "688d24f7b6e72cb60f9dd7cfcfc315b9ee0efe7095b9fbf192b7ed84c8031d54",
       "island": "stThomas",
       "locations": [
@@ -3668,48 +3693,6 @@
       "reportedCustomersRestored": 0,
       "sourceStatus": "Predicted",
       "startedAt": "2026-05-24T00:16:58Z",
-      "verified": false,
-      "workStatus": null
-    },
-    {
-      "cause": null,
-      "crewAssigned": false,
-      "endedAt": null,
-      "estimatedRestoration": null,
-      "id": "6d752fa1fec3547318bd419e3ac194aca756caeb8c0862f59ce907fbb668e301",
-      "island": null,
-      "locations": [
-        "MARLEY ADDITIONS B4",
-        "MARLEY HOMES B-14 A-24",
-        "MARLEY HOMES B-14 A-25",
-        "MARLEY HOMES B-15 A-26",
-        "MARLEY HOMES B-18",
-        "MARLEY HOMES B-18 A-32",
-        "MARLEY HOMES B-3 A-5",
-        "MARLEY HOMES B-3 A-6",
-        "MARLEY HOMES B-5 A-8",
-        "MARLEY HOMES B-5 A-9",
-        "MARLEY HOMES B-6 A-10",
-        "MARLEY HOMES B-6 A-11",
-        "MARLEY HOMES B-7",
-        "MARLEY HOMES B-8 A-14",
-        "MARLEY HOMES B-8 A-15",
-        "MARLEY PROJECT",
-        "MARLEY PROJECT B-9",
-        "MARLEY PROJECT HEADSTART"
-      ],
-      "modifiedAt": "2026-11-25T17:44:27Z",
-      "name": "T-C-25432",
-      "neighborhoodIDs": [],
-      "point": {
-        "latitude": 17.7066509951732,
-        "longitude": -64.88300293595894
-      },
-      "reportedCustomersInitially": 19,
-      "reportedCustomersOut": 19,
-      "reportedCustomersRestored": 0,
-      "sourceStatus": "Predicted",
-      "startedAt": "2026-11-25T17:12:43Z",
       "verified": false,
       "workStatus": null
     },
@@ -7002,7 +6985,7 @@
       "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-25T17:51:22Z",
+  "generatedAt": "2026-11-25T17:56:23Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -8503,21 +8486,21 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "55bcfecea02433a6557d35f3ff6312b37bf7a436150369a936899b82e39c1baa",
+  "snapshotID": "1d09250056015c8052e973bbd39b66a1c0eb22902bdee38490fb586d720b6ddc",
   "source": {
-    "checkedAt": "2026-11-25T17:51:22Z",
+    "checkedAt": "2026-11-25T17:56:23Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-25T17:51:05Z",
+    "updatedAt": "2026-11-25T17:56:05Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "sourceSummary": {
     "customerCountDifference": 2,
-    "customersAffected": 9044,
-    "customersOut": 9044,
+    "customersAffected": 9026,
+    "customersOut": 9026,
     "customersRestored": 0,
     "customersServed": 54729,
-    "eventCustomersOut": 9042,
+    "eventCustomersOut": 9024,
     "hourlyCustomersOut": [
       {
         "at": "2026-11-23T17:00:00Z",
@@ -8713,7 +8696,7 @@
       },
       {
         "at": "2026-11-25T17:00:00Z",
-        "customersOut": 9671
+        "customersOut": 9653
       }
     ],
     "locations": [
@@ -12872,23 +12855,6 @@
       "MANDAHL 12B",
       "MARIENDAHL 11",
       "MARIENDAHL& LILLEN",
-      "MARLEY ADDITIONS B4",
-      "MARLEY HOMES B-14 A-24",
-      "MARLEY HOMES B-14 A-25",
-      "MARLEY HOMES B-15 A-26",
-      "MARLEY HOMES B-18",
-      "MARLEY HOMES B-18 A-32",
-      "MARLEY HOMES B-3 A-5",
-      "MARLEY HOMES B-3 A-6",
-      "MARLEY HOMES B-5 A-8",
-      "MARLEY HOMES B-5 A-9",
-      "MARLEY HOMES B-6 A-10",
-      "MARLEY HOMES B-6 A-11",
-      "MARLEY HOMES B-7",
-      "MARLEY HOMES B-8 A-14",
-      "MARLEY HOMES B-8 A-15",
-      "MARLEY PROJECT",
-      "MARLEY PROJECT B-9",
       "MARLEY PROJECT HEADSTART",
       "MISGUNST",
       "MISGUNST #13",
