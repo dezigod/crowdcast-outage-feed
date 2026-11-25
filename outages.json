@@ -69,6 +69,35 @@
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
+      "id": "1d8faf15f2d555b0d69e8f99667b348dca21a2c47bf6a3d6f3c83af0b74a8175",
+      "island": null,
+      "locations": [
+        "EST FORTUNA 4-4-14",
+        "EST FORTUNA 4-4-21",
+        "ESTATE FORTUNA 4-4-16",
+        "FORTUNA 4-4 27A",
+        "FORTUNA 4-4-16 UP"
+      ],
+      "modifiedAt": "2026-11-25T05:38:01Z",
+      "name": "T-T-00609",
+      "neighborhoodIDs": [],
+      "point": {
+        "latitude": 18.344186872111614,
+        "longitude": -65.02322484649744
+      },
+      "reportedCustomersInitially": 5,
+      "reportedCustomersOut": 5,
+      "reportedCustomersRestored": 0,
+      "sourceStatus": "Predicted",
+      "startedAt": "2026-11-25T05:37:48Z",
+      "verified": false,
+      "workStatus": null
+    },
+    {
+      "cause": null,
+      "crewAssigned": false,
+      "endedAt": null,
+      "estimatedRestoration": null,
       "id": "33a3d2f2a7010e14be4bfe5e5644e69747015f977655363b758a8fa000b5dd11",
       "island": null,
       "locations": [
@@ -2702,6 +2731,51 @@
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
+      "id": "c0aec4dd3c227631438667f7287edd7cb8cb5d575c5b7b5e10bba24e409a88ac",
+      "island": null,
+      "locations": [
+        "EAST STREET 6",
+        "EAST STREET 63",
+        "EAST STREET 63 A-1",
+        "EAST STREET 63 A-10",
+        "EAST STREET 63 A-2",
+        "EAST STREET 63 A-4",
+        "EAST STREET 63 A-5",
+        "EAST STREET 63 A-7",
+        "EAST STREET 63 A-8",
+        "EAST STREET 63 A-9",
+        "EAST STREET 7 2ND FLR",
+        "EAST STREET 9 A-13",
+        "HILL STREET 1A",
+        "HILL STREET 1-A",
+        "QUEEN CROSS ST-DOWNSTAIRS",
+        "QUEEN CROSS STREET 31 A-B",
+        "QUEEN CROSS STREET 31A",
+        "QUEEN CROSS STREET 54A UP",
+        "QUEEN CROSS STREET 6",
+        "QUEEN CROSS STREET 7AB",
+        "QUEEN CROSS STREET 7-AB"
+      ],
+      "modifiedAt": "2026-11-25T05:36:42Z",
+      "name": "T-C-02089",
+      "neighborhoodIDs": [],
+      "point": {
+        "latitude": 17.74439363704954,
+        "longitude": -64.70247264255937
+      },
+      "reportedCustomersInitially": 25,
+      "reportedCustomersOut": 25,
+      "reportedCustomersRestored": 0,
+      "sourceStatus": "Predicted",
+      "startedAt": "2026-11-25T05:36:06Z",
+      "verified": false,
+      "workStatus": null
+    },
+    {
+      "cause": null,
+      "crewAssigned": false,
+      "endedAt": null,
+      "estimatedRestoration": null,
       "id": "d4df086dc1ed0c629dc634ed69dfdde88c4b0e0f5563b6d084ef58afb41bd9d9",
       "island": null,
       "locations": [
@@ -4109,7 +4183,7 @@
       "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-25T05:40:42Z",
+  "generatedAt": "2026-11-25T05:45:45Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -4702,21 +4776,21 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "c29f98762c7e0d3c1c07fba0c724334c08b755aafb3f6229be03090fc1baa0ab",
+  "snapshotID": "e679d7aedda1c607c81d1ae2af88347d8d3a5aebed81dae8c9a73dd020710548",
   "source": {
-    "checkedAt": "2026-11-25T05:40:42Z",
+    "checkedAt": "2026-11-25T05:45:45Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-25T05:36:03Z",
+    "updatedAt": "2026-11-25T05:41:03Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "sourceSummary": {
     "customerCountDifference": 2,
-    "customersAffected": 4940,
-    "customersOut": 4940,
+    "customersAffected": 4970,
+    "customersOut": 4970,
     "customersRestored": 0,
     "customersServed": 54729,
-    "eventCustomersOut": 4938,
+    "eventCustomersOut": 4968,
     "hourlyCustomersOut": [
       {
         "at": "2026-11-23T05:00:00Z",
@@ -4912,7 +4986,7 @@
       },
       {
         "at": "2026-11-25T05:00:00Z",
-        "customersOut": 4938
+        "customersOut": 4968
       }
     ],
     "locations": [
@@ -5997,6 +6071,18 @@
       "DRONNINGENS GADE STE A2",
       "DRONNINGENS GADE STE IX",
       "DRONNINGRNS GADE 50-50A",
+      "EAST STREET 6",
+      "EAST STREET 63",
+      "EAST STREET 63 A-1",
+      "EAST STREET 63 A-10",
+      "EAST STREET 63 A-2",
+      "EAST STREET 63 A-4",
+      "EAST STREET 63 A-5",
+      "EAST STREET 63 A-7",
+      "EAST STREET 63 A-8",
+      "EAST STREET 63 A-9",
+      "EAST STREET 7 2ND FLR",
+      "EAST STREET 9 A-13",
       "EMANCIPATION GARDEN",
       "EMILE GRIFFITH B PARK",
       "EST 10-A-11 COTTAGE A",
@@ -6042,6 +6128,8 @@
       "EST CANAAN 1C MAIN HSE",
       "EST CANAAN 3B",
       "EST CANAAN 3F",
+      "EST FORTUNA 4-4-14",
+      "EST FORTUNA 4-4-21",
       "EST FRENCHMANS BAY 14-38",
       "EST FRENCHMAN'S BAY 16-58",
       "EST FRENCHMANS BAY 21-43",
@@ -6248,6 +6336,7 @@
       "ESTATE BOVONI 5-46 APT-2",
       "ESTATE CONTANT 3AD APT-B",
       "ESTATE CONTANT 3AD APT-C",
+      "ESTATE FORTUNA 4-4-16",
       "ESTATE FRENCHMANS BAY",
       "ESTATE HULL BAY 5H-1D",
       "ESTATE LOVENLUND",
@@ -6317,6 +6406,8 @@
       "FORTET STRADE #1 BLDG-14",
       "FORTETS STRAEDE",
       "FORTH CHRISTIAN PARKING L",
+      "FORTUNA 4-4 27A",
+      "FORTUNA 4-4-16 UP",
       "FREDERICKBERG GADE #1A",
       "FREDRIKBERG 1-A",
       "FRENCH VIEW COND 14-34",
@@ -6909,6 +7000,8 @@
       "HAWK HILL CONDO APT. 9",
       "HGHWAY LGHT BOYSCOUT BLDG",
       "HGHWAY/TRAFFIC LIGHT POST",
+      "HILL STREET 1A",
+      "HILL STREET 1-A",
       "HONDURAS",
       "HONDURAS # 4 FRENCHTOWN",
       "HONDURAS # 62",
@@ -8093,6 +8186,13 @@
       "PRINDSENS GADE MTR 6",
       "PRINDSENS GADE UP",
       "PRINDSESSE GADE 38",
+      "QUEEN CROSS ST-DOWNSTAIRS",
+      "QUEEN CROSS STREET 31 A-B",
+      "QUEEN CROSS STREET 31A",
+      "QUEEN CROSS STREET 54A UP",
+      "QUEEN CROSS STREET 6",
+      "QUEEN CROSS STREET 7AB",
+      "QUEEN CROSS STREET 7-AB",
       "QUEEN STREET - QTR DRAKE",
       "QUEENS QTRS DRAKE PAS 31",
       "RAADETS GADE",
@@ -8562,8 +8662,8 @@
       "ZOOTENVAAL 3L",
       "ZOOTENVAAL 3N*"
     ],
-    "totalOutages": 18
+    "totalOutages": 20
   },
   "staleAfterSeconds": 900,
-  "unassignedEventCount": 15
+  "unassignedEventCount": 17
 }
