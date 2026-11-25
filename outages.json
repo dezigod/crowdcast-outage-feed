@@ -2244,39 +2244,6 @@
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
-      "id": "4ff404c89949c4120a30fee34f92e97ed4d8d407fe9634792b0f4b92c4b37d41",
-      "island": null,
-      "locations": [
-        "PEPPERTREE TERR B-11",
-        "PEPPERTREE TERR B-11 L-11",
-        "PEPPERTREE TERR B-11 L-12",
-        "PEPPERTREE TERR B-11 L-13",
-        "PEPPERTREE TERR B-11 L-9",
-        "PEPPERTREE TERR COMPLEX",
-        "PEPPERTREE TERRACE",
-        "PEPPERTREE TERRACE-LNDRY",
-        "RUBY 42"
-      ],
-      "modifiedAt": "2026-11-25T00:10:26Z",
-      "name": "T-C-05734",
-      "neighborhoodIDs": [],
-      "point": {
-        "latitude": 17.7327165813793,
-        "longitude": -64.7538219110821
-      },
-      "reportedCustomersInitially": 13,
-      "reportedCustomersOut": 13,
-      "reportedCustomersRestored": 0,
-      "sourceStatus": "Predicted",
-      "startedAt": "2026-11-25T00:09:52Z",
-      "verified": false,
-      "workStatus": null
-    },
-    {
-      "cause": null,
-      "crewAssigned": false,
-      "endedAt": null,
-      "estimatedRestoration": null,
       "id": "5c00ad38379b43bad9f5942d9357098485b9cd63041adbb77e71a56cbcaf2f21",
       "island": null,
       "locations": [
@@ -23607,7 +23574,7 @@
       "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-25T01:11:05Z",
+  "generatedAt": "2026-11-25T01:16:07Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -26067,21 +26034,21 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "2b18eeff6698a72a93969b4aa74c5bfc67315a8be9b508be31ad2cc0e288dac0",
+  "snapshotID": "427725f7e6273625d24144f92c2bd74952fe2f017bde9298a5528ea107f80bc3",
   "source": {
-    "checkedAt": "2026-11-25T01:11:05Z",
+    "checkedAt": "2026-11-25T01:16:07Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-25T01:06:14Z",
+    "updatedAt": "2026-11-25T01:11:12Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "sourceSummary": {
     "customerCountDifference": 2,
-    "customersAffected": 31370,
-    "customersOut": 31370,
+    "customersAffected": 31357,
+    "customersOut": 31357,
     "customersRestored": 0,
     "customersServed": 54729,
-    "eventCustomersOut": 31368,
+    "eventCustomersOut": 31355,
     "hourlyCustomersOut": [
       {
         "at": "2026-11-23T01:00:00Z",
@@ -26273,11 +26240,11 @@
       },
       {
         "at": "2026-11-25T00:00:00Z",
-        "customersOut": 40167
+        "customersOut": 40154
       },
       {
         "at": "2026-11-25T01:00:00Z",
-        "customersOut": 31368
+        "customersOut": 31355
       }
     ],
     "locations": [
@@ -40963,18 +40930,10 @@
       "PENITENTIARY LAND",
       "PENITENTIARY LAND 6",
       "PENITENTIARY LAND 6 GRADE",
-      "PEPPERTREE TERR B-11",
-      "PEPPERTREE TERR B-11 L-11",
-      "PEPPERTREE TERR B-11 L-12",
-      "PEPPERTREE TERR B-11 L-13",
-      "PEPPERTREE TERR B-11 L-9",
       "PEPPERTREE TERR B-7 L-2",
       "PEPPERTREE TERR B-8 L-2",
       "PEPPERTREE TERR B-8 L-3",
       "PEPPERTREE TERR B-8 WELL",
-      "PEPPERTREE TERR COMPLEX",
-      "PEPPERTREE TERRACE",
-      "PEPPERTREE TERRACE-LNDRY",
       "PERTERBORG 11-30",
       "PETER REST 162",
       "PETER REST 73",
@@ -42272,7 +42231,6 @@
       "ROYAL MANOR 205",
       "ROYAL MANOR 218",
       "RUBY",
-      "RUBY 42",
       "RUDY KREIGER BALL PARK",
       "RUST UP TWIST 43-J&K",
       "RUST UP TWIST PLT",
@@ -49081,8 +49039,8 @@
       "ZUERIENDENHEIT",
       "ZUFRIDENHEIT 1"
     ],
-    "totalOutages": 27
+    "totalOutages": 26
   },
   "staleAfterSeconds": 900,
-  "unassignedEventCount": 25
+  "unassignedEventCount": 24
 }
