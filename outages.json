@@ -126,6 +126,56 @@
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
+      "id": "40c97f856399eaa2bc951d8d6b278678eb16853e49cab560769d14f364471a2c",
+      "island": null,
+      "locations": [
+        "CONTANT",
+        "CONTANT 57",
+        "CONTANT 57A",
+        "CONTANT 57B",
+        "CONTANT 57B 2ND FL",
+        "CONTANT 58A",
+        "CONTANT 58A 1ST FL",
+        "CONTANT 58B",
+        "CONTANT 60",
+        "CONTANT 60 APT 3",
+        "CONTANT 60 DOWN",
+        "CONTANT 73",
+        "CONTANT 73- A-2",
+        "CONTANT 73 APT 6 DOWN",
+        "CONTANT 73 APT-1",
+        "CONTANT 73 APT-3",
+        "CONTANT 73 APT-5",
+        "CONTANT 73 APT-7 SOUTH",
+        "CONTANT 73 APT-8",
+        "CONTANT 73 APT-9",
+        "CONTANT 74-A",
+        "CONTANT 74A APT-1",
+        "CONTANT 74A APT-2",
+        "CONTANT 74A APT-3",
+        "CONTANT 74A APT-4",
+        "CONTANT 74A APT-5"
+      ],
+      "modifiedAt": "2026-11-25T06:19:55Z",
+      "name": "T-T-15931",
+      "neighborhoodIDs": [],
+      "point": {
+        "latitude": 18.33800885213978,
+        "longitude": -64.95671569496504
+      },
+      "reportedCustomersInitially": 27,
+      "reportedCustomersOut": 27,
+      "reportedCustomersRestored": 0,
+      "sourceStatus": "Predicted",
+      "startedAt": "2026-11-25T06:19:21Z",
+      "verified": false,
+      "workStatus": null
+    },
+    {
+      "cause": null,
+      "crewAssigned": false,
+      "endedAt": null,
+      "estimatedRestoration": null,
       "id": "49632027e519a25ef373b1024518c1a864191572f766f36d3d1896d55e57062f",
       "island": null,
       "locations": [
@@ -4212,7 +4262,7 @@
       "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-25T06:20:57Z",
+  "generatedAt": "2026-11-25T06:25:59Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -4805,21 +4855,21 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "4ae61b578094251ca8768664a6bfbcd28298f277e63c322fde591e2c6b24ba2f",
+  "snapshotID": "0404ff9fab34956e55be6ccc650ecbbc9d77549e44118faea1ef0d644f46389c",
   "source": {
-    "checkedAt": "2026-11-25T06:20:57Z",
+    "checkedAt": "2026-11-25T06:25:59Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-25T06:16:03Z",
+    "updatedAt": "2026-11-25T06:21:03Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "sourceSummary": {
     "customerCountDifference": 2,
-    "customersAffected": 4975,
-    "customersOut": 4975,
+    "customersAffected": 5002,
+    "customersOut": 5002,
     "customersRestored": 0,
     "customersServed": 54729,
-    "eventCustomersOut": 4973,
+    "eventCustomersOut": 5000,
     "hourlyCustomersOut": [
       {
         "at": "2026-11-23T06:00:00Z",
@@ -5015,7 +5065,7 @@
       },
       {
         "at": "2026-11-25T06:00:00Z",
-        "customersOut": 4973
+        "customersOut": 5000
       }
     ],
     "locations": [
@@ -5833,6 +5883,7 @@
       "COMMANDANT GADE HSE-1",
       "COMMANDANT GADE SCH",
       "COMMANDANT TVER GADE",
+      "CONTANT",
       "CONTANT (EL)",
       "CONTANT 18-7BA",
       "CONTANT 19 7BA",
@@ -5850,10 +5901,35 @@
       "CONTANT 3A-E (EL)",
       "CONTANT 41-2",
       "CONTANT 41-3",
+      "CONTANT 57",
+      "CONTANT 57A",
+      "CONTANT 57B",
+      "CONTANT 57B 2ND FL",
+      "CONTANT 58A",
+      "CONTANT 58A 1ST FL",
+      "CONTANT 58B",
+      "CONTANT 60",
+      "CONTANT 60 APT 3",
+      "CONTANT 60 DOWN",
       "CONTANT 69-3",
       "CONTANT 69-6 7A SSIDE QTR",
       "CONTANT 69-7",
       "CONTANT 69-8 7A SS QTR",
+      "CONTANT 73",
+      "CONTANT 73- A-2",
+      "CONTANT 73 APT 6 DOWN",
+      "CONTANT 73 APT-1",
+      "CONTANT 73 APT-3",
+      "CONTANT 73 APT-5",
+      "CONTANT 73 APT-7 SOUTH",
+      "CONTANT 73 APT-8",
+      "CONTANT 73 APT-9",
+      "CONTANT 74-A",
+      "CONTANT 74A APT-1",
+      "CONTANT 74A APT-2",
+      "CONTANT 74A APT-3",
+      "CONTANT 74A APT-4",
+      "CONTANT 74A APT-5",
       "CONTANT 7B",
       "CONTANT 7B-3-2",
       "CONTANT 97-98A",
@@ -8696,8 +8772,8 @@
       "ZOOTENVAAL 3L",
       "ZOOTENVAAL 3N*"
     ],
-    "totalOutages": 21
+    "totalOutages": 22
   },
   "staleAfterSeconds": 900,
-  "unassignedEventCount": 18
+  "unassignedEventCount": 19
 }
