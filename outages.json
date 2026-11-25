@@ -8515,6 +8515,52 @@
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
+      "id": "def4aad4f59e18c5b637e60076abd66f378c688169bfd20590b0a83cab8a318d",
+      "island": null,
+      "locations": [
+        "MARLEY ADDITION 5",
+        "MARLEY ADDITIONS B-5",
+        "MARLEY ADDITIONS B5 A43",
+        "MARLEY ADDITIONS B5 A45",
+        "MARLEY ADDITIONS B5 A46",
+        "MARLEY ADDITIONS B6",
+        "MARLEY ADDITIONS B-6",
+        "MARLEY ADDITIONS B6 A47",
+        "MARLEY ADDITIONS B6 A48",
+        "MARLEY ADDITIONS B6 A49",
+        "MARLEY ADDITIONS B6 A50",
+        "MARLEY ADDITIONS B6 A51",
+        "MARLEY ADDITIONS B-7",
+        "MARLEY ADDITIONS B7 A55",
+        "MARLEY ADDITIONS B7 A57",
+        "MARLEY ADDITIONS B7 A58",
+        "MARLEY PROJECT B-6 A-53",
+        "MARLEY PROJECT B-7",
+        "MARLEY PROJECT B-7 A-59",
+        "TWO BROTHERS 132",
+        "TWO BROTHERS 97 A-D(HALL)",
+        "TWO BROTHERS 97A &B"
+      ],
+      "modifiedAt": "2026-11-25T21:04:01Z",
+      "name": "T-C-25652",
+      "neighborhoodIDs": [],
+      "point": {
+        "latitude": 17.705424886374704,
+        "longitude": -64.88314376931294
+      },
+      "reportedCustomersInitially": 22,
+      "reportedCustomersOut": 22,
+      "reportedCustomersRestored": 0,
+      "sourceStatus": "Predicted",
+      "startedAt": "2026-11-25T21:03:26Z",
+      "verified": false,
+      "workStatus": null
+    },
+    {
+      "cause": null,
+      "crewAssigned": false,
+      "endedAt": null,
+      "estimatedRestoration": null,
       "id": "defd454f9a5e121effee0de0906eaf7c14388a6da2577bbe9924ae955765c1c2",
       "island": null,
       "locations": [
@@ -10874,7 +10920,7 @@
       "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-25T21:01:31Z",
+  "generatedAt": "2026-11-25T21:06:34Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -12039,21 +12085,21 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "7500b807ab8545d8fd8def850642f61ef01170e427e76668b897c9227424b6a0",
+  "snapshotID": "113f9073695d0eea33a54b82eece4f34d9b4cbaf0518f7e2bf211ec89147f34c",
   "source": {
-    "checkedAt": "2026-11-25T21:01:31Z",
+    "checkedAt": "2026-11-25T21:06:34Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-25T21:01:07Z",
+    "updatedAt": "2026-11-25T21:06:08Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "sourceSummary": {
     "customerCountDifference": 2,
-    "customersAffected": 13202,
-    "customersOut": 13202,
+    "customersAffected": 13224,
+    "customersOut": 13224,
     "customersRestored": 0,
     "customersServed": 54729,
-    "eventCustomersOut": 13200,
+    "eventCustomersOut": 13222,
     "hourlyCustomersOut": [
       {
         "at": "2026-11-23T21:00:00Z",
@@ -12249,7 +12295,7 @@
       },
       {
         "at": "2026-11-25T21:00:00Z",
-        "customersOut": 13200
+        "customersOut": 13222
       }
     ],
     "locations": [
@@ -19811,6 +19857,25 @@
       "MARIENDAL 10-44 REM",
       "MARINDAHL 7-93",
       "MARITNDAHL 7-57",
+      "MARLEY ADDITION 5",
+      "MARLEY ADDITIONS B-5",
+      "MARLEY ADDITIONS B5 A43",
+      "MARLEY ADDITIONS B5 A45",
+      "MARLEY ADDITIONS B5 A46",
+      "MARLEY ADDITIONS B6",
+      "MARLEY ADDITIONS B-6",
+      "MARLEY ADDITIONS B6 A47",
+      "MARLEY ADDITIONS B6 A48",
+      "MARLEY ADDITIONS B6 A49",
+      "MARLEY ADDITIONS B6 A50",
+      "MARLEY ADDITIONS B6 A51",
+      "MARLEY ADDITIONS B-7",
+      "MARLEY ADDITIONS B7 A55",
+      "MARLEY ADDITIONS B7 A57",
+      "MARLEY ADDITIONS B7 A58",
+      "MARLEY PROJECT B-6 A-53",
+      "MARLEY PROJECT B-7",
+      "MARLEY PROJECT B-7 A-59",
       "MISGUNST",
       "MISGUNST #13",
       "MISGUNST #6A DOWN",
@@ -22584,6 +22649,9 @@
       "TUTU 173-55",
       "TUTU 173-61",
       "TUTU 1-9",
+      "TWO BROTHERS 132",
+      "TWO BROTHERS 97 A-D(HALL)",
+      "TWO BROTHERS 97A &B",
       "UP SMITH BAY",
       "UPPER JOHN DONKO 2-5 MTR",
       "UPPER JOHN DONKO 58",
@@ -22655,8 +22723,8 @@
       "ZUERIENDENHEIT",
       "ZUFRIDENHEIT 1"
     ],
-    "totalOutages": 18
+    "totalOutages": 19
   },
   "staleAfterSeconds": 900,
-  "unassignedEventCount": 16
+  "unassignedEventCount": 17
 }
