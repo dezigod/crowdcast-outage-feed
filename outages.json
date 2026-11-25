@@ -3197,6 +3197,39 @@
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
+      "id": "2a559704f66c2fbca61ccd22ddc19a91ec8955478e6e1185cd2d1cf135e3cac4",
+      "island": null,
+      "locations": [
+        "EST LERKENLUND 5C-2 UP",
+        "LERKENLUND 1-2",
+        "LERKENLUND 1-2 UP",
+        "LERKENLUND 5C",
+        "LERKENLUND 5C A-1",
+        "LERKENLUND 5C-1 BLDG. 6",
+        "LERKENLUND 5C-2",
+        "LERKENLUND PCL 5LA MTR.A",
+        "LERKENLUND PCL 5LA MTR.B"
+      ],
+      "modifiedAt": "2026-11-25T23:09:35Z",
+      "name": "T-T-06072",
+      "neighborhoodIDs": [],
+      "point": {
+        "latitude": 18.36182595959746,
+        "longitude": -64.9429898119392
+      },
+      "reportedCustomersInitially": 9,
+      "reportedCustomersOut": 9,
+      "reportedCustomersRestored": 0,
+      "sourceStatus": "Predicted",
+      "startedAt": "2026-11-25T23:04:53Z",
+      "verified": false,
+      "workStatus": null
+    },
+    {
+      "cause": null,
+      "crewAssigned": false,
+      "endedAt": null,
+      "estimatedRestoration": null,
       "id": "33a3d2f2a7010e14be4bfe5e5644e69747015f977655363b758a8fa000b5dd11",
       "island": null,
       "locations": [
@@ -8297,7 +8330,7 @@
       "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-25T23:06:10Z",
+  "generatedAt": "2026-11-25T23:11:12Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -9461,21 +9494,21 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "86fcaaad6bfb5c50b54da6221d7b22301f64c426c09e809237c54c73d1d50ae6",
+  "snapshotID": "a0178bce3d5dc233c379171783d91f1875dd9f630905ef3aecdd9071f9afb517",
   "source": {
-    "checkedAt": "2026-11-25T23:06:10Z",
+    "checkedAt": "2026-11-25T23:11:12Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-25T23:06:06Z",
+    "updatedAt": "2026-11-25T23:11:06Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "sourceSummary": {
-    "customerCountDifference": 11,
+    "customerCountDifference": 2,
     "customersAffected": 10347,
     "customersOut": 10347,
     "customersRestored": 0,
     "customersServed": 54729,
-    "eventCustomersOut": 10336,
+    "eventCustomersOut": 10345,
     "hourlyCustomersOut": [
       {
         "at": "2026-11-23T23:00:00Z",
@@ -17440,8 +17473,8 @@
       "ZOOTENVAAL 3Q (MTR 1)",
       "ZOOTENVAAL 3T"
     ],
-    "totalOutages": 20
+    "totalOutages": 21
   },
   "staleAfterSeconds": 900,
-  "unassignedEventCount": 18
+  "unassignedEventCount": 19
 }
