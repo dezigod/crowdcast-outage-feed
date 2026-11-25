@@ -3334,6 +3334,44 @@
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
+      "id": "b3f2acbb37c4e5991a029c13f75489bc5870cea19179c7b9ef7cd498914840d8",
+      "island": null,
+      "locations": [
+        "EST THOMAS 14E 6",
+        "EST THOMAS 14NJ A-1",
+        "EST THOMAS 14NP",
+        "EST THOMAS 14NP 3FL APT-5",
+        "EST THOMAS 14NP APT 2",
+        "EST THOMAS 14NP-18 6E A-3",
+        "EST THOMAS 14NQ 6E",
+        "EST THOMAS 14NQ-6E",
+        "EST THOMAS 14PI",
+        "EST THOMAS 14PI (EL)",
+        "EST THOMAS 14PI APT-1",
+        "EST THOMAS 14PL (EL)",
+        "EST THOMAS 14PL APT-7",
+        "ESTATE THOMAS 14NQ-6E"
+      ],
+      "modifiedAt": "2026-11-25T10:34:03Z",
+      "name": "T-T-15855",
+      "neighborhoodIDs": [],
+      "point": {
+        "latitude": 18.33546038779535,
+        "longitude": -64.91060845401466
+      },
+      "reportedCustomersInitially": 22,
+      "reportedCustomersOut": 22,
+      "reportedCustomersRestored": 0,
+      "sourceStatus": "Predicted",
+      "startedAt": "2026-11-25T10:33:49Z",
+      "verified": false,
+      "workStatus": null
+    },
+    {
+      "cause": null,
+      "crewAssigned": false,
+      "endedAt": null,
+      "estimatedRestoration": null,
       "id": "b5a5abb0630289e3151d00f06a5c9b642d7229530e94c0c0b76c160417908a87",
       "island": null,
       "locations": [
@@ -5116,7 +5154,7 @@
       "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-25T10:31:31Z",
+  "generatedAt": "2026-11-25T10:36:34Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -5722,21 +5760,21 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "d77959cd88ece8d8953cc842bbd255b0b2da0c0210082795e79f613db201d556",
+  "snapshotID": "ae67028e3e1fd8c4f98e1ea26cd61023c6e6ca68d1bfe495f34dea4f8b15e372",
   "source": {
-    "checkedAt": "2026-11-25T10:31:31Z",
+    "checkedAt": "2026-11-25T10:36:34Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-25T10:31:03Z",
+    "updatedAt": "2026-11-25T10:36:03Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "sourceSummary": {
     "customerCountDifference": 2,
-    "customersAffected": 5685,
-    "customersOut": 5685,
+    "customersAffected": 5707,
+    "customersOut": 5707,
     "customersRestored": 0,
     "customersServed": 54729,
-    "eventCustomersOut": 5683,
+    "eventCustomersOut": 5705,
     "hourlyCustomersOut": [
       {
         "at": "2026-11-23T10:00:00Z",
@@ -5932,7 +5970,7 @@
       },
       {
         "at": "2026-11-25T10:00:00Z",
-        "customersOut": 5683
+        "customersOut": 5705
       }
     ],
     "locations": [
@@ -7591,6 +7629,19 @@
       "EST THOMAS 14AB",
       "EST THOMAS 14B-14-64 B UP",
       "EST THOMAS 14B-15-6-H-14",
+      "EST THOMAS 14E 6",
+      "EST THOMAS 14NJ A-1",
+      "EST THOMAS 14NP",
+      "EST THOMAS 14NP 3FL APT-5",
+      "EST THOMAS 14NP APT 2",
+      "EST THOMAS 14NP-18 6E A-3",
+      "EST THOMAS 14NQ 6E",
+      "EST THOMAS 14NQ-6E",
+      "EST THOMAS 14PI",
+      "EST THOMAS 14PI (EL)",
+      "EST THOMAS 14PI APT-1",
+      "EST THOMAS 14PL (EL)",
+      "EST THOMAS 14PL APT-7",
       "EST THOMAS 15",
       "EST THOMAS 16-2",
       "EST THOMAS 17-1 & 6",
@@ -7771,6 +7822,7 @@
       "ESTATE ROSS D-2",
       "ESTATE TAARNEBERG 39C",
       "ESTATE THOMAS #6H",
+      "ESTATE THOMAS 14NQ-6E",
       "ESTATE THOMAS 18 REMAINER",
       "ESTATE THOMAS 19",
       "ESTATE THOMAS 1F-LONG BAY",
@@ -10143,8 +10195,8 @@
       "ZOOTENVAAL 3L",
       "ZOOTENVAAL 3N*"
     ],
-    "totalOutages": 36
+    "totalOutages": 37
   },
   "staleAfterSeconds": 900,
-  "unassignedEventCount": 32
+  "unassignedEventCount": 33
 }
