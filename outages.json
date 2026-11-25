@@ -245,6 +245,35 @@
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
+      "id": "7dbecfa57a1735e61d564c4775040cef9f49e87b64969edd14368b152b3a84d3",
+      "island": null,
+      "locations": [
+        "BAKKERO 3-DB MTR-A",
+        "EST HOPE 10-1",
+        "ESTATE HOPE 10-1 APT-C",
+        "HOPE 10-1 A-B",
+        "HOPE 10-1-4-1-3-1"
+      ],
+      "modifiedAt": "2026-11-25T06:09:20Z",
+      "name": "T-T-01560",
+      "neighborhoodIDs": [],
+      "point": {
+        "latitude": 18.359249125484382,
+        "longitude": -65.00013307966105
+      },
+      "reportedCustomersInitially": 5,
+      "reportedCustomersOut": 5,
+      "reportedCustomersRestored": 0,
+      "sourceStatus": "Predicted",
+      "startedAt": "2026-11-25T06:09:03Z",
+      "verified": false,
+      "workStatus": null
+    },
+    {
+      "cause": null,
+      "crewAssigned": false,
+      "endedAt": null,
+      "estimatedRestoration": null,
       "id": "92b8f75e71fd839cffcd81ff2dcd0cfc9ff80f9af3da2f75cfc86774b14f141b",
       "island": null,
       "locations": [
@@ -4183,7 +4212,7 @@
       "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-25T06:10:53Z",
+  "generatedAt": "2026-11-25T06:15:54Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -4776,21 +4805,21 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "ee051ed5265034114d1285e27387bcc3f6061a062d60db7748e72e619b436175",
+  "snapshotID": "d646110f1eab024518540278425a6212967c9d5c369d1c920f0481c4fc362c1e",
   "source": {
-    "checkedAt": "2026-11-25T06:10:53Z",
+    "checkedAt": "2026-11-25T06:15:54Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-25T06:06:05Z",
+    "updatedAt": "2026-11-25T06:11:03Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "sourceSummary": {
     "customerCountDifference": 2,
-    "customersAffected": 4970,
-    "customersOut": 4970,
+    "customersAffected": 4975,
+    "customersOut": 4975,
     "customersRestored": 0,
     "customersServed": 54729,
-    "eventCustomersOut": 4968,
+    "eventCustomersOut": 4973,
     "hourlyCustomersOut": [
       {
         "at": "2026-11-23T06:00:00Z",
@@ -4986,7 +5015,7 @@
       },
       {
         "at": "2026-11-25T06:00:00Z",
-        "customersOut": 4968
+        "customersOut": 4973
       }
     ],
     "locations": [
@@ -5301,6 +5330,7 @@
       "BAKKERO 3-B",
       "BAKKERO 3B COTTAGE",
       "BAKKERO 3C",
+      "BAKKERO 3-DB MTR-A",
       "BAKKERO 3F FRENCHMAN BAY",
       "BAKKERO 3F-1",
       "BAKKERO 3G",
@@ -6139,6 +6169,7 @@
       "EST HAVENSIGHT 25",
       "EST HAVENSIGHT UP",
       "EST HONDURAS 30-4",
+      "EST HOPE 10-1",
       "EST JOSEPH & ROSENDAHL",
       "EST LOUISENHOJ 1",
       "EST LOUISENHOJ 11-1A",
@@ -6338,6 +6369,7 @@
       "ESTATE CONTANT 3AD APT-C",
       "ESTATE FORTUNA 4-4-16",
       "ESTATE FRENCHMANS BAY",
+      "ESTATE HOPE 10-1 APT-C",
       "ESTATE HULL BAY 5H-1D",
       "ESTATE LOVENLUND",
       "ESTATE LOVENLUND #3",
@@ -7141,6 +7173,8 @@
       "HONDURAS PCL 5-H",
       "HONDURAS STT",
       "HONDURAS-SOUTHSIDE QTRS",
+      "HOPE 10-1 A-B",
+      "HOPE 10-1-4-1-3-1",
       "HOSPITAL GR",
       "HOSPITAL GR 407-3-407",
       "HOSPITAL GR 407-3-407-1A-",
@@ -8662,8 +8696,8 @@
       "ZOOTENVAAL 3L",
       "ZOOTENVAAL 3N*"
     ],
-    "totalOutages": 20
+    "totalOutages": 21
   },
   "staleAfterSeconds": 900,
-  "unassignedEventCount": 17
+  "unassignedEventCount": 18
 }
