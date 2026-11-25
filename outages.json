@@ -3758,35 +3758,6 @@
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
-      "id": "b3e513e5c02e1989da4d418edacd07dfad1899fe181462f70fe1feafebb939e1",
-      "island": null,
-      "locations": [
-        "ELIZAS RETREAT 103",
-        "ELIZAS RETREAT 105",
-        "ELIZAS RETREAT 106",
-        "ELIZAS RETREAT 106 SPY",
-        "ELIZAS RETREAT 69"
-      ],
-      "modifiedAt": "2026-11-25T15:18:29Z",
-      "name": "T-C-02030",
-      "neighborhoodIDs": [],
-      "point": {
-        "latitude": 17.744802122805755,
-        "longitude": -64.69075028407576
-      },
-      "reportedCustomersInitially": 5,
-      "reportedCustomersOut": 5,
-      "reportedCustomersRestored": 0,
-      "sourceStatus": "Predicted",
-      "startedAt": "2026-11-25T14:48:54Z",
-      "verified": false,
-      "workStatus": null
-    },
-    {
-      "cause": null,
-      "crewAssigned": false,
-      "endedAt": null,
-      "estimatedRestoration": null,
       "id": "be52aaf966a5a63252c14f3f1bf44e2b82a0eba95473307fa3b5aecc5af5352c",
       "island": null,
       "locations": [
@@ -7038,7 +7009,7 @@
       "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-25T17:31:15Z",
+  "generatedAt": "2026-11-25T17:36:16Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -8539,21 +8510,21 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "b83dffc865346cd0e237931105c9780c5c9253ff61f73fc8fa43a889f071ad9f",
+  "snapshotID": "dea7b5cedb9b3d5ee6f28e456290efb100833cc04994d57c9f710ea158732110",
   "source": {
-    "checkedAt": "2026-11-25T17:31:15Z",
+    "checkedAt": "2026-11-25T17:36:16Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-25T17:31:05Z",
+    "updatedAt": "2026-11-25T17:36:05Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "sourceSummary": {
     "customerCountDifference": 2,
-    "customersAffected": 9060,
-    "customersOut": 9060,
+    "customersAffected": 9055,
+    "customersOut": 9055,
     "customersRestored": 0,
     "customersServed": 54729,
-    "eventCustomersOut": 9058,
+    "eventCustomersOut": 9053,
     "hourlyCustomersOut": [
       {
         "at": "2026-11-23T17:00:00Z",
@@ -10688,11 +10659,6 @@
       "ELIZABETH ABDEFGHJK TEN",
       "ELIZABETH ABDEFGHSK B-5",
       "ELIZABETH FANCY",
-      "ELIZAS RETREAT 103",
-      "ELIZAS RETREAT 105",
-      "ELIZAS RETREAT 106",
-      "ELIZAS RETREAT 106 SPY",
-      "ELIZAS RETREAT 69",
       "EMANCIPATION GARDEN",
       "ENIGHED 18-3",
       "ENIGHED 3AAA",
@@ -15306,8 +15272,8 @@
       "ZUERIENDENHEIT",
       "ZUFRIDENHEIT 1"
     ],
-    "totalOutages": 19
+    "totalOutages": 18
   },
   "staleAfterSeconds": 900,
-  "unassignedEventCount": 17
+  "unassignedEventCount": 16
 }
