@@ -16112,6 +16112,32 @@
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
+      "id": "93b093c0520be7e65a7ee4603bb99e5fd13e81b20d26c77567b25f49f782dac3",
+      "island": null,
+      "locations": [
+        "ST GEORGES 12",
+        "ST GEORGES 7"
+      ],
+      "modifiedAt": "2026-11-25T02:16:12Z",
+      "name": "T-C-17750",
+      "neighborhoodIDs": [],
+      "point": {
+        "latitude": 17.722242963827306,
+        "longitude": -64.83058425326125
+      },
+      "reportedCustomersInitially": 3,
+      "reportedCustomersOut": 3,
+      "reportedCustomersRestored": 0,
+      "sourceStatus": "Predicted",
+      "startedAt": "2026-11-25T02:16:00Z",
+      "verified": false,
+      "workStatus": null
+    },
+    {
+      "cause": null,
+      "crewAssigned": false,
+      "endedAt": null,
+      "estimatedRestoration": null,
       "id": "9be34a1b53fe656eec7b475e7fef1872531413485e103cf81b17c0e1c01052eb",
       "island": null,
       "locations": [
@@ -23640,7 +23666,7 @@
       "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-25T02:16:33Z",
+  "generatedAt": "2026-11-25T02:21:34Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -26103,21 +26129,21 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "993989215a89885294b7dceef3b06380aee8e7b42c8da85d62269bcf0f99dc75",
+  "snapshotID": "e0650cfc040b448f005a0f27bf70c8aac93a0323408b23b81d8d9b2e68b5afdf",
   "source": {
-    "checkedAt": "2026-11-25T02:16:33Z",
+    "checkedAt": "2026-11-25T02:21:34Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-25T02:16:12Z",
+    "updatedAt": "2026-11-25T02:21:13Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "sourceSummary": {
-    "customerCountDifference": 5,
+    "customerCountDifference": 2,
     "customersAffected": 31146,
     "customersOut": 31146,
     "customersRestored": 0,
     "customersServed": 54729,
-    "eventCustomersOut": 31141,
+    "eventCustomersOut": 31144,
     "hourlyCustomersOut": [
       {
         "at": "2026-11-23T02:00:00Z",
@@ -48986,8 +49012,8 @@
       "ZUERIENDENHEIT",
       "ZUFRIDENHEIT 1"
     ],
-    "totalOutages": 34
+    "totalOutages": 35
   },
   "staleAfterSeconds": 900,
-  "unassignedEventCount": 32
+  "unassignedEventCount": 33
 }
