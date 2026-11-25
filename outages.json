@@ -6,6 +6,31 @@
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
+      "id": "0e5b676f58d7c9309165debeb8d17d7bdb5c94f9cac55dd66ff7fdcddd17c693",
+      "island": null,
+      "locations": [
+        "LEB VILLAS PHASE III"
+      ],
+      "modifiedAt": "2026-11-25T02:03:26Z",
+      "name": "207524",
+      "neighborhoodIDs": [],
+      "point": {
+        "latitude": 17.705275075070173,
+        "longitude": -64.81900432385386
+      },
+      "reportedCustomersInitially": 1,
+      "reportedCustomersOut": 1,
+      "reportedCustomersRestored": 0,
+      "sourceStatus": "Predicted",
+      "startedAt": "2026-11-25T02:03:12Z",
+      "verified": false,
+      "workStatus": null
+    },
+    {
+      "cause": null,
+      "crewAssigned": false,
+      "endedAt": null,
+      "estimatedRestoration": null,
       "id": "114334c01aa87b660788dbcd897dba52abaccf25d73a80313b285103c5d75502",
       "island": null,
       "locations": [
@@ -12344,6 +12369,37 @@
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
+      "id": "756858ea2795062d3a48ff1f23a33300689d112420fea8aad8d26f8fa3b3f348",
+      "island": null,
+      "locations": [
+        "CASTLE COAKLEY",
+        "CASTLE COAKLEY 14A (UPST)",
+        "CASTLE COAKLEY 15 SM-HSE",
+        "NEW CASTLE COAKLEY",
+        "NEW CASTLE COAKLEY 5"
+      ],
+      "modifiedAt": "2026-11-25T02:05:13Z",
+      "name": "T-C-06105",
+      "neighborhoodIDs": [
+        "stCroix-castle-coakley"
+      ],
+      "point": {
+        "latitude": 17.725991241691034,
+        "longitude": -64.74982587420055
+      },
+      "reportedCustomersInitially": 9,
+      "reportedCustomersOut": 9,
+      "reportedCustomersRestored": 0,
+      "sourceStatus": "Predicted",
+      "startedAt": "2026-11-25T02:04:39Z",
+      "verified": false,
+      "workStatus": null
+    },
+    {
+      "cause": null,
+      "crewAssigned": false,
+      "endedAt": null,
+      "estimatedRestoration": null,
       "id": "8eb948ac8d89a57f29ab2c63f4e554c91f20812a33636ec01cf3cca83af14d7e",
       "island": null,
       "locations": [
@@ -18663,6 +18719,39 @@
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
+      "id": "aabefbd5f8dd2142a2d2193938c7624aa7eeec464480f076fd0ed574102312a1",
+      "island": null,
+      "locations": [
+        "LEB VILLAS PHASE I B-10",
+        "LEB VILLAS PHASE I B11",
+        "LEB VILLAS PHASE I B-11",
+        "LEB VILLAS PHASE I B-8",
+        "LEB VILLAS PHASE I B-9",
+        "LEB VILLAS PHASE I/HS MTR",
+        "LOUIS E BROWN VILLAS B-10",
+        "LOUIS E BROWN VILLAS B-11",
+        "LOUIS E BROWN VILLAS B-9"
+      ],
+      "modifiedAt": "2026-11-25T02:03:09Z",
+      "name": "T-C-00275",
+      "neighborhoodIDs": [],
+      "point": {
+        "latitude": 17.70459447600161,
+        "longitude": -64.82079467944448
+      },
+      "reportedCustomersInitially": 30,
+      "reportedCustomersOut": 30,
+      "reportedCustomersRestored": 0,
+      "sourceStatus": "Predicted",
+      "startedAt": "2026-11-25T02:02:21Z",
+      "verified": false,
+      "workStatus": null
+    },
+    {
+      "cause": null,
+      "crewAssigned": false,
+      "endedAt": null,
+      "estimatedRestoration": null,
       "id": "af504358513f61fc5f3742b32b166a7d2dc0be8c7491cb1957a1efb6087b27d6",
       "island": null,
       "locations": [
@@ -23280,7 +23369,7 @@
       "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-25T02:01:26Z",
+  "generatedAt": "2026-11-25T02:06:28Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -24819,6 +24908,8 @@
             "139",
             "139 A-5",
             "144 GARAGE",
+            "14A (UPST)",
+            "15 SM-HSE",
             "152",
             "154",
             "157",
@@ -24865,10 +24956,11 @@
           ],
           "name": "Castle Coakley",
           "sourceEventIDs": [
+            "756858ea2795062d3a48ff1f23a33300689d112420fea8aad8d26f8fa3b3f348",
             "fed157bc439264fec30eb48aea06d87b0777cd7c9895530b7104e018db0410a5"
           ],
-          "sourceStatus": "Verified",
-          "startedAt": "2026-11-24T20:19:11Z"
+          "sourceStatus": "Unconfirmed",
+          "startedAt": null
         },
         {
           "affectedCustomers": null,
@@ -25740,21 +25832,21 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "9155a9f5fa2d303875ea2d7f8e9b4fcfabbcb804b425ac2943f9acd185941c7e",
+  "snapshotID": "362926429f87fbed9e5a633dc4b1d054966a5e8e4ea46e81435f0931bf6746f4",
   "source": {
-    "checkedAt": "2026-11-25T02:01:26Z",
+    "checkedAt": "2026-11-25T02:06:28Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-25T02:01:12Z",
+    "updatedAt": "2026-11-25T02:06:13Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "sourceSummary": {
     "customerCountDifference": 2,
-    "customersAffected": 30885,
-    "customersOut": 30885,
+    "customersAffected": 30925,
+    "customersOut": 30925,
     "customersRestored": 0,
     "customersServed": 54729,
-    "eventCustomersOut": 30883,
+    "eventCustomersOut": 30923,
     "hourlyCustomersOut": [
       {
         "at": "2026-11-23T02:00:00Z",
@@ -25950,7 +26042,7 @@
       },
       {
         "at": "2026-11-25T02:00:00Z",
-        "customersOut": 30883
+        "customersOut": 30923
       }
     ],
     "locations": [
@@ -29990,6 +30082,8 @@
       "CASTLE COAKLEY 139",
       "CASTLE COAKLEY 139 A-5",
       "CASTLE COAKLEY 144 GARAGE",
+      "CASTLE COAKLEY 14A (UPST)",
+      "CASTLE COAKLEY 15 SM-HSE",
       "CASTLE COAKLEY 152",
       "CASTLE COAKLEY 154",
       "CASTLE COAKLEY 157",
@@ -37736,6 +37830,13 @@
       "LBJ/TRANSFORMER ROOM",
       "LEARKENLUND",
       "LEARKENLUND EST 6C",
+      "LEB VILLAS PHASE I B-10",
+      "LEB VILLAS PHASE I B11",
+      "LEB VILLAS PHASE I B-11",
+      "LEB VILLAS PHASE I B-8",
+      "LEB VILLAS PHASE I B-9",
+      "LEB VILLAS PHASE I/HS MTR",
+      "LEB VILLAS PHASE III",
       "LEBANON HILL",
       "LEMON HOLLOW 5-A",
       "LERKENDLUND 10AA 10BA UP",
@@ -38401,6 +38502,9 @@
       "LORRAINE VILLAGE B-9 A-J",
       "LOT 15 EST. THOMAS",
       "LOT 18-16 SMITH BAY",
+      "LOUIS E BROWN VILLAS B-10",
+      "LOUIS E BROWN VILLAS B-11",
+      "LOUIS E BROWN VILLAS B-9",
       "LOUISENHOJ",
       "LOUISENHOJ 10",
       "LOUISENHOJ 3",
@@ -40088,6 +40192,8 @@
       "NELTJEBERG 5 UP EAST",
       "NELTJEBERG MRT-1UP",
       "NELTJEBERG PUMP 12 C",
+      "NEW CASTLE COAKLEY",
+      "NEW CASTLE COAKLEY 5",
       "NEW CONTAINER 3RD PORT",
       "NEW STREET",
       "NEW STREET (UPSTRS)",
@@ -48458,8 +48564,8 @@
       "ZUERIENDENHEIT",
       "ZUFRIDENHEIT 1"
     ],
-    "totalOutages": 26
+    "totalOutages": 29
   },
   "staleAfterSeconds": 900,
-  "unassignedEventCount": 24
+  "unassignedEventCount": 27
 }
