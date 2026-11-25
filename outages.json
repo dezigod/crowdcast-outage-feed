@@ -37,6 +37,38 @@
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
+      "id": "1b352b91632f95c0b535f0d3bfe7a3b98bb19566e9ccce8b56c556e84ffc12da",
+      "island": null,
+      "locations": [
+        "CONTANT 18-7BA",
+        "CONTANT 19 7BA",
+        "CONTANT 19-7BA",
+        "CONTANT 19-7BA APT-11",
+        "CONTANT 19-7BA APT-13",
+        "CONTANT 19-7BA APT-15",
+        "CONTANT 19-7BA APT-3",
+        "CONTANT 19-7BA APT-6"
+      ],
+      "modifiedAt": "2026-11-25T04:38:29Z",
+      "name": "T-T-16115",
+      "neighborhoodIDs": [],
+      "point": {
+        "latitude": 18.34257068448662,
+        "longitude": -64.95425995669203
+      },
+      "reportedCustomersInitially": 9,
+      "reportedCustomersOut": 9,
+      "reportedCustomersRestored": 0,
+      "sourceStatus": "Predicted",
+      "startedAt": "2026-11-25T04:38:09Z",
+      "verified": false,
+      "workStatus": null
+    },
+    {
+      "cause": null,
+      "crewAssigned": false,
+      "endedAt": null,
+      "estimatedRestoration": null,
       "id": "33a3d2f2a7010e14be4bfe5e5644e69747015f977655363b758a8fa000b5dd11",
       "island": null,
       "locations": [
@@ -4077,7 +4109,7 @@
       "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-25T04:36:22Z",
+  "generatedAt": "2026-11-25T04:41:25Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -4670,21 +4702,21 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "9b7d2da04b744dc3a214bf231e4bf6e8ac663cef858ee3a26f248101a592c4db",
+  "snapshotID": "8206a3a20bd4dadd727335b956ab23ba04c75841680fde43e4e11255fcf7dbf9",
   "source": {
-    "checkedAt": "2026-11-25T04:36:22Z",
+    "checkedAt": "2026-11-25T04:41:25Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-25T04:36:02Z",
+    "updatedAt": "2026-11-25T04:41:02Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "sourceSummary": {
     "customerCountDifference": 2,
-    "customersAffected": 4931,
-    "customersOut": 4931,
+    "customersAffected": 4940,
+    "customersOut": 4940,
     "customersRestored": 0,
     "customersServed": 54729,
-    "eventCustomersOut": 4929,
+    "eventCustomersOut": 4938,
     "hourlyCustomersOut": [
       {
         "at": "2026-11-23T04:00:00Z",
@@ -4880,7 +4912,7 @@
       },
       {
         "at": "2026-11-25T04:00:00Z",
-        "customersOut": 7203
+        "customersOut": 7212
       }
     ],
     "locations": [
@@ -5698,6 +5730,14 @@
       "COMMANDANT GADE SCH",
       "COMMANDANT TVER GADE",
       "CONTANT (EL)",
+      "CONTANT 18-7BA",
+      "CONTANT 19 7BA",
+      "CONTANT 19-7BA",
+      "CONTANT 19-7BA APT-11",
+      "CONTANT 19-7BA APT-13",
+      "CONTANT 19-7BA APT-15",
+      "CONTANT 19-7BA APT-3",
+      "CONTANT 19-7BA APT-6",
       "CONTANT 3 AD",
       "CONTANT 3 AD APT-A",
       "CONTANT 3A",
@@ -8522,8 +8562,8 @@
       "ZOOTENVAAL 3L",
       "ZOOTENVAAL 3N*"
     ],
-    "totalOutages": 17
+    "totalOutages": 18
   },
   "staleAfterSeconds": 900,
-  "unassignedEventCount": 14
+  "unassignedEventCount": 15
 }
