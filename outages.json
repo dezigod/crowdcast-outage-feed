@@ -191,6 +191,49 @@
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
+      "id": "2cf2a17b11e415ee602af221a4712359b1eafd369ada7a6b02aaff3c36fe8d56",
+      "island": null,
+      "locations": [
+        "BARREN RIDGE",
+        "BARREN SPOT 377",
+        "BARREN SPOT 378",
+        "BARREN SPOT 379",
+        "BARREN SPOT 379 APT-B",
+        "BARREN SPOT 380",
+        "BARREN SPOT 381",
+        "BARREN SPOT 387 A",
+        "BARREN SPOT 396",
+        "BARREN SPOT 397",
+        "BARREN SPOT 403",
+        "BARREN SPOT 405",
+        "BARREN SPOT 406",
+        "BARREN SPOT 407",
+        "BARREN SPOT 408",
+        "BARREN SPOT 410",
+        "BARREN SPOT 459 (EL)",
+        "BARREN SPOT 463",
+        "BARRON RIDGE 400"
+      ],
+      "modifiedAt": "2026-11-25T10:37:37Z",
+      "name": "T-C-06102",
+      "neighborhoodIDs": [],
+      "point": {
+        "latitude": 17.721920449558027,
+        "longitude": -64.770284592758
+      },
+      "reportedCustomersInitially": 20,
+      "reportedCustomersOut": 20,
+      "reportedCustomersRestored": 0,
+      "sourceStatus": "Predicted",
+      "startedAt": "2026-11-25T10:36:56Z",
+      "verified": false,
+      "workStatus": null
+    },
+    {
+      "cause": null,
+      "crewAssigned": false,
+      "endedAt": null,
+      "estimatedRestoration": null,
       "id": "33a3d2f2a7010e14be4bfe5e5644e69747015f977655363b758a8fa000b5dd11",
       "island": null,
       "locations": [
@@ -5154,7 +5197,7 @@
       "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-25T10:36:34Z",
+  "generatedAt": "2026-11-25T10:41:36Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -5760,21 +5803,21 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "ae67028e3e1fd8c4f98e1ea26cd61023c6e6ca68d1bfe495f34dea4f8b15e372",
+  "snapshotID": "30c1bfb25aa8ae9849b0f7e3798dbfaee0263c53ef958fc63fa177eb065c0a63",
   "source": {
-    "checkedAt": "2026-11-25T10:36:34Z",
+    "checkedAt": "2026-11-25T10:41:36Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-25T10:36:03Z",
+    "updatedAt": "2026-11-25T10:41:07Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "sourceSummary": {
     "customerCountDifference": 2,
-    "customersAffected": 5707,
-    "customersOut": 5707,
+    "customersAffected": 5727,
+    "customersOut": 5727,
     "customersRestored": 0,
     "customersServed": 54729,
-    "eventCustomersOut": 5705,
+    "eventCustomersOut": 5725,
     "hourlyCustomersOut": [
       {
         "at": "2026-11-23T10:00:00Z",
@@ -5970,7 +6013,7 @@
       },
       {
         "at": "2026-11-25T10:00:00Z",
-        "customersOut": 5705
+        "customersOut": 5725
       }
     ],
     "locations": [
@@ -6442,6 +6485,25 @@
       "BAKKERRO 1-61 UP",
       "BAND STAND EMANCIPATION",
       "BARBEL PLAZA",
+      "BARREN RIDGE",
+      "BARREN SPOT 377",
+      "BARREN SPOT 378",
+      "BARREN SPOT 379",
+      "BARREN SPOT 379 APT-B",
+      "BARREN SPOT 380",
+      "BARREN SPOT 381",
+      "BARREN SPOT 387 A",
+      "BARREN SPOT 396",
+      "BARREN SPOT 397",
+      "BARREN SPOT 403",
+      "BARREN SPOT 405",
+      "BARREN SPOT 406",
+      "BARREN SPOT 407",
+      "BARREN SPOT 408",
+      "BARREN SPOT 410",
+      "BARREN SPOT 459 (EL)",
+      "BARREN SPOT 463",
+      "BARRON RIDGE 400",
       "BAY A SHOP BUILDING V",
       "BELLEVIEW 7",
       "BELLEVUE",
@@ -10195,8 +10257,8 @@
       "ZOOTENVAAL 3L",
       "ZOOTENVAAL 3N*"
     ],
-    "totalOutages": 37
+    "totalOutages": 38
   },
   "staleAfterSeconds": 900,
-  "unassignedEventCount": 33
+  "unassignedEventCount": 34
 }
