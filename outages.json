@@ -2413,6 +2413,38 @@
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
+      "id": "ccec106de7887785853b301aae74950f2a02eada22278982235a3ec976553a35",
+      "island": null,
+      "locations": [
+        "CONTANT TOWERS BLDG-A",
+        "EST FRYDENHOJ 12F",
+        "FRYDENHOJ 12-A-2",
+        "FRYDENHOJ 12-B & 12-C",
+        "FRYDENHOJ 12-B & 12-C TOP",
+        "FRYDENHOJ 12-D TOP FL",
+        "FRYDENHOJ 12J",
+        "FRYDENHOJ 12Q UP"
+      ],
+      "modifiedAt": "2026-11-26T15:38:27Z",
+      "name": "T-T-10083",
+      "neighborhoodIDs": [],
+      "point": {
+        "latitude": 18.320518105056628,
+        "longitude": -64.86838248230299
+      },
+      "reportedCustomersInitially": 8,
+      "reportedCustomersOut": 8,
+      "reportedCustomersRestored": 0,
+      "sourceStatus": "Predicted",
+      "startedAt": "2026-11-26T15:38:17Z",
+      "verified": false,
+      "workStatus": null
+    },
+    {
+      "cause": null,
+      "crewAssigned": false,
+      "endedAt": null,
+      "estimatedRestoration": null,
       "id": "d1c7a463c58b5666f07d35d2ae44e909383ceea27d22deeb7cdda7fbe63eb2e9",
       "island": null,
       "locations": [
@@ -2464,32 +2496,6 @@
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
-      "id": "d60501d1f50be56fcc6825a76c68bb7e58bca3498b112cebafc7429dfc8712d9",
-      "island": null,
-      "locations": [
-        "CAROLINA 10-30C-1A",
-        "CAROLINA 10-30C-5"
-      ],
-      "modifiedAt": "2026-11-26T14:40:46Z",
-      "name": "T-J-03914",
-      "neighborhoodIDs": [],
-      "point": {
-        "latitude": 18.33884437569973,
-        "longitude": -64.71838654311689
-      },
-      "reportedCustomersInitially": 2,
-      "reportedCustomersOut": 2,
-      "reportedCustomersRestored": 0,
-      "sourceStatus": "Predicted",
-      "startedAt": "2026-11-26T14:40:32Z",
-      "verified": false,
-      "workStatus": null
-    },
-    {
-      "cause": null,
-      "crewAssigned": false,
-      "endedAt": null,
-      "estimatedRestoration": null,
       "id": "defd454f9a5e121effee0de0906eaf7c14388a6da2577bbe9924ae955765c1c2",
       "island": null,
       "locations": [
@@ -2515,7 +2521,7 @@
       "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-26T15:40:39Z",
+  "generatedAt": "2026-11-26T15:45:41Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -2617,21 +2623,21 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "bd56ad7af7b718bc1e65be4c02124cad4762c19ee3f753d29a38a5040d4ab96a",
+  "snapshotID": "ee8b2e8d61d6b2f8972106e41ab80bea5678413b362201cd4cd5fd266a570a73",
   "source": {
-    "checkedAt": "2026-11-26T15:40:39Z",
+    "checkedAt": "2026-11-26T15:45:41Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-26T15:36:07Z",
+    "updatedAt": "2026-11-26T15:41:09Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "sourceSummary": {
     "customerCountDifference": 2,
-    "customersAffected": 2424,
-    "customersOut": 2424,
+    "customersAffected": 2430,
+    "customersOut": 2430,
     "customersRestored": 0,
     "customersServed": 54729,
-    "eventCustomersOut": 2422,
+    "eventCustomersOut": 2428,
     "hourlyCustomersOut": [
       {
         "at": "2026-11-24T15:00:00Z",
@@ -2823,11 +2829,11 @@
       },
       {
         "at": "2026-11-26T14:00:00Z",
-        "customersOut": 4867
+        "customersOut": 4865
       },
       {
         "at": "2026-11-26T15:00:00Z",
-        "customersOut": 2422
+        "customersOut": 2428
       }
     ],
     "locations": [
@@ -3438,8 +3444,6 @@
       "CAROLINA 10-28-9",
       "CAROLINA 10-29-3",
       "CAROLINA 10-3",
-      "CAROLINA 10-30C-1A",
-      "CAROLINA 10-30C-5",
       "CAROLINA 10-39*",
       "CAROLINA 10-40 (1)",
       "CAROLINA 10-40 (2)",
@@ -3681,6 +3685,7 @@
       "CONTANT ENIGHED",
       "CONTANT ENIGHED 191 & 192",
       "CONTANT ENIGHED 235",
+      "CONTANT TOWERS BLDG-A",
       "CONTANT&ENIGHED 109 MTR 2",
       "CONTANT/ENIGHED 232",
       "CONTANT/ENIGHED 232 (1-1)",
@@ -4016,6 +4021,7 @@
       "EST FRENCHMANS BAY 14-38",
       "EST FRENCHMAN'S BAY 16-58",
       "EST FRENCHMANS BAY 21-43",
+      "EST FRYDENHOJ 12F",
       "EST HAVENSIGHT",
       "EST HAVENSIGHT 17A",
       "EST HAVENSIGHT 17B",
@@ -4548,6 +4554,12 @@
       "FRENMANS BAY HOUSE",
       "FRIIS 5C-2",
       "FRIIS ST JOHN",
+      "FRYDENHOJ 12-A-2",
+      "FRYDENHOJ 12-B & 12-C",
+      "FRYDENHOJ 12-B & 12-C TOP",
+      "FRYDENHOJ 12-D TOP FL",
+      "FRYDENHOJ 12J",
+      "FRYDENHOJ 12Q UP",
       "GADE 24 2ND FL B-24&B-25",
       "GREAT S E QRTS",
       "HANSEN BAY \"\"B\"\"",
