@@ -37,34 +37,6 @@
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
-      "id": "19396a4cc881b07dc34f5ac0ac16bbac2641f5245ca5d93341c262eb439e0750",
-      "island": null,
-      "locations": [
-        "HARBORVIEW APTS B-21",
-        "HARBORVIEW APTS B-22",
-        "HARBORVIEW APTS B-5",
-        "HARBORVIEW APTS B-6"
-      ],
-      "modifiedAt": "2026-11-26T15:55:16Z",
-      "name": "T-C-05812",
-      "neighborhoodIDs": [],
-      "point": {
-        "latitude": 17.752092680369365,
-        "longitude": -64.72282772832475
-      },
-      "reportedCustomersInitially": 63,
-      "reportedCustomersOut": 63,
-      "reportedCustomersRestored": 0,
-      "sourceStatus": "Predicted",
-      "startedAt": "2026-11-26T15:54:40Z",
-      "verified": false,
-      "workStatus": null
-    },
-    {
-      "cause": null,
-      "crewAssigned": false,
-      "endedAt": null,
-      "estimatedRestoration": null,
       "id": "284ffa34d6db2b07e218d17a3183973e1fdd84fdc626e4c7d3d839e810a4ee5b",
       "island": null,
       "locations": [
@@ -4119,7 +4091,7 @@
       "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-26T17:46:19Z",
+  "generatedAt": "2026-11-26T17:51:21Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -4864,21 +4836,21 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "7e960cf87577164380d53d818b4f8a7324bf7691ec7568bac64bb3e5134d9bca",
+  "snapshotID": "d1a47bddeb456654ac63b98652b3eb53ea76cdd2ce157f4f535a16bca1622c3c",
   "source": {
-    "checkedAt": "2026-11-26T17:46:19Z",
+    "checkedAt": "2026-11-26T17:51:21Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-26T17:46:07Z",
+    "updatedAt": "2026-11-26T17:51:07Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "sourceSummary": {
     "customerCountDifference": 2,
-    "customersAffected": 4461,
-    "customersOut": 4461,
+    "customersAffected": 4398,
+    "customersOut": 4398,
     "customersRestored": 0,
     "customersServed": 54729,
-    "eventCustomersOut": 4459,
+    "eventCustomersOut": 4396,
     "hourlyCustomersOut": [
       {
         "at": "2026-11-24T17:00:00Z",
@@ -5066,15 +5038,15 @@
       },
       {
         "at": "2026-11-26T15:00:00Z",
-        "customersOut": 2480
+        "customersOut": 2417
       },
       {
         "at": "2026-11-26T16:00:00Z",
-        "customersOut": 6813
+        "customersOut": 6750
       },
       {
         "at": "2026-11-26T17:00:00Z",
-        "customersOut": 4459
+        "customersOut": 4396
       }
     ],
     "locations": [
@@ -7430,10 +7402,6 @@
       "GRUNWALD 5C APT 2",
       "GRUNWALD APT.#4",
       "GRUNWALD EST 1-1-21",
-      "HARBORVIEW APTS B-21",
-      "HARBORVIEW APTS B-22",
-      "HARBORVIEW APTS B-5",
-      "HARBORVIEW APTS B-6",
       "HP & R PARKING LOT",
       "KC BETHANY 5",
       "LERKENLUND 1-2",
@@ -8774,8 +8742,8 @@
       "WEST COND SAPP B-A",
       "WEST SAPPHIRE BAY CONDO"
     ],
-    "totalOutages": 17
+    "totalOutages": 16
   },
   "staleAfterSeconds": 900,
-  "unassignedEventCount": 14
+  "unassignedEventCount": 13
 }
