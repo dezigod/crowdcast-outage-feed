@@ -6259,44 +6259,9 @@
       "startedAt": "2026-11-25T16:25:53Z",
       "verified": true,
       "workStatus": null
-    },
-    {
-      "cause": null,
-      "crewAssigned": false,
-      "endedAt": null,
-      "estimatedRestoration": null,
-      "id": "ee4498014a7a06d998b73895c9802ff7ceac71ef1b5d62149890b83279718960",
-      "island": "stThomas",
-      "locations": [
-        "SMITH BAY",
-        "SMITH BAY 18-21 A-1",
-        "SMITH BAY 18-23",
-        "SMITH BAY 18-23 1-B",
-        "SMITH BAY 18-23 HSE/PUMP",
-        "SMITH BAY 18-23 U-1A",
-        "SMITH BAY 18-23 U-2-A",
-        "SMITH BAY 18-3",
-        "SMITH BAY 18-4"
-      ],
-      "modifiedAt": "2026-11-26T19:01:03Z",
-      "name": "T-T-08232",
-      "neighborhoodIDs": [
-        "stThomas-smith-bay"
-      ],
-      "point": {
-        "latitude": 18.327998047483206,
-        "longitude": -64.85162531011511
-      },
-      "reportedCustomersInitially": 9,
-      "reportedCustomersOut": 9,
-      "reportedCustomersRestored": 0,
-      "sourceStatus": "Verified",
-      "startedAt": "2026-11-26T16:11:13Z",
-      "verified": true,
-      "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-26T19:05:45Z",
+  "generatedAt": "2026-11-26T19:10:48Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -6817,23 +6782,14 @@
           "id": "stThomas-smith-bay",
           "island": "stThomas",
           "locations": [
-            "18-21 A-1",
-            "18-23",
-            "18-23 1-B",
-            "18-23 HSE/PUMP",
-            "18-23 U-1A",
-            "18-23 U-2-A",
-            "18-3",
-            "18-4",
             "19-1-2-6"
           ],
           "name": "Smith Bay",
           "sourceEventIDs": [
-            "c33b3c473d613e2e2bf120edd72239a0bbae14edce8d6cee72b37e8739871231",
-            "ee4498014a7a06d998b73895c9802ff7ceac71ef1b5d62149890b83279718960"
+            "c33b3c473d613e2e2bf120edd72239a0bbae14edce8d6cee72b37e8739871231"
           ],
           "sourceStatus": "Verified",
-          "startedAt": null
+          "startedAt": "2026-11-26T18:00:49Z"
         },
         {
           "affectedCustomers": null,
@@ -7321,21 +7277,21 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "eba82fc5d3969790ffd6ae0bbe6cb4fbcaf22a0b4aee04afa958bba097ece63a",
+  "snapshotID": "0bf817eb1e0a837d75fd57c8e0affa1cb44714ecec396d8804fe755f84b91e56",
   "source": {
-    "checkedAt": "2026-11-26T19:05:45Z",
+    "checkedAt": "2026-11-26T19:10:48Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-26T19:01:09Z",
+    "updatedAt": "2026-11-26T19:06:08Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "sourceSummary": {
     "customerCountDifference": 2,
-    "customersAffected": 7855,
-    "customersOut": 7855,
+    "customersAffected": 7846,
+    "customersOut": 7846,
     "customersRestored": 0,
     "customersServed": 54729,
-    "eventCustomersOut": 7853,
+    "eventCustomersOut": 7844,
     "hourlyCustomersOut": [
       {
         "at": "2026-11-24T19:00:00Z",
@@ -7519,19 +7475,19 @@
       },
       {
         "at": "2026-11-26T16:00:00Z",
-        "customersOut": 6746
+        "customersOut": 6737
       },
       {
         "at": "2026-11-26T17:00:00Z",
-        "customersOut": 4392
+        "customersOut": 4383
       },
       {
         "at": "2026-11-26T18:00:00Z",
-        "customersOut": 12173
+        "customersOut": 12164
       },
       {
         "at": "2026-11-26T19:00:00Z",
-        "customersOut": 7853
+        "customersOut": 7844
       }
     ],
     "locations": [
@@ -12297,15 +12253,6 @@
       "SCOTT FREE PCL 6",
       "SCOTT FREE UP",
       "SILVER SHOP)",
-      "SMITH BAY",
-      "SMITH BAY 18-21 A-1",
-      "SMITH BAY 18-23",
-      "SMITH BAY 18-23 1-B",
-      "SMITH BAY 18-23 HSE/PUMP",
-      "SMITH BAY 18-23 U-1A",
-      "SMITH BAY 18-23 U-2-A",
-      "SMITH BAY 18-3",
-      "SMITH BAY 18-4",
       "SMITH BAY 19-1-2-6",
       "SOLBERG",
       "SOLBERG #19-0",
@@ -13425,7 +13372,7 @@
       "ZUERIENDENHEIT",
       "ZUFRIDENHEIT 1"
     ],
-    "totalOutages": 16
+    "totalOutages": 15
   },
   "staleAfterSeconds": 900,
   "unassignedEventCount": 13
