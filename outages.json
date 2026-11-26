@@ -6265,34 +6265,6 @@
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
-      "id": "e5572a32a66e79d228d9ea3c134a580c9c5059f0ae050c54eebc5e93fde10843",
-      "island": null,
-      "locations": [
-        "C-IF EST COKIE POINT",
-        "COKI POINT C-1A",
-        "COKI POINT C1-C",
-        "COKI POINT C-1F DOWN"
-      ],
-      "modifiedAt": "2026-11-26T16:15:35Z",
-      "name": "T-T-07927",
-      "neighborhoodIDs": [],
-      "point": {
-        "latitude": 18.349281734945112,
-        "longitude": -64.86340460963713
-      },
-      "reportedCustomersInitially": 4,
-      "reportedCustomersOut": 4,
-      "reportedCustomersRestored": 0,
-      "sourceStatus": "Verified",
-      "startedAt": "2026-11-26T16:13:01Z",
-      "verified": true,
-      "workStatus": null
-    },
-    {
-      "cause": null,
-      "crewAssigned": false,
-      "endedAt": null,
-      "estimatedRestoration": null,
       "id": "ee4498014a7a06d998b73895c9802ff7ceac71ef1b5d62149890b83279718960",
       "island": "stThomas",
       "locations": [
@@ -6306,7 +6278,7 @@
         "SMITH BAY 18-3",
         "SMITH BAY 18-4"
       ],
-      "modifiedAt": "2026-11-26T16:15:35Z",
+      "modifiedAt": "2026-11-26T19:01:03Z",
       "name": "T-T-08232",
       "neighborhoodIDs": [
         "stThomas-smith-bay"
@@ -6324,7 +6296,7 @@
       "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-26T19:00:44Z",
+  "generatedAt": "2026-11-26T19:05:45Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -7349,26 +7321,22 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "beaffc94b1455f04875f490032838b5e42c9a2299b93645928f3f5fdbce1459b",
+  "snapshotID": "eba82fc5d3969790ffd6ae0bbe6cb4fbcaf22a0b4aee04afa958bba097ece63a",
   "source": {
-    "checkedAt": "2026-11-26T19:00:44Z",
+    "checkedAt": "2026-11-26T19:05:45Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-26T18:56:08Z",
+    "updatedAt": "2026-11-26T19:01:09Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "sourceSummary": {
     "customerCountDifference": 2,
-    "customersAffected": 7859,
-    "customersOut": 7859,
+    "customersAffected": 7855,
+    "customersOut": 7855,
     "customersRestored": 0,
     "customersServed": 54729,
-    "eventCustomersOut": 7857,
+    "eventCustomersOut": 7853,
     "hourlyCustomersOut": [
-      {
-        "at": "2026-11-24T18:00:00Z",
-        "customersOut": 18451
-      },
       {
         "at": "2026-11-24T19:00:00Z",
         "customersOut": 20666
@@ -7551,15 +7519,19 @@
       },
       {
         "at": "2026-11-26T16:00:00Z",
-        "customersOut": 6750
+        "customersOut": 6746
       },
       {
         "at": "2026-11-26T17:00:00Z",
-        "customersOut": 4396
+        "customersOut": 4392
       },
       {
         "at": "2026-11-26T18:00:00Z",
-        "customersOut": 12177
+        "customersOut": 12173
+      },
+      {
+        "at": "2026-11-26T19:00:00Z",
+        "customersOut": 7853
       }
     ],
     "locations": [
@@ -8790,10 +8762,6 @@
       "CHARLOTTE AMALIE 5A",
       "CHARLOTTE AMALIE 5C",
       "CHARLOTTE AMALIE PCL 5B",
-      "C-IF EST COKIE POINT",
-      "COKI POINT C-1A",
-      "COKI POINT C1-C",
-      "COKI POINT C-1F DOWN",
       "COMMANDANT GADE 12",
       "CONTANT",
       "CONTANT #23-3D APT. 1",
@@ -13457,8 +13425,8 @@
       "ZUERIENDENHEIT",
       "ZUFRIDENHEIT 1"
     ],
-    "totalOutages": 17
+    "totalOutages": 16
   },
   "staleAfterSeconds": 900,
-  "unassignedEventCount": 14
+  "unassignedEventCount": 13
 }
