@@ -6,6 +6,38 @@
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
+      "id": "02ef34a5951bb9125754fe8f9fc858d00ee3e930567cc78599c1822da12020fd",
+      "island": null,
+      "locations": [
+        "EST THOMAS 39 1ST AVE",
+        "EST THOMAS 41",
+        "PMP GARDEN B-1LDG5",
+        "PMP GARDEN BLDG 15",
+        "PMP GARDEN BLDG-14",
+        "PMP GARDEN BLDG-15"
+      ],
+      "modifiedAt": "2026-11-26T00:31:15Z",
+      "name": "T-T-16450",
+      "neighborhoodIDs": [
+        "stCroix-pump-garden"
+      ],
+      "point": {
+        "latitude": 18.33752457346936,
+        "longitude": -64.91803300777434
+      },
+      "reportedCustomersInitially": 19,
+      "reportedCustomersOut": 19,
+      "reportedCustomersRestored": 0,
+      "sourceStatus": "Predicted",
+      "startedAt": "2026-11-26T00:30:43Z",
+      "verified": false,
+      "workStatus": null
+    },
+    {
+      "cause": null,
+      "crewAssigned": false,
+      "endedAt": null,
+      "estimatedRestoration": null,
       "id": "114334c01aa87b660788dbcd897dba52abaccf25d73a80313b285103c5d75502",
       "island": null,
       "locations": [
@@ -30,6 +62,79 @@
       "sourceStatus": "Verified",
       "startedAt": "2026-11-18T01:41:31Z",
       "verified": true,
+      "workStatus": null
+    },
+    {
+      "cause": null,
+      "crewAssigned": false,
+      "endedAt": null,
+      "estimatedRestoration": null,
+      "id": "1a7ffb474ad7ba8e360397286935915c039ecd65b44ec78641a12d02414479e1",
+      "island": null,
+      "locations": [
+        "EST. MANDAHL 15H",
+        "MANDAHL 14C",
+        "MANDAHL 15 J",
+        "MANDAHL 15D",
+        "MANDAHL 15-D"
+      ],
+      "modifiedAt": "2026-11-26T00:34:58Z",
+      "name": "T-T-10148",
+      "neighborhoodIDs": [],
+      "point": {
+        "latitude": 18.352809414648092,
+        "longitude": -64.8982389981604
+      },
+      "reportedCustomersInitially": 5,
+      "reportedCustomersOut": 5,
+      "reportedCustomersRestored": 0,
+      "sourceStatus": "Predicted",
+      "startedAt": "2026-11-26T00:34:45Z",
+      "verified": false,
+      "workStatus": null
+    },
+    {
+      "cause": null,
+      "crewAssigned": false,
+      "endedAt": null,
+      "estimatedRestoration": null,
+      "id": "1dd6dbcc3c83c64feb553002cccb034f26a556e9867975631aaa3ea397370a9a",
+      "island": null,
+      "locations": [
+        "3R AGNES FANCY",
+        "AGNES FANCY",
+        "AGNES FANCY 3B-1",
+        "AGNES FANCY 3C",
+        "AGNES FANCY 3D-1",
+        "AGNES FANCY 3F MTR-1",
+        "AGNES FANCY 3K",
+        "AGNES FANCY 3K-1",
+        "AGNES FANCY 3L",
+        "AGNES FANCY 3-N",
+        "AGNES FANCY 3Q",
+        "AGNES FANCY 3S",
+        "AGNES FANCY 5D",
+        "AGNES FANCY 5D DWELLING",
+        "AGNES FANCY 5D DWN",
+        "AGNES FANCY 5E",
+        "AGNES FANCY 5-E",
+        "EST AGNES FANCY 5H"
+      ],
+      "modifiedAt": "2026-11-26T00:31:34Z",
+      "name": "T-T-04226",
+      "neighborhoodIDs": [
+        "stThomas-agnes-fancy"
+      ],
+      "point": {
+        "latitude": 18.349069598570136,
+        "longitude": -64.9351704926616
+      },
+      "reportedCustomersInitially": 19,
+      "reportedCustomersOut": 19,
+      "reportedCustomersRestored": 0,
+      "sourceStatus": "Predicted",
+      "startedAt": "2026-11-26T00:30:57Z",
+      "verified": false,
       "workStatus": null
     },
     {
@@ -5304,6 +5409,36 @@
       "sourceStatus": "Verified",
       "startedAt": "2026-11-20T18:41:51Z",
       "verified": true,
+      "workStatus": null
+    },
+    {
+      "cause": null,
+      "crewAssigned": false,
+      "endedAt": null,
+      "estimatedRestoration": null,
+      "id": "42e539c743d04fc3cbd23841212335d2f166f647ecbe8ce8641a28890da0b181",
+      "island": "stThomas",
+      "locations": [
+        "EST WINTBERG",
+        "WINTBERG 339",
+        "WINTBERG 339 COTTAGE \"\"A\"\"",
+        "WINTBERG 340"
+      ],
+      "modifiedAt": "2026-11-26T00:31:15Z",
+      "name": "T-T-11284",
+      "neighborhoodIDs": [
+        "stThomas-wintberg"
+      ],
+      "point": {
+        "latitude": 18.35060459405134,
+        "longitude": -64.90370491068215
+      },
+      "reportedCustomersInitially": 6,
+      "reportedCustomersOut": 6,
+      "reportedCustomersRestored": 0,
+      "sourceStatus": "Predicted",
+      "startedAt": "2026-11-26T00:30:58Z",
+      "verified": false,
       "workStatus": null
     },
     {
@@ -10696,6 +10831,43 @@
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
+      "id": "9e3e8fbd18fc6b8d4d0820aa7b02175f8d7de81b99ca4410626306be292a2c8e",
+      "island": null,
+      "locations": [
+        "NADIR 20-1",
+        "WINTBERG 1-124",
+        "WINTBERG 1-127",
+        "WINTBERG 1-128",
+        "WINTBERG 1-129",
+        "WINTBERG 1-130",
+        "WINTBERG 1-130 MTR 2",
+        "WINTBERG 1-132",
+        "WINTBERG 1-132 DWN",
+        "WINTBERG 1-133",
+        "WINTBERG 1-133 MRT-2"
+      ],
+      "modifiedAt": "2026-11-26T00:33:21Z",
+      "name": "T-T-08879",
+      "neighborhoodIDs": [
+        "stThomas-wintberg"
+      ],
+      "point": {
+        "latitude": 18.354043391575253,
+        "longitude": -64.90679886836153
+      },
+      "reportedCustomersInitially": 14,
+      "reportedCustomersOut": 14,
+      "reportedCustomersRestored": 0,
+      "sourceStatus": "Predicted",
+      "startedAt": "2026-11-26T00:32:52Z",
+      "verified": false,
+      "workStatus": null
+    },
+    {
+      "cause": null,
+      "crewAssigned": false,
+      "endedAt": null,
+      "estimatedRestoration": null,
       "id": "a7622fe5ec3f7460243d64545ddffb42dc3c534b3876e2c938737688abde9c58",
       "island": "stThomas",
       "locations": [
@@ -10838,6 +11010,45 @@
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
+      "id": "de8c347f69740cda5bfc09bf98d21d5b255810669fd00a8713eb02e74270cffb",
+      "island": null,
+      "locations": [
+        "LOVELUND 3-4 BLD 12",
+        "LOVENLUND 3-4 B-12 A-1232",
+        "LOVENLUND 3-4 BLD 12",
+        "LOVENLUND 3-4 BLDG-12",
+        "LOVENLUND B-12",
+        "LOVENLUND B-12 APT 1211",
+        "LOVENLUND B-12 APT 1212",
+        "LOVENLUND B-12 APT 1213",
+        "LOVENLUND B-12 APT 1221",
+        "LOVENLUND B-12 APT 1222",
+        "LOVENLUND B-12 APT 1224",
+        "LOVENLUND B-12 APT 1234",
+        "LOVENLUND BLDG 12"
+      ],
+      "modifiedAt": "2026-11-26T00:31:50Z",
+      "name": "T-T-17094",
+      "neighborhoodIDs": [
+        "stThomas-lovenlund"
+      ],
+      "point": {
+        "latitude": 18.36069582323325,
+        "longitude": -64.91562176612281
+      },
+      "reportedCustomersInitially": 13,
+      "reportedCustomersOut": 13,
+      "reportedCustomersRestored": 0,
+      "sourceStatus": "Predicted",
+      "startedAt": "2026-11-26T00:31:37Z",
+      "verified": false,
+      "workStatus": null
+    },
+    {
+      "cause": null,
+      "crewAssigned": false,
+      "endedAt": null,
+      "estimatedRestoration": null,
       "id": "defd454f9a5e121effee0de0906eaf7c14388a6da2577bbe9924ae955765c1c2",
       "island": null,
       "locations": [
@@ -10859,6 +11070,43 @@
       "reportedCustomersRestored": 0,
       "sourceStatus": "Predicted",
       "startedAt": "2026-11-25T16:25:53Z",
+      "verified": false,
+      "workStatus": null
+    },
+    {
+      "cause": null,
+      "crewAssigned": false,
+      "endedAt": null,
+      "estimatedRestoration": null,
+      "id": "e0d7bf78b183b6b64ad6a844627aaae782af9bab1c950a0cb8f50f47a7d7bb04",
+      "island": null,
+      "locations": [
+        "MAHOGANY RUN 17M MTR 4",
+        "MAHOGANY RUN 17U A-386",
+        "MAHOGANY RUN 19U",
+        "MAHOGANY RUN B-17 A-389",
+        "MAHOGANY RUN B18",
+        "MAHOGANY RUN COND 20",
+        "MAHOGANY RUN COND0 B-19",
+        "MAHOGANY RUN CONDO 20W",
+        "MAHOGANY RUN CONDO B-10",
+        "MAHOGANY RUN CONDO B-18",
+        "MAHOGANY RUN CONDO B-19",
+        "MAHOGANY RUN CONDO B-20",
+        "MAHOGONY RUN CONDO 20L"
+      ],
+      "modifiedAt": "2026-11-26T00:31:50Z",
+      "name": "T-T-17270",
+      "neighborhoodIDs": [],
+      "point": {
+        "latitude": 18.363170241078116,
+        "longitude": -64.90518530625968
+      },
+      "reportedCustomersInitially": 15,
+      "reportedCustomersOut": 15,
+      "reportedCustomersRestored": 0,
+      "sourceStatus": "Predicted",
+      "startedAt": "2026-11-26T00:31:23Z",
       "verified": false,
       "workStatus": null
     },
@@ -10924,7 +11172,7 @@
       "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-26T00:35:36Z",
+  "generatedAt": "2026-11-26T00:40:38Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -10956,14 +11204,28 @@
             "16 MAIN",
             "18",
             "21",
+            "3-N",
+            "3B-1",
+            "3C",
+            "3D-1",
+            "3F MTR-1",
+            "3K",
+            "3K-1",
+            "3L",
+            "3Q",
+            "3S",
             "42",
             "43",
             "45B",
             "49A",
             "49B",
             "5-A",
+            "5-E",
             "52",
             "5B",
+            "5D",
+            "5D DWELLING",
+            "5E",
             "5F",
             "65-128",
             "65-128 MTR-1",
@@ -10979,6 +11241,7 @@
           ],
           "name": "Agnes Fancy",
           "sourceEventIDs": [
+            "1dd6dbcc3c83c64feb553002cccb034f26a556e9867975631aaa3ea397370a9a",
             "6011943f0b2699b964370b9ba2e3ed2f76e332e1a5785158f219b563d5ac4b7d",
             "688d24f7b6e72cb60f9dd7cfcfc315b9ee0efe7095b9fbf192b7ed84c8031d54"
           ],
@@ -11228,15 +11491,28 @@
           "id": "stThomas-lovenlund",
           "island": "stThomas",
           "locations": [
+            "3-4 B-12 A-1232",
+            "3-4 BLD 12",
+            "3-4 BLDG-12",
+            "B-12",
+            "B-12 APT 1211",
+            "B-12 APT 1212",
+            "B-12 APT 1213",
+            "B-12 APT 1221",
+            "B-12 APT 1222",
+            "B-12 APT 1224",
+            "B-12 APT 1234",
+            "Building 12",
             "EST FARMHOUSE",
             "PCL D-12 L/41"
           ],
           "name": "Lovenlund",
           "sourceEventIDs": [
             "279e733ee0f202bae1526a3cdd64388586314d7500d7b0571b38424d9062aa60",
-            "a7622fe5ec3f7460243d64545ddffb42dc3c534b3876e2c938737688abde9c58"
+            "a7622fe5ec3f7460243d64545ddffb42dc3c534b3876e2c938737688abde9c58",
+            "de8c347f69740cda5bfc09bf98d21d5b255810669fd00a8713eb02e74270cffb"
           ],
-          "sourceStatus": "Verified",
+          "sourceStatus": "Unconfirmed",
           "startedAt": null
         },
         {
@@ -12060,6 +12336,33 @@
           ],
           "sourceStatus": "Unconfirmed",
           "startedAt": null
+        },
+        {
+          "affectedCustomers": null,
+          "estimatedRestoration": null,
+          "id": "stThomas-wintberg",
+          "island": "stThomas",
+          "locations": [
+            "1-124",
+            "1-127",
+            "1-128",
+            "1-129",
+            "1-130",
+            "1-130 MTR 2",
+            "1-132",
+            "1-133",
+            "1-133 MRT-2",
+            "339",
+            "339 COTTAGE \"\"A\"\"",
+            "340"
+          ],
+          "name": "Wintberg",
+          "sourceEventIDs": [
+            "42e539c743d04fc3cbd23841212335d2f166f647ecbe8ce8641a28890da0b181",
+            "9e3e8fbd18fc6b8d4d0820aa7b02175f8d7de81b99ca4410626306be292a2c8e"
+          ],
+          "sourceStatus": "Predicted",
+          "startedAt": null
         }
       ]
     },
@@ -12067,7 +12370,25 @@
       "coverage": "partial",
       "customersOut": null,
       "id": "stCroix",
-      "neighborhoods": []
+      "neighborhoods": [
+        {
+          "affectedCustomers": null,
+          "estimatedRestoration": null,
+          "id": "stCroix-pump-garden",
+          "island": "stCroix",
+          "locations": [
+            "B-1LDG5",
+            "Building 14",
+            "Building 15"
+          ],
+          "name": "Pompano / Pump Garden",
+          "sourceEventIDs": [
+            "02ef34a5951bb9125754fe8f9fc858d00ee3e930567cc78599c1822da12020fd"
+          ],
+          "sourceStatus": "Predicted",
+          "startedAt": "2026-11-26T00:30:43Z"
+        }
+      ]
     },
     {
       "coverage": "partial",
@@ -12089,21 +12410,21 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "be21043254abd255ae58585b33c59c6356a3e9b32282b9dc4ba75af8f422e565",
+  "snapshotID": "2213ece479d66c8c6cce8ca83053dd538e89c712af715457a87faa74cc492c0e",
   "source": {
-    "checkedAt": "2026-11-26T00:35:36Z",
+    "checkedAt": "2026-11-26T00:40:38Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-26T00:31:09Z",
+    "updatedAt": "2026-11-26T00:36:08Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "sourceSummary": {
     "customerCountDifference": 2,
-    "customersAffected": 13210,
-    "customersOut": 13210,
+    "customersAffected": 13301,
+    "customersOut": 13301,
     "customersRestored": 0,
     "customersServed": 54729,
-    "eventCustomersOut": 13208,
+    "eventCustomersOut": 13299,
     "hourlyCustomersOut": [
       {
         "at": "2026-11-24T00:00:00Z",
@@ -12390,6 +12711,7 @@
       "3M-1A ESTATE ST PETER",
       "3M-1A ST PETER MTR 1",
       "3R -1-2 ESTATE MARIENDAHL",
+      "3R AGNES FANCY",
       "488C EST CHOCOLATE HOLE",
       "4A FRYDENDAHL",
       "4AA EST BOVONI",
@@ -12533,6 +12855,16 @@
       "AGNES FANCY 16 MAIN HSE",
       "AGNES FANCY 18",
       "AGNES FANCY 21",
+      "AGNES FANCY 3B-1",
+      "AGNES FANCY 3C",
+      "AGNES FANCY 3D-1",
+      "AGNES FANCY 3F MTR-1",
+      "AGNES FANCY 3K",
+      "AGNES FANCY 3K-1",
+      "AGNES FANCY 3L",
+      "AGNES FANCY 3-N",
+      "AGNES FANCY 3Q",
+      "AGNES FANCY 3S",
       "AGNES FANCY 42",
       "AGNES FANCY 43",
       "AGNES FANCY 45B",
@@ -12541,6 +12873,11 @@
       "AGNES FANCY 52",
       "AGNES FANCY 5-A",
       "AGNES FANCY 5B",
+      "AGNES FANCY 5D",
+      "AGNES FANCY 5D DWELLING",
+      "AGNES FANCY 5D DWN",
+      "AGNES FANCY 5E",
+      "AGNES FANCY 5-E",
       "AGNES FANCY 5F",
       "AGNES FANCY 65-128",
       "AGNES FANCY 65-128 MTR-1",
@@ -16489,6 +16826,7 @@
       "EST ADRIAN 13",
       "EST ADRIAN 3-3",
       "EST ADRIAN 5 REMAINDER",
+      "EST AGNES FANCY 5H",
       "EST ALTONA & WELGUNST",
       "EST ALTONA 200-5C-5",
       "EST ANNAS RET 394-327",
@@ -17248,6 +17586,8 @@
       "EST ST. PETER 5C-1-B",
       "EST STAABI 6",
       "EST SUSANNABERG 7B & 7C",
+      "EST THOMAS 39 1ST AVE",
+      "EST THOMAS 41",
       "EST THOMAS 5A-5B",
       "EST TUTU",
       "EST TUTU #131",
@@ -17620,6 +17960,7 @@
       "EST UPPER JOHN DUNKO 64",
       "EST UPPER JOHN DUNKOE",
       "EST WIND NAZARETH",
+      "EST WINTBERG",
       "EST ZUFRIEDENHEIT 7",
       "EST. ALTONA 212C UNIT 905",
       "EST. BETHANY 1-U-3-C",
@@ -17647,6 +17988,7 @@
       "EST. HULL BAY 5G-2 TOP FL",
       "EST. LERKENLAND 3I-1",
       "EST. LERKENLUND 6A1-A-1",
+      "EST. MANDAHL 15H",
       "EST. MARIENDAHL 2-11",
       "EST. MARIENDAHL 2B-32",
       "EST. NADIR #19AA-2 DWN.",
@@ -19549,6 +19891,19 @@
       "LOUISENHOJ 8C & 9A",
       "LOUISENHOJ 8C & 9A DWN",
       "LOUISENHOJ 9B",
+      "LOVELUND 3-4 BLD 12",
+      "LOVENLUND 3-4 B-12 A-1232",
+      "LOVENLUND 3-4 BLD 12",
+      "LOVENLUND 3-4 BLDG-12",
+      "LOVENLUND B-12",
+      "LOVENLUND B-12 APT 1211",
+      "LOVENLUND B-12 APT 1212",
+      "LOVENLUND B-12 APT 1213",
+      "LOVENLUND B-12 APT 1221",
+      "LOVENLUND B-12 APT 1222",
+      "LOVENLUND B-12 APT 1224",
+      "LOVENLUND B-12 APT 1234",
+      "LOVENLUND BLDG 12",
       "LOVENLUND EST FARMHOUSE",
       "LOVENLUND PCL D-12 L/41",
       "LOWER JOHN DUNKO 15-16-17",
@@ -19590,9 +19945,26 @@
       "MAFOLIE EST 21A DOWN",
       "MAFOLIE-ROBERT HERRICK SC",
       "MAGENHAABET DEGUNST 8",
+      "MAHOGANY RUN 17M MTR 4",
+      "MAHOGANY RUN 17U A-386",
+      "MAHOGANY RUN 19U",
+      "MAHOGANY RUN B-17 A-389",
+      "MAHOGANY RUN B18",
+      "MAHOGANY RUN COND 20",
+      "MAHOGANY RUN COND0 B-19",
+      "MAHOGANY RUN CONDO 20W",
+      "MAHOGANY RUN CONDO B-10",
+      "MAHOGANY RUN CONDO B-18",
+      "MAHOGANY RUN CONDO B-19",
+      "MAHOGANY RUN CONDO B-20",
+      "MAHOGONY RUN CONDO 20L",
       "MAMEY PEAK",
       "MANDAHL 12B",
       "MANDAHL 13B-5",
+      "MANDAHL 14C",
+      "MANDAHL 15 J",
+      "MANDAHL 15D",
+      "MANDAHL 15-D",
       "MANDAHL 5B-8",
       "MARIEDAHL 7-19",
       "MARIENDAHL",
@@ -19988,6 +20360,7 @@
       "NADIR 19A-3 A-2B",
       "NADIR 19A-3-PUMP",
       "NADIR 20",
+      "NADIR 20-1",
       "NADIR 20-1 3RD FLOOR",
       "NADIR 20-7",
       "NADIR 20-8",
@@ -20716,6 +21089,10 @@
       "PINEAPPLE VILLAGE I-2",
       "PINEAPPLE VILLAGE U3612",
       "PLOT NO SMITH BAY",
+      "PMP GARDEN B-1LDG5",
+      "PMP GARDEN BLDG 15",
+      "PMP GARDEN BLDG-14",
+      "PMP GARDEN BLDG-15",
       "POINT PLEASANT",
       "POINT PLEASANT RESORT",
       "POOL PUMP SERVICE",
@@ -22709,11 +23086,24 @@
       "WEST CARET BAY",
       "WEST COND SAPP B-A",
       "WEST SAPPHIRE BAY CONDO",
+      "WINTBERG 1-124",
+      "WINTBERG 1-127",
+      "WINTBERG 1-128",
+      "WINTBERG 1-129",
+      "WINTBERG 1-130",
+      "WINTBERG 1-130 MTR 2",
+      "WINTBERG 1-132",
+      "WINTBERG 1-132 DWN",
+      "WINTBERG 1-133",
+      "WINTBERG 1-133 MRT-2",
+      "WINTBERG 339",
+      "WINTBERG 339 COTTAGE \"\"A\"\"",
+      "WINTBERG 340",
       "ZUERIENDENHEIT",
       "ZUFRIDENHEIT 1"
     ],
-    "totalOutages": 20
+    "totalOutages": 27
   },
   "staleAfterSeconds": 900,
-  "unassignedEventCount": 18
+  "unassignedEventCount": 24
 }
