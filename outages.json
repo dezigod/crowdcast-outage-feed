@@ -79,7 +79,7 @@
         "LERKENLUND PCL 5LA MTR.A",
         "LERKENLUND PCL 5LA MTR.B"
       ],
-      "modifiedAt": "2026-11-26T04:26:01Z",
+      "modifiedAt": "2026-11-26T12:33:44Z",
       "name": "T-T-06072",
       "neighborhoodIDs": [],
       "point": {
@@ -150,35 +150,6 @@
       "sourceStatus": "Predicted",
       "startedAt": "2026-05-24T00:16:58Z",
       "verified": false,
-      "workStatus": null
-    },
-    {
-      "cause": null,
-      "crewAssigned": false,
-      "endedAt": null,
-      "estimatedRestoration": null,
-      "id": "750ebc225572f1004348c2490d8ac3f422a60b88350a2c614586c0bb77db31f0",
-      "island": null,
-      "locations": [
-        "EST. MANDAHL 15H",
-        "MANDAHL 14C",
-        "MANDAHL 15 J",
-        "MANDAHL 15D",
-        "MANDAHL 15-D"
-      ],
-      "modifiedAt": "2026-11-26T06:16:41Z",
-      "name": "T-T-10148",
-      "neighborhoodIDs": [],
-      "point": {
-        "latitude": 18.352809414648092,
-        "longitude": -64.8982389981604
-      },
-      "reportedCustomersInitially": 5,
-      "reportedCustomersOut": 5,
-      "reportedCustomersRestored": 0,
-      "sourceStatus": "Verified",
-      "startedAt": "2026-11-26T05:58:05Z",
-      "verified": true,
       "workStatus": null
     },
     {
@@ -305,78 +276,13 @@
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
-      "id": "af504358513f61fc5f3742b32b166a7d2dc0be8c7491cb1957a1efb6087b27d6",
-      "island": null,
-      "locations": [
-        "EST ST PETER 3A",
-        "ST PETER 3A-12",
-        "ST PETER 3A-18",
-        "ST PETER MT PCL 23A"
-      ],
-      "modifiedAt": "2026-11-25T20:30:38Z",
-      "name": "T-T-09387",
-      "neighborhoodIDs": [
-        "stThomas-st-peter"
-      ],
-      "point": {
-        "latitude": 18.355392320362224,
-        "longitude": -64.94684247528572
-      },
-      "reportedCustomersInitially": 4,
-      "reportedCustomersOut": 4,
-      "reportedCustomersRestored": 0,
-      "sourceStatus": "Verified",
-      "startedAt": "2026-11-23T17:52:12Z",
-      "verified": true,
-      "workStatus": null
-    },
-    {
-      "cause": null,
-      "crewAssigned": false,
-      "endedAt": null,
-      "estimatedRestoration": null,
-      "id": "ba4b5e2ab7b2e756d5ed768cc14489bd013ffe383e9982bf7b28251612f99371",
-      "island": null,
-      "locations": [
-        "EST LERKENLUND 9D-6",
-        "LERKENLUND 8-63 TOP",
-        "LERKENLUND 9D-10",
-        "LITTLE N. STAR VILL 3-I24",
-        "ST PETER 31-18 HSE METER",
-        "ST PETER 31-19 & 31-18",
-        "ST PETER 31-22 NORTH STAR",
-        "ST PETER 31-22 NORTHSTAR",
-        "ST PETER 3I-20 HIBIS LANE"
-      ],
-      "modifiedAt": "2026-11-26T04:26:01Z",
-      "name": "T-T-16676",
-      "neighborhoodIDs": [
-        "stThomas-st-peter"
-      ],
-      "point": {
-        "latitude": 18.35671960987612,
-        "longitude": -64.94569466203092
-      },
-      "reportedCustomersInitially": 12,
-      "reportedCustomersOut": 12,
-      "reportedCustomersRestored": 0,
-      "sourceStatus": "Verified",
-      "startedAt": "2026-11-26T00:20:27Z",
-      "verified": true,
-      "workStatus": null
-    },
-    {
-      "cause": null,
-      "crewAssigned": false,
-      "endedAt": null,
-      "estimatedRestoration": null,
       "id": "d1c7a463c58b5666f07d35d2ae44e909383ceea27d22deeb7cdda7fbe63eb2e9",
       "island": null,
       "locations": [
         "EST LERKENLUND 1-4",
         "EST LERKENLUND 1-4 UP"
       ],
-      "modifiedAt": "2026-11-26T11:31:24Z",
+      "modifiedAt": "2026-11-26T12:32:19Z",
       "name": "T-T-05842",
       "neighborhoodIDs": [],
       "point": {
@@ -482,70 +388,9 @@
       "startedAt": "2026-11-26T10:43:31Z",
       "verified": false,
       "workStatus": null
-    },
-    {
-      "cause": null,
-      "crewAssigned": false,
-      "endedAt": null,
-      "estimatedRestoration": null,
-      "id": "ec5bb6db45e6040e80461a0d91762d687660b7619bcead18876d73a3b365a585",
-      "island": null,
-      "locations": [
-        "EST. SMITH BAY",
-        "SMITH BAY 19-2 149-6",
-        "SMITH BAY 19-2-149-11",
-        "SMITH BAY 19-2-149-12",
-        "SMITH BAY 19-2-149-15",
-        "SMITH BAY 19-2-149-16",
-        "SMITH BAY 19-2-149-20",
-        "SMITH BAY 19-2-149-21",
-        "SMITH BAY 19-2-149-7",
-        "SMITH BAY 19-2-149-8"
-      ],
-      "modifiedAt": "2026-11-24T18:07:21Z",
-      "name": "T-T-07813",
-      "neighborhoodIDs": [
-        "stThomas-smith-bay"
-      ],
-      "point": {
-        "latitude": 18.335726960680894,
-        "longitude": -64.85914405162058
-      },
-      "reportedCustomersInitially": 10,
-      "reportedCustomersOut": 10,
-      "reportedCustomersRestored": 0,
-      "sourceStatus": "Verified",
-      "startedAt": "2026-11-23T13:00:19Z",
-      "verified": true,
-      "workStatus": null
-    },
-    {
-      "cause": null,
-      "crewAssigned": false,
-      "endedAt": null,
-      "estimatedRestoration": null,
-      "id": "ee494b568690c7f6cfc3187f11132727598787f23b61ccf3d36f4851eaeebdcd",
-      "island": null,
-      "locations": [
-        "ESTATE THOMAS 4 REM"
-      ],
-      "modifiedAt": "2026-11-26T04:25:34Z",
-      "name": "T-T-03657",
-      "neighborhoodIDs": [],
-      "point": {
-        "latitude": 18.336776789314367,
-        "longitude": -64.90901522962939
-      },
-      "reportedCustomersInitially": 1,
-      "reportedCustomersOut": 1,
-      "reportedCustomersRestored": 0,
-      "sourceStatus": "Verified",
-      "startedAt": "2026-11-26T00:29:49Z",
-      "verified": true,
-      "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-26T12:35:45Z",
+  "generatedAt": "2026-11-26T12:40:46Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -573,29 +418,6 @@
         {
           "affectedCustomers": null,
           "estimatedRestoration": null,
-          "id": "stThomas-st-peter",
-          "island": "stThomas",
-          "locations": [
-            "31-18 HSE METER",
-            "31-19 & 31-18",
-            "31-22 NORTH STAR",
-            "31-22 NORTHSTAR",
-            "3A-12",
-            "3A-18",
-            "3I-20 HIBIS LANE",
-            "MT PCL 23A"
-          ],
-          "name": "Estate St. Peter",
-          "sourceEventIDs": [
-            "af504358513f61fc5f3742b32b166a7d2dc0be8c7491cb1957a1efb6087b27d6",
-            "ba4b5e2ab7b2e756d5ed768cc14489bd013ffe383e9982bf7b28251612f99371"
-          ],
-          "sourceStatus": "Verified",
-          "startedAt": null
-        },
-        {
-          "affectedCustomers": null,
-          "estimatedRestoration": null,
           "id": "stThomas-lovenlund",
           "island": "stThomas",
           "locations": [
@@ -607,29 +429,6 @@
           ],
           "sourceStatus": "Verified",
           "startedAt": "2026-11-05T17:32:26Z"
-        },
-        {
-          "affectedCustomers": null,
-          "estimatedRestoration": null,
-          "id": "stThomas-smith-bay",
-          "island": "stThomas",
-          "locations": [
-            "19-2 149-6",
-            "19-2-149-11",
-            "19-2-149-12",
-            "19-2-149-15",
-            "19-2-149-16",
-            "19-2-149-20",
-            "19-2-149-21",
-            "19-2-149-7",
-            "19-2-149-8"
-          ],
-          "name": "Smith Bay",
-          "sourceEventIDs": [
-            "ec5bb6db45e6040e80461a0d91762d687660b7619bcead18876d73a3b365a585"
-          ],
-          "sourceStatus": "Verified",
-          "startedAt": "2026-11-23T13:00:19Z"
         },
         {
           "affectedCustomers": null,
@@ -674,217 +473,217 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "cb8113ba6114439c7d5c0783bc68b5d203be679bce79249c8c71e45a75066704",
+  "snapshotID": "a604d7550435f3cacda69add4020540217a12932717265b7ad244bd353d29ea8",
   "source": {
-    "checkedAt": "2026-11-26T12:35:45Z",
+    "checkedAt": "2026-11-26T12:40:46Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-26T12:31:05Z",
+    "updatedAt": "2026-11-26T12:36:05Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "sourceSummary": {
     "customerCountDifference": 2,
-    "customersAffected": 113,
-    "customersOut": 113,
+    "customersAffected": 81,
+    "customersOut": 81,
     "customersRestored": 0,
     "customersServed": 54729,
-    "eventCustomersOut": 111,
+    "eventCustomersOut": 79,
     "hourlyCustomersOut": [
       {
         "at": "2026-11-24T12:00:00Z",
-        "customersOut": 18761
+        "customersOut": 18747
       },
       {
         "at": "2026-11-24T13:00:00Z",
-        "customersOut": 18761
+        "customersOut": 18747
       },
       {
         "at": "2026-11-24T14:00:00Z",
-        "customersOut": 28435
+        "customersOut": 28421
       },
       {
         "at": "2026-11-24T15:00:00Z",
-        "customersOut": 18916
+        "customersOut": 18902
       },
       {
         "at": "2026-11-24T16:00:00Z",
-        "customersOut": 27927
+        "customersOut": 27913
       },
       {
         "at": "2026-11-24T17:00:00Z",
-        "customersOut": 24215
+        "customersOut": 24201
       },
       {
         "at": "2026-11-24T18:00:00Z",
-        "customersOut": 24188
+        "customersOut": 24174
       },
       {
         "at": "2026-11-24T19:00:00Z",
-        "customersOut": 20680
+        "customersOut": 20666
       },
       {
         "at": "2026-11-24T20:00:00Z",
-        "customersOut": 40084
+        "customersOut": 40070
       },
       {
         "at": "2026-11-24T21:00:00Z",
-        "customersOut": 29191
+        "customersOut": 29177
       },
       {
         "at": "2026-11-24T22:00:00Z",
-        "customersOut": 35613
+        "customersOut": 35599
       },
       {
         "at": "2026-11-24T23:00:00Z",
-        "customersOut": 28997
+        "customersOut": 28983
       },
       {
         "at": "2026-11-25T00:00:00Z",
-        "customersOut": 36217
+        "customersOut": 36203
       },
       {
         "at": "2026-11-25T01:00:00Z",
-        "customersOut": 26912
+        "customersOut": 26898
       },
       {
         "at": "2026-11-25T02:00:00Z",
-        "customersOut": 32449
+        "customersOut": 32435
       },
       {
         "at": "2026-11-25T03:00:00Z",
-        "customersOut": 22677
+        "customersOut": 22663
       },
       {
         "at": "2026-11-25T04:00:00Z",
-        "customersOut": 10442
+        "customersOut": 10428
       },
       {
         "at": "2026-11-25T05:00:00Z",
-        "customersOut": 8168
+        "customersOut": 8154
       },
       {
         "at": "2026-11-25T06:00:00Z",
-        "customersOut": 8168
+        "customersOut": 8154
       },
       {
         "at": "2026-11-25T07:00:00Z",
-        "customersOut": 8848
+        "customersOut": 8834
       },
       {
         "at": "2026-11-25T08:00:00Z",
-        "customersOut": 3992
+        "customersOut": 3978
       },
       {
         "at": "2026-11-25T09:00:00Z",
-        "customersOut": 3992
+        "customersOut": 3978
       },
       {
         "at": "2026-11-25T10:00:00Z",
-        "customersOut": 4361
+        "customersOut": 4347
       },
       {
         "at": "2026-11-25T11:00:00Z",
-        "customersOut": 4363
+        "customersOut": 4349
       },
       {
         "at": "2026-11-25T12:00:00Z",
-        "customersOut": 14822
+        "customersOut": 14808
       },
       {
         "at": "2026-11-25T13:00:00Z",
-        "customersOut": 10471
+        "customersOut": 10457
       },
       {
         "at": "2026-11-25T14:00:00Z",
-        "customersOut": 22076
+        "customersOut": 22062
       },
       {
         "at": "2026-11-25T15:00:00Z",
-        "customersOut": 10564
+        "customersOut": 10550
       },
       {
         "at": "2026-11-25T16:00:00Z",
-        "customersOut": 21723
+        "customersOut": 21709
       },
       {
         "at": "2026-11-25T17:00:00Z",
-        "customersOut": 11907
+        "customersOut": 11893
       },
       {
         "at": "2026-11-25T18:00:00Z",
-        "customersOut": 20038
+        "customersOut": 20024
       },
       {
         "at": "2026-11-25T19:00:00Z",
-        "customersOut": 10419
+        "customersOut": 10405
       },
       {
         "at": "2026-11-25T20:00:00Z",
-        "customersOut": 26016
+        "customersOut": 26002
       },
       {
         "at": "2026-11-25T21:00:00Z",
-        "customersOut": 13200
+        "customersOut": 13186
       },
       {
         "at": "2026-11-25T22:00:00Z",
-        "customersOut": 23402
+        "customersOut": 23388
       },
       {
         "at": "2026-11-25T23:00:00Z",
-        "customersOut": 10345
+        "customersOut": 10331
       },
       {
         "at": "2026-11-26T00:00:00Z",
-        "customersOut": 26634
+        "customersOut": 26608
       },
       {
         "at": "2026-11-26T01:00:00Z",
-        "customersOut": 26634
+        "customersOut": 26607
       },
       {
         "at": "2026-11-26T02:00:00Z",
-        "customersOut": 27664
+        "customersOut": 27637
       },
       {
         "at": "2026-11-26T03:00:00Z",
-        "customersOut": 27664
+        "customersOut": 27637
       },
       {
         "at": "2026-11-26T04:00:00Z",
-        "customersOut": 28456
+        "customersOut": 28429
       },
       {
         "at": "2026-11-26T05:00:00Z",
-        "customersOut": 24634
+        "customersOut": 24607
       },
       {
         "at": "2026-11-26T06:00:00Z",
-        "customersOut": 15817
+        "customersOut": 15785
       },
       {
         "at": "2026-11-26T07:00:00Z",
-        "customersOut": 1671
+        "customersOut": 1639
       },
       {
         "at": "2026-11-26T08:00:00Z",
-        "customersOut": 92
+        "customersOut": 60
       },
       {
         "at": "2026-11-26T09:00:00Z",
-        "customersOut": 92
+        "customersOut": 60
       },
       {
         "at": "2026-11-26T10:00:00Z",
-        "customersOut": 109
+        "customersOut": 77
       },
       {
         "at": "2026-11-26T11:00:00Z",
-        "customersOut": 111
+        "customersOut": 79
       },
       {
         "at": "2026-11-26T12:00:00Z",
-        "customersOut": 111
+        "customersOut": 79
       }
     ],
     "locations": [
@@ -915,49 +714,23 @@
       "EST LERKENLUND 1-4",
       "EST LERKENLUND 1-4 UP",
       "EST LERKENLUND 5C-2 UP",
-      "EST LERKENLUND 9D-6",
       "EST NAZARETH 2W-40",
-      "EST ST PETER 3A",
-      "EST. MANDAHL 15H",
-      "EST. SMITH BAY",
-      "ESTATE THOMAS 4 REM",
       "GADE 24 2ND FL B-24&B-25",
       "HOPE & CARTON 28",
       "HOPE & CARTON 34",
       "HOPE & CARTON EST 36",
       "HOPE & CARTON HILL 38",
       "HOPE & CARTON HILL 39",
-      "HOSPITAL GROUND",
-      "HOSPITAL GROUND 219 MTR-2",
-      "HOSPITAL GROUND 221",
-      "HOSPITAL GROUND 235",
-      "HOSPITAL GROUND 303",
-      "HOSPITAL GROUND 303 B-5",
-      "HOSPITAL GROUND 303A B-5",
-      "HOSPITAL GROUND 303A-30",
-      "HOSPITAL GROUND 303A-31",
-      "HOSPITAL GROUND 303A-32",
-      "HOSPITAL GROUND 303A-33 B",
-      "HOSPITAL GROUND 303A-34",
-      "HOSPITAL GROUND 303A-K",
-      "HOSPITAL GROUND 303A-L",
       "LERKENLUND 1-2",
       "LERKENLUND 1-2 UP",
       "LERKENLUND 5C",
       "LERKENLUND 5C A-1",
       "LERKENLUND 5C-1 BLDG. 6",
       "LERKENLUND 5C-2",
-      "LERKENLUND 8-63 TOP",
-      "LERKENLUND 9D-10",
       "LERKENLUND 9D-1-2",
       "LERKENLUND PCL 5LA MTR.A",
       "LERKENLUND PCL 5LA MTR.B",
-      "LITTLE N. STAR VILL 3-I24",
       "LOVENLUND EST FARMHOUSE",
-      "MANDAHL 14C",
-      "MANDAHL 15 J",
-      "MANDAHL 15D",
-      "MANDAHL 15-D",
       "NAZARETH 2W-39",
       "NAZARETH 2W-40",
       "NAZARETH 2W-41.",
@@ -968,28 +741,11 @@
       "PEPPERTREE TERR B-8 L-2",
       "PEPPERTREE TERR B-8 L-3",
       "PEPPERTREE TERR B-8 WELL",
-      "SMITH BAY 19-2 149-6",
-      "SMITH BAY 19-2-149-11",
-      "SMITH BAY 19-2-149-12",
-      "SMITH BAY 19-2-149-15",
-      "SMITH BAY 19-2-149-16",
-      "SMITH BAY 19-2-149-20",
-      "SMITH BAY 19-2-149-21",
-      "SMITH BAY 19-2-149-7",
-      "SMITH BAY 19-2-149-8",
-      "ST PETER 31-18 HSE METER",
-      "ST PETER 31-19 & 31-18",
-      "ST PETER 31-22 NORTH STAR",
-      "ST PETER 31-22 NORTHSTAR",
-      "ST PETER 3A-12",
-      "ST PETER 3A-18",
-      "ST PETER 3I-20 HIBIS LANE",
-      "ST PETER MT PCL 23A",
       "SUBBASE 72 INSPECTION LN",
       "VICOP LAND 460"
     ],
-    "totalOutages": 18
+    "totalOutages": 13
   },
   "staleAfterSeconds": 900,
-  "unassignedEventCount": 16
+  "unassignedEventCount": 11
 }
