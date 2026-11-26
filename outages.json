@@ -2401,36 +2401,6 @@
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
-      "id": "8a4d4a3a566bdfcc1e979dfcba4e0189045b21c58258ef53f7122927c7b4b8d8",
-      "island": null,
-      "locations": [
-        "COTTON VALLEY 25",
-        "HOPE & CARTON 28",
-        "HOPE & CARTON 34",
-        "HOPE & CARTON EST 36",
-        "HOPE & CARTON HILL 38",
-        "HOPE & CARTON HILL 39"
-      ],
-      "modifiedAt": "2026-11-25T22:02:43Z",
-      "name": "T-C-01685",
-      "neighborhoodIDs": [],
-      "point": {
-        "latitude": 17.74725656730743,
-        "longitude": -64.62124642405787
-      },
-      "reportedCustomersInitially": 7,
-      "reportedCustomersOut": 7,
-      "reportedCustomersRestored": 0,
-      "sourceStatus": "Predicted",
-      "startedAt": "2026-11-25T22:02:11Z",
-      "verified": false,
-      "workStatus": null
-    },
-    {
-      "cause": null,
-      "crewAssigned": false,
-      "endedAt": null,
-      "estimatedRestoration": null,
       "id": "a7622fe5ec3f7460243d64545ddffb42dc3c534b3876e2c938737688abde9c58",
       "island": "stThomas",
       "locations": [
@@ -4184,7 +4154,7 @@
       "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-26T17:31:16Z",
+  "generatedAt": "2026-11-26T17:36:17Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -4929,21 +4899,21 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "a6f2f56360438b217d592e1fbd55e58256d2ac06a35dc523fb14c66ae0344542",
+  "snapshotID": "1545dfba971d5aefcf885e49f0f5612e493922dba6f64dca920b42f35f9db085",
   "source": {
-    "checkedAt": "2026-11-26T17:31:16Z",
+    "checkedAt": "2026-11-26T17:36:17Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-26T17:31:07Z",
+    "updatedAt": "2026-11-26T17:36:07Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "sourceSummary": {
     "customerCountDifference": 2,
-    "customersAffected": 4501,
-    "customersOut": 4501,
+    "customersAffected": 4494,
+    "customersOut": 4494,
     "customersRestored": 0,
     "customersServed": 54729,
-    "eventCustomersOut": 4499,
+    "eventCustomersOut": 4492,
     "hourlyCustomersOut": [
       {
         "at": "2026-11-24T17:00:00Z",
@@ -5063,83 +5033,83 @@
       },
       {
         "at": "2026-11-25T22:00:00Z",
-        "customersOut": 23388
+        "customersOut": 23381
       },
       {
         "at": "2026-11-25T23:00:00Z",
-        "customersOut": 10331
+        "customersOut": 10324
       },
       {
         "at": "2026-11-26T00:00:00Z",
-        "customersOut": 26608
+        "customersOut": 26601
       },
       {
         "at": "2026-11-26T01:00:00Z",
-        "customersOut": 26607
+        "customersOut": 26600
       },
       {
         "at": "2026-11-26T02:00:00Z",
-        "customersOut": 27637
+        "customersOut": 27630
       },
       {
         "at": "2026-11-26T03:00:00Z",
-        "customersOut": 27637
+        "customersOut": 27630
       },
       {
         "at": "2026-11-26T04:00:00Z",
-        "customersOut": 28429
+        "customersOut": 28422
       },
       {
         "at": "2026-11-26T05:00:00Z",
-        "customersOut": 24607
+        "customersOut": 24600
       },
       {
         "at": "2026-11-26T06:00:00Z",
-        "customersOut": 15785
+        "customersOut": 15778
       },
       {
         "at": "2026-11-26T07:00:00Z",
-        "customersOut": 1639
+        "customersOut": 1632
       },
       {
         "at": "2026-11-26T08:00:00Z",
-        "customersOut": 60
+        "customersOut": 53
       },
       {
         "at": "2026-11-26T09:00:00Z",
-        "customersOut": 60
+        "customersOut": 53
       },
       {
         "at": "2026-11-26T10:00:00Z",
-        "customersOut": 60
+        "customersOut": 53
       },
       {
         "at": "2026-11-26T11:00:00Z",
-        "customersOut": 62
+        "customersOut": 55
       },
       {
         "at": "2026-11-26T12:00:00Z",
-        "customersOut": 2507
+        "customersOut": 2500
       },
       {
         "at": "2026-11-26T13:00:00Z",
-        "customersOut": 2508
+        "customersOut": 2501
       },
       {
         "at": "2026-11-26T14:00:00Z",
-        "customersOut": 4862
+        "customersOut": 4855
       },
       {
         "at": "2026-11-26T15:00:00Z",
-        "customersOut": 2487
+        "customersOut": 2480
       },
       {
         "at": "2026-11-26T16:00:00Z",
-        "customersOut": 6853
+        "customersOut": 6846
       },
       {
         "at": "2026-11-26T17:00:00Z",
-        "customersOut": 4499
+        "customersOut": 4492
       }
     ],
     "locations": [
@@ -6269,7 +6239,6 @@
       "CONTANT/ENIGHED 131 (EL)",
       "CONTANT/ENIGHED 174 APT B",
       "CONTANT-ENIGHED 280",
-      "COTTON VALLEY 25",
       "CROWN BAY 45",
       "CRUZ BAY",
       "CRUZ BAY #3E",
@@ -7501,11 +7470,6 @@
       "HARBORVIEW APTS B-22",
       "HARBORVIEW APTS B-5",
       "HARBORVIEW APTS B-6",
-      "HOPE & CARTON 28",
-      "HOPE & CARTON 34",
-      "HOPE & CARTON EST 36",
-      "HOPE & CARTON HILL 38",
-      "HOPE & CARTON HILL 39",
       "HP & R PARKING LOT",
       "KC BETHANY 5",
       "KING STREET",
@@ -8856,8 +8820,8 @@
       "WEST COND SAPP B-A",
       "WEST SAPPHIRE BAY CONDO"
     ],
-    "totalOutages": 19
+    "totalOutages": 18
   },
   "staleAfterSeconds": 900,
-  "unassignedEventCount": 16
+  "unassignedEventCount": 15
 }
