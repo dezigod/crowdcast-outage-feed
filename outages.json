@@ -2334,33 +2334,6 @@
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
-      "id": "53e2c47063bd3866543901de491f59319b9c1b447c22124ebbe814e8501b128d",
-      "island": "stCroix",
-      "locations": [
-        "LA GRANGE 27-ZF"
-      ],
-      "modifiedAt": "2026-11-26T17:25:48Z",
-      "name": "97394",
-      "neighborhoodIDs": [
-        "stCroix-la-grange"
-      ],
-      "point": {
-        "latitude": 17.719618309097545,
-        "longitude": -64.87011666467656
-      },
-      "reportedCustomersInitially": 1,
-      "reportedCustomersOut": 1,
-      "reportedCustomersRestored": 0,
-      "sourceStatus": "Verified",
-      "startedAt": "2026-11-26T13:00:10Z",
-      "verified": true,
-      "workStatus": null
-    },
-    {
-      "cause": null,
-      "crewAssigned": false,
-      "endedAt": null,
-      "estimatedRestoration": null,
       "id": "688d24f7b6e72cb60f9dd7cfcfc315b9ee0efe7095b9fbf192b7ed84c8031d54",
       "island": "stThomas",
       "locations": [
@@ -4211,7 +4184,7 @@
       "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-26T17:26:14Z",
+  "generatedAt": "2026-11-26T17:31:16Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -4934,23 +4907,7 @@
       "coverage": "partial",
       "customersOut": null,
       "id": "stCroix",
-      "neighborhoods": [
-        {
-          "affectedCustomers": null,
-          "estimatedRestoration": null,
-          "id": "stCroix-la-grange",
-          "island": "stCroix",
-          "locations": [
-            "27-ZF"
-          ],
-          "name": "La Grange",
-          "sourceEventIDs": [
-            "53e2c47063bd3866543901de491f59319b9c1b447c22124ebbe814e8501b128d"
-          ],
-          "sourceStatus": "Verified",
-          "startedAt": "2026-11-26T13:00:10Z"
-        }
-      ]
+      "neighborhoods": []
     },
     {
       "coverage": "partial",
@@ -4972,21 +4929,21 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "0e629e198a24cf0bd6bb2a2ea743f7e043fe2ebadae97954511ef39191cf9126",
+  "snapshotID": "a6f2f56360438b217d592e1fbd55e58256d2ac06a35dc523fb14c66ae0344542",
   "source": {
-    "checkedAt": "2026-11-26T17:26:14Z",
+    "checkedAt": "2026-11-26T17:31:16Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-26T17:26:07Z",
+    "updatedAt": "2026-11-26T17:31:07Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "sourceSummary": {
     "customerCountDifference": 2,
-    "customersAffected": 4502,
-    "customersOut": 4502,
+    "customersAffected": 4501,
+    "customersOut": 4501,
     "customersRestored": 0,
     "customersServed": 54729,
-    "eventCustomersOut": 4500,
+    "eventCustomersOut": 4499,
     "hourlyCustomersOut": [
       {
         "at": "2026-11-24T17:00:00Z",
@@ -5174,15 +5131,15 @@
       },
       {
         "at": "2026-11-26T15:00:00Z",
-        "customersOut": 2488
+        "customersOut": 2487
       },
       {
         "at": "2026-11-26T16:00:00Z",
-        "customersOut": 6854
+        "customersOut": 6853
       },
       {
         "at": "2026-11-26T17:00:00Z",
-        "customersOut": 4500
+        "customersOut": 4499
       }
     ],
     "locations": [
@@ -7556,7 +7513,6 @@
       "KING STREET 68B EL GATE",
       "KING STREET 69-A",
       "KING STREET 70",
-      "LA GRANGE 27-ZF",
       "LERKENLUND 1-2",
       "LERKENLUND 1-2 UP",
       "LERKENLUND 5C",
@@ -8900,7 +8856,7 @@
       "WEST COND SAPP B-A",
       "WEST SAPPHIRE BAY CONDO"
     ],
-    "totalOutages": 20
+    "totalOutages": 19
   },
   "staleAfterSeconds": 900,
   "unassignedEventCount": 16
