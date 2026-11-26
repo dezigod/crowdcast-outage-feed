@@ -2419,7 +2419,7 @@
         "EST LERKENLUND 1-4",
         "EST LERKENLUND 1-4 UP"
       ],
-      "modifiedAt": "2026-11-26T12:32:19Z",
+      "modifiedAt": "2026-11-26T14:35:08Z",
       "name": "T-T-05842",
       "neighborhoodIDs": [],
       "point": {
@@ -2489,7 +2489,7 @@
       "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-26T14:31:26Z",
+  "generatedAt": "2026-11-26T14:36:28Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -2591,11 +2591,11 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "7204b5ffb99a43077339d33f25e59633abef2d81a03c56fdd32fc4cc3aa79540",
+  "snapshotID": "f2bd1a6de66e56e429988ebcc85ae25f0c4b6fe2b101668f770cdacadaf23c94",
   "source": {
-    "checkedAt": "2026-11-26T14:31:26Z",
+    "checkedAt": "2026-11-26T14:36:28Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-26T14:31:06Z",
+    "updatedAt": "2026-11-26T14:36:05Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
@@ -2609,7 +2609,7 @@
     "hourlyCustomersOut": [
       {
         "at": "2026-11-24T14:00:00Z",
-        "customersOut": 19270
+        "customersOut": 18901
       },
       {
         "at": "2026-11-24T15:00:00Z",
