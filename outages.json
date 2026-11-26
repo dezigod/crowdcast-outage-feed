@@ -2621,33 +2621,6 @@
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
-      "id": "e1d2e240de3741338c297d7ff94523430d401e1deb275d5804bb6742a520c716",
-      "island": null,
-      "locations": [
-        "95A EST CONTANT",
-        "CONTANT 108A-1",
-        "CONTANT PCL 7AS"
-      ],
-      "modifiedAt": "2026-11-26T16:20:30Z",
-      "name": "T-T-16138",
-      "neighborhoodIDs": [],
-      "point": {
-        "latitude": 18.347722656751692,
-        "longitude": -64.95834163982497
-      },
-      "reportedCustomersInitially": 3,
-      "reportedCustomersOut": 3,
-      "reportedCustomersRestored": 0,
-      "sourceStatus": "Predicted",
-      "startedAt": "2026-11-26T16:19:41Z",
-      "verified": false,
-      "workStatus": null
-    },
-    {
-      "cause": null,
-      "crewAssigned": false,
-      "endedAt": null,
-      "estimatedRestoration": null,
       "id": "e5572a32a66e79d228d9ea3c134a580c9c5059f0ae050c54eebc5e93fde10843",
       "island": null,
       "locations": [
@@ -4237,7 +4210,7 @@
       "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-26T16:35:58Z",
+  "generatedAt": "2026-11-26T16:40:59Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -5020,21 +4993,21 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "f846baee68517bb696e3a045259f87323b324c848c9182a947548c6612a92859",
+  "snapshotID": "ae618281fd5a103f588440a6d186d3e84c65d5a65135653404f2a7b3d03f8ca0",
   "source": {
-    "checkedAt": "2026-11-26T16:35:58Z",
+    "checkedAt": "2026-11-26T16:40:59Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-26T16:31:08Z",
+    "updatedAt": "2026-11-26T16:36:07Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "sourceSummary": {
     "customerCountDifference": 2,
-    "customersAffected": 4487,
-    "customersOut": 4487,
+    "customersAffected": 4484,
+    "customersOut": 4484,
     "customersRestored": 0,
     "customersServed": 54729,
-    "eventCustomersOut": 4485,
+    "eventCustomersOut": 4482,
     "hourlyCustomersOut": [
       {
         "at": "2026-11-24T16:00:00Z",
@@ -5230,7 +5203,7 @@
       },
       {
         "at": "2026-11-26T16:00:00Z",
-        "customersOut": 6839
+        "customersOut": 6836
       }
     ],
     "locations": [
@@ -5297,7 +5270,6 @@
       "9-32L EST BELLEVUE",
       "9-32U EST BELLEVUE",
       "9-36L EST BELLEVUE",
-      "95A EST CONTANT",
       "A CHOCOLATE HOLE",
       "ABRAHAMS FANCY 3A",
       "ADRIAN",
@@ -6232,7 +6204,6 @@
       "CONTANT 1 R (MTR 1)",
       "CONTANT 1-0 (DWN)",
       "CONTANT 1-0* (UP)",
-      "CONTANT 108A-1",
       "CONTANT 10-A-1",
       "CONTANT 10-A-2",
       "CONTANT 10-B",
@@ -6357,7 +6328,6 @@
       "CONTANT MTR-1",
       "CONTANT PCL 13-F",
       "CONTANT PCL 6-2",
-      "CONTANT PCL 7AS",
       "CONTANT TOWERS BLDG-A",
       "CONTANT/ENIGHED 131 (EL)",
       "CONTANT/ENIGHED 174 APT B",
@@ -8948,8 +8918,8 @@
       "WINTBERG 1-102",
       "WINTBERG 1-102B"
     ],
-    "totalOutages": 21
+    "totalOutages": 20
   },
   "staleAfterSeconds": 900,
-  "unassignedEventCount": 16
+  "unassignedEventCount": 15
 }
