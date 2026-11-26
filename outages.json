@@ -254,6 +254,32 @@
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
+      "id": "9aadfb7ed2a96bc37044bcc6454c3b5b25c2b723b105308ba61bf756ef76dbd5",
+      "island": null,
+      "locations": [
+        "EST THOMAS 62-4 & 62-5",
+        "ESTATE THOMAS 62-4 & 62-5"
+      ],
+      "modifiedAt": "2026-11-26T13:11:27Z",
+      "name": "T-T-17169",
+      "neighborhoodIDs": [],
+      "point": {
+        "latitude": 18.34283487702047,
+        "longitude": -64.91210186483826
+      },
+      "reportedCustomersInitially": 32,
+      "reportedCustomersOut": 32,
+      "reportedCustomersRestored": 0,
+      "sourceStatus": "Predicted",
+      "startedAt": "2026-11-26T13:10:53Z",
+      "verified": false,
+      "workStatus": null
+    },
+    {
+      "cause": null,
+      "crewAssigned": false,
+      "endedAt": null,
+      "estimatedRestoration": null,
       "id": "a7622fe5ec3f7460243d64545ddffb42dc3c534b3876e2c938737688abde9c58",
       "island": "stThomas",
       "locations": [
@@ -1923,7 +1949,7 @@
       "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-26T13:15:59Z",
+  "generatedAt": "2026-11-26T13:21:01Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -2684,21 +2710,21 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "189589baa7c1aad31785d0897ca4f022deb4554a73ca4258621de1696467714b",
+  "snapshotID": "696148c6de5e9dd44c2972418ecac43bc3aa7349f47861d72753cf473e60990f",
   "source": {
-    "checkedAt": "2026-11-26T13:15:59Z",
+    "checkedAt": "2026-11-26T13:21:01Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-26T13:11:05Z",
+    "updatedAt": "2026-11-26T13:16:05Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "sourceSummary": {
     "customerCountDifference": 2,
-    "customersAffected": 2144,
-    "customersOut": 2144,
+    "customersAffected": 2176,
+    "customersOut": 2176,
     "customersRestored": 0,
     "customersServed": 54729,
-    "eventCustomersOut": 2142,
+    "eventCustomersOut": 2174,
     "hourlyCustomersOut": [
       {
         "at": "2026-11-24T13:00:00Z",
@@ -2894,7 +2920,7 @@
       },
       {
         "at": "2026-11-26T13:00:00Z",
-        "customersOut": 2142
+        "customersOut": 2174
       }
     ],
     "locations": [
@@ -3200,6 +3226,7 @@
       "EST SMITH BAY 83-2",
       "EST SMITH BAY 84",
       "EST SMITH BAY 93",
+      "EST THOMAS 62-4 & 62-5",
       "EST TUTU #173A-52 UP",
       "EST. FRYDENDAHL",
       "EST. FRYDENDAHL 56-76",
@@ -3220,6 +3247,7 @@
       "ESTATE SMITH BAY 19-2-164",
       "ESTATE SMITH BAY 51",
       "ESTATE SMITH BAY 57X-2A",
+      "ESTATE THOMAS 62-4 & 62-5",
       "FRYDEHDAHL 56-48",
       "FRYDENDAHL",
       "FRYDENDAHL #11 SMITH BAY",
@@ -4474,8 +4502,8 @@
       "WEST COND SAPP B-A",
       "WEST SAPPHIRE BAY CONDO"
     ],
-    "totalOutages": 14
+    "totalOutages": 15
   },
   "staleAfterSeconds": 900,
-  "unassignedEventCount": 11
+  "unassignedEventCount": 12
 }
