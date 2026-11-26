@@ -370,6 +370,32 @@
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
+      "id": "d1c7a463c58b5666f07d35d2ae44e909383ceea27d22deeb7cdda7fbe63eb2e9",
+      "island": null,
+      "locations": [
+        "EST LERKENLUND 1-4",
+        "EST LERKENLUND 1-4 UP"
+      ],
+      "modifiedAt": "2026-11-26T11:31:24Z",
+      "name": "T-T-05842",
+      "neighborhoodIDs": [],
+      "point": {
+        "latitude": 18.361728552514602,
+        "longitude": -64.94232164974866
+      },
+      "reportedCustomersInitially": 2,
+      "reportedCustomersOut": 2,
+      "reportedCustomersRestored": 0,
+      "sourceStatus": "Predicted",
+      "startedAt": "2026-11-26T11:31:11Z",
+      "verified": false,
+      "workStatus": null
+    },
+    {
+      "cause": null,
+      "crewAssigned": false,
+      "endedAt": null,
+      "estimatedRestoration": null,
       "id": "d4df086dc1ed0c629dc634ed69dfdde88c4b0e0f5563b6d084ef58afb41bd9d9",
       "island": null,
       "locations": [
@@ -519,7 +545,7 @@
       "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-26T11:31:22Z",
+  "generatedAt": "2026-11-26T11:36:25Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -648,21 +674,21 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "98da24ebe3ca3cf3435de0be301b049eed5f648df08a84c37a119799226b1358",
+  "snapshotID": "fb93d43908ea0807adf9b331abae604da8936cdcb644417e478ef2817e0246c5",
   "source": {
-    "checkedAt": "2026-11-26T11:31:22Z",
+    "checkedAt": "2026-11-26T11:36:25Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-26T11:31:06Z",
+    "updatedAt": "2026-11-26T11:36:06Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "sourceSummary": {
     "customerCountDifference": 2,
-    "customersAffected": 111,
-    "customersOut": 111,
+    "customersAffected": 113,
+    "customersOut": 113,
     "customersRestored": 0,
     "customersServed": 54729,
-    "eventCustomersOut": 109,
+    "eventCustomersOut": 111,
     "hourlyCustomersOut": [
       {
         "at": "2026-11-24T11:00:00Z",
@@ -858,7 +884,7 @@
       },
       {
         "at": "2026-11-26T11:00:00Z",
-        "customersOut": 109
+        "customersOut": 111
       }
     ],
     "locations": [
@@ -886,6 +912,8 @@
       "DRONNINGENS GADE 24",
       "DRONNINGENS GADE 24 B-26",
       "DRONNINGENS GADE 24 STE",
+      "EST LERKENLUND 1-4",
+      "EST LERKENLUND 1-4 UP",
       "EST LERKENLUND 5C-2 UP",
       "EST LERKENLUND 9D-6",
       "EST NAZARETH 2W-40",
@@ -960,8 +988,8 @@
       "SUBBASE 72 INSPECTION LN",
       "VICOP LAND 460"
     ],
-    "totalOutages": 17
+    "totalOutages": 18
   },
   "staleAfterSeconds": 900,
-  "unassignedEventCount": 15
+  "unassignedEventCount": 16
 }
