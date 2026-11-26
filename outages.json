@@ -224,49 +224,6 @@
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
-      "id": "8f076b93f3add452cf5d5640971861b1f1e8f9f25f38080e1284d64e9a0d83cd",
-      "island": null,
-      "locations": [
-        "ALTONA #178-98 APT-2",
-        "ALTONA & WEL 178-230 B-2",
-        "ALTONA & WELGUNST 178-230",
-        "ALTONA & WELGUNST 178-50",
-        "ALTONA & WELGUNST 178-97",
-        "ALTONA & WELGUNST 18",
-        "ALTONA & WELGUNST MTR-2",
-        "ALTONA & WELGUNST TRAILER",
-        "ALTONA 151",
-        "ALTONA 178-100",
-        "ALTONA 178-218",
-        "ALTONA 178-220",
-        "ALTONA 178-228",
-        "ALTONA 178-88",
-        "ALTONA 178-90",
-        "ALTONA 178-97",
-        "ALTONA PUMP STATION",
-        "ALTONA WELGUNST",
-        "FRYDENDAHL 12B-1"
-      ],
-      "modifiedAt": "2026-11-26T12:47:19Z",
-      "name": "T-T-05808",
-      "neighborhoodIDs": [],
-      "point": {
-        "latitude": 18.340909504169566,
-        "longitude": -64.94338450849818
-      },
-      "reportedCustomersInitially": 23,
-      "reportedCustomersOut": 23,
-      "reportedCustomersRestored": 0,
-      "sourceStatus": "Predicted",
-      "startedAt": "2026-11-26T12:46:46Z",
-      "verified": false,
-      "workStatus": null
-    },
-    {
-      "cause": null,
-      "crewAssigned": false,
-      "endedAt": null,
-      "estimatedRestoration": null,
       "id": "a7622fe5ec3f7460243d64545ddffb42dc3c534b3876e2c938737688abde9c58",
       "island": "stThomas",
       "locations": [
@@ -1936,7 +1893,7 @@
       "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-26T13:00:53Z",
+  "generatedAt": "2026-11-26T13:05:55Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -2678,26 +2635,22 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "ffc1340214b397099b30a5c2398151b0f1e58e73927ee5a9b09a5435aa37c33c",
+  "snapshotID": "e8845fc3b41bea9911c2e420173afadd5c141edb38617d2b32e97ffb7799e37a",
   "source": {
-    "checkedAt": "2026-11-26T13:00:53Z",
+    "checkedAt": "2026-11-26T13:05:55Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-26T12:56:05Z",
+    "updatedAt": "2026-11-26T13:01:05Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "sourceSummary": {
     "customerCountDifference": 2,
-    "customersAffected": 2163,
-    "customersOut": 2163,
+    "customersAffected": 2140,
+    "customersOut": 2140,
     "customersRestored": 0,
     "customersServed": 54729,
-    "eventCustomersOut": 2161,
+    "eventCustomersOut": 2138,
     "hourlyCustomersOut": [
-      {
-        "at": "2026-11-24T12:00:00Z",
-        "customersOut": 18747
-      },
       {
         "at": "2026-11-24T13:00:00Z",
         "customersOut": 18747
@@ -2888,7 +2841,11 @@
       },
       {
         "at": "2026-11-26T12:00:00Z",
-        "customersOut": 2161
+        "customersOut": 2138
+      },
+      {
+        "at": "2026-11-26T13:00:00Z",
+        "customersOut": 2138
       }
     ],
     "locations": [
@@ -2925,24 +2882,6 @@
       "AGNES FANCY 5B",
       "AGNES FANCY 5F",
       "AKA 224 BARBADOS",
-      "ALTONA #178-98 APT-2",
-      "ALTONA & WEL 178-230 B-2",
-      "ALTONA & WELGUNST 178-230",
-      "ALTONA & WELGUNST 178-50",
-      "ALTONA & WELGUNST 178-97",
-      "ALTONA & WELGUNST 18",
-      "ALTONA & WELGUNST MTR-2",
-      "ALTONA & WELGUNST TRAILER",
-      "ALTONA 151",
-      "ALTONA 178-100",
-      "ALTONA 178-218",
-      "ALTONA 178-220",
-      "ALTONA 178-228",
-      "ALTONA 178-88",
-      "ALTONA 178-90",
-      "ALTONA 178-97",
-      "ALTONA PUMP STATION",
-      "ALTONA WELGUNST",
       "ANNAS RETERAT 173- D3",
       "ANNAS RETREAT",
       "ANNAS RETREAT #1 NW QTR.",
@@ -4482,8 +4421,8 @@
       "WEST COND SAPP B-A",
       "WEST SAPPHIRE BAY CONDO"
     ],
-    "totalOutages": 14
+    "totalOutages": 13
   },
   "staleAfterSeconds": 900,
-  "unassignedEventCount": 12
+  "unassignedEventCount": 11
 }
