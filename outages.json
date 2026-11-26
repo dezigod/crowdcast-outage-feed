@@ -1415,6 +1415,32 @@
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
+      "id": "b8debfb82477e2f2890c7c1664fcb6cff31301d78e98885bbfcbfffbe6fcad86",
+      "island": null,
+      "locations": [
+        "HANSEN BAY 6-0-B",
+        "HANSEN BAY 6-0-C"
+      ],
+      "modifiedAt": "2026-11-26T14:12:22Z",
+      "name": "T-J-04353",
+      "neighborhoodIDs": [],
+      "point": {
+        "latitude": 18.337952902591645,
+        "longitude": -64.67352089647832
+      },
+      "reportedCustomersInitially": 2,
+      "reportedCustomersOut": 2,
+      "reportedCustomersRestored": 0,
+      "sourceStatus": "Predicted",
+      "startedAt": "2026-11-26T14:12:08Z",
+      "verified": false,
+      "workStatus": null
+    },
+    {
+      "cause": null,
+      "crewAssigned": false,
+      "endedAt": null,
+      "estimatedRestoration": null,
       "id": "c4236c2059535c650ddd39853fc8291e62231f24f63cbd450934f1406b337f75",
       "island": null,
       "locations": [
@@ -3270,7 +3296,7 @@
       "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-26T14:11:18Z",
+  "generatedAt": "2026-11-26T14:16:19Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -4031,25 +4057,25 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "98ed10be2e739609c470b6f54162a56fa51b07d0a7a0a325da70a1cd8f042354",
+  "snapshotID": "fa8c509d3922e9435f230a0124d508b3fdf40cdc0cd8226de5874f886ce68e5d",
   "source": {
-    "checkedAt": "2026-11-26T14:11:18Z",
+    "checkedAt": "2026-11-26T14:16:19Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-26T14:11:06Z",
+    "updatedAt": "2026-11-26T14:16:06Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "sourceSummary": {
     "customerCountDifference": 2,
-    "customersAffected": 3791,
-    "customersOut": 3791,
+    "customersAffected": 3793,
+    "customersOut": 3793,
     "customersRestored": 0,
     "customersServed": 54729,
-    "eventCustomersOut": 3789,
+    "eventCustomersOut": 3791,
     "hourlyCustomersOut": [
       {
         "at": "2026-11-24T14:00:00Z",
-        "customersOut": 21527
+        "customersOut": 19270
       },
       {
         "at": "2026-11-24T15:00:00Z",
@@ -4241,7 +4267,7 @@
       },
       {
         "at": "2026-11-26T14:00:00Z",
-        "customersOut": 3789
+        "customersOut": 3791
       }
     ],
     "locations": [
@@ -5905,6 +5931,8 @@
       "FRYDENHAHL 52-7",
       "FRYDENHOJ 2 12BA A2",
       "GADE 24 2ND FL B-24&B-25",
+      "HANSEN BAY 6-0-B",
+      "HANSEN BAY 6-0-C",
       "HAVENSIGHT",
       "HAVENSIGHT #12",
       "HAVENSIGHT #30 DWN",
@@ -7095,8 +7123,8 @@
       "ZOOTENVAAL 3L",
       "ZOOTENVAAL 3N*"
     ],
-    "totalOutages": 17
+    "totalOutages": 18
   },
   "staleAfterSeconds": 900,
-  "unassignedEventCount": 14
+  "unassignedEventCount": 15
 }
