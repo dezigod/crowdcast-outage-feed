@@ -6,6 +6,36 @@
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
+      "id": "030b4da2875282cab2c3a5b8000d099a9934a1c15de8b9a052237a4aee56b215",
+      "island": "stCroix",
+      "locations": [
+        "LA GRANGE 27-P",
+        "LA GRANGE 27-ZB",
+        "LA GRANGE 27-ZF",
+        "LA GRANGE 27-ZI"
+      ],
+      "modifiedAt": "2026-11-26T13:09:56Z",
+      "name": "T-C-21429",
+      "neighborhoodIDs": [
+        "stCroix-la-grange"
+      ],
+      "point": {
+        "latitude": 17.72004017644855,
+        "longitude": -64.87019848036095
+      },
+      "reportedCustomersInitially": 4,
+      "reportedCustomersOut": 4,
+      "reportedCustomersRestored": 0,
+      "sourceStatus": "Predicted",
+      "startedAt": "2026-11-26T13:09:53Z",
+      "verified": false,
+      "workStatus": null
+    },
+    {
+      "cause": null,
+      "crewAssigned": false,
+      "endedAt": null,
+      "estimatedRestoration": null,
       "id": "114334c01aa87b660788dbcd897dba52abaccf25d73a80313b285103c5d75502",
       "island": null,
       "locations": [
@@ -1893,7 +1923,7 @@
       "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-26T13:10:57Z",
+  "generatedAt": "2026-11-26T13:15:59Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -2613,7 +2643,26 @@
       "coverage": "partial",
       "customersOut": null,
       "id": "stCroix",
-      "neighborhoods": []
+      "neighborhoods": [
+        {
+          "affectedCustomers": null,
+          "estimatedRestoration": null,
+          "id": "stCroix-la-grange",
+          "island": "stCroix",
+          "locations": [
+            "27-P",
+            "27-ZB",
+            "27-ZF",
+            "27-ZI"
+          ],
+          "name": "La Grange",
+          "sourceEventIDs": [
+            "030b4da2875282cab2c3a5b8000d099a9934a1c15de8b9a052237a4aee56b215"
+          ],
+          "sourceStatus": "Predicted",
+          "startedAt": "2026-11-26T13:09:53Z"
+        }
+      ]
     },
     {
       "coverage": "partial",
@@ -2635,21 +2684,21 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "2bdcc6cd926890b102259715e7c1422832d34d9c273951d93456238eb0a7e992",
+  "snapshotID": "189589baa7c1aad31785d0897ca4f022deb4554a73ca4258621de1696467714b",
   "source": {
-    "checkedAt": "2026-11-26T13:10:57Z",
+    "checkedAt": "2026-11-26T13:15:59Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-26T13:06:05Z",
+    "updatedAt": "2026-11-26T13:11:05Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "sourceSummary": {
     "customerCountDifference": 2,
-    "customersAffected": 2140,
-    "customersOut": 2140,
+    "customersAffected": 2144,
+    "customersOut": 2144,
     "customersRestored": 0,
     "customersServed": 54729,
-    "eventCustomersOut": 2138,
+    "eventCustomersOut": 2142,
     "hourlyCustomersOut": [
       {
         "at": "2026-11-24T13:00:00Z",
@@ -2845,7 +2894,7 @@
       },
       {
         "at": "2026-11-26T13:00:00Z",
-        "customersOut": 2138
+        "customersOut": 2142
       }
     ],
     "locations": [
@@ -3409,6 +3458,10 @@
       "HOPE & CARTON EST 36",
       "HOPE & CARTON HILL 38",
       "HOPE & CARTON HILL 39",
+      "LA GRANGE 27-P",
+      "LA GRANGE 27-ZB",
+      "LA GRANGE 27-ZF",
+      "LA GRANGE 27-ZI",
       "LERKENLUND 1-2",
       "LERKENLUND 1-2 UP",
       "LERKENLUND 5C",
@@ -4421,7 +4474,7 @@
       "WEST COND SAPP B-A",
       "WEST SAPPHIRE BAY CONDO"
     ],
-    "totalOutages": 13
+    "totalOutages": 14
   },
   "staleAfterSeconds": 900,
   "unassignedEventCount": 11
