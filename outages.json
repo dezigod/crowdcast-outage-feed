@@ -6,36 +6,6 @@
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
-      "id": "030b4da2875282cab2c3a5b8000d099a9934a1c15de8b9a052237a4aee56b215",
-      "island": "stCroix",
-      "locations": [
-        "LA GRANGE 27-P",
-        "LA GRANGE 27-ZB",
-        "LA GRANGE 27-ZF",
-        "LA GRANGE 27-ZI"
-      ],
-      "modifiedAt": "2026-11-26T13:09:56Z",
-      "name": "T-C-21429",
-      "neighborhoodIDs": [
-        "stCroix-la-grange"
-      ],
-      "point": {
-        "latitude": 17.72004017644855,
-        "longitude": -64.87019848036095
-      },
-      "reportedCustomersInitially": 4,
-      "reportedCustomersOut": 4,
-      "reportedCustomersRestored": 0,
-      "sourceStatus": "Predicted",
-      "startedAt": "2026-11-26T13:09:53Z",
-      "verified": false,
-      "workStatus": null
-    },
-    {
-      "cause": null,
-      "crewAssigned": false,
-      "endedAt": null,
-      "estimatedRestoration": null,
       "id": "114334c01aa87b660788dbcd897dba52abaccf25d73a80313b285103c5d75502",
       "island": null,
       "locations": [
@@ -2332,25 +2302,58 @@
       "id": "4d652bf335f5de793bcd499aef8dcf60ac1b7e37b4d7453a5e5277267420b21d",
       "island": null,
       "locations": [
+        "BOUGAINVILLEA GARDENS",
         "KING STREET",
+        "KING STREET 5 & 6C L ROOM",
+        "KING STREET 68B EL GATE",
+        "KING STREET 69-A",
+        "KING STREET 70",
         "OLD CUSTOM HOUSE",
         "STRAND STREET",
         "STRAND STREET 1A {DWNSTR}",
-        "STRAND STREET 2"
+        "STRAND STREET 2",
+        "STRAND STREET 2-2A"
       ],
-      "modifiedAt": "2026-11-26T16:38:31Z",
+      "modifiedAt": "2026-11-26T17:25:48Z",
       "name": "T-C-25257",
       "neighborhoodIDs": [],
       "point": {
         "latitude": 17.714120874701536,
         "longitude": -64.88295196659651
       },
-      "reportedCustomersInitially": 9,
-      "reportedCustomersOut": 9,
+      "reportedCustomersInitially": 33,
+      "reportedCustomersOut": 33,
       "reportedCustomersRestored": 0,
       "sourceStatus": "Predicted",
       "startedAt": "2026-11-26T16:38:10Z",
       "verified": false,
+      "workStatus": null
+    },
+    {
+      "cause": null,
+      "crewAssigned": false,
+      "endedAt": null,
+      "estimatedRestoration": null,
+      "id": "53e2c47063bd3866543901de491f59319b9c1b447c22124ebbe814e8501b128d",
+      "island": "stCroix",
+      "locations": [
+        "LA GRANGE 27-ZF"
+      ],
+      "modifiedAt": "2026-11-26T17:25:48Z",
+      "name": "97394",
+      "neighborhoodIDs": [
+        "stCroix-la-grange"
+      ],
+      "point": {
+        "latitude": 17.719618309097545,
+        "longitude": -64.87011666467656
+      },
+      "reportedCustomersInitially": 1,
+      "reportedCustomersOut": 1,
+      "reportedCustomersRestored": 0,
+      "sourceStatus": "Verified",
+      "startedAt": "2026-11-26T13:00:10Z",
+      "verified": true,
       "workStatus": null
     },
     {
@@ -4208,7 +4211,7 @@
       "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-26T17:21:11Z",
+  "generatedAt": "2026-11-26T17:26:14Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -4938,17 +4941,14 @@
           "id": "stCroix-la-grange",
           "island": "stCroix",
           "locations": [
-            "27-P",
-            "27-ZB",
-            "27-ZF",
-            "27-ZI"
+            "27-ZF"
           ],
           "name": "La Grange",
           "sourceEventIDs": [
-            "030b4da2875282cab2c3a5b8000d099a9934a1c15de8b9a052237a4aee56b215"
+            "53e2c47063bd3866543901de491f59319b9c1b447c22124ebbe814e8501b128d"
           ],
-          "sourceStatus": "Predicted",
-          "startedAt": "2026-11-26T13:09:53Z"
+          "sourceStatus": "Verified",
+          "startedAt": "2026-11-26T13:00:10Z"
         }
       ]
     },
@@ -4972,21 +4972,21 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "065c329114c51ff25fb9c690e9c1bcdf5023bcb1aa707ab1c8eaa8604c9d7adb",
+  "snapshotID": "0e629e198a24cf0bd6bb2a2ea743f7e043fe2ebadae97954511ef39191cf9126",
   "source": {
-    "checkedAt": "2026-11-26T17:21:11Z",
+    "checkedAt": "2026-11-26T17:26:14Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-26T17:16:07Z",
+    "updatedAt": "2026-11-26T17:26:07Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "sourceSummary": {
     "customerCountDifference": 2,
-    "customersAffected": 4481,
-    "customersOut": 4481,
+    "customersAffected": 4502,
+    "customersOut": 4502,
     "customersRestored": 0,
     "customersServed": 54729,
-    "eventCustomersOut": 4479,
+    "eventCustomersOut": 4500,
     "hourlyCustomersOut": [
       {
         "at": "2026-11-24T17:00:00Z",
@@ -5166,23 +5166,23 @@
       },
       {
         "at": "2026-11-26T13:00:00Z",
-        "customersOut": 2511
+        "customersOut": 2508
       },
       {
         "at": "2026-11-26T14:00:00Z",
-        "customersOut": 4865
+        "customersOut": 4862
       },
       {
         "at": "2026-11-26T15:00:00Z",
-        "customersOut": 2491
+        "customersOut": 2488
       },
       {
         "at": "2026-11-26T16:00:00Z",
-        "customersOut": 6833
+        "customersOut": 6854
       },
       {
         "at": "2026-11-26T17:00:00Z",
-        "customersOut": 4479
+        "customersOut": 4500
       }
     ],
     "locations": [
@@ -5618,6 +5618,7 @@
       "BORDEAUX 5B-A",
       "BORDEAUX 5-E",
       "BORDEAUX 5-G-4",
+      "BOUGAINVILLEA GARDENS",
       "BOULON CENTER",
       "CAROLINA 10-10-1",
       "CAROLINA 10-10-10",
@@ -7551,10 +7552,11 @@
       "HP & R PARKING LOT",
       "KC BETHANY 5",
       "KING STREET",
-      "LA GRANGE 27-P",
-      "LA GRANGE 27-ZB",
+      "KING STREET 5 & 6C L ROOM",
+      "KING STREET 68B EL GATE",
+      "KING STREET 69-A",
+      "KING STREET 70",
       "LA GRANGE 27-ZF",
-      "LA GRANGE 27-ZI",
       "LERKENLUND 1-2",
       "LERKENLUND 1-2 UP",
       "LERKENLUND 5C",
@@ -8851,6 +8853,7 @@
       "STRAND STREET",
       "STRAND STREET 1A {DWNSTR}",
       "STRAND STREET 2",
+      "STRAND STREET 2-2A",
       "SUBBASE 72 INSPECTION LN",
       "SUSANABERG 7-F",
       "SUSANANABERG 17-A",
