@@ -10897,9 +10897,34 @@
       "startedAt": "2026-11-23T13:00:19Z",
       "verified": true,
       "workStatus": null
+    },
+    {
+      "cause": null,
+      "crewAssigned": false,
+      "endedAt": null,
+      "estimatedRestoration": null,
+      "id": "ee494b568690c7f6cfc3187f11132727598787f23b61ccf3d36f4851eaeebdcd",
+      "island": null,
+      "locations": [
+        "ESTATE THOMAS 4 REM"
+      ],
+      "modifiedAt": "2026-11-26T00:30:15Z",
+      "name": "T-T-03657",
+      "neighborhoodIDs": [],
+      "point": {
+        "latitude": 18.336776789314367,
+        "longitude": -64.90901522962939
+      },
+      "reportedCustomersInitially": 1,
+      "reportedCustomersOut": 1,
+      "reportedCustomersRestored": 0,
+      "sourceStatus": "Predicted",
+      "startedAt": "2026-11-26T00:29:49Z",
+      "verified": false,
+      "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-26T00:30:34Z",
+  "generatedAt": "2026-11-26T00:35:36Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -12064,21 +12089,21 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "049a0575a65adbd7523e3422280e2253d79b1d7a6a8440a99b5fbe8f1a03f17c",
+  "snapshotID": "be21043254abd255ae58585b33c59c6356a3e9b32282b9dc4ba75af8f422e565",
   "source": {
-    "checkedAt": "2026-11-26T00:30:34Z",
+    "checkedAt": "2026-11-26T00:35:36Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-26T00:26:10Z",
+    "updatedAt": "2026-11-26T00:31:09Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "sourceSummary": {
     "customerCountDifference": 2,
-    "customersAffected": 13209,
-    "customersOut": 13209,
+    "customersAffected": 13210,
+    "customersOut": 13210,
     "customersRestored": 0,
     "customersServed": 54729,
-    "eventCustomersOut": 13207,
+    "eventCustomersOut": 13208,
     "hourlyCustomersOut": [
       {
         "at": "2026-11-24T00:00:00Z",
@@ -17907,6 +17932,7 @@
       "ESTATE ST PETER 9H & 9J",
       "ESTATE ST. PETER 3CD-B",
       "ESTATE SUSANNABERG",
+      "ESTATE THOMAS 4 REM",
       "ESTATE TUTU 129-23",
       "ESTATE TUTU 146-111",
       "ESTATE TUTU 146-47",
@@ -22686,8 +22712,8 @@
       "ZUERIENDENHEIT",
       "ZUFRIDENHEIT 1"
     ],
-    "totalOutages": 19
+    "totalOutages": 20
   },
   "staleAfterSeconds": 900,
-  "unassignedEventCount": 17
+  "unassignedEventCount": 18
 }
