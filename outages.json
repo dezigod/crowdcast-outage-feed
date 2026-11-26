@@ -67,6 +67,34 @@
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
+      "id": "19396a4cc881b07dc34f5ac0ac16bbac2641f5245ca5d93341c262eb439e0750",
+      "island": null,
+      "locations": [
+        "HARBORVIEW APTS B-21",
+        "HARBORVIEW APTS B-22",
+        "HARBORVIEW APTS B-5",
+        "HARBORVIEW APTS B-6"
+      ],
+      "modifiedAt": "2026-11-26T15:55:16Z",
+      "name": "T-C-05812",
+      "neighborhoodIDs": [],
+      "point": {
+        "latitude": 17.752092680369365,
+        "longitude": -64.72282772832475
+      },
+      "reportedCustomersInitially": 63,
+      "reportedCustomersOut": 63,
+      "reportedCustomersRestored": 0,
+      "sourceStatus": "Predicted",
+      "startedAt": "2026-11-26T15:54:40Z",
+      "verified": false,
+      "workStatus": null
+    },
+    {
+      "cause": null,
+      "crewAssigned": false,
+      "endedAt": null,
+      "estimatedRestoration": null,
       "id": "284ffa34d6db2b07e218d17a3183973e1fdd84fdc626e4c7d3d839e810a4ee5b",
       "island": null,
       "locations": [
@@ -2521,7 +2549,7 @@
       "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-26T15:55:46Z",
+  "generatedAt": "2026-11-26T16:00:46Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -2623,21 +2651,21 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "dfe87cc3ef4d9f0b66bc2f1697b3122410e4b8e06bc3e97b219aa611e94eeca1",
+  "snapshotID": "09d18499eb0b9889f8549ad13b085fbf4f3802c86e96b72fccafc90539e6bd05",
   "source": {
-    "checkedAt": "2026-11-26T15:55:46Z",
+    "checkedAt": "2026-11-26T16:00:46Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-26T15:51:07Z",
+    "updatedAt": "2026-11-26T15:56:07Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "sourceSummary": {
     "customerCountDifference": 2,
-    "customersAffected": 2430,
-    "customersOut": 2430,
+    "customersAffected": 2493,
+    "customersOut": 2493,
     "customersRestored": 0,
     "customersServed": 54729,
-    "eventCustomersOut": 2428,
+    "eventCustomersOut": 2491,
     "hourlyCustomersOut": [
       {
         "at": "2026-11-24T15:00:00Z",
@@ -2833,7 +2861,7 @@
       },
       {
         "at": "2026-11-26T15:00:00Z",
-        "customersOut": 2428
+        "customersOut": 2491
       }
     ],
     "locations": [
@@ -4606,6 +4634,10 @@
       "HANSEN BAY 9-O",
       "HANSEN BAY EAST 3-8",
       "HANSEN BAY EAST END",
+      "HARBORVIEW APTS B-21",
+      "HARBORVIEW APTS B-22",
+      "HARBORVIEW APTS B-5",
+      "HARBORVIEW APTS B-6",
       "HARD LABOR",
       "HARD LABOR 13-B",
       "HARD LABOR 13B B-8",
@@ -4965,8 +4997,8 @@
       "ZOOTENVAAL 3Q (MTR 1)",
       "ZOOTENVAAL 3T"
     ],
-    "totalOutages": 16
+    "totalOutages": 17
   },
   "staleAfterSeconds": 900,
-  "unassignedEventCount": 13
+  "unassignedEventCount": 14
 }
