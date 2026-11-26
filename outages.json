@@ -38,6 +38,31 @@
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
+      "id": "097d7aa7321baa28d5e1a25d0e0f6f488b28ab7063cdf55dff7def7bbd189e26",
+      "island": null,
+      "locations": [
+        "BAKKERO 3-S"
+      ],
+      "modifiedAt": "2026-11-26T00:36:42Z",
+      "name": "T-T-14463",
+      "neighborhoodIDs": [],
+      "point": {
+        "latitude": 18.32878793445725,
+        "longitude": -64.91547302072976
+      },
+      "reportedCustomersInitially": 2,
+      "reportedCustomersOut": 2,
+      "reportedCustomersRestored": 0,
+      "sourceStatus": "Predicted",
+      "startedAt": "2026-11-26T00:36:36Z",
+      "verified": false,
+      "workStatus": null
+    },
+    {
+      "cause": null,
+      "crewAssigned": false,
+      "endedAt": null,
+      "estimatedRestoration": null,
       "id": "114334c01aa87b660788dbcd897dba52abaccf25d73a80313b285103c5d75502",
       "island": null,
       "locations": [
@@ -5438,6 +5463,34 @@
       "reportedCustomersRestored": 0,
       "sourceStatus": "Predicted",
       "startedAt": "2026-11-26T00:30:58Z",
+      "verified": false,
+      "workStatus": null
+    },
+    {
+      "cause": null,
+      "crewAssigned": false,
+      "endedAt": null,
+      "estimatedRestoration": null,
+      "id": "4761214043bdcb522b1c2c7b58500034a2c008ae1f468d14f2dafbfaac86475d",
+      "island": null,
+      "locations": [
+        "3M BAKKERO",
+        "BAKKERO 3A-2-REMAINDER",
+        "BAKKERO 3C",
+        "BAKKERO 3L FLAG HILL"
+      ],
+      "modifiedAt": "2026-11-26T00:40:03Z",
+      "name": "T-T-14640",
+      "neighborhoodIDs": [],
+      "point": {
+        "latitude": 18.327975674240342,
+        "longitude": -64.91384419899413
+      },
+      "reportedCustomersInitially": 4,
+      "reportedCustomersOut": 4,
+      "reportedCustomersRestored": 0,
+      "sourceStatus": "Predicted",
+      "startedAt": "2026-11-26T00:39:34Z",
       "verified": false,
       "workStatus": null
     },
@@ -10950,6 +11003,44 @@
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
+      "id": "b728f3d9bfc1ad9a671dd5bcb831b3216db306208e952b2147da9cae27347879",
+      "island": null,
+      "locations": [
+        "EST THOMAS 14E 6",
+        "EST THOMAS 14NJ A-1",
+        "EST THOMAS 14NP",
+        "EST THOMAS 14NP 3FL APT-5",
+        "EST THOMAS 14NP APT 2",
+        "EST THOMAS 14NP-18 6E A-3",
+        "EST THOMAS 14NQ 6E",
+        "EST THOMAS 14NQ-6E",
+        "EST THOMAS 14PI",
+        "EST THOMAS 14PI (EL)",
+        "EST THOMAS 14PI APT-1",
+        "EST THOMAS 14PL (EL)",
+        "EST THOMAS 14PL APT-7",
+        "ESTATE THOMAS 14NQ-6E"
+      ],
+      "modifiedAt": "2026-11-26T00:36:42Z",
+      "name": "T-T-15855",
+      "neighborhoodIDs": [],
+      "point": {
+        "latitude": 18.33546038779535,
+        "longitude": -64.91060845401466
+      },
+      "reportedCustomersInitially": 22,
+      "reportedCustomersOut": 22,
+      "reportedCustomersRestored": 0,
+      "sourceStatus": "Predicted",
+      "startedAt": "2026-11-26T00:36:31Z",
+      "verified": false,
+      "workStatus": null
+    },
+    {
+      "cause": null,
+      "crewAssigned": false,
+      "endedAt": null,
+      "estimatedRestoration": null,
       "id": "ba4b5e2ab7b2e756d5ed768cc14489bd013ffe383e9982bf7b28251612f99371",
       "island": null,
       "locations": [
@@ -11172,7 +11263,7 @@
       "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-26T00:40:38Z",
+  "generatedAt": "2026-11-26T00:45:39Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -12410,21 +12501,21 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "2213ece479d66c8c6cce8ca83053dd538e89c712af715457a87faa74cc492c0e",
+  "snapshotID": "7dc25e86e4e81966ee774edb11d4463ef9ecabb36e866c22954f25314db6bcc2",
   "source": {
-    "checkedAt": "2026-11-26T00:40:38Z",
+    "checkedAt": "2026-11-26T00:45:39Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-26T00:36:08Z",
+    "updatedAt": "2026-11-26T00:41:09Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "sourceSummary": {
     "customerCountDifference": 2,
-    "customersAffected": 13301,
-    "customersOut": 13301,
+    "customersAffected": 13329,
+    "customersOut": 13329,
     "customersRestored": 0,
     "customersServed": 54729,
-    "eventCustomersOut": 13299,
+    "eventCustomersOut": 13327,
     "hourlyCustomersOut": [
       {
         "at": "2026-11-24T00:00:00Z",
@@ -12708,6 +12799,7 @@
       "3FD & FE ESTATE ENIGHED",
       "3FD &3FE",
       "3FD CRUZ BAY APT# 2",
+      "3M BAKKERO",
       "3M-1A ESTATE ST PETER",
       "3M-1A ST PETER MTR 1",
       "3R -1-2 ESTATE MARIENDAHL",
@@ -14378,6 +14470,10 @@
       "B 1 CAROLINA",
       "B 1 REM GIFT & REGENBACK",
       "B A SAPPHIRE BAY",
+      "BAKKERO 3A-2-REMAINDER",
+      "BAKKERO 3C",
+      "BAKKERO 3L FLAG HILL",
+      "BAKKERO 3-S",
       "BARBADOS 201-E SAPP",
       "BARBADOS 202-E SAPP CONDO",
       "BARBADOS 205A SAPP VIL",
@@ -17586,6 +17682,19 @@
       "EST ST. PETER 5C-1-B",
       "EST STAABI 6",
       "EST SUSANNABERG 7B & 7C",
+      "EST THOMAS 14E 6",
+      "EST THOMAS 14NJ A-1",
+      "EST THOMAS 14NP",
+      "EST THOMAS 14NP 3FL APT-5",
+      "EST THOMAS 14NP APT 2",
+      "EST THOMAS 14NP-18 6E A-3",
+      "EST THOMAS 14NQ 6E",
+      "EST THOMAS 14NQ-6E",
+      "EST THOMAS 14PI",
+      "EST THOMAS 14PI (EL)",
+      "EST THOMAS 14PI APT-1",
+      "EST THOMAS 14PL (EL)",
+      "EST THOMAS 14PL APT-7",
       "EST THOMAS 39 1ST AVE",
       "EST THOMAS 41",
       "EST THOMAS 5A-5B",
@@ -18274,6 +18383,7 @@
       "ESTATE ST PETER 9H & 9J",
       "ESTATE ST. PETER 3CD-B",
       "ESTATE SUSANNABERG",
+      "ESTATE THOMAS 14NQ-6E",
       "ESTATE THOMAS 4 REM",
       "ESTATE TUTU 129-23",
       "ESTATE TUTU 146-111",
@@ -23102,8 +23212,8 @@
       "ZUERIENDENHEIT",
       "ZUFRIDENHEIT 1"
     ],
-    "totalOutages": 27
+    "totalOutages": 30
   },
   "staleAfterSeconds": 900,
-  "unassignedEventCount": 24
+  "unassignedEventCount": 27
 }
