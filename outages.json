@@ -424,6 +424,44 @@
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
+      "id": "eb2f2749f60d3c91b44f2ba8d0af8362e5bed16ce4b24ec3891479499a88dc4f",
+      "island": null,
+      "locations": [
+        "HOSPITAL GROUND",
+        "HOSPITAL GROUND 219 MTR-2",
+        "HOSPITAL GROUND 221",
+        "HOSPITAL GROUND 235",
+        "HOSPITAL GROUND 303",
+        "HOSPITAL GROUND 303 B-5",
+        "HOSPITAL GROUND 303A B-5",
+        "HOSPITAL GROUND 303A-30",
+        "HOSPITAL GROUND 303A-31",
+        "HOSPITAL GROUND 303A-32",
+        "HOSPITAL GROUND 303A-33 B",
+        "HOSPITAL GROUND 303A-34",
+        "HOSPITAL GROUND 303A-K",
+        "HOSPITAL GROUND 303A-L"
+      ],
+      "modifiedAt": "2026-11-26T10:44:05Z",
+      "name": "T-T-09041",
+      "neighborhoodIDs": [],
+      "point": {
+        "latitude": 18.34744150281641,
+        "longitude": -64.92753683217788
+      },
+      "reportedCustomersInitially": 17,
+      "reportedCustomersOut": 17,
+      "reportedCustomersRestored": 0,
+      "sourceStatus": "Predicted",
+      "startedAt": "2026-11-26T10:43:31Z",
+      "verified": false,
+      "workStatus": null
+    },
+    {
+      "cause": null,
+      "crewAssigned": false,
+      "endedAt": null,
+      "estimatedRestoration": null,
       "id": "ec5bb6db45e6040e80461a0d91762d687660b7619bcead18876d73a3b365a585",
       "island": null,
       "locations": [
@@ -481,7 +519,7 @@
       "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-26T10:46:08Z",
+  "generatedAt": "2026-11-26T10:51:10Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -610,21 +648,21 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "8df30f432118fd8c8b9616b256486d411c4cc41d6a52028fed2d1c0212c78613",
+  "snapshotID": "d76c28473f756bee578d63de06d51ce44a321ab0120e29828247c41e05cba447",
   "source": {
-    "checkedAt": "2026-11-26T10:46:08Z",
+    "checkedAt": "2026-11-26T10:51:10Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-26T10:41:06Z",
+    "updatedAt": "2026-11-26T10:51:05Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "sourceSummary": {
     "customerCountDifference": 2,
-    "customersAffected": 94,
-    "customersOut": 94,
+    "customersAffected": 111,
+    "customersOut": 111,
     "customersRestored": 0,
     "customersServed": 54729,
-    "eventCustomersOut": 92,
+    "eventCustomersOut": 109,
     "hourlyCustomersOut": [
       {
         "at": "2026-11-24T10:00:00Z",
@@ -820,7 +858,7 @@
       },
       {
         "at": "2026-11-26T10:00:00Z",
-        "customersOut": 92
+        "customersOut": 109
       }
     ],
     "locations": [
@@ -861,6 +899,20 @@
       "HOPE & CARTON EST 36",
       "HOPE & CARTON HILL 38",
       "HOPE & CARTON HILL 39",
+      "HOSPITAL GROUND",
+      "HOSPITAL GROUND 219 MTR-2",
+      "HOSPITAL GROUND 221",
+      "HOSPITAL GROUND 235",
+      "HOSPITAL GROUND 303",
+      "HOSPITAL GROUND 303 B-5",
+      "HOSPITAL GROUND 303A B-5",
+      "HOSPITAL GROUND 303A-30",
+      "HOSPITAL GROUND 303A-31",
+      "HOSPITAL GROUND 303A-32",
+      "HOSPITAL GROUND 303A-33 B",
+      "HOSPITAL GROUND 303A-34",
+      "HOSPITAL GROUND 303A-K",
+      "HOSPITAL GROUND 303A-L",
       "LERKENLUND 1-2",
       "LERKENLUND 1-2 UP",
       "LERKENLUND 5C",
@@ -908,8 +960,8 @@
       "SUBBASE 72 INSPECTION LN",
       "VICOP LAND 460"
     ],
-    "totalOutages": 16
+    "totalOutages": 17
   },
   "staleAfterSeconds": 900,
-  "unassignedEventCount": 14
+  "unassignedEventCount": 15
 }
