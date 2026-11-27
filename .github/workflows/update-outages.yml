@@ -15,7 +15,8 @@ concurrency:
 
 jobs:
   collect:
-    if: github.repository == 'dezigod/crowdcast-outage-feed' && github.ref == 'refs/heads/main' && vars.COLLECTION_ENABLED == 'true'
+    # Temporary owner-requested collection pause. Restore by reverting this commit.
+    if: ${{ false }}
     runs-on: ubuntu-latest
     timeout-minutes: 5
     steps:
