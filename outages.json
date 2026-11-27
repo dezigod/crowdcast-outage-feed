@@ -33,7 +33,7 @@
       "workStatus": null
     },
     {
-      "cause": null,
+      "cause": "000 Power supply",
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
@@ -1331,7 +1331,7 @@
         "WINTBERG PEAK 1CD-6",
         "WINTBERG PEAK 1K"
       ],
-      "modifiedAt": "2026-11-27T00:11:37Z",
+      "modifiedAt": "2026-11-27T00:37:50Z",
       "name": "Feeder 08B",
       "neighborhoodIDs": [
         "stThomas-agnes-fancy",
@@ -1352,7 +1352,7 @@
       "workStatus": null
     },
     {
-      "cause": null,
+      "cause": "000 Power supply",
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
@@ -2695,7 +2695,7 @@
         "VESSUP BAY EST 9-39",
         "VESSUP LANE 9A-19"
       ],
-      "modifiedAt": "2026-11-27T00:10:54Z",
+      "modifiedAt": "2026-11-27T00:39:33Z",
       "name": "9D IN WAY 2",
       "neighborhoodIDs": [
         "stThomas-smith-bay"
@@ -2956,6 +2956,36 @@
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
+      "id": "b96a8bc528db7d28e89db6e4c7a9673c7fbc405e710f7b631e70a7c8c89418bd",
+      "island": null,
+      "locations": [
+        "COTTON VALLEY 25",
+        "HOPE & CARTON 28",
+        "HOPE & CARTON 34",
+        "HOPE & CARTON EST 36",
+        "HOPE & CARTON HILL 38",
+        "HOPE & CARTON HILL 39"
+      ],
+      "modifiedAt": "2026-11-27T00:40:37Z",
+      "name": "T-C-01685",
+      "neighborhoodIDs": [],
+      "point": {
+        "latitude": 17.74725656730743,
+        "longitude": -64.62124642405787
+      },
+      "reportedCustomersInitially": 7,
+      "reportedCustomersOut": 7,
+      "reportedCustomersRestored": 0,
+      "sourceStatus": "Predicted",
+      "startedAt": "2026-11-27T00:40:04Z",
+      "verified": false,
+      "workStatus": null
+    },
+    {
+      "cause": null,
+      "crewAssigned": false,
+      "endedAt": null,
+      "estimatedRestoration": null,
       "id": "c7b80d25670ea3b17ed3aea287ad85ec06e6453b0f78cf474e0ea8fb0c16679a",
       "island": null,
       "locations": [
@@ -3102,7 +3132,7 @@
       "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-27T00:40:37Z",
+  "generatedAt": "2026-11-27T00:45:39Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -3722,25 +3752,25 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "1e6bb12f951a4d48b6411fe366b0e7fc577cc5e12388136afe028643f99cd6c0",
+  "snapshotID": "83c69cccadc10666c458e731834e509992ad7a961a11cc3b54346e5067daf706",
   "source": {
-    "checkedAt": "2026-11-27T00:40:37Z",
+    "checkedAt": "2026-11-27T00:45:39Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-27T00:36:07Z",
+    "updatedAt": "2026-11-27T00:41:07Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "sourceSummary": {
     "customerCountDifference": 2,
-    "customersAffected": 3399,
-    "customersOut": 3399,
+    "customersAffected": 3406,
+    "customersOut": 3406,
     "customersRestored": 0,
     "customersServed": 54729,
-    "eventCustomersOut": 3397,
+    "eventCustomersOut": 3404,
     "hourlyCustomersOut": [
       {
         "at": "2026-11-25T00:00:00Z",
-        "customersOut": 28466
+        "customersOut": 27395
       },
       {
         "at": "2026-11-25T01:00:00Z",
@@ -3932,7 +3962,7 @@
       },
       {
         "at": "2026-11-27T00:00:00Z",
-        "customersOut": 7226
+        "customersOut": 7233
       }
     ],
     "locations": [
@@ -4127,6 +4157,7 @@
       "COMMANDANT GADE 7A",
       "CONTANT 4-D",
       "CONTANT TOWERS BLDG-A",
+      "COTTON VALLEY 25",
       "COWPET BAY",
       "COWPET BAY EAST",
       "COWPET BAY TENNIS SHOP",
@@ -4982,6 +5013,11 @@
       "GRUNWALD 1-1-5 (APT 3)",
       "GRUNWALD 1-2-3",
       "HGHWAY LGHT BOYSCOUT BLDG",
+      "HOPE & CARTON 28",
+      "HOPE & CARTON 34",
+      "HOPE & CARTON EST 36",
+      "HOPE & CARTON HILL 38",
+      "HOPE & CARTON HILL 39",
       "HOSPITAL GR",
       "HOSPITAL GR 407-3-407",
       "HOSPITAL GR 407-3-407-1A-",
@@ -6633,8 +6669,8 @@
       "WINTBERG PEAK 1CD-6",
       "WINTBERG PEAK 1K"
     ],
-    "totalOutages": 16
+    "totalOutages": 17
   },
   "staleAfterSeconds": 900,
-  "unassignedEventCount": 13
+  "unassignedEventCount": 14
 }
