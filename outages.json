@@ -2839,6 +2839,34 @@
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
+      "id": "6ab5e17ee3afeb3132f244b2700a43b0e5f3aec7a4c20f7829ea42cf8e3d6276",
+      "island": "stCroix",
+      "locations": [
+        "PMP GARDEN B-1",
+        "PMP GARDEN BLDG-1"
+      ],
+      "modifiedAt": "2026-11-27T00:29:21Z",
+      "name": "T-T-17048",
+      "neighborhoodIDs": [
+        "stCroix-pump-garden"
+      ],
+      "point": {
+        "latitude": 18.33838401876766,
+        "longitude": -64.92096039498092
+      },
+      "reportedCustomersInitially": 9,
+      "reportedCustomersOut": 9,
+      "reportedCustomersRestored": 0,
+      "sourceStatus": "Predicted",
+      "startedAt": "2026-11-27T00:28:58Z",
+      "verified": false,
+      "workStatus": null
+    },
+    {
+      "cause": null,
+      "crewAssigned": false,
+      "endedAt": null,
+      "estimatedRestoration": null,
       "id": "7520e3c5b4ee056e1b1b977e65bcf892b2f5b13f414d529e3fb5dcdc994c8bb8",
       "island": null,
       "locations": [
@@ -2944,7 +2972,7 @@
         "SMITH BAY TRAILER",
         "SMITH BAYR"
       ],
-      "modifiedAt": "2026-11-27T00:15:48Z",
+      "modifiedAt": "2026-11-27T00:28:31Z",
       "name": "T-T-08395",
       "neighborhoodIDs": [
         "stThomas-smith-bay"
@@ -3074,7 +3102,7 @@
       "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-27T00:26:34Z",
+  "generatedAt": "2026-11-27T00:31:36Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -3655,7 +3683,24 @@
       "coverage": "partial",
       "customersOut": null,
       "id": "stCroix",
-      "neighborhoods": []
+      "neighborhoods": [
+        {
+          "affectedCustomers": null,
+          "estimatedRestoration": null,
+          "id": "stCroix-pump-garden",
+          "island": "stCroix",
+          "locations": [
+            "B-1",
+            "Building 1"
+          ],
+          "name": "Pompano / Pump Garden",
+          "sourceEventIDs": [
+            "6ab5e17ee3afeb3132f244b2700a43b0e5f3aec7a4c20f7829ea42cf8e3d6276"
+          ],
+          "sourceStatus": "Predicted",
+          "startedAt": "2026-11-27T00:28:58Z"
+        }
+      ]
     },
     {
       "coverage": "partial",
@@ -3677,21 +3722,21 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "557e6e889a0dbe9af6ea06d1b79ba48add8fc9c117d6e185fb9a955954c51ceb",
+  "snapshotID": "6868d428a4ecd1d417ad87e2cc7e87a1fe25a8781e3b05619cf16229d680b475",
   "source": {
-    "checkedAt": "2026-11-27T00:26:34Z",
+    "checkedAt": "2026-11-27T00:31:36Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-27T00:26:07Z",
+    "updatedAt": "2026-11-27T00:31:07Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "sourceSummary": {
     "customerCountDifference": 2,
-    "customersAffected": 3390,
-    "customersOut": 3390,
+    "customersAffected": 3399,
+    "customersOut": 3399,
     "customersRestored": 0,
     "customersServed": 54729,
-    "eventCustomersOut": 3388,
+    "eventCustomersOut": 3397,
     "hourlyCustomersOut": [
       {
         "at": "2026-11-25T00:00:00Z",
@@ -6187,6 +6232,8 @@
       "PETERBORG MTR DWN",
       "PETERBORGE 10-2-2",
       "PETERBORG-LOWER",
+      "PMP GARDEN B-1",
+      "PMP GARDEN BLDG-1",
       "POLLYBERG",
       "POST OFFICE SQ NORRE GADE",
       "POST OFFICE SQUARE NORRE",
@@ -6586,7 +6633,7 @@
       "WINTBERG PEAK 1CD-6",
       "WINTBERG PEAK 1K"
     ],
-    "totalOutages": 15
+    "totalOutages": 16
   },
   "staleAfterSeconds": 900,
   "unassignedEventCount": 13
