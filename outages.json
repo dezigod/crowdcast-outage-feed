@@ -1899,6 +1899,34 @@
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
+      "id": "a257e4c7ce78e683767d4e1928f1a2b67535b9a36aa756485589ae4ef3987ad5",
+      "island": null,
+      "locations": [
+        "BONNE RESOLUTION 16E-1",
+        "BONNE RESOLUTION 16E-1 DW",
+        "BONNE RESOLUTION 17-4",
+        "BONNE RESOLUTION 17-4-D"
+      ],
+      "modifiedAt": "2026-11-27T10:12:32Z",
+      "name": "T-T-16252",
+      "neighborhoodIDs": [],
+      "point": {
+        "latitude": 18.36688786653744,
+        "longitude": -64.95619803299122
+      },
+      "reportedCustomersInitially": 4,
+      "reportedCustomersOut": 4,
+      "reportedCustomersRestored": 0,
+      "sourceStatus": "Predicted",
+      "startedAt": "2026-11-27T10:12:06Z",
+      "verified": false,
+      "workStatus": null
+    },
+    {
+      "cause": null,
+      "crewAssigned": false,
+      "endedAt": null,
+      "estimatedRestoration": null,
       "id": "a63a0f51c37eea3f8c94929b9ca13b6f851ba1fafa464b2034a117ba79d3162d",
       "island": null,
       "locations": [
@@ -6230,7 +6258,7 @@
       "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-27T10:15:35Z",
+  "generatedAt": "2026-11-27T10:20:36Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -6796,21 +6824,21 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "13400f4a7673075431c6c95ea31fd0656b509869ba9ea575eceef7a68f0bb864",
+  "snapshotID": "db2543293f97c3f65f694e996266c67e6d1d1ae66c48fe2bee36b4119c435111",
   "source": {
-    "checkedAt": "2026-11-27T10:15:35Z",
+    "checkedAt": "2026-11-27T10:20:36Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-27T10:11:49Z",
+    "updatedAt": "2026-11-27T10:16:49Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "sourceSummary": {
     "customerCountDifference": 2,
-    "customersAffected": 7488,
-    "customersOut": 7488,
+    "customersAffected": 7492,
+    "customersOut": 7492,
     "customersRestored": 0,
     "customersServed": 54729,
-    "eventCustomersOut": 7486,
+    "eventCustomersOut": 7490,
     "hourlyCustomersOut": [
       {
         "at": "2026-11-25T10:00:00Z",
@@ -7006,7 +7034,7 @@
       },
       {
         "at": "2026-11-27T10:00:00Z",
-        "customersOut": 7486
+        "customersOut": 7490
       }
     ],
     "locations": [
@@ -7886,6 +7914,10 @@
       "BLACKBEARDS",
       "BLACKBEARDS HILL 100",
       "BLACKBEARDS HILL 1000",
+      "BONNE RESOLUTION 16E-1",
+      "BONNE RESOLUTION 16E-1 DW",
+      "BONNE RESOLUTION 17-4",
+      "BONNE RESOLUTION 17-4-D",
       "BONNE RESOLUTION 4-1",
       "BONNE RESOLUTION 4-4",
       "BONNE RESOLUTION 4-5",
@@ -12455,8 +12487,8 @@
       "ZOOTENVAAL 3L",
       "ZOOTENVAAL 3N*"
     ],
-    "totalOutages": 31
+    "totalOutages": 32
   },
   "staleAfterSeconds": 900,
-  "unassignedEventCount": 26
+  "unassignedEventCount": 27
 }
