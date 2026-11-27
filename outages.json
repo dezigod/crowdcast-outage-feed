@@ -1594,6 +1594,41 @@
       "workStatus": null
     },
     {
+      "cause": null,
+      "crewAssigned": false,
+      "endedAt": null,
+      "estimatedRestoration": null,
+      "id": "7920febf19f7e2c0749de97a2c832159e42939c6b1c8e8b4068cfc14dcb1d4b2",
+      "island": "stThomas",
+      "locations": [
+        "SMITH BAY",
+        "SMITH BAY 18-21 A-1",
+        "SMITH BAY 18-23",
+        "SMITH BAY 18-23 1-B",
+        "SMITH BAY 18-23 HSE/PUMP",
+        "SMITH BAY 18-23 U-1A",
+        "SMITH BAY 18-23 U-2-A",
+        "SMITH BAY 18-3",
+        "SMITH BAY 18-4"
+      ],
+      "modifiedAt": "2026-11-27T09:32:47Z",
+      "name": "T-T-08232",
+      "neighborhoodIDs": [
+        "stThomas-smith-bay"
+      ],
+      "point": {
+        "latitude": 18.327998047483206,
+        "longitude": -64.85162531011511
+      },
+      "reportedCustomersInitially": 9,
+      "reportedCustomersOut": 9,
+      "reportedCustomersRestored": 0,
+      "sourceStatus": "Predicted",
+      "startedAt": "2026-11-27T09:32:20Z",
+      "verified": false,
+      "workStatus": null
+    },
+    {
       "cause": "000 Power supply",
       "crewAssigned": false,
       "endedAt": null,
@@ -5854,7 +5889,7 @@
       "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-27T09:36:26Z",
+  "generatedAt": "2026-11-27T09:41:27Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -6266,14 +6301,23 @@
           "id": "stThomas-smith-bay",
           "island": "stThomas",
           "locations": [
+            "18-21 A-1",
+            "18-23",
+            "18-23 1-B",
+            "18-23 HSE/PUMP",
+            "18-23 U-1A",
+            "18-23 U-2-A",
+            "18-3",
+            "18-4",
             "88C MTR 2"
           ],
           "name": "Smith Bay",
           "sourceEventIDs": [
+            "7920febf19f7e2c0749de97a2c832159e42939c6b1c8e8b4068cfc14dcb1d4b2",
             "b897f8ed529ec9d03a3b90e38c8b92fb20cdf3fd40818dced03a749b694428ce"
           ],
-          "sourceStatus": "Verified",
-          "startedAt": "2026-11-27T02:21:18Z"
+          "sourceStatus": "Unconfirmed",
+          "startedAt": null
         },
         {
           "affectedCustomers": null,
@@ -6389,21 +6433,21 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "0af63d17c4a8f74ca1ebaa80380ccb70eec4bcd037874dcc5432d376d5362a52",
+  "snapshotID": "5faf4372c4a9be91bb1732da308ab53fe7f2db5c3ed1ed1c999c36d375562c79",
   "source": {
-    "checkedAt": "2026-11-27T09:36:26Z",
+    "checkedAt": "2026-11-27T09:41:27Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-27T09:31:49Z",
+    "updatedAt": "2026-11-27T09:36:49Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "sourceSummary": {
     "customerCountDifference": 2,
-    "customersAffected": 7330,
-    "customersOut": 7330,
+    "customersAffected": 7339,
+    "customersOut": 7339,
     "customersRestored": 0,
     "customersServed": 54729,
-    "eventCustomersOut": 7328,
+    "eventCustomersOut": 7337,
     "hourlyCustomersOut": [
       {
         "at": "2026-11-25T09:00:00Z",
@@ -6599,7 +6643,7 @@
       },
       {
         "at": "2026-11-27T09:00:00Z",
-        "customersOut": 7328
+        "customersOut": 7337
       }
     ],
     "locations": [
@@ -11201,6 +11245,15 @@
       "SMALL STRADE",
       "SMALL STRADE 3",
       "SMALL STRADE 5B",
+      "SMITH BAY",
+      "SMITH BAY 18-21 A-1",
+      "SMITH BAY 18-23",
+      "SMITH BAY 18-23 1-B",
+      "SMITH BAY 18-23 HSE/PUMP",
+      "SMITH BAY 18-23 U-1A",
+      "SMITH BAY 18-23 U-2-A",
+      "SMITH BAY 18-3",
+      "SMITH BAY 18-4",
       "SMITH BAY 19-1-2-6",
       "SMITH BAY 88C MTR 2",
       "SNEGEL GADE #7",
@@ -11921,7 +11974,7 @@
       "ZOOTENVAAL 3L",
       "ZOOTENVAAL 3N*"
     ],
-    "totalOutages": 21
+    "totalOutages": 22
   },
   "staleAfterSeconds": 900,
   "unassignedEventCount": 19
