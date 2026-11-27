@@ -155,43 +155,6 @@
       "workStatus": null
     },
     {
-      "cause": null,
-      "crewAssigned": false,
-      "endedAt": null,
-      "estimatedRestoration": null,
-      "id": "7520e3c5b4ee056e1b1b977e65bcf892b2f5b13f414d529e3fb5dcdc994c8bb8",
-      "island": null,
-      "locations": [
-        "CASTLE BURKE 446/TRAILER",
-        "CASTLE BURKE 450",
-        "CASTLE BURKE 461",
-        "CASTLE BURKE S-2 459",
-        "CASTLE BURKE S-2 P-448 EL",
-        "CASTLE BURKE S-2 P-453",
-        "CASTLE BURKE S-2 P-454 EL",
-        "CASTLE BURKE S-2 P-455",
-        "CASTLE BURKE S-2 P-456 EL",
-        "CASTLE BURKE S-2 P-458 EL",
-        "CASTLE BURKE SITE 2 P-462",
-        "CASTLE BURKE STE 2 P-463",
-        "VICOP LAND 460"
-      ],
-      "modifiedAt": "2026-11-25T20:30:23Z",
-      "name": "T-C-20501",
-      "neighborhoodIDs": [],
-      "point": {
-        "latitude": 17.724102323345264,
-        "longitude": -64.79161098389181
-      },
-      "reportedCustomersInitially": 13,
-      "reportedCustomersOut": 13,
-      "reportedCustomersRestored": 0,
-      "sourceStatus": "Verified",
-      "startedAt": "2026-11-25T19:09:40Z",
-      "verified": true,
-      "workStatus": null
-    },
-    {
       "cause": "000 Power supply",
       "crewAssigned": false,
       "endedAt": null,
@@ -1544,7 +1507,7 @@
       "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-27T02:41:11Z",
+  "generatedAt": "2026-11-27T02:46:12Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -1653,21 +1616,21 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "424420ede0debbca6204232ba6086ec1ca2265e401d03e0ac53a27ee5e823fd9",
+  "snapshotID": "c453b18698f9f66be14a70524073afe40318aaf890780cb22ba6ed26050f12cf",
   "source": {
-    "checkedAt": "2026-11-27T02:41:11Z",
+    "checkedAt": "2026-11-27T02:46:12Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-27T02:41:07Z",
+    "updatedAt": "2026-11-27T02:46:07Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "sourceSummary": {
     "customerCountDifference": 2,
-    "customersAffected": 1723,
-    "customersOut": 1723,
+    "customersAffected": 1710,
+    "customersOut": 1710,
     "customersRestored": 0,
     "customersServed": 54729,
-    "eventCustomersOut": 1721,
+    "eventCustomersOut": 1708,
     "hourlyCustomersOut": [
       {
         "at": "2026-11-25T02:00:00Z",
@@ -1763,107 +1726,107 @@
       },
       {
         "at": "2026-11-26T01:00:00Z",
-        "customersOut": 26595
+        "customersOut": 26582
       },
       {
         "at": "2026-11-26T02:00:00Z",
-        "customersOut": 27625
+        "customersOut": 27612
       },
       {
         "at": "2026-11-26T03:00:00Z",
-        "customersOut": 27625
+        "customersOut": 27612
       },
       {
         "at": "2026-11-26T04:00:00Z",
-        "customersOut": 28417
+        "customersOut": 28404
       },
       {
         "at": "2026-11-26T05:00:00Z",
-        "customersOut": 24595
+        "customersOut": 24582
       },
       {
         "at": "2026-11-26T06:00:00Z",
-        "customersOut": 15773
+        "customersOut": 15760
       },
       {
         "at": "2026-11-26T07:00:00Z",
-        "customersOut": 1627
+        "customersOut": 1614
       },
       {
         "at": "2026-11-26T08:00:00Z",
-        "customersOut": 48
+        "customersOut": 35
       },
       {
         "at": "2026-11-26T09:00:00Z",
-        "customersOut": 48
+        "customersOut": 35
       },
       {
         "at": "2026-11-26T10:00:00Z",
-        "customersOut": 48
+        "customersOut": 35
       },
       {
         "at": "2026-11-26T11:00:00Z",
-        "customersOut": 50
+        "customersOut": 37
       },
       {
         "at": "2026-11-26T12:00:00Z",
-        "customersOut": 2495
+        "customersOut": 2482
       },
       {
         "at": "2026-11-26T13:00:00Z",
-        "customersOut": 2496
+        "customersOut": 2483
       },
       {
         "at": "2026-11-26T14:00:00Z",
-        "customersOut": 4850
+        "customersOut": 4837
       },
       {
         "at": "2026-11-26T15:00:00Z",
-        "customersOut": 2412
+        "customersOut": 2399
       },
       {
         "at": "2026-11-26T16:00:00Z",
-        "customersOut": 6732
+        "customersOut": 6719
       },
       {
         "at": "2026-11-26T17:00:00Z",
-        "customersOut": 4378
+        "customersOut": 4365
       },
       {
         "at": "2026-11-26T18:00:00Z",
-        "customersOut": 12159
+        "customersOut": 12146
       },
       {
         "at": "2026-11-26T19:00:00Z",
-        "customersOut": 7839
+        "customersOut": 7826
       },
       {
         "at": "2026-11-26T20:00:00Z",
-        "customersOut": 13048
+        "customersOut": 13035
       },
       {
         "at": "2026-11-26T21:00:00Z",
-        "customersOut": 5267
+        "customersOut": 5254
       },
       {
         "at": "2026-11-26T22:00:00Z",
-        "customersOut": 9112
+        "customersOut": 9099
       },
       {
         "at": "2026-11-26T23:00:00Z",
-        "customersOut": 4965
+        "customersOut": 4952
       },
       {
         "at": "2026-11-27T00:00:00Z",
-        "customersOut": 7233
+        "customersOut": 7220
       },
       {
         "at": "2026-11-27T01:00:00Z",
-        "customersOut": 3395
+        "customersOut": 3382
       },
       {
         "at": "2026-11-27T02:00:00Z",
-        "customersOut": 5030
+        "customersOut": 5017
       }
     ],
     "locations": [
@@ -2089,18 +2052,6 @@
       "BRED GADE 7B (EL)",
       "CARANAGE",
       "CAREENING HOLE (HONDURAS)",
-      "CASTLE BURKE 446/TRAILER",
-      "CASTLE BURKE 450",
-      "CASTLE BURKE 461",
-      "CASTLE BURKE S-2 459",
-      "CASTLE BURKE S-2 P-448 EL",
-      "CASTLE BURKE S-2 P-453",
-      "CASTLE BURKE S-2 P-454 EL",
-      "CASTLE BURKE S-2 P-455",
-      "CASTLE BURKE S-2 P-456 EL",
-      "CASTLE BURKE S-2 P-458 EL",
-      "CASTLE BURKE SITE 2 P-462",
-      "CASTLE BURKE STE 2 P-463",
       "CATHERINEBERG 8",
       "CHAR. AMALIE 26 STE. 235",
       "CHAR. AMALIE SPACE 119 MR",
@@ -2998,7 +2949,6 @@
       "VETERANS DR/MARINE FACILI",
       "VETERANS DRIVE",
       "VETERANS DRIVE POST OFFIC",
-      "VICOP LAND 460",
       "W LEWIS DRIVE/HIGHWAY",
       "WATERFRONT PCL S B- C",
       "WATERFRONT/HIGHWAY & TRAF",
@@ -3016,8 +2966,8 @@
       "WIMMELSKAFTS GADE 6A(RES)",
       "WINDWARD PASSAGE/TRAFFIC"
     ],
-    "totalOutages": 16
+    "totalOutages": 15
   },
   "staleAfterSeconds": 900,
-  "unassignedEventCount": 14
+  "unassignedEventCount": 13
 }
