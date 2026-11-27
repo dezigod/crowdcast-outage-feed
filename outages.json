@@ -2265,31 +2265,6 @@
       "workStatus": null
     },
     {
-      "cause": null,
-      "crewAssigned": false,
-      "endedAt": null,
-      "estimatedRestoration": null,
-      "id": "50e38b9e84d509096c9627d560b73c5935c90a7ac1381246f82c9866d07c77a1",
-      "island": null,
-      "locations": [
-        "CROWNBAY DOCK 168"
-      ],
-      "modifiedAt": "2026-11-27T14:23:34Z",
-      "name": "T-T-16954",
-      "neighborhoodIDs": [],
-      "point": {
-        "latitude": 18.33376914506255,
-        "longitude": -64.95336094363955
-      },
-      "reportedCustomersInitially": 1,
-      "reportedCustomersOut": 1,
-      "reportedCustomersRestored": 0,
-      "sourceStatus": "Predicted",
-      "startedAt": "2026-11-27T13:58:07Z",
-      "verified": false,
-      "workStatus": null
-    },
-    {
       "cause": "000 Power supply",
       "crewAssigned": false,
       "endedAt": null,
@@ -6169,7 +6144,7 @@
       "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-27T15:26:29Z",
+  "generatedAt": "2026-11-27T15:31:32Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -6867,21 +6842,21 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "278f939290081f317cfec07890b55953f715be3d4a4d41d1995a73b53fe90b8b",
+  "snapshotID": "4b5d189f5eead2e741e0e9ad8d10149c828b1b5eaa2ea8dbfa6eb1040eeca911",
   "source": {
-    "checkedAt": "2026-11-27T15:26:29Z",
+    "checkedAt": "2026-11-27T15:31:32Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-27T15:21:50Z",
+    "updatedAt": "2026-11-27T15:26:49Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "sourceSummary": {
     "customerCountDifference": 2,
-    "customersAffected": 7484,
-    "customersOut": 7484,
+    "customersAffected": 7483,
+    "customersOut": 7483,
     "customersRestored": 0,
     "customersServed": 54729,
-    "eventCustomersOut": 7482,
+    "eventCustomersOut": 7481,
     "hourlyCustomersOut": [
       {
         "at": "2026-11-25T15:00:00Z",
@@ -7069,15 +7044,15 @@
       },
       {
         "at": "2026-11-27T13:00:00Z",
-        "customersOut": 10835
+        "customersOut": 10834
       },
       {
         "at": "2026-11-27T14:00:00Z",
-        "customersOut": 15953
+        "customersOut": 15952
       },
       {
         "at": "2026-11-27T15:00:00Z",
-        "customersOut": 8751
+        "customersOut": 8750
       }
     ],
     "locations": [
@@ -8909,7 +8884,6 @@
       "CONTANT/ENIGHED 174 APT B",
       "CONTANT-ENIGHED 280",
       "CROWN BAY 45",
-      "CROWNBAY DOCK 168",
       "CRUZ BAY",
       "CRUZ BAY #3E",
       "CRUZ BAY (TENNIS COURTS)",
@@ -12844,8 +12818,8 @@
       "WINTBERG-TRAILER",
       "WINTHBERG 1-B4 APT 303"
     ],
-    "totalOutages": 16
+    "totalOutages": 15
   },
   "staleAfterSeconds": 900,
-  "unassignedEventCount": 14
+  "unassignedEventCount": 13
 }
