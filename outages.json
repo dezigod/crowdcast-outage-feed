@@ -4132,6 +4132,31 @@
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
+      "id": "90f795c4a65b18f5d02337e3fd5ccb770c5fddb14649125ffbdc74258e3a46d5",
+      "island": null,
+      "locations": [
+        "EST THOMAS WEST 4D-4E"
+      ],
+      "modifiedAt": "2026-11-27T15:26:56Z",
+      "name": "Feeder YH2",
+      "neighborhoodIDs": [],
+      "point": {
+        "latitude": 18.33758189193682,
+        "longitude": -64.92167294812789
+      },
+      "reportedCustomersInitially": 1,
+      "reportedCustomersOut": 1,
+      "reportedCustomersRestored": 0,
+      "sourceStatus": "Verified",
+      "startedAt": "2026-11-27T15:26:52Z",
+      "verified": true,
+      "workStatus": null
+    },
+    {
+      "cause": null,
+      "crewAssigned": false,
+      "endedAt": null,
+      "estimatedRestoration": null,
       "id": "a7622fe5ec3f7460243d64545ddffb42dc3c534b3876e2c938737688abde9c58",
       "island": "stThomas",
       "locations": [
@@ -6144,7 +6169,7 @@
       "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-27T15:31:32Z",
+  "generatedAt": "2026-11-27T15:36:33Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -6842,21 +6867,21 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "4b5d189f5eead2e741e0e9ad8d10149c828b1b5eaa2ea8dbfa6eb1040eeca911",
+  "snapshotID": "bea40db56e044234b685a885206be424687170c7b5dacb13381b298b17443996",
   "source": {
-    "checkedAt": "2026-11-27T15:31:32Z",
+    "checkedAt": "2026-11-27T15:36:33Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-27T15:26:49Z",
+    "updatedAt": "2026-11-27T15:31:49Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "sourceSummary": {
     "customerCountDifference": 2,
-    "customersAffected": 7483,
-    "customersOut": 7483,
+    "customersAffected": 7484,
+    "customersOut": 7484,
     "customersRestored": 0,
     "customersServed": 54729,
-    "eventCustomersOut": 7481,
+    "eventCustomersOut": 7482,
     "hourlyCustomersOut": [
       {
         "at": "2026-11-25T15:00:00Z",
@@ -7052,7 +7077,7 @@
       },
       {
         "at": "2026-11-27T15:00:00Z",
-        "customersOut": 8750
+        "customersOut": 8751
       }
     ],
     "locations": [
@@ -10371,6 +10396,7 @@
       "EST THOMAS UNIT-5",
       "EST THOMAS UNTILITY",
       "EST THOMAS VITRACO B1",
+      "EST THOMAS WEST 4D-4E",
       "EST THOMAS, UNITS 1 & 2",
       "EST THOMAS/HIGHWAY & TRA",
       "EST THOMAS/HIGHWAY & TRAF",
@@ -12818,8 +12844,8 @@
       "WINTBERG-TRAILER",
       "WINTHBERG 1-B4 APT 303"
     ],
-    "totalOutages": 15
+    "totalOutages": 16
   },
   "staleAfterSeconds": 900,
-  "unassignedEventCount": 13
+  "unassignedEventCount": 14
 }
