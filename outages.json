@@ -2699,36 +2699,6 @@
       "workStatus": null
     },
     {
-      "cause": "300 Material or equipment fault/failure",
-      "crewAssigned": false,
-      "endedAt": null,
-      "estimatedRestoration": null,
-      "id": "b96a8bc528db7d28e89db6e4c7a9673c7fbc405e710f7b631e70a7c8c89418bd",
-      "island": null,
-      "locations": [
-        "COTTON VALLEY 25",
-        "HOPE & CARTON 28",
-        "HOPE & CARTON 34",
-        "HOPE & CARTON EST 36",
-        "HOPE & CARTON HILL 38",
-        "HOPE & CARTON HILL 39"
-      ],
-      "modifiedAt": "2026-11-27T03:06:38Z",
-      "name": "T-C-01685",
-      "neighborhoodIDs": [],
-      "point": {
-        "latitude": 17.74725656730743,
-        "longitude": -64.62124642405787
-      },
-      "reportedCustomersInitially": 7,
-      "reportedCustomersOut": 7,
-      "reportedCustomersRestored": 0,
-      "sourceStatus": "Verified",
-      "startedAt": "2026-11-27T00:40:04Z",
-      "verified": true,
-      "workStatus": null
-    },
-    {
       "cause": null,
       "crewAssigned": false,
       "endedAt": null,
@@ -5817,7 +5787,7 @@
       "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-27T04:45:47Z",
+  "generatedAt": "2026-11-27T04:50:48Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -6352,21 +6322,21 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "af2a544490d436cb5e04c37216a39dcf456eca5e4e65bd62cf119c32a848e5cb",
+  "snapshotID": "454a0881a2bc8a05f465372eb707764831f1144839b8cd4a1adf516e22dda516",
   "source": {
-    "checkedAt": "2026-11-27T04:45:47Z",
+    "checkedAt": "2026-11-27T04:50:48Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-27T04:41:09Z",
+    "updatedAt": "2026-11-27T04:46:09Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "sourceSummary": {
     "customerCountDifference": 2,
-    "customersAffected": 7313,
-    "customersOut": 7313,
+    "customersAffected": 7306,
+    "customersOut": 7306,
     "customersRestored": 0,
     "customersServed": 54729,
-    "eventCustomersOut": 7311,
+    "eventCustomersOut": 7304,
     "hourlyCustomersOut": [
       {
         "at": "2026-11-25T04:00:00Z",
@@ -7540,7 +7510,6 @@
       "CONTANT 4-D",
       "CONTANT TOWERS BLDG-A",
       "COREENING HOLE (HONDURAS)",
-      "COTTON VALLEY 25",
       "CROWN BAY",
       "CROWN BAY 1 (CANCRYN)",
       "CROWN BAY 101 BOOTH",
@@ -9204,11 +9173,6 @@
       "HONDURAS PCL 5-H",
       "HONDURAS STT",
       "HONDURAS-SOUTHSIDE QTRS",
-      "HOPE & CARTON 28",
-      "HOPE & CARTON 34",
-      "HOPE & CARTON EST 36",
-      "HOPE & CARTON HILL 38",
-      "HOPE & CARTON HILL 39",
       "HOSPITAL GR",
       "HOSPITAL GR 407-3-407",
       "HOSPITAL GR 407-3-407-1A-",
@@ -11871,8 +11835,8 @@
       "ZOOTENVAAL 3L",
       "ZOOTENVAAL 3N*"
     ],
-    "totalOutages": 20
+    "totalOutages": 19
   },
   "staleAfterSeconds": 900,
-  "unassignedEventCount": 18
+  "unassignedEventCount": 17
 }
