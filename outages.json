@@ -5729,9 +5729,42 @@
       "startedAt": "2026-11-25T16:25:53Z",
       "verified": true,
       "workStatus": null
+    },
+    {
+      "cause": null,
+      "crewAssigned": false,
+      "endedAt": null,
+      "estimatedRestoration": null,
+      "id": "df7b4d33d4c87ac068fe8e32896332d1e156f8d69209c62bda92f6a8906ded99",
+      "island": null,
+      "locations": [
+        "ZOOTENAL #-1",
+        "ZOOTENVAAL 1",
+        "ZOOTENVAAL 3B-2",
+        "ZOOTENVAAL 3C",
+        "ZOOTENVAAL 3-C (WEST)",
+        "ZOOTENVAAL 3D",
+        "ZOOTENVAAL 3E-2",
+        "ZOOTENVAAL 3L",
+        "ZOOTENVAAL 3N*"
+      ],
+      "modifiedAt": "2026-11-27T04:21:46Z",
+      "name": "T-J-00292",
+      "neighborhoodIDs": [],
+      "point": {
+        "latitude": 18.348878074696984,
+        "longitude": -64.70679908793792
+      },
+      "reportedCustomersInitially": 9,
+      "reportedCustomersOut": 9,
+      "reportedCustomersRestored": 0,
+      "sourceStatus": "Predicted",
+      "startedAt": "2026-11-27T04:21:29Z",
+      "verified": false,
+      "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-27T04:25:42Z",
+  "generatedAt": "2026-11-27T04:30:43Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -6266,21 +6299,21 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "beaa953714a4ec79d8eedb147c0f0e2710360a8e1772961bb74c3d8dab3ff353",
+  "snapshotID": "487dd62f2d44f0b794dfaabb429c963629d64107150828228cf64effec362f6c",
   "source": {
-    "checkedAt": "2026-11-27T04:25:42Z",
+    "checkedAt": "2026-11-27T04:30:43Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-27T04:21:09Z",
+    "updatedAt": "2026-11-27T04:26:09Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "sourceSummary": {
     "customerCountDifference": 2,
-    "customersAffected": 7298,
-    "customersOut": 7298,
+    "customersAffected": 7307,
+    "customersOut": 7307,
     "customersRestored": 0,
     "customersServed": 54729,
-    "eventCustomersOut": 7296,
+    "eventCustomersOut": 7305,
     "hourlyCustomersOut": [
       {
         "at": "2026-11-25T04:00:00Z",
@@ -6476,7 +6509,7 @@
       },
       {
         "at": "2026-11-27T04:00:00Z",
-        "customersOut": 7296
+        "customersOut": 7305
       }
     ],
     "locations": [
@@ -11769,10 +11802,19 @@
       "WINTBERG REM 900C-5",
       "WINTBERG REMAINDER I-B4",
       "WINTBERG-TRAILER",
-      "WINTHBERG 1-B4 APT 303"
+      "WINTHBERG 1-B4 APT 303",
+      "ZOOTENAL #-1",
+      "ZOOTENVAAL 1",
+      "ZOOTENVAAL 3B-2",
+      "ZOOTENVAAL 3C",
+      "ZOOTENVAAL 3-C (WEST)",
+      "ZOOTENVAAL 3D",
+      "ZOOTENVAAL 3E-2",
+      "ZOOTENVAAL 3L",
+      "ZOOTENVAAL 3N*"
     ],
-    "totalOutages": 17
+    "totalOutages": 18
   },
   "staleAfterSeconds": 900,
-  "unassignedEventCount": 15
+  "unassignedEventCount": 16
 }
