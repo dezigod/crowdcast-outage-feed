@@ -1,5 +1,5 @@
 {
-  "collectionStatus": "failed",
+  "collectionStatus": "ok",
   "events": [
     {
       "cause": null,
@@ -30,6 +30,33 @@
       "sourceStatus": "Verified",
       "startedAt": "2026-11-18T01:41:31Z",
       "verified": true,
+      "workStatus": null
+    },
+    {
+      "cause": null,
+      "crewAssigned": false,
+      "endedAt": null,
+      "estimatedRestoration": null,
+      "id": "28f1ec25e9fc4a1a273663704921dd09c48685b15fe52595dba4c040c1882bf3",
+      "island": null,
+      "locations": [
+        "FRENCHMAN'S BAY 15-13",
+        "FRENCHMANS BAY 15-23",
+        "FRENCHMAN'S COVE 15-12"
+      ],
+      "modifiedAt": "2026-11-27T07:28:15Z",
+      "name": "T-T-14939",
+      "neighborhoodIDs": [],
+      "point": {
+        "latitude": 18.31629871472316,
+        "longitude": -64.9098436969154
+      },
+      "reportedCustomersInitially": 4,
+      "reportedCustomersOut": 4,
+      "reportedCustomersRestored": 0,
+      "sourceStatus": "Predicted",
+      "startedAt": "2026-11-27T04:47:48Z",
+      "verified": false,
       "workStatus": null
     },
     {
@@ -78,7 +105,7 @@
         "HAULOVER 5D-3-2",
         "HAULOVER END 5-D UP"
       ],
-      "modifiedAt": "2026-11-27T04:06:25Z",
+      "modifiedAt": "2026-11-27T07:28:15Z",
       "name": "T-J-00559",
       "neighborhoodIDs": [],
       "point": {
@@ -1392,7 +1419,7 @@
         "WINTBERG PEAK 1CD-6",
         "WINTBERG PEAK 1K"
       ],
-      "modifiedAt": "2026-11-27T02:59:34Z",
+      "modifiedAt": "2026-11-27T07:28:15Z",
       "name": "Feeder 08B",
       "neighborhoodIDs": [
         "stThomas-agnes-fancy",
@@ -1428,7 +1455,7 @@
         "GRUNWALD 1-1-5 (APT 3)",
         "GRUNWALD 1-2-3"
       ],
-      "modifiedAt": "2026-11-27T02:34:33Z",
+      "modifiedAt": "2026-11-27T07:28:15Z",
       "name": "T-J-00318",
       "neighborhoodIDs": [],
       "point": {
@@ -1476,12 +1503,52 @@
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
+      "id": "5781d04d43cf82ff76a793213d492a115b84f6f3e60c9f4ffdc43f1e4996fad5",
+      "island": null,
+      "locations": [
+        "THOMASVILLE",
+        "THOMASVILLE 5B",
+        "THOMASVILLE 5-C",
+        "THOMASVILLE 5-E B-5",
+        "THOMASVILLE 5-F",
+        "THOMASVILLE 6C",
+        "THOMASVILLE 6-D B-6",
+        "THOMASVILLE 7-C",
+        "THOMASVILLE 7-D",
+        "THOMASVILLE B-5 A-5A",
+        "THOMASVILLE B-6",
+        "THOMASVILLE B-6 A-6",
+        "THOMASVILLE B-6 A-B",
+        "THOMASVILLE B-7 A-E",
+        "THOMASVILLE B-7 A-F",
+        "THOMASVILLE BLDG 6"
+      ],
+      "modifiedAt": "2026-11-27T07:28:15Z",
+      "name": "T-T-14704",
+      "neighborhoodIDs": [],
+      "point": {
+        "latitude": 18.31917311543544,
+        "longitude": -64.89039900634413
+      },
+      "reportedCustomersInitially": 20,
+      "reportedCustomersOut": 20,
+      "reportedCustomersRestored": 0,
+      "sourceStatus": "Predicted",
+      "startedAt": "2026-11-27T04:52:46Z",
+      "verified": false,
+      "workStatus": null
+    },
+    {
+      "cause": null,
+      "crewAssigned": false,
+      "endedAt": null,
+      "estimatedRestoration": null,
       "id": "6376e283bb3ec20c10af94da76b3b78c0b3d6f83bef230a7fdb2725d7de8c950",
       "island": null,
       "locations": [
         "BAKKERO 3-S"
       ],
-      "modifiedAt": "2026-11-27T04:30:03Z",
+      "modifiedAt": "2026-11-27T07:28:15Z",
       "name": "T-T-14463",
       "neighborhoodIDs": [],
       "point": {
@@ -2681,7 +2748,7 @@
         "WIMMELSKAFTS GADE 6A(RES)",
         "WINDWARD PASSAGE/TRAFFIC"
       ],
-      "modifiedAt": "2026-11-27T02:34:08Z",
+      "modifiedAt": "2026-11-27T07:28:15Z",
       "name": "Feeder 06B",
       "neighborhoodIDs": [
         "stThomas-smith-bay"
@@ -5681,7 +5748,7 @@
         "WINTBERG-TRAILER",
         "WINTHBERG 1-B4 APT 303"
       ],
-      "modifiedAt": "2026-11-27T02:59:27Z",
+      "modifiedAt": "2026-11-27T07:28:14Z",
       "name": "Feeder 07B",
       "neighborhoodIDs": [],
       "point": {
@@ -5743,7 +5810,7 @@
         "ZOOTENVAAL 3L",
         "ZOOTENVAAL 3N*"
       ],
-      "modifiedAt": "2026-11-27T04:21:46Z",
+      "modifiedAt": "2026-11-27T07:28:15Z",
       "name": "T-J-00292",
       "neighborhoodIDs": [],
       "point": {
@@ -5771,7 +5838,7 @@
         "BAKKERO 3C",
         "BAKKERO 3L FLAG HILL"
       ],
-      "modifiedAt": "2026-11-27T04:31:02Z",
+      "modifiedAt": "2026-11-27T07:28:15Z",
       "name": "T-T-14640",
       "neighborhoodIDs": [],
       "point": {
@@ -5787,7 +5854,7 @@
       "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-27T04:50:48Z",
+  "generatedAt": "2026-11-27T09:16:16Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -6315,49 +6382,29 @@
       "neighborhoods": []
     }
   ],
-  "lastCollectionError": "Source update could not be verified",
+  "lastCollectionError": null,
   "qualityNotes": [
     "Some source events need island review. Island totals and empty listings may be incomplete.",
     "WAPA\u2019s summary and event customer totals disagree. Customer totals are unconfirmed."
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "454a0881a2bc8a05f465372eb707764831f1144839b8cd4a1adf516e22dda516",
+  "snapshotID": "88c8bd6c16f74f533a354fa649ede23cf9a155149f80d375bb8c1b21ce5e8363",
   "source": {
-    "checkedAt": "2026-11-27T04:50:48Z",
+    "checkedAt": "2026-11-27T09:16:16Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-27T04:46:09Z",
+    "updatedAt": "2026-11-27T09:12:58Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "sourceSummary": {
     "customerCountDifference": 2,
-    "customersAffected": 7306,
-    "customersOut": 7306,
+    "customersAffected": 7330,
+    "customersOut": 7330,
     "customersRestored": 0,
     "customersServed": 54729,
-    "eventCustomersOut": 7304,
+    "eventCustomersOut": 7328,
     "hourlyCustomersOut": [
-      {
-        "at": "2026-11-25T04:00:00Z",
-        "customersOut": 8154
-      },
-      {
-        "at": "2026-11-25T05:00:00Z",
-        "customersOut": 8154
-      },
-      {
-        "at": "2026-11-25T06:00:00Z",
-        "customersOut": 8154
-      },
-      {
-        "at": "2026-11-25T07:00:00Z",
-        "customersOut": 8834
-      },
-      {
-        "at": "2026-11-25T08:00:00Z",
-        "customersOut": 3978
-      },
       {
         "at": "2026-11-25T09:00:00Z",
         "customersOut": 3978
@@ -6532,7 +6579,27 @@
       },
       {
         "at": "2026-11-27T04:00:00Z",
-        "customersOut": 7311
+        "customersOut": 7335
+      },
+      {
+        "at": "2026-11-27T05:00:00Z",
+        "customersOut": 7328
+      },
+      {
+        "at": "2026-11-27T06:00:00Z",
+        "customersOut": 7328
+      },
+      {
+        "at": "2026-11-27T07:00:00Z",
+        "customersOut": 7328
+      },
+      {
+        "at": "2026-11-27T08:00:00Z",
+        "customersOut": 7328
+      },
+      {
+        "at": "2026-11-27T09:00:00Z",
+        "customersOut": 7328
       }
     ],
     "locations": [
@@ -8928,6 +8995,9 @@
       "FORTH CHRISTIAN PARKING L",
       "FREDERICKBERG GADE #1A",
       "FREDRIKBERG 1-A",
+      "FRENCHMAN'S BAY 15-13",
+      "FRENCHMANS BAY 15-23",
+      "FRENCHMAN'S COVE 15-12",
       "FRENCHTOWN B-2",
       "FRT MYLNER SHP CTR",
       "FRYDENDAHL 53-15",
@@ -11440,6 +11510,22 @@
       "THOMAS 7A & 7B B-2 APT-1",
       "THOMAS 9 1ST AVE APT 1",
       "THOMAS VITRACO BLDG-2-4",
+      "THOMASVILLE",
+      "THOMASVILLE 5B",
+      "THOMASVILLE 5-C",
+      "THOMASVILLE 5-E B-5",
+      "THOMASVILLE 5-F",
+      "THOMASVILLE 6C",
+      "THOMASVILLE 6-D B-6",
+      "THOMASVILLE 7-C",
+      "THOMASVILLE 7-D",
+      "THOMASVILLE B-5 A-5A",
+      "THOMASVILLE B-6",
+      "THOMASVILLE B-6 A-6",
+      "THOMASVILLE B-6 A-B",
+      "THOMASVILLE B-7 A-E",
+      "THOMASVILLE B-7 A-F",
+      "THOMASVILLE BLDG 6",
       "TOLBOD GADE EMANCIPATION",
       "TORVET STRADE 6",
       "TROMPETER GADE 1",
@@ -11835,8 +11921,8 @@
       "ZOOTENVAAL 3L",
       "ZOOTENVAAL 3N*"
     ],
-    "totalOutages": 19
+    "totalOutages": 21
   },
   "staleAfterSeconds": 900,
-  "unassignedEventCount": 17
+  "unassignedEventCount": 19
 }
