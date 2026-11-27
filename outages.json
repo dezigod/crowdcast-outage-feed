@@ -2549,49 +2549,6 @@
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
-      "id": "1d73209391dbdf225eef3847a310e6d5e08d152780d8345def28d70ce159b2d8",
-      "island": null,
-      "locations": [
-        "NORDSIDEVEJ 11A MTR-1",
-        "NYE NORDSIDEVEJ",
-        "NYE NORDSIDEVEJ 10",
-        "NYE NORDSIDEVEJ 10 (EL)",
-        "NYE NORDSIDEVEJ 11 & 11A",
-        "NYE NORDSIDEVEJ 11A",
-        "NYE NORDSIDEVEJ 2-A",
-        "NYE NORDSIDEVEJ 2A APT-1",
-        "NYE NORDSIDEVEJ 2A APT-4",
-        "NYE NORDSIDEVEJ 2A APT-5",
-        "NYE NORDSIDEVEJ 3",
-        "NYE NORDSIDEVEJ 3 APT-3",
-        "NYE NORDSIDEVEJ 6",
-        "NYE NORDSIDEVEJ 7B",
-        "PRINCESSE GADE",
-        "PRINCESSE GADE 17",
-        "PRINCESSE GADE 18",
-        "PRINCESSE GADE 19",
-        "PRINCESSE GADE 19 MTR 1"
-      ],
-      "modifiedAt": "2026-11-27T12:14:13Z",
-      "name": "T-T-05830",
-      "neighborhoodIDs": [],
-      "point": {
-        "latitude": 18.341820445386016,
-        "longitude": -64.93837666646405
-      },
-      "reportedCustomersInitially": 35,
-      "reportedCustomersOut": 35,
-      "reportedCustomersRestored": 0,
-      "sourceStatus": "Predicted",
-      "startedAt": "2026-11-27T12:13:42Z",
-      "verified": false,
-      "workStatus": null
-    },
-    {
-      "cause": null,
-      "crewAssigned": false,
-      "endedAt": null,
-      "estimatedRestoration": null,
       "id": "255fc7b256c82093f7095f9926f14be95272dc45152981f5def6e0aa8ebe0f35",
       "island": null,
       "locations": [
@@ -4197,7 +4154,7 @@
         "EST. NAZARETH 8-22",
         "NAZARETH 8-25 DECK POINT"
       ],
-      "modifiedAt": "2026-11-27T11:20:44Z",
+      "modifiedAt": "2026-11-27T13:50:41Z",
       "name": "T-T-13017",
       "neighborhoodIDs": [],
       "point": {
@@ -7094,7 +7051,7 @@
       "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-27T13:50:53Z",
+  "generatedAt": "2026-11-27T13:55:56Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -7876,21 +7833,21 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "ea09876e48b943b260652b56d7b5fa547fb1006ea2ec40ea86857ca96432ddcb",
+  "snapshotID": "657165a6e436441d12838d189533d32cff2d10c870ff6b6a02a505fb25c8099b",
   "source": {
-    "checkedAt": "2026-11-27T13:50:53Z",
+    "checkedAt": "2026-11-27T13:55:56Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-27T13:46:50Z",
+    "updatedAt": "2026-11-27T13:51:50Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "sourceSummary": {
     "customerCountDifference": 2,
-    "customersAffected": 8616,
-    "customersOut": 8616,
+    "customersAffected": 8581,
+    "customersOut": 8581,
     "customersRestored": 0,
     "customersServed": 54729,
-    "eventCustomersOut": 8614,
+    "eventCustomersOut": 8579,
     "hourlyCustomersOut": [
       {
         "at": "2026-11-25T13:00:00Z",
@@ -8082,11 +8039,11 @@
       },
       {
         "at": "2026-11-27T12:00:00Z",
-        "customersOut": 14806
+        "customersOut": 14771
       },
       {
         "at": "2026-11-27T13:00:00Z",
-        "customersOut": 8614
+        "customersOut": 8579
       }
     ],
     "locations": [
@@ -13281,20 +13238,6 @@
       "NISKY 6",
       "NISKY 6 CHARGING STATION",
       "NISKY 6*",
-      "NORDSIDEVEJ 11A MTR-1",
-      "NYE NORDSIDEVEJ",
-      "NYE NORDSIDEVEJ 10",
-      "NYE NORDSIDEVEJ 10 (EL)",
-      "NYE NORDSIDEVEJ 11 & 11A",
-      "NYE NORDSIDEVEJ 11A",
-      "NYE NORDSIDEVEJ 2-A",
-      "NYE NORDSIDEVEJ 2A APT-1",
-      "NYE NORDSIDEVEJ 2A APT-4",
-      "NYE NORDSIDEVEJ 2A APT-5",
-      "NYE NORDSIDEVEJ 3",
-      "NYE NORDSIDEVEJ 3 APT-3",
-      "NYE NORDSIDEVEJ 6",
-      "NYE NORDSIDEVEJ 7B",
       "P PLEASANT BAY",
       "PARCEL 4XE EST FORTUNA",
       "PARCEL 56-7 FRYDENDAHL",
@@ -13417,11 +13360,6 @@
       "POINT PLEASANT",
       "POINT PLEASANT RESORT",
       "POOL PUMP SERVICE",
-      "PRINCESSE GADE",
-      "PRINCESSE GADE 17",
-      "PRINCESSE GADE 18",
-      "PRINCESSE GADE 19",
-      "PRINCESSE GADE 19 MTR 1",
       "RED HOOK 18-7 SUITE 207",
       "RED HOOK 205",
       "RED HOOK CENTER",
@@ -14734,8 +14672,8 @@
       "WEST COND SAPP B-A",
       "WEST SAPPHIRE BAY CONDO"
     ],
-    "totalOutages": 18
+    "totalOutages": 17
   },
   "staleAfterSeconds": 900,
-  "unassignedEventCount": 16
+  "unassignedEventCount": 15
 }
