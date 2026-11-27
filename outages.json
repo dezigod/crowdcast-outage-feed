@@ -33,7 +33,7 @@
       "workStatus": null
     },
     {
-      "cause": null,
+      "cause": "000 Power supply",
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
@@ -2159,7 +2159,7 @@
         "SUZANNABERG 2-3 HOUSE",
         "VIRGIN GRAND EST #71"
       ],
-      "modifiedAt": "2026-11-27T14:10:40Z",
+      "modifiedAt": "2026-11-27T14:46:02Z",
       "name": "Feeder 09E",
       "neighborhoodIDs": [
         "stThomas-lovenlund"
@@ -2333,7 +2333,7 @@
       "workStatus": null
     },
     {
-      "cause": null,
+      "cause": "000 Power supply",
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
@@ -2835,7 +2835,7 @@
         "NORTH ESTATE BOVONI",
         "TABOR & HARMONY 4-14A UP"
       ],
-      "modifiedAt": "2026-11-27T14:17:28Z",
+      "modifiedAt": "2026-11-27T14:46:08Z",
       "name": "BOVONI OUT WAY 3",
       "neighborhoodIDs": [],
       "point": {
@@ -2851,7 +2851,7 @@
       "workStatus": null
     },
     {
-      "cause": null,
+      "cause": "000 Power supply",
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
@@ -3911,7 +3911,7 @@
         "WATERGATE VILLA B16",
         "WATERGATE VILLA SECTION 6"
       ],
-      "modifiedAt": "2026-11-27T12:23:49Z",
+      "modifiedAt": "2026-11-27T14:45:47Z",
       "name": "WICO 10B out Way 2",
       "neighborhoodIDs": [],
       "point": {
@@ -3957,7 +3957,7 @@
       "workStatus": null
     },
     {
-      "cause": null,
+      "cause": "000 Power supply",
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
@@ -5016,7 +5016,7 @@
         "WHEATLEY SHOPPING CTR",
         "WHEATLEYS SHOPPING CTR"
       ],
-      "modifiedAt": "2026-11-27T14:11:07Z",
+      "modifiedAt": "2026-11-27T14:45:57Z",
       "name": "Feeder 07B",
       "neighborhoodIDs": [
         "stCroix-pump-garden"
@@ -5034,7 +5034,7 @@
       "workStatus": null
     },
     {
-      "cause": null,
+      "cause": "000 Power supply",
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
@@ -5256,7 +5256,7 @@
         "SUGAR ESTATE 8-10-12",
         "TAARNEBERG 100-1B"
       ],
-      "modifiedAt": "2026-11-27T14:36:18Z",
+      "modifiedAt": "2026-11-27T14:46:12Z",
       "name": "Feeder 09B",
       "neighborhoodIDs": [],
       "point": {
@@ -5324,7 +5324,7 @@
       "workStatus": null
     },
     {
-      "cause": null,
+      "cause": "000 Power supply",
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
@@ -7172,7 +7172,7 @@
         "WINTBERG-TRAILER",
         "WINTHBERG 1-B4 APT 303"
       ],
-      "modifiedAt": "2026-11-27T13:59:27Z",
+      "modifiedAt": "2026-11-27T14:45:52Z",
       "name": "TSW-7B-9C-MASA-B",
       "neighborhoodIDs": [
         "stThomas-donoe",
@@ -7346,7 +7346,7 @@
       "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-27T14:46:15Z",
+  "generatedAt": "2026-11-27T14:51:17Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -8044,11 +8044,11 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "b297bb661ec74bd4c6575c6ece5672312ce82bbc9bb53b75ee566774ff23d062",
+  "snapshotID": "904fc2b886f55516ed2e5897c060db2dcf635def40990d8b53f02a76684234e7",
   "source": {
-    "checkedAt": "2026-11-27T14:46:15Z",
+    "checkedAt": "2026-11-27T14:51:17Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-27T14:41:49Z",
+    "updatedAt": "2026-11-27T14:46:50Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
@@ -8062,7 +8062,7 @@
     "hourlyCustomersOut": [
       {
         "at": "2026-11-25T14:00:00Z",
-        "customersOut": 15520
+        "customersOut": 11628
       },
       {
         "at": "2026-11-25T15:00:00Z",
