@@ -70,37 +70,6 @@
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
-      "id": "3100f0eac97b13c8147d02c21bbc4c6c1249e9733fb83b2b163cf45845e6604f",
-      "island": null,
-      "locations": [
-        "EST GRUNWALD # 1-1-3",
-        "ESTATE GRUNWALD 1-1-6",
-        "GRUNWALD 1-1-1",
-        "GRUNWALD 1-1-5 (APT 1)",
-        "GRUNWALD 1-1-5 (APT 2)",
-        "GRUNWALD 1-1-5 (APT 3)",
-        "GRUNWALD 1-2-3"
-      ],
-      "modifiedAt": "2026-11-27T07:28:15Z",
-      "name": "T-J-00318",
-      "neighborhoodIDs": [],
-      "point": {
-        "latitude": 18.334950651369784,
-        "longitude": -64.77772023010758
-      },
-      "reportedCustomersInitially": 7,
-      "reportedCustomersOut": 7,
-      "reportedCustomersRestored": 0,
-      "sourceStatus": "Predicted",
-      "startedAt": "2026-11-26T22:57:07Z",
-      "verified": false,
-      "workStatus": null
-    },
-    {
-      "cause": null,
-      "crewAssigned": false,
-      "endedAt": null,
-      "estimatedRestoration": null,
       "id": "33a3d2f2a7010e14be4bfe5e5644e69747015f977655363b758a8fa000b5dd11",
       "island": null,
       "locations": [
@@ -5066,7 +5035,7 @@
       "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-27T11:56:13Z",
+  "generatedAt": "2026-11-27T12:01:14Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -5753,21 +5722,21 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "c3dfe8f3b1b1b4181c7d698a9368c362f41fd87b39ccb8fa5126194390c7f59a",
+  "snapshotID": "02a0014397e00f026d91bc37a3bd3f1fb09185f5006c3335c16315d8043384dc",
   "source": {
-    "checkedAt": "2026-11-27T11:56:13Z",
+    "checkedAt": "2026-11-27T12:01:14Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-27T11:51:49Z",
+    "updatedAt": "2026-11-27T11:56:48Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "sourceSummary": {
     "customerCountDifference": 2,
-    "customersAffected": 6300,
-    "customersOut": 6300,
+    "customersAffected": 6293,
+    "customersOut": 6293,
     "customersRestored": 0,
     "customersServed": 54729,
-    "eventCustomersOut": 6298,
+    "eventCustomersOut": 6291,
     "hourlyCustomersOut": [
       {
         "at": "2026-11-25T11:00:00Z",
@@ -5911,59 +5880,59 @@
       },
       {
         "at": "2026-11-26T22:00:00Z",
-        "customersOut": 9099
+        "customersOut": 9092
       },
       {
         "at": "2026-11-26T23:00:00Z",
-        "customersOut": 4952
+        "customersOut": 4945
       },
       {
         "at": "2026-11-27T00:00:00Z",
-        "customersOut": 7220
+        "customersOut": 7213
       },
       {
         "at": "2026-11-27T01:00:00Z",
-        "customersOut": 3382
+        "customersOut": 3375
       },
       {
         "at": "2026-11-27T02:00:00Z",
-        "customersOut": 8913
+        "customersOut": 8906
       },
       {
         "at": "2026-11-27T03:00:00Z",
-        "customersOut": 7292
+        "customersOut": 7285
       },
       {
         "at": "2026-11-27T04:00:00Z",
-        "customersOut": 9941
+        "customersOut": 9934
       },
       {
         "at": "2026-11-27T05:00:00Z",
-        "customersOut": 4336
+        "customersOut": 4329
       },
       {
         "at": "2026-11-27T06:00:00Z",
-        "customersOut": 4336
+        "customersOut": 4329
       },
       {
         "at": "2026-11-27T07:00:00Z",
-        "customersOut": 6412
+        "customersOut": 6405
       },
       {
         "at": "2026-11-27T08:00:00Z",
-        "customersOut": 3712
+        "customersOut": 3705
       },
       {
         "at": "2026-11-27T09:00:00Z",
-        "customersOut": 7597
+        "customersOut": 7590
       },
       {
         "at": "2026-11-27T10:00:00Z",
-        "customersOut": 8371
+        "customersOut": 8364
       },
       {
         "at": "2026-11-27T11:00:00Z",
-        "customersOut": 6298
+        "customersOut": 6291
       }
     ],
     "locations": [
@@ -7707,7 +7676,6 @@
       "EST ELIZABETH REM #6",
       "EST FRYDENHOJ 1-2 MTR-C",
       "EST FRYDENHOJ 12F",
-      "EST GRUNWALD # 1-1-3",
       "EST HONDURAS 30-4",
       "EST HULL",
       "EST HULL #14-A",
@@ -8001,7 +7969,6 @@
       "ESTATE ELIZABETH 5-1",
       "ESTATE ELIZABETH 7A MTR-A",
       "ESTATE ELIZABETH 7A MTR-B",
-      "ESTATE GRUNWALD 1-1-6",
       "ESTATE HULL",
       "ESTATE HULL 11DA-4",
       "ESTATE HULL 11-F",
@@ -8152,11 +8119,6 @@
       "GENERAL GADE 8",
       "GRIFFITH BALL PARKING",
       "GRIFFITH PARK PKING LOT",
-      "GRUNWALD 1-1-1",
-      "GRUNWALD 1-1-5 (APT 1)",
-      "GRUNWALD 1-1-5 (APT 2)",
-      "GRUNWALD 1-1-5 (APT 3)",
-      "GRUNWALD 1-2-3",
       "GUAVA ST A4 (MAIN STREE)",
       "GUSTAVE QUETEL FISH HOUSE",
       "GUTTETS GADE 4",
@@ -10591,8 +10553,8 @@
       "ZUERIENDENHEIT",
       "ZUFRIDENHEIT 1"
     ],
-    "totalOutages": 17
+    "totalOutages": 16
   },
   "staleAfterSeconds": 900,
-  "unassignedEventCount": 15
+  "unassignedEventCount": 14
 }
