@@ -2660,7 +2660,7 @@
         "HOPE & CARTON HILL 38",
         "HOPE & CARTON HILL 39"
       ],
-      "modifiedAt": "2026-11-27T01:05:38Z",
+      "modifiedAt": "2026-11-27T03:05:26Z",
       "name": "T-C-01685",
       "neighborhoodIDs": [],
       "point": {
@@ -2670,47 +2670,9 @@
       "reportedCustomersInitially": 7,
       "reportedCustomersOut": 7,
       "reportedCustomersRestored": 0,
-      "sourceStatus": "Predicted",
+      "sourceStatus": "Verified",
       "startedAt": "2026-11-27T00:40:04Z",
-      "verified": false,
-      "workStatus": null
-    },
-    {
-      "cause": null,
-      "crewAssigned": false,
-      "endedAt": null,
-      "estimatedRestoration": null,
-      "id": "c7b80d25670ea3b17ed3aea287ad85ec06e6453b0f78cf474e0ea8fb0c16679a",
-      "island": null,
-      "locations": [
-        "SMITH BAY",
-        "SMITH BAY 57",
-        "SMITH BAY 57-117C",
-        "SMITH BAY 57T-4A",
-        "SMITH BAY 57X-1",
-        "SMITH BAY 57X-32",
-        "SMITH BAY 57X-55",
-        "SMITH BAY 57X-69 MTR 2",
-        "SMITH BAY 57X-69 MTR1",
-        "SMITH BAY 87",
-        "SMITH BAY TRAILER",
-        "SMITH BAYR"
-      ],
-      "modifiedAt": "2026-11-27T00:28:31Z",
-      "name": "T-T-08395",
-      "neighborhoodIDs": [
-        "stThomas-smith-bay"
-      ],
-      "point": {
-        "latitude": 18.343711390300598,
-        "longitude": -64.87233350773809
-      },
-      "reportedCustomersInitially": 14,
-      "reportedCustomersOut": 14,
-      "reportedCustomersRestored": 0,
-      "sourceStatus": "Predicted",
-      "startedAt": "2026-11-27T00:15:12Z",
-      "verified": false,
+      "verified": true,
       "workStatus": null
     },
     {
@@ -5741,7 +5703,7 @@
       "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-27T03:01:17Z",
+  "generatedAt": "2026-11-27T03:06:19Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -6153,25 +6115,14 @@
           "id": "stThomas-smith-bay",
           "island": "stThomas",
           "locations": [
-            "57",
-            "57-117C",
-            "57T-4A",
-            "57X-1",
-            "57X-32",
-            "57X-55",
-            "57X-69 MTR 2",
-            "57X-69 MTR1",
-            "87",
-            "88C MTR 2",
-            "TRAILER"
+            "88C MTR 2"
           ],
           "name": "Smith Bay",
           "sourceEventIDs": [
-            "b897f8ed529ec9d03a3b90e38c8b92fb20cdf3fd40818dced03a749b694428ce",
-            "c7b80d25670ea3b17ed3aea287ad85ec06e6453b0f78cf474e0ea8fb0c16679a"
+            "b897f8ed529ec9d03a3b90e38c8b92fb20cdf3fd40818dced03a749b694428ce"
           ],
-          "sourceStatus": "Unconfirmed",
-          "startedAt": null
+          "sourceStatus": "Verified",
+          "startedAt": "2026-11-27T02:21:18Z"
         },
         {
           "affectedCustomers": null,
@@ -6287,25 +6238,25 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "91f8e9a06014471a8e8dfbbe0bb391a9ef29b48aaff4ca290cc9c0ece0a2a963",
+  "snapshotID": "7485d8d918960ac32b6ba25542a821f5ef5147605c05ca5a356f8787720780d0",
   "source": {
-    "checkedAt": "2026-11-27T03:01:17Z",
+    "checkedAt": "2026-11-27T03:06:19Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-27T03:01:10Z",
+    "updatedAt": "2026-11-27T03:06:09Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "sourceSummary": {
     "customerCountDifference": 2,
-    "customersAffected": 7308,
-    "customersOut": 7308,
+    "customersAffected": 7294,
+    "customersOut": 7294,
     "customersRestored": 0,
     "customersServed": 54729,
-    "eventCustomersOut": 7306,
+    "eventCustomersOut": 7292,
     "hourlyCustomersOut": [
       {
         "at": "2026-11-25T03:00:00Z",
-        "customersOut": 22663
+        "customersOut": 19263
       },
       {
         "at": "2026-11-25T04:00:00Z",
@@ -6497,7 +6448,7 @@
       },
       {
         "at": "2026-11-27T03:00:00Z",
-        "customersOut": 7306
+        "customersOut": 7292
       }
     ],
     "locations": [
@@ -11093,20 +11044,8 @@
       "SMALL STRADE",
       "SMALL STRADE 3",
       "SMALL STRADE 5B",
-      "SMITH BAY",
       "SMITH BAY 19-1-2-6",
-      "SMITH BAY 57",
-      "SMITH BAY 57-117C",
-      "SMITH BAY 57T-4A",
-      "SMITH BAY 57X-1",
-      "SMITH BAY 57X-32",
-      "SMITH BAY 57X-55",
-      "SMITH BAY 57X-69 MTR 2",
-      "SMITH BAY 57X-69 MTR1",
-      "SMITH BAY 87",
       "SMITH BAY 88C MTR 2",
-      "SMITH BAY TRAILER",
-      "SMITH BAYR",
       "SNEGEL GADE #7",
       "SNEGEL GADE DWN",
       "SNEGLE GADE",
@@ -11800,8 +11739,8 @@
       "WINTBERG-TRAILER",
       "WINTHBERG 1-B4 APT 303"
     ],
-    "totalOutages": 17
+    "totalOutages": 16
   },
   "staleAfterSeconds": 900,
-  "unassignedEventCount": 15
+  "unassignedEventCount": 14
 }
