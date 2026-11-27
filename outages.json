@@ -81,7 +81,7 @@
         "GRUNWALD 1-1-5 (APT 3)",
         "GRUNWALD 1-2-3"
       ],
-      "modifiedAt": "2026-11-26T22:57:28Z",
+      "modifiedAt": "2026-11-27T02:34:33Z",
       "name": "T-J-00318",
       "neighborhoodIDs": [],
       "point": {
@@ -192,6 +192,47 @@
       "workStatus": null
     },
     {
+      "cause": "000 Power supply",
+      "crewAssigned": false,
+      "endedAt": null,
+      "estimatedRestoration": null,
+      "id": "9be846c98e103356cfce69d152f3e2c1aaaf501659aff111af3244306ae18d82",
+      "island": null,
+      "locations": [
+        "ANNAS RETREAT 10 S",
+        "CHAR. AMALIE 26 STE. 235",
+        "CHAR. AMALIE SPACE 119 MR",
+        "CHARLOTTE AMALIE",
+        "CHARLOTTE AMALIE 26",
+        "CHARLOTTE AMALIE 26 A",
+        "CHARLOTTE AMALIE 26 AMT",
+        "CHARLOTTE AMALIE 26A",
+        "CHARLOTTE AMALIE 26A 188-",
+        "CHARLOTTE AMALIE 26A OTR",
+        "CHARLOTTE AMALIE 26A RM B",
+        "CHARLOTTE AMALIE 26A STE",
+        "CHARLOTTE AMALIE 26A STE-",
+        "CHARLOTTE AMALIE BASE 26",
+        "CHARLOTTE AMALIE SPACE",
+        "CHARLOTTE AMALIE STE-135A",
+        "TUTU PARK MALL SUITE 111"
+      ],
+      "modifiedAt": "2026-11-27T02:33:51Z",
+      "name": "Mall",
+      "neighborhoodIDs": [],
+      "point": {
+        "latitude": 18.339012805739145,
+        "longitude": -64.89099649150623
+      },
+      "reportedCustomersInitially": 51,
+      "reportedCustomersOut": 51,
+      "reportedCustomersRestored": 0,
+      "sourceStatus": "Verified",
+      "startedAt": "2026-11-27T02:30:00Z",
+      "verified": true,
+      "workStatus": null
+    },
+    {
       "cause": null,
       "crewAssigned": false,
       "endedAt": null,
@@ -244,7 +285,7 @@
       "workStatus": null
     },
     {
-      "cause": null,
+      "cause": "000 Power supply",
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
@@ -1305,7 +1346,7 @@
         "WIMMELSKAFTS GADE 6A(RES)",
         "WINDWARD PASSAGE/TRAFFIC"
       ],
-      "modifiedAt": "2026-11-27T02:30:04Z",
+      "modifiedAt": "2026-11-27T02:34:08Z",
       "name": "Feeder 06B",
       "neighborhoodIDs": [
         "stThomas-smith-bay"
@@ -1503,7 +1544,7 @@
       "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-27T02:36:10Z",
+  "generatedAt": "2026-11-27T02:41:11Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -1612,21 +1653,21 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "66b20fb77ae174099249e0aa6736154562175a36527d0b5574afb91f8b23c517",
+  "snapshotID": "424420ede0debbca6204232ba6086ec1ca2265e401d03e0ac53a27ee5e823fd9",
   "source": {
-    "checkedAt": "2026-11-27T02:36:10Z",
+    "checkedAt": "2026-11-27T02:41:11Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-27T02:31:07Z",
+    "updatedAt": "2026-11-27T02:41:07Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "sourceSummary": {
     "customerCountDifference": 2,
-    "customersAffected": 1672,
-    "customersOut": 1672,
+    "customersAffected": 1723,
+    "customersOut": 1723,
     "customersRestored": 0,
     "customersServed": 54729,
-    "eventCustomersOut": 1670,
+    "eventCustomersOut": 1721,
     "hourlyCustomersOut": [
       {
         "at": "2026-11-25T02:00:00Z",
@@ -1822,7 +1863,7 @@
       },
       {
         "at": "2026-11-27T02:00:00Z",
-        "customersOut": 4979
+        "customersOut": 5030
       }
     ],
     "locations": [
@@ -1998,6 +2039,7 @@
       "ALTONA PARCEL D UNIT-26",
       "ALTONA PARCEL D UNIT-4",
       "ALTONA PLOT D",
+      "ANNAS RETREAT 10 S",
       "B CRYSTAL GADE HOUSE MTR",
       "BARBEL PLAZA",
       "BELTJEN ROAD HATCHETT SUB",
@@ -2060,7 +2102,22 @@
       "CASTLE BURKE SITE 2 P-462",
       "CASTLE BURKE STE 2 P-463",
       "CATHERINEBERG 8",
+      "CHAR. AMALIE 26 STE. 235",
+      "CHAR. AMALIE SPACE 119 MR",
+      "CHARLOTTE AMALIE",
+      "CHARLOTTE AMALIE 26",
+      "CHARLOTTE AMALIE 26 A",
+      "CHARLOTTE AMALIE 26 AMT",
+      "CHARLOTTE AMALIE 26A",
+      "CHARLOTTE AMALIE 26A 188-",
+      "CHARLOTTE AMALIE 26A OTR",
+      "CHARLOTTE AMALIE 26A RM B",
+      "CHARLOTTE AMALIE 26A STE",
+      "CHARLOTTE AMALIE 26A STE-",
       "CHARLOTTE AMALIE 26A-33-",
+      "CHARLOTTE AMALIE BASE 26",
+      "CHARLOTTE AMALIE SPACE",
+      "CHARLOTTE AMALIE STE-135A",
       "CIRCLE STREET 5 & 6",
       "COMM TVAER GADE #3",
       "COMMAMDANT GADE 11-3",
@@ -2928,6 +2985,7 @@
       "TROMPETER GADE 1",
       "TROMPETER GADE 1 MTR-1",
       "TROMPETER GADE 2",
+      "TUTU PARK MALL SUITE 111",
       "VESTER GADE",
       "VESTER GADE 37 DOWN",
       "VESTER GADE 39",
@@ -2958,8 +3016,8 @@
       "WIMMELSKAFTS GADE 6A(RES)",
       "WINDWARD PASSAGE/TRAFFIC"
     ],
-    "totalOutages": 15
+    "totalOutages": 16
   },
   "staleAfterSeconds": 900,
-  "unassignedEventCount": 13
+  "unassignedEventCount": 14
 }
