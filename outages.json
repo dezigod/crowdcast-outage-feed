@@ -2214,49 +2214,6 @@
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
-      "id": "3011d2fa824a8fcd71dd4e3aef39a7340a3743ca1cd9ff233d3133b0b9eda5e5",
-      "island": null,
-      "locations": [
-        "NORDSIDEVEJ 11A MTR-1",
-        "NYE NORDSIDEVEJ",
-        "NYE NORDSIDEVEJ 10",
-        "NYE NORDSIDEVEJ 10 (EL)",
-        "NYE NORDSIDEVEJ 11 & 11A",
-        "NYE NORDSIDEVEJ 11A",
-        "NYE NORDSIDEVEJ 2-A",
-        "NYE NORDSIDEVEJ 2A APT-1",
-        "NYE NORDSIDEVEJ 2A APT-4",
-        "NYE NORDSIDEVEJ 2A APT-5",
-        "NYE NORDSIDEVEJ 3",
-        "NYE NORDSIDEVEJ 3 APT-3",
-        "NYE NORDSIDEVEJ 6",
-        "NYE NORDSIDEVEJ 7B",
-        "PRINCESSE GADE",
-        "PRINCESSE GADE 17",
-        "PRINCESSE GADE 18",
-        "PRINCESSE GADE 19",
-        "PRINCESSE GADE 19 MTR 1"
-      ],
-      "modifiedAt": "2026-11-27T14:23:34Z",
-      "name": "T-T-05830",
-      "neighborhoodIDs": [],
-      "point": {
-        "latitude": 18.341820445386016,
-        "longitude": -64.93837666646405
-      },
-      "reportedCustomersInitially": 35,
-      "reportedCustomersOut": 35,
-      "reportedCustomersRestored": 0,
-      "sourceStatus": "Predicted",
-      "startedAt": "2026-11-27T14:04:12Z",
-      "verified": false,
-      "workStatus": null
-    },
-    {
-      "cause": null,
-      "crewAssigned": false,
-      "endedAt": null,
-      "estimatedRestoration": null,
       "id": "33a3d2f2a7010e14be4bfe5e5644e69747015f977655363b758a8fa000b5dd11",
       "island": null,
       "locations": [
@@ -7197,64 +7154,6 @@
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
-      "id": "ccec106de7887785853b301aae74950f2a02eada22278982235a3ec976553a35",
-      "island": null,
-      "locations": [
-        "CONTANT TOWERS BLDG-A",
-        "EST FRYDENHOJ 12F",
-        "FRYDENHOJ 12-A-2",
-        "FRYDENHOJ 12-B & 12-C",
-        "FRYDENHOJ 12-B & 12-C TOP",
-        "FRYDENHOJ 12-D TOP FL",
-        "FRYDENHOJ 12J",
-        "FRYDENHOJ 12Q UP"
-      ],
-      "modifiedAt": "2026-11-27T00:10:54Z",
-      "name": "T-T-10083",
-      "neighborhoodIDs": [],
-      "point": {
-        "latitude": 18.320518105056628,
-        "longitude": -64.86838248230299
-      },
-      "reportedCustomersInitially": 8,
-      "reportedCustomersOut": 8,
-      "reportedCustomersRestored": 0,
-      "sourceStatus": "Verified",
-      "startedAt": "2026-11-26T15:38:17Z",
-      "verified": true,
-      "workStatus": null
-    },
-    {
-      "cause": null,
-      "crewAssigned": false,
-      "endedAt": null,
-      "estimatedRestoration": null,
-      "id": "d1c7a463c58b5666f07d35d2ae44e909383ceea27d22deeb7cdda7fbe63eb2e9",
-      "island": null,
-      "locations": [
-        "EST LERKENLUND 1-4",
-        "EST LERKENLUND 1-4 UP"
-      ],
-      "modifiedAt": "2026-11-26T20:17:54Z",
-      "name": "T-T-05842",
-      "neighborhoodIDs": [],
-      "point": {
-        "latitude": 18.361728552514602,
-        "longitude": -64.94232164974866
-      },
-      "reportedCustomersInitially": 2,
-      "reportedCustomersOut": 2,
-      "reportedCustomersRestored": 0,
-      "sourceStatus": "Verified",
-      "startedAt": "2026-11-26T11:31:11Z",
-      "verified": true,
-      "workStatus": null
-    },
-    {
-      "cause": null,
-      "crewAssigned": false,
-      "endedAt": null,
-      "estimatedRestoration": null,
       "id": "d4df086dc1ed0c629dc634ed69dfdde88c4b0e0f5563b6d084ef58afb41bd9d9",
       "island": null,
       "locations": [
@@ -7346,7 +7245,7 @@
       "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-27T14:56:19Z",
+  "generatedAt": "2026-11-27T15:01:20Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -8044,21 +7943,21 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "db3c06bc24eb11a781c702e8298da44f18e5128f00a40e41661b2bcf9194f4d1",
+  "snapshotID": "08dc36f31f331012d13412bb4ed099a7d57a49aec02014e51ad0df0934598bef",
   "source": {
-    "checkedAt": "2026-11-27T14:56:19Z",
+    "checkedAt": "2026-11-27T15:01:20Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-27T14:51:49Z",
+    "updatedAt": "2026-11-27T14:56:50Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "sourceSummary": {
     "customerCountDifference": 2,
-    "customersAffected": 8798,
-    "customersOut": 8798,
+    "customersAffected": 8753,
+    "customersOut": 8753,
     "customersRestored": 0,
     "customersServed": 54729,
-    "eventCustomersOut": 8796,
+    "eventCustomersOut": 8751,
     "hourlyCustomersOut": [
       {
         "at": "2026-11-25T14:00:00Z",
@@ -8170,91 +8069,91 @@
       },
       {
         "at": "2026-11-26T17:00:00Z",
-        "customersOut": 4365
+        "customersOut": 4363
       },
       {
         "at": "2026-11-26T18:00:00Z",
-        "customersOut": 12146
+        "customersOut": 12144
       },
       {
         "at": "2026-11-26T19:00:00Z",
-        "customersOut": 7826
+        "customersOut": 7824
       },
       {
         "at": "2026-11-26T20:00:00Z",
-        "customersOut": 13035
+        "customersOut": 13033
       },
       {
         "at": "2026-11-26T21:00:00Z",
-        "customersOut": 5254
+        "customersOut": 5244
       },
       {
         "at": "2026-11-26T22:00:00Z",
-        "customersOut": 9092
+        "customersOut": 9082
       },
       {
         "at": "2026-11-26T23:00:00Z",
-        "customersOut": 4945
+        "customersOut": 4935
       },
       {
         "at": "2026-11-27T00:00:00Z",
-        "customersOut": 7213
+        "customersOut": 7203
       },
       {
         "at": "2026-11-27T01:00:00Z",
-        "customersOut": 3375
+        "customersOut": 3365
       },
       {
         "at": "2026-11-27T02:00:00Z",
-        "customersOut": 8906
+        "customersOut": 8896
       },
       {
         "at": "2026-11-27T03:00:00Z",
-        "customersOut": 7285
+        "customersOut": 7275
       },
       {
         "at": "2026-11-27T04:00:00Z",
-        "customersOut": 9934
+        "customersOut": 9924
       },
       {
         "at": "2026-11-27T05:00:00Z",
-        "customersOut": 4329
+        "customersOut": 4319
       },
       {
         "at": "2026-11-27T06:00:00Z",
-        "customersOut": 4329
+        "customersOut": 4319
       },
       {
         "at": "2026-11-27T07:00:00Z",
-        "customersOut": 6405
+        "customersOut": 6395
       },
       {
         "at": "2026-11-27T08:00:00Z",
-        "customersOut": 3705
+        "customersOut": 3695
       },
       {
         "at": "2026-11-27T09:00:00Z",
-        "customersOut": 7590
+        "customersOut": 7580
       },
       {
         "at": "2026-11-27T10:00:00Z",
-        "customersOut": 8364
+        "customersOut": 8354
       },
       {
         "at": "2026-11-27T11:00:00Z",
-        "customersOut": 6291
+        "customersOut": 6281
       },
       {
         "at": "2026-11-27T12:00:00Z",
-        "customersOut": 14203
+        "customersOut": 14193
       },
       {
         "at": "2026-11-27T13:00:00Z",
-        "customersOut": 10845
+        "customersOut": 10835
       },
       {
         "at": "2026-11-27T14:00:00Z",
-        "customersOut": 15998
+        "customersOut": 15953
       }
     ],
     "locations": [
@@ -10504,7 +10403,6 @@
       "CONTANT MTR-1",
       "CONTANT PCL 13-F",
       "CONTANT PCL 6-2",
-      "CONTANT TOWERS BLDG-A",
       "CONTANT/ENIGHED 131 (EL)",
       "CONTANT/ENIGHED 174 APT B",
       "CONTANT-ENIGHED 280",
@@ -11126,7 +11024,6 @@
       "EST FRENCHMANS BAY 14-38",
       "EST FRENCHMAN'S BAY 16-58",
       "EST FRENCHMANS BAY 21-43",
-      "EST FRYDENHOJ 12F",
       "EST GLUCKSBERG 4-E",
       "EST GLUCKSBURG 4D",
       "EST GRUNDWALD 1-1-8",
@@ -11146,8 +11043,6 @@
       "EST HOFFMAN C-12-1 UP",
       "EST HOFFMAN C-5",
       "EST HOFFMAN LOT C-10",
-      "EST LERKENLUND 1-4",
-      "EST LERKENLUND 1-4 UP",
       "EST LERKENLUND 5C-2 UP",
       "EST LOVELUND",
       "EST LOVENLUND 1302",
@@ -13015,12 +12910,6 @@
       "FRT MYLNER SHP CTR",
       "FRYDENDAHL 53-15",
       "FRYDENHOJ 1-20",
-      "FRYDENHOJ 12-A-2",
-      "FRYDENHOJ 12-B & 12-C",
-      "FRYDENHOJ 12-B & 12-C TOP",
-      "FRYDENHOJ 12-D TOP FL",
-      "FRYDENHOJ 12J",
-      "FRYDENHOJ 12Q UP",
       "FT MYINER SHOPPING CENTER",
       "GAMBLE NORDSIDEVEJ 9Q",
       "GIFFT & REGENBACH D",
@@ -13932,21 +13821,7 @@
       "NEW HERRNHUT-GATE 11B",
       "NEW HURNHUT",
       "NO 3 4TH STREET SUGAR EST",
-      "NORDSIDEVEJ 11A MTR-1",
       "NORTH ESTATE BOVONI",
-      "NYE NORDSIDEVEJ",
-      "NYE NORDSIDEVEJ 10",
-      "NYE NORDSIDEVEJ 10 (EL)",
-      "NYE NORDSIDEVEJ 11 & 11A",
-      "NYE NORDSIDEVEJ 11A",
-      "NYE NORDSIDEVEJ 2-A",
-      "NYE NORDSIDEVEJ 2A APT-1",
-      "NYE NORDSIDEVEJ 2A APT-4",
-      "NYE NORDSIDEVEJ 2A APT-5",
-      "NYE NORDSIDEVEJ 3",
-      "NYE NORDSIDEVEJ 3 APT-3",
-      "NYE NORDSIDEVEJ 6",
-      "NYE NORDSIDEVEJ 7B",
       "O H C B-4",
       "O H C B-4 A-36",
       "O H C B-4 A-38",
@@ -14290,11 +14165,6 @@
       "PMP GARDEN BLDG-8",
       "PMP GARDEN BLDG-9",
       "PMP GARDEN BLDG-9 STAIR",
-      "PRINCESSE GADE",
-      "PRINCESSE GADE 17",
-      "PRINCESSE GADE 18",
-      "PRINCESSE GADE 19",
-      "PRINCESSE GADE 19 MTR 1",
       "PZ EST THOMAS",
       "RAPHUNE 1-13-43",
       "RAPHUNE 11-5B A",
@@ -15093,8 +14963,8 @@
       "WINTBERG-TRAILER",
       "WINTHBERG 1-B4 APT 303"
     ],
-    "totalOutages": 20
+    "totalOutages": 17
   },
   "staleAfterSeconds": 900,
-  "unassignedEventCount": 18
+  "unassignedEventCount": 15
 }
