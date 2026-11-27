@@ -1503,6 +1503,33 @@
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
+      "id": "48992e05ff35c0e85f4342a75c0710833f8c45ab46378aa618bdcd0742126e5b",
+      "island": null,
+      "locations": [
+        "LILLIENDAH & MARIEN 6A-28",
+        "LILLIENDAHL & MARIENHOJ",
+        "UPPER JOHN DUNKOE"
+      ],
+      "modifiedAt": "2026-11-27T10:08:10Z",
+      "name": "T-T-38025_1112",
+      "neighborhoodIDs": [],
+      "point": {
+        "latitude": 18.3483577404074,
+        "longitude": -64.9527484394536
+      },
+      "reportedCustomersInitially": 4,
+      "reportedCustomersOut": 4,
+      "reportedCustomersRestored": 0,
+      "sourceStatus": "Predicted",
+      "startedAt": "2026-11-27T10:07:42Z",
+      "verified": false,
+      "workStatus": null
+    },
+    {
+      "cause": null,
+      "crewAssigned": false,
+      "endedAt": null,
+      "estimatedRestoration": null,
       "id": "5781d04d43cf82ff76a793213d492a115b84f6f3e60c9f4ffdc43f1e4996fad5",
       "island": null,
       "locations": [
@@ -1535,6 +1562,35 @@
       "reportedCustomersRestored": 0,
       "sourceStatus": "Predicted",
       "startedAt": "2026-11-27T04:52:46Z",
+      "verified": false,
+      "workStatus": null
+    },
+    {
+      "cause": null,
+      "crewAssigned": false,
+      "endedAt": null,
+      "estimatedRestoration": null,
+      "id": "5a8a9010e3854c76bb4c71a347223e562e66feb06b440b39c7ba3d35c83b5b1e",
+      "island": null,
+      "locations": [
+        "BONNE RESOLUTION 4-1",
+        "BONNE RESOLUTION 4-4",
+        "BONNE RESOLUTION 4-5",
+        "BONNE RESOLUTION 4-5 DWN",
+        "EST. BONNE RESOLUTION"
+      ],
+      "modifiedAt": "2026-11-27T10:11:28Z",
+      "name": "T-T-09060",
+      "neighborhoodIDs": [],
+      "point": {
+        "latitude": 18.35489059902936,
+        "longitude": -64.9595321118216
+      },
+      "reportedCustomersInitially": 5,
+      "reportedCustomersOut": 5,
+      "reportedCustomersRestored": 0,
+      "sourceStatus": "Predicted",
+      "startedAt": "2026-11-27T10:11:08Z",
       "verified": false,
       "workStatus": null
     },
@@ -1769,6 +1825,31 @@
       "reportedCustomersRestored": 0,
       "sourceStatus": "Predicted",
       "startedAt": "2026-11-27T10:05:04Z",
+      "verified": false,
+      "workStatus": null
+    },
+    {
+      "cause": null,
+      "crewAssigned": false,
+      "endedAt": null,
+      "estimatedRestoration": null,
+      "id": "9354092d4d2b546721ce721e1741e8fb8291987856ccda7547e5d411a7b73cd9",
+      "island": null,
+      "locations": [
+        "EST HULL 2K"
+      ],
+      "modifiedAt": "2026-11-27T10:11:28Z",
+      "name": "T-T-16317",
+      "neighborhoodIDs": [],
+      "point": {
+        "latitude": 18.36881199641519,
+        "longitude": -64.95331963545378
+      },
+      "reportedCustomersInitially": 2,
+      "reportedCustomersOut": 2,
+      "reportedCustomersRestored": 0,
+      "sourceStatus": "Predicted",
+      "startedAt": "2026-11-27T10:10:58Z",
       "verified": false,
       "workStatus": null
     },
@@ -6119,9 +6200,37 @@
       "startedAt": "2026-11-27T04:30:41Z",
       "verified": false,
       "workStatus": null
+    },
+    {
+      "cause": null,
+      "crewAssigned": false,
+      "endedAt": null,
+      "estimatedRestoration": null,
+      "id": "f888e3cc9382dcd5f7d4c76efe63b6a5fd2c9bbd95129ae834f79de664ef4d57",
+      "island": "stThomas",
+      "locations": [
+        "ST PETER 8-2",
+        "ST PETER 8-3"
+      ],
+      "modifiedAt": "2026-11-27T10:08:10Z",
+      "name": "T-T-09652",
+      "neighborhoodIDs": [
+        "stThomas-st-peter"
+      ],
+      "point": {
+        "latitude": 18.360875364384064,
+        "longitude": -64.94893791209145
+      },
+      "reportedCustomersInitially": 2,
+      "reportedCustomersOut": 2,
+      "reportedCustomersRestored": 0,
+      "sourceStatus": "Predicted",
+      "startedAt": "2026-11-27T10:07:44Z",
+      "verified": false,
+      "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-27T10:10:32Z",
+  "generatedAt": "2026-11-27T10:15:35Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -6197,14 +6306,17 @@
           "island": "stThomas",
           "locations": [
             "14-6",
-            "18A"
+            "18A",
+            "8-2",
+            "8-3"
           ],
           "name": "Estate St. Peter",
           "sourceEventIDs": [
-            "8bbe146e0c7beff516b0c6e29cefd75f7340d0fadb552cb10a275f212471a488"
+            "8bbe146e0c7beff516b0c6e29cefd75f7340d0fadb552cb10a275f212471a488",
+            "f888e3cc9382dcd5f7d4c76efe63b6a5fd2c9bbd95129ae834f79de664ef4d57"
           ],
           "sourceStatus": "Predicted",
-          "startedAt": "2026-11-27T10:05:04Z"
+          "startedAt": null
         },
         {
           "affectedCustomers": null,
@@ -6684,21 +6796,21 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "5bf65c091c55b65d1c56df0f7add057759200e8fb7bd0572eb24b3d47c1ea41a",
+  "snapshotID": "13400f4a7673075431c6c95ea31fd0656b509869ba9ea575eceef7a68f0bb864",
   "source": {
-    "checkedAt": "2026-11-27T10:10:32Z",
+    "checkedAt": "2026-11-27T10:15:35Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-27T10:06:51Z",
+    "updatedAt": "2026-11-27T10:11:49Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "sourceSummary": {
     "customerCountDifference": 2,
-    "customersAffected": 7475,
-    "customersOut": 7475,
+    "customersAffected": 7488,
+    "customersOut": 7488,
     "customersRestored": 0,
     "customersServed": 54729,
-    "eventCustomersOut": 7473,
+    "eventCustomersOut": 7486,
     "hourlyCustomersOut": [
       {
         "at": "2026-11-25T10:00:00Z",
@@ -6894,7 +7006,7 @@
       },
       {
         "at": "2026-11-27T10:00:00Z",
-        "customersOut": 7473
+        "customersOut": 7486
       }
     ],
     "locations": [
@@ -7774,6 +7886,10 @@
       "BLACKBEARDS",
       "BLACKBEARDS HILL 100",
       "BLACKBEARDS HILL 1000",
+      "BONNE RESOLUTION 4-1",
+      "BONNE RESOLUTION 4-4",
+      "BONNE RESOLUTION 4-5",
+      "BONNE RESOLUTION 4-5 DWN",
       "BORGER GADE",
       "BORGER GADE 10",
       "BORGER GADE 10 APT-4",
@@ -8298,6 +8414,7 @@
       "EST HOFFMAN C-5",
       "EST HOFFMAN LOT C-10",
       "EST HONDURAS 30-4",
+      "EST HULL 2K",
       "EST JOSEPH & ROSENDAHL",
       "EST LERKENLUND 1-4",
       "EST LERKENLUND 1-4 UP",
@@ -9130,6 +9247,7 @@
       "EST WINTBERG UP",
       "EST ZUFRIEDENHEIT #12",
       "EST, TAARNEBERG 40-CB,",
+      "EST. BONNE RESOLUTION",
       "EST. DONOE 2J-10 NO. 2A",
       "EST. MANDAHL 14A-2",
       "EST. MANDAHL 15H",
@@ -9992,6 +10110,8 @@
       "LEVKOI STRADE 7B",
       "LILLE GRONNE GADE 2",
       "LILLI GRONNE 3AB",
+      "LILLIENDAH & MARIEN 6A-28",
+      "LILLIENDAHL & MARIENHOJ",
       "LIONEL ROBERTS STADIUM",
       "L'LUND MAHOGANY RN UPPER",
       "LOCKHART GARDENS 4 & 5",
@@ -11780,6 +11900,8 @@
       "ST MAARTEN SAPPHIRE 304-E",
       "ST PETER 14-6",
       "ST PETER 18A",
+      "ST PETER 8-2",
+      "ST PETER 8-3",
       "ST. JOSE & ROSENDAHL 1-16",
       "ST. JOSEPH & ROSE 9F-1",
       "ST. JOSEPH & ROSEN 8-H-1",
@@ -11946,6 +12068,7 @@
       "U HSE METER",
       "U MAHOGANY RUN",
       "U25M MAHOGANY",
+      "UPPER JOHN DUNKOE",
       "VESTER GADE",
       "VESTER GADE 37 DOWN",
       "VESTER GADE 39",
@@ -12332,8 +12455,8 @@
       "ZOOTENVAAL 3L",
       "ZOOTENVAAL 3N*"
     ],
-    "totalOutages": 27
+    "totalOutages": 31
   },
   "staleAfterSeconds": 900,
-  "unassignedEventCount": 23
+  "unassignedEventCount": 26
 }
