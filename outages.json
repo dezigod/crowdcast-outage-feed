@@ -1476,6 +1476,31 @@
       "crewAssigned": false,
       "endedAt": null,
       "estimatedRestoration": null,
+      "id": "6376e283bb3ec20c10af94da76b3b78c0b3d6f83bef230a7fdb2725d7de8c950",
+      "island": null,
+      "locations": [
+        "BAKKERO 3-S"
+      ],
+      "modifiedAt": "2026-11-27T04:30:03Z",
+      "name": "T-T-14463",
+      "neighborhoodIDs": [],
+      "point": {
+        "latitude": 18.32878793445725,
+        "longitude": -64.91547302072976
+      },
+      "reportedCustomersInitially": 2,
+      "reportedCustomersOut": 2,
+      "reportedCustomersRestored": 0,
+      "sourceStatus": "Predicted",
+      "startedAt": "2026-11-27T04:29:50Z",
+      "verified": false,
+      "workStatus": null
+    },
+    {
+      "cause": null,
+      "crewAssigned": false,
+      "endedAt": null,
+      "estimatedRestoration": null,
       "id": "688d24f7b6e72cb60f9dd7cfcfc315b9ee0efe7095b9fbf192b7ed84c8031d54",
       "island": "stThomas",
       "locations": [
@@ -5762,9 +5787,37 @@
       "startedAt": "2026-11-27T04:21:29Z",
       "verified": false,
       "workStatus": null
+    },
+    {
+      "cause": null,
+      "crewAssigned": false,
+      "endedAt": null,
+      "estimatedRestoration": null,
+      "id": "f7b6ada34cdc1c0cc54e75195d054245d93ae279cc095e173ba2c4caa390f1f4",
+      "island": null,
+      "locations": [
+        "3M BAKKERO",
+        "BAKKERO 3A-2-REMAINDER",
+        "BAKKERO 3C",
+        "BAKKERO 3L FLAG HILL"
+      ],
+      "modifiedAt": "2026-11-27T04:31:02Z",
+      "name": "T-T-14640",
+      "neighborhoodIDs": [],
+      "point": {
+        "latitude": 18.327975674240342,
+        "longitude": -64.91384419899413
+      },
+      "reportedCustomersInitially": 4,
+      "reportedCustomersOut": 4,
+      "reportedCustomersRestored": 0,
+      "sourceStatus": "Predicted",
+      "startedAt": "2026-11-27T04:30:41Z",
+      "verified": false,
+      "workStatus": null
     }
   ],
-  "generatedAt": "2026-11-27T04:30:43Z",
+  "generatedAt": "2026-11-27T04:35:43Z",
   "hasConflictingTotals": true,
   "islands": [
     {
@@ -6299,21 +6352,21 @@
   ],
   "refreshAfterSeconds": 300,
   "schemaVersion": 1,
-  "snapshotID": "487dd62f2d44f0b794dfaabb429c963629d64107150828228cf64effec362f6c",
+  "snapshotID": "a08280079bccf5e9b9acc538ac00262a721638a2da196a80f8c95313e40a3346",
   "source": {
-    "checkedAt": "2026-11-27T04:30:43Z",
+    "checkedAt": "2026-11-27T04:35:43Z",
     "name": "WAPA outage viewer",
-    "updatedAt": "2026-11-27T04:26:09Z",
+    "updatedAt": "2026-11-27T04:31:09Z",
     "url": "http://outageviewer.viwapa.vi:7575/",
     "viewerRefreshSeconds": 300
   },
   "sourceSummary": {
     "customerCountDifference": 2,
-    "customersAffected": 7307,
-    "customersOut": 7307,
+    "customersAffected": 7313,
+    "customersOut": 7313,
     "customersRestored": 0,
     "customersServed": 54729,
-    "eventCustomersOut": 7305,
+    "eventCustomersOut": 7311,
     "hourlyCustomersOut": [
       {
         "at": "2026-11-25T04:00:00Z",
@@ -6509,7 +6562,7 @@
       },
       {
         "at": "2026-11-27T04:00:00Z",
-        "customersOut": 7305
+        "customersOut": 7311
       }
     ],
     "locations": [
@@ -6552,6 +6605,7 @@
       "324B WINTBERG MTR 3",
       "32A DRONNINGENS GADE",
       "3A VESTER GADE APT-5",
+      "3M BAKKERO",
       "3R AGNES FANCY",
       "400F HOSPITAL GROUND",
       "406-1C HOSPITAL GROUND",
@@ -7303,6 +7357,10 @@
       "B CRYSTAL GADE HOUSE MTR",
       "B502L RM MHGY RUN",
       "B506M RM 1825/1826 MHG",
+      "BAKKERO 3A-2-REMAINDER",
+      "BAKKERO 3C",
+      "BAKKERO 3L FLAG HILL",
+      "BAKKERO 3-S",
       "BAND STAND EMANCIPATION",
       "BARBEL PLAZA",
       "BELTJEN ROAD HATCHETT SUB",
@@ -11813,8 +11871,8 @@
       "ZOOTENVAAL 3L",
       "ZOOTENVAAL 3N*"
     ],
-    "totalOutages": 18
+    "totalOutages": 20
   },
   "staleAfterSeconds": 900,
-  "unassignedEventCount": 16
+  "unassignedEventCount": 18
 }
